@@ -1,0 +1,24 @@
+{
+  "failedAttempts": [
+    {
+      "attempt": 1,
+      "launcher": "Node child_process spawn",
+      "exitCode": 1,
+      "error": "Unity Package Manager local server failed to start",
+      "reportProduced": false
+    },
+    {
+      "attempt": 2,
+      "launcher": "Python subprocess CREATE_NO_WINDOW",
+      "exitCode": 1,
+      "error": "UPM IPC stream connection timed out at30seconds",
+      "reportProduced": false
+    }
+  ],
+  "nextAttempt": {
+    "argument": "-noUpm",
+    "purpose": "Disable unnecessary package manager for local2sprite import/render/export",
+    "officialDocumentation": "https://docs.unity3d.com/6000.0/Documentation/Manual/EditorCommandLineArguments.html"
+  },
+  "rawLogPolicy": "kept only under work; license/session lines not copied to public diagnostics"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/cards-dark.png",
+  "sha256": "fdca94e1c97771a56478fb0dbf3ad0a363117473bab25c2c63f9845ac0d6086f",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 0.5,
+    "resizeMethod": "premultiplied-alpha LANCZOS",
+    "backgroundRGBA": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "width": 1920,
+  "height": 620,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "sha256": "3a35cc99afd85cd4395974319f22244a24d78f40fa3c9660f1bfca7f23979893",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "sha256": "e9b646158a52677180f349189b1f90dcf7566dc32cd3f3760a0c87f65c600444",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "sha256": "ec493212c8cc09cb42ebb993158b3ff536b4e391fefc031c5a66564ee96d7fbc",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "sha256": "972fef94efcd1e1cde945b0bf66e2b4d380dba194e58ca4bef95b66194ad8731",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "sha256": "eb715b07d68ef54b3fe5be61f275be41bbf237cfa5ee2edd3889c56e24d4050a",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

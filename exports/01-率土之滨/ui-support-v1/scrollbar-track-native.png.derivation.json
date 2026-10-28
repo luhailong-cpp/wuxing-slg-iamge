@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-native.png",
+  "sha256": "5dad5efa83f1d14a28afed346a03f06a46be41ad894688424bbd698d6ee1e2a6",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 85,
+  "height": 310,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "transform": {
+    "cropBox": [
+      427,
+      632,
+      512,
+      942
+    ],
+    "resampled": false,
+    "scale": 1,
+    "padding": null
+  },
+  "manualOwnership": {
+    "id": "scrollbar-track",
+    "label": "滚动轨道",
+    "manualCropBox": [
+      427,
+      632,
+      512,
+      942
+    ],
+    "sourceComponentIdAbove16": 9,
+    "sourceComponentPixelsAbove16": 12039,
+    "nativeSize": [
+      85,
+      310
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 9984,
+      "alpha1Pixels": 2610,
+      "semiTransparentPixels": 16210,
+      "opaquePixels": 156,
+      "pixelsAbove16": 12039,
+      "bboxAbove16": [
+        17,
+        15,
+        70,
+        293
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": true,
+  "alphaCleanupApplied": false,
+  "alphaResampled": false,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 9984,
+    "alpha1Pixels": 2610,
+    "semiTransparentPixels": 16210,
+    "opaquePixels": 156,
+    "pixelsAbove16": 12039,
+    "bboxAbove16": [
+      17,
+      15,
+      70,
+      293
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 2610,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    },
+    {
+      "id": "SCROLLBAR_ASSEMBLY_NOT_CALIBRATED",
+      "message": "Thumb and track dimensions differ; visual placement, hitbox and travel range require client layout."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

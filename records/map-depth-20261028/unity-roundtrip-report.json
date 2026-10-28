@@ -1,0 +1,50 @@
+{
+    "schema": "wuxing.bridge-depth-unity.v1",
+    "mode": "fresh_project_import",
+    "unityVersion": "6000.6.0f1",
+    "graphics": "Null",
+    "error": "",
+    "packageHash": "0ed82dec8c6562e8c3198ecd4b11444e28be34efe461ce92ea39dcfc0e2732e7",
+    "completedAt": "2026-10-28T08:34:35.4424634Z",
+    "passed": true,
+    "actualGPUCameraRender": false,
+    "clientIntegrated": false,
+    "playModeTested": false,
+    "spriteCount": 2,
+    "gpuCaptures": 0,
+    "items": [
+        {
+            "file": "Assets/WuxingSLGBridgeDepth20261028/bridge-back.png",
+            "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+            "guid": "e84ad9a1ff4a3444eaa500ae55c4d9a5",
+            "width": 1000,
+            "height": 1000,
+            "order": 0,
+            "pivot": {
+                "x": 500.0,
+                "y": 100.0
+            },
+            "importMatches": true,
+            "sourceHashMatches": true
+        },
+        {
+            "file": "Assets/WuxingSLGBridgeDepth20261028/bridge-front.png",
+            "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+            "guid": "2f932f4b2950fdd4b8d61899bd82af88",
+            "width": 1000,
+            "height": 1000,
+            "order": 2,
+            "pivot": {
+                "x": 500.0,
+                "y": 100.0
+            },
+            "importMatches": true,
+            "sourceHashMatches": true
+        }
+    ],
+    "notes": [
+        "Only two bridge artwork sprites; no obsolete infantry or five-element hero assets.",
+        "Actual static Camera.Render GPU layer test, not PlayMode animation or production-client integration.",
+        "Prefab assumes actor between sorting orders0and2 while on this bridge; new placement and route geometry required."
+    ]
+}

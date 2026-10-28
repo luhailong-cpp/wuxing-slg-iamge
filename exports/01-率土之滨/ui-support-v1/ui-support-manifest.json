@@ -1,0 +1,2669 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "componentCount": 16,
+  "spriteCount": 32,
+  "nativeCount": 16,
+  "display128Count": 16,
+  "newGeneratedImageCountDuringExport": 0,
+  "source": {
+    "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+    "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+    "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+    "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+  },
+  "items": [
+    {
+      "id": "search",
+      "label": "搜索",
+      "manualCropBox": [
+        34,
+        48,
+        310,
+        350
+      ],
+      "sourceComponentIdAbove16": 3,
+      "sourceComponentPixelsAbove16": 30808,
+      "nativeSize": [
+        276,
+        302
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 43451,
+        "alpha1Pixels": 6833,
+        "semiTransparentPixels": 39839,
+        "opaquePixels": 62,
+        "pixelsAbove16": 30808,
+        "bboxAbove16": [
+          15,
+          15,
+          263,
+          288
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "close",
+      "label": "关闭",
+      "manualCropBox": [
+        342,
+        44,
+        597,
+        382
+      ],
+      "sourceComponentIdAbove16": 1,
+      "sourceComponentPixelsAbove16": 34104,
+      "nativeSize": [
+        255,
+        338
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 44137,
+        "alpha1Pixels": 5791,
+        "semiTransparentPixels": 42015,
+        "opaquePixels": 38,
+        "pixelsAbove16": 34104,
+        "bboxAbove16": [
+          15,
+          14,
+          241,
+          318
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "back",
+      "label": "返回",
+      "manualCropBox": [
+        654,
+        44,
+        911,
+        380
+      ],
+      "sourceComponentIdAbove16": 2,
+      "sourceComponentPixelsAbove16": 34075,
+      "nativeSize": [
+        257,
+        336
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 41499,
+        "alpha1Pixels": 9001,
+        "semiTransparentPixels": 44812,
+        "opaquePixels": 41,
+        "pixelsAbove16": 34075,
+        "bboxAbove16": [
+          17,
+          14,
+          243,
+          318
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "settings",
+      "label": "设置",
+      "manualCropBox": [
+        970,
+        81,
+        1220,
+        328
+      ],
+      "sourceComponentIdAbove16": 4,
+      "sourceComponentPixelsAbove16": 32371,
+      "nativeSize": [
+        250,
+        247
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 23978,
+        "alpha1Pixels": 3490,
+        "semiTransparentPixels": 37706,
+        "opaquePixels": 66,
+        "pixelsAbove16": 32371,
+        "bboxAbove16": [
+          19,
+          14,
+          235,
+          232
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "checkbox-checked",
+      "label": "复选已选",
+      "manualCropBox": [
+        53,
+        407,
+        259,
+        612
+      ],
+      "sourceComponentIdAbove16": 5,
+      "sourceComponentPixelsAbove16": 27604,
+      "nativeSize": [
+        206,
+        205
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9911,
+        "alpha1Pixels": 2713,
+        "semiTransparentPixels": 32290,
+        "opaquePixels": 29,
+        "pixelsAbove16": 27604,
+        "bboxAbove16": [
+          20,
+          15,
+          191,
+          190
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "checkbox-unchecked",
+      "label": "复选未选",
+      "manualCropBox": [
+        361,
+        407,
+        574,
+        613
+      ],
+      "sourceComponentIdAbove16": 6,
+      "sourceComponentPixelsAbove16": 27751,
+      "nativeSize": [
+        213,
+        206
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11388,
+        "alpha1Pixels": 2694,
+        "semiTransparentPixels": 32444,
+        "opaquePixels": 46,
+        "pixelsAbove16": 27751,
+        "bboxAbove16": [
+          22,
+          15,
+          194,
+          191
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "toggle-on",
+      "label": "开关开",
+      "manualCropBox": [
+        634,
+        437,
+        914,
+        592
+      ],
+      "sourceComponentIdAbove16": 7,
+      "sourceComponentPixelsAbove16": 25667,
+      "nativeSize": [
+        280,
+        155
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11134,
+        "alpha1Pixels": 4270,
+        "semiTransparentPixels": 32256,
+        "opaquePixels": 10,
+        "pixelsAbove16": 25667,
+        "bboxAbove16": [
+          19,
+          22,
+          267,
+          141
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "toggle-off",
+      "label": "开关关",
+      "manualCropBox": [
+        966,
+        438,
+        1237,
+        592
+      ],
+      "sourceComponentIdAbove16": 8,
+      "sourceComponentPixelsAbove16": 25291,
+      "nativeSize": [
+        271,
+        154
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 12158,
+        "alpha1Pixels": 2183,
+        "semiTransparentPixels": 29562,
+        "opaquePixels": 14,
+        "pixelsAbove16": 25291,
+        "bboxAbove16": [
+          14,
+          21,
+          257,
+          140
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "scrollbar-thumb",
+      "label": "滚动滑块",
+      "manualCropBox": [
+        99,
+        664,
+        219,
+        918
+      ],
+      "sourceComponentIdAbove16": 10,
+      "sourceComponentPixelsAbove16": 16632,
+      "nativeSize": [
+        120,
+        254
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9912,
+        "alpha1Pixels": 2436,
+        "semiTransparentPixels": 20559,
+        "opaquePixels": 9,
+        "pixelsAbove16": 16632,
+        "bboxAbove16": [
+          16,
+          16,
+          100,
+          240
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "scrollbar-track",
+      "label": "滚动轨道",
+      "manualCropBox": [
+        427,
+        632,
+        512,
+        942
+      ],
+      "sourceComponentIdAbove16": 9,
+      "sourceComponentPixelsAbove16": 12039,
+      "nativeSize": [
+        85,
+        310
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9984,
+        "alpha1Pixels": 2610,
+        "semiTransparentPixels": 16210,
+        "opaquePixels": 156,
+        "pixelsAbove16": 12039,
+        "bboxAbove16": [
+          17,
+          15,
+          70,
+          293
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "progress-frame",
+      "label": "进度外框",
+      "manualCropBox": [
+        612,
+        745,
+        947,
+        850
+      ],
+      "sourceComponentIdAbove16": 11,
+      "sourceComponentPixelsAbove16": 18404,
+      "nativeSize": [
+        335,
+        105
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 10106,
+        "alpha1Pixels": 3160,
+        "semiTransparentPixels": 25061,
+        "opaquePixels": 8,
+        "pixelsAbove16": 18404,
+        "bboxAbove16": [
+          18,
+          20,
+          322,
+          85
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "progress-fill",
+      "label": "进度填充",
+      "manualCropBox": [
+        955,
+        753,
+        1241,
+        850
+      ],
+      "sourceComponentIdAbove16": 12,
+      "sourceComponentPixelsAbove16": 14972,
+      "nativeSize": [
+        286,
+        97
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9530,
+        "alpha1Pixels": 1635,
+        "semiTransparentPixels": 18198,
+        "opaquePixels": 14,
+        "pixelsAbove16": 14972,
+        "bboxAbove16": [
+          15,
+          15,
+          271,
+          77
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "tutorial-hand",
+      "label": "教程手势",
+      "manualCropBox": [
+        50,
+        944,
+        278,
+        1236
+      ],
+      "sourceComponentIdAbove16": 13,
+      "sourceComponentPixelsAbove16": 31071,
+      "nativeSize": [
+        228,
+        292
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 28453,
+        "alpha1Pixels": 5466,
+        "semiTransparentPixels": 38036,
+        "opaquePixels": 87,
+        "pixelsAbove16": 31071,
+        "bboxAbove16": [
+          14,
+          15,
+          213,
+          278
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "warning",
+      "label": "警告",
+      "manualCropBox": [
+        326,
+        969,
+        611,
+        1204
+      ],
+      "sourceComponentIdAbove16": 14,
+      "sourceComponentPixelsAbove16": 33107,
+      "nativeSize": [
+        285,
+        235
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 27674,
+        "alpha1Pixels": 4733,
+        "semiTransparentPixels": 39061,
+        "opaquePixels": 240,
+        "pixelsAbove16": 33107,
+        "bboxAbove16": [
+          17,
+          17,
+          270,
+          221
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mail",
+      "label": "邮件",
+      "manualCropBox": [
+        644,
+        983,
+        934,
+        1212
+      ],
+      "sourceComponentIdAbove16": 15,
+      "sourceComponentPixelsAbove16": 39597,
+      "nativeSize": [
+        290,
+        229
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 22021,
+        "alpha1Pixels": 3075,
+        "semiTransparentPixels": 44260,
+        "opaquePixels": 129,
+        "pixelsAbove16": 39597,
+        "bboxAbove16": [
+          14,
+          12,
+          275,
+          214
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "notification",
+      "label": "通知红点",
+      "manualCropBox": [
+        1025,
+        1019,
+        1170,
+        1166
+      ],
+      "sourceComponentIdAbove16": 16,
+      "sourceComponentPixelsAbove16": 10452,
+      "nativeSize": [
+        145,
+        147
+      ],
+      "sourcePixelsUnchanged": true,
+      "adjacentSubjectComponentsInside": 0,
+      "completeSubjectAbove16Retained": true,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9014,
+        "alpha1Pixels": 1191,
+        "semiTransparentPixels": 12275,
+        "opaquePixels": 26,
+        "pixelsAbove16": 10452,
+        "bboxAbove16": [
+          15,
+          13,
+          130,
+          129
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "search-native",
+      "componentId": "search",
+      "label": "搜索",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/search-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/search-native.png.derivation.json",
+      "sha256": "f963672708af787d902534f6900f518e2cdac940c13e3352d73a2e9f3a8b90f1",
+      "recordSha256": "5ccdb3a03bfd80da4927b7637c9567ec9248478c9a1268c529227ea17dfc7d41",
+      "width": 276,
+      "height": 302,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 43451,
+        "alpha1Pixels": 6833,
+        "semiTransparentPixels": 39839,
+        "opaquePixels": 62,
+        "pixelsAbove16": 30808,
+        "bboxAbove16": [
+          15,
+          15,
+          263,
+          288
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "search-128",
+      "componentId": "search",
+      "label": "搜索",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/search-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/search-128.png.derivation.json",
+      "sha256": "055d7291a93cfd9363abec16edd34eece1db6855064a643ac085fd810f72253e",
+      "recordSha256": "889e8bd0f006e640f77ead40fa3fe7d07dc84236fbc3e0d6165eb132594e769d",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11005,
+        "alpha1Pixels": 692,
+        "semiTransparentPixels": 5161,
+        "opaquePixels": 218,
+        "pixelsAbove16": 4304,
+        "bboxAbove16": [
+          18,
+          13,
+          110,
+          115
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "close-native",
+      "componentId": "close",
+      "label": "关闭",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json",
+      "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+      "recordSha256": "5c44c236af424ebef15e5a99711b59dc634f3551fd93b588f258c34f63edd9af",
+      "width": 255,
+      "height": 338,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 44137,
+        "alpha1Pixels": 5791,
+        "semiTransparentPixels": 42015,
+        "opaquePixels": 38,
+        "pixelsAbove16": 34104,
+        "bboxAbove16": [
+          15,
+          14,
+          241,
+          318
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "close-128",
+      "componentId": "close",
+      "label": "关闭",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/close-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/close-128.png.derivation.json",
+      "sha256": "7bd76edfdbf1ecc3ff466760aa5d41337ab9250806c01202c369a0dd8bdb8376",
+      "recordSha256": "5a55256b179d80d7bfa1962c5ca5cca3540827ff325eb57692f283a0a2006d91",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11841,
+        "alpha1Pixels": 473,
+        "semiTransparentPixels": 4398,
+        "opaquePixels": 145,
+        "pixelsAbove16": 3794,
+        "bboxAbove16": [
+          27,
+          13,
+          102,
+          114
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "back-native",
+      "componentId": "back",
+      "label": "返回",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/back-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/back-native.png.derivation.json",
+      "sha256": "68c5a82d169e3f068beb12fc886e08e089caaeb530b39ccbf96524d08246c804",
+      "recordSha256": "d101934e815ae70c9ea74c567059ad7b5f9e6311903168635fcb3677fd1bbc77",
+      "width": 257,
+      "height": 336,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 41499,
+        "alpha1Pixels": 9001,
+        "semiTransparentPixels": 44812,
+        "opaquePixels": 41,
+        "pixelsAbove16": 34075,
+        "bboxAbove16": [
+          17,
+          14,
+          243,
+          318
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "back-128",
+      "componentId": "back",
+      "label": "返回",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/back-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/back-128.png.derivation.json",
+      "sha256": "8a4183b0c74bb5287b34d5ed03e8d2b5677f8ce34cf51fc5eedfd846d110ccf9",
+      "recordSha256": "ee10ed8989b538ea20d50e3a8777f37aedb65b9c7d0a2a50ca3ae9bd3ba5f215",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11414,
+        "alpha1Pixels": 835,
+        "semiTransparentPixels": 4821,
+        "opaquePixels": 149,
+        "pixelsAbove16": 3871,
+        "bboxAbove16": [
+          26,
+          13,
+          103,
+          114
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "settings-native",
+      "componentId": "settings",
+      "label": "设置",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/settings-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/settings-native.png.derivation.json",
+      "sha256": "c7a1a87b6901cc315850835186272867c53501b33d9950fc89a91f19649ff00f",
+      "recordSha256": "24854fc3e708dd8333c509e392d8e24123525aeeb38748eb7bc07ec522370710",
+      "width": 250,
+      "height": 247,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 23978,
+        "alpha1Pixels": 3490,
+        "semiTransparentPixels": 37706,
+        "opaquePixels": 66,
+        "pixelsAbove16": 32371,
+        "bboxAbove16": [
+          19,
+          14,
+          235,
+          232
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "settings-128",
+      "componentId": "settings",
+      "label": "设置",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/settings-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/settings-128.png.derivation.json",
+      "sha256": "a13bdec0d36a6730607036a9a6b12c632d73d6f04becedfb556b38eeb6034438",
+      "recordSha256": "1c0178d7339db26b584e24b683081fa05742eb5a94b4acbe12ccc54897484c93",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 8859,
+        "alpha1Pixels": 543,
+        "semiTransparentPixels": 7377,
+        "opaquePixels": 148,
+        "pixelsAbove16": 6581,
+        "bboxAbove16": [
+          16,
+          14,
+          114,
+          112
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "checkbox-checked-native",
+      "componentId": "checkbox-checked",
+      "label": "复选已选",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/checkbox-checked-native.png.derivation.json",
+      "sha256": "674495c5b5ff67ee07d501643aea00481f2af7dbcb93d1335404b3cf25c7b15c",
+      "recordSha256": "16816070c7a25d1caa268539608c5b78422b77e885f4198d05fbf41324c35249",
+      "width": 206,
+      "height": 205,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9911,
+        "alpha1Pixels": 2713,
+        "semiTransparentPixels": 32290,
+        "opaquePixels": 29,
+        "pixelsAbove16": 27604,
+        "bboxAbove16": [
+          20,
+          15,
+          191,
+          190
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "checkbox-checked-128",
+      "componentId": "checkbox-checked",
+      "label": "复选已选",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/checkbox-checked-128.png.derivation.json",
+      "sha256": "3c7214de9b48e5209320f2895cd9fdedcbc8815b71ae554c4deb5d4d5c128620",
+      "recordSha256": "0cac4026059c868f937b328b7469af3f5461f93b746df35205cfe65c96758956",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 6871,
+        "alpha1Pixels": 839,
+        "semiTransparentPixels": 9354,
+        "opaquePixels": 159,
+        "pixelsAbove16": 8141,
+        "bboxAbove16": [
+          19,
+          16,
+          112,
+          111
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "checkbox-unchecked-native",
+      "componentId": "checkbox-unchecked",
+      "label": "复选未选",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-native.png.derivation.json",
+      "sha256": "e25b223825063d2f9139e24c4942ded48cf817ee5cf143686cc438a0f5f8902b",
+      "recordSha256": "ca999e18c387939d15ca1a85de42f64cb9111e3b8f25537caf51d9c164c1a12a",
+      "width": 213,
+      "height": 206,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11388,
+        "alpha1Pixels": 2694,
+        "semiTransparentPixels": 32444,
+        "opaquePixels": 46,
+        "pixelsAbove16": 27751,
+        "bboxAbove16": [
+          22,
+          15,
+          194,
+          191
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "checkbox-unchecked-128",
+      "componentId": "checkbox-unchecked",
+      "label": "复选未选",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-128.png.derivation.json",
+      "sha256": "02f180b16de769a595b38cafc969b4736c26b5e480176660f38126298a49b07d",
+      "recordSha256": "ec9cb7bb0597ca0c999c8dfa839964988f79a084c07b274097dac345a5601632",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7529,
+        "alpha1Pixels": 645,
+        "semiTransparentPixels": 8727,
+        "opaquePixels": 128,
+        "pixelsAbove16": 7706,
+        "bboxAbove16": [
+          20,
+          18,
+          110,
+          110
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "toggle-on-native",
+      "componentId": "toggle-on",
+      "label": "开关开",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/toggle-on-native.png.derivation.json",
+      "sha256": "786d4d9cb1724d0e8ac65a4c520e5daac4a4994a189a90d215e3bd6f80bc7898",
+      "recordSha256": "6a43b8f38a59b65115df2002357bca07b6a63a3317da64dfd96dc6a0d6ddd750",
+      "width": 280,
+      "height": 155,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11134,
+        "alpha1Pixels": 4270,
+        "semiTransparentPixels": 32256,
+        "opaquePixels": 10,
+        "pixelsAbove16": 25667,
+        "bboxAbove16": [
+          19,
+          22,
+          267,
+          141
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "toggle-on-128",
+      "componentId": "toggle-on",
+      "label": "开关开",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/toggle-on-128.png.derivation.json",
+      "sha256": "ae8f91564e2b8bb84ed2ba9c778318f04752c0848ddac5b54ee40dae48726ffd",
+      "recordSha256": "1ee6d330aa9aba666bc8e06aa4c668fbb48722ed616b6051fbc552fa847eb4dd",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11310,
+        "alpha1Pixels": 618,
+        "semiTransparentPixels": 4887,
+        "opaquePixels": 187,
+        "pixelsAbove16": 4124,
+        "bboxAbove16": [
+          15,
+          42,
+          115,
+          90
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "toggle-off-native",
+      "componentId": "toggle-off",
+      "label": "开关关",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/toggle-off-native.png.derivation.json",
+      "sha256": "99c90bc8285cd271e8e6e024210f260c05ba6e7a92197f9057ca66ebcd828b83",
+      "recordSha256": "1c10e98e8b2d096c2fcc61d34a8681d93fc3924d49e5a68c727ec1ca399446d2",
+      "width": 271,
+      "height": 154,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 12158,
+        "alpha1Pixels": 2183,
+        "semiTransparentPixels": 29562,
+        "opaquePixels": 14,
+        "pixelsAbove16": 25291,
+        "bboxAbove16": [
+          14,
+          21,
+          257,
+          140
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "toggle-off-128",
+      "componentId": "toggle-off",
+      "label": "开关关",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/toggle-off-128.png.derivation.json",
+      "sha256": "1756486a2f050d4b5eeb4fed65bf4ca758a8654201ab3af0d10ed817bc50605e",
+      "recordSha256": "e2a77bd51c5e854d8a25b47598f89d94935beb1ae5baed93ce9efa05021cfb15",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 11409,
+        "alpha1Pixels": 299,
+        "semiTransparentPixels": 4789,
+        "opaquePixels": 186,
+        "pixelsAbove16": 4376,
+        "bboxAbove16": [
+          14,
+          41,
+          115,
+          90
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "scrollbar-thumb-native",
+      "componentId": "scrollbar-thumb",
+      "label": "滚动滑块",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-native.png.derivation.json",
+      "sha256": "ca6d3f1b6d891aba4c71641ad8db89d017b985d4a31d6b7d56336233be806957",
+      "recordSha256": "8d10e25081b115300a4317233d66c3ed0febbcb5857e15d7ffee39cfc542ac9f",
+      "width": 120,
+      "height": 254,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9912,
+        "alpha1Pixels": 2436,
+        "semiTransparentPixels": 20559,
+        "opaquePixels": 9,
+        "pixelsAbove16": 16632,
+        "bboxAbove16": [
+          16,
+          16,
+          100,
+          240
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "scrollbar-thumb-128",
+      "componentId": "scrollbar-thumb",
+      "label": "滚动滑块",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-128.png.derivation.json",
+      "sha256": "8ff570456edcb629859bdc3c5cd3240421a0bd691a6c05ddd7235645ec562e38",
+      "recordSha256": "8aa9d4682a6a015db3213a8465964c60a63ee94092c7397803f77a42c18ac637",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 12533,
+        "alpha1Pixels": 303,
+        "semiTransparentPixels": 3738,
+        "opaquePixels": 113,
+        "pixelsAbove16": 3294,
+        "bboxAbove16": [
+          44,
+          15,
+          81,
+          114
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "scrollbar-track-native",
+      "componentId": "scrollbar-track",
+      "label": "滚动轨道",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/scrollbar-track-native.png.derivation.json",
+      "sha256": "5dad5efa83f1d14a28afed346a03f06a46be41ad894688424bbd698d6ee1e2a6",
+      "recordSha256": "07713653eb3686f84a3e488aff62cde5540cc570eef53f966bb80213d886ad86",
+      "width": 85,
+      "height": 310,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9984,
+        "alpha1Pixels": 2610,
+        "semiTransparentPixels": 16210,
+        "opaquePixels": 156,
+        "pixelsAbove16": 12039,
+        "bboxAbove16": [
+          17,
+          15,
+          70,
+          293
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "scrollbar-track-128",
+      "componentId": "scrollbar-track",
+      "label": "滚动轨道",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/scrollbar-track-128.png.derivation.json",
+      "sha256": "1af89dd36e3e5950f01ae799ad4e781d712152deffe049862dc0e0b4d80c214f",
+      "recordSha256": "f6e503bcd9ad7cc98ccf4e8fcdd8bb6130539faf4480f35254b0b09ef1916ca4",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 14332,
+        "alpha1Pixels": 209,
+        "semiTransparentPixels": 1879,
+        "opaquePixels": 173,
+        "pixelsAbove16": 1606,
+        "bboxAbove16": [
+          54,
+          13,
+          74,
+          114
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "progress-frame-native",
+      "componentId": "progress-frame",
+      "label": "进度外框",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/progress-frame-native.png.derivation.json",
+      "sha256": "a55e696d1e49916227442f8de0c4ba79c776c7d6bfac0a0d1fdeb14ac8cfe1b2",
+      "recordSha256": "5d5f2a28dba5f7ea1a46b7bd438e17c7297cd31c28411857a4a1450dc8751b3d",
+      "width": 335,
+      "height": 105,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 10106,
+        "alpha1Pixels": 3160,
+        "semiTransparentPixels": 25061,
+        "opaquePixels": 8,
+        "pixelsAbove16": 18404,
+        "bboxAbove16": [
+          18,
+          20,
+          322,
+          85
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "progress-frame-128",
+      "componentId": "progress-frame",
+      "label": "进度外框",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/progress-frame-128.png.derivation.json",
+      "sha256": "3e6ce1668a9d4361927255d35881c1328476c7e2f51c9667f0dd3787aee087ee",
+      "recordSha256": "9b32df2e7e8149aa4e351a8cf29f3f8c7d3c3725909ed7cca704e24273ce5c4e",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 13664,
+        "alpha1Pixels": 223,
+        "semiTransparentPixels": 2607,
+        "opaquePixels": 113,
+        "pixelsAbove16": 2100,
+        "bboxAbove16": [
+          14,
+          52,
+          116,
+          75
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "progress-fill-native",
+      "componentId": "progress-fill",
+      "label": "进度填充",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/progress-fill-native.png.derivation.json",
+      "sha256": "427b792d3a76c69aa4b5bb86d506da565e15ddb77b37c5c4a1b688a328b3ac69",
+      "recordSha256": "9e401a7fce86b69244a123511e6c2a483411bd8ae230a7e9e4604a454a8c6b00",
+      "width": 286,
+      "height": 97,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9530,
+        "alpha1Pixels": 1635,
+        "semiTransparentPixels": 18198,
+        "opaquePixels": 14,
+        "pixelsAbove16": 14972,
+        "bboxAbove16": [
+          15,
+          15,
+          271,
+          77
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "progress-fill-128",
+      "componentId": "progress-fill",
+      "label": "进度填充",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/progress-fill-128.png.derivation.json",
+      "sha256": "9ba88dabc9aae36fb8ef220a326ca008c8b718969312713ac33a6b243fca2f4e",
+      "recordSha256": "6756a81588e0fc518a86aca458f96bff9a28e00cb09b4a61338c79601813243b",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 13676,
+        "alpha1Pixels": 181,
+        "semiTransparentPixels": 2511,
+        "opaquePixels": 197,
+        "pixelsAbove16": 2302,
+        "bboxAbove16": [
+          13,
+          51,
+          115,
+          75
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "tutorial-hand-native",
+      "componentId": "tutorial-hand",
+      "label": "教程手势",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/tutorial-hand-native.png.derivation.json",
+      "sha256": "e334753b1de2337d76a1edf81b1de76f70ca01f3ac62e9973deec04152b87ce1",
+      "recordSha256": "fb502c4478cd3b112148a75eec98f40adb352e5a36936f175dbcfd7f2aa91cde",
+      "width": 228,
+      "height": 292,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 28453,
+        "alpha1Pixels": 5466,
+        "semiTransparentPixels": 38036,
+        "opaquePixels": 87,
+        "pixelsAbove16": 31071,
+        "bboxAbove16": [
+          14,
+          15,
+          213,
+          278
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "tutorial-hand-128",
+      "componentId": "tutorial-hand",
+      "label": "教程手势",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/tutorial-hand-128.png.derivation.json",
+      "sha256": "8c3d2719714d96c98f59b5155ff3cbc71b91633df6f8d7c66677b31c8aaa94c3",
+      "recordSha256": "b35218ffff1b0d040dc695e469d937c01edd24c66eb832e478a12b08fb906475",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 10790,
+        "alpha1Pixels": 695,
+        "semiTransparentPixels": 5415,
+        "opaquePixels": 179,
+        "pixelsAbove16": 4616,
+        "bboxAbove16": [
+          25,
+          13,
+          102,
+          115
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "warning-native",
+      "componentId": "warning",
+      "label": "警告",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/warning-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/warning-native.png.derivation.json",
+      "sha256": "0bb8b6c84637b7dfe2e1760e990dab40a9050c6da3ae49a1af324656614716a0",
+      "recordSha256": "a62d1937ea1db8b8770d55238de7204fe1ce9f4d43e20f02a31d906abde94067",
+      "width": 285,
+      "height": 235,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 27674,
+        "alpha1Pixels": 4733,
+        "semiTransparentPixels": 39061,
+        "opaquePixels": 240,
+        "pixelsAbove16": 33107,
+        "bboxAbove16": [
+          17,
+          17,
+          270,
+          221
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "warning-128",
+      "componentId": "warning",
+      "label": "警告",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/warning-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/warning-128.png.derivation.json",
+      "sha256": "c08531e0b4e5cae36c374ef79f877c06f5a3375a13232bb15b9b21346daa4cfe",
+      "recordSha256": "4bee2c8550bd7a7415e9e58ec51ec72b97aa3a024a91a71bdb5e9462fadef37a",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 10301,
+        "alpha1Pixels": 597,
+        "semiTransparentPixels": 5984,
+        "opaquePixels": 99,
+        "pixelsAbove16": 5176,
+        "bboxAbove16": [
+          14,
+          24,
+          115,
+          105
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mail-native",
+      "componentId": "mail",
+      "label": "邮件",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/mail-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/mail-native.png.derivation.json",
+      "sha256": "4f9935d0c53aca571f1e2a008a69f885a1951c4609e6da7d2d186d8dfdea8fa8",
+      "recordSha256": "f88c5f3ef0e0161e416ac6e4c62ec474fb1f06ab2ac07c0476671cff6292b48c",
+      "width": 290,
+      "height": 229,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 22021,
+        "alpha1Pixels": 3075,
+        "semiTransparentPixels": 44260,
+        "opaquePixels": 129,
+        "pixelsAbove16": 39597,
+        "bboxAbove16": [
+          14,
+          12,
+          275,
+          214
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "mail-128",
+      "componentId": "mail",
+      "label": "邮件",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/mail-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/mail-128.png.derivation.json",
+      "sha256": "e2367c21a63d86fd9d7e969c57399f4be53949a288473583bf0135c98ca5760c",
+      "recordSha256": "6877b9df5c51acb79af91b08b32c70223ebb30491dce299cda1286342d87e9c9",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9809,
+        "alpha1Pixels": 310,
+        "semiTransparentPixels": 6349,
+        "opaquePixels": 226,
+        "pixelsAbove16": 5952,
+        "bboxAbove16": [
+          13,
+          24,
+          115,
+          102
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "notification-native",
+      "componentId": "notification",
+      "label": "通知红点",
+      "variant": "native",
+      "file": "exports/01-率土之滨/ui-support-v1/notification-native.png",
+      "record": "exports/01-率土之滨/ui-support-v1/notification-native.png.derivation.json",
+      "sha256": "24e8f217369fda5a0e5e84cb3af65d832319f1c15804be7d39b5e870e82c8c2e",
+      "recordSha256": "10f55a44231c0f6f3cbf0b6c3864a28201366a18a85bd71b8ca1e10e649706aa",
+      "width": 145,
+      "height": 147,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9014,
+        "alpha1Pixels": 1191,
+        "semiTransparentPixels": 12275,
+        "opaquePixels": 26,
+        "pixelsAbove16": 10452,
+        "bboxAbove16": [
+          15,
+          13,
+          130,
+          129
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "notification-128",
+      "componentId": "notification",
+      "label": "通知红点",
+      "variant": "128",
+      "file": "exports/01-率土之滨/ui-support-v1/notification-128.png",
+      "record": "exports/01-率土之滨/ui-support-v1/notification-128.png.derivation.json",
+      "sha256": "9fa3c8fcda21afad81917cc66f1cdee0a116e726985d28a44e36aae1abbc04b7",
+      "recordSha256": "52b4bd73aef10d03b86dd71de7342a663bff4f54901e1376a40c00d3b6a7ed1a",
+      "width": 128,
+      "height": 128,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9349,
+        "alpha1Pixels": 605,
+        "semiTransparentPixels": 6997,
+        "opaquePixels": 38,
+        "pixelsAbove16": 6063,
+        "bboxAbove16": [
+          20,
+          18,
+          108,
+          106
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "ownershipValidation": {
+    "file": "records/ui-support-20261028/export-ownership-validation.json",
+    "sha256": "78ee322ac2fbb1598eb7a75bd3e04b27fc26175073becd4fdd3c0175ac8c33e7"
+  },
+  "qa": [
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row1-light.png",
+      "sha256": "9565609ab1fc807b6522251df2b8341114c72b5035a7b226be1b02f0a9a2b12f",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row2-light.png",
+      "sha256": "96f82ac68af741457604aba1171862195fd9710311951369d9cf40c4878d85bf",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row3-light.png",
+      "sha256": "ad43f0c1087c95e3f894eb0d2037b01ea039f8f91c6367a086978d28ecb6f432",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row4-light.png",
+      "sha256": "a5856f9dd4576a983c3b5983f25752e25ac0a69152ffbded2a290656c2785e56",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/128-overview-light.png",
+      "sha256": "66fd90e75fb55aa29f3e17e11200db1a6d9ecaa728c0ee3d7247f235889a7b74",
+      "kind": "all128variantsAt1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row1-dark.png",
+      "sha256": "f91c94c9acca7544f7bdbfa7e35831094d82c7c9b2820eb8300d922d9d9fdf49",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row2-dark.png",
+      "sha256": "ca7de74e5a7bc0ad064b91de55db756d44e31850e433553cdd0c8d7e58756627",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row3-dark.png",
+      "sha256": "0d064500b544db3e88bf571d16052a684b61cad787d7deaa6faeac73ebbe3f02",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row4-dark.png",
+      "sha256": "f226603dc9e67e48f54f3ad057e529acd296c6debf50430e89c866731b5c8777",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/128-overview-dark.png",
+      "sha256": "772fdf2b7ef3b724928fa5cf342fbe5272f465861788d71cc88b3a747017bf10",
+      "kind": "all128variantsAt1to1"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 6833,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/search-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/search-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 692,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/search-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/search-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 5791,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/close-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/close-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 473,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/close-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/close-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 9001,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/back-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/back-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 835,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/back-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/back-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 3490,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/settings-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/settings-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 543,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/settings-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/settings-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 2713,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-native.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 839,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-128.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-checked-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 2694,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-native.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 645,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-128.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/checkbox-unchecked-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 4270,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-native.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 618,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-128.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-on-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 2183,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-native.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 299,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-128.png"
+    },
+    {
+      "id": "STATE_PAIR_GEOMETRY_NOT_IDENTICAL",
+      "message": "Paired states are independently drawn; shape/ornament and crop dimensions differ. No pixel-aligned state transition or hitbox contract validated.",
+      "file": "exports/01-率土之滨/ui-support-v1/toggle-off-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 2436,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-native.png"
+    },
+    {
+      "id": "SCROLLBAR_ASSEMBLY_NOT_CALIBRATED",
+      "message": "Thumb and track dimensions differ; visual placement, hitbox and travel range require client layout.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 303,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-128.png"
+    },
+    {
+      "id": "SCROLLBAR_ASSEMBLY_NOT_CALIBRATED",
+      "message": "Thumb and track dimensions differ; visual placement, hitbox and travel range require client layout.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 2610,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-native.png"
+    },
+    {
+      "id": "SCROLLBAR_ASSEMBLY_NOT_CALIBRATED",
+      "message": "Thumb and track dimensions differ; visual placement, hitbox and travel range require client layout.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 209,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-128.png"
+    },
+    {
+      "id": "SCROLLBAR_ASSEMBLY_NOT_CALIBRATED",
+      "message": "Thumb and track dimensions differ; visual placement, hitbox and travel range require client layout.",
+      "file": "exports/01-率土之滨/ui-support-v1/scrollbar-track-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 3160,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-native.png"
+    },
+    {
+      "id": "PROGRESS_ASSEMBLY_AND_STRETCH_NOT_VALIDATED",
+      "message": "Frame and fill are separate static drawings; no nine-slice, arbitrary stretch, fill alignment or progress clipping accepted.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 223,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-128.png"
+    },
+    {
+      "id": "PROGRESS_ASSEMBLY_AND_STRETCH_NOT_VALIDATED",
+      "message": "Frame and fill are separate static drawings; no nine-slice, arbitrary stretch, fill alignment or progress clipping accepted.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-frame-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 1635,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-native.png"
+    },
+    {
+      "id": "PROGRESS_ASSEMBLY_AND_STRETCH_NOT_VALIDATED",
+      "message": "Frame and fill are separate static drawings; no nine-slice, arbitrary stretch, fill alignment or progress clipping accepted.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 181,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-128.png"
+    },
+    {
+      "id": "PROGRESS_ASSEMBLY_AND_STRETCH_NOT_VALIDATED",
+      "message": "Frame and fill are separate static drawings; no nine-slice, arbitrary stretch, fill alignment or progress clipping accepted.",
+      "file": "exports/01-率土之滨/ui-support-v1/progress-fill-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 5466,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 695,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 4733,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/warning-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/warning-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 597,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/warning-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/warning-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 3075,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/mail-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/mail-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 310,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/mail-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/mail-128.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 1191,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/notification-native.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/notification-native.png"
+    },
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 605,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour.",
+      "file": "exports/01-率土之滨/ui-support-v1/notification-128.png"
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed.",
+      "file": "exports/01-率土之滨/ui-support-v1/notification-128.png"
+    }
+  ],
+  "limits": [
+    "Only static image variants; no UI data interaction, hitbox or input behavior implemented.",
+    "Checkbox andtoggle state pairs have different original geometry/ornaments.",
+    "Progressframe andfill not validated as an assembled or arbitrarily resizable widget.",
+    "Scrollbar thumb/track travel and hitbox are not calibrated.",
+    "No nine-slice borders; use proportional/native display until separately validated.",
+    "Nativealpha residual remains; display derivatives use proportional premultiplied-alpha downscale."
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "manually_reviewed_static_UI_candidates_with_recorded_limits",
+  "qaLabelsUpdatedAtUtc": "2026-10-28T08:51:17.436186+00:00",
+  "visualReview": {
+    "file": "records/ui-support-20261028/export-visual-review.json",
+    "sha256": "eedbe3000b2b029271120290970db9c882f87ce67fb3a6d7412790b200681be5"
+  }
+}

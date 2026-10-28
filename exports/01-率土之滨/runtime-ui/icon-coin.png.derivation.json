@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-coin",
+  "file": "exports/01-率土之滨/runtime-ui/icon-coin.png",
+  "sha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+  "width": 318,
+  "height": 252,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 28885,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      12,
+      370,
+      330,
+      622
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

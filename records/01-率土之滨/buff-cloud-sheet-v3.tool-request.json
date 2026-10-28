@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "startedAt": "2026-10-27T16:47:28.632Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Precise packing correction only. Edit image4 (the eight-frame jade/ivory/gold buff-cloud sheet), keep exactly the same eight continuous growth/peak/fade phases and same hand-painted effect identity. Image1+2 are style, image3 is the original effect, image5 is a placement guide whose markings MUST NOT appear in the output.\nThe eight effects are still too large. In each of the 4 columns ×2 rows, redraw that phase at ONLY 60% of its current linear width and height from image4. This means a much smaller miniature effect, not a close-up. Apply the SAME uniform size factor to every phase so the relative growth and fade remain identical. Move the bright energy core in every cell to the exact geometric midpoint (x50%, y50%). Keep all glow/sparks within the inner blue square of image5, with 25% completely empty transparent padding on every side. The largest effect must be no wider than HALF a cell. Do NOT enlarge the small phases to fill whitespace.\nFour equally spaced columns and two equally spaced rows, landscape2:1, ideally2048×1024. Reading order is the original8 phases: small seed, small arc, growing partial orbit, complete orbit, maximal cloud orbit, breaking/fading orbit, sparse wisps, tiny residual gold/cloud motes. All8 remain nonempty, distinct stages of ONE effect. Preserve the jade curled clouds, ivory curls, warm golden orbit and center. Change only uniform within-cell size and precise core registration; no new design, no new objects, no change of phase order.\nKeep the camera and lighting fixed. Effects should look conspicuously SMALL at the centers of large EMPTY transparent cells. No outer haze, no aura reaching a cell edge, no particle beyond the central50% square, no grid line, border, blue square, guide dash, white fill, labels, numbers, text, UI, background, ground, shadow disc, watermark or fake transparency checkerboard. Output is native transparent PNG, only eight compact effect pictures surrounded by broad genuine alpha=0 empty space.",
+    "promptFile": "prompts/01-率土之滨/buff-cloud-sheet-v3.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/buff-cloud.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v2.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/fx-animation-guides/layout-4x2-50pct.png"
+    ],
+    "transparent_background": true
+  }
+}

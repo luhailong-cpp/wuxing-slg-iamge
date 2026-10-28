@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-disabled-900x204.png",
+  "sha256": "bbe4356ccac13ba7c8168704d9c16780d13fe83b8f79d52d54194516c6b4095f",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+      "sha256": "6dfd438d55eb2230582fabae596fcfdaf89d45773910fab662e90d6bfa6ee047",
+      "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png.derivation.json"
+    }
+  ],
+  "operation": "Actual Unity SpriteRenderer.drawMode=Sliced, size in pixels/100PPU, offscreen Camera.Render into ARGB32 RenderTexture, RGBA32 ReadPixels and EncodeToPNG",
+  "tool": "Unity Editor6000.6.0f1",
+  "route": "local_unity_batchmode_with_graphics",
+  "actualGraphicsDeviceType": "Direct3D11",
+  "actualGraphicsDeviceName": "NVIDIA GeForce RTX 3070 Ti",
+  "colorSpace": "Gamma",
+  "sourceDimensions": [
+    500,
+    204
+  ],
+  "outputDimensions": [
+    900,
+    204
+  ],
+  "borderPxLeftBottomRightTop": [
+    128,
+    90,
+    128,
+    90
+  ],
+  "pixelsPerUnit": 100,
+  "camera": "orthographic, noHDR/MSAA, pixel-aligned target, transparent clear",
+  "sourcePNGModified": false,
+  "outputIsRenderedQAOnly": true,
+  "gameDeliverable": false,
+  "clientVerified": false,
+  "actualRenderReport": "records/01-率土之滨/unity-ui-v2-sliced-render-20261027.json"
+}

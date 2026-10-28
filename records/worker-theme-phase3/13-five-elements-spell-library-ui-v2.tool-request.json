@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T18:46:22.209Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create one polished landscape full-screen game UI candidate, same approximately 1916:821 wide composition as reference 3. Reference 1 mail and reference 2 team define the highest priority Daoist chibi HD hand-painted style: rich jade green rounded title plates and selected controls, warm ivory silk/paper content, fine warm gold cloud/ruyi trim, restrained scenic pavilions and flowers at outer edges. Reference 3 is ONLY the functional layout of a skill library; recreate its structure but redesign the contents for original metal/wood/water/fire/earth theme. Reference 4 is an original five-skill source sheet: use its exact five physical motifs in corresponding skill cards; no portraits, no history characters, no military crossed sword stock icons. Native resolution, crisp legible Chinese, no watermark or product logo.\n\nHeader centered: 五行术法库, back arrow upper-left and close X upper-right. Left column five category buttons: 全部 selected jade, 攻击, 恢复, 辅助, 防御. Central broad content 3 columns x 2 rows, right selected detail pane. Top central text 术法 5 / 200 and 筛选 button. Exactly five occupied cards and a sixth muted empty card 暂无术法, not an extra skill. Each occupied card has small element badge with Chinese label, compact complete painted motif, name, type and learning count. Top row: 金 badge 铸锋符阵 (silver rune ruler + gold/jade array compass with tucked ivory crescent), 攻击, 可学习 3 / 3, selected with jade/gold border and check; 木 badge 青蘅回春 (bamboo leaf surrounding luminous jade seed), 恢复, 可学习 2 / 3; 水 badge 沧澜流环 (blue jade ring, wave, droplet), 辅助, 可学习 2 / 2. Bottom row: 火 badge 焰翎符火 (two vermilion tablets, one flame), 攻击, 可学习 1 / 2; 土 badge 玄垣山御 (ochre mountain seal, ivory-jade shield), 防御, 可学习 1 / 3; empty card. Do not add letter rarity grades or stars.\n\nRight pane repeats the selected METAL ruler/compass motif large, name 铸锋符阵, two ivory rows 主动 and 敌军单体, green button 查看详情. Bottom bar scroll icon text 术法经验 200 plus small plus button, center hint 选择术法查看详情, right ivory button 拆解术法. Include very small quiet footer 演示配置 at lower left of central area to make demonstration status legible without dominating UI. Keep card names/counts completely clear and aligned; all controls within frame, no decorative overlap. This is a static visual proposal, no official gameplay rule or product name is being established. Finish as a complete UI painting, no labels explaining references.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/13-tactic-library-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "demoValuesAreGameplayContract": false,
+  "staticDirectionOnly": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

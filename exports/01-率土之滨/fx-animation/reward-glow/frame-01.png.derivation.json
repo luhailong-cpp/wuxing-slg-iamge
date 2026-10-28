@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-01.png",
+  "sha256": "8375b948372a902f857253b1cc803a30415b0794d7750ffd45a0edc66e72aab8",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+    "sha256": "db25ce0390d3168d449a5f4bd00cc5a7cf4acb73f5560adcc49c05c743c709b3",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png.generation.json"
+  },
+  "cropBox": [
+    444,
+    0,
+    887,
+    444
+  ],
+  "sourceAnchorPxGlobal": [
+    667,
+    248
+  ],
+  "sourceAnchorPxWithinCrop": [
+    223,
+    248
+  ],
+  "pasteOffset": [
+    227,
+    202
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "zeroPixels": 737691,
+    "alpha1Pixels": 31722,
+    "semiTransparentPixels": 72309,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      302,
+      325,
+      600,
+      575
+    ],
+    "bboxAbove16": [
+      321,
+      347,
+      581,
+      556
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 252
+  },
+  "phase": "short arc grows",
+  "timing": {
+    "startSeconds": 0.1,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

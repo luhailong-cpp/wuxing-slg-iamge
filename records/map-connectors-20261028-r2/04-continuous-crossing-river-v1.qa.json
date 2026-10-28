@@ -1,0 +1,39 @@
+{
+  "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+  "sha256": "a2346e1f3904b60dd60aec1ad4332c3a5b9707b99ae078e3e316fbfdd959e2da",
+  "status": "VISUALLY_USABLE_CONTINUOUS_SCENE_PLATE",
+  "nativeSize": [
+    1665,
+    944
+  ],
+  "actualVisualInspection": [
+    "native output",
+    "native light/dark alpha composites",
+    "separate bridge-back/front same-transform light/dark composites",
+    "aligned before and repaired join closeups",
+    "NW and SE bridge landing closeups"
+  ],
+  "fixed": [
+    "原跨水面斜切硬线消失",
+    "原浅绿/深青突变与波纹密度跳变改善为连续水面",
+    "桥头两岸到NE河岸自然相接，未生成新桥或河中障碍",
+    "SE前端道路仍在原相对桥头位置，独立桥台阶落回道路"
+  ],
+  "limitations": [
+    "不是原像素坐标编辑：AI将全图缩放重排，必须使用重测映射",
+    "4人工地形顶点拟合残差约0.7–3.8px只说明粗定位，不等于像素注册精度",
+    "地图水面是一个连续母板，不是无缝tile，也未验证上下游外接边",
+    "NW入口仍被独立桥栏柱/灌木部分遮挡，未通过角色寻路/碰撞验收",
+    "原生尺寸1665×944；3000×1700编辑参考画布不是原生交付尺寸",
+    "桥图仍独立分层，原图未改；未做Unity/FFmpeg/浏览器"
+  ],
+  "mappingRecord": "records/map-connectors-20261028-r2/04-mapping-and-png-qa.json",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "navigationTested": false,
+  "strictPixelPositionPreserved": false,
+  "seamlessTile": false,
+  "previousFailureStillAppliesToOldSeparateAssets": true,
+  "additionalEditsUsed": 1,
+  "additionalEditCap": 2
+}

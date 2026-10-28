@@ -1,0 +1,92 @@
+{
+  "status": "RETURNED_SAVED",
+  "personID": "ww-p-8fa0077b6be6",
+  "name": "孙策",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create exactly ONE portrait 2:3 full-body character master, approximately 1024x1536 native. Original character artwork for 五行问鼎, a horizontal Three Kingdoms SLG. Premium high-definition Daoist chibi hand-painted 2D illustration in the same series as attached references. Big expressive head and short sturdy body, about 3 heads tall, round and friendly but clearly an adult when specified. Fine controlled brush shading, ivory silk, jade/teal enamel, restrained warm gold engraved cloud curves, crisp soft-edged rendering, no photorealism, no plastic 3D look. The first and second attached images are PRIMARY STYLE references only: use their finish, warm jade-gold-ivory visual language, not their UI or background. Subsequent attached characters are PEER STYLE/PROPORTION references only: never copy their face, exact pose, crown, costume or identity. Historical named general, not an elemental hero; metal/wood/water/fire/earth classify ordinary troops only. One standing full figure in calm 3/4 front view looking toward viewer, face and hands readable, no action blur. Keep all hair, headgear, sleeves, footwear, weapon tips and tassels inside the canvas with at least 8% transparent margin on every side. Fully drawn opaque character interior with natural anti-aliased contour, genuine alpha background, no painted backdrop, no gradient halo, no scenery, no floor or cast shadow, no particle aura. No text, letters, Chinese writing, numbers, card, frame, UI, title, watermark or logo. All designs are original stylizations rather than copies of any official game's portraits.\n\nSUN CE 孙策, the youthful Little Conqueror of Jiangdong. Visibly young adult around mid 20s, athletic compact body, clean-shaven slightly angular oval face, bold upward brows, amber-brown eyes and bright fearless open grin; distinctly more muscular and lively than Zhou Yu or Zhao Yun. Shorter swept black hair in a high short ponytail, jade circlet with narrow red headband and one short red ribbon, no beard, no long imperial crown. Warm ivory light lamellar armour with jade breast plates, bold bronze shoulder guards and vermilion cape pulled back; fitted waist and exposed fitted forearm bracers. Holds one short heavy spear diagonally down close to the body, not beyond margins, small pointed silver tip rather than huge fantasy halberd. Other hand relaxed at waist. Confident forward weight, not a combat pose. Evoke brave youthful warlord without copying a peer face.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/05-zhao-yun-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/09-zhang-fei-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "references": [
+    {
+      "key": "mail",
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actualViewed": true,
+      "role": "primary_style"
+    },
+    {
+      "key": "team",
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actualViewed": true,
+      "role": "primary_style"
+    },
+    {
+      "key": "sunquan",
+      "file": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "sha256": "e1ee5843358777ce56e8a1b20b6f16424301d0a6ad0e5d2da4087efbdb62c799",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    },
+    {
+      "key": "zhaoyun",
+      "file": "designs/01-率土之滨/characters/05-zhao-yun-v1.png",
+      "sha256": "f98706781dab1263db6ade684fe4b0939c5f33382ccf6bbc21c67dc0947624cc",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    },
+    {
+      "key": "zhangfei",
+      "file": "designs/01-率土之滨/characters/09-zhang-fei-v1.png",
+      "sha256": "783a39018536d3780d3a5591ab4e5beb5dd0bb08cac82475cb9911c3a8b04000",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    }
+  ],
+  "generatedAt": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "observedStartedUTC": {
+    "current_time": "2026-10-29 10:14:50 UTC"
+  },
+  "selectedSource": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png",
+  "sha256": "7cce405788136b7e78c1f1c2700f7f7133f4674d1649ef9dbe647cbeb72cc2c5",
+  "observedCompletedUTC": {
+    "current_time": "2026-10-29 10:18:38 UTC"
+  },
+  "exactToolParameters": {
+    "prompt": "Create exactly ONE portrait 2:3 full-body character master, approximately 1024x1536 native. Original character artwork for 五行问鼎, a horizontal Three Kingdoms SLG. Premium high-definition Daoist chibi hand-painted 2D illustration in the same series as attached references. Big expressive head and short sturdy body, about 3 heads tall, round and friendly but clearly an adult when specified. Fine controlled brush shading, ivory silk, jade/teal enamel, restrained warm gold engraved cloud curves, crisp soft-edged rendering, no photorealism, no plastic 3D look. The first and second attached images are PRIMARY STYLE references only: use their finish, warm jade-gold-ivory visual language, not their UI or background. Subsequent attached characters are PEER STYLE/PROPORTION references only: never copy their face, exact pose, crown, costume or identity. Historical named general, not an elemental hero; metal/wood/water/fire/earth classify ordinary troops only. One standing full figure in calm 3/4 front view looking toward viewer, face and hands readable, no action blur. Keep all hair, headgear, sleeves, footwear, weapon tips and tassels inside the canvas with at least 8% transparent margin on every side. Fully drawn opaque character interior with natural anti-aliased contour, genuine alpha background, no painted backdrop, no gradient halo, no scenery, no floor or cast shadow, no particle aura. No text, letters, Chinese writing, numbers, card, frame, UI, title, watermark or logo. All designs are original stylizations rather than copies of any official game's portraits.\n\nSUN CE 孙策, the youthful Little Conqueror of Jiangdong. Visibly young adult around mid 20s, athletic compact body, clean-shaven slightly angular oval face, bold upward brows, amber-brown eyes and bright fearless open grin; distinctly more muscular and lively than Zhou Yu or Zhao Yun. Shorter swept black hair in a high short ponytail, jade circlet with narrow red headband and one short red ribbon, no beard, no long imperial crown. Warm ivory light lamellar armour with jade breast plates, bold bronze shoulder guards and vermilion cape pulled back; fitted waist and exposed fitted forearm bracers. Holds one short heavy spear diagonally down close to the body, not beyond margins, small pointed silver tip rather than huge fantasy halberd. Other hand relaxed at waist. Confident forward weight, not a combat pose. Evoke brave youthful warlord without copying a peer face.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/05-zhao-yun-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/09-zhang-fei-v1.png"
+    ],
+    "transparent_background": true
+  },
+  "submissionEvidenceNote": "Only prompt, referenced_image_paths and transparent_background were passed to image_gen.imagegen. Null model/quality metadata denote unavailable selectors, not submitted tool arguments."
+}

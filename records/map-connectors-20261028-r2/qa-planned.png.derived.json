@@ -1,0 +1,17 @@
+{
+  "file": "records/map-connectors-20261028-r2/qa-planned.png",
+  "sha256": "d67504b2873cca3ad59d75df059d2bb2b81d5347d2139b3a9d0174d5baebaa83",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-composite-reference.png",
+      "sha256": "ee0a5c6547419673352023012712d8eacdcf2559669d8a2f2e41059d86c58592"
+    }
+  ],
+  "operation": "diagnostic alpha composite; bridge display resized905×905 and translated [272,41] or [272,91]; sources unchanged",
+  "artifactPurpose": "QA only",
+  "notNewAIArt": true
+}

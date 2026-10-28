@@ -1,0 +1,53 @@
+{
+  "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-01.png",
+  "sha256": "8d0325fa42eabf08f4b608234ecea237060edb08e8edf867875c2e58dc96b995",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-hurt-se-v1.png",
+      "sha256": "3c1f137666f1ce4ceee7f43ded3b624e61dc37b69298d5b2b8db9696fc8b457e",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-hurt-se-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "derived_animation_frame",
+    "tier": "normalized",
+    "sourceRectXYXYExclusive": [
+      0,
+      0,
+      627,
+      650
+    ],
+    "originalAlphaDeleted": false,
+    "nativeRGBAExact": false,
+    "nativeTranslation": [
+      129,
+      174
+    ],
+    "actionUniformScale": 0.5996810207336523,
+    "normalizedTranslation": [
+      282,
+      412
+    ],
+    "mapScale": null,
+    "resampler": "premultiplied Lanczos",
+    "root": [
+      512,
+      768
+    ],
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ]
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-wood/wood-ground-measured.json",
+    "sha256": "5ceab3b8ac48c4ae5dd0c25095e7aeca7a90c5c6cc98f75a4da59f1e8e2f1552"
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "notNativeGeneration": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

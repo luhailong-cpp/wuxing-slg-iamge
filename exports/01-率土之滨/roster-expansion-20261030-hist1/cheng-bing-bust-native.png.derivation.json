@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/cheng-bing-bust-native.png",
+  "sha256": "96bbfa70ee8ae5fba102b61b2cd1dcdceb96bb558d6743e9bd571eadc61d8b0c",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/cheng-bing-master-v2.png",
+    "sha256": "90936b4244e01c019929bdaa0f956a95fc5e5b12ef925d054371802981554983",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/cheng-bing-master-v2.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-1.png",
+  "sha256": "defd0765cb715e7848ff82a3f7d3dcb63a2fd5bf57546999e91a1628f45f8092",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "purpose": "QA_only_not_runtime_art",
+  "operation": "common_registered_window_crop_then_alpha_composite_on_constant_background_2x2_contact_sheet_with_external_labels",
+  "resampled": false,
+  "commonWindow": [
+    150,
+    150,
+    750,
+    750
+  ],
+  "backgroundRGB": [
+    28,
+    38,
+    44
+  ],
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png",
+      "sha256": "a02310cddfdff8ec55b23bfbbed556beb261f4e268537a0b71cf93f30ca2bf56",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png",
+      "sha256": "399769806818a22b4d2f7c64c7313b4bad31b816401e22c4bc5d4f2a732c3a73",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png",
+      "sha256": "02506dd2901967558d129891e19bf11321edd27fd55266e3b21494c8ff61b9d4",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-07.png",
+      "sha256": "2456c358d7879123c9b30fc640991f3a553716e8a28162f2e603fb215d28ef53",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-07.png.derivation.json"
+    }
+  ],
+  "contactSheetActuallyViewed": true,
+  "runtimeSourcePixelsChanged": false
+}

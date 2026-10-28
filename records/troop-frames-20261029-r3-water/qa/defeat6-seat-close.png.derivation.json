@@ -1,0 +1,26 @@
+{
+  "file": "records/troop-frames-20261029-r3-water/qa/defeat6-seat-close.png",
+  "sha256": "cb69abea696bf03e419a8d71416bda9267adfb8d87f1cd362f4a32029cc66b0c",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "QA-only magnified seated contact crop",
+    "crop": [
+      1180,
+      900,
+      1440,
+      1000
+    ],
+    "resizedTo": [
+      1040,
+      400
+    ],
+    "background": "ivory",
+    "notRuntimeAsset": true
+  }
+}

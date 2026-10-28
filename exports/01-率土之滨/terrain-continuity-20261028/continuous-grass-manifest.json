@@ -1,0 +1,89 @@
+{
+  "schema": "wuxing.continuous-grass.v1",
+  "classification": "one_continuous_native_plate_candidate",
+  "source": {
+    "file": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png",
+    "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23",
+    "record": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png.generation.json"
+  },
+  "export": {
+    "file": "exports/01-率土之滨/terrain-continuity-20261028/continuous-grass-plate-native.png",
+    "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23"
+  },
+  "dimensions": [
+    1774,
+    887
+  ],
+  "realAlpha": true,
+  "alphaRange": [
+    0,
+    255
+  ],
+  "transparentPixels": 906753,
+  "retainedAlpha1Pixels": 14245,
+  "resampled": false,
+  "alphaEdited": false,
+  "camera": "orthographic isometric approximately2:1 top surface",
+  "anchorTopLeftPixels": [
+    887,
+    443.5
+  ],
+  "unityPivotNormalized": [
+    0.5,
+    0.5
+  ],
+  "unityPPU": 100,
+  "unityDrawOrder": -100,
+  "candidateVertices": [
+    [
+      885,
+      50
+    ],
+    [
+      1692,
+      444
+    ],
+    [
+      885,
+      841
+    ],
+    [
+      80,
+      444
+    ]
+  ],
+  "tileSeamStatus": "FAIL",
+  "seamlessTilingVerified": false,
+  "recommendedUsage": "One bounded continuous ground region under buildings and units. Do not repeat as a seamless tile.",
+  "preview": "continuous-grass-preview.html",
+  "package": {
+    "file": "exports/01-率土之滨/terrain-continuity-20261028/unity/WuxingSLGContinuousGrass-20261028.unitypackage",
+    "sha256": "1c7c8540bbf0e4271a9ddc1c41cff6c9fc8d5f013484087479c2d9e11516ad66"
+  },
+  "unityValidation": {
+    "sourcePass": true,
+    "freshProjectImportPass": true,
+    "version": "6000.6.0f1",
+    "spriteCount": 1,
+    "prefabCount": 1,
+    "GPU": false,
+    "PlayMode": false
+  },
+  "navigationValidated": false,
+  "animationFrames": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "limitations": [
+    "Visible diagonal joins and internal alpha holes in3x3 repetition",
+    "Finite plate coverage; river banks, bridge approaches and road sockets remain separate work",
+    "City and metal troop are only static QA context; not included in package",
+    "Native alpha1 halo pixels retained without cleanup"
+  ],
+  "evidence": {
+    "tiling": "records/terrain-continuity-20261028/tile-3x3-review.json",
+    "context": "records/terrain-continuity-20261028/continuous-plate-context.json",
+    "browser": "records/terrain-continuity-20261028/browser-verification.json",
+    "unitySource": "records/terrain-continuity-20261028/unity-source-report.json",
+    "unityRoundtrip": "records/terrain-continuity-20261028/unity-roundtrip-report.json"
+  }
+}

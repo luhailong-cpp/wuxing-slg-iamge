@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/emblems/water-native.png",
+  "sha256": "9eb76d1ad7a191b8e510a380cf4fa6d12c6913d911cebdf5c6371eb41b48095c",
+  "derivedAtUtc": "2026-10-27T13:23:26.839518+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 395,
+  "height": 460,
+  "art_source": "existing",
+  "operation": "crop",
+  "cropBox": [
+    1100,
+    60,
+    1495,
+    520
+  ],
+  "resampled": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "sha256": "2e0c66c6b26615ce080cb49ac24de33647baa8d6d3e9ee2f4c98a9037ceea029",
+      "record": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png.generation.json"
+    }
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "zeroPixels": 101148,
+    "opaquePixels": 0,
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bboxAbove16": [
+      55,
+      31,
+      345,
+      436
+    ]
+  },
+  "anchor": {
+    "type": "ui_center",
+    "pixel": [
+      197.5,
+      230.0
+    ]
+  },
+  "status": "candidate_static_icon_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "limitations": [
+    "Native alpha is preserved, including faint alpha=1 source residue.",
+    "Not a 15%-safe-frame master; manual ownership review confirms complete visible silhouette."
+  ]
+}

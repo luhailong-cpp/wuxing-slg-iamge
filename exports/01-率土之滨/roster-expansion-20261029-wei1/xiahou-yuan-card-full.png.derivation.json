@@ -1,0 +1,96 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-card-full.png",
+  "sha256": "c3dc992abc9da7f13d06d94d360b55225c7925f98ba797d9dce54e5a3d81ee41",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "xiahou-yuan",
+  "displayName": "夏侯渊",
+  "variant": "card-full",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+      "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+      "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 512194,
+    "alphaOne": 7244,
+    "alphaSemi": 370818,
+    "alphaOpaque": 1724,
+    "bboxAlpha16": [
+      74,
+      110,
+      694,
+      1051
+    ],
+    "marginsAlpha16": [
+      74,
+      110,
+      74,
+      101
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    488,
+    388,
+    686,
+    555
+  ],
+  "faceRoiOutputApprox": [
+    367.5,
+    314.75,
+    503.625,
+    429.562
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

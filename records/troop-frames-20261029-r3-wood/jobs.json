@@ -1,0 +1,74 @@
+[
+  {
+    "action": "idle",
+    "stem": "wood-idle-se-v1",
+    "cols": 2,
+    "rows": 2,
+    "args": {
+      "prompt": "Create a real transparent-background animation sprite sheet for the SAME ordinary WOOD TROOP in reference image 3. References 1 and 2 are STYLE ONLY: Taoist chibi high-definition hand-painted jade/ivory/warm gold rendering. Do NOT draw any UI, Chinese text, panels, scenery or other characters. Reference 3 is the sole character identity and equipment master. Copy his brown eyes, dark short hair, green bamboo-panel helmet with warm-gold ribs and leaf jade crest, pale green tassel, layered leaf shoulder armor, ivory tunic and trousers, green bindings, brown boots. He is an ordinary soldier, not a historical general, not an elemental hero. Exactly ONE short cylindrical bamboo/wood club in anatomical RIGHT hand (SCREEN-LEFT at rest); exactly ONE round woven wooden shield with leaf boss in anatomical LEFT hand (SCREEN-RIGHT). Never swap, mirror, duplicate, replace or lose gear. No sword, metal armour, bow, horse or magic wand. Preserve the master's three-quarter southeast-facing camera and proportions in every frame.\nReference 4 is an actual derived layout of this same wood master, for COMPOSITION/SCALE only. Follow its sparse figure sizes and large transparent gutters, not its identical poses. Keep the same helmet dimensions across every cell. Do not zoom or fill cells. Each conceptual cell is 512 square, full figure about 320 pixels tall including plume and boots, with at least 55 pixels transparent room above and about 100 below. All bodies and held gear fully inside their cells. Feet/root stay approximately at x256,y390 within each cell unless bending at knees naturally lowers torso. Head size is fixed even when crouching. No shadow, floor, colored backdrop, checkerboard, grids, labels, text, watermarks or FX. Real alpha transparency is required. Empty space should dominate the canvas. Crisp clean silhouette, detailed hand-painted forms, no plastic glare.\n\nLayout: exactly 2 columns and 2 rows, 4 poses, row-major reading order left to right then next row. Requested canvas 1024x1024.\nAction phases: FOUR frames: (1) neutral guard with relaxed shoulders; (2) inhale, chest rises slightly, elbow bends slightly; (3) full breath with tiny shoulder lift and plume gently to the right; (4) exhale, shoulders ease down toward frame 1. Keep boots planted; tiny natural breathing deformation, NOT four identical pasted cutouts. Loop-ready last pose approaches first.",
+      "referenced_image_paths": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+        "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3-wood/wood-layout-2x2-reference.png"
+      ],
+      "transparent_background": true
+    },
+    "request": "records/troop-frames-20261029-r3-wood/wood-idle-se-v1.request.json",
+    "prompt": "prompts/01-率土之滨/troop-frames-20261029-r3-wood/wood-idle-se-v1.prompt.txt"
+  },
+  {
+    "action": "attack",
+    "stem": "wood-attack-se-v1",
+    "cols": 3,
+    "rows": 2,
+    "args": {
+      "prompt": "Create a real transparent-background animation sprite sheet for the SAME ordinary WOOD TROOP in reference image 3. References 1 and 2 are STYLE ONLY: Taoist chibi high-definition hand-painted jade/ivory/warm gold rendering. Do NOT draw any UI, Chinese text, panels, scenery or other characters. Reference 3 is the sole character identity and equipment master. Copy his brown eyes, dark short hair, green bamboo-panel helmet with warm-gold ribs and leaf jade crest, pale green tassel, layered leaf shoulder armor, ivory tunic and trousers, green bindings, brown boots. He is an ordinary soldier, not a historical general, not an elemental hero. Exactly ONE short cylindrical bamboo/wood club in anatomical RIGHT hand (SCREEN-LEFT at rest); exactly ONE round woven wooden shield with leaf boss in anatomical LEFT hand (SCREEN-RIGHT). Never swap, mirror, duplicate, replace or lose gear. No sword, metal armour, bow, horse or magic wand. Preserve the master's three-quarter southeast-facing camera and proportions in every frame.\nReference 4 is an actual derived layout of this same wood master, for COMPOSITION/SCALE only. Follow its sparse figure sizes and large transparent gutters, not its identical poses. Keep the same helmet dimensions across every cell. Do not zoom or fill cells. Each conceptual cell is 512 square, full figure about 320 pixels tall including plume and boots, with at least 55 pixels transparent room above and about 100 below. All bodies and held gear fully inside their cells. Feet/root stay approximately at x256,y390 within each cell unless bending at knees naturally lowers torso. Head size is fixed even when crouching. No shadow, floor, colored backdrop, checkerboard, grids, labels, text, watermarks or FX. Real alpha transparency is required. Empty space should dominate the canvas. Crisp clean silhouette, detailed hand-painted forms, no plastic glare.\n\nLayout: exactly 3 columns and 2 rows, 6 poses, row-major reading order left to right then next row. Requested canvas 1536x1024.\nAction phases: SIX frames: (1) neutral guard; (2) wind-up, right elbow pulls back and short wooden club tilts up-left, left shield guards chest; (3) right arm raises the club above the right shoulder, knees bend slightly; (4) decisive forward-downward one-handed club strike with shoulder turn and wider stance, shield still on the left forearm; (5) follow-through, club low and outward, torso begins to recover; (6) return to neutral guard. Show real articulation in torso, elbow and wrist. No duplicated held pose. No slash trails or impact FX. The club stays in the SAME anatomical right hand throughout; never a sword or spear.",
+      "referenced_image_paths": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+        "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3-wood/wood-layout-3x2-reference.png"
+      ],
+      "transparent_background": true
+    },
+    "request": "records/troop-frames-20261029-r3-wood/wood-attack-se-v1.request.json",
+    "prompt": "prompts/01-率土之滨/troop-frames-20261029-r3-wood/wood-attack-se-v1.prompt.txt"
+  },
+  {
+    "action": "hurt",
+    "stem": "wood-hurt-se-v1",
+    "cols": 2,
+    "rows": 2,
+    "args": {
+      "prompt": "Create a real transparent-background animation sprite sheet for the SAME ordinary WOOD TROOP in reference image 3. References 1 and 2 are STYLE ONLY: Taoist chibi high-definition hand-painted jade/ivory/warm gold rendering. Do NOT draw any UI, Chinese text, panels, scenery or other characters. Reference 3 is the sole character identity and equipment master. Copy his brown eyes, dark short hair, green bamboo-panel helmet with warm-gold ribs and leaf jade crest, pale green tassel, layered leaf shoulder armor, ivory tunic and trousers, green bindings, brown boots. He is an ordinary soldier, not a historical general, not an elemental hero. Exactly ONE short cylindrical bamboo/wood club in anatomical RIGHT hand (SCREEN-LEFT at rest); exactly ONE round woven wooden shield with leaf boss in anatomical LEFT hand (SCREEN-RIGHT). Never swap, mirror, duplicate, replace or lose gear. No sword, metal armour, bow, horse or magic wand. Preserve the master's three-quarter southeast-facing camera and proportions in every frame.\nReference 4 is an actual derived layout of this same wood master, for COMPOSITION/SCALE only. Follow its sparse figure sizes and large transparent gutters, not its identical poses. Keep the same helmet dimensions across every cell. Do not zoom or fill cells. Each conceptual cell is 512 square, full figure about 320 pixels tall including plume and boots, with at least 55 pixels transparent room above and about 100 below. All bodies and held gear fully inside their cells. Feet/root stay approximately at x256,y390 within each cell unless bending at knees naturally lowers torso. Head size is fixed even when crouching. No shadow, floor, colored backdrop, checkerboard, grids, labels, text, watermarks or FX. Real alpha transparency is required. Empty space should dominate the canvas. Crisp clean silhouette, detailed hand-painted forms, no plastic glare.\n\nLayout: exactly 2 columns and 2 rows, 4 poses, row-major reading order left to right then next row. Requested canvas 1024x1024.\nAction phases: FOUR frames: (1) neutral alert guard; (2) torso recoils backward with knees flexed and brow pinched, left shield lifts slightly, right hand keeps the club; (3) recoil settles to a compact defensive crouch, eyes narrowed; (4) recover toward neutral guard. Feet stay grounded, no jump or airborne body. Clearly different poses, SAME equipment in SAME hands.",
+      "referenced_image_paths": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+        "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3-wood/wood-layout-2x2-reference.png"
+      ],
+      "transparent_background": true
+    },
+    "request": "records/troop-frames-20261029-r3-wood/wood-hurt-se-v1.request.json",
+    "prompt": "prompts/01-率土之滨/troop-frames-20261029-r3-wood/wood-hurt-se-v1.prompt.txt"
+  },
+  {
+    "action": "defeat",
+    "stem": "wood-defeat-se-v1",
+    "cols": 3,
+    "rows": 2,
+    "args": {
+      "prompt": "Create a real transparent-background animation sprite sheet for the SAME ordinary WOOD TROOP in reference image 3. References 1 and 2 are STYLE ONLY: Taoist chibi high-definition hand-painted jade/ivory/warm gold rendering. Do NOT draw any UI, Chinese text, panels, scenery or other characters. Reference 3 is the sole character identity and equipment master. Copy his brown eyes, dark short hair, green bamboo-panel helmet with warm-gold ribs and leaf jade crest, pale green tassel, layered leaf shoulder armor, ivory tunic and trousers, green bindings, brown boots. He is an ordinary soldier, not a historical general, not an elemental hero. Exactly ONE short cylindrical bamboo/wood club in anatomical RIGHT hand (SCREEN-LEFT at rest); exactly ONE round woven wooden shield with leaf boss in anatomical LEFT hand (SCREEN-RIGHT). Never swap, mirror, duplicate, replace or lose gear. No sword, metal armour, bow, horse or magic wand. Preserve the master's three-quarter southeast-facing camera and proportions in every frame.\nReference 4 is an actual derived layout of this same wood master, for COMPOSITION/SCALE only. Follow its sparse figure sizes and large transparent gutters, not its identical poses. Keep the same helmet dimensions across every cell. Do not zoom or fill cells. Each conceptual cell is 512 square, full figure about 320 pixels tall including plume and boots, with at least 55 pixels transparent room above and about 100 below. All bodies and held gear fully inside their cells. Feet/root stay approximately at x256,y390 within each cell unless bending at knees naturally lowers torso. Head size is fixed even when crouching. No shadow, floor, colored backdrop, checkerboard, grids, labels, text, watermarks or FX. Real alpha transparency is required. Empty space should dominate the canvas. Crisp clean silhouette, detailed hand-painted forms, no plastic glare.\n\nLayout: exactly 3 columns and 2 rows, 6 poses, row-major reading order left to right then next row. Requested canvas 1536x1024.\nAction phases: SIX frames: (1) standing guard falters, tired expression; (2) knees start to buckle, head and shoulders drop; (3) lower into one-knee kneeling, head bows; (4) both knees low, torso slumps farther, shield lowers with left arm and club lowers with right hand; (5) defeated kneeling slump, eyes closed, head bowed; (6) stable defeated kneeling resting pose held low. This is a gentle non-graphic defeat, not death. Progressive distinct articulation and lowering, do not shrink the helmet or whole character. Keep gear in the same hands and completely inside each cell; no loose flying equipment, no grave or UI symbol.",
+      "referenced_image_paths": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+        "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3-wood/wood-layout-3x2-reference.png"
+      ],
+      "transparent_background": true
+    },
+    "request": "records/troop-frames-20261029-r3-wood/wood-defeat-se-v1.request.json",
+    "prompt": "prompts/01-率土之滨/troop-frames-20261029-r3-wood/wood-defeat-se-v1.prompt.txt"
+  }
+]

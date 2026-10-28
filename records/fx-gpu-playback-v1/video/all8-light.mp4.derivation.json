@@ -1,0 +1,70 @@
+{
+  "operation": "4x2 overview of8 actualGPU playback MP4s, each512->256; same60Hz timestamps retained",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/video/slash-arc-light.mp4",
+      "sha256": "73db86ec38bbbc8cd427156bfc5a47913399a9e25ba6e1a64377aea368271656",
+      "record": "records/fx-gpu-playback-v1/video/slash-arc-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/strategy-array-light.mp4",
+      "sha256": "3779d4aa0aadeb6226613ead20467d502230c628f51f3475ad1f28e65527b68a",
+      "record": "records/fx-gpu-playback-v1/video/strategy-array-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/healing-light-light.mp4",
+      "sha256": "7f736e9c7b0b7c4d6752bf401b3fabb9d1fa07e72861ff0033a13765a4ad51e3",
+      "record": "records/fx-gpu-playback-v1/video/healing-light-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/buff-cloud-light.mp4",
+      "sha256": "0f44b43f23d60139abfbb5939c2b05915e7a51dddb29ee8705750ea9cd84eb11",
+      "record": "records/fx-gpu-playback-v1/video/buff-cloud-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/debuff-mist-light.mp4",
+      "sha256": "babace151dcfd401f0760b484d503c85abde5f21d1e3515b034c7987aaf1ca1c",
+      "record": "records/fx-gpu-playback-v1/video/debuff-mist-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/fire-light.mp4",
+      "sha256": "0f2e690fa7b6481a94875a7cbdb77db98e0315e62afc2fbe99bc458702faf768",
+      "record": "records/fx-gpu-playback-v1/video/fire-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/capture-circle-light.mp4",
+      "sha256": "be9ba1520edba36982bb0effa2935e8a5fc7fac38163916095f49c98e23815b9",
+      "record": "records/fx-gpu-playback-v1/video/capture-circle-light.mp4.derivation.json"
+    },
+    {
+      "file": "records/fx-gpu-playback-v1/video/reward-glow-light.mp4",
+      "sha256": "4c700d3fa456301c5c1dc7946c8f375948ba14fbb0d37c2c75a9c96c0d6b60ab",
+      "record": "records/fx-gpu-playback-v1/video/reward-glow-light.mp4.derivation.json"
+    }
+  ],
+  "cellOrder": [
+    "slash-arc",
+    "strategy-array",
+    "healing-light",
+    "buff-cloud",
+    "debuff-mist",
+    "fire",
+    "capture-circle",
+    "reward-glow"
+  ],
+  "fps": 60,
+  "frameCount": 60,
+  "durationSeconds": 1.0,
+  "sourceScale": 0.5,
+  "background": "light",
+  "noNewArtOrInbetweens": true,
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/video/all8-light.mp4",
+  "sha256": "036c8d94831c09d0568045e081012077adeafd3ac34e3e78fcbaba0abf0bbdcc",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

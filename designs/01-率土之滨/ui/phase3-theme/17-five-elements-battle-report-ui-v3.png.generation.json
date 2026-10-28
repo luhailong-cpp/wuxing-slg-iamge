@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/phase3-theme/17-five-elements-battle-report-ui-v3.png",
+  "sha256": "932c7af8f8b6ba354dcdea9a8e6dc1f32e6be97671ccee3987aab4c354d37f8a",
+  "generatedAt": "2026-10-27T18:58:38.776Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T18:57:34.091Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/17-battle-report-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/worker-theme-phase3/17-five-elements-battle-report-ui-v3.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具仅返回image_url/output_hint，未披露模型/画质。",
+  "evidence": [
+    {
+      "file": "records/worker-theme-phase3/17-five-elements-battle-report-ui-v3.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/worker-theme-phase3/17-five-elements-battle-report-ui-v3.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-f08e-7500-b96a-7cf0bcdf73d9/exec-5cf28654-9c3b-4a7e-ac9d-6b67957bad07.png",
+      "sha256": "932c7af8f8b6ba354dcdea9a8e6dc1f32e6be97671ccee3987aab4c354d37f8a",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/worker-theme-phase3/17-five-elements-battle-report-ui-v3.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/17-battle-report-ui-v2.png",
+      "sha256": "4fa0aed671307a64a45bf49270ca40f305f024757b4b679fb17df95bc58da1b1",
+      "role": "旧战报仅功能布局与演示算术，旧人物弃用",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/17-battle-report-ui-v2.png.generation.json"
+    },
+    {
+      "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+      "role": "五位原创master有记录参考拼板，仅取金木身份",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+      "sha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+      "role": "原创道家步兵master作匿名野外守军头像候选，非正式敌方设定",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "五行战报静态候选；金木原创身份及道家步兵守军；演示损失；回放按钮未实现",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T18:59:31.985249+00:00"
+}

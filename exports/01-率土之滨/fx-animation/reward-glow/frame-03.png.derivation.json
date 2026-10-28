@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-03.png",
+  "sha256": "beb813c2c818f4c1769efafe7697cd3adbf53dc6eb193d46bf3b407ae6b994b9",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+    "sha256": "db25ce0390d3168d449a5f4bd00cc5a7cf4acb73f5560adcc49c05c743c709b3",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png.generation.json"
+  },
+  "cropBox": [
+    1330,
+    0,
+    1774,
+    444
+  ],
+  "sourceAnchorPxGlobal": [
+    1550,
+    249
+  ],
+  "sourceAnchorPxWithinCrop": [
+    220,
+    249
+  ],
+  "pasteOffset": [
+    230,
+    201
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "zeroPixels": 703607,
+    "alpha1Pixels": 16178,
+    "semiTransparentPixels": 106393,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      264,
+      287,
+      628,
+      622
+    ],
+    "bboxAbove16": [
+      284,
+      305,
+      613,
+      604
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 253
+  },
+  "phase": "growing star and orbit",
+  "timing": {
+    "startSeconds": 0.3,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

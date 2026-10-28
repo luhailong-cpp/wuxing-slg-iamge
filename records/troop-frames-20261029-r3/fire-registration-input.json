@@ -1,0 +1,1025 @@
+{
+  "unit": "fire",
+  "character": "troop-fire",
+  "status": "manual_contact_rois_and_helmet_landmarks_reviewed",
+  "userApproved": false,
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png",
+    "helmetWidth": 554,
+    "helmetX": [
+      424,
+      978
+    ],
+    "groundRoot": [
+      704,
+      1158
+    ]
+  },
+  "ownershipReport": "records/troop-frames-20261029-r3/fire-earth-registration-ownership-report.json",
+  "actions": [
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-idle-se-v1.png",
+      "sha256": "8c882e049a77fbdb6d525b5fe8bf41de7f1b46430e3e8fcff1c45e5f8da58ffd",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCanvas": [
+        640,
+        640
+      ],
+      "cuts": {
+        "x": [
+          0,
+          627,
+          1254
+        ],
+        "y": [
+          0,
+          640,
+          1254
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 640,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 627,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            640
+          ],
+          "ownedSize": [
+            627,
+            640
+          ],
+          "sourceCanvas": [
+            640,
+            640
+          ],
+          "alpha16Bbox": [
+            86,
+            59,
+            556,
+            619
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            640
+          ],
+          "ownedSize": [
+            627,
+            640
+          ],
+          "sourceCanvas": [
+            640,
+            640
+          ],
+          "alpha16Bbox": [
+            62,
+            59,
+            570,
+            619
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            640,
+            627,
+            1254
+          ],
+          "ownedSize": [
+            627,
+            614
+          ],
+          "sourceCanvas": [
+            640,
+            640
+          ],
+          "alpha16Bbox": [
+            92,
+            18,
+            555,
+            567
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            640,
+            1254,
+            1254
+          ],
+          "ownedSize": [
+            627,
+            614
+          ],
+          "sourceCanvas": [
+            640,
+            640
+          ],
+          "alpha16Bbox": [
+            69,
+            18,
+            534,
+            574
+          ]
+        }
+      ],
+      "id": "idle",
+      "helmetWidthLandmarks": [
+        179,
+        485
+      ],
+      "helmetWidth": 306,
+      "headMeasureFrame": 1,
+      "loop": true,
+      "durationMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "manualContactRois": [
+        [
+          [
+            193,
+            526,
+            292,
+            593
+          ],
+          [
+            385,
+            548,
+            481,
+            628
+          ]
+        ],
+        [
+          [
+            176,
+            532,
+            276,
+            603
+          ],
+          [
+            366,
+            548,
+            467,
+            628
+          ]
+        ],
+        [
+          [
+            198,
+            486,
+            302,
+            541
+          ],
+          [
+            382,
+            510,
+            479,
+            578
+          ]
+        ],
+        [
+          [
+            179,
+            485,
+            285,
+            546
+          ],
+          [
+            366,
+            515,
+            465,
+            584
+          ]
+        ]
+      ]
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-attack-se-v1.png",
+      "sha256": "80e33f1338c699450a0444a2ceef9db69e03bb887a78f958f31750e0b4183efb",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceCanvas": [
+        535,
+        535
+      ],
+      "cuts": {
+        "x": [
+          0,
+          535,
+          1040,
+          1536
+        ],
+        "y": [
+          0,
+          520,
+          1024
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 520,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 535,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 1040,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            535,
+            520
+          ],
+          "ownedSize": [
+            535,
+            520
+          ],
+          "sourceCanvas": [
+            535,
+            535
+          ],
+          "alpha16Bbox": [
+            79,
+            54,
+            455,
+            481
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            535,
+            0,
+            1040,
+            520
+          ],
+          "ownedSize": [
+            505,
+            520
+          ],
+          "sourceCanvas": [
+            535,
+            535
+          ],
+          "alpha16Bbox": [
+            51,
+            52,
+            423,
+            483
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1040,
+            0,
+            1536,
+            520
+          ],
+          "ownedSize": [
+            496,
+            520
+          ],
+          "sourceCanvas": [
+            535,
+            535
+          ],
+          "alpha16Bbox": [
+            29,
+            84,
+            432,
+            489
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            520,
+            535,
+            1024
+          ],
+          "ownedSize": [
+            535,
+            504
+          ],
+          "sourceCanvas": [
+            535,
+            535
+          ],
+          "alpha16Bbox": [
+            71,
+            42,
+            513,
+            461
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            535,
+            520,
+            1040,
+            1024
+          ],
+          "ownedSize": [
+            505,
+            504
+          ],
+          "sourceCanvas": [
+            535,
+            535
+          ],
+          "alpha16Bbox": [
+            27,
+            57,
+            480,
+            455
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1040,
+            520,
+            1536,
+            1024
+          ],
+          "ownedSize": [
+            496,
+            504
+          ],
+          "sourceCanvas": [
+            535,
+            535
+          ],
+          "alpha16Bbox": [
+            47,
+            29,
+            424,
+            459
+          ]
+        }
+      ],
+      "id": "attack",
+      "helmetWidthLandmarks": [
+        160,
+        385
+      ],
+      "helmetWidth": 225,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "manualContactRois": [
+        [
+          [
+            148,
+            410,
+            239,
+            460
+          ],
+          [
+            325,
+            430,
+            410,
+            491
+          ]
+        ],
+        [
+          [
+            92,
+            408,
+            178,
+            463
+          ],
+          [
+            285,
+            433,
+            373,
+            493
+          ]
+        ],
+        [
+          [
+            111,
+            435,
+            196,
+            500
+          ],
+          [
+            332,
+            407,
+            416,
+            468
+          ]
+        ],
+        [
+          [
+            133,
+            407,
+            223,
+            466
+          ],
+          [
+            373,
+            379,
+            466,
+            444
+          ]
+        ],
+        [
+          [
+            87,
+            408,
+            173,
+            468
+          ],
+          [
+            318,
+            374,
+            414,
+            436
+          ]
+        ],
+        [
+          [
+            114,
+            386,
+            205,
+            443
+          ],
+          [
+            296,
+            413,
+            380,
+            470
+          ]
+        ]
+      ]
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-hurt-se-v1.png",
+      "sha256": "4cfb3b25ac5261f341422161abdb3eb21413efbe870b3e0b92bf9c639c5ebd9c",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCanvas": [
+        660,
+        660
+      ],
+      "cuts": {
+        "x": [
+          0,
+          660,
+          1254
+        ],
+        "y": [
+          0,
+          640,
+          1254
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 640,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 660,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            660,
+            640
+          ],
+          "ownedSize": [
+            660,
+            640
+          ],
+          "sourceCanvas": [
+            660,
+            660
+          ],
+          "alpha16Bbox": [
+            99,
+            67,
+            582,
+            614
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            660,
+            0,
+            1254,
+            640
+          ],
+          "ownedSize": [
+            594,
+            640
+          ],
+          "sourceCanvas": [
+            660,
+            660
+          ],
+          "alpha16Bbox": [
+            64,
+            70,
+            569,
+            602
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            640,
+            660,
+            1254
+          ],
+          "ownedSize": [
+            660,
+            614
+          ],
+          "sourceCanvas": [
+            660,
+            660
+          ],
+          "alpha16Bbox": [
+            86,
+            42,
+            624,
+            569
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            660,
+            640,
+            1254,
+            1254
+          ],
+          "ownedSize": [
+            594,
+            614
+          ],
+          "sourceCanvas": [
+            660,
+            660
+          ],
+          "alpha16Bbox": [
+            54,
+            29,
+            553,
+            586
+          ]
+        }
+      ],
+      "id": "hurt",
+      "helmetWidthLandmarks": [
+        193,
+        498
+      ],
+      "helmetWidth": 305,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "manualContactRois": [
+        [
+          [
+            203,
+            530,
+            310,
+            593
+          ],
+          [
+            412,
+            549,
+            515,
+            624
+          ]
+        ],
+        [
+          [
+            167,
+            539,
+            266,
+            607
+          ],
+          [
+            356,
+            515,
+            461,
+            591
+          ]
+        ],
+        [
+          [
+            200,
+            510,
+            306,
+            570
+          ],
+          [
+            417,
+            524,
+            532,
+            581
+          ]
+        ],
+        [
+          [
+            167,
+            493,
+            275,
+            559
+          ],
+          [
+            377,
+            524,
+            480,
+            596
+          ]
+        ]
+      ]
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-defeat-se-v1.png",
+      "sha256": "bc969f57cb030c75189c41acc3ffe21fd8d63be33a857ffc5226c1559935f82a",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceCanvas": [
+        560,
+        560
+      ],
+      "cuts": {
+        "x": [
+          0,
+          535,
+          1024,
+          1536
+        ],
+        "y": [
+          0,
+          560,
+          1024
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 560,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 535,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 1024,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            535,
+            560
+          ],
+          "ownedSize": [
+            535,
+            560
+          ],
+          "sourceCanvas": [
+            560,
+            560
+          ],
+          "alpha16Bbox": [
+            101,
+            53,
+            449,
+            514
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            535,
+            0,
+            1024,
+            560
+          ],
+          "ownedSize": [
+            489,
+            560
+          ],
+          "sourceCanvas": [
+            560,
+            560
+          ],
+          "alpha16Bbox": [
+            80,
+            98,
+            388,
+            513
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            560
+          ],
+          "ownedSize": [
+            512,
+            560
+          ],
+          "sourceCanvas": [
+            560,
+            560
+          ],
+          "alpha16Bbox": [
+            111,
+            122,
+            459,
+            519
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            560,
+            535,
+            1024
+          ],
+          "ownedSize": [
+            535,
+            464
+          ],
+          "sourceCanvas": [
+            560,
+            560
+          ],
+          "alpha16Bbox": [
+            95,
+            43,
+            473,
+            421
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            535,
+            560,
+            1024,
+            1024
+          ],
+          "ownedSize": [
+            489,
+            464
+          ],
+          "sourceCanvas": [
+            560,
+            560
+          ],
+          "alpha16Bbox": [
+            69,
+            79,
+            415,
+            420
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            560,
+            1536,
+            1024
+          ],
+          "ownedSize": [
+            512,
+            464
+          ],
+          "sourceCanvas": [
+            560,
+            560
+          ],
+          "alpha16Bbox": [
+            100,
+            50,
+            453,
+            422
+          ]
+        }
+      ],
+      "id": "defeat",
+      "helmetWidthLandmarks": [
+        170,
+        410
+      ],
+      "helmetWidth": 240,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "left knee and right boot",
+        "two knees",
+        "two knees",
+        "two knees"
+      ],
+      "manualContactRois": [
+        [
+          [
+            179,
+            465,
+            246,
+            524
+          ],
+          [
+            297,
+            458,
+            383,
+            521
+          ]
+        ],
+        [
+          [
+            147,
+            466,
+            214,
+            520
+          ],
+          [
+            246,
+            461,
+            328,
+            518
+          ]
+        ],
+        [
+          [
+            188,
+            453,
+            273,
+            517
+          ],
+          [
+            298,
+            465,
+            373,
+            525
+          ]
+        ],
+        [
+          [
+            203,
+            371,
+            284,
+            416
+          ],
+          [
+            286,
+            371,
+            373,
+            416
+          ]
+        ],
+        [
+          [
+            149,
+            371,
+            225,
+            422
+          ],
+          [
+            229,
+            370,
+            309,
+            422
+          ]
+        ],
+        [
+          [
+            186,
+            369,
+            267,
+            420
+          ],
+          [
+            278,
+            369,
+            360,
+            420
+          ]
+        ]
+      ]
+    }
+  ]
+}

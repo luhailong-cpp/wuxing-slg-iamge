@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-27T13:02:40.342247+00:00",
+  "reviewer": "verify_image_model",
+  "method": "此前逐张实际view_image视检；收束时再次实际查看36。Pillow仅只读校验尺寸、模式、哈希。",
+  "status": "draft_handoff_with_open_items",
+  "art_source": "host_image",
+  "scene_mode": "baked_screen_mode",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "selectedImages": [
+    {
+      "stem": "31-land-detail-ui-v1",
+      "title": "土地详情",
+      "file": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+      "sha256": "65c774e965202d436733ff54c428f3616a6b99f2fcd468753a23116142ed422d",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "actuallyViewed": true,
+      "findings": [
+        "林地Lv.3、未占领、距离8格、木材+300/小时、守军900的演示信息完整。",
+        "出征有效；驻守与扫荡灰色锁定并写占领后开放，状态一致。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "土地等级、守军、产出、距离与占领规则均为原型示例，需以五行游戏规则重定。"
+      ],
+      "status": "draft_pending_wuxing_alignment_and_user_review"
+    },
+    {
+      "stem": "32-inventory-ui-v1",
+      "title": "背包",
+      "file": "designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+      "sha256": "2b5e5e6496bd94df81c8283b54c8d61a6f7ea336e6b3c993762e98195b07882d",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "actuallyViewed": true,
+      "findings": [
+        "6张物品卡与6/100一致。",
+        "选中粮草包持有8、使用3、每个1000，预览获得3000，数字自洽。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "资源、材料、消耗品的五行属性、正式命名和共用图标尚待定义。"
+      ],
+      "status": "draft_pending_wuxing_alignment_and_user_review"
+    },
+    {
+      "stem": "33-battle-result-ui-v1",
+      "title": "战斗结算",
+      "file": "designs/01-率土之滨/ui/33-battle-result-ui-v1.png",
+      "sha256": "7d13477c32af07e4c2ce40eff92883f006b0b76c44d2e145eefa7a5cd652fde1",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "actuallyViewed": true,
+      "findings": [
+        "青竹原野胜利、5回合；我方1000-180=820，敌方900-900=0。",
+        "粮草600、铜钱300、经验200与返回战报入口完整。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "未体现五行克制和属性战斗结算；奖励与兵损为演示数据。"
+      ],
+      "status": "draft_pending_wuxing_alignment_and_user_review"
+    },
+    {
+      "stem": "34-general-awakening-ui-v1",
+      "title": "觉醒",
+      "file": "designs/01-率土之滨/ui/34-general-awakening-ui-v1.png",
+      "sha256": "20a7fcbbfdf91faceba67d01bb9458d3dc54dcade91c65c51ab68a726ff0f09a",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "actuallyViewed": true,
+      "findings": [
+        "沿用匿名持枪道将，主体及枪完整。",
+        "等级20/20满足，材料1/2不足1，确认按钮灰色材料不足；第三战法位当前锁定/觉醒后开放区分明确。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "五行归属、进阶名称、材料归属与技能槽规则尚未按用户最新主题定稿。"
+      ],
+      "status": "draft_pending_wuxing_alignment_and_user_review"
+    },
+    {
+      "stem": "35-recruit-entry-ui-v1",
+      "title": "招募入口",
+      "file": "designs/01-率土之滨/ui/35-recruit-entry-ui-v1.png",
+      "sha256": "6ad63c435cfc096101f8c01558a6d0f74c15061adfaf07c342030dc43f8489a6",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "actuallyViewed": true,
+      "findings": [
+        "铜钱5000，单招300/五连1500均可负担。",
+        "玉符680，单招200可用、五连1000不足320且禁用；剩余免费计时与预览完整。",
+        "未编写概率、保底或公告。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "角色预览未建立金木水火土归属；正式招募规则、货币与免费逻辑待定义。"
+      ],
+      "status": "draft_pending_wuxing_alignment_and_user_review"
+    },
+    {
+      "stem": "36-construction-queue-ui-v1",
+      "title": "建设管理",
+      "file": "designs/01-率土之滨/ui/36-construction-queue-ui-v1.png",
+      "sha256": "6c4711ec64233e3d37515f9c20d1c1cf979c460ad63b27ba4254522657c4eb31",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "actuallyViewed": true,
+      "findings": [
+        "设施城主府、校场、仓库区分；队列1/2为一建设中和一空闲。",
+        "校场Lv.1→Lv.2剩余00:12:30；仓库木材需2000/有5000、石料需3000/有1500不足1500，禁用升级。",
+        "取消确认明确待确认且当前建设仍在进行，未误示已取消。"
+      ],
+      "mustFix": [
+        "石料与铁矿图标语义对调：顶部石料1500配暗色矿块，铁矿3000配浅色石块；仓库升级石料行亦配暗色矿块。正式选用前应统一为石料浅灰/米色石块、铁矿深蓝灰矿石；数值和文字保持。"
+      ],
+      "followups": [
+        "依用户收束指令，未新开v2修图。",
+        "建设体系尚未映射五行主题，需确认设施及资源设定；取消/加速仅为静态状态图。"
+      ],
+      "status": "draft_needs_correction"
+    }
+  ],
+  "inFlight": [],
+  "generationStopped": true,
+  "themeDirective": "用户最新明确为金木水火土五行主题；率土之滨仅功能参考，不应采用汉魏蜀吴或三国历史身份。",
+  "themeAudit": {
+    "observedHistoricalFactionTextInThese11Screens": false,
+    "scope": "仅本制作分工13–17、31–36既有逐图视检和提示词；不替其他制作人的图或全项目作无历史身份保证。",
+    "openItems": [
+      "这些图保留道家Q版风格及匿名原创人物，尚未建立完整金木水火土属性/阵营/克制符号系统。",
+      "13/14沿外游功能参考保留谋攻、D级、主动、距离、发动率等演示战法字段，需按五行游戏定义重定名称与规则；不能称已完成主题改版。",
+      "旧目录01-率土之滨仅历史功能参考目录标识，未擅自改名或打断现有引用。"
+    ]
+  },
+  "limitations": [
+    "全部为带烘焙文字的静态整屏稿，未拆分控件、字体、状态与角色切片，未实现交互。",
+    "36有明确资源图标错误，保留待修，未标通过。",
+    "实际model/quality未由宿主披露，逐图actual字段null。",
+    "没有在途生成，无Git操作；停止后未启动任何新生图或AI修图。"
+  ]
+}

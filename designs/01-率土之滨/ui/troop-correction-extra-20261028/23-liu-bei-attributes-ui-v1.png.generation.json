@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/troop-correction-extra-20261028/23-liu-bei-attributes-ui-v1.png",
+  "sha256": "af6b104d38bd33198bf9751201ef1a6d23cbdb040f6d7f00cb999c583a86695d",
+  "generatedAt": null,
+  "generatedAtBasis": "Service-internal generation timestamp not disclosed; observed call completion retained separately",
+  "callStartedAt": "2026-10-28T11:23:06.173Z",
+  "callCompletedAt": "2026-10-28T11:28:01.100Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "bitDepth": 8,
+  "bytes": 2734909,
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Edit target: reference3, the older Liu Bei attributes allocation UI. Produce one corrected full landscape UI in the same composition, target1915x821. References1/2 are mandatory approved Daoist chibi UI style; reference4 is the exact Liu Bei master identity; reference5 supplies the metal troop emblem only. Keep the ornate jade/ivory/warm-gold panel, mountain garden setting, large general on the left and five attribute allocation rows on the right. Do not replace the layout with a roster.\n\nIDENTITY: historical 刘备, the man from reference4: long dark hair, slim tall upright deep-green jade crown, thin moustache and short pointed goatee, white/jade robes with gold trim, twin swords. Not a white-haired woman, 金行使, 铸锋使, five-element hero or generic named cultivator. Left identity plaque exactly: small \"汉\", large \"刘备\", exactly FOUR gold stars, \"Lv.5\". Below: metal emblem then \"金兵\"; next separate row \"COST 2.0\". 金兵 means the currently selected troop type only, not Liu Bei's permanent identity or faction. Do not write explanatory production notes into the UI.\nMETAL EMBLEM: match the top-left symbol of reference5: FOUR sharp diamond/star points, ivory/gold curved arms and a small circular green jade center. It is not a coin, plain yellow diamond, flower, coin square-hole or shield.\n\nCONTENT/layout: title \"属性分配\". On the attribute panel top, use three consistent tabs \"详情\" \"配点\" \"兵种\", with 配点 selected jade green. Top right \"可用属性点 10\", help and close buttons. Five rows with icons and readable text EXACTLY:\n攻击 78 (+0)\n防御 84 (+0)\n谋略 74 (+0)\n速度 58 (+0)\n攻城 19 (+0)\nEach row has a minus button, a horizontal allocation track and a plus button. This is zero pending allocation: the five minus controls are disabled gray; all thumb positions at the left, zero added fill; plus controls available warm gold. Do not invent nonzero additions or spend the10 points.\nBottom hint \"每增加1点，消耗1属性点\"; status \"尚未分配属性点\". Bottom \"重置\" and \"确认配点\" are both disabled gray because no changes are pending. This preserves the corrected state logic.\nKeep proper visual spacing, clear Chinese text, no COST overlap and no clipped controls. Use \"谋略\", never \"灵力\"; use \"COST\", never \"统御\". No 步兵/弓兵/骑兵, no 金系 or 金行使 wording. Do not add title branding, new currencies, skill trees, game rules or debug text. Full opaque finished UI candidate, not separate assets.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/23-general-attributes-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/01-率土之滨/ui-correction-extra-20261028/23-liu-bei-attributes-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "width": 1931,
+      "height": 814,
+      "role": "Primary approved mail UI style",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "width": 1931,
+      "height": 814,
+      "role": "Primary approved team UI style",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/23-general-attributes-ui-v1.png",
+      "sha256": "884eb0b44f45ab2d9653fe8fc13bc14caba2f8ce266a18c20451ecfcd8400ef1",
+      "width": 1916,
+      "height": 821,
+      "role": "Older Liu Bei attribute UI edit target; preserve function layout",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/ui/23-general-attributes-ui-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "width": 1024,
+      "height": 1536,
+      "role": "Liu Bei v2 identity and tall jade crown/twin swords master",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/characters/02-liu-bei-v2.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "sha256": "2e0c66c6b26615ce080cb49ac24de33647baa8d6d3e9ee2f4c98a9037ceea029",
+      "width": 1536,
+      "height": 1024,
+      "role": "Metal troop emblem identity only; four-point gold/ivory star with jade core",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png.generation.json"
+    }
+  ],
+  "evidence": [
+    "records/ui-correction-extra-20261028/23-liu-bei-attributes-ui-v1.tool-request.json",
+    "records/ui-correction-extra-20261028/23-liu-bei-attributes-ui-v1.tool-response.json"
+  ],
+  "priorChecklistItem": {
+    "screenId": 23,
+    "title": "刘备配点",
+    "priorCatalogSelection": "designs/01-率土之滨/ui/23-metal-envoy-attributes-ui-v2.png",
+    "priorCatalogSelectionSha256": "1b637b9e0baabd47396e1e5a8e3e5d4ddd1187d79ba4c136ceec0520ed4ac8ff",
+    "correctionStatus": "correction_required",
+    "requiredAction": "从旧刘备v1恢复人物、谋略及COST体系；撤回金行使和灵力表述，若有兵种标签改为五行。",
+    "pixelRecheckedInThisBatch": false,
+    "newGenerationInThisBatch": false,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "fullStateCoverage": false,
+    "evidenceBasis": "prior catalog and recorded reviews; this batch did not re-view page pixels",
+    "suggestedRestoreOrEditBase": "designs/01-率土之滨/ui/23-general-attributes-ui-v1.png",
+    "baseExists": true,
+    "baseSha256": "884eb0b44f45ab2d9653fe8fc13bc14caba2f8ce266a18c20451ecfcd8400ef1"
+  },
+  "assetRole": "Full flattened UI direction correction candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullStateCoverage": false
+}

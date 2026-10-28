@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "startedAt": "2026-10-27T13:54:47.600Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: ui-mockup\nAsset type: 五行SLG「招募结果」完整横屏静态方向稿v2，原生PNG，约21:9横幅。\nPrimary request: 将旧招募结果页面重新设计为五行原创金系女性“铸锋使”的获得展示。重新绘制角色、卡面、五行识别与信息，不是只换名字；正式游戏名未定，不加游戏logo。\nInput images and priority:\nImage 1 邮件UI、Image 2 组队UI：首要画风与材质。玉绿青绿、象牙米白纸绢、暖金细边、圆润云纹如意控件、细腻高清手绘、清楚中文、留白和对齐。\nImage 3 原创金系女角色master：唯一人物身份依据。必须保持同一张年轻成年女性脸型、金棕眼睛、利落短银灰发、侧边金色小花形发扣和流苏；象牙白短外袍、玉绿内衬、暖金护臂和云纹腰带、腰侧棕色工具袋、短裤与米白金边短靴。左侧握金玉短符尺，另一手托展开的金玉折叠阵盘，武器造型完整一致。绝不从其他图继承历史男角色。\nImage 4 旧19招募结果：仅参考布局和流程，即左侧大单卡、右侧获得信息面板及三枚操作按钮；禁止参考其中刘备身份、脸、长发、高冠、胡须、双剑和汉阵营。\nImage 5 新18金系详情：参考同一角色在界面内的比例、金系菱形四角徽记、纸绢和文字体系。人物仍以Image 3为唯一身份母版，不重新长出另一张脸。\nScene/backdrop: 明亮浅青仙山云海与道家庭院，细腻暖日光与极少飘叶。背景退后，不抢正文。完整横屏页面，不是设备模型、拼图、展示台或多页总览。\nLayout: 左上玉绿金边标题牌「招募结果」，右上清楚关闭叉。中间偏左一张完整高竖金玉卡框，四颗金星位于卡上方，左边竖小牌顶端是Image5同款金色菱形四角徽记加文字「金系」，下方写「铸锋使」。卡内展示Image3同一角色的完整全身，短银灰发、符尺、阵盘、工具袋、双鞋完整，卡内边缘留白，不裁头发/法器/靴子。卡外少量柔和暖金获得光效，但不遮脸和字。底部深玉绿卡栏从左至右清楚写「Lv.1」「统御 2.0」「步兵」「攻击距离 3」，小图标辅助，字不挤在一起。\nRight panel: 一块米白纸绢圆润暖金细边面板，顶部玉绿标题「获得道将」；中心大字「铸锋使」。下方清楚状态「已加入道将卡册」，再下一行「当前数量 7 / 100」。三层操作从上至下：玉绿主按钮「查看道将」，米白次按钮「确定」，更小的米白按钮带循环箭头「再次招募」。三个按钮清楚分离、不遮字，处于可操作视觉态；「查看道将」在静态流程中指向Image5详情，其余仅表达返回/再次招募去向，不画真实概率、价格或计费承诺。\nText exact: 「招募结果」「金系」「铸锋使」「获得道将」「已加入道将卡册」「当前数量 7 / 100」「查看道将」「确定」「再次招募」「Lv.1」「统御 2.0」「步兵」「攻击距离 3」。全部中文清楚、自然，四颗星不多不少；页面不出现「汉」「刘备」「COST」或任何历史朝代/人物姓名。\nStyle/medium: 道家Q版高清手绘，保持两张主参考的细腻度与本系列人物画法。金玉温润，云纹如意圆润饱满，避免塑料3D、黑灰写实战争皮肤、密集噪点、粗糙拼贴、荧光蓝霓虹。所有面板、卡框和按钮位于安全边距内。\nScope/constraints: 全新原创主题静态方向稿；四星、Lv1、统御2.0、步兵、距离3、数量7/100均为展示数据，不代表用户已确定玩法数值、角色稀有度、兵种或首发名单。保持清楚的获得成功状态与操作层级。不画概率、虚假平台标志、水印、签名、外游商标或正式游戏名。",
+    "promptFile": "prompts/01-率土之滨/19-metal-envoy-recruit-result-ui-v2.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/19-recruit-result-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "referenceRoles": [
+    "已确认邮件主风格",
+    "已确认组队主风格",
+    "唯一金系原创人物身份母版",
+    "旧招募结果功能与布局only，禁历史身份",
+    "同人物详情与金系徽记/信息体系"
+  ]
+}

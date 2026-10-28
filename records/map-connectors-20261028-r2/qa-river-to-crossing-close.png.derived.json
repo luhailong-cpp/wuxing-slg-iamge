@@ -1,0 +1,25 @@
+{
+  "file": "records/map-connectors-20261028-r2/qa-river-to-crossing-close.png",
+  "sha256": "6487d476221df859ef32f55cd3a42f224714c3ee6f728cfe417b8f2de50907e9",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/02-stone-road-decal-v1.png",
+      "sha256": "d9033b94f2bc01a30c978fb3e9ec054971fbb317ff3a1e4df69998e230aee438"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/03-riverbank-extension-v1.png",
+      "sha256": "e45832db8e3c8a993ca71f2502e78a235e4c62dfd57afbae176e525feac1ba1e"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-composite-reference.png",
+      "sha256": "ee0a5c6547419673352023012712d8eacdcf2559669d8a2f2e41059d86c58592"
+    }
+  ],
+  "operation": "diagnostic crop of qa-three-assets-assembly.png; crop coordinates in work/qa_all.py",
+  "artifactPurpose": "QA only",
+  "notNewAIArt": true
+}

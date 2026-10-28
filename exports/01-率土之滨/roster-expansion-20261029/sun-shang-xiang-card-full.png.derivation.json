@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/sun-shang-xiang-card-full.png",
+  "sha256": "69af5af29a3c5f8696096edd2e7e9493cd514dd9079dc5823849b98efb8309fd",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/sun-shang-xiang-master-v1.png",
+    "sha256": "969eea7e4b530b124bd12a58ddd61b747351a81b47908169289d709cfde4b243",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/sun-shang-xiang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

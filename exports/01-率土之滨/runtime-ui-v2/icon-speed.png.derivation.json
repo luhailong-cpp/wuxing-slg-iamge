@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+  "sha256": "d921f3719872aa0d68a847f6818e9d39142a759b6b6ab5213c031ddcf4babb66",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 308,
+  "height": 312,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-speed.png",
+      "sha256": "d921f3719872aa0d68a847f6818e9d39142a759b6b6ab5213c031ddcf4babb66",
+      "record": "exports/01-率土之滨/runtime-ui/icon-speed.png.derivation.json"
+    }
+  ],
+  "operation": "byte_for_byte_copy_of_previous_export",
+  "cropBox": null,
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": true,
+  "previousExport": "exports/01-率土之滨/runtime-ui/icon-speed.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/icon-speed.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 28608,
+    "alpha1PixelCount": 7195,
+    "bboxAbove16": [
+      20,
+      20,
+      287,
+      290
+    ],
+    "visibleMarginsAbove16": [
+      20,
+      20,
+      21,
+      22
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgePixelsAbove16": null
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7195,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

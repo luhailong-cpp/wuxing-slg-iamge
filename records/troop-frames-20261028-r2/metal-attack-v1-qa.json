@@ -1,0 +1,258 @@
+{
+  "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png",
+  "sha256": "049aa3833389063598ab558c57f9df1317637637b084fddee29e89f79c793d49",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "format": "PNG",
+  "alpha": {
+    "zero": 1035056,
+    "one": 80390,
+    "semi": 537808,
+    "opaque": 0,
+    "min": 0,
+    "max": 254
+  },
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "requestedCell": [
+      512,
+      512
+    ],
+    "actualExactCell": [
+      512,
+      512
+    ],
+    "rounding": "nearest grid edge"
+  },
+  "cells": [
+    {
+      "index": 1,
+      "box": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          17,
+          9,
+          512,
+          512
+        ],
+        "1": [
+          83,
+          92,
+          444,
+          488
+        ],
+        "16": [
+          85,
+          94,
+          441,
+          485
+        ]
+      },
+      "alpha16HeightRatio": 0.763671875,
+      "alpha16BottomRatio": 0.947265625,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "ff5be53f2c992a9d40547ed03c5574050d7f0ad797b9adf9b2a01a3f552cac1b"
+    },
+    {
+      "index": 2,
+      "box": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          18,
+          512,
+          512
+        ],
+        "1": [
+          75,
+          108,
+          463,
+          487
+        ],
+        "16": [
+          75,
+          110,
+          461,
+          485
+        ]
+      },
+      "alpha16HeightRatio": 0.732421875,
+      "alpha16BottomRatio": 0.947265625,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "bf52d3c2b75be1598064e0630f6f4aae3c3630b12f4f5932cc07eec2e8ea59a7"
+    },
+    {
+      "index": 3,
+      "box": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          15,
+          502,
+          512
+        ],
+        "1": [
+          98,
+          93,
+          456,
+          488
+        ],
+        "16": [
+          101,
+          95,
+          454,
+          485
+        ]
+      },
+      "alpha16HeightRatio": 0.76171875,
+      "alpha16BottomRatio": 0.947265625,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "3f3c0330fa16609afedc8d8841a33ee963c76c4c0b4fbcf88d47ef6ebb228080"
+    },
+    {
+      "index": 4,
+      "box": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          0,
+          512,
+          512
+        ],
+        "1": [
+          63,
+          71,
+          488,
+          452
+        ],
+        "16": [
+          65,
+          73,
+          486,
+          450
+        ]
+      },
+      "alpha16HeightRatio": 0.736328125,
+      "alpha16BottomRatio": 0.87890625,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "2803af3098484f3fe0383d971a5940ee12ab088a15690ec79454e3c522413c30"
+    },
+    {
+      "index": 5,
+      "box": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          1,
+          512,
+          512
+        ],
+        "1": [
+          63,
+          83,
+          494,
+          458
+        ],
+        "16": [
+          65,
+          86,
+          491,
+          455
+        ]
+      },
+      "alpha16HeightRatio": 0.720703125,
+      "alpha16BottomRatio": 0.888671875,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "b69b296847d517794abfa8d27d853250abcb419a820522f522a680826ae7fca0"
+    },
+    {
+      "index": 6,
+      "box": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          0,
+          498,
+          512
+        ],
+        "1": [
+          90,
+          66,
+          447,
+          462
+        ],
+        "16": [
+          92,
+          69,
+          446,
+          458
+        ]
+      },
+      "alpha16HeightRatio": 0.759765625,
+      "alpha16BottomRatio": 0.89453125,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "33c3c0062ffb8457b760c32b2ed6af15fb305ed6c0c57c0c2f8fbd5426b4d1bc"
+    }
+  ],
+  "nativeUnmodified": true,
+  "rootPivot": "not manually accepted",
+  "formalAnimationApproved": false,
+  "visualReview": {
+    "viewed": [
+      "native original",
+      "full light composite",
+      "full dark composite"
+    ],
+    "identity": "Candidate identity retained: silver/gold/jade metal troop, screen-left sword and screen-right shield",
+    "alphaVisual": "Composites show clear background on light and dark; native preview RGB backdrop is not alpha-composited truth",
+    "distinctPoses": "Six different guard/anticipation/wind-up/slash/follow-through/recovery poses visible; no reverse playback used",
+    "blockingFindings": [
+      "Native sheet did not honor target body scale 64% or foot plane 82%; requires geometry correction and root validation",
+      "Across-row foot baseline drift; attack frame4 feet orientation differs and needs root review"
+    ],
+    "status": "candidate_selected_for_native_frame_review_not_formal_accepted",
+    "additionalReview": [
+      "256px frame grid with shared proposed root marker"
+    ],
+    "poseWarnings": [
+      "Frame4 changes both foot spread/orientation and stance center relative to first frame; frame5 remains forward, frame6 returns toward guard",
+      "Top-row foot plane485, bottom-row450/455/458 is an approximately27–35px source baseline discrepancy; shared registered extraction preserves it",
+      "Blade and shield hands remain screen-left/screen-right; no duplicated limb, cut-off blade or baked FX found at inspected sizes"
+    ],
+    "followup": "Parent directed native target-margin deviation remain WARN, no extra generation solely for padding; physical-root and temporal acceptance remain open."
+  }
+}

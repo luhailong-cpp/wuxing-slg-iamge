@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+  "sha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+  "generatedAt": "2026-10-27T16:35:33.236Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T16:32:33.315Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/capture-circle.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/fx-animation/capture-circle-sheet-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未披露实际型号/画质/独立resultId。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-sheet-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-sheet-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d7c-4072-7cb3-a85a-2aa1f621b245/exec-c6582e52-4a86-4648-96c8-946b9c9a74a9.png",
+      "sha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/fx-animation/capture-circle-sheet-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "sha256": "40c0df3f582e47b42cae33a66adb0e18110dc597aa365c88bd96eecf95d88ca4",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v1.png",
+      "sha256": "83edffc97dea578bbfcc43164c9cfe5ea53549824fb4b449f4634a105b1ea870",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 792349,
+    "semiTransparentPixelCount": 781189,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "占领光圈八相位AI边距修订母表；待原生注册padding与QA",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T16:36:52.959908+00:00"
+}

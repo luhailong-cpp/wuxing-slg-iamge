@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "scope": "Current-contract foundational candidate only: UI36/map33/native troop emblems5",
+  "nineSliceDecision": {
+    "candidateBorderPx": {
+      "left": 128,
+      "bottom": 90,
+      "right": 128,
+      "top": 90
+    },
+    "generalTwoAxisResizingAccepted": false,
+    "native500x204": "Viewed complete contours, no visible clip or neighboring fragment",
+    "horizontal900x204": "Fixed corners and gold frame preserved in actual isolated render; paper/cloud center stretch visible; horizontal-only candidate evidence atheight204",
+    "vertical500x300": "Rejected for primary/secondary/tab ornament deformation; cardrow4 paper/edge textures visibly stretch and remain unaccepted",
+    "verticalRejectedAssetIds": [
+      "button-primary-normal",
+      "button-primary-pressed",
+      "button-primary-disabled",
+      "button-primary-hover",
+      "button-secondary-normal",
+      "button-secondary-pressed",
+      "button-secondary-disabled",
+      "button-secondary-hover",
+      "tab-selected",
+      "tab-normal",
+      "tab-locked",
+      "tab-notification"
+    ],
+    "cardRowUnacceptedIds": [
+      "card-row-normal",
+      "card-row-selected",
+      "card-row-disabled",
+      "card-row-empty"
+    ],
+    "usageConstraint": "Keep these16 control candidates at native204px height unless separately redesigned or validated. Width500 and900 were tested; continuous range andotherdimensions not certified. Separating ornaments from stretchable center would be a future art/layout change.",
+    "nineSliceVerifiedInClient": false
+  },
+  "previousEvidence": {
+    "file": "records/01-率土之滨/runtime-ui-v2-unity-final-review-20261027.json",
+    "sha256": "f03197baa9a9cc658566c623fc0bc194c4c26f1ec291ab5799539b8de3a6dcfe"
+  },
+  "sourcePngAndBorderIdentityToThatEvidencePreserved": true,
+  "newGpuValidationPerformed": false,
+  "iconsAndPanelsHaveZeroSliceBorders": true,
+  "mapLimits": {
+    "seamlessTilingVerified": false,
+    "collisionVerified": false,
+    "navigationVerified": false,
+    "originalReceiptGaps": "v2 native images were recovered; original complete tool response and precise call completion time are unavailable. See unchanged generation records."
+  },
+  "emblemLimits": [
+    "Native five-element emblems classify troops only; no general affiliation is assigned.",
+    "Native alpha1 remains and source safe-frame limitations remain."
+  ],
+  "clientIntegrated": false,
+  "userApproved": false
+}

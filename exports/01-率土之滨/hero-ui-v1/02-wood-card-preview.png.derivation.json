@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+  "sha256": "e9b646158a52677180f349189b1f90dcf7566dc32cd3f3760a0c87f65c600444",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "02-wood",
+  "element": "wood",
+  "variant": "card-preview",
+  "identityPreservedFromMaster": "brown bun, jade leaf hairpiece and leaves; green ivory robe, leaf staff in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "record": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "recordSha256": "dd3800dfd429174d906029509e7bed4eef1810ec4607c0185e5a082e0bb041f7"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "resizeScaleNominal": 0.6875,
+  "actualScaleXY": [
+    0.6875,
+    0.6875
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    768,
+    1152
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    402,
+    438,
+    701,
+    700
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 590813,
+    "alpha1PixelCount": 12443,
+    "alphaSemiPixels": 292618,
+    "alphaOpaquePixels": 1305,
+    "bboxAbove16": [
+      116,
+      185,
+      710,
+      1019
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 12443,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

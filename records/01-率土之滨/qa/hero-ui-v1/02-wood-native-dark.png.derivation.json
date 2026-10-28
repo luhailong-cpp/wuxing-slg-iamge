@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/02-wood-native-dark.png",
+  "sha256": "22c07d6e0b273424aa728d9b5168764cd4353edadb295fcaad08b81a4ed5b295",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 1,
+    "backgroundRGBA": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "width": 1610,
+  "height": 970,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "sha256": "6593beb5cbebfb41b6e48c00b2952a439a19263d5428009f0e384374a7ea7594",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "sha256": "f6e4cfad8cdb9e3cbad46d88f7bc5ef8435892d47cf567cbc81a34026e3c7c27",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

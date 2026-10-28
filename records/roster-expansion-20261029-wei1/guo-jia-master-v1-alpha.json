@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+  "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alphaMinMax": [
+    0,
+    254
+  ],
+  "alphaZero": 788613,
+  "alphaOne": 19783,
+  "semiTransparent": 784251,
+  "alphaOpaque": 0,
+  "bboxAlpha16": [
+    56,
+    124,
+    982,
+    1466
+  ],
+  "marginsAlpha16": [
+    56,
+    124,
+    42,
+    70
+  ],
+  "bboxAlpha1": [
+    51,
+    122,
+    984,
+    1468
+  ],
+  "edgeAlpha16Pixels": 0,
+  "sourcePixelsModified": false,
+  "alphaHygiene": "none",
+  "qaViews": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/guo-jia-master-v1-light.png",
+      "sha256": "87bb7530fc8915511c0ef65de8a5dd398a6f2672591d88755762bd9488721511",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        245,
+        239,
+        222,
+        255
+      ],
+      "qaOnly": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/guo-jia-master-v1-dark.png",
+      "sha256": "c2a975e7f95fcfb4fd2ee02d72a26a8fda9f5e3f1a06ac96e31d2bbf16543866",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        28,
+        43,
+        48,
+        255
+      ],
+      "qaOnly": true
+    }
+  ]
+}

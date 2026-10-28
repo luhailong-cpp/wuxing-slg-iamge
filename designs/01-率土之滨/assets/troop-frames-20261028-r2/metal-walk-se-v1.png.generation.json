@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-walk-se-v1.png",
+  "sha256": "bafb4025ff5b82babba9f4ccfac7a04d6b414bcd2634400292e0b14dc9a4a57f",
+  "generatedAt": "2026-10-29T03:07:37.869Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": "exec-6d0cc2e8-0f38-4360-92fa-04b7c9acc2cb",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: identity-preserve\nAsset type: DIRECTLY IMAGE-GENERATED character walk pose sheet for 五行问鼎. This is not a video and not an FX sheet.\nImage 1 is the exact existing GOLD / METAL ordinary soldier master: preserve the same face, body proportions, silver-ivory helmet with gold trim and off-white plume, green jade gems, teal under-tunic, ivory trousers, gold-edged silver armour, small curved saber in the same hand (screen-left in the neutral pose) and oval silver-and-gold shield in the same hand (screen-right). Images 2 and 3 are authoritative hand-painted art style references only; do not copy their UI, scenery, characters, lettering or props.\nCreate one transparent RGBA PNG sprite sheet with EXACTLY 8 complete full-body poses, 4 equal columns and 2 equal rows, row-major chronological order. Prefer 2048x1024 canvas and equal square cells; each full unit including plume, blade and shield must remain in its own cell with at least 12% empty margin. Native crisp HD hand-painted detail, smooth antialiasing, no pixel-art treatment.\nFixed three-quarter elevated isometric game view facing southeast / down-right, matching the master. Camera, facing, handedness, costume and anatomical size stay identical across all cells. No mirror, no turn toward camera or away, no armour morphing. All 8 bodies have the same height and head scale with only small intentional walking bob; NEVER fit each pose to the bounds independently.\nAction is a grounded marching WALK IN PLACE, one complete two-step cycle. Keep the hip/root at the same x coordinate and projected ground position in each cell; legs and arms articulate around it. The NEAR leg is the leg nearer the viewer, screen-right in the neutral pose, and the FAR leg is farther from the viewer, screen-left. Sword and shield stay attached to their original hands with restrained counter-swing.\nCell 0: NEAR heel reaches forward/down-right to contact, FAR foot trails.\nCell 1: weight settles onto NEAR planted leg, knee softly compressed, FAR heel lifts.\nCell 2: FAR foot passes beneath the hips while NEAR supports, limbs clearly distinct.\nCell 3: FAR foot advances for contact, NEAR toe pushes from behind, one foot still planted.\nCell 4: FAR heel leads forward/down-right to contact, NEAR foot trails; clearly opposite leading leg to cell 0, never a duplicate/mirror of cell 0.\nCell 5: weight settles onto FAR planted leg, NEAR heel lifts.\nCell 6: NEAR foot passes beneath hips while FAR supports; clearly opposite support to cell 2.\nCell 7: NEAR foot advances toward next contact so the sequence returns naturally to cell 0.\nAt least one sole touches the shared imaginary ground plane in every frame, no flight, no hopping. Feet must visibly alternate so this is not eight tiny variations of the same stance. Keep space between legs when possible; do not hide all phases behind shield.\nNo motion trails, strike effects, shadows, ground, floating sparks, disconnected equipment, duplicates, labels, numbers, borders, grid lines, checkerboard or UI. The surrounding pixels must be truly transparent. Do not render any part outside its assigned cell.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "request": "records/troop-frames-20261028-r2/metal-walk-request-v1.json",
+    "sourceToolFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-6d0cc2e8-0f38-4360-92fa-04b7c9acc2cb.png"
+  },
+  "unverifiedReason": "宿主管理，未披露实际型号/质量",
+  "prompt": "prompts/01-率土之滨/troop-frames-20261028-r2/metal-walk-se-v1.prompt.txt",
+  "references": [
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "role": "exact_identity_master"
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative_style"
+    }
+  ],
+  "status": "needs_spacing_and_opposite_lead_review",
+  "userApproved": false
+}

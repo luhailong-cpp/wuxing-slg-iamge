@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callPreparedAt": "2026-10-26T11:29:15.849Z",
+  "promptFile": "prompts/01-率土之滨/07-fortress-ui-v1.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: One complete landscape game UI concept, approximately 21:9, native high-detail raster generation.\nPrimary request: Make a complete frontier fortress management screen with title exactly “要塞”. It must be a SMALL frontier fort, visibly much smaller and simpler than a city.\nInput reference roles: Image 1 mail UI and Image 2 team UI are the PRIMARY visual style authorities: rounded jade green and ivory hand-painted UI, warm gold filigree, clear dark green Chinese. Image 3 our strategic world map supplies scenery and HUD continuity. Image 4 supplies curved jade roofs, stone construction and Daoist architecture MATERIALS ONLY; do not copy its large-city scale or layout. This is a new whole screen, not a collage or sheet.\nScene: Bright clean daylight; left and middle 70% show one compact remote frontier stone fort in an elevated isometric view. Exactly one stout central watchtower with jade roof, a low rough gray stone perimeter, two small simple lodging huts, a supply shed, flagpole, water barrel and a few crates. A modest wooden practice dummy beside the supply area. Only a few friendly chibi guards, not a large army. A single clear open gate leads through a short connected gray stone courtyard path to a winding road into distant mountains. Thin grassy fringe and small trees hug the walls, no trees blocking paths. No farms, civic palace, markets, elaborate city districts or large drill plaza. The low buildings and empty surroundings make the limited scale immediately obvious. Small red lanterns hang by the gate and a little tai chi emblem on the tower. Background: calm green foothills, lightly misty Daoist mountains; no dark military realism. Moderate details, clean separation, readable architecture.\nLayout: Full landscape screen with safe margins. Slim ivory resource strip across upper-left; centered green jade-and-gold title “要塞”. Right 25% ivory parchment information panel with gold trim. Upper-right small round close button. Lower-left ivory secondary button “返回大地图”. Rounded hand-painted forms, coherent alignment and generous whitespace. No labels pasted onto buildings.\nRight panel exact Chinese:\nHeader “边地据点”\nrow “状态” with “稳固”\nrow “驻军” with “1 / 2”\nOne occupied troop row with distinct small friendly chibi portrait:\n“第一部队”\n“待命”\nOne clearly empty troop row with plus sign and “空闲席位”\nA short hint “可驻守与调动”\nTwo substantial controls horizontally: jade green “调动”, ivory “驻守”.\nLower subsection title “据点设施”\nThree small illustrated cards labeled “岗楼” “营舍” “补给”.\nUse only these short sample labels; no official level numbers, no specific game logo, no city-building research tree, no large military city interior.\nUpper resource strip three groups exactly: “木材 12.8万” “铁矿 10.6万” “粮草 15.2万”.\nStyle: Match the exquisite Daoist Q/chibi HD hand-painted finish of references 1 and 2: jade/teal roofs, ivory silk-paper panel surfaces, warm gold fine borders, restrained cinnabar tassels. Rounded approachable chunky architecture, soft painted light and shade, subtle stone and wood texture. Friendly big-headed short-bodied guards. Keep the fortress physically small while the screen illustration remains rich and polished. Bright daylight and natural pale gray stone ground. Crisp readable Chinese. No realistic war skin, no black metal UI, no plastic toy sheen, no blur, no photorealism, no collage, no watermark. Opaque background.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png"
+    ],
+    "transparent_background": false
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "modelTarget": "gpt-image-2.5-sunburst",
+  "qualityTarget": "max"
+}

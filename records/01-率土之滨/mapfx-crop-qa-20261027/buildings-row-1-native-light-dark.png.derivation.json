@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/mapfx-crop-qa-20261027/buildings-row-1-native-light-dark.png",
+  "sha256": "83fe6843fc84ea4edc82a42348ca24a22ea349742d3824552f25c3befce263cf",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "purpose": "visual_QA_only_not_runtime_art",
+  "operation": "crop_then_alpha_composite_on_two_constant_QA_backgrounds",
+  "resampled": false,
+  "alphaBackgroundsRGB": [
+    [
+      245,
+      241,
+      230
+    ],
+    [
+      28,
+      38,
+      44
+    ]
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/02-buildings-sheet-v2.png",
+      "sha256": "0135bb06246eaaee81af0cc10849083d517a0ed494e55abfe1a213427d725b49",
+      "cropBox": [
+        0,
+        35,
+        386,
+        390
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/02-buildings-sheet-v2.png",
+      "sha256": "0135bb06246eaaee81af0cc10849083d517a0ed494e55abfe1a213427d725b49",
+      "cropBox": [
+        386,
+        35,
+        746,
+        390
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/02-buildings-sheet-v2.png",
+      "sha256": "0135bb06246eaaee81af0cc10849083d517a0ed494e55abfe1a213427d725b49",
+      "cropBox": [
+        746,
+        35,
+        1087,
+        390
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/02-buildings-sheet-v2.png",
+      "sha256": "0135bb06246eaaee81af0cc10849083d517a0ed494e55abfe1a213427d725b49",
+      "cropBox": [
+        1087,
+        35,
+        1448,
+        390
+      ]
+    }
+  ],
+  "sourcePixelsUnchangedInRuntimeExports": true,
+  "note": null
+}

@@ -1,0 +1,70 @@
+{
+  "schema": "wuxing.unity-map-assembly-diagnostics.v1",
+  "logs": [
+    {
+      "localRawLogName": "source-build-playmode-attempt2-raw.log",
+      "rawLogSha256": "6c960c4cf34e85f1f41e3df18f8814062e74286da4f7a9ac43f4fd2521aa55f9",
+      "rawLogPolicy": "local-only work log; no licensing/auth/session lines published",
+      "compilerErrors": [],
+      "compilerWarnings": [
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "runtimeExceptions": [],
+      "unityBatchExitedSuccessLinePresent": false,
+      "assemblyReloadObserved": true
+    },
+    {
+      "localRawLogName": "fresh-project-import-raw.log",
+      "rawLogSha256": "79e29dc533d46fa88143148a0cbef92b5d1db12313f9d88a80d992ef49d57d43",
+      "rawLogPolicy": "local-only work log; no licensing/auth/session lines published",
+      "compilerErrors": [],
+      "compilerWarnings": [
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+        "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "runtimeExceptions": [],
+      "unityBatchExitedSuccessLinePresent": false,
+      "assemblyReloadObserved": true
+    }
+  ],
+  "noCompilerErrors": true,
+  "noRecordedRuntimeExceptions": true,
+  "initialDependencyFailure": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/attempt1-dependency-failure.json",
+    "sha256": "e18f92106ea7036111f2d05dfa5ba54415e0faf01fb558962ed84e4e7636e4ab"
+  },
+  "fix": "Removed nonexistent inputlegacy package entry; actual installed InputLegacyModule DLL and minimal existing package set used. No font/framework/package download added."
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "batch": "roster-expansion-20261030-qun1",
+  "selectedPeople": [
+    {
+      "id": "dong-zhuo",
+      "name": "董卓",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "sha256": "700bdfdca876e958baa43a74015343fc7a6b131bc27fa4002380c506d2f45734",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png.generation.json"
+    },
+    {
+      "id": "yuan-shao",
+      "name": "袁绍",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "sha256": "18608bcbf1414b7349f7278beb261b32af7d118b365edb8c95384670df596f4b",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png.generation.json"
+    },
+    {
+      "id": "zhang-jiao",
+      "name": "张角",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "sha256": "299a6efd0faf8e1b125eed3318651ff38a3927cb207251f830b4dcc2b32681d8",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png.generation.json"
+    },
+    {
+      "id": "zhang-bao",
+      "name": "张宝",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "sha256": "8b5b8f8a5e1a293950f914d81d48f1f6fef1c287470916f2506c2ad2c11e6f25",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png.generation.json"
+    }
+  ],
+  "generalCount": 4,
+  "uiDerivatives": 20,
+  "fullGameArtComplete": false,
+  "qualityWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "value": 10464,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "value": [
+        0.029296875,
+        0.051432291666666664,
+        0.017578125,
+        0.080078125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "value": 23446,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "value": [
+        0.0947265625,
+        0.059244791666666664,
+        0.0458984375,
+        0.046223958333333336
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "value": 22686,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "value": [
+        0.041015625,
+        0.09114583333333333,
+        0.025390625,
+        0.07942708333333333
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "value": 16932,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "value": [
+        0.0224609375,
+        0.13151041666666666,
+        0.041015625,
+        0.09440104166666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "review": {
+    "actualNativeImagesViewed": true,
+    "lightDarkContactSheetsViewed": true,
+    "fullFigurePropsObservedComplete": true,
+    "sourceSolidEdgeContacts": 0,
+    "portraitWindowAdjustment": "Zhang Jiao face window narrowed to exclude cut staff fragments",
+    "nativeAlphaPreserved": true,
+    "userApproved": false
+  }
+}

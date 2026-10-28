@@ -1,0 +1,269 @@
+{
+  "createdAt": "2026-10-29T05:28:59.983Z",
+  "images": [
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-contact-review.png",
+      "sha256": "65fbb4f587108b1abee7a835019f809baebbba5306fc81e2f9022dd5304f628d",
+      "operation": "manually selected source boot/knee ROI crop, nearest2x display with measured contact points",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-dark-aligned.png",
+      "sha256": "98ea1a1c12f3d8b4d9467b2710ece18694621396c5c552037ca17c9aabeeda57",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-feet-measure.png",
+      "sha256": "5b0efd189addc1b72d0fb71bf23cc858a8121803bd2af460ef3eb14e4f3bd5e0",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-head-measure.png",
+      "sha256": "84225ae0f579ede54205e66534ae8dba699acd411db2bf6a89f19c011e0f6bdd",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-helmet-review.png",
+      "sha256": "e2ae63355b6010134b8930d689e452a10161924a53fdbb602c4523378c8c7242",
+      "operation": "neutral source helmet crop and manually measured x landmark markers",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-light-aligned.png",
+      "sha256": "4d2011001131059c1fbe26f9ae5e08605fa59a6a9b99b79a50b6b0171283293d",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-attack-map128h-aligned.png",
+      "sha256": "600134c28cc2ccb4fe023220f2ad9bdf10f6fcb7db42da36e2a411a7f7378df9",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-contact-review.png",
+      "sha256": "e74e50ee715b307281c0e28cb57b72b83963e7616ce2cd1fe3a9050dbedafffd",
+      "operation": "manually selected source boot/knee ROI crop, nearest2x display with measured contact points",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-dark-aligned.png",
+      "sha256": "6a1b6f4fe5544985678559a2e2e4c9cbe8c3c95db817d228acfcb1ab55626b3f",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-feet-measure.png",
+      "sha256": "ca623c10f8b12590651abcb25db033810658e27e86ed51cbb27309dedba65d35",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-head-measure.png",
+      "sha256": "5e171adf534c5ada923a45d707d697255e3732238132f1e7fe1a5d3327c9c2a1",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-helmet-review.png",
+      "sha256": "d838ce91d698ae7945d5ac736020defe00e0d408bd54442f2134a1805837c9d7",
+      "operation": "neutral source helmet crop and manually measured x landmark markers",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-light-aligned.png",
+      "sha256": "e7cb69d79e446023d1a00560aa5dfe0c6e64aae47f0f9da3bd284424a18984f7",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-defeat-map128h-aligned.png",
+      "sha256": "3658cb2e59b27b96165df3d0854a952d9b11744f22c1abd050c41c275daef864",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-contact-review.png",
+      "sha256": "ec2e6ba7846fd731facf9818743fb67cf2b0b4618a5bd502ab538ca2cc702562",
+      "operation": "manually selected source boot/knee ROI crop, nearest2x display with measured contact points",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-dark-aligned.png",
+      "sha256": "f332948a6c8ffd7403cae400d047a1c47ebabb391abe9778bd63ad397cc34418",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-feet-measure.png",
+      "sha256": "c291ef6fa5dc84e942e4045913caca34ef134e75d787ebb2a09cf31ff3bc40b6",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-head-measure.png",
+      "sha256": "b45534811bdade4cc9b1d9c0f131668bed932621108dce09c7bb80c779204f94",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-helmet-review.png",
+      "sha256": "8605c85f5fe3e47a20f4bed0f860d7b740f8d157583f8f00a63faa38f9eb3cac",
+      "operation": "neutral source helmet crop and manually measured x landmark markers",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-light-aligned.png",
+      "sha256": "2cd7c452bafbc11dcd68921774014b05969d76f0223f96b8c8b499152025cbc4",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-hurt-map128h-aligned.png",
+      "sha256": "ca546a649ccd4129f3ddec9ed6c7090d91adb6ae980fc1f69ee60d2ad02c6aa9",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-contact-review.png",
+      "sha256": "6546a0ffcac745e453642adac5524571c60fb29d1bbc3f0ef2685433bf3e4efc",
+      "operation": "manually selected source boot/knee ROI crop, nearest2x display with measured contact points",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-dark-aligned.png",
+      "sha256": "a78ead78aac5f7e2debdb423a0a6c749280581fd54b0f3e6e99ae46c14136971",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-feet-measure.png",
+      "sha256": "67669ae747595c1040c335fc445f51a6349d3e053b4f09cbfcf2681fcb333dec",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-head-measure.png",
+      "sha256": "fe29a9fabc0f10dc86e50da2c73294772b8437f3ddc151840a09c88d865667ce",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-helmet-review.png",
+      "sha256": "813c785eb911f5cd0e726c28839c29ce58c0d3d3fb12bfadbec2198cc70ba40e",
+      "operation": "neutral source helmet crop and manually measured x landmark markers",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-light-aligned.png",
+      "sha256": "e1cb81cd4c8014b4e684a8f222e38be650c926e281a1918418c8c46190f93016",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-idle-map128h-aligned.png",
+      "sha256": "44a860590881c844506e093c281b97330d2c0736c1b965b8802b6e4503de1955",
+      "operation": "alpha composite + review-size display, shared root/contact markers and duration labels",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-master-measure.png",
+      "sha256": "b20ecfc8a94691d029761a41650333c4841fd6a78921c2772357b529cef32824",
+      "operation": "source image or cell crop alpha composite plus coordinate grid",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-master-scale-reference-128h.png",
+      "sha256": "9349d635e89e7cbc14e33b2e5c891ac24b8c8c0d5345bdcc72f31ea7a9817391",
+      "operation": "master full-source premultiplied Lanczos resize plus transparent padding to shared reference canvas",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-ground-master-scale-reference.png",
+      "sha256": "bb6a8eaf7233c343537def90c9fae7831bc1d408139be6b4248f29619e258a21",
+      "operation": "master full-source premultiplied Lanczos resize plus transparent padding to shared reference canvas",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-grounded-20-overview-dark.png",
+      "sha256": "8208a2794eac1c2af2d142035c7b43e3549d82baf37c87baba115d7c23e783e7",
+      "operation": "same QA crop of map128h PNG + alpha-composite onto light/dark, root line and labels; no runtime frame modified",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-grounded-20-overview-light.png",
+      "sha256": "0ffb6ee8865ce3f5775105bfa673a46aee13836faa7ea4038bd4c216da4b92af",
+      "operation": "same QA crop of map128h PNG + alpha-composite onto light/dark, root line and labels; no runtime frame modified",
+      "sourceOfTruth": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "registration": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+      "purpose": "QA or reference only; not additional generated animation frames"
+    }
+  ]
+}

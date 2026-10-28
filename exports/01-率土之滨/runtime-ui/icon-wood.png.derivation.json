@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-wood",
+  "file": "exports/01-率土之滨/runtime-ui/icon-wood.png",
+  "sha256": "9f4edcbbe1dcbec3757922cdc2db77bd58525a5aa66e8db1f6e9ae4b95a70b24",
+  "width": 321,
+  "height": 276,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 34124,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      16,
+      45,
+      337,
+      321
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

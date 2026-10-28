@@ -1,0 +1,234 @@
+{
+  "schema": "generate2dmap.compose_audit.v1",
+  "status": "pass",
+  "method": "compose_layered_preview placement audit: actor feet by forge_nav rule N9 at the placement positions (with --bundle on the bundle's D2 blocking set in world pixels, else on the canvas, stage ground polygons and solid placement footprints, closed sets), prop feet as points in the walk area, solid footprints rasterised at pixel centres, occlusion from the draw-index owner map at alpha > 16.",
+  "notProven": [
+    "Feet are tested at the placement positions: actors with the forge_nav rules (centre and 8 footprint samples), on the bundle's blocking set with --bundle (D2), else on the canvas, stage ground polygons and solid placement footprints; props as points. Reachability between points is map_nav's job.",
+    "Overlaps are checked only between footprints from prop-pack manifests or placements; placements without a footprint are counted, not checked.",
+    "Occlusion is measured on the flattened preview at alpha > 16; runtime sorting, animation, camera, lighting and scale are not simulated.",
+    "The preview is not proof that the art reads well at gameplay scale; look at it."
+  ],
+  "checks": [
+    {
+      "id": "actor_feet_valid",
+      "status": "pass",
+      "value": {
+        "checked": 1,
+        "invalid": [],
+        "actor_radius_px": 8.0,
+        "y_squash": 0.6,
+        "model": "bundle",
+        "collision": "forge_nav D2 blocking set of map-bundle.json"
+      },
+      "threshold": "forge_nav rule N9: the foot and 8 footprint samples in the walk area and off every blocker (with --bundle the bundle's D2 blocking set, as map_nav.py judges it)"
+    },
+    {
+      "id": "actor_feet_off_placement_footprints",
+      "status": "pass",
+      "value": {
+        "checked": 1,
+        "actors": []
+      },
+      "threshold": "placement footprints are compose-only (the bundle's blocking set decides validity, D2); an actor standing in one is reported so the prop can be added to the bundle"
+    },
+    {
+      "id": "feet_in_walk_area",
+      "status": "pass",
+      "value": {
+        "checked": 3,
+        "outside": [],
+        "walk_area": "map-bundle.json collision.walkRegions"
+      },
+      "threshold": "foot inside a walk area"
+    },
+    {
+      "id": "bounds",
+      "status": "pass",
+      "value": {
+        "off_canvas": [],
+        "clipped": [],
+        "empty": []
+      },
+      "threshold": "visible pixels (alpha > 16) inside the canvas"
+    },
+    {
+      "id": "footprint_overlaps",
+      "status": "pass",
+      "value": {
+        "pairs": [],
+        "checked": 2,
+        "without_footprint": 2
+      },
+      "threshold": "solid footprints do not overlap"
+    },
+    {
+      "id": "duplicate_placements",
+      "status": "pass",
+      "value": [],
+      "threshold": "no two placements of the same image at the same point"
+    },
+    {
+      "id": "actors_visible",
+      "status": "pass",
+      "value": {
+        "hidden": []
+      },
+      "threshold": "no actor fully covered by later draws"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../../../exports/01-率土之滨/map-assembly-v1/scene-base.png",
+      "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0",
+      "bytes": 941213
+    },
+    {
+      "path": "../../../exports/01-率土之滨/map-assembly-v1/placements.json",
+      "sha256": "406883f12e08df430fb24a6bcc15f4cf6331a0920fdaa3f716aef2bf306b3bbc",
+      "bytes": 1766
+    },
+    {
+      "path": "../../../exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "bytes": 262705
+    },
+    {
+      "path": "../../../exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "bytes": 100896
+    },
+    {
+      "path": "../../../exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "bytes": 182209
+    },
+    {
+      "path": "../../../exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "bytes": 9664
+    },
+    {
+      "path": "../../../exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+      "sha256": "04aaf449c19c87b2ef699f0abd3cc73dc23a4d83879a6a57fac7dd8813b6da42",
+      "bytes": 8516
+    }
+  ],
+  "outputs": [
+    {
+      "path": "../../../exports/01-率土之滨/map-assembly-v1/assembled-preview.png",
+      "sha256": "c8ab834d7a8f80958434926f872e538282980545021a2489174ea208ecc27365",
+      "bytes": 1042600
+    }
+  ],
+  "tool": {
+    "name": "compose_layered_preview",
+    "version": "0.4.0"
+  },
+  "placements": [
+    {
+      "id": "city",
+      "kind": "prop",
+      "band": "world",
+      "draw_index": 0,
+      "foot": [
+        650.0719101123595,
+        307.5541561712846
+      ],
+      "visible_bounds": [
+        528,
+        104,
+        775,
+        306
+      ],
+      "foot_walkable": true,
+      "occluded_fraction": 0.0,
+      "footprint": {
+        "shape": "ellipse",
+        "cx": 650.07191,
+        "cy": 273.554156,
+        "rx": 82.0,
+        "ry": 30.0,
+        "rotate": 0.0,
+        "source": "placement",
+        "solid": true
+      }
+    },
+    {
+      "id": "representative-infantry",
+      "kind": "actor",
+      "band": "world",
+      "draw_index": 1,
+      "foot": [
+        750.0,
+        372.0
+      ],
+      "visible_bounds": [
+        721,
+        308,
+        780,
+        372
+      ],
+      "foot_valid": true,
+      "blocked_by": [],
+      "foot_checked": [
+        750.0,
+        372.0
+      ],
+      "in_placement_footprints": [],
+      "occluded_fraction": 0.0,
+      "footprint": null
+    },
+    {
+      "id": "bridge",
+      "kind": "prop",
+      "band": "world",
+      "draw_index": 2,
+      "foot": [
+        751.2754491017964,
+        621.0986666666666
+      ],
+      "visible_bounds": [
+        585,
+        385,
+        916,
+        618
+      ],
+      "foot_walkable": true,
+      "occluded_fraction": 0.3498483823271433,
+      "occluded_by": [
+        "enemy-camp"
+      ],
+      "footprint": null
+    },
+    {
+      "id": "enemy-camp",
+      "kind": "prop",
+      "band": "world",
+      "draw_index": 3,
+      "foot": [
+        849.8756684491979,
+        692.2906666666667
+      ],
+      "visible_bounds": [
+        725,
+        482,
+        975,
+        691
+      ],
+      "foot_walkable": true,
+      "occluded_fraction": 0.0,
+      "footprint": {
+        "shape": "ellipse",
+        "cx": 849.875668,
+        "cy": 657.290667,
+        "rx": 74.0,
+        "ry": 27.0,
+        "rotate": 0.0,
+        "source": "placement",
+        "solid": true
+      }
+    }
+  ],
+  "overlaps": [],
+  "walk_area": "map-bundle.json collision.walkRegions"
+}

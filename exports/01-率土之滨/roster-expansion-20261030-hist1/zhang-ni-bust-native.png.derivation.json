@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/zhang-ni-bust-native.png",
+  "sha256": "3c40b5a9225b71ad55284b597b496d6b6b0c456c34b74351c6c108729e6f40f3",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhang-ni-master-v1.png",
+    "sha256": "3c4dec8eefaed3987958f151898694a75d444d22b8801b5accec8b83c841fedf",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhang-ni-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

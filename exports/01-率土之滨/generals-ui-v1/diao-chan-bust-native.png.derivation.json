@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-bust-native.png",
+  "sha256": "fec7ef391bdd82467a52d176454102d86576d8eaeada20c24a7d2101bb79dcc0",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 975,
+  "height": 925,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "diao-chan",
+  "displayName": "貂蝉",
+  "variant": "bust-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/12-diao-chan-v1.png",
+      "sha256": "e5b261bf63011885b8e11b6bbdac8110cc815e85f9103fc5a7f957d63ee58418",
+      "record": "designs/01-率土之滨/characters/12-diao-chan-v1.png.generation.json",
+      "recordSha256": "8cbe515ab7a7813f2de161aefc35fb8382a9bb0d817b72806b44db1e4dd0a666"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    35,
+    95,
+    1010,
+    1020
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    975,
+    925
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    415,
+    320,
+    690,
+    555
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 349623,
+    "alpha1Pixels": 11136,
+    "semiTransparentPixels": 552252,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      7,
+      24,
+      950,
+      925
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      823
+    ],
+    "marginsAbove32": [
+      7,
+      24,
+      25,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-bust-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 11136,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-bust-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        35,
+        95,
+        1010,
+        1020
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-bust-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

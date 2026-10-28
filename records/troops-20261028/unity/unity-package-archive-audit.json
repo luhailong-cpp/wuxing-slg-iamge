@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-28T08:27:54.742920+00:00",
+  "package": "exports/01-率土之滨/five-element-troops-v1/unity/WuxingSLGFiveElementTroopsV1-20261028.unitypackage",
+  "sha256": "7b8bca0bd2f8651058e508a1fc1bb8d8fd2d63b237658a4e62070d873f9f7cfb",
+  "bytes": 6362008,
+  "exportRoot": "Assets/WuxingSLGFiveElementTroopsV1",
+  "archiveEntryCount": 58,
+  "pngCount": 20,
+  "byteVerifiedPngCount": 20,
+  "byteVerifiedDerivationCount": 20,
+  "packageContainsOnlyItsExportRoot": true,
+  "otherPackageComparisons": [
+    {
+      "package": "exports/01-率土之滨/fx-gpu-playback-v1/WuxingSLGFXGpuPlaybackDemo-20261027.unitypackage",
+      "sha256": "a211d36227f0bdb1b3c0770f4e06e3cbfc6f0cebbdbf4c5e22213744c97b71aa",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/generals-ui-v1/unity/WuxingSLGGeneralsUIV1-20261028.unitypackage",
+      "sha256": "082b2d918712f105e7610068bb765665f4d9d361379fe93809045cde46b5f7b1",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/hero-ui-v1/unity/WuxingSLGHeroSkillUIPreview-20261027.unitypackage",
+      "sha256": "86b9f91cee815fbc419d9cf537c0fcfcf1109ca9f48ce601acfe1cdd67693e65",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+      "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/map-depth-20261028/unity/WuxingSLGBridgeDepth-20261028.unitypackage",
+      "sha256": "0ed82dec8c6562e8c3198ecd4b11444e28be34efe461ce92ea39dcfc0e2732e7",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGArtPreview-20261027.unitypackage",
+      "sha256": "c7d20bb4a089da76dea0f412e7cb07e36fe77888b76ac222e265186396df411c",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGArtPreviewV2-20261027.unitypackage",
+      "sha256": "b0d8ce3ddd8d6077db01353a611853f6b6e2545264cd0a27b24f9d1d5ac27ed5",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    }
+  ],
+  "checks": [
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/metal/metal-native.png",
+      "guid": "33827905974ced743ade3be3fd912c11",
+      "kind": "png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.metal.native.json",
+      "guid": "f28ac6f2fd8143c42b8b44551d1e7d73",
+      "kind": "derivation",
+      "sha256": "77c734d4c4b62ed760f0d045b185b69fcaf3f5e0452fd4c1842c474727b0461f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/metal/metal-64h.png",
+      "guid": "98b45c26757578b4daf35f8120965a6e",
+      "kind": "png",
+      "sha256": "21471b8dacfa07da8601b9387b6cc5ab8e5773102821e4dd66f7228b8c0ea3d3",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.metal.64h.json",
+      "guid": "9b42f34eaf0eabf4ea43042dd58f1955",
+      "kind": "derivation",
+      "sha256": "92abfba48ada3790cdf180e1f63baa818d0ab1f7d3f480f8abe10a99af76d794",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/metal/metal-128h.png",
+      "guid": "b8750acd7fe1c0f49b3cffd2aacd92df",
+      "kind": "png",
+      "sha256": "79e9502cf049bfd1efb14e024a1105cb1b3ef52bb64a69dc30273167cc6479cd",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.metal.128h.json",
+      "guid": "7360ac65d79c0da44a1f52fe4cdc8341",
+      "kind": "derivation",
+      "sha256": "2742922e32945cdf8fd9dcd29fcd622cb3b7121a13f8b697db93f5bc7f0591d2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/metal/metal-icon128.png",
+      "guid": "806249c65a466624c9af6518da0c2faf",
+      "kind": "png",
+      "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.metal.icon128.json",
+      "guid": "c2906257dd76d2440bd99899a86fa495",
+      "kind": "derivation",
+      "sha256": "6edb588183031f34c1840aaabfde383e637282659594335940264f1673abb4e4",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/wood/wood-native.png",
+      "guid": "4d17271dcc3804a4080cceda9cc0d607",
+      "kind": "png",
+      "sha256": "94c417d03cdefc8ed2b8a7865d9c221de149968f8bb9f83a376c8d52c4475473",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.wood.native.json",
+      "guid": "ac522e84ba9eea9408e80efe6ef38cda",
+      "kind": "derivation",
+      "sha256": "ee44b04ecef7c9b0d719d0e4fcb86fa45808e6c65cdd5b0f17c957779e039b9a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/wood/wood-64h.png",
+      "guid": "1fd5f22bf03da2d4a98054e6ea919557",
+      "kind": "png",
+      "sha256": "6465b77af9b391fcbc61bcb787a0fb69b3e6cdda0a570cc56c87779f1ce7ee51",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.wood.64h.json",
+      "guid": "101a08bffe1d80d44ae78d036025862e",
+      "kind": "derivation",
+      "sha256": "59ade7c53ef5ef7e726f0f6f2171bec5d909511527888afa46a93cfe60052c0d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/wood/wood-128h.png",
+      "guid": "67a41b408ff6b614584e7cc3840c3541",
+      "kind": "png",
+      "sha256": "6ce6a8af0d2e69a4d36ec56eaa007fc27bbc32637b78fbaec3738ec0f119f239",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.wood.128h.json",
+      "guid": "ffc58dfcd9e31fc4aa844727da03fe77",
+      "kind": "derivation",
+      "sha256": "80e7e2b0b2944c2ff19b5b6a836d16b83036094cf6c04706672653b094a89132",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/wood/wood-icon128.png",
+      "guid": "2288697423efc1b44b11abee66e62434",
+      "kind": "png",
+      "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.wood.icon128.json",
+      "guid": "7798a4e080c75e24980d5df525366499",
+      "kind": "derivation",
+      "sha256": "a240ebc29ef3f0d2eb820baedc410d2e8c4fdb35a03e216ff711b3bea2224bd5",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/water/water-native.png",
+      "guid": "409a305e5fb9d244f8162e71f2ba5b9e",
+      "kind": "png",
+      "sha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.water.native.json",
+      "guid": "541787475aa1bc34c9f197c4f0cad7db",
+      "kind": "derivation",
+      "sha256": "2637d2474a76ce7ec244c5c7e2ee17715570c76b1d8c3067dc70a3e2db68e8cf",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/water/water-64h.png",
+      "guid": "edcdb7a32ebb950499280d3c50509e5e",
+      "kind": "png",
+      "sha256": "e28a19f5cbba2645e5b8c2be41f8459b9764faaa23254ee6e0e369f2a123a3ec",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.water.64h.json",
+      "guid": "75e044b41d4605b44b480bd0c200122c",
+      "kind": "derivation",
+      "sha256": "79b366bc1377f592157b760535f4cc89c76bb986088e5bbc1624929565b15efc",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/water/water-128h.png",
+      "guid": "d8cdc681eeed0af41ac794f316bfd6ca",
+      "kind": "png",
+      "sha256": "aa37d8fc034dfdf7969bdaffac019828d7d4833d4f958f7fd5271bcc49b37bcb",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.water.128h.json",
+      "guid": "79b71d4f39e605e47a718a2febfaa049",
+      "kind": "derivation",
+      "sha256": "d4f0beef9350df34f0dd6e68e0c51f494f563a5bff64966926066626c08fd68c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/water/water-icon128.png",
+      "guid": "61b0b28122f7984449bb57bc54403189",
+      "kind": "png",
+      "sha256": "43591f5bb31b1f6e8fe6c876a9c333c95631682971cb346b99274e914caea41c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.water.icon128.json",
+      "guid": "f70b18c4a9f132c438dc5e7a35925a74",
+      "kind": "derivation",
+      "sha256": "3dd8264ae09eb38246cd5c6f90e75f3d20c6ab18a62eaf7e0a2f5f3ee7718cdf",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/fire/fire-native.png",
+      "guid": "d87da0e854775b3428ccfef294a79a9a",
+      "kind": "png",
+      "sha256": "0f6d2516ef32c38a72d35999b2b3a467e26d425833e3f0db2f53194707364709",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.fire.native.json",
+      "guid": "eff0534f13016ac478efb3075e239631",
+      "kind": "derivation",
+      "sha256": "4bb94bc81c3dff8c90205ac39ef910f8ff3efd4685e5bb01026ccaf79dff6a9e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/fire/fire-64h.png",
+      "guid": "891a1d2addb2fee4793c0ac4be1240e2",
+      "kind": "png",
+      "sha256": "21296aa7baf3f1f093d38bb970f20b483f02e876310a254e6f3ffa6de9db02ce",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.fire.64h.json",
+      "guid": "2b8d22461da4d3148921a73ef5b8c7c5",
+      "kind": "derivation",
+      "sha256": "8601f2d03699bc6b025c05d1a67b02cc9709d48c1af864a5e8e12f7e410e522a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/fire/fire-128h.png",
+      "guid": "ee9ee4b883de4174a9df79624fede049",
+      "kind": "png",
+      "sha256": "0aefe09ac5fa8634dda1d2425cb46dd09cf5b20e62e70e4e597cb51a6fbc9950",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.fire.128h.json",
+      "guid": "a3c798581e6f3dd4c98f79970e348e0b",
+      "kind": "derivation",
+      "sha256": "5eb16ba9c9f0bae67d07ef33873be417841fe3268d7f4fb76375f69ebd3eeba7",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/fire/fire-icon128.png",
+      "guid": "c18212f423df2f44cbe30ac7d1cc73ae",
+      "kind": "png",
+      "sha256": "4af5f326c9ac2e9b9e1c7d6dd890802fe9b6852ee8739422065ec2d167e3def7",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.fire.icon128.json",
+      "guid": "d98f9bc2fa6fdb741afcfea209785839",
+      "kind": "derivation",
+      "sha256": "838b13337718580ac7c34e6dbe07e19f72eb4cad486d96a8a9fdc15681027e1d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/earth/earth-native.png",
+      "guid": "8afd6fe3788f3184b9b35dc0b3fe3aac",
+      "kind": "png",
+      "sha256": "d074b408413ce436484eee21e82ea76da291ff60b78c34600ccddd10dfa971da",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.earth.native.json",
+      "guid": "5515752509acaf04694120b443ffee90",
+      "kind": "derivation",
+      "sha256": "9921e23420f7ce4db734304e40e411fb831934017386f5265fcfd6af3e60acef",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/earth/earth-64h.png",
+      "guid": "64312b3fdefcd724bad91c59951e10cc",
+      "kind": "png",
+      "sha256": "1255800f7507e4856c1e48eb26f890f4a75ec4050060078f80bfe5ccd21af6b2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.earth.64h.json",
+      "guid": "39d34ad6adb98dd4da3507e95f9c5572",
+      "kind": "derivation",
+      "sha256": "c0b348e5f641413e41a675491d6fbe84fc6461ba8954d3c6cc649b2200a614a5",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/earth/earth-128h.png",
+      "guid": "c5555adbc9352f442bb8608dc90fa292",
+      "kind": "png",
+      "sha256": "ec9f85b369766768c608a4bb9ab9dbc7e78aafc38c0ecb69bfd72110e81cd972",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.earth.128h.json",
+      "guid": "80caa48c9e78424488d0ed916f5ebb1a",
+      "kind": "derivation",
+      "sha256": "d7802e375f80a697556bcde1b9c40f82ae6991f29a2c7e652cc03189804094cf",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Sprites/earth/earth-icon128.png",
+      "guid": "8ffc9eaec7e7bf941bc833c6ab9b7255",
+      "kind": "png",
+      "sha256": "1d8db03fb392e85dbe4ec65ebe76f1586e5656fc9f1b523741f3f4cd99f8c165",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGFiveElementTroopsV1/Provenance/Derivations/troop.earth.icon128.json",
+      "guid": "0d6548272b435514cb9f4de927b668cc",
+      "kind": "derivation",
+      "sha256": "3b6feccb70fae16141fe75f750abfa86f85c208a2278fc33716b0236bdce19d6",
+      "matchesSource": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,45 @@
+{
+  "assetId": "button-primary-normal",
+  "file": "exports/01-率土之滨/runtime-ui/button-primary-normal.png",
+  "sha256": "81a44101e25a7c32d37448189c321c9e8b25ac7ddbd39b5fd9bf40979af313af",
+  "width": 444,
+  "height": 222,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 53109,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "button-primary",
+  "state": "normal",
+  "nineSliceCandidate": {
+    "left": 100,
+    "top": 105,
+    "right": 100,
+    "bottom": 75,
+    "basis": "Provisional native crop pixels; do not stretch until rendered review"
+  },
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+    "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      0,
+      0,
+      444,
+      222
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

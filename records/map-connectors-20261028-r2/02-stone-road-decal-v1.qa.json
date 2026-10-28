@@ -1,0 +1,60 @@
+{
+  "schema": "wuxing.map-connector-visual-qa.v1",
+  "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/02-stone-road-decal-v1.png",
+  "sha256": "d9033b94f2bc01a30c978fb3e9ec054971fbb317ff3a1e4df69998e230aee438",
+  "nativeSize": [
+    1536,
+    1024
+  ],
+  "reviewedAt": "2026-10-29T03:52:54.645Z",
+  "review": "actual visual inspection of native output, light/dark alpha composites and assembled seam closeups",
+  "status": "DECAL_CANDIDATE_WITH_VISIBLE_JOINT",
+  "visualPass": [
+    "单条象牙石路、两侧细草边，无独立草地岛",
+    "浅深底均未见宽幅光晕；预览外围RGB不等于alpha实像",
+    "可按记录显示变换接向底板NW道路"
+  ],
+  "notPassed": [
+    "接缝处石板行列与颜色未完全连续，不是自动无缝道路",
+    "石路实际两排为主，未严格生成提示词的三列",
+    "长轴斜率约0.56并非精确0.5；禁止按等距网格自动连通",
+    "最高alpha254，不能描述为全不透明，客户端需按真实alpha接收"
+  ],
+  "usableAs": "单独道路贴片和人工装配候选",
+  "png": {
+    "file": "D:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\assets\\map-connectors-20261028-r2\\02-stone-road-decal-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "alphaZero": 1187352,
+    "alphaOne": 15704,
+    "alphaSemi": 385512,
+    "alphaOpaque": 0,
+    "alphaAtLeast240": 344642,
+    "alphaBoundsAny": [
+      0,
+      7,
+      1505,
+      1024
+    ],
+    "alphaBounds128": [
+      48,
+      152,
+      1498,
+      963
+    ],
+    "alphaMax": 254,
+    "alphaEdited": false,
+    "cornerAlphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "navigationTested": false,
+  "heavyToolsRun": false
+}

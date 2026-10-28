@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/troop-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.png",
+  "sha256": "7af390204fc5aa050f7ed83589af6d65795664d48894f057753ebf470a4740fe",
+  "generatedAt": null,
+  "generatedAtBasis": "Service-internal generation timestamp not disclosed; observed call completion retained separately",
+  "callStartedAt": "2026-10-28T12:01:15.742Z",
+  "callCompletedAt": "2026-10-28T12:03:14.232Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "bitDepth": 8,
+  "bytes": 3119124,
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Edit reference3, the original weapon-general recruitment entrance UI, keeping its same two-column currency recruitment layout. One complete landscape UI, target1915x821. References1/2 are the approved Daoist chibi jade/ivory/warm-gold UI style. Reference4 is ONE labelled contact sheet of historical general master images: upper row Liu Bei / Cao Cao / Sun Quan; lower row Zhao Yun / Zhuge Liang / Guan Yu. Use it ONLY for the four named identities below, not as a page to copy. Reference5 is the corrected historical-general roster consistency example, not the desired layout.\n\nThis is historical 三国武将 recruitment, NOT five-element hero summoning. Main top title EXACTLY \"武将招募\". Preserve back arrow upper left and close upper right. Top resource strip EXACTLY: coin icon \"铜钱 5000\" with plus, green jade token icon \"玉符 680\" with plus. These are currencies: a coin is allowed beside 铜钱 but must never masquerade as a metal troop symbol.\n\nLEFT PANEL title \"铜钱招募\". Replace the original anonymous red-hat boy and white-haired rabbit woman with clear historical general illustrations:\n- 刘备 on the left: tall narrow upright dark-green jade crown, long dark hair, thin moustache and short pointed goatee, jade/white robe and twin swords, matching contact-sheet upper-left.\n- 曹操 on the right: black/burgundy armor and robe, tied dark hair, dark moustache and goatee, firm expression and sword, matching contact-sheet upper-middle.\nUse refined chibi half-body portraits within the original image panel. Small readable nameplates \"刘备\" and \"曹操\" below their respective portraits within this illustration area. Do not add star ratings here.\nKeep the small button \"预览武将\" inside the lower-right of the panel image.\nBelow image: hourglass and \"下次免费 00:15:00\".\nBottom two enabled jade buttons:\n\"单次招募\" with coin icon and \"300\";\n\"五次招募\" with coin icon and \"1500\".\n\nRIGHT PANEL title \"玉符招募\". Replace the original anonymous spear and ice characters with:\n- 赵云 on the left: young clean-shaven face, high tied black hair, silver/jade armor, silver headpiece, spear with red tassel, contact-sheet lower-left.\n- 诸葛亮 on the right: tall broad dark-green scholar hat, subtle moustache/goatee, ivory/jade scholar robe, feather fan held visibly, contact-sheet lower-middle.\nSmall readable nameplates \"赵云\" and \"诸葛亮\" under their respective portraits. No star ratings.\nButton \"预览武将\" inside lower-right of image.\nBottom buttons:\nenabled jade \"单次招募\" with green jade token icon and \"200\";\ndisabled gray-brown \"五次招募\" with lock, green jade token icon and \"1000\".\nUnder disabled button in red EXACTLY \"玉符不足，还差320\".\n\nPreserve all amounts and consistent disabled state:680 owned versus1000 required =>320 missing. No speculative rarity chance, guaranteed-drop text, banners for specific factions, invented odds or new summon currency.\nDo not display 修士, 金行使, 木行使, 铸锋使, 五行英雄, 金系, elemental summon circles or elemental deity portraits. 五行 belongs to troop type labels; this source page has no troop selector, so do not force five new classification tabs onto it. Do not use bow/cavalry as troop categories. The four pictured generals are UI preview examples, not a gameplay pool eligibility claim; do not write technical/disclaimer notes into the artwork.\nKeep lettering crisp and Chinese accurate, names aligned with the right master portraits, generous readable button padding, consistent2-column layout and clear currency icons. No crossed text or clipped costs. Opaque full finished UI direction candidate, no art added outside the frame.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/35-recruit-entry-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v2.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/01-率土之滨/ui-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "width": 1931,
+      "height": 814,
+      "role": "Primary approved mail UI style",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "width": 1931,
+      "height": 814,
+      "role": "Primary approved team UI style",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/35-recruit-entry-ui-v1.png",
+      "sha256": "6ad63c435cfc096101f8c01558a6d0f74c15061adfaf07c342030dc43f8489a6",
+      "width": 1916,
+      "height": 821,
+      "role": "Original recruit entry edit target; retain currencies/two columns/states",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/ui/35-recruit-entry-ui-v1.png.generation.json"
+    },
+    {
+      "file": "records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png",
+      "sha256": "901d78dd28e06bf202f12ae304e348ec5e1e5ce9f788bcb1351c6b8376d45e00",
+      "width": 1536,
+      "height": 1640,
+      "role": "One derived six-general master identity contact sheet; not six independent image attachments",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png.derived.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v2.png",
+      "sha256": "701b21a9ea86ba761764584a189857d204a7c0ca0cefdb3d4c28b804470a8b96",
+      "width": 1915,
+      "height": 821,
+      "role": "Corrected historical general identity/visual consistency reference",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/ui/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v2.png.generation.json"
+    }
+  ],
+  "evidence": [
+    "records/ui-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.tool-request.json",
+    "records/ui-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.tool-response.json"
+  ],
+  "priorChecklistItem": {
+    "screenId": 35,
+    "title": "招募入口",
+    "priorCatalogSelection": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v3.png",
+    "priorCatalogSelectionSha256": "608232939668918bd3921459b878a304b4981d3df404db744328ff2463a6987b",
+    "correctionStatus": "correction_required",
+    "requiredAction": "撤回五系修士卡池和身份；用率土武将预览与原招募功能，五行仅兵种标识。原v1也需武将身份复核。",
+    "pixelRecheckedInThisBatch": false,
+    "newGenerationInThisBatch": false,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "fullStateCoverage": false,
+    "evidenceBasis": "prior catalog and recorded reviews; this batch did not re-view page pixels",
+    "suggestedRestoreOrEditBase": "designs/01-率土之滨/ui/35-recruit-entry-ui-v1.png",
+    "baseExists": true,
+    "baseSha256": "6ad63c435cfc096101f8c01558a6d0f74c15061adfaf07c342030dc43f8489a6"
+  },
+  "assetRole": "Full flattened UI direction correction candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullStateCoverage": false
+}

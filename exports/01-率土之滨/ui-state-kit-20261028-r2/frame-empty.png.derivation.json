@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-empty.png",
+  "sha256": "9aeea1ec5e36724950f0a163365e163f155738039b9978b0acef3d413e8eedda",
+  "derivedAtUtc": "2026-10-29T04:02:55.072007+00:00",
+  "width": 512,
+  "height": 512,
+  "mode": "RGBA",
+  "operation": "axis_aligned_rectangular_crop_only",
+  "cropBoxSourceXYXY": [
+    1024,
+    0,
+    1536,
+    512
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "record": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png.generation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "nativeSingleAsset": false,
+  "pixelValueIdentity": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alpha0": 91197,
+    "alpha1": 5161,
+    "alpha2to8": 3525,
+    "alpha255": 0,
+    "bboxAbove8": [
+      1,
+      105,
+      499,
+      459
+    ],
+    "edgePixelsAbove8": 0
+  },
+  "nineSlice": {
+    "defaultImportMode": "Simple",
+    "validatedInRuntime": false,
+    "suggestedBorderPxLTRB": [
+      128,
+      144,
+      128,
+      112
+    ],
+    "allowedStretch": "unvalidated_two_axis_candidate; Simple fixed512x512 is default",
+    "note": "Corner ornaments excluded from center; paper grain and inset cloud motifs may distort; text safe bounds require target-size review."
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

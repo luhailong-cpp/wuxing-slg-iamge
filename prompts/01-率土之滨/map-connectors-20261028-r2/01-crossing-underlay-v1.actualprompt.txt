@@ -1,0 +1,15 @@
+Create ONE production candidate transparent terrain underlay for the horizontal SLG game 五行问鼎. This is map art, no words, no UI, no characters. Native 4:3 canvas, target 1600x1200, true alpha outside the ground. Highest available native detail.
+
+REFERENCE ROLES, ordered exactly:
+1 and 2 are the approved Daoist chibi HD hand-painted game style references. Carry their elegant rounded forms, warm ivory stone, clean jade greens and meticulous soft painted rendering; DO NOT draw any UI panels, text, night sky, people, logos.
+3 is the existing finished arched bridge, camera/stone scale and material reference ONLY. The output MUST NOT contain the bridge, its posts, railings, arch, gourd finials, bridge bushes or duplicate bridge. An unchanged bridge sprite will be laid over this terrain later.
+4 is the existing continuous grass terrain reference for natural bright grass material and visual continuity. Match the grass and soft natural alpha perimeter; no stone ring, flower ring or separate floating island rim.
+5 is a data-only spatial layout guide, not an art style: keep its exact overall diamond, river direction, road entrance locations and open crossing space, replace its flat schematic colors with finished terrain painting.
+
+COMPOSITION CONTRACT in a 1600x1200 frame:
+Ground diamond corners approximately left(80,650), top(800,290), right(1520,650), bottom(800,1010), all inside safe transparent margins. Orthographic 2:1 isometric; no horizon, no vanishing point, no pedestal/diorama thickness.
+River runs from upper-right toward lower-left, open at both ends of diamond; crossing band follows the cyan guide. Calm jade-turquoise water with subtle clean painted ripples, no waterfall or foamy edge strip. Natural soft grassy banks slope gently into shallow water with a few small rounded stones away from crossing.
+Two broad warm light gray ivory stone road approaches follow the other diagonal, upper-left toward lower-right. NW road center from(440,470) to(656,578); SE road center from(944,722) to(1160,830). Each paved road has total apparent width ~145 px, matching the bridge stair width. Road paving ends square at the banks and extends a little onto the landing zone for overlap under a bridge's feet. Keep both landing zones completely clear: no rocks, raised curb, flowers, railings, reeds or plants interrupting walking line. The river remains open between the two roads—DO NOT draw any connecting bridge or paving across the water.
+Ground behind and in front stays naturally continuous grass. Include only sparse low stones/reeds toward far river ends, well away from bridge placement. No special elemental icons or military figures.
+
+RENDER: finished cohesive Daoist Q-version HD handpainted bright daytime terrain. Grass a tasteful green rather than neon yellow. Stone broad clean slabs with rounded wear, thin joints and warm ivory highlights to match reference bridge. Water gently luminous turquoise, unobtrusive surface texture. True alpha outside complete diamond; opacity solid through ground and water, no black fill, checkerboard, outer glow, labels or diagram markings.

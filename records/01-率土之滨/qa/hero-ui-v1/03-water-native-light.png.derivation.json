@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/03-water-native-light.png",
+  "sha256": "ab5288a3c3b5183b26be25f82acf22c54a0d17b72611ed5e553c01132ea38030",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 1,
+    "backgroundRGBA": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "width": 1805,
+  "height": 1010,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "sha256": "8a4dc832af751b11bf96f3cb1f0ef2363d4594251b156a1f694b268bc61f5f24",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "sha256": "94c3ad0bc149dadd0374900db1a401a432cec1332ecfab70e09d5cd02b7f5261",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

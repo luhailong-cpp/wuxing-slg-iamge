@@ -1,0 +1,4335 @@
+{
+  "schema": "wuxing-slg.grounded-frame-candidates.v1",
+  "status": "technical_registration_candidate_not_user_or_engine_accepted",
+  "game": "五行问鼎",
+  "character": "troop-metal",
+  "direction": "SE",
+  "userApproved": false,
+  "masterUserApproved": false,
+  "sourceRegistration": {
+    "file": "records/troop-frames-20261028-r2/metal-ground-registration-measured.json",
+    "sha256": "368d3ecff616ecb88fc781b5454f2cafcfb9eafce64838556d2805604c7302cf"
+  },
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "helmetWidthLandmarks": [
+      396,
+      993
+    ],
+    "helmetWidth": 597,
+    "headMeasurement": "outer rigid helmet including ear plates, excluding plume and shoulder armor",
+    "fullAlpha16Height": 1134,
+    "groundContactRois": [
+      [
+        455,
+        1050,
+        630,
+        1132
+      ],
+      [
+        796,
+        1100,
+        951,
+        1201
+      ]
+    ],
+    "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+    "nativeStats": {
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1019839,
+      "alphaOne": 10861,
+      "alphaSemi": 552128,
+      "alphaOpaque": 549,
+      "alphaNonzero": 552677,
+      "alpha0BBox": [
+        49,
+        27,
+        1214,
+        1254
+      ],
+      "alpha16BBox": [
+        167,
+        67,
+        1095,
+        1196
+      ],
+      "alpha16Height": 1129
+    },
+    "uniformScale": 0.3014354066985646,
+    "qaReference": {
+      "file": "records/troop-frames-20261028-r2/metal-ground-master-scale-reference.png",
+      "sha256": "bb6a8eaf7233c343537def90c9fae7831bc1d408139be6b4248f29619e258a21"
+    },
+    "mapReference": {
+      "file": "records/troop-frames-20261028-r2/metal-ground-master-scale-reference-128h.png",
+      "sha256": "9349d635e89e7cbc14e33b2e5c891ac24b8c8c0d5345bdcc72f31ea7a9817391"
+    },
+    "normalizedStats": {
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaZero": 997739,
+      "alphaOne": 633,
+      "alphaSemi": 49774,
+      "alphaOpaque": 1063,
+      "alphaNonzero": 50837,
+      "alpha0BBox": [
+        333,
+        436,
+        651,
+        784
+      ],
+      "alpha16BBox": [
+        351,
+        438,
+        631,
+        779
+      ],
+      "alpha16Height": 341
+    },
+    "mapStats": {
+      "size": [
+        384,
+        384
+      ],
+      "alphaZero": 139797,
+      "alphaOne": 169,
+      "alphaSemi": 7265,
+      "alphaOpaque": 394,
+      "alphaNonzero": 7659,
+      "alpha0BBox": [
+        129,
+        162,
+        239,
+        294
+      ],
+      "alpha16BBox": [
+        132,
+        164,
+        237,
+        292
+      ],
+      "alpha16Height": 128
+    }
+  },
+  "contract": {
+    "nativeCanvas": [
+      1024,
+      1024
+    ],
+    "nativeRoot": [
+      512,
+      768
+    ],
+    "nativeOperation": "whole source cell with integer translation only; exact RGBA bytes retained",
+    "sharedHelmetWidthTargetPx": 180,
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "normalRoot": [
+      512,
+      768
+    ],
+    "scalePerActionOnly": true,
+    "perFrameFit": false,
+    "resampler": "premultiplied Lanczos; no explicit alpha deletion or cleaning",
+    "alphaCaveat": "Original alpha is bit-for-bit preserved in native1024 frames. Downsampling changes samples/quantizes alpha normally; there is no alpha threshold edit, crop or removed component. The entire resized source rectangle is pasted and checked.",
+    "mapCanvas": [
+      384,
+      384
+    ],
+    "mapRoot": [
+      192,
+      288
+    ],
+    "mapScaleFromNormal": 0.375,
+    "map128hMeaning": "approximately 128px master standing silhouette; pose heights remain natural, knees/crouch never expanded",
+    "rootMethod": "manual boot/knee contact ROIs -> two contact points -> integer-rounded midpoint; each grounded frame registered separately",
+    "groundRootProofScope": "contact midpoint aligns; foot articulation/stance width are not redrawn"
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "source": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+      "rows": 2,
+      "cols": 2,
+      "sourceRecord": "records/troop-frames-20261028-r2/metal-idle-v2.generation.json",
+      "helmetWidthLandmarks": [
+        235,
+        435
+      ],
+      "helmetWidth": 200,
+      "headMeasureFrame": 1,
+      "loop": true,
+      "durationsMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "sourceSha256": "13005f21f1a5b4b77d57195e045fb64455ec5f9e2f37f19756ee6b2d518949c6",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "uniformActionScaleTo180Helmet": 0.9,
+      "uniformScaleRequested": 0.9,
+      "uniformScaleActual": 0.8995215311004785,
+      "normalizedHelmetWidthPx": 179.9043062200957,
+      "frameCount": 4,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              250,
+              432,
+              325,
+              474
+            ],
+            [
+              365,
+              453,
+              430,
+              500
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                250,
+                432,
+                325,
+                474
+              ],
+              "contactPoint": [
+                276,
+                470
+              ],
+              "solidBounds": [
+                256,
+                432,
+                325,
+                470
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                365,
+                453,
+                430,
+                500
+              ],
+              "contactPoint": [
+                402,
+                494
+              ],
+              "solidBounds": [
+                365,
+                453,
+                423,
+                494
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            339,
+            482
+          ],
+          "groundRootInteger": [
+            339,
+            482
+          ],
+          "registrationRoundingError": [
+            0,
+            0
+          ],
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "423855c5a88256b7ec72f89ab09830c1ffacd73867883965350ff70d1c50a8f8",
+          "nativeTranslation": [
+            173,
+            286
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/native1024/idle-01.png",
+            "sha256": "926edd337c8c15c961b36289bedfacf6081b20616b6f9c0a2ad320fc6e205e31",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 980466,
+            "alphaOne": 4037,
+            "alphaSemi": 67940,
+            "alphaOpaque": 170,
+            "alphaNonzero": 68110,
+            "alpha0BBox": [
+              173,
+              321,
+              800,
+              903
+            ],
+            "alpha16BBox": [
+              335,
+              401,
+              643,
+              780
+            ],
+            "alpha16Height": 379
+          },
+          "actionUniformScale": 0.8995215311004785,
+          "resizedSourceSize": [
+            564,
+            564
+          ],
+          "normalizedTranslation": [
+            207,
+            334
+          ],
+          "normalizedContactPoints": [
+            [
+              455.26794258373207,
+              756.7751196172248
+            ],
+            [
+              568.6076555023924,
+              778.3636363636364
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.06220095693777239,
+            -0.4306220095693334
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/normalized1024/idle-01.png",
+            "sha256": "92c421bd6d0507671c6ca058fc137c395ac3cfe499267686d8cb0f632a235cdf",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 993527,
+            "alphaOne": 3144,
+            "alphaSemi": 54707,
+            "alphaOpaque": 342,
+            "alphaNonzero": 55049,
+            "alpha0BBox": [
+              207,
+              365,
+              771,
+              889
+            ],
+            "alpha16BBox": [
+              353,
+              437,
+              630,
+              778
+            ],
+            "alpha16Height": 341
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-01.png",
+            "sha256": "1e0087cd94f15f3f4673983883185b6ca821305347d0f7eedff716f3ad466914",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139647,
+            "alphaOne": 268,
+            "alphaSemi": 7456,
+            "alphaOpaque": 353,
+            "alphaNonzero": 7809,
+            "alpha0BBox": [
+              126,
+              156,
+              289,
+              298
+            ],
+            "alpha16BBox": [
+              132,
+              164,
+              236,
+              292
+            ],
+            "alpha16Height": 128
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.023325358851664646,
+            -0.16148325358850002
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              255,
+              430,
+              330,
+              474
+            ],
+            [
+              373,
+              450,
+              438,
+              500
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                255,
+                430,
+                330,
+                474
+              ],
+              "contactPoint": [
+                284.5,
+                470
+              ],
+              "solidBounds": [
+                264,
+                430,
+                329,
+                470
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                373,
+                450,
+                438,
+                500
+              ],
+              "contactPoint": [
+                411,
+                494
+              ],
+              "solidBounds": [
+                373,
+                450,
+                433,
+                494
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            347.75,
+            482
+          ],
+          "groundRootInteger": [
+            348,
+            482
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0
+          ],
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "2b7a3a77d8550db3a129ddcd194b799f4067cdd11f94d2d30762eefe66af620b",
+          "nativeTranslation": [
+            164,
+            286
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/native1024/idle-02.png",
+            "sha256": "cc00a4ee934f03cc6845083a15bf7bc5e3b3f382e2f506d08881dd64fe8a58ea",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 979508,
+            "alphaOne": 4583,
+            "alphaSemi": 68881,
+            "alphaOpaque": 187,
+            "alphaNonzero": 69068,
+            "alpha0BBox": [
+              164,
+              325,
+              755,
+              911
+            ],
+            "alpha16BBox": [
+              334,
+              400,
+              643,
+              780
+            ],
+            "alpha16Height": 380
+          },
+          "actionUniformScale": 0.8995215311004785,
+          "resizedSourceSize": [
+            564,
+            564
+          ],
+          "normalizedTranslation": [
+            199,
+            334
+          ],
+          "normalizedContactPoints": [
+            [
+              454.9138755980861,
+              756.7751196172248
+            ],
+            [
+              568.7033492822966,
+              778.3636363636364
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.19138755980861788,
+            -0.4306220095693334
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/normalized1024/idle-02.png",
+            "sha256": "2dd18458616b1b0432680c55fcf64a6fafcaf0aaf7ac180c85ea6030af8a5a53",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 992691,
+            "alphaOne": 3603,
+            "alphaSemi": 55568,
+            "alphaOpaque": 317,
+            "alphaNonzero": 55885,
+            "alpha0BBox": [
+              199,
+              369,
+              731,
+              896
+            ],
+            "alpha16BBox": [
+              352,
+              436,
+              630,
+              778
+            ],
+            "alpha16Height": 342
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-02.png",
+            "sha256": "bb0ed36d37ffcf00578affdd8f22f5dbdd705035ed6e0299da36263b4f7f5c1c",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139551,
+            "alphaOne": 326,
+            "alphaSemi": 7536,
+            "alphaOpaque": 369,
+            "alphaNonzero": 7905,
+            "alpha0BBox": [
+              75,
+              153,
+              268,
+              331
+            ],
+            "alpha16BBox": [
+              132,
+              163,
+              237,
+              292
+            ],
+            "alpha16Height": 129
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.0717703349282317,
+            -0.16148325358850002
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              249,
+              423,
+              328,
+              468
+            ],
+            [
+              368,
+              446,
+              432,
+              494
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                249,
+                423,
+                328,
+                468
+              ],
+              "contactPoint": [
+                278,
+                467
+              ],
+              "solidBounds": [
+                257,
+                423,
+                328,
+                467
+              ],
+              "roiBottomClearance": 1
+            },
+            {
+              "roi": [
+                368,
+                446,
+                432,
+                494
+              ],
+              "contactPoint": [
+                403.5,
+                488
+              ],
+              "solidBounds": [
+                368,
+                446,
+                425,
+                488
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            340.75,
+            477.5
+          ],
+          "groundRootInteger": [
+            341,
+            478
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.5
+          ],
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "69ace498e0d2201386bcc166268e372f1f0d4e7d06b03a5d8ad021b09746e937",
+          "nativeTranslation": [
+            171,
+            290
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/native1024/idle-03.png",
+            "sha256": "a90cd8076939cb1628015812fe601002e220b20576f5afdefc75df407a831c8b",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 977348,
+            "alphaOne": 4427,
+            "alphaSemi": 71082,
+            "alphaOpaque": 146,
+            "alphaNonzero": 71228,
+            "alpha0BBox": [
+              171,
+              301,
+              798,
+              917
+            ],
+            "alpha16BBox": [
+              333,
+              393,
+              647,
+              778
+            ],
+            "alpha16Height": 385
+          },
+          "actionUniformScale": 0.8995215311004785,
+          "resizedSourceSize": [
+            564,
+            564
+          ],
+          "normalizedTranslation": [
+            205,
+            338
+          ],
+          "normalizedContactPoints": [
+            [
+              455.066985645933,
+              758.0765550239234
+            ],
+            [
+              567.9569377990431,
+              776.9665071770335
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.48803827751191875,
+            -0.4784688995215447
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/normalized1024/idle-03.png",
+            "sha256": "3a901d1ed9dfe7fd7059355c154fef038208125cbce7b1c649da1adc0b9467e8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 990946,
+            "alphaOne": 3480,
+            "alphaSemi": 57373,
+            "alphaOpaque": 257,
+            "alphaNonzero": 57630,
+            "alpha0BBox": [
+              205,
+              348,
+              769,
+              902
+            ],
+            "alpha16BBox": [
+              351,
+              431,
+              634,
+              777
+            ],
+            "alpha16Height": 346
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-03.png",
+            "sha256": "1c5c104d1ff0d8529d733051b67423646833ca63248f9d4ec6e159cffe3db198",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139289,
+            "alphaOne": 336,
+            "alphaSemi": 7811,
+            "alphaOpaque": 356,
+            "alphaNonzero": 8167,
+            "alpha0BBox": [
+              77,
+              150,
+              288,
+              327
+            ],
+            "alpha16BBox": [
+              131,
+              161,
+              238,
+              292
+            ],
+            "alpha16Height": 131
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.18301435406696953,
+            -0.17942583732057926
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              253,
+              422,
+              330,
+              467
+            ],
+            [
+              373,
+              447,
+              437,
+              494
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                253,
+                422,
+                330,
+                467
+              ],
+              "contactPoint": [
+                284,
+                466
+              ],
+              "solidBounds": [
+                263,
+                422,
+                330,
+                466
+              ],
+              "roiBottomClearance": 1
+            },
+            {
+              "roi": [
+                373,
+                447,
+                437,
+                494
+              ],
+              "contactPoint": [
+                410.5,
+                488
+              ],
+              "solidBounds": [
+                373,
+                447,
+                432,
+                488
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            347.25,
+            477
+          ],
+          "groundRootInteger": [
+            347,
+            477
+          ],
+          "registrationRoundingError": [
+            -0.25,
+            0
+          ],
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "304eea95d58da29843293a6c8a516da532ccd7d7d16a7880f82875bff35efdcf",
+          "nativeTranslation": [
+            165,
+            291
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/native1024/idle-04.png",
+            "sha256": "3cde2763bfcbba7e5fa14100a77b1b5ab9f01c5be7cb3491ba37904f727530d8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 977468,
+            "alphaOne": 5214,
+            "alphaSemi": 70945,
+            "alphaOpaque": 163,
+            "alphaNonzero": 71108,
+            "alpha0BBox": [
+              165,
+              298,
+              764,
+              918
+            ],
+            "alpha16BBox": [
+              332,
+              395,
+              643,
+              779
+            ],
+            "alpha16Height": 384
+          },
+          "actionUniformScale": 0.8995215311004785,
+          "resizedSourceSize": [
+            564,
+            564
+          ],
+          "normalizedTranslation": [
+            200,
+            339
+          ],
+          "normalizedContactPoints": [
+            [
+              455.46411483253587,
+              758.177033492823
+            ],
+            [
+              569.2535885167465,
+              777.9665071770335
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.35885167464118695,
+            0.07177033492826013
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/normalized1024/idle-04.png",
+            "sha256": "3268c13f9283fd1859bbfe6a04becc846c657d1da9d0cafdcc27ad67c8ed0901",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 991053,
+            "alphaOne": 4160,
+            "alphaSemi": 57204,
+            "alphaOpaque": 319,
+            "alphaNonzero": 57523,
+            "alpha0BBox": [
+              200,
+              345,
+              739,
+              903
+            ],
+            "alpha16BBox": [
+              350,
+              433,
+              630,
+              778
+            ],
+            "alpha16Height": 345
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-04.png",
+            "sha256": "1d6421b128be203e28dc72b5f42fcdd0fd6dd1df8b14526ea4c61a7de3c99ffb",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139390,
+            "alphaOne": 362,
+            "alphaSemi": 7708,
+            "alphaOpaque": 358,
+            "alphaNonzero": 8066,
+            "alpha0BBox": [
+              75,
+              136,
+              269,
+              333
+            ],
+            "alpha16BBox": [
+              131,
+              162,
+              237,
+              292
+            ],
+            "alpha16Height": 130
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.1345693779904451,
+            0.026913875598097547
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.48803827751191875
+      },
+      "visualStatus": "aligned_contact_markers_light_dark_and_native_size_map128h_actually_viewed",
+      "sourceRecordSha256": "39a4652ff07f3e1ae1bb4e761503ea8aba61ebca3fe917c61d86814006be0b57",
+      "visualReview": {
+        "reviewedAt": "2026-10-29T05:23:24.890Z",
+        "nativeOriginalViewed": true,
+        "manualBootOrKneeContactsViewed": true,
+        "lightPath": "records/troop-frames-20261028-r2/metal-ground-idle-light-aligned.png",
+        "darkPath": "records/troop-frames-20261028-r2/metal-ground-idle-dark-aligned.png",
+        "mapPath": "records/troop-frames-20261028-r2/metal-ground-idle-map128h-aligned.png",
+        "findings": [
+          "Breathing-like shoulder/shield changes preserved, measured contact midpoint stable"
+        ],
+        "limitations": [
+          "Static frame review does not certify temporal smoothness or user identity acceptance",
+          "Head-width landmarks manually estimated with approximately4 source-pixel uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "attack",
+      "source": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "sourceRecord": "records/troop-frames-20261028-r2/metal-attack-v1.generation.json",
+      "helmetWidthLandmarks": [
+        182,
+        393
+      ],
+      "helmetWidth": 211,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "sourceSha256": "049aa3833389063598ab558c57f9df1317637637b084fddee29e89f79c793d49",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "uniformActionScaleTo180Helmet": 0.8530805687203792,
+      "uniformScaleRequested": 0.8530805687203792,
+      "uniformScaleActual": 0.853515625,
+      "normalizedHelmetWidthPx": 180.091796875,
+      "frameCount": 6,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              195,
+              423,
+              270,
+              468
+            ],
+            [
+              339,
+              443,
+              409,
+              491
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                423,
+                270,
+                468
+              ],
+              "contactPoint": [
+                222.5,
+                466
+              ],
+              "solidBounds": [
+                199,
+                423,
+                270,
+                466
+              ],
+              "roiBottomClearance": 2
+            },
+            {
+              "roi": [
+                339,
+                443,
+                409,
+                491
+              ],
+              "contactPoint": [
+                379.5,
+                485
+              ],
+              "solidBounds": [
+                339,
+                443,
+                403,
+                485
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            301,
+            475.5
+          ],
+          "groundRootInteger": [
+            301,
+            476
+          ],
+          "registrationRoundingError": [
+            0,
+            0.5
+          ],
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "ff5be53f2c992a9d40547ed03c5574050d7f0ad797b9adf9b2a01a3f552cac1b",
+          "nativeTranslation": [
+            211,
+            292
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/native1024/attack-01.png",
+            "sha256": "69c18d2cd5b6abbfef6cb89fd3667a03d2e754f9562152381f5fcd6d953d1b68",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 961987,
+            "alphaOne": 12848,
+            "alphaSemi": 86589,
+            "alphaOpaque": 0,
+            "alphaNonzero": 86589,
+            "alpha0BBox": [
+              228,
+              301,
+              723,
+              804
+            ],
+            "alpha16BBox": [
+              296,
+              386,
+              652,
+              777
+            ],
+            "alpha16Height": 391
+          },
+          "actionUniformScale": 0.853515625,
+          "resizedSourceSize": [
+            437,
+            437
+          ],
+          "normalizedTranslation": [
+            255,
+            362
+          ],
+          "normalizedContactPoints": [
+            [
+              444.9072265625,
+              759.73828125
+            ],
+            [
+              578.9091796875,
+              775.955078125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.091796875,
+            -0.1533203125
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/normalized1024/attack-01.png",
+            "sha256": "c30a77a8a02a690a623bda6cc63aee5c85704de1ed5f743d2793ceedd3a07925",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 985784,
+            "alphaOne": 9191,
+            "alphaSemi": 62492,
+            "alphaOpaque": 300,
+            "alphaNonzero": 62792,
+            "alpha0BBox": [
+              269,
+              370,
+              692,
+              799
+            ],
+            "alpha16BBox": [
+              328,
+              442,
+              631,
+              776
+            ],
+            "alpha16Height": 334
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-01.png",
+            "sha256": "1634663d3be65b0b86721b5e437f092235a0265ed08dd5d39c8a82834635f6f6",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138626,
+            "alphaOne": 983,
+            "alphaSemi": 8444,
+            "alphaOpaque": 386,
+            "alphaNonzero": 8830,
+            "alpha0BBox": [
+              105,
+              141,
+              259,
+              300
+            ],
+            "alpha16BBox": [
+              123,
+              165,
+              237,
+              291
+            ],
+            "alpha16Height": 126
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.034423828125,
+            -0.0574951171875
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              172,
+              420,
+              249,
+              466
+            ],
+            [
+              358,
+              440,
+              432,
+              491
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                172,
+                420,
+                249,
+                466
+              ],
+              "contactPoint": [
+                204,
+                463
+              ],
+              "solidBounds": [
+                180,
+                420,
+                249,
+                463
+              ],
+              "roiBottomClearance": 3
+            },
+            {
+              "roi": [
+                358,
+                440,
+                432,
+                491
+              ],
+              "contactPoint": [
+                403.5,
+                485
+              ],
+              "solidBounds": [
+                358,
+                440,
+                427,
+                485
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            303.75,
+            474
+          ],
+          "groundRootInteger": [
+            304,
+            474
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0
+          ],
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "bf52d3c2b75be1598064e0630f6f4aae3c3630b12f4f5932cc07eec2e8ea59a7",
+          "nativeTranslation": [
+            208,
+            294
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/native1024/attack-02.png",
+            "sha256": "eead462fcac1a05265ad4a5dd579cb6bd6ed9595601883d76ed79f564ebe49b9",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 962894,
+            "alphaOne": 10076,
+            "alphaSemi": 85682,
+            "alphaOpaque": 0,
+            "alphaNonzero": 85682,
+            "alpha0BBox": [
+              208,
+              312,
+              720,
+              806
+            ],
+            "alpha16BBox": [
+              283,
+              404,
+              669,
+              779
+            ],
+            "alpha16Height": 375
+          },
+          "actionUniformScale": 0.853515625,
+          "resizedSourceSize": [
+            437,
+            437
+          ],
+          "normalizedTranslation": [
+            253,
+            363
+          ],
+          "normalizedContactPoints": [
+            [
+              427.1171875,
+              758.177734375
+            ],
+            [
+              597.3935546875,
+              776.955078125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.25537109375,
+            -0.43359375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/normalized1024/attack-02.png",
+            "sha256": "33b9af1de7e83fdae59e92e3418347657942b50034799763342dadde1dc6d833",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 986267,
+            "alphaOne": 7315,
+            "alphaSemi": 62025,
+            "alphaOpaque": 284,
+            "alphaNonzero": 62309,
+            "alpha0BBox": [
+              253,
+              378,
+              690,
+              800
+            ],
+            "alpha16BBox": [
+              317,
+              457,
+              647,
+              777
+            ],
+            "alpha16Height": 320
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-02.png",
+            "sha256": "825ccc4465ace1631a2db21800e201137da286fa673832bc56fb88c7cf0e0efc",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138793,
+            "alphaOne": 668,
+            "alphaSemi": 8273,
+            "alphaOpaque": 390,
+            "alphaNonzero": 8663,
+            "alpha0BBox": [
+              95,
+              144,
+              255,
+              299
+            ],
+            "alpha16BBox": [
+              119,
+              171,
+              243,
+              292
+            ],
+            "alpha16Height": 121
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.09576416015625,
+            -0.16259765625
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              201,
+              423,
+              281,
+              468
+            ],
+            [
+              382,
+              440,
+              457,
+              491
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                201,
+                423,
+                281,
+                468
+              ],
+              "contactPoint": [
+                217,
+                465
+              ],
+              "solidBounds": [
+                201,
+                423,
+                281,
+                465
+              ],
+              "roiBottomClearance": 3
+            },
+            {
+              "roi": [
+                382,
+                440,
+                457,
+                491
+              ],
+              "contactPoint": [
+                409.5,
+                485
+              ],
+              "solidBounds": [
+                382,
+                440,
+                434,
+                485
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            313.25,
+            475
+          ],
+          "groundRootInteger": [
+            313,
+            475
+          ],
+          "registrationRoundingError": [
+            -0.25,
+            0
+          ],
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "3f3c0330fa16609afedc8d8841a33ee963c76c4c0b4fbcf88d47ef6ebb228080",
+          "nativeTranslation": [
+            199,
+            293
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/native1024/attack-03.png",
+            "sha256": "1f8c950cf53f28f8a7b35fd0622efd4b4168c781575be718d0dd2741f662cebd",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 963098,
+            "alphaOne": 9203,
+            "alphaSemi": 85478,
+            "alphaOpaque": 0,
+            "alphaNonzero": 85478,
+            "alpha0BBox": [
+              199,
+              308,
+              701,
+              805
+            ],
+            "alpha16BBox": [
+              300,
+              388,
+              653,
+              778
+            ],
+            "alpha16Height": 390
+          },
+          "actionUniformScale": 0.853515625,
+          "resizedSourceSize": [
+            437,
+            437
+          ],
+          "normalizedTranslation": [
+            245,
+            363
+          ],
+          "normalizedContactPoints": [
+            [
+              430.212890625,
+              759.884765625
+            ],
+            [
+              594.5146484375,
+              776.955078125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.36376953125,
+            0.419921875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/normalized1024/attack-03.png",
+            "sha256": "fc1ca739a549c17c207017c89070aa4d71f46c3a0074bb5d0676ebce9bfefc28",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 986667,
+            "alphaOne": 6496,
+            "alphaSemi": 61638,
+            "alphaOpaque": 271,
+            "alphaNonzero": 61909,
+            "alpha0BBox": [
+              245,
+              376,
+              674,
+              800
+            ],
+            "alpha16BBox": [
+              331,
+              444,
+              632,
+              777
+            ],
+            "alpha16Height": 333
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-03.png",
+            "sha256": "e8f4129e6881ec49c080cef90a19fee7dcfad3bb71599dd097dfb5880bd01b15",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138704,
+            "alphaOne": 659,
+            "alphaSemi": 8349,
+            "alphaOpaque": 403,
+            "alphaNonzero": 8752,
+            "alpha0BBox": [
+              92,
+              142,
+              251,
+              300
+            ],
+            "alpha16BBox": [
+              124,
+              166,
+              237,
+              292
+            ],
+            "alpha16Height": 126
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.13641357421875,
+            0.157470703125
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              212,
+              408,
+              288,
+              455
+            ],
+            [
+              397,
+              390,
+              473,
+              438
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                212,
+                408,
+                288,
+                455
+              ],
+              "contactPoint": [
+                243,
+                450
+              ],
+              "solidBounds": [
+                219,
+                408,
+                288,
+                450
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                397,
+                390,
+                473,
+                438
+              ],
+              "contactPoint": [
+                446,
+                437
+              ],
+              "solidBounds": [
+                397,
+                390,
+                469,
+                437
+              ],
+              "roiBottomClearance": 1
+            }
+          ],
+          "groundRootExactMidpoint": [
+            344.5,
+            443.5
+          ],
+          "groundRootInteger": [
+            345,
+            444
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.5
+          ],
+          "durationMs": 70,
+          "sourceCropRgbaSha256": "2803af3098484f3fe0383d971a5940ee12ab088a15690ec79454e3c522413c30",
+          "nativeTranslation": [
+            167,
+            324
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/native1024/attack-04.png",
+            "sha256": "80da581cc964718f9482a6533d38ddd4ffb5efbd27d0f43ec452420b8dd3a769",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 953973,
+            "alphaOne": 17344,
+            "alphaSemi": 94603,
+            "alphaOpaque": 0,
+            "alphaNonzero": 94603,
+            "alpha0BBox": [
+              167,
+              324,
+              679,
+              836
+            ],
+            "alpha16BBox": [
+              232,
+              397,
+              653,
+              774
+            ],
+            "alpha16Height": 377
+          },
+          "actionUniformScale": 0.853515625,
+          "resizedSourceSize": [
+            437,
+            437
+          ],
+          "normalizedTranslation": [
+            218,
+            389
+          ],
+          "normalizedContactPoints": [
+            [
+              425.404296875,
+              773.08203125
+            ],
+            [
+              598.66796875,
+              761.986328125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.0361328125,
+            -0.4658203125
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/normalized1024/attack-04.png",
+            "sha256": "a6365074368f1d093b5ab9b77d0f655128d500d6af5ad93fffdddaa3a76a9b2e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 979962,
+            "alphaOne": 12446,
+            "alphaSemi": 68344,
+            "alphaOpaque": 270,
+            "alphaNonzero": 68614,
+            "alpha0BBox": [
+              218,
+              389,
+              655,
+              826
+            ],
+            "alpha16BBox": [
+              273,
+              451,
+              632,
+              773
+            ],
+            "alpha16Height": 322
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-04.png",
+            "sha256": "cbc064d36ae999ff562d5f5562ba1957fd4c42e1be956e83baab52efc287a732",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 137899,
+            "alphaOne": 1394,
+            "alphaSemi": 9136,
+            "alphaOpaque": 421,
+            "alphaNonzero": 9557,
+            "alpha0BBox": [
+              90,
+              146,
+              246,
+              304
+            ],
+            "alpha16BBox": [
+              102,
+              169,
+              237,
+              290
+            ],
+            "alpha16Height": 121
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.0135498046875,
+            -0.1746826171875
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              193,
+              405,
+              269,
+              445
+            ],
+            [
+              378,
+              414,
+              458,
+              462
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                193,
+                405,
+                269,
+                445
+              ],
+              "contactPoint": [
+                223.5,
+                441
+              ],
+              "solidBounds": [
+                201,
+                405,
+                269,
+                441
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                378,
+                414,
+                458,
+                462
+              ],
+              "contactPoint": [
+                426,
+                455
+              ],
+              "solidBounds": [
+                378,
+                414,
+                448,
+                455
+              ],
+              "roiBottomClearance": 7
+            }
+          ],
+          "groundRootExactMidpoint": [
+            324.75,
+            448
+          ],
+          "groundRootInteger": [
+            325,
+            448
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0
+          ],
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "b69b296847d517794abfa8d27d853250abcb419a820522f522a680826ae7fca0",
+          "nativeTranslation": [
+            187,
+            320
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/native1024/attack-05.png",
+            "sha256": "88f2b30ce207adf0f9dd223a7d1474390223f9f6d730ed33a1a94d33401d5eda",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 951092,
+            "alphaOne": 17431,
+            "alphaSemi": 97484,
+            "alphaOpaque": 0,
+            "alphaNonzero": 97484,
+            "alpha0BBox": [
+              187,
+              321,
+              699,
+              832
+            ],
+            "alpha16BBox": [
+              252,
+              406,
+              678,
+              775
+            ],
+            "alpha16Height": 369
+          },
+          "actionUniformScale": 0.853515625,
+          "resizedSourceSize": [
+            437,
+            437
+          ],
+          "normalizedTranslation": [
+            235,
+            386
+          ],
+          "normalizedContactPoints": [
+            [
+              425.7607421875,
+              762.400390625
+            ],
+            [
+              598.59765625,
+              774.349609375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.17919921875,
+            0.375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/normalized1024/attack-05.png",
+            "sha256": "a8ad523783ca4e16a72a0e92e37cc1e62e0c45b450a50d82225e79c96a6156fe",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 977817,
+            "alphaOne": 12541,
+            "alphaSemi": 70495,
+            "alphaOpaque": 264,
+            "alphaNonzero": 70759,
+            "alpha0BBox": [
+              235,
+              387,
+              672,
+              823
+            ],
+            "alpha16BBox": [
+              290,
+              459,
+              654,
+              774
+            ],
+            "alpha16Height": 315
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-05.png",
+            "sha256": "00b6f8407155bad92c3fa9b2ecc65793cb39b89e57c40fbd39b4f2e7d8735f65",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 137607,
+            "alphaOne": 1446,
+            "alphaSemi": 9451,
+            "alphaOpaque": 398,
+            "alphaNonzero": 9849,
+            "alpha0BBox": [
+              88,
+              147,
+              252,
+              301
+            ],
+            "alpha16BBox": [
+              109,
+              172,
+              245,
+              291
+            ],
+            "alpha16Height": 119
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.06719970703125,
+            0.140625
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              206,
+              403,
+              284,
+              445
+            ],
+            [
+              348,
+              419,
+              425,
+              465
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                206,
+                403,
+                284,
+                445
+              ],
+              "contactPoint": [
+                225.5,
+                440
+              ],
+              "solidBounds": [
+                206,
+                403,
+                277,
+                440
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                348,
+                419,
+                425,
+                465
+              ],
+              "contactPoint": [
+                385.5,
+                458
+              ],
+              "solidBounds": [
+                348,
+                419,
+                408,
+                458
+              ],
+              "roiBottomClearance": 7
+            }
+          ],
+          "groundRootExactMidpoint": [
+            305.5,
+            449
+          ],
+          "groundRootInteger": [
+            306,
+            449
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0
+          ],
+          "durationMs": 160,
+          "sourceCropRgbaSha256": "33c3c0062ffb8457b760c32b2ed6af15fb305ed6c0c57c0c2f8fbd5426b4d1bc",
+          "nativeTranslation": [
+            206,
+            319
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/native1024/attack-06.png",
+            "sha256": "abac2a0551ca283f9490b418b80016ff97fa309403958400c7157df68358684f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 960604,
+            "alphaOne": 13488,
+            "alphaSemi": 87972,
+            "alphaOpaque": 0,
+            "alphaNonzero": 87972,
+            "alpha0BBox": [
+              206,
+              319,
+              704,
+              831
+            ],
+            "alpha16BBox": [
+              298,
+              388,
+              652,
+              777
+            ],
+            "alpha16Height": 389
+          },
+          "actionUniformScale": 0.853515625,
+          "resizedSourceSize": [
+            437,
+            437
+          ],
+          "normalizedTranslation": [
+            251,
+            385
+          ],
+          "normalizedContactPoints": [
+            [
+              443.4677734375,
+              760.546875
+            ],
+            [
+              580.0302734375,
+              775.91015625
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.2509765625,
+            0.228515625
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/normalized1024/attack-06.png",
+            "sha256": "bdf708684303d738bbc06b226d313e9d07747e0fb9454774144b9760fc9d9f01",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 984743,
+            "alphaOne": 9758,
+            "alphaSemi": 63563,
+            "alphaOpaque": 270,
+            "alphaNonzero": 63833,
+            "alpha0BBox": [
+              251,
+              385,
+              676,
+              822
+            ],
+            "alpha16BBox": [
+              329,
+              444,
+              631,
+              776
+            ],
+            "alpha16Height": 332
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-06.png",
+            "sha256": "df0510c58032650bbf218bdf25da9f55194a693af107b260adb125861a711f7a",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138616,
+            "alphaOne": 1016,
+            "alphaSemi": 8453,
+            "alphaOpaque": 387,
+            "alphaNonzero": 8840,
+            "alpha0BBox": [
+              94,
+              144,
+              249,
+              298
+            ],
+            "alpha16BBox": [
+              123,
+              166,
+              237,
+              291
+            ],
+            "alpha16Height": 125
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.0941162109375,
+            0.085693359375
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.4658203125
+      },
+      "visualStatus": "aligned_contact_markers_light_dark_and_native_size_map128h_actually_viewed",
+      "sourceRecordSha256": "6681fb3b258cd6821354c5b09ad1916f1c9763af184f8e9e2ffc6e757b375972",
+      "visualReview": {
+        "reviewedAt": "2026-10-29T05:23:24.897Z",
+        "nativeOriginalViewed": true,
+        "manualBootOrKneeContactsViewed": true,
+        "lightPath": "records/troop-frames-20261028-r2/metal-ground-attack-light-aligned.png",
+        "darkPath": "records/troop-frames-20261028-r2/metal-ground-attack-dark-aligned.png",
+        "mapPath": "records/troop-frames-20261028-r2/metal-ground-attack-map128h-aligned.png",
+        "findings": [
+          "Six forward-time phases retain sword screen-left and shield screen-right",
+          "Contact midpoint stable; stance width and support-line slope change in strike frame4 and are preserved"
+        ],
+        "limitations": [
+          "Static frame review does not certify temporal smoothness or user identity acceptance",
+          "Head-width landmarks manually estimated with approximately4 source-pixel uncertainty"
+        ]
+      }
+    },
+    {
+      "id": "hurt",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-hurt-se-v1.png",
+      "rows": 2,
+      "cols": 2,
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-hurt-se-v1.png.generation.json",
+      "helmetWidthLandmarks": [
+        200,
+        510
+      ],
+      "helmetWidth": 310,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "sourceSha256": "790a2f419141d8039b91400bfa59bbe6584b6760ec13bf30a9649a72c639b313",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "uniformActionScaleTo180Helmet": 0.5806451612903226,
+      "uniformScaleRequested": 0.5806451612903226,
+      "uniformScaleActual": 0.580542264752791,
+      "normalizedHelmetWidthPx": 179.96810207336523,
+      "frameCount": 4,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              249,
+              545,
+              360,
+              598
+            ],
+            [
+              445,
+              551,
+              548,
+              614
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                249,
+                545,
+                360,
+                598
+              ],
+              "contactPoint": [
+                288.5,
+                593
+              ],
+              "solidBounds": [
+                254,
+                545,
+                354,
+                593
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                445,
+                551,
+                548,
+                614
+              ],
+              "contactPoint": [
+                506,
+                610
+              ],
+              "solidBounds": [
+                445,
+                551,
+                540,
+                610
+              ],
+              "roiBottomClearance": 4
+            }
+          ],
+          "groundRootExactMidpoint": [
+            397.25,
+            601.5
+          ],
+          "groundRootInteger": [
+            397,
+            602
+          ],
+          "registrationRoundingError": [
+            -0.25,
+            0.5
+          ],
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "43c2a19dc4ab18e1171bab56c3f9ed90f9f167d00dd6c841676390ddd8d5c97d",
+          "nativeTranslation": [
+            115,
+            166
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/native1024/hurt-01.png",
+            "sha256": "d62da5c191af167e1513d6a1eaa51b90f12bc9eaed7511d3c077f3b8787efb96",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 895813,
+            "alphaOne": 11746,
+            "alphaSemi": 152322,
+            "alphaOpaque": 441,
+            "alphaNonzero": 152763,
+            "alpha0BBox": [
+              115,
+              168,
+              742,
+              793
+            ],
+            "alpha16BBox": [
+              218,
+              240,
+              679,
+              776
+            ],
+            "alpha16Height": 536
+          },
+          "actionUniformScale": 0.580542264752791,
+          "resizedSourceSize": [
+            364,
+            364
+          ],
+          "normalizedTranslation": [
+            282,
+            419
+          ],
+          "normalizedContactPoints": [
+            [
+              449.4864433811802,
+              763.261562998405
+            ],
+            [
+              575.7543859649122,
+              773.1307814992025
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.6204146730461844,
+            0.1961722488038049
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/normalized1024/hurt-01.png",
+            "sha256": "f613fdf303eff3d72995abe546367e2468dd55825ff4aed0195f4750f0caa3ac",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997238,
+            "alphaOne": 3580,
+            "alphaSemi": 50604,
+            "alphaOpaque": 734,
+            "alphaNonzero": 51338,
+            "alpha0BBox": [
+              282,
+              420,
+              646,
+              783
+            ],
+            "alpha16BBox": [
+              342,
+              462,
+              609,
+              773
+            ],
+            "alpha16Height": 311
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-01.png",
+            "sha256": "320c86c6f64afe5ffc6549e48ddfdde436f048763465b5091458ce3a7346bbff",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140051,
+            "alphaOne": 370,
+            "alphaSemi": 7006,
+            "alphaOpaque": 399,
+            "alphaNonzero": 7405,
+            "alpha0BBox": [
+              116,
+              163,
+              240,
+              294
+            ],
+            "alpha16BBox": [
+              128,
+              173,
+              229,
+              290
+            ],
+            "alpha16Height": 117
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.23265550239231914,
+            0.07356459330142684
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              220,
+              549,
+              310,
+              614
+            ],
+            [
+              399,
+              550,
+              515,
+              610
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                220,
+                549,
+                310,
+                614
+              ],
+              "contactPoint": [
+                262,
+                605
+              ],
+              "solidBounds": [
+                231,
+                549,
+                310,
+                605
+              ],
+              "roiBottomClearance": 9
+            },
+            {
+              "roi": [
+                399,
+                550,
+                515,
+                610
+              ],
+              "contactPoint": [
+                472,
+                602
+              ],
+              "solidBounds": [
+                412,
+                550,
+                507,
+                602
+              ],
+              "roiBottomClearance": 8
+            }
+          ],
+          "groundRootExactMidpoint": [
+            367,
+            603.5
+          ],
+          "groundRootInteger": [
+            367,
+            604
+          ],
+          "registrationRoundingError": [
+            0,
+            0.5
+          ],
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "35df58b3323c11565afeb41354fe534544024933ac000494442e87efdbdb7bfb",
+          "nativeTranslation": [
+            145,
+            164
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/native1024/hurt-02.png",
+            "sha256": "796e26dd4047625015e0850435d120e3eb6224be806defb2523877b9b806dd7f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 897237,
+            "alphaOne": 11119,
+            "alphaSemi": 150957,
+            "alphaOpaque": 382,
+            "alphaNonzero": 151339,
+            "alpha0BBox": [
+              146,
+              184,
+              758,
+              791
+            ],
+            "alpha16BBox": [
+              182,
+              271,
+              692,
+              769
+            ],
+            "alpha16Height": 498
+          },
+          "actionUniformScale": 0.580542264752791,
+          "resizedSourceSize": [
+            364,
+            364
+          ],
+          "normalizedTranslation": [
+            299,
+            417
+          ],
+          "normalizedContactPoints": [
+            [
+              451.10207336523126,
+              768.2280701754386
+            ],
+            [
+              573.0159489633174,
+              766.4864433811802
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.05901116427435227,
+            -0.64274322169058
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/normalized1024/hurt-02.png",
+            "sha256": "ecab4e180d94d97429004e7c5047d9a300240f707512f6445699a0ba7635744d",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997646,
+            "alphaOne": 3433,
+            "alphaSemi": 50172,
+            "alphaOpaque": 758,
+            "alphaNonzero": 50930,
+            "alpha0BBox": [
+              301,
+              429,
+              655,
+              781
+            ],
+            "alpha16BBox": [
+              320,
+              479,
+              617,
+              769
+            ],
+            "alpha16Height": 290
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-02.png",
+            "sha256": "4010062f27d0e320456ec8268171cb93d28c7f64c41fe5e40671001d1eb62f0d",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140086,
+            "alphaOne": 334,
+            "alphaSemi": 6950,
+            "alphaOpaque": 420,
+            "alphaNonzero": 7370,
+            "alpha0BBox": [
+              114,
+              161,
+              244,
+              293
+            ],
+            "alpha16BBox": [
+              120,
+              179,
+              232,
+              288
+            ],
+            "alpha16Height": 109
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.0221291866028821,
+            -0.24102870813396748
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              253,
+              514,
+              368,
+              568
+            ],
+            [
+              467,
+              532,
+              574,
+              584
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                253,
+                514,
+                368,
+                568
+              ],
+              "contactPoint": [
+                290.5,
+                560
+              ],
+              "solidBounds": [
+                260,
+                514,
+                354,
+                560
+              ],
+              "roiBottomClearance": 8
+            },
+            {
+              "roi": [
+                467,
+                532,
+                574,
+                584
+              ],
+              "contactPoint": [
+                526.5,
+                574
+              ],
+              "solidBounds": [
+                474,
+                532,
+                563,
+                574
+              ],
+              "roiBottomClearance": 10
+            }
+          ],
+          "groundRootExactMidpoint": [
+            408.5,
+            567
+          ],
+          "groundRootInteger": [
+            409,
+            567
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0
+          ],
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "c5a9c558baf3fed49b332052051ecf2f3288d1fbb4de11e333c732fb079cebd9",
+          "nativeTranslation": [
+            103,
+            201
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/native1024/hurt-03.png",
+            "sha256": "715de8cbc211c52b346dac8810b1f7715e5d62d46d0fe2a25d3b48b8ce5ab71c",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 885307,
+            "alphaOne": 18556,
+            "alphaSemi": 162789,
+            "alphaOpaque": 480,
+            "alphaNonzero": 163269,
+            "alpha0BBox": [
+              103,
+              201,
+              730,
+              828
+            ],
+            "alpha16BBox": [
+              199,
+              245,
+              692,
+              775
+            ],
+            "alpha16Height": 530
+          },
+          "actionUniformScale": 0.580542264752791,
+          "resizedSourceSize": [
+            364,
+            364
+          ],
+          "normalizedTranslation": [
+            275,
+            439
+          ],
+          "normalizedContactPoints": [
+            [
+              443.64752791068577,
+              764.1036682615629
+            ],
+            [
+              580.6555023923445,
+              772.231259968102
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.1515151515151274,
+            0.16746411483245538
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/normalized1024/hurt-03.png",
+            "sha256": "4ca6e6f895c2c6e828e07777b92ace27c53c3376917a764232c468a69325d063",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 993726,
+            "alphaOne": 5892,
+            "alphaSemi": 54078,
+            "alphaOpaque": 772,
+            "alphaNonzero": 54850,
+            "alpha0BBox": [
+              275,
+              439,
+              639,
+              803
+            ],
+            "alpha16BBox": [
+              331,
+              464,
+              617,
+              773
+            ],
+            "alpha16Height": 309
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-03.png",
+            "sha256": "99184e00df9796e07f6d37a17a1b4eb3a3a958e6a774117f23260511ae39a9dd",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139544,
+            "alphaOne": 675,
+            "alphaSemi": 7501,
+            "alphaOpaque": 411,
+            "alphaNonzero": 7912,
+            "alpha0BBox": [
+              110,
+              166,
+              240,
+              292
+            ],
+            "alpha16BBox": [
+              124,
+              174,
+              232,
+              290
+            ],
+            "alpha16Height": 116
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.056818181818172775,
+            0.06279904306217077
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              188,
+              518,
+              301,
+              572
+            ],
+            [
+              393,
+              543,
+              496,
+              599
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                188,
+                518,
+                301,
+                572
+              ],
+              "contactPoint": [
+                228,
+                570
+              ],
+              "solidBounds": [
+                194,
+                518,
+                295,
+                570
+              ],
+              "roiBottomClearance": 2
+            },
+            {
+              "roi": [
+                393,
+                543,
+                496,
+                599
+              ],
+              "contactPoint": [
+                448,
+                593
+              ],
+              "solidBounds": [
+                393,
+                543,
+                484,
+                593
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            338,
+            581.5
+          ],
+          "groundRootInteger": [
+            338,
+            582
+          ],
+          "registrationRoundingError": [
+            0,
+            0.5
+          ],
+          "durationMs": 180,
+          "sourceCropRgbaSha256": "4f43c901914a4c1a8efc26737618dc5a9a0b599086918d9b0c3311cf7a06ffb4",
+          "nativeTranslation": [
+            174,
+            186
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/native1024/hurt-04.png",
+            "sha256": "eb7ec92d9db2ac6c4df161f20e3d8c4926b3f7aed9a9d28899db0ab1ada64070",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 877848,
+            "alphaOne": 21399,
+            "alphaSemi": 170274,
+            "alphaOpaque": 454,
+            "alphaNonzero": 170728,
+            "alpha0BBox": [
+              174,
+              186,
+              788,
+              813
+            ],
+            "alpha16BBox": [
+              209,
+              227,
+              711,
+              779
+            ],
+            "alpha16Height": 552
+          },
+          "actionUniformScale": 0.580542264752791,
+          "resizedSourceSize": [
+            364,
+            364
+          ],
+          "normalizedTranslation": [
+            316,
+            430
+          ],
+          "normalizedContactPoints": [
+            [
+              448.3636363636364,
+              760.9090909090909
+            ],
+            [
+              576.0829346092504,
+              774.261562998405
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.22328548644338753,
+            -0.4146730462521191
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/normalized1024/hurt-04.png",
+            "sha256": "972d5b3be1f1caf55e91ac4f0eff91c2f11d5a0ea6f7739b6400c045f789e3a6",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 991197,
+            "alphaOne": 6840,
+            "alphaSemi": 56616,
+            "alphaOpaque": 763,
+            "alphaNonzero": 57379,
+            "alpha0BBox": [
+              316,
+              430,
+              672,
+              794
+            ],
+            "alpha16BBox": [
+              336,
+              453,
+              628,
+              774
+            ],
+            "alpha16Height": 321
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-04.png",
+            "sha256": "fd5eed7aa9165560c431d6e63b4013d7b4a95854b082d3b25cfa7a96b3446cc9",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139255,
+            "alphaOne": 744,
+            "alphaSemi": 7789,
+            "alphaOpaque": 412,
+            "alphaNonzero": 8201,
+            "alpha0BBox": [
+              118,
+              161,
+              252,
+              293
+            ],
+            "alpha16BBox": [
+              126,
+              170,
+              236,
+              291
+            ],
+            "alpha16Height": 121
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.08373205741627032,
+            -0.15550239234454466
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.64274322169058
+      },
+      "visualStatus": "aligned_contact_markers_light_dark_and_native_size_map128h_actually_viewed",
+      "sourceRecordSha256": "dacba9e27e3a573127b015f24ad0e96320e6122f04398aeb928a98941025dd6a",
+      "visualReview": {
+        "reviewedAt": "2026-10-29T05:23:24.903Z",
+        "nativeOriginalViewed": true,
+        "manualBootOrKneeContactsViewed": true,
+        "lightPath": "records/troop-frames-20261028-r2/metal-ground-hurt-light-aligned.png",
+        "darkPath": "records/troop-frames-20261028-r2/metal-ground-hurt-dark-aligned.png",
+        "mapPath": "records/troop-frames-20261028-r2/metal-ground-hurt-map128h-aligned.png",
+        "findings": [
+          "Torso recoil and tilted helmet preserved; the two boots align around the same ground midpoint"
+        ],
+        "limitations": [
+          "Static frame review does not certify temporal smoothness or user identity acceptance",
+          "Head-width landmarks manually estimated with approximately4 source-pixel uncertainty",
+          "Rigid helmet ear-plate left edge is approximately8 source pixels uncertain after detailed marker review; canonical width is the manual landmark target, not a claim of subpixel image metrology."
+        ]
+      }
+    },
+    {
+      "id": "defeat",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-defeat-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-defeat-se-v1.png.generation.json",
+      "helmetWidthLandmarks": [
+        169,
+        391
+      ],
+      "helmetWidth": 222,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "sourceSha256": "083d7d38cd5bc679a411b139bed5a79768448baa2abcec1bb97ab0810e08985e",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "uniformActionScaleTo180Helmet": 0.8108108108108109,
+      "uniformScaleRequested": 0.8108108108108109,
+      "uniformScaleActual": 0.810546875,
+      "normalizedHelmetWidthPx": 179.94140625,
+      "frameCount": 6,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              200,
+              430,
+              263,
+              475
+            ],
+            [
+              323,
+              451,
+              381,
+              502
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                200,
+                430,
+                263,
+                475
+              ],
+              "contactPoint": [
+                222,
+                471
+              ],
+              "solidBounds": [
+                202,
+                430,
+                263,
+                471
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                323,
+                451,
+                381,
+                502
+              ],
+              "contactPoint": [
+                355.5,
+                495
+              ],
+              "solidBounds": [
+                323,
+                451,
+                377,
+                495
+              ],
+              "roiBottomClearance": 7
+            }
+          ],
+          "groundRootExactMidpoint": [
+            288.75,
+            483
+          ],
+          "groundRootInteger": [
+            289,
+            483
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0
+          ],
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "a4074fd8673b9188c339e2827f0f7ba7354bfbde3231aa8a9f8123b8645563c4",
+          "nativeTranslation": [
+            223,
+            285
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/native1024/defeat-01.png",
+            "sha256": "e1213a31e8d2a7d826b15908ff6bca58792408a05911b901734b89d9dd2096c2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 970275,
+            "alphaOne": 4603,
+            "alphaSemi": 78301,
+            "alphaOpaque": 0,
+            "alphaNonzero": 78301,
+            "alpha0BBox": [
+              223,
+              306,
+              735,
+              789
+            ],
+            "alpha16BBox": [
+              322,
+              391,
+              648,
+              780
+            ],
+            "alpha16Height": 389
+          },
+          "actionUniformScale": 0.810546875,
+          "resizedSourceSize": [
+            415,
+            415
+          ],
+          "normalizedTranslation": [
+            278,
+            377
+          ],
+          "normalizedContactPoints": [
+            [
+              457.94140625,
+              758.767578125
+            ],
+            [
+              566.1494140625,
+              778.220703125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.04541015625,
+            0.494140625
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/normalized1024/defeat-01.png",
+            "sha256": "0b9e3a23fadc385386edc359223f654fd3b1d121aecfdb687b696322e5633cba",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997477,
+            "alphaOne": 2743,
+            "alphaSemi": 50821,
+            "alphaOpaque": 278,
+            "alphaNonzero": 51099,
+            "alpha0BBox": [
+              278,
+              394,
+              693,
+              786
+            ],
+            "alpha16BBox": [
+              358,
+              463,
+              623,
+              778
+            ],
+            "alpha16Height": 315
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-01.png",
+            "sha256": "775ba88dd470a65f2cbefd1e25314ef330ffe872edc13ed27e1d89049fa6a4ca",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140195,
+            "alphaOne": 200,
+            "alphaSemi": 6922,
+            "alphaOpaque": 339,
+            "alphaNonzero": 7261,
+            "alpha0BBox": [
+              117,
+              150,
+              259,
+              294
+            ],
+            "alpha16BBox": [
+              134,
+              173,
+              234,
+              292
+            ],
+            "alpha16Height": 119
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.01702880859375,
+            0.185302734375
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              212,
+              441,
+              282,
+              497
+            ],
+            [
+              323,
+              461,
+              383,
+              508
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                212,
+                441,
+                282,
+                497
+              ],
+              "contactPoint": [
+                237,
+                492
+              ],
+              "solidBounds": [
+                212,
+                441,
+                282,
+                492
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                323,
+                461,
+                383,
+                508
+              ],
+              "contactPoint": [
+                358.5,
+                500
+              ],
+              "solidBounds": [
+                323,
+                461,
+                383,
+                500
+              ],
+              "roiBottomClearance": 8
+            }
+          ],
+          "groundRootExactMidpoint": [
+            297.75,
+            496
+          ],
+          "groundRootInteger": [
+            298,
+            496
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0
+          ],
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "38666704b864b25327df4aac16ae829cac2f1d8ba7e38614ba4ad19ecced2363",
+          "nativeTranslation": [
+            214,
+            272
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/native1024/defeat-02.png",
+            "sha256": "668b074aa92386bcd6660fd0f3026feb421128ceba9c9bf56d04e02b56fb6b3a",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 973860,
+            "alphaOne": 5007,
+            "alphaSemi": 74716,
+            "alphaOpaque": 0,
+            "alphaNonzero": 74716,
+            "alpha0BBox": [
+              215,
+              291,
+              726,
+              784
+            ],
+            "alpha16BBox": [
+              318,
+              412,
+              648,
+              772
+            ],
+            "alpha16Height": 360
+          },
+          "actionUniformScale": 0.810546875,
+          "resizedSourceSize": [
+            415,
+            415
+          ],
+          "normalizedTranslation": [
+            270,
+            366
+          ],
+          "normalizedContactPoints": [
+            [
+              462.099609375,
+              764.7890625
+            ],
+            [
+              560.5810546875,
+              771.2734375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.65966796875,
+            0.03125
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/normalized1024/defeat-02.png",
+            "sha256": "c0e902574789817a546774b6df896387ff10bc01321feb9bad609cdc45127c16",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 999641,
+            "alphaOne": 3180,
+            "alphaSemi": 48685,
+            "alphaOpaque": 250,
+            "alphaNonzero": 48935,
+            "alpha0BBox": [
+              271,
+              381,
+              685,
+              781
+            ],
+            "alpha16BBox": [
+              354,
+              479,
+              622,
+              772
+            ],
+            "alpha16Height": 293
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-02.png",
+            "sha256": "4a5afe412fadbf456923cd2938c48e788a10f31a950dbf6b520c57cf03a3806d",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140520,
+            "alphaOne": 254,
+            "alphaSemi": 6648,
+            "alphaOpaque": 288,
+            "alphaNonzero": 6936,
+            "alpha0BBox": [
+              104,
+              148,
+              253,
+              293
+            ],
+            "alpha16BBox": [
+              133,
+              179,
+              233,
+              290
+            ],
+            "alpha16Height": 111
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.24737548828125,
+            0.01171875
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "left knee and right boot",
+          "manualRois": [
+            [
+              239,
+              459,
+              307,
+              507
+            ],
+            [
+              323,
+              464,
+              382,
+              508
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                239,
+                459,
+                307,
+                507
+              ],
+              "contactPoint": [
+                268,
+                499
+              ],
+              "solidBounds": [
+                239,
+                459,
+                307,
+                499
+              ],
+              "roiBottomClearance": 8
+            },
+            {
+              "roi": [
+                323,
+                464,
+                382,
+                508
+              ],
+              "contactPoint": [
+                357,
+                502
+              ],
+              "solidBounds": [
+                323,
+                464,
+                382,
+                502
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            312.5,
+            500.5
+          ],
+          "groundRootInteger": [
+            313,
+            501
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.5
+          ],
+          "durationMs": 160,
+          "sourceCropRgbaSha256": "244b448dbd76ee98994931154fa79bb44cb2fd73e20d842e63e8c24c178bea95",
+          "nativeTranslation": [
+            199,
+            267
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/native1024/defeat-03.png",
+            "sha256": "f6d1bd7bddd3c647cee24aade260ed5345461c56105721c3ab21eed2108434b4",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 977642,
+            "alphaOne": 4216,
+            "alphaSemi": 70934,
+            "alphaOpaque": 0,
+            "alphaNonzero": 70934,
+            "alpha0BBox": [
+              199,
+              288,
+              697,
+              773
+            ],
+            "alpha16BBox": [
+              320,
+              438,
+              654,
+              769
+            ],
+            "alpha16Height": 331
+          },
+          "actionUniformScale": 0.810546875,
+          "resizedSourceSize": [
+            415,
+            415
+          ],
+          "normalizedTranslation": [
+            258,
+            362
+          ],
+          "normalizedContactPoints": [
+            [
+              475.2265625,
+              766.462890625
+            ],
+            [
+              547.365234375,
+              768.89453125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.7041015625,
+            -0.3212890625
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/normalized1024/defeat-03.png",
+            "sha256": "f96459f485c23d44f3d6d51e53125d0856992ae576368b8465080fcffc3c3a4c",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1002263,
+            "alphaOne": 2538,
+            "alphaSemi": 46115,
+            "alphaOpaque": 198,
+            "alphaNonzero": 46313,
+            "alpha0BBox": [
+              258,
+              379,
+              662,
+              772
+            ],
+            "alpha16BBox": [
+              356,
+              500,
+              627,
+              769
+            ],
+            "alpha16Height": 269
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-03.png",
+            "sha256": "d7652c548eeac00381126dc78bb0621e2b3b81c56ffc82048f9245a0de6b3cc7",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140880,
+            "alphaOne": 214,
+            "alphaSemi": 6307,
+            "alphaOpaque": 269,
+            "alphaNonzero": 6576,
+            "alpha0BBox": [
+              97,
+              142,
+              238,
+              291
+            ],
+            "alpha16BBox": [
+              133,
+              187,
+              235,
+              289
+            ],
+            "alpha16Height": 102
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.2640380859375,
+            -0.1204833984375
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two knees",
+          "manualRois": [
+            [
+              217,
+              403,
+              289,
+              449
+            ],
+            [
+              292,
+              404,
+              356,
+              447
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                217,
+                403,
+                289,
+                449
+              ],
+              "contactPoint": [
+                261.5,
+                443
+              ],
+              "solidBounds": [
+                217,
+                403,
+                289,
+                443
+              ],
+              "roiBottomClearance": 6
+            },
+            {
+              "roi": [
+                292,
+                404,
+                356,
+                447
+              ],
+              "contactPoint": [
+                320,
+                438
+              ],
+              "solidBounds": [
+                292,
+                404,
+                356,
+                438
+              ],
+              "roiBottomClearance": 9
+            }
+          ],
+          "groundRootExactMidpoint": [
+            290.75,
+            440.5
+          ],
+          "groundRootInteger": [
+            291,
+            441
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.5
+          ],
+          "durationMs": 200,
+          "sourceCropRgbaSha256": "5ff67b9781076bf751685721ec900e29047cad92765ce0bbb58c58a1815f0014",
+          "nativeTranslation": [
+            221,
+            327
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/native1024/defeat-04.png",
+            "sha256": "e03c756a0bf0067c229e310b5e38dbdc1752d11b00e12d12f12ddebb4f3f7b5a",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 975566,
+            "alphaOne": 7200,
+            "alphaSemi": 73010,
+            "alphaOpaque": 0,
+            "alphaNonzero": 73010,
+            "alpha0BBox": [
+              254,
+              328,
+              733,
+              839
+            ],
+            "alpha16BBox": [
+              317,
+              466,
+              682,
+              771
+            ],
+            "alpha16Height": 305
+          },
+          "actionUniformScale": 0.810546875,
+          "resizedSourceSize": [
+            415,
+            415
+          ],
+          "normalizedTranslation": [
+            276,
+            411
+          ],
+          "normalizedContactPoints": [
+            [
+              487.9580078125,
+              770.072265625
+            ],
+            [
+              535.375,
+              766.01953125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.33349609375,
+            0.0458984375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/normalized1024/defeat-04.png",
+            "sha256": "3e4b5a2e458c2ad36b394693c1b1271e14f1752b47503cb8dac41a5ca617d9ac",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1000781,
+            "alphaOne": 4615,
+            "alphaSemi": 47617,
+            "alphaOpaque": 178,
+            "alphaNonzero": 47795,
+            "alpha0BBox": [
+              303,
+              412,
+              691,
+              826
+            ],
+            "alpha16BBox": [
+              354,
+              524,
+              649,
+              771
+            ],
+            "alpha16Height": 247
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-04.png",
+            "sha256": "62ed4d42e476c79ab1cae20ac26002831eb1ad4c6d4e1ecd8e7e73d4e55692f2",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140781,
+            "alphaOne": 409,
+            "alphaSemi": 6428,
+            "alphaOpaque": 247,
+            "alphaNonzero": 6675,
+            "alpha0BBox": [
+              116,
+              159,
+              258,
+              299
+            ],
+            "alpha16BBox": [
+              132,
+              196,
+              244,
+              290
+            ],
+            "alpha16Height": 94
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.12506103515625,
+            0.0172119140625
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two knees",
+          "manualRois": [
+            [
+              214,
+              401,
+              284,
+              449
+            ],
+            [
+              297,
+              408,
+              359,
+              449
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                214,
+                401,
+                284,
+                449
+              ],
+              "contactPoint": [
+                253,
+                441
+              ],
+              "solidBounds": [
+                214,
+                401,
+                284,
+                441
+              ],
+              "roiBottomClearance": 8
+            },
+            {
+              "roi": [
+                297,
+                408,
+                359,
+                449
+              ],
+              "contactPoint": [
+                324,
+                439
+              ],
+              "solidBounds": [
+                297,
+                408,
+                359,
+                439
+              ],
+              "roiBottomClearance": 10
+            }
+          ],
+          "groundRootExactMidpoint": [
+            288.5,
+            440
+          ],
+          "groundRootInteger": [
+            289,
+            440
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0
+          ],
+          "durationMs": 200,
+          "sourceCropRgbaSha256": "c8a4351e5204b3209762b0fd753606c64461a6ff1189bf14fcf81da5aeb29e1e",
+          "nativeTranslation": [
+            223,
+            328
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/native1024/defeat-05.png",
+            "sha256": "265f45ac236f57679d6a14702475213e49208ea43dcd1196c1bb86e9032d1ce7",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 978841,
+            "alphaOne": 8313,
+            "alphaSemi": 69735,
+            "alphaOpaque": 0,
+            "alphaNonzero": 69735,
+            "alpha0BBox": [
+              224,
+              328,
+              735,
+              840
+            ],
+            "alpha16BBox": [
+              317,
+              492,
+              693,
+              774
+            ],
+            "alpha16Height": 282
+          },
+          "actionUniformScale": 0.810546875,
+          "resizedSourceSize": [
+            415,
+            415
+          ],
+          "normalizedTranslation": [
+            278,
+            411
+          ],
+          "normalizedContactPoints": [
+            [
+              483.068359375,
+              768.451171875
+            ],
+            [
+              540.6171875,
+              766.830078125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.1572265625,
+            -0.359375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/normalized1024/defeat-05.png",
+            "sha256": "c0e12fda8be96a629a361103e6635b966098d0714a2ad11c763692249990ab5e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1002856,
+            "alphaOne": 5421,
+            "alphaSemi": 45535,
+            "alphaOpaque": 185,
+            "alphaNonzero": 45720,
+            "alpha0BBox": [
+              279,
+              411,
+              693,
+              826
+            ],
+            "alpha16BBox": [
+              354,
+              544,
+              659,
+              773
+            ],
+            "alpha16Height": 229
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-05.png",
+            "sha256": "e07c784799df882f425f61c1fe2a3aa194a2ea4951bb0ef9805faf44a6d09f4a",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 141100,
+            "alphaOne": 473,
+            "alphaSemi": 6105,
+            "alphaOpaque": 251,
+            "alphaNonzero": 6356,
+            "alpha0BBox": [
+              105,
+              154,
+              259,
+              310
+            ],
+            "alpha16BBox": [
+              133,
+              204,
+              248,
+              290
+            ],
+            "alpha16Height": 86
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.0589599609375,
+            -0.134765625
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two knees",
+          "manualRois": [
+            [
+              222,
+              400,
+              290,
+              449
+            ],
+            [
+              298,
+              408,
+              360,
+              448
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                222,
+                400,
+                290,
+                449
+              ],
+              "contactPoint": [
+                258.5,
+                440
+              ],
+              "solidBounds": [
+                222,
+                400,
+                290,
+                440
+              ],
+              "roiBottomClearance": 9
+            },
+            {
+              "roi": [
+                298,
+                408,
+                360,
+                448
+              ],
+              "contactPoint": [
+                329,
+                435
+              ],
+              "solidBounds": [
+                298,
+                408,
+                360,
+                435
+              ],
+              "roiBottomClearance": 13
+            }
+          ],
+          "groundRootExactMidpoint": [
+            293.75,
+            437.5
+          ],
+          "groundRootInteger": [
+            294,
+            438
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.5
+          ],
+          "durationMs": 600,
+          "sourceCropRgbaSha256": "d8ca839293459f275cb10e6efd97aa4504669024ea41ee347b365d35277b905e",
+          "nativeTranslation": [
+            218,
+            330
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/native1024/defeat-06.png",
+            "sha256": "980589d18c394bfe469329d24ee700cc56a23f2edd4ac97cbefe52b10e77e54f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 988004,
+            "alphaOne": 6868,
+            "alphaSemi": 60572,
+            "alphaOpaque": 0,
+            "alphaNonzero": 60572,
+            "alpha0BBox": [
+              218,
+              341,
+              712,
+              842
+            ],
+            "alpha16BBox": [
+              311,
+              527,
+              667,
+              776
+            ],
+            "alpha16Height": 249
+          },
+          "actionUniformScale": 0.810546875,
+          "resizedSourceSize": [
+            415,
+            415
+          ],
+          "normalizedTranslation": [
+            274,
+            413
+          ],
+          "normalizedContactPoints": [
+            [
+              483.5263671875,
+              769.640625
+            ],
+            [
+              540.669921875,
+              765.587890625
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.09814453125,
+            -0.3857421875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/normalized1024/defeat-06.png",
+            "sha256": "a1e15c377931058c734a2043b814a1cea89b558f062cb8adfbca5ad9b894cc57",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1008839,
+            "alphaOne": 4467,
+            "alphaSemi": 39528,
+            "alphaOpaque": 209,
+            "alphaNonzero": 39737,
+            "alpha0BBox": [
+              274,
+              422,
+              675,
+              828
+            ],
+            "alpha16BBox": [
+              349,
+              573,
+              638,
+              774
+            ],
+            "alpha16Height": 201
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-06.png",
+            "sha256": "c9ce5feb3e7b0e269448f783015d0ddbc3a14735d8c7b0e8087057f260ee43fe",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 141882,
+            "alphaOne": 434,
+            "alphaSemi": 5371,
+            "alphaOpaque": 203,
+            "alphaNonzero": 5574,
+            "alpha0BBox": [
+              103,
+              167,
+              250,
+              305
+            ],
+            "alpha16BBox": [
+              131,
+              214,
+              239,
+              291
+            ],
+            "alpha16Height": 77
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.03680419921875,
+            -0.1446533203125
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.7041015625
+      },
+      "visualStatus": "aligned_contact_markers_light_dark_and_native_size_map128h_actually_viewed",
+      "sourceRecordSha256": "aff18a8031e2b7e12db9c36c1bead4944136cd63f0f5f7dc47604f7ab71ff119",
+      "visualReview": {
+        "reviewedAt": "2026-10-29T05:23:24.910Z",
+        "nativeOriginalViewed": true,
+        "manualBootOrKneeContactsViewed": true,
+        "lightPath": "records/troop-frames-20261028-r2/metal-ground-defeat-light-aligned.png",
+        "darkPath": "records/troop-frames-20261028-r2/metal-ground-defeat-dark-aligned.png",
+        "mapPath": "records/troop-frames-20261028-r2/metal-ground-defeat-map128h-aligned.png",
+        "findings": [
+          "Knee contacts remain aligned while body collapses; normalized silhouette heights315→293→269→247→229→201px, no standing-height normalization",
+          "Shield edge and sword may approach/slightly cross virtual ground projection; not treated as feet or erased"
+        ],
+        "limitations": [
+          "Static frame review does not certify temporal smoothness or user identity acceptance",
+          "Head-width landmarks manually estimated with approximately4 source-pixel uncertainty"
+        ]
+      }
+    }
+  ],
+  "notProven": [
+    "user visual acceptance",
+    "motion smoothness and timing",
+    "individual foot immobility (stance width and contact-line slope can change)",
+    "consistent generated proportions beyond measured helmet width",
+    "Unity playback/import"
+  ],
+  "counts": {
+    "generatedNativeSheetsInThisStep": 0,
+    "sourceSheets": 4,
+    "animationFrames": 20,
+    "native1024Png": 20,
+    "normalized1024Png": 20,
+    "map128hPng": 20,
+    "exportPngTotal": 60
+  },
+  "provenChecks": {
+    "all20NativeFramesExactSourceRgba": true,
+    "all60ExportFramesHaveNoAlphaAtOuterCanvasEdges": true,
+    "allResizedSourceRectanglesPreserved": true,
+    "maximumNormalizedContactMidpointErrorPx": 0.7041015625,
+    "canonicalHelmetWidthsPx": [
+      {
+        "action": "idle",
+        "width": 179.9043062200957
+      },
+      {
+        "action": "attack",
+        "width": 180.091796875
+      },
+      {
+        "action": "hurt",
+        "width": 179.96810207336523
+      },
+      {
+        "action": "defeat",
+        "width": 179.94140625
+      }
+    ],
+    "masterMapReferenceAlpha16Height": 128,
+    "actualViewedOverviews": [
+      "records/troop-frames-20261028-r2/metal-grounded-20-overview-light.png",
+      "records/troop-frames-20261028-r2/metal-grounded-20-overview-dark.png"
+    ],
+    "FFmpegRun": false,
+    "UnityRun": false
+  },
+  "executedExportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-ground-export.py",
+    "sha256": "d4cafe76c548cb2d9ef30f7a310377f4876d8915150b17452b083a12e9ad4ec5"
+  },
+  "reusableExportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6",
+    "validation": "AST parse only; reusable argument adapter not separately re-exported. The executed fixed-input implementation is preserved beside it."
+  },
+  "prior512FailureResolution": {
+    "previousRecord": "records/troop-frames-20261028-r2/metal-idle-attack-execution.json",
+    "resolvedBy": "Manually located boot/knee ground midpoint per frame, whole-cell integer translation onto1024 canvas, then one scale per action. No gate relaxation or alpha erase.",
+    "nativePixelPreservationProven": true,
+    "all20FramesExported": true
+  },
+  "headScaleProof": "One scale per action derived from manually selected rigid-helmet width of reference frame. Computed landmark widths agree within0.1px; actual painted helmet silhouettes and perspective can differ a few percent and were not per-frame fitted."
+}

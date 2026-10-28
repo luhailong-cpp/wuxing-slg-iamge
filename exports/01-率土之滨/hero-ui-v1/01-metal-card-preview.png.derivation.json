@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+  "sha256": "3a35cc99afd85cd4395974319f22244a24d78f40fa3c9660f1bfca7f23979893",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "01-metal",
+  "element": "metal",
+  "variant": "card-preview",
+  "identityPreservedFromMaster": "silver bob and cowlick, gold flower hairpiece, jade earrings; ivory/jade/gold robe; metal talisman and lotus implement in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "record": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "recordSha256": "210e71a0e43dd334acffe30dbed6f8f946ff5f05a509be0665e6e69b18cb4f74"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "resizeScaleNominal": 0.6875,
+  "actualScaleXY": [
+    0.6875,
+    0.6875
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    768,
+    1152
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    368,
+    250,
+    618,
+    480
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 554859,
+    "alpha1PixelCount": 15467,
+    "alphaSemiPixels": 328459,
+    "alphaOpaquePixels": 1418,
+    "bboxAbove16": [
+      73,
+      99,
+      707,
+      1054
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 15467,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

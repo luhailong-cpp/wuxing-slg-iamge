@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-card-full.png",
+  "sha256": "f079f37fee3da322b3ef3696b5803b0467165cac0152036407b5384ee8219136",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "huang-zhong",
+  "displayName": "黄忠",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/huang-zhong-master-v1.png",
+      "sha256": "18316e282fdb364e749d1c43a9b071ee71ab4dbf8412e5a2ee0aded7912ca4bf",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/huang-zhong-master-v1.png.generation.json",
+      "recordSha256": "28c4e72de8ba4e9277c0b5155145f058133d9fc959b56559a3ee099c7fd041e0"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    480,
+    395,
+    730,
+    590
+  ],
+  "faceRoiOutputApprox": [
+    362.0,
+    319.56,
+    533.88,
+    453.62
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 488595,
+    "alpha1Pixels": 7258,
+    "opaquePixels": 1144,
+    "bboxAbove32": [
+      63,
+      146,
+      710,
+      1040
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      63,
+      146,
+      58,
+      112
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": false,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 18511,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        45,
+        143,
+        38,
+        94
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

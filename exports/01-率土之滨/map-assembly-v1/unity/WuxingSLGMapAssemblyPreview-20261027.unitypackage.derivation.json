@@ -1,0 +1,73 @@
+{
+  "schema": "wuxing.unitypackage-derivation.v1",
+  "file": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+  "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+  "bytes": 1000922,
+  "operation": "actual_Unity_AssetDatabase.ExportPackage_Recurse",
+  "unityVersion": "6000.6.0f1",
+  "exportRoot": "Assets/WuxingSLGMapAssemblyPreview",
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/source-index.json",
+    "sha256": "7e2b5144ebd3da488effa402c8ec7191863c37f0ecfc177e45635acaf5abf583"
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "record": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "record": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "record": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "record": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "record": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/unity/Runtime/WuxingMapAssemblyRouteDemo.cs",
+      "sha256": "fe3c0783aeaa1e0d426c9d12be472fb61a985230dbfb51734206a1389a42f0b6"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/layout-plan.json",
+      "sha256": "b7ca3bbf3b30c499905ecb82ad94ccc648862966bdb696139db46da3adb9cbb0"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/unity/fixed-route.json",
+      "sha256": "cd20ee98635c750d71b1836f9221db49ae99f658a4121cce3428e9b3cd128c80"
+    }
+  ],
+  "nativePNGByteStreamsUnchanged": true,
+  "verification": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/verification.json",
+    "sha256": "bb2a6688191df25220217f95584c3410c105a4e2c80e2fba646e91793f7758a3"
+  },
+  "clientIntegrated": false,
+  "candidate": true
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-27T13:48:34.3989722Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "promptFile": "prompts/01-率土之滨/02-dao-archer-master-v1.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+    ],
+    "prompt": "Use case: stylized-concept\nAsset type: ONE static master for a small MAP ARCHER UNIT sprite in a five-elements Daoist chibi SLG, square real-alpha PNG.\nInputs: images1/2 PRIMARY jade/ivory/warm-gold Daoist chibi hand-painted style. Image3 our actually generated infantry unit, ONLY camera, unit scale, clothing-family simplicity and map-unit rendering peer; not the same face/weapon.\nSubject: one original anonymous Daoist archer, youthful adult woman with very large round head and compact body about2.5heads. Brown short bob tied into one tiny back knot, round jade headband with ivory cloud clasp; alert warm brown eyes and calm focused smile. Simple ivory tunic, jade-green short cape, gold piping, dark wrapped trousers and brown soft boots. Clear curved short wooden bow held diagonally down in one hand, other hand resting beside small jade quiver at waist/back, visible arrow fletching. Bowstring, both hands and feet clear. No spear, shield, staff, large hat, historical identity, elaborate hero jewelry or spread ribbons. Neutral shared-faction unit, not a newly assigned elemental damage class.\nCamera: SAME strategy-map three-quarter ISOMETRIC TOP-DOWN camera as image3, about40degrees above ground; she faces SOUTH-EAST toward bottom-right. Show top of head and shoulders, full bow and both boots; no straight-on portrait. Silhouette should read as ARCHER at128px height.\nFraming: square native transparent canvas, whole character plus bow/quiver occupy ONLY CENTRAL65% width AND height; minimum15% real empty alpha margin each side. Bow tip cannot reach the edge. Natural quiet idle/ready stance with grounded feet on one imaginary baseline inside frame. Exactly one subject, no animation sheet or duplicated pose.\nFinish: high-definition delicate hand-painted Daoist Q/chibi. Shared ivory/jade/gold materials with infantry but distinct archer silhouette; simple broad folds, readable tiny-scale face. Native transparent background, NO shadow disc, floor, platform, backdrop, checkerboard, smoky halo, skill glow, scenery, UI, text, logo/watermark. No 三国 or historical hero, no plastic3D, photorealism, pixel art, blur or dense jewelry. Static master only, not animated.",
+    "quality": null,
+    "transparent_background": true,
+    "model": null
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false
+}

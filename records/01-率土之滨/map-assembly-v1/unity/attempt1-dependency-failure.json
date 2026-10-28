@@ -1,0 +1,10 @@
+{
+  "schema": "wuxing.unity-attempt-failure.v1",
+  "phase": "package resolution before compilation/import/PlayMode",
+  "passed": false,
+  "actualUnityExitCodeFromLog": 1,
+  "error": "com.unity.modules.inputlegacy: Package [com.unity.modules.inputlegacy@1.0.0] cannot be found",
+  "correction": "Remove nonexistent manifest dependency; installed Unity has InputLegacyModule.dll directly. No new package downloaded. Runtime also provides component context menu pause/restart.",
+  "rawLogSha256": "02d229633b22a25479e3c6ed7fd977e8fc28982d5e3396a45355fd1cd91e9e5e",
+  "rawLogPolicy": "kept only under work, not published; summary has no license/session lines"
+}

@@ -1,0 +1,86 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-bust-native.png",
+  "sha256": "a5ce959da5f8d0a2b8a60cbd4eea79ac706bf334271e4a06d257964b00fbe578",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "xun-yu",
+  "displayName": "荀彧",
+  "variant": "bust-native",
+  "width": 960,
+  "height": 1020,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+      "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+      "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+    }
+  ],
+  "operation": "native_rectangle_crop",
+  "cropBox": [
+    30,
+    20,
+    990,
+    1040
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alphaZero": 367316,
+    "alphaOne": 13285,
+    "alphaSemi": 611884,
+    "alphaOpaque": 0,
+    "bboxAlpha16": [
+      0,
+      5,
+      957,
+      1020
+    ],
+    "marginsAlpha16": [
+      0,
+      5,
+      3,
+      0
+    ],
+    "edgeAlpha16Pixels": 1031
+  },
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    430,
+    345,
+    705,
+    562
+  ],
+  "faceRoiOutputApprox": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

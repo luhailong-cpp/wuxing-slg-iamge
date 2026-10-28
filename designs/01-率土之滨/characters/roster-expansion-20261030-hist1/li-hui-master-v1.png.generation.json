@@ -1,0 +1,82 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-hui-master-v1.png",
+  "sha256": "7af5ca0b5857055bd76e2310487e3176cc4f249fa6ac27a9980edc43a8dd9362",
+  "generatedAt": null,
+  "observedCompletedAt": "2026-10-30T08:06:38.462Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_image",
+  "resultId": "exec-954bde7c-b752-410b-9e14-4c7aa058db5e",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Original complete standalone character master of 李恢 for 五行问鼎, a historical Three Kingdoms identity in the established Taoist chibi HD hand-painted style. Exactly ONE person on true transparent alpha, vertical2:3. Images1/2 are authoritative style, image3 is peer finish ONLY; do not copy face, costume, prop or personality. Jade-green, ivory cloth and restrained warm-gold cloud/ruiyi details, finely painted rounded forms, soft shading, rich fabric and clear linework.\nA middle-aged civil envoy, narrow oval face, thoughtful slightly hooded eyes, fine moustache and small pointed beard. Tall narrow black-green official cap with simple jade clasp. Pale ivory and deep celadon robe, restrained gold cloud hems, practical brown shoes. Holds a folded silk map with both hands at waist, feet together, composed intelligent expression. No feather fan or emperor crown.\nThese are original fictional visual design choices, not documentary claims or copies of commercial card art. Clearly adult historical identity with a distinct face, adult hair/beard, compact short body and large head about2.7 heads tall. Complete hands, two boots, all sleeves and complete weapon/book/hat in canvas. Use ONLY about78 percent of height and width: at least10 percent actual transparent clearance EVERY side. Keep all extremities well away from edges. Friendly fine hand-painted Taoist chibi finish matching refs, no plastic sheen, no realism, no pixel style. No scene, background haze, ground, shadow, halo, card frame, text, nameplate, watermarks or UI. No elemental class emblem; five elements classify ordinary troops only.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/06-zhuge-liang-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "source": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-954bde7c-b752-410b-9e14-4c7aa058db5e.png",
+    "request": "records/roster-expansion-20261030-hist1/li-hui-request.json"
+  },
+  "unverifiedReason": "工具未披露实际型号/质量/服务生成时刻",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261030-hist1/li-hui-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style or series finish only; not identity"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style or series finish only; not identity"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png",
+      "sha256": "16d4585e4b68b26687dfb5009024f59379afe78e71453cd60995b649aaa0ea03",
+      "role": "authoritative style or series finish only; not identity"
+    }
+  ],
+  "personId": "li-hui",
+  "personID": "ww-p-28346fa90b09",
+  "officialCardIds": [
+    100335
+  ],
+  "identityEvidence": [
+    {
+      "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "locator": "卷43：李恢",
+      "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+    },
+    {
+      "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B743",
+      "locator": "三国志卷43#李恢",
+      "sha256": "5aaf272c558f2f96f0cc9e7fb13301fcd14053700f444d033d6ab0ee6a33e8be"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "new_original_historical_character_master_candidate"
+}

@@ -1,0 +1,1110 @@
+{
+  "schemaVersion": 1,
+  "resolvedAtUtc": "2026-10-27T19:54:01.016951+00:00",
+  "originalAudit": {
+    "file": "records/publication-safety-audit-phase3-20261027.json",
+    "sha256": "4fdeecca6ca5f7f41596b2148501420d260594152d95e46129fdf806888c6b96",
+    "statusPreserved": "blocked_for_frozen_publication_snapshot",
+    "notOverwritten": true
+  },
+  "basis": "Narrow directed resolution of exactly20 conservative scanner findings on the same frozen1755file snapshot; not a new fullscan. No artist/history receipt or input was modified.",
+  "scopeFileSha256": "ad2fef1f6836bd2006380b8bc3c26835da2d77dfa21120510bd97f19623e5ca4",
+  "rootAuthorization": "Parent requested a separate resolution addendum after retaining the original blocked report.",
+  "originalFindingCounts": {
+    "currentReferenceMismatches": 1,
+    "currentUnavailableReferences": 6,
+    "unclassifiedExternalReferences": 13
+  },
+  "resolvedFindingCount": 20,
+  "resolvedFindings": [
+    {
+      "originalCategory": "currentReferenceMismatches",
+      "originalFinding": {
+        "record": "records/01-率土之滨/unity-fx-source-creation-validation-20261027.json",
+        "pointer": "/packageFile",
+        "target": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+        "kind": "packageFile_packageSha256",
+        "expectedSha256": "2c07b305c50c9e15db13ff17d1e11558a14b36e3691981e8f5e4097f1206afd9",
+        "resolution": "unique_current_package_filename",
+        "actualSha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018",
+        "match": false
+      },
+      "classification": "older_source_creation_export_snapshot_explicitly_retained_by_current_final_verification",
+      "currentBlocking": false,
+      "evidence": {
+        "olderReceipt": {
+          "file": "records/01-率土之滨/unity-fx-source-creation-validation-20261027.json",
+          "sha256": "189ba1fadba03180efcfc8fda39597f04540edff645e53aa8c10980d1d5ceffc",
+          "bytes": 65753,
+          "matchesFrozenAuditBytes": true
+        },
+        "olderVerifiedAtUtc": "2026-10-27T17:49:56.1867437Z",
+        "olderPackageSha256": "2c07b305c50c9e15db13ff17d1e11558a14b36e3691981e8f5e4097f1206afd9",
+        "olderPackageBytes": 7827039,
+        "olderReceiptAlreadyUses8UniqueKeysAnd0_8Seconds": true,
+        "notClassifiedAs9Key0_9SecondFailure": true,
+        "hashDifferenceCause": "Not asserted. This is an older successful export snapshot; reason for later archive-byte change is not inferred. Oldpackage bytes were not restored or read.",
+        "currentPackage": {
+          "file": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+          "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018",
+          "bytes": 7827361,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentSourceValidation": {
+          "file": "records/01-率土之滨/unity-fx-source-import-validation-20261027.json",
+          "sha256": "cd3bedfe31fa4fc33eff53c294e3f60f4da7db6a9e8fad809be586ab8e171c13",
+          "bytes": 65749,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentRoundtripValidation": {
+          "file": "records/01-率土之滨/unity-fx-package-roundtrip-validation-20261027.json",
+          "sha256": "c642b800913d27e0203d91fb285415dc6072737135b9b6aaa091912f209f1550",
+          "bytes": 65745,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentFinalVerification": {
+          "file": "records/01-率土之滨/unity-fx-animation-package-verification-20261027.json",
+          "sha256": "ff15fecbd5c8ce289446b09cc12cec82f59c0da3fc194a3cdebf82136a3862aa",
+          "bytes": 56980,
+          "matchesFrozenAuditBytes": true
+        },
+        "laterActualGPUReview": {
+          "file": "records/fx-gpu-playback-v1/final-review.json",
+          "sha256": "b5109f499d1299d3cd482dbff29fee36881d6948434f0350245f8cd2656ad6cc",
+          "bytes": 26956,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentArchiveActual8KeyClips": [
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/healing-light.anim",
+            "sha256": "270321533930154166355b4b8223459bc1950e37cfa629868bdd9fee04d1ded9",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/slash-arc.anim",
+            "sha256": "536baab1ba5cbd3176e07da0dda753a4aab009b422f48b63d72230851b7bcfd6",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/reward-glow.anim",
+            "sha256": "601895ecd72da2b09c981bb4a23d7b69a1e6d4342d984f50bca39fc276fb4382",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/buff-cloud.anim",
+            "sha256": "ea01d7f6de83b6c05e56a7e763febdc9a751da467a35fff225a7c7958c8f2286",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/debuff-mist.anim",
+            "sha256": "0d73f7d083c8c6734ce21f25ec76268b878ebde112647f029982c333cba02e5d",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/fire.anim",
+            "sha256": "9ac221a27165acff9d35eb84431c6d58ea9d6c3bde4c3d2791bfab3b9416e8e6",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/strategy-array.anim",
+            "sha256": "dd9290855fbee89dd36b275d9295e80e3a47d802c27f928c1d45320a399c3c80",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          },
+          {
+            "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/capture-circle.anim",
+            "sha256": "f8c4e4d1b702d24dca9c45644be15d8e5059c8a1459da92c97a17805c0514227",
+            "actualObjectCurveKeyTimesSeconds": [
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7
+            ],
+            "serializedStopTime": 0.8,
+            "serializedLoopTime": 0
+          }
+        ],
+        "currentPackageMatchesAdjacentAndAuthoritativeFinalAndRoundtrip": true,
+        "exemptionScope": "Only this exact dated report /packageFile observation; no current package, source index, adjacent or roundtrip hash is skipped."
+      }
+    },
+    {
+      "originalCategory": "currentUnavailableReferences",
+      "originalFinding": {
+        "record": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+        "pointer": "/preview/file",
+        "target": "preview.html",
+        "kind": "file_sha256",
+        "expectedSha256": "7207849b8b765baeb208d29be77d16db2bf8d9c857f98959287c853d3acdf669",
+        "actualSha256": null,
+        "match": false
+      },
+      "classification": "generator_output_basename_resolved_relative_to_actual_QA_output_directory",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicFile": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview.html",
+          "sha256": "7207849b8b765baeb208d29be77d16db2bf8d9c857f98959287c853d3acdf669",
+          "bytes": 2093251,
+          "matchesFrozenAuditBytes": true
+        },
+        "generatorQAEvidence": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+          "sha256": "7e554055897cf22567d6e66158e80f88ee2630d0c0293e3abdab156522e3f7a4",
+          "bytes": 5970,
+          "matchesFrozenAuditBytes": true
+        },
+        "outputPathPointer": "/outputs/0/path",
+        "previewFilePointer": "/preview/file",
+        "sourceRecordDirectory": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview",
+        "noUnpublishedInputRequired": true
+      }
+    },
+    {
+      "originalCategory": "currentUnavailableReferences",
+      "originalFinding": {
+        "record": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+        "pointer": "/preview/runtime/file",
+        "target": "map-runtime.mjs",
+        "kind": "file_sha256",
+        "expectedSha256": "c1fc3d9bf15cfa53fdfeb050ce4252f7ace4c923066ca4e135dea576e7445273",
+        "actualSha256": null,
+        "match": false
+      },
+      "classification": "tool_runtime_component_fully_inlined_in_public_HTML_not_a_missing_standalone_project_file",
+      "currentBlocking": false,
+      "evidence": {
+        "containingPublicHTML": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview.html",
+          "sha256": "7207849b8b765baeb208d29be77d16db2bf8d9c857f98959287c853d3acdf669",
+          "bytes": 2093251,
+          "matchesFrozenAuditBytes": true
+        },
+        "generatorQAEvidence": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+          "sha256": "7e554055897cf22567d6e66158e80f88ee2630d0c0293e3abdab156522e3f7a4",
+          "bytes": 5970,
+          "matchesFrozenAuditBytes": true
+        },
+        "QAComponentVersion": "1.1.2",
+        "byteRangeStartInclusive": 2626,
+        "byteRangeEndExclusive": 85702,
+        "byteCount": 83076,
+        "extractedBytesSha256": "c1fc3d9bf15cfa53fdfeb050ce4252f7ace4c923066ca4e135dea576e7445273",
+        "startBoundary": "Immediately after <script type=\"module\"> and its one HTML-template LF",
+        "endBoundaryMarker": "// ---- scene preview (build_scene_preview.py); the runtime above is map-runtime.mjs, inlined verbatim ----",
+        "runtimeTrailingLFIncluded": true,
+        "standaloneProjectMjsRequired": false,
+        "publicInlineBytesMatchRecordedRuntimeHash": true,
+        "externalSkillRuntimeFileReadByThisResolution": false,
+        "noUnpublishedWorkInputRequired": true
+      }
+    },
+    {
+      "originalCategory": "currentUnavailableReferences",
+      "originalFinding": {
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/baseline-scene-snapshot.json",
+        "pointer": "/source/file",
+        "target": "map-bundle.json",
+        "kind": "file_sha256",
+        "expectedSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "actualSha256": null,
+        "match": false
+      },
+      "classification": "browser_scene_snapshot_source_basename_identifies_actual_generator_input_bundle",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicBundle": {
+          "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+          "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+          "bytes": 8612,
+          "matchesFrozenAuditBytes": true
+        },
+        "generatorQAEvidence": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+          "sha256": "7e554055897cf22567d6e66158e80f88ee2630d0c0293e3abdab156522e3f7a4",
+          "bytes": 5970,
+          "matchesFrozenAuditBytes": true
+        },
+        "actualInputPointer": "/inputs/0",
+        "recordedInputPath": "../../../../exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputPathResolvedFromQADirectory": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "sourceFileIsRuntimeBundleBasenameNotProjectRootRelativePath": true,
+        "hashMatchesThisExactSnapshotPointer": true,
+        "noUnpublishedWorkInputRequired": true
+      }
+    },
+    {
+      "originalCategory": "currentUnavailableReferences",
+      "originalFinding": {
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/interaction-check.json",
+        "pointer": "/cityInteraction/source/file",
+        "target": "map-bundle.json",
+        "kind": "file_sha256",
+        "expectedSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "actualSha256": null,
+        "match": false
+      },
+      "classification": "browser_scene_snapshot_source_basename_identifies_actual_generator_input_bundle",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicBundle": {
+          "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+          "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+          "bytes": 8612,
+          "matchesFrozenAuditBytes": true
+        },
+        "generatorQAEvidence": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+          "sha256": "7e554055897cf22567d6e66158e80f88ee2630d0c0293e3abdab156522e3f7a4",
+          "bytes": 5970,
+          "matchesFrozenAuditBytes": true
+        },
+        "actualInputPointer": "/inputs/0",
+        "recordedInputPath": "../../../../exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputPathResolvedFromQADirectory": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "sourceFileIsRuntimeBundleBasenameNotProjectRootRelativePath": true,
+        "hashMatchesThisExactSnapshotPointer": true,
+        "noUnpublishedWorkInputRequired": true
+      }
+    },
+    {
+      "originalCategory": "currentUnavailableReferences",
+      "originalFinding": {
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/interaction-check.json",
+        "pointer": "/enemyInteraction/source/file",
+        "target": "map-bundle.json",
+        "kind": "file_sha256",
+        "expectedSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "actualSha256": null,
+        "match": false
+      },
+      "classification": "browser_scene_snapshot_source_basename_identifies_actual_generator_input_bundle",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicBundle": {
+          "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+          "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+          "bytes": 8612,
+          "matchesFrozenAuditBytes": true
+        },
+        "generatorQAEvidence": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+          "sha256": "7e554055897cf22567d6e66158e80f88ee2630d0c0293e3abdab156522e3f7a4",
+          "bytes": 5970,
+          "matchesFrozenAuditBytes": true
+        },
+        "actualInputPointer": "/inputs/0",
+        "recordedInputPath": "../../../../exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputPathResolvedFromQADirectory": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "sourceFileIsRuntimeBundleBasenameNotProjectRootRelativePath": true,
+        "hashMatchesThisExactSnapshotPointer": true,
+        "noUnpublishedWorkInputRequired": true
+      }
+    },
+    {
+      "originalCategory": "currentUnavailableReferences",
+      "originalFinding": {
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-scene-snapshot.json",
+        "pointer": "/source/file",
+        "target": "map-bundle.json",
+        "kind": "file_sha256",
+        "expectedSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "actualSha256": null,
+        "match": false
+      },
+      "classification": "browser_scene_snapshot_source_basename_identifies_actual_generator_input_bundle",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicBundle": {
+          "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+          "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+          "bytes": 8612,
+          "matchesFrozenAuditBytes": true
+        },
+        "generatorQAEvidence": {
+          "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+          "sha256": "7e554055897cf22567d6e66158e80f88ee2630d0c0293e3abdab156522e3f7a4",
+          "bytes": 5970,
+          "matchesFrozenAuditBytes": true
+        },
+        "actualInputPointer": "/inputs/0",
+        "recordedInputPath": "../../../../exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputPathResolvedFromQADirectory": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+        "actualInputSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+        "sourceFileIsRuntimeBundleBasenameNotProjectRootRelativePath": true,
+        "hashMatchesThisExactSnapshotPointer": true,
+        "noUnpublishedWorkInputRequired": true
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/04-main-city-ui-v1.png.generation.json",
+        "pointer": "/references/3/file",
+        "target": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "documented_historical_external_city_material_reference_not_current_public_dependency",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+          "sha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+          "bytes": 3919722,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/04-main-city-ui-v1.png.generation.json",
+          "sha256": "eec61d48b79859e8bb28aed14e6029a03894e294789ae6b10edcc3f6785c74d0",
+          "bytes": 4200,
+          "matchesFrozenAuditBytes": true
+        },
+        "referenceRoleVerbatim": "旧道家主城：建筑/灰石路/石桥/庭院材质，不作为新城布局与分块合同",
+        "sameHistoricalOriginalAs3AlreadyClassifiedRelativeCityReferences": [
+          {
+            "record": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          }
+        ],
+        "externalExpectedSha256OnlyFromPreservedRecord": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "externalOriginalFileRead": false,
+        "externalOriginalPixelsVerified": false,
+        "externalOriginalRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "scopeNote": "Original reference path remains disclosed; no missing external art is restored, no license or pixels are newly verified."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png.generation.json",
+        "pointer": "/references/3/file",
+        "target": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "documented_historical_external_city_material_reference_not_current_public_dependency",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+          "sha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+          "bytes": 3497272,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png.generation.json",
+          "sha256": "39a85614167bc6ba2142777bb00f212fb851f1d1dede4de82518512f5d0c582b",
+          "bytes": 3977,
+          "matchesFrozenAuditBytes": true
+        },
+        "referenceRoleVerbatim": "旧主城仅供建筑造型与材质参考，不迁入旧项目地图合同",
+        "sameHistoricalOriginalAs3AlreadyClassifiedRelativeCityReferences": [
+          {
+            "record": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          }
+        ],
+        "externalExpectedSha256OnlyFromPreservedRecord": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "externalOriginalFileRead": false,
+        "externalOriginalPixelsVerified": false,
+        "externalOriginalRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "scopeNote": "Original reference path remains disclosed; no missing external art is restored, no license or pixels are newly verified."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/07-fortress-ui-v1.png.generation.json",
+        "pointer": "/references/3/file",
+        "target": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "documented_historical_external_city_material_reference_not_current_public_dependency",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+          "sha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+          "bytes": 3347759,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/07-fortress-ui-v1.png.generation.json",
+          "sha256": "1c9d6b5e657ae5bb56683d60186546673821412c30739e4823246637131d714b",
+          "bytes": 4031,
+          "matchesFrozenAuditBytes": true
+        },
+        "referenceRoleVerbatim": "旧主城仅供建筑造型与材质参考，不迁入旧项目地图合同",
+        "sameHistoricalOriginalAs3AlreadyClassifiedRelativeCityReferences": [
+          {
+            "record": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          }
+        ],
+        "externalExpectedSha256OnlyFromPreservedRecord": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "externalOriginalFileRead": false,
+        "externalOriginalPixelsVerified": false,
+        "externalOriginalRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "scopeNote": "Original reference path remains disclosed; no missing external art is restored, no license or pixels are newly verified."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png.generation.json",
+        "pointer": "/references/3/file",
+        "target": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "documented_historical_external_city_material_reference_not_current_public_dependency",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+          "sha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+          "bytes": 3309960,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png.generation.json",
+          "sha256": "2ff13c4928e1aa66893d09b0d21422c75d584eddaa5b765879cc18065fbcf22a",
+          "bytes": 4009,
+          "matchesFrozenAuditBytes": true
+        },
+        "referenceRoleVerbatim": "旧主城仅供建筑造型与材质参考，不迁入旧项目地图合同",
+        "sameHistoricalOriginalAs3AlreadyClassifiedRelativeCityReferences": [
+          {
+            "record": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          }
+        ],
+        "externalExpectedSha256OnlyFromPreservedRecord": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "externalOriginalFileRead": false,
+        "externalOriginalPixelsVerified": false,
+        "externalOriginalRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "scopeNote": "Original reference path remains disclosed; no missing external art is restored, no license or pixels are newly verified."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png.generation.json",
+        "pointer": "/references/3/file",
+        "target": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "documented_historical_external_city_material_reference_not_current_public_dependency",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+          "sha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+          "bytes": 3566413,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png.generation.json",
+          "sha256": "3812059b9e4e2bd44e2e5fcf6305e7d1d45471b3a118c4f65f7a1a5812be1776",
+          "bytes": 4251,
+          "matchesFrozenAuditBytes": true
+        },
+        "referenceRoleVerbatim": "旧道家主城：建筑/灰石路/石桥/庭院材质，不作为新城布局与分块合同",
+        "sameHistoricalOriginalAs3AlreadyClassifiedRelativeCityReferences": [
+          {
+            "record": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          }
+        ],
+        "externalExpectedSha256OnlyFromPreservedRecord": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "externalOriginalFileRead": false,
+        "externalOriginalPixelsVerified": false,
+        "externalOriginalRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "scopeNote": "Original reference path remains disclosed; no missing external art is restored, no license or pixels are newly verified."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png.generation.json",
+        "pointer": "/references/3/file",
+        "target": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "documented_historical_external_city_material_reference_not_current_public_dependency",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+          "sha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e",
+          "bytes": 3560413,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png.generation.json",
+          "sha256": "a5a2a461ebe844e12c500f17f73e570b487f0609a2b7e12aae643edc7aff937b",
+          "bytes": 4233,
+          "matchesFrozenAuditBytes": true
+        },
+        "referenceRoleVerbatim": "旧道家主城：建筑/灰石路/石桥/庭院材质，不作为新城布局与分块合同",
+        "sameHistoricalOriginalAs3AlreadyClassifiedRelativeCityReferences": [
+          {
+            "record": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          },
+          {
+            "record": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+            "pointer": "/references/3/file",
+            "target": "../image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+            "kind": "file_sha256",
+            "expectedSha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+            "classification": "external_original_reference_outside_project_not_read_or_restored"
+          }
+        ],
+        "externalExpectedSha256OnlyFromPreservedRecord": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+        "externalOriginalFileRead": false,
+        "externalOriginalPixelsVerified": false,
+        "externalOriginalRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "scopeNote": "Original reference path remains disclosed; no missing external art is restored, no license or pixels are newly verified."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-7be47529-09d2-44ca-87e9-374c7274fef3.png",
+        "kind": "file_sha256",
+        "expectedSha256": "5b81458f7accd4aacfbe755cf5a1e7e5a2d95d22fd1ff527c7b7612b1afc20ce",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png",
+          "sha256": "5b81458f7accd4aacfbe755cf5a1e7e5a2d95d22fd1ff527c7b7612b1afc20ce",
+          "bytes": 2821868,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png.generation.json",
+          "sha256": "9d592c2f441edca7cec4b982790a4758e25421345c959a53c661ca4bc4992aea",
+          "bytes": 3560,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-fa724fd1-7574-4717-8c3d-c64649a857c7.png",
+        "kind": "file_sha256",
+        "expectedSha256": "875af7638b4b759b0624067f45ba77c60ae9b246f25c69acf3b8dbacb8b4d243",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png",
+          "sha256": "875af7638b4b759b0624067f45ba77c60ae9b246f25c69acf3b8dbacb8b4d243",
+          "bytes": 2660914,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png.generation.json",
+          "sha256": "a4bbfd3f3ec5a9646ff97b8b5444e3c09e20cb44285d8adc4510d456be26dcc2",
+          "bytes": 3576,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-5b0b4721-d4d7-4648-9f9c-5d644ae971a3.png",
+        "kind": "file_sha256",
+        "expectedSha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+          "sha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833",
+          "bytes": 3561480,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png.generation.json",
+          "sha256": "3937dea1f62ff038fa59363223d0d0e46e6dd71e4d00ba32c335a1a78e9e4b5a",
+          "bytes": 3851,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/21-map-march-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-8b0732db-35d1-430d-ad3c-4922565a4368.png",
+        "kind": "file_sha256",
+        "expectedSha256": "55176c04f8b2d85f48a289b71f912a3d49c921466456d94af33d81e446838bb7",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/21-map-march-ui-v1.png",
+          "sha256": "55176c04f8b2d85f48a289b71f912a3d49c921466456d94af33d81e446838bb7",
+          "bytes": 3497631,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/21-map-march-ui-v1.png.generation.json",
+          "sha256": "97223fd97ac68466a7df41ce448f1012386d118e20e8d9e1459403d4991f10d6",
+          "bytes": 3518,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-b8c17d4e-d788-4d33-88c5-55b7c62857bc.png",
+        "kind": "file_sha256",
+        "expectedSha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+          "sha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+          "bytes": 3273339,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png.generation.json",
+          "sha256": "cb94808aafc081825765865eee039c9f4893fddc37dfe34a7b2530d271e26e15",
+          "bytes": 3847,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/23-general-attributes-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-89afe665-706b-4a65-bd27-630f66b542aa.png",
+        "kind": "file_sha256",
+        "expectedSha256": "884eb0b44f45ab2d9653fe8fc13bc14caba2f8ce266a18c20451ecfcd8400ef1",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/23-general-attributes-ui-v1.png",
+          "sha256": "884eb0b44f45ab2d9653fe8fc13bc14caba2f8ce266a18c20451ecfcd8400ef1",
+          "bytes": 2719690,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/23-general-attributes-ui-v1.png.generation.json",
+          "sha256": "5274921e717ce432e9d705563bc97d1fb6755fd0beced668aaf081047724c15e",
+          "bytes": 3568,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    },
+    {
+      "originalCategory": "unclassifiedExternalReferences",
+      "originalFinding": {
+        "record": "designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png.generation.json",
+        "pointer": "/source/file",
+        "target": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-47ee4870-34ba-4093-b3b6-2f7a846653e2.png",
+        "kind": "file_sha256",
+        "expectedSha256": "99cfef59ce0175677d94821726872c7488a00d3ee7300f52ccd82252375c6392",
+        "classification": "unclassified_external_reference_not_read_requires_root_review"
+      },
+      "classification": "preserved_original_host_output_path_for_recovered_copied_PNG_with_disclosed_receipt_gap",
+      "currentBlocking": false,
+      "evidence": {
+        "currentPublicPNG": {
+          "file": "designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png",
+          "sha256": "99cfef59ce0175677d94821726872c7488a00d3ee7300f52ccd82252375c6392",
+          "bytes": 2679108,
+          "matchesFrozenAuditBytes": true
+        },
+        "currentAdjacentGenerationRecord": {
+          "file": "designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png.generation.json",
+          "sha256": "b9d46f3d7208cc0c382fe01593e2ff0da61662d821f6f15b024874a08c2178fd",
+          "bytes": 3570,
+          "matchesFrozenAuditBytes": true
+        },
+        "preservedExternalSourceExpectedHashMatchesCurrentPublicPNG": true,
+        "recordRecoveryVerbatim": {
+          "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+          "originalToolReceiptAvailable": false,
+          "exactCallStartedAt": null,
+          "exactCallCompletedAt": null,
+          "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+          "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+        },
+        "externalHostOutputRead": false,
+        "externalHostOutputPixelsIndependentlyVerified": false,
+        "externalHostOutputRestored": false,
+        "currentRepoImageAndAdjacentHashMatch": true,
+        "receiptGapStillDisclosed": true,
+        "scopeNote": "Only the copied public PNG bytes and preserved record are checked. Original host response/time availability is not upgraded by this resolution."
+      }
+    }
+  ],
+  "historicalClassificationSummary": {
+    "olderFXSourceCreationExportSnapshot": 1,
+    "browserOutputOrPublicInlineRuntimeSemanticReferences": 6,
+    "additionalHistoricalExternalCityReferences": 6,
+    "originalHostOutputReferencesWithRetainedRecoveryGaps": 7,
+    "existingHistoricalSnapshotDifferencesRetainedInOriginalAudit": 15,
+    "existingKnownLegacyOriginalReferencesRetainedInOriginalAudit": 6
+  },
+  "currentBlockingRemaining": 0,
+  "remainingCurrentBlockingFindings": [],
+  "currentArtifactsAndPackageHashesRemainAuthoritative": true,
+  "noBroadCurrentReferenceExemptions": true,
+  "originalScanCleanFindings": {
+    "credentialPatternCandidates": 0,
+    "sensitiveFilenameCandidates": 0,
+    "badJsonOrImages": 0,
+    "missingOrMismatchedAdjacentRecords": 0,
+    "unityArchiveCurrentSourceOrIndexOrRecordMismatches": 0,
+    "scanTimeInputChanges": 0
+  },
+  "externalOriginalPixelsReadOrRestored": false,
+  "systemCredentialsRead": false,
+  "GitCommandsExecuted": false,
+  "fullScanRerun": false,
+  "snapshotInputsModified": false,
+  "status": "no_current_publication_blockers_after_exact20_directed_resolutions__historical_and_recovery_limits_retained",
+  "readyToPushClaim": false,
+  "limitations": [
+    "Older original/external pixel bytes and absent original host tool receipts were not independently reverified.",
+    "Hash/source integrity does not approve art, animation smoothness or client integration.",
+    "This addendum resolves the classification of the recorded20 findings; it does not rewrite the original audit or authorize remote state claims."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T08:13:31.870Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit\nAsset type: high-fidelity landscape Chinese SLG recruitment-result UI.\nEdit the third attached image, the Liu Bei recruitment result screen. Preserve the wide landscape approximately 1916x821 layout, original Liu Bei male identity, Han faction, four stars, card framing, scenery and all buttons/text/data.\nInput images in order: 1 confirmed mail UI and 2 confirmed party UI are authoritative hand-painted Daoist chibi jade-green/ivory silk/warm gold style references, not content. 3 is the EDIT TARGET. 4 is Liu Bei v2 master: same man, long brown hair, small goatee, jade crown, green/ivory gold robes and two swords. 5 is the existing five-emblem sheet; only its ivory/gold four-point metal symbol is needed for the troop badge.\nRequired localized edit: at the bottom of Liu Bei's left card replace the existing infantry symbol and \"步兵\" with the small metal emblem and exact \"金兵\". Preserve the other bottom labels \"Lv.1\", \"COST 2.0\", \"攻击距离 3\". Keep clean spacing so the small emblem does not overlap letters, digits or the frame.\nPreserve left card \"汉\", \"刘备\", four stars, the same double-sword Liu Bei character. Keep exact title \"招募结果\", right banner \"获得武将\", large name \"刘备\", \"已加入武将卡册\", \"当前数量 7 / 100\", buttons \"查看武将\", \"确定\", \"再次招募\", and close button. Keep Liu Bei as a historical general; metal only describes the selected troop type he commands.\nDo not turn the character into an elemental hero, rename him, switch faction, replace stats, change COST to统御, invent new skills/counter relationships/probabilities/bonuses, add status footnotes, add a product name, or add controls. No \"步兵\", \"弓兵\", \"骑兵\", \"金行使\" anywhere.\nKeep original detailed hand-painted finish, jade and ivory product UI, horizontal whole screen and all frame edges. Preserve the card artwork composition; no new cropping or enlargement. Complete opaque image.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/19-recruit-result-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/19-liu-bei-gold-troop-recruit-result-ui-v1.prompt.txt"
+}
+

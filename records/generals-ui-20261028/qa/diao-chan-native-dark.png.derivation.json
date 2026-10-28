@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/diao-chan-native-dark.png",
+  "sha256": "c8556885f5c32995b8c5bf6e8c855af2f4868809b5e7c508420b5fb30becceab",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1705,
+  "height": 990,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-face-native.png",
+      "sha256": "bf62de7a7dd7ce6182696dbed07cf72c6a30002954a175f2e92a2a39655bf5ea",
+      "record": "exports/01-率土之滨/generals-ui-v1/diao-chan-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-bust-native.png",
+      "sha256": "fec7ef391bdd82467a52d176454102d86576d8eaeada20c24a7d2101bb79dcc0",
+      "record": "exports/01-率土之滨/generals-ui-v1/diao-chan-bust-native.png.derivation.json"
+    }
+  ]
+}

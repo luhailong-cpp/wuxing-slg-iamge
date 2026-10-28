@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "8",
+  "startedAt": "2026-10-26T18:17:26.466Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: ui-mockup\n制作一张完整横屏约21:9的道家Q版高清手绘SLG游戏界面静态方向稿。实际附图1是邮件主参考，附图2是组队主参考，两图是最高优先美术依据。保持同系列精细完成度：玉绿青绿标题与主按钮，象牙米白纸绢面板，暖金细边，圆润饱满框板，云纹与如意卷边，玉珠与少量红穗，柔和手绘明暗；中文深玉绿清楚可读。不要写实战争风、暗黑皮肤、塑料3D、厚黑边、模糊字、噪点、密集金色雕花。元素在安全边距内，层级清楚、留白自然、对齐准确。没有设备模型、展示台、海报广告、水印、尚未确认的正式游戏名。只生成本页，不做拼图。示例人名、日期、数值不抄主参考；所有角色是同画法的原创Q版差异化头像。\n本页是完整「同盟」窗口，沿用邮件/组队大面板但业务内容全新。顶部中央玉绿标题「同盟」，右上圆形关闭按钮。标题下横向页签「总览」「成员」「公告」，选中「总览」为玉绿金边。背景只在边缘露出清淡日景仙山庭院。\n左侧约32%同盟信息卡：一枚太极旗帜与玉印徽章，名称「青云盟」，标签「同盟等级 3」「成员 3 / 50」「盟主 云川」。三行数据「同盟势力 16800」「本周贡献 2400」「活跃成员 3」，数字清楚对齐。下方窄进度条「等级进度 60%」，填充严格约六成。最下方两个按钮「捐献」「同盟管理」。\n右侧约64%上部是一块公告米白卡，玉绿小标题「同盟公告」，短文两行「守望相助，协力发展」「晚间集结前请查看标记」，右边小按钮「编辑」。下面标题「成员」，完整三行圆形Q版头像+昵称+职位+贡献+在线：第一行男道将头像「云川」「盟主」「贡献 1200」「在线」；第二行女道修「清禾」「成员」「贡献 800」「在线」；第三行年长策士「松岚」「成员」「贡献 400」「离线」。三项贡献合计2400且人数确实3，与总览一致。在线绿圆点，离线灰圆点并有文字，不只靠颜色。右下米白按钮「查看成员」，底部不叠多余操作。窗框与行卡圆润精细，保持信息可读。",
+    "promptFile": "prompts/01-率土之滨/26-alliance-ui-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

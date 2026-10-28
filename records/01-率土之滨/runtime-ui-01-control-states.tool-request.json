@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "executionCellId": "28",
+  "startedAt": "2026-10-26T16:59:35.624Z",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup / production sprite sheet\n为道家Q版SLG制作可直接裁切的无字控件原画表，实际附图1邮件、图2组队为最高优先风格。圆润玉绿、象牙米白纸绢、暖金细边、柔和如意云纹、精细手绘明暗，适度金玉质感，和参考同系列。\n本图不是游戏整屏，不要场景/人物/标题/文字/编号/水印。真正透明alpha背景。画布横幅2:1，目标2048×1024像素。严格4列×4行等大网格，共16个独立控件，从左到右再从上到下。每格约512×256，控件都在格正中，占格宽80%高60%，至少四周12%完全透明安全空隙。各格控件绝不跨到相邻格，不画网格线。所有控件同一等距正视平面UI方向，不用透视。\n第1行4格：同一个玉绿暖金边主要横向圆润按钮的正常、按下（底更深向内凹）、禁用（低饱和灰绿）、悬停（清楚柔和金色亮边）四态，无任何字。\n第2行4格：同一个象牙米白暖金边次要按钮正常、按下、禁用、悬停四态。正常纸绢纹细致但中心平净，禁用灰米，悬停亮金细边。和主按钮大小一致。\n第3行4格：横向页签/条目底板：玉绿选中、米白未选中、浅灰锁定态（只底板不画锁图标）、米白小红通知点（红点在右上内部），每格尺寸一致。\n第4行4格：圆润横向小卡片底板，米白正常、淡玉绿金边选中、灰米禁用、淡米白空槽。装饰只在两端或四角，中间留足无字内容区，边缘干净。\n最高可用视觉质量，真实alpha保留，不能用彩色棋盘格假透明。不画任何文案、数字、图标示例、手指、展示背景。",
+    "promptFile": "prompts/01-率土之滨/runtime-ui-01-control-states.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  }
+}

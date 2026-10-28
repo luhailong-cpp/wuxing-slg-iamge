@@ -1,0 +1,966 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30T11:56:29.455265+00:00",
+  "scope": "Four original Daoist chibi identity masters to 20 UI derivatives",
+  "newGeneratedImagesInThisScript": 0,
+  "generalCount": 4,
+  "sources": [
+    {
+      "id": "dong-zhuo",
+      "name": "董卓",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "faceBox": [
+        220,
+        100,
+        790,
+        650
+      ],
+      "bustBox": [
+        20,
+        20,
+        1004,
+        1080
+      ],
+      "sha256": "700bdfdca876e958baa43a74015343fc7a6b131bc27fa4002380c506d2f45734",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 10464,
+        "alphaZero": 675299,
+        "solidBBoxAbove16": [
+          30,
+          79,
+          1006,
+          1413
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "d0e60d2b9b94b3876c0fa17dbdb4665f2576f49f9a9c8022e0478674e0241252"
+    },
+    {
+      "id": "yuan-shao",
+      "name": "袁绍",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "faceBox": [
+        240,
+        80,
+        820,
+        690
+      ],
+      "bustBox": [
+        20,
+        20,
+        1004,
+        1080
+      ],
+      "sha256": "18608bcbf1414b7349f7278beb261b32af7d118b365edb8c95384670df596f4b",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 23446,
+        "alphaZero": 750599,
+        "solidBBoxAbove16": [
+          97,
+          91,
+          977,
+          1465
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "ee1dd654f5fd1667af02ee4a3126a545a1cdf688cb088128946285777eb654f7"
+    },
+    {
+      "id": "zhang-jiao",
+      "name": "张角",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "faceBox": [
+        335,
+        260,
+        875,
+        800
+      ],
+      "bustBox": [
+        20,
+        20,
+        1004,
+        1080
+      ],
+      "sha256": "299a6efd0faf8e1b125eed3318651ff38a3927cb207251f830b4dcc2b32681d8",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 22686,
+        "alphaZero": 727317,
+        "solidBBoxAbove16": [
+          42,
+          140,
+          998,
+          1414
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "153d890fd7ba6248e9297265e54d2f8c9951356a238a4215688d6ee9af8295cd"
+    },
+    {
+      "id": "zhang-bao",
+      "name": "张宝",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "faceBox": [
+        240,
+        210,
+        800,
+        760
+      ],
+      "bustBox": [
+        20,
+        20,
+        1004,
+        1080
+      ],
+      "sha256": "8b5b8f8a5e1a293950f914d81d48f1f6fef1c287470916f2506c2ad2c11e6f25",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 16932,
+        "alphaZero": 769172,
+        "solidBBoxAbove16": [
+          23,
+          202,
+          982,
+          1391
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "e01dc720b90a53de564d3c1fa453f8119049b12f624c35d9498537023b94fae6"
+    }
+  ],
+  "assets": [
+    {
+      "personId": "dong-zhuo",
+      "displayName": "董卓",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-face-native.png",
+      "sha256": "c660f34cdc1f5f0c9abe1b6ed83ca708aefc333003463f93fa16125e8e4d92f4",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-face-native.png.derivation.json",
+      "recordSha256": "1966df4e4e5ad15d61f376adb8759dad6e23a87192b0b6b82ceed70fd4ce3753",
+      "stats": {
+        "size": [
+          570,
+          550
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 2905,
+        "alphaZero": 88091,
+        "solidBBoxAbove16": [
+          0,
+          0,
+          570,
+          550
+        ],
+        "solidEdgePixelsTRBL": [
+          68,
+          150,
+          570,
+          199
+        ]
+      }
+    },
+    {
+      "personId": "dong-zhuo",
+      "displayName": "董卓",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-bust-native.png",
+      "sha256": "be11f0dde2363b63892ec42d3310ecbeda2a422f53c406da7451cb9ba69b528b",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-bust-native.png.derivation.json",
+      "recordSha256": "090cfe27bdc02bc57d8cb8b7d1a66eaeb8472d8d6881d4388b0f658d6570059c",
+      "stats": {
+        "size": [
+          984,
+          1060
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 5980,
+        "alphaZero": 400283,
+        "solidBBoxAbove16": [
+          10,
+          59,
+          977,
+          1060
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          903,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "dong-zhuo",
+      "displayName": "董卓",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-avatar-128.png",
+      "sha256": "14565c51d0a9179b09399ce7bf80cfafefdb4a5a034f54c9f61d8b0963e3d0fb",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-avatar-128.png.derivation.json",
+      "recordSha256": "782a96d9cc427578226b3a3435a9c44a4578f7c0840523c36705887d14d56184",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 100,
+        "alphaZero": 6572,
+        "solidBBoxAbove16": [
+          5,
+          7,
+          123,
+          121
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "dong-zhuo",
+      "displayName": "董卓",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-avatar-256.png",
+      "sha256": "690e23084646a3b4c911cd7680729cba6be0f83651964bbb91765406b5733eb4",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-avatar-256.png.derivation.json",
+      "recordSha256": "5a01def90c8d5e82f057e9ecea81bb79fba13c1f36d2998299199a0c4e5e178f",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 334,
+        "alphaZero": 26967,
+        "solidBBoxAbove16": [
+          10,
+          14,
+          246,
+          242
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "dong-zhuo",
+      "displayName": "董卓",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-card-full.png",
+      "sha256": "fe0ce7a9c79a347dcda983649df7cceb76822078c0405387c331de99acfa33e4",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-card-full.png.derivation.json",
+      "recordSha256": "0f828ff4a943acdf41d33407e5eb8bab36e07a921fc1cea5c3b573eb363c590e",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 3013,
+        "alphaZero": 436694,
+        "solidBBoxAbove16": [
+          82,
+          81,
+          693,
+          916
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yuan-shao",
+      "displayName": "袁绍",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-face-native.png",
+      "sha256": "63e20d21614482308396a1a3acd0f76d9ee545854f6d01a8519075803c06afe6",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-face-native.png.derivation.json",
+      "recordSha256": "b14b1e2d5bf83a4263bb0272318f0d837afb56b340e1651db410f26ff8b0d634",
+      "stats": {
+        "size": [
+          580,
+          610
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 9275,
+        "alphaZero": 118544,
+        "solidBBoxAbove16": [
+          0,
+          11,
+          580,
+          610
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          256,
+          539,
+          83
+        ]
+      }
+    },
+    {
+      "personId": "yuan-shao",
+      "displayName": "袁绍",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-bust-native.png",
+      "sha256": "a7cdaa3232ae5bca80a51534ced9adb686654966bcbfc684887042a091c660b0",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-bust-native.png.derivation.json",
+      "recordSha256": "8a9bb5b21744b8dc4adbfdf4241be47aa2cda887864dc7147aadb2d7d639561e",
+      "stats": {
+        "size": [
+          984,
+          1060
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 16439,
+        "alphaZero": 463922,
+        "solidBBoxAbove16": [
+          77,
+          71,
+          957,
+          1060
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          792,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yuan-shao",
+      "displayName": "袁绍",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-avatar-128.png",
+      "sha256": "bf4a2867caad61fefeb9481fa93e938fa834c1bf823b0921ea14317aa42f9f10",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-avatar-128.png.derivation.json",
+      "recordSha256": "cfef2794da489bd3ddeec67e9993af0c683b00daed95a104d03cc94a52aea9a7",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 168,
+        "alphaZero": 7489,
+        "solidBBoxAbove16": [
+          8,
+          7,
+          120,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yuan-shao",
+      "displayName": "袁绍",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-avatar-256.png",
+      "sha256": "82e4c77afb363f2c63c546e4f75b5ee8a6f9097afb2f3287925866943c985299",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-avatar-256.png.derivation.json",
+      "recordSha256": "bf9fda5b857b311479cc2c48db2dd4c23331eb369b20f82cf6d8c56bf003fb8f",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 850,
+        "alphaZero": 30838,
+        "solidBBoxAbove16": [
+          16,
+          14,
+          240,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yuan-shao",
+      "displayName": "袁绍",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-card-full.png",
+      "sha256": "4da708c7847f4987caa7162f96306e978a7d8f00f003f67b8eb631b60148a21a",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-card-full.png.derivation.json",
+      "recordSha256": "a305d2e9a1831061af738ff369594178399f132c82b06b0d1958ffb825a205dd",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 7700,
+        "alphaZero": 467113,
+        "solidBBoxAbove16": [
+          125,
+          88,
+          675,
+          948
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-jiao",
+      "displayName": "张角",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-face-native.png",
+      "sha256": "08bc08e600ec399bf64a08e599f2412ce73d597912c333897c70dbaea460915a",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-face-native.png.derivation.json",
+      "recordSha256": "3e2b63fe683ebfcf05af21ea7cb90613e33511d57ebc7c340820a53aa54ff06c",
+      "stats": {
+        "size": [
+          540,
+          540
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 4838,
+        "alphaZero": 30140,
+        "solidBBoxAbove16": [
+          0,
+          0,
+          540,
+          540
+        ],
+        "solidEdgePixelsTRBL": [
+          369,
+          232,
+          540,
+          126
+        ]
+      }
+    },
+    {
+      "personId": "zhang-jiao",
+      "displayName": "张角",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-bust-native.png",
+      "sha256": "2e4edfa0ea472e0905e9ec574c07e1b4e1ea3c8409723aa61cf1abd030e1095f",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-bust-native.png.derivation.json",
+      "recordSha256": "31bda842d91afca50b710f1f82962d74bbb54a6fb1b25102a672b420099ce29f",
+      "stats": {
+        "size": [
+          984,
+          1060
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 17188,
+        "alphaZero": 385352,
+        "solidBBoxAbove16": [
+          22,
+          120,
+          978,
+          1060
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          860,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-jiao",
+      "displayName": "张角",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-avatar-128.png",
+      "sha256": "0d045e942fb2ddaf53ed672eb10f14cc22866ec1a809d7f3221ba405194f67e6",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-avatar-128.png.derivation.json",
+      "recordSha256": "7d5c83cf67d7729a3facb2054f194afc3daf16616eef4769f8982519d1075655",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 120,
+        "alphaZero": 3937,
+        "solidBBoxAbove16": [
+          5,
+          5,
+          123,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-jiao",
+      "displayName": "张角",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-avatar-256.png",
+      "sha256": "7ad60a82b5f971dc4b7400f00f8dea22d222923569543852aed2ba65f63be353",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-avatar-256.png.derivation.json",
+      "recordSha256": "1917f79e45722b90a871803ba26956339a3f0b057e01305690dd028192001155",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 694,
+        "alphaZero": 15947,
+        "solidBBoxAbove16": [
+          10,
+          10,
+          246,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-jiao",
+      "displayName": "张角",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-card-full.png",
+      "sha256": "c4a61e61095e97d08ad645d5c46316b676f39f1866d99697a1f44c323e0e06aa",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-card-full.png.derivation.json",
+      "recordSha256": "847f76da73285acc273be6bf831791972f48b2ee0f04f99c8799363a1063f8e7",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 7359,
+        "alphaZero": 457868,
+        "solidBBoxAbove16": [
+          90,
+          120,
+          688,
+          916
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-bao",
+      "displayName": "张宝",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-face-native.png",
+      "sha256": "0a00a72441f8bbbaaeccc48699f55f7d060172d5a8c599d55a9de6792fbf6eb6",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-face-native.png.derivation.json",
+      "recordSha256": "167e025f7f34fd3cfd393c5d9569813b59159dca9c9981e551512a48e6c94d7e",
+      "stats": {
+        "size": [
+          560,
+          550
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 4662,
+        "alphaZero": 61237,
+        "solidBBoxAbove16": [
+          0,
+          0,
+          560,
+          550
+        ],
+        "solidEdgePixelsTRBL": [
+          8,
+          192,
+          560,
+          329
+        ]
+      }
+    },
+    {
+      "personId": "zhang-bao",
+      "displayName": "张宝",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-bust-native.png",
+      "sha256": "4c0513f9baef37c4c55ed6c5a0c8e4f3bb827694a11e50fa1bfd8b86a0d1ff6e",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-bust-native.png.derivation.json",
+      "recordSha256": "318dc5ffad642d1eab31ee8aab7eb1d873defcbe7833787aa31622b52722b16d",
+      "stats": {
+        "size": [
+          984,
+          1060
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 12632,
+        "alphaZero": 438702,
+        "solidBBoxAbove16": [
+          3,
+          182,
+          962,
+          1060
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          839,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-bao",
+      "displayName": "张宝",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-avatar-128.png",
+      "sha256": "c1063dfcd7a0a5d506746fe974f86975c39addd10d758499d50c5d08c3c98aaf",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-avatar-128.png.derivation.json",
+      "recordSha256": "c8355b9676a6c864aa4dc0ad62bd0993e96727aba3bfee5a6c41cd99eb0bdb60",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 97,
+        "alphaZero": 5345,
+        "solidBBoxAbove16": [
+          5,
+          6,
+          123,
+          122
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-bao",
+      "displayName": "张宝",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-avatar-256.png",
+      "sha256": "fe3e3525d2fa8de5ec983524cb06fc9f24434345df6e29c95e6547a545669c9d",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-avatar-256.png.derivation.json",
+      "recordSha256": "d23b003c036855c89f14bdfc0a70b0db680106ef366a4eaf12a83fcbcde73808",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 503,
+        "alphaZero": 21958,
+        "solidBBoxAbove16": [
+          10,
+          12,
+          246,
+          244
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-bao",
+      "displayName": "张宝",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-card-full.png",
+      "sha256": "8e9c0c147eb0a6c6eccc074d2a677f83830715dc548b44a6e968fbcc52f1bd39",
+      "record": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-card-full.png.derivation.json",
+      "recordSha256": "70fd3d2275a31e79c0a42b8b8782fb04c72eace4e5956a45006978ddc4051c4a",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 5114,
+        "alphaZero": 473728,
+        "solidBBoxAbove16": [
+          78,
+          158,
+          678,
+          902
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "value": 10464,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+      "value": [
+        0.029296875,
+        0.051432291666666664,
+        0.017578125,
+        0.080078125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "value": 23446,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+      "value": [
+        0.0947265625,
+        0.059244791666666664,
+        0.0458984375,
+        0.046223958333333336
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "value": 22686,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+      "value": [
+        0.041015625,
+        0.09114583333333333,
+        0.025390625,
+        0.07942708333333333
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "value": 16932,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+      "value": [
+        0.0224609375,
+        0.13151041666666666,
+        0.041015625,
+        0.09440104166666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "variantsFulfilled": false,
+  "assetCount": 20,
+  "nativeCropRgbaChecked": true,
+  "status": "root_reviewed_light_dark_candidate",
+  "visualReview": {
+    "actualNativeImagesViewed": true,
+    "lightDarkContactSheetsViewed": true,
+    "fullFigurePropsObservedComplete": true,
+    "sourceSolidEdgeContacts": 0,
+    "portraitWindowAdjustment": "Zhang Jiao face window narrowed to exclude cut staff fragments",
+    "nativeAlphaPreserved": true,
+    "userApproved": false
+  }
+}

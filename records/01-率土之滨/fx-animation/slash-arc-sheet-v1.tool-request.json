@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T16:27:36.595Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept\nAsset type: 2D game FX animation sprite sheet, ONE single slash-arc one-shot action, exactly 8 successive nonempty phases in a 4-column x 2-row grid, landscape aspect 2:1, native transparent PNG.\nInput images: Image1 mail and Image2 team UI are PRIMARY Daoist chibi high-definition hand-painted art style only; jade green, ivory and warm gold, rounded clouds, carefully painted lighting. Image3 is the existing slash-arc FX visual identity reference: warm-gold/ivory crescent energy with restrained jade cloud curls. Continue this effect identity, not the source image's colored edge noise. NO characters, weapons, scene, UI or text from any reference.\nLayout contract: Exactly EIGHT square conceptual cells, 4 equal columns and 2 equal rows, read left-to-right top row then left-to-right bottom row. Cell boundaries are imaginary, NEVER draw grid/separators/labels. Each cell has the SAME locked camera and fixed effect origin at its exact center. Keep every stroke, curl, spark and soft halo inside the central60% of its cell, at least20% truly transparent empty safety margin on EVERY side. All8 cells nonempty, but phase0 and7 are genuinely tiny remnants. Nothing touches a cell border or bleeds into a neighbor. No zoom, no camera changes, no automatic fitting to fill each cell.\nMotion/action: ONE coherent crescent slash develops and dissipates around the same fixed center. A clockwise diagonal sweeping blade-like energy stroke, pointing toward upper right; it is an energy arc alone, no physical sword. Rich warm ivory-gold core with thin warm-gold edge and small jade cloud curl accents. Growing arc length and intensity through frames0-3, a peak/followthrough4, then fragmenting and fading5-7. These are successive instants of ONE action, not8 unrelated standalone icons or duplicated full-size slashes.\nExact phases in reading order: frame0 one tiny gold ignition spark at center, about6% cell width; frame1 a short thin curved streak, about18%; frame2 a developing quarter crescent with one small jade curl, about36%; frame3 the leading full diagonal crescent at bright expansion, about52%; frame4 the SAME crescent at peak extension with a slightly longer trailing edge, at most60%, no extra circles; frame5 the arc thins and breaks into3 compact curved fragments, about42%; frame6 only two pale gold tapered wisps and a tiny jade fleck remain, about20%; frame7 a tiny faint ivory-gold fading spark at the same center, about5%, nonempty. Do not make frame7 a second explosion or restarted arc.\nRendering: premium HD 2D game FX, clean high-resolution hand-painted strokes, crisp readable main contours, soft controlled partial-alpha light only attached to each energy shape. Keep consistent color identity and direction. No opaque background or baked shadows. Native alpha transparency, completely transparent pixels everywhere outside each contained effect. NO black/white/color background, gradients across the sheet, vignette, floor, ground disk, preview checkerboard or colored fringe.\nNo text, no letters, no numbers, no phase labels, no runes resembling written language, no logo/watermark/signature, no UI, no border/frame, no grid lines, no character or other effect families. Keep true chronological growth-peak-decay and fixed center registration across all8 phases.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/slash-arc.png"
+    ],
+    "transparent_background": true
+  },
+  "contract": {
+    "action": "slash-arc",
+    "grid": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "frameOrder": "row-major",
+    "nativeAlpha": true,
+    "anchor": "same cell center",
+    "durationSeconds": 0.8,
+    "frameSeconds": 0.1,
+    "loop": false,
+    "timingIsDemonstration": true,
+    "noBattleEvents": true
+  }
+}

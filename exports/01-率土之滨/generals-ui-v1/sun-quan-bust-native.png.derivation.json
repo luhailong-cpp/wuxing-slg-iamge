@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png",
+  "sha256": "7286b859d1e449f3903acf8c01d65b28201d1cdc17480903cd8d75d8d09c1c71",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 1024,
+  "height": 1000,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "sun-quan",
+  "displayName": "孙权",
+  "variant": "bust-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "sha256": "e1ee5843358777ce56e8a1b20b6f16424301d0a6ad0e5d2da4087efbdb62c799",
+      "record": "designs/01-率土之滨/characters/04-sun-quan-v1.png.generation.json",
+      "recordSha256": "41c81119cb6706cd2cc49f4bf081912bdf16351bf8e55e5ef57bb2639b1d2218"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1000
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    1024,
+    1000
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    400,
+    285,
+    690,
+    535
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 410654,
+    "alpha1Pixels": 12560,
+    "semiTransparentPixels": 613346,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      2,
+      2,
+      1016,
+      1000
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      923
+    ],
+    "marginsAbove32": [
+      2,
+      2,
+      8,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 12560,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        0,
+        0,
+        1024,
+        1000
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "value": [
+        1,
+        2,
+        1,
+        8
+      ],
+      "threshold": "original requested 8–10% not attained",
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png",
+      "message": "Full-card output preserves entire source canvas and adds padding; it cannot recover any source detail not drawn."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

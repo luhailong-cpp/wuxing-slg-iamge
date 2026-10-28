@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/ui/expansion-20261028-r2/37-ranking-ui-v1.png",
+  "sha256": "1bdefaca66ac33c1609e7e598f2729c55e009b465087a6b1e5c7c1a63a45b9e8",
+  "generatedAt": "2026-10-29T02:42:59.219Z",
+  "timeEvidence": "completion observed in current tool call",
+  "width": 1915,
+  "height": 821,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-7c747378-e8aa-42ed-af1d-ae009a1720fd",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: production direction mockup for landscape mobile strategy game 五行问鼎, new screen 37 排行榜.\nInputs: image 1 and image 2 are the user's authoritative finished STYLE references, image 3 is the current game's alliance screen for matching typography, spacing and panel hierarchy. Do not copy their specific data, portraits, game titles or MMO team mechanics.\nCreate one complete native wide landscape screenshot, approximate aspect ratio 2.33:1, crisp readable Chinese. Match the references' highly finished Taoist chibi hand-painted style: rounded jade-green title plaques, ivory warm silk paper, thin warm gold carved cloud scroll edges, small jade beads/tassels, softly painted scenic mountains around a large uncluttered panel. No photorealism, no plastic highlights, no pseudo-code.\nMain title exact: \"排行榜\". Top-left back button \"返回\", top-right close X. Three horizontal tabs: \"个人势力\" selected jade; \"同盟势力\", \"攻城贡献\" unselected ivory.\nBody: coherent spacious table occupying most width, 6 columns headed exactly \"排名\" \"主公\" \"所属同盟\" \"势力值\" \"所在州\" \"操作\".\nExactly 5 rows:\n1 云川 青云盟 18600 荆州 查看\n2 长风 听雨阁 17450 扬州 查看\n3 清禾 青云盟 16280 荆州 查看\n4 归舟 望舒盟 15360 益州 查看\n5 松岚 青云盟 14820 荆州 查看\nRanks 1,2,3 have elegant small gold/silver/bronze badges. No character portraits needed. Row 3 is selected with pale jade fill and a clear small \"自己\" chip next to 清禾, with no overlapping text. All numerical data is mockup sample data, do not add false live-server or update claims.\nA pinned bottom strip repeats \"我的排名 3\" and \"势力值 16280\". Bottom left modest label \"排名规则\"; bottom right pagination arrows with \"1 / 20\". Keep all table cells aligned, legible and comfortably spaced, no extra duplicate row, no baked watermark, no unrelated logos. This is a player-ranking screen, no elemental hero categories, no infantry/archer/cavalry troop categories. Preserve tasteful decorative corners but leave text area plain.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/26-alliance-ui-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "request": "records/ui-expansion-20261028-r2/37-request.json",
+    "sourceToolFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-7c747378-e8aa-42ed-af1d-ae009a1720fd.png"
+  },
+  "unverifiedReason": "宿主管理，工具没有型号/质量选择器且没有披露可核实模型或质量元数据",
+  "prompt": "prompts/01-率土之滨/ui-expansion-20261028-r2/37-ranking-v1.prompt.txt",
+  "references": [
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "sha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b",
+      "role": "same_game_alliance_hierarchy"
+    }
+  ],
+  "status": "visual_candidate_not_integrated",
+  "userApproved": false
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/placement-debug.png",
+  "sha256": "66d3c4f341d406270461ad2e1a64a78b85acb34f70237f073eabfae652443eab",
+  "size": [
+    1889,
+    960
+  ],
+  "operation": "qa_collision_footpoint_overlay",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview.png",
+      "sha256": "c8ab834d7a8f80958434926f872e538282980545021a2489174ea208ecc27365"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/initial-layout-map-bundle.json",
+      "sha256": "04aaf449c19c87b2ef699f0abd3cc73dc23a4d83879a6a57fac7dd8813b6da42"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/placement-audit.json",
+      "sha256": "14a2dc85020ce007fc85490fd80188540cda46881cf3bfac5ede8cdf31b1c654"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "diagnosticGeometry": true,
+  "productArt": false
+}

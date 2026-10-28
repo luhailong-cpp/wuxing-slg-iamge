@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-card-full.png",
+  "sha256": "ef94d5e056e0f78c8d43a295c8327df197665cdc2cd6acc3aeb038376794b58b",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "guan-yu",
+  "displayName": "关羽",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/08-guan-yu-v1.png",
+      "sha256": "dc8bce0cb65c49a604683c0eedb5b6c9e5e69af1278b5a7e040044c14ec75284",
+      "record": "designs/01-率土之滨/characters/08-guan-yu-v1.png.generation.json",
+      "recordSha256": "663f16a97320181f27d6074855871cecde76eba92765b472f1b30c02a23e0c8e"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    450,
+    670,
+    680
+  ],
+  "faceRoiOutputApprox": [
+    313.88,
+    357.38,
+    492.62,
+    515.5
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 531454,
+    "alpha1Pixels": 12715,
+    "semiTransparentPixels": 351952,
+    "opaquePixels": 1330,
+    "bboxAbove32": [
+      80,
+      135,
+      725,
+      1026
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      80,
+      135,
+      43,
+      126
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-card-full.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 12715,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-card-full.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

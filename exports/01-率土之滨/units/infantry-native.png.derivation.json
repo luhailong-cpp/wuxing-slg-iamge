@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/units/infantry-native.png",
+  "sha256": "07a1be8115580b894dc88656d586344e97a920766b975e9207d8cb9440d7d4e8",
+  "derivedAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "width": 809,
+  "height": 887,
+  "mode": "RGBA",
+  "format": "PNG",
+  "operation": "crop",
+  "cropBox": [
+    223,
+    201,
+    1032,
+    1088
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+      "sha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+      "record": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png.generation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "art_source": "existing",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 368942,
+    "alpha1Pixels": 6685,
+    "opaquePixels": 246,
+    "bboxByThreshold": {
+      "1": [
+        16,
+        16,
+        793,
+        871
+      ],
+      "16": [
+        18,
+        18,
+        791,
+        869
+      ],
+      "127": [
+        19,
+        19,
+        790,
+        868
+      ]
+    },
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "anchorPxTopLeft": [
+    404.5,
+    871
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.9819616685456595
+  ],
+  "anchorStatus": "provisional bottom-center of alpha>1 footprint; no collider/physical scale contract",
+  "static": true,
+  "animationFrameCount": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_unit_native_crop_candidate"
+}

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T15:13:19.344314+00:00",
+  "reviewer": "theme_scope",
+  "reviewScope": "制作worker单独文件级QA；非用户验收，不冒称另一个审稿人通过。",
+  "method": "实际view旧23/24、两张主参考、原创master、根18新v2，以及两张落盘v2；Pillow只读解码，SHA256核对原生副本、5份实际附图与实际提示词。",
+  "images": [
+    {
+      "file": "designs/01-率土之滨/ui/23-metal-envoy-attributes-ui-v2.png",
+      "sourceRecord": "designs/01-率土之滨/ui/23-metal-envoy-attributes-ui-v2.png.generation.json",
+      "sha256": "1b637b9e0baabd47396e1e5a8e3e5d4ddd1187d79ba4c136ceec0520ed4ac8ff",
+      "nativeSize": [
+        1916,
+        821
+      ],
+      "mode": "RGB",
+      "nativeCopyHashVerified": true,
+      "promptMatchesActualSubmitted": true,
+      "allFiveReferencesHashVerified": true,
+      "actuallyViewedNativeOutput": true,
+      "identityMaster": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "findings": [
+        "金系菱形徽记、铸锋使身份名牌、短银灰发女性与符尺/阵盘、工具袋及双靴均可见；未见旧刘备/汉/长黑发双剑身份。",
+        "攻击78、防御84、灵力74、速度58、攻城19，五项新增均+0，可用属性点10；与18新详情基础值一致。",
+        "五个滑杆指针在最左端，减号灰禁用、加号可用；尚未分配提示与重置/确认配点禁用状态一致。",
+        "配点页签选中，说明每增加1点消耗1属性点可读，关闭与帮助完整。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "仍是带烘焙文字的静态方向稿，按钮、滑杆、筛选与锁态没有运行时逻辑。",
+        "正式接入使用统一母版头像与五行徽记源文件，避免各页生成变体作为独立标准。",
+        "演示数值、称号、兵种切换和配点规则不是正式玩法合同；需要用户与目标客户端验收。",
+        "人物双靴完整，但底部余边较紧；目标设备safe area未确认，需在最终分辨率与缩放条件下复核。"
+      ],
+      "status": "five_elements_redesign_draft_pending_user_review",
+      "actualModel": null,
+      "actualQuality": null,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0
+    },
+    {
+      "file": "designs/01-率土之滨/ui/24-metal-envoy-troop-types-ui-v2.png",
+      "sourceRecord": "designs/01-率土之滨/ui/24-metal-envoy-troop-types-ui-v2.png.generation.json",
+      "sha256": "638bd1c927c5feff35f6ef2fe345906b975b520c1aaa0380552a62cb4f3bcb45",
+      "nativeSize": [
+        1916,
+        821
+      ],
+      "mode": "RGB",
+      "nativeCopyHashVerified": true,
+      "promptMatchesActualSubmitted": true,
+      "allFiveReferencesHashVerified": true,
+      "actuallyViewedNativeOutput": true,
+      "identityMaster": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "findings": [
+        "金系菱形徽记、铸锋使身份名牌、短银灰发女性与符尺/阵盘、工具袋及双靴均可见；未见旧刘备/汉/长黑发双剑身份。",
+        "步兵卡玉绿选中且标签当前；弓兵/骑兵为浅色非选中并写可切换，图标分别盾矛/弓箭/马头。",
+        "当前兵种步兵、攻击距离3、统御2.0，与18新详情示例一致。",
+        "基础兵种已开放；进阶未解锁有锁与条件待解锁提示；已使用步兵按钮灰禁用，返回详情可用，兵种页签选中。"
+      ],
+      "mustFix": [],
+      "followups": [
+        "仍是带烘焙文字的静态方向稿，按钮、滑杆、筛选与锁态没有运行时逻辑。",
+        "正式接入使用统一母版头像与五行徽记源文件，避免各页生成变体作为独立标准。",
+        "演示数值、称号、兵种切换和配点规则不是正式玩法合同；需要用户与目标客户端验收。",
+        "人物双靴完整，但底部余边较紧；目标设备safe area未确认，需在最终分辨率与缩放条件下复核。"
+      ],
+      "status": "five_elements_redesign_draft_pending_user_review",
+      "actualModel": null,
+      "actualQuality": null,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0
+    }
+  ],
+  "scope": "同一原创master身份的UI视觉预览，无新动作、无动画、无客户端集成。",
+  "fullGameArtComplete": false,
+  "allModelAndQualityActualFieldsUnconfirmed": true,
+  "inFlightCalls": 0
+}

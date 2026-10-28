@@ -1,0 +1,17 @@
+Use case: ui-mockup
+Asset type: One complete landscape conscription game interface, approximately21:9.
+Primary request: Original “征兵” screen showing a coherent insufficient-resource preview for 第一部队, continuing our formation screen.
+Reference hierarchy: Images1 and2 are the PRIMARY hand-painted Daoist jade/ivory/gold UI style. Image3 external screenshot is ONLY source for the existence of army formation and a conscription entry, not a conscription screen and not a style source. Image4 is our formation screen: preserve the same two general identities, card art cues and current troops (each500/1000). Do not use dark realistic war skin from image3.
+Screen structure: Rounded jade-and-gold cloud frame, opaque ivory parchment main surface, narrow bright jade-roof training courtyard background at edges. Title “征兵” centered top, top-left back arrow, round X top-right. Under title subtitle “第一部队”. Top-right slim resource line “粮草 8000” and “铜钱 5000”.
+Left60% has two spacious general recruitment cards side-by-side. Right35% is cost/status summary. Use readable large Chinese, clean alignment, small ornamental corners only.
+Card1 heading “大营”; portrait from image4 is cheerful brown-haired 云游策士 with colorful Daoist hat, scroll and gourd. Name “云游策士”. Below exact rows “当前兵力 500 / 1000”, then slider label “目标兵力 1000”. Draw slider track with left endpoint “500”, right endpoint “1000”, jade handle at RIGHT endpoint. Then “新增兵力 +500”.
+Card2 heading “中军”; portrait from image4 black-haired red/cream-robed 灵符法师 holding talisman, matching identity and face. Name “灵符法师”. Same exact numeric rows: “当前兵力 500 / 1000”, “目标兵力 1000”; slider minimum500 maximum1000 and handle at RIGHT; “新增兵力 +500”.
+Below both cards, slim total preview strip “当前 1000” arrow “目标 2000” and “本次新增 1000”. Values sum exactly.
+Right pane header “征兵消耗”. Two aligned cost rows with icon, required amount, owned amount:
+“粮草”  “需要 10000”  “持有 8000”; required text red, explicit small red warning “不足 2000”.
+“铜钱”  “需要 2000”  “持有 5000”; sufficient green check.
+Then hourglass row “预计时间 00:20:00”.
+Below divider, smaller section “预备役”. Empty UNCHECKED checkbox beside “使用预备役”; keep it off. Exact rows “可用 200” and “立即补满需 1000”. Small muted warning “预备役不足”. This is a separate unavailable instant refill option; no reserve has been spent and no resource deduction has occurred.
+Bottom-right action is clearly DISABLED: pale gray-beige button with small lock icon and text “粮草不足”. It must NOT be vivid jade-green or look clickable. Beneath/near it a small short red message “请降低目标兵力或补充粮草”. Bottom-left ivory active secondary “返回配置”. Use green for editable sliders and resource-sufficient indicator, but not disabled confirm.
+Demo state only, no claim of official game costs or formulas. No troop recruitment has begun. Do not mix a progress countdown with preview time, do not mark successful. Preserve the exact arithmetic and disabled state.
+Style: exquisite Daoist Q/chibi hand-painted HD, ivory paper surfaces, jade controls, warm gold thin borders and rounded cloud motifs, dark-green readable Chinese, distinct soft cheerful chibi faces. Bright clean background with small lanterns. No gray-black realistic interface, no plastic shine, no overlong paragraphs, no watermark, no official game logo, no clipped controls. Opaque full screen.

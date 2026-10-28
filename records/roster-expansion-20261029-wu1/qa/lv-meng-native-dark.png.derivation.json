@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/qa/lv-meng-native-dark.png",
+  "sha256": "57b92f9152b420b29984a529a104c09a01dd480061a8f9de83958cee15abcd43",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "qaOnly": true,
+  "width": 1505,
+  "height": 1035,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-face-native.png",
+      "sha256": "c7e621687ad7974bc64566d23c00c1f1ee4380d9ac5dffdbc5b30a6463415390",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-bust-native.png",
+      "sha256": "6c5ac71f2379edd51c558461a230df1c100e7c8e0ccdc9fda1a87fa2d89cd604",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-bust-native.png.derivation.json"
+    }
+  ]
+}

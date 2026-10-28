@@ -1,0 +1,611 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "scope": "native static crop candidates; not full-game, animation, navigation or client acceptance",
+  "art_source": "existing",
+  "sourceRoute": "host_image",
+  "operation": "crop",
+  "resampled": false,
+  "alphaEdited": false,
+  "minimumSignificantContentMarginPx": 8,
+  "significantAlphaThreshold": 1,
+  "nearZeroAlphaPolicy": "Preserve source values. Alpha=1 background quantization residue may meet a crop edge; no source alpha>1 content touches an edge.",
+  "anchorMethod": "bottom center of alpha>1 content bbox; provisional, no collider contract",
+  "static": true,
+  "animationFrameCount": 0,
+  "clientIntegrated": false,
+  "userApproved": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false,
+  "sourceReceiptEvidenceGaps": "v2 native images were recovered; original complete tool response and precise call completion time are unavailable. See unchanged generation records.",
+  "assetCount": 8,
+  "assets": [
+    {
+      "id": "slash-arc",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/slash-arc.png",
+      "record": "exports/01-率土之滨/fx/slash-arc.png.derivation.json",
+      "sha256": "f99351842b8d0444c67c3d1e8202975c9c929e4563a6efc483025b6110c88dc4",
+      "width": 457,
+      "height": 450,
+      "cropBox": [
+        0,
+        0,
+        457,
+        450
+      ],
+      "anchor_px": [
+        226.0,
+        417
+      ],
+      "anchorNormalized": [
+        0.49452954048140046,
+        0.9266666666666666
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 84955,
+        "alpha1PixelCount": 37407,
+        "semiTransparentPixelCount": 120695,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          31,
+          90,
+          421,
+          417
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 31,
+          "top": 90,
+          "right": 36,
+          "bottom": 33
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 37407,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/slash-arc.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "strategy-array",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "record": "exports/01-率土之滨/fx/strategy-array.png.derivation.json",
+      "sha256": "8387d21e6f90b06cb0437b274212f3e9dd795eb488ba144d02c5ddfea04359da",
+      "width": 435,
+      "height": 446,
+      "cropBox": [
+        457,
+        0,
+        892,
+        446
+      ],
+      "anchor_px": [
+        215.0,
+        438
+      ],
+      "anchorNormalized": [
+        0.4942528735632184,
+        0.9820627802690582
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixelCount": 73055,
+        "alpha1PixelCount": 30179,
+        "semiTransparentPixelCount": 120955,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          28,
+          74,
+          402,
+          438
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 28,
+          "top": 74,
+          "right": 33,
+          "bottom": 8
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 30179,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/strategy-array.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 8,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/strategy-array.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "healing-light",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/healing-light.png",
+      "record": "exports/01-率土之滨/fx/healing-light.png.derivation.json",
+      "sha256": "6988d4c23fc8edbc9a29b352c53ba8fbb4e085234e6d9ee226e39e594f41bdf2",
+      "width": 418,
+      "height": 480,
+      "cropBox": [
+        892,
+        0,
+        1310,
+        480
+      ],
+      "anchor_px": [
+        211.0,
+        438
+      ],
+      "anchorNormalized": [
+        0.5047846889952153,
+        0.9125
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 87350,
+        "alpha1PixelCount": 30200,
+        "semiTransparentPixelCount": 113290,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          58,
+          47,
+          364,
+          438
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 58,
+          "top": 47,
+          "right": 54,
+          "bottom": 42
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 30200,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/healing-light.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "buff-cloud",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/buff-cloud.png",
+      "record": "exports/01-率土之滨/fx/buff-cloud.png.derivation.json",
+      "sha256": "b03d95ae5129b021ac02d876bf3076c537496a3f08a472eed93f77ab33c0ed90",
+      "width": 464,
+      "height": 455,
+      "cropBox": [
+        1310,
+        0,
+        1774,
+        455
+      ],
+      "anchor_px": [
+        226.5,
+        434
+      ],
+      "anchorNormalized": [
+        0.48814655172413796,
+        0.9538461538461539
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 90892,
+        "alpha1PixelCount": 31628,
+        "semiTransparentPixelCount": 120225,
+        "opaquePixelCount": 3,
+        "contentBoxAlphaAbove1": [
+          25,
+          108,
+          428,
+          434
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 25,
+          "top": 108,
+          "right": 36,
+          "bottom": 21
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 31628,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/buff-cloud.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "debuff-mist",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/debuff-mist.png",
+      "record": "exports/01-率土之滨/fx/debuff-mist.png.derivation.json",
+      "sha256": "5e9cd2161e200da25ba2015d93799e29601b2156c602a1e6b542ea3c441fdaec",
+      "width": 457,
+      "height": 437,
+      "cropBox": [
+        0,
+        450,
+        457,
+        887
+      ],
+      "anchor_px": [
+        234.5,
+        393
+      ],
+      "anchorNormalized": [
+        0.513129102844639,
+        0.8993135011441648
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 58205,
+        "alpha1PixelCount": 37103,
+        "semiTransparentPixelCount": 141504,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          47,
+          31,
+          422,
+          393
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 47,
+          "top": 31,
+          "right": 35,
+          "bottom": 44
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 37103,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/debuff-mist.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "fire",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/fire.png",
+      "record": "exports/01-率土之滨/fx/fire.png.derivation.json",
+      "sha256": "1c212f38d429c02a935c0596d55b6afc9e67d2ded577cbfef7de24f8e2500ab2",
+      "width": 435,
+      "height": 443,
+      "cropBox": [
+        457,
+        444,
+        892,
+        887
+      ],
+      "anchor_px": [
+        203.5,
+        385
+      ],
+      "anchorNormalized": [
+        0.46781609195402296,
+        0.8690744920993227
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixelCount": 73849,
+        "alpha1PixelCount": 22116,
+        "semiTransparentPixelCount": 118856,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          23,
+          8,
+          384,
+          385
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 23,
+          "top": 8,
+          "right": 51,
+          "bottom": 58
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 22116,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/fire.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 8,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/fire.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "capture-circle",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "record": "exports/01-率土之滨/fx/capture-circle.png.derivation.json",
+      "sha256": "40c0df3f582e47b42cae33a66adb0e18110dc597aa365c88bd96eecf95d88ca4",
+      "width": 418,
+      "height": 407,
+      "cropBox": [
+        892,
+        480,
+        1310,
+        887
+      ],
+      "anchor_px": [
+        208.0,
+        349
+      ],
+      "anchorNormalized": [
+        0.49760765550239233,
+        0.8574938574938575
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 57488,
+        "alpha1PixelCount": 23860,
+        "semiTransparentPixelCount": 112638,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          10,
+          37,
+          406,
+          349
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 10,
+          "top": 37,
+          "right": 12,
+          "bottom": 58
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 23860,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/capture-circle.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 10,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/capture-circle.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "reward-glow",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/reward-glow.png",
+      "record": "exports/01-率土之滨/fx/reward-glow.png.derivation.json",
+      "sha256": "bf17b7291b5c7f59d686a61fa5a89402e9bb668411bc606dce86d285bff10a5a",
+      "width": 464,
+      "height": 432,
+      "cropBox": [
+        1310,
+        455,
+        1774,
+        887
+      ],
+      "anchor_px": [
+        240.0,
+        380
+      ],
+      "anchorNormalized": [
+        0.5172413793103449,
+        0.8796296296296297
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 74565,
+        "alpha1PixelCount": 45678,
+        "semiTransparentPixelCount": 125883,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          60,
+          30,
+          420,
+          380
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 60,
+          "top": 30,
+          "right": 44,
+          "bottom": 52
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 45678,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/reward-glow.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    }
+  ],
+  "qaPreviews": [
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/fx-row-1-native-light-dark.png",
+      "sha256": "361c733653915838668e55f3d2f971052a35953ce7f694c9f9220645e54ab1c1",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/fx-row-2-native-light-dark.png",
+      "sha256": "5c0808726b493bd83f2ad639bfd535aee1274d77b35821aa8e9a25f76244ad27",
+      "visuallyInspected": true
+    }
+  ]
+}

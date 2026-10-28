@@ -1,0 +1,25 @@
+{
+  "reviewedAt": "2026-10-29T03:23:20.504Z",
+  "selectedCandidate": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-walk-se-v3.png",
+  "frames": 8,
+  "acceptedForRuntime": false,
+  "passed": [
+    "same basic metal soldier identity",
+    "same held sword and shield hands",
+    "eight distinct visible cells",
+    "knee articulation stronger in v3"
+  ],
+  "issues": [
+    {
+      "id": "gait_lead_alternation",
+      "status": "fail",
+      "detail": "The requested near/far lead swap is still not reliably visible; lower-row contacts resemble near-leg-leading poses. Frame1 and6 show large lifted knees that do not match the planned grounded phase order."
+    },
+    {
+      "id": "safe_padding",
+      "status": "warn",
+      "detail": "Full body is larger than the 64% cell target; source-grid boundary margins need measured check."
+    }
+  ],
+  "decision": "After two targeted correction attempts, keep best candidate and explicit issues; proceed with independent actions. Do not label a full walk cycle accepted."
+}

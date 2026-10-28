@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-26T11:44:31.578Z",
+  "reviewer": "verify_image_model",
+  "method": "实际view_image检查三张落盘原生PNG，对照已实际查看的邮件/组队主参考；Python仅只读检查尺寸、元数据与SHA256。",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "globalFindings": {
+    "style": "三张延续玉绿、米白、暖金、圆润道家Q版与明亮日景；红灯笼与太极装饰适量。",
+    "scaleDifferentiation": "戍城为有完整城墙及大练兵院的军事城池；要塞为单岗楼与少量营舍的小型石堡；军营为木栅、布帐篷、练兵区和补给区的野外营地。",
+    "languageAndLayout": "短中文标题、资源、驻军数量、按钮、设施标签可读，关键控件未被场景遮挡。",
+    "scope": "完整静态方向稿，容量数值与UI为概念演示；非现行率土之滨布局复刻，尚未完成切图或客户端接入。"
+  },
+  "images": [
+    {
+      "file": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+      "sha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "width": 1916,
+      "height": 821,
+      "format": "PNG",
+      "mode": "RGB",
+      "nativeDimensionsPreserved": true,
+      "actuallyViewed": true,
+      "findings": [
+        "标题戍城与军事城池副标题可读；驻军2/3对应两支部队和一个空闲席位。",
+        "校场、兵营、城墙卡片及调动/征兵按钮完整。",
+        "中部练兵、城墙、岗楼、兵器架、马厩明确；主道路经开放城门连向外部石桥。"
+      ],
+      "mustFix": [],
+      "minorNotes": [
+        "建筑、山水和金饰较丰富；若后续转为高频操作实机界面，可按用户反馈减弱远景密度。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+      "sha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+      "width": 1916,
+      "height": 821,
+      "format": "PNG",
+      "mode": "RGB",
+      "nativeDimensionsPreserved": true,
+      "actuallyViewed": true,
+      "findings": [
+        "要塞、边地据点、岗楼、营舍、补给标签可读。",
+        "驻军1/2对应一支待命部队和一个空闲席位，调动/驻守按钮完整。",
+        "中央岗楼与两间主要营舍呈小型前沿堡垒，规模与戍城明显不同。"
+      ],
+      "mustFix": [],
+      "minorNotes": [
+        "提示词要求开放城门，成图为关闭木门；内外道路均接到门洞，作为方向稿不构成阻塞，若后续要求连续通行动画可再画开门态。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+      "sha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+      "width": 1916,
+      "height": 821,
+      "format": "PNG",
+      "mode": "RGB",
+      "nativeDimensionsPreserved": true,
+      "actuallyViewed": true,
+      "findings": [
+        "军营、野外营地、营帐、练兵区、补给标签清晰。",
+        "驻军2/3对应两支部队及一个空闲席位；第二部队征兵中与60%进度一致。",
+        "布帐篷、木栅、木岗台、物资和练兵空地明确，未误画为城内兵营或石堡。",
+        "开放营门与通向主帐的道路连接，关键动作征兵/调动完整。"
+      ],
+      "mustFix": [],
+      "minorNotes": [
+        "主帐金色装饰略华丽，是否进一步简化可随用户对军事营地气质的偏好决定。"
+      ]
+    }
+  ]
+}

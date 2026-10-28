@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T17:30:59.671773+00:00",
+  "scope": "three new generated FX animation phase candidates, registration and export",
+  "artRoute": "builtin image_gen.imagegen",
+  "items": [
+    {
+      "assetId": "slash-arc",
+      "manifest": "exports/01-率土之滨/fx-animation/slash-arc/manifest.json",
+      "manifestSha256": "65f0084449bb2ee6b6543ad98532e2d928ff388315cb222ae22fb4e9dd17a687",
+      "source": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png",
+      "sourceSha256": "da618f485d3cbd050c69cd5ea54a509fe8c12d41557f390c84de429d18e77e34",
+      "review": "records/01-率土之滨/fx-animation/slash-arc-review-20261027.json",
+      "frameCount": 8,
+      "animations": 1,
+      "nativeFrameCanvas": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "nominalWarningsAndFailures": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 127930,
+            "detached_components": 4
+          },
+          "threshold": 0
+        }
+      ],
+      "manualOwnershipAcceptedForCandidate": true,
+      "nativeRegistrationVerified": true,
+      "smoothnessFinallyApproved": false
+    },
+    {
+      "assetId": "strategy-array",
+      "manifest": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+      "manifestSha256": "76cb7033ec051ce2d2f82f1f8062cee572f840f18170d5b2235c4af975628abe",
+      "source": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png",
+      "sourceSha256": "2aa75743bc4e24d81b919bcfb3cd1405317bd669b91c21cd0988d07de6dc0c1a",
+      "review": "records/01-率土之滨/fx-animation/strategy-array-review-20261027.json",
+      "frameCount": 8,
+      "animations": 1,
+      "nativeFrameCanvas": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "nominalWarningsAndFailures": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 96502,
+            "detached_components": 2
+          },
+          "threshold": 0
+        }
+      ],
+      "manualOwnershipAcceptedForCandidate": true,
+      "nativeRegistrationVerified": true,
+      "smoothnessFinallyApproved": false
+    },
+    {
+      "assetId": "healing-light",
+      "manifest": "exports/01-率土之滨/fx-animation/healing-light/manifest.json",
+      "manifestSha256": "b0332b5fc9f97ded72536ff27bf839c39c6b710b6c48be3f05e9b7fdfb7d5720",
+      "source": "designs/01-率土之滨/assets/fx-animation/healing-light-sheet-v1.png",
+      "sourceSha256": "5f3d1fef0b1e490baf36b09e1faca4f7022e4ab86745318fc73577a8704b1b41",
+      "review": "records/01-率土之滨/fx-animation/healing-light-review-20261027.json",
+      "frameCount": 8,
+      "animations": 1,
+      "nativeFrameCanvas": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "nominalWarningsAndFailures": [
+        {
+          "id": "cross_cell_visible",
+          "status": "fail",
+          "value": 1,
+          "threshold": 0
+        },
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 146546,
+            "detached_components": 27
+          },
+          "threshold": 0
+        }
+      ],
+      "manualOwnershipAcceptedForCandidate": true,
+      "nativeRegistrationVerified": true,
+      "smoothnessFinallyApproved": false
+    }
+  ],
+  "totalPhaseFrames": 24,
+  "candidateAnimations": 3,
+  "timingPerCandidate": {
+    "seconds": 0.8,
+    "frameSeconds": 0.1,
+    "loop": false
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false,
+  "inFlightCalls": 0,
+  "noGitOperations": true
+}

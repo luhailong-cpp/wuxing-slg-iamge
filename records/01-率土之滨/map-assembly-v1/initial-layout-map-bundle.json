@@ -1,0 +1,360 @@
+{
+  "schema": "generate2dmap.map_bundle.v2",
+  "id": "map-assembly-v1",
+  "name": "五行·城池—单桥—敌营拼装候选",
+  "world": {
+    "width": 1440,
+    "height": 960,
+    "unit": "px"
+  },
+  "layers": [
+    {
+      "name": "ground",
+      "kind": "image",
+      "image": "scene-base.png",
+      "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0"
+    },
+    {
+      "name": "props",
+      "kind": "objects"
+    }
+  ],
+  "objects": [
+    {
+      "id": "city",
+      "prop": "main-city",
+      "x": 650,
+      "y": 308,
+      "scale": 0.65,
+      "anchor_px": [
+        228.0,
+        364
+      ],
+      "image": "../map-kit/cities/main-city.png",
+      "image_sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "solid": true,
+      "sortY": 308,
+      "layer": "props",
+      "occlusion": "tall",
+      "occupant_policy": "y_sort",
+      "footprint": {
+        "shape": "ellipse",
+        "width": 164,
+        "depth": 60,
+        "offset": [
+          0,
+          -34
+        ],
+        "basis": "world_px"
+      }
+    },
+    {
+      "id": "bridge",
+      "prop": "bridge",
+      "x": 751.725,
+      "y": 620.75,
+      "scale": 1.15,
+      "anchor_px": [
+        165.5,
+        302
+      ],
+      "image": "../map-kit/buildings/bridge.png",
+      "image_sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "solid": false,
+      "sortY": 430,
+      "layer": "props",
+      "occlusion": "tall",
+      "occupant_policy": "y_sort"
+    },
+    {
+      "id": "enemy-camp",
+      "prop": "enemy-camp",
+      "x": 850,
+      "y": 692,
+      "scale": 0.75,
+      "anchor_px": [
+        187.5,
+        314
+      ],
+      "image": "../map-kit/buildings/enemy-camp.png",
+      "image_sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "solid": true,
+      "sortY": 692,
+      "layer": "props",
+      "occlusion": "tall",
+      "occupant_policy": "y_sort",
+      "footprint": {
+        "shape": "ellipse",
+        "width": 148,
+        "depth": 54,
+        "offset": [
+          0,
+          -35
+        ],
+        "basis": "world_px"
+      }
+    }
+  ],
+  "collision": {
+    "actorRadius": 8,
+    "ySquash": 0.6,
+    "walkRegions": [
+      {
+        "polygon": [
+          [
+            650.0,
+            118.56
+          ],
+          [
+            946.0,
+            308.0
+          ],
+          [
+            450.0,
+            625.44
+          ],
+          [
+            154.0,
+            436.0
+          ]
+        ],
+        "holes": []
+      },
+      {
+        "polygon": [
+          [
+            1050.0,
+            374.56
+          ],
+          [
+            1346.0,
+            564.0
+          ],
+          [
+            850.0,
+            881.44
+          ],
+          [
+            554.0,
+            692.0
+          ]
+        ],
+        "holes": []
+      },
+      {
+        "polygon": [
+          [
+            701.0,
+            432.8
+          ],
+          [
+            855.0,
+            531.36
+          ],
+          [
+            799.0,
+            567.2
+          ],
+          [
+            645.0,
+            468.64
+          ]
+        ],
+        "holes": []
+      }
+    ],
+    "solids": []
+  },
+  "spawns": [
+    {
+      "id": "city-gate",
+      "x": 750,
+      "y": 372,
+      "facing": "SE"
+    }
+  ],
+  "interactions": [
+    {
+      "id": "city-gate",
+      "x": 726,
+      "y": 300,
+      "reach": 100
+    },
+    {
+      "id": "enemy-camp",
+      "x": 850,
+      "y": 708,
+      "reach": 90
+    }
+  ],
+  "anchors": {
+    "bridge-west": {
+      "point": [
+        680.0,
+        455.2
+      ],
+      "approach": [
+        650,
+        436
+      ]
+    },
+    "bridge-mid": {
+      "point": [
+        750,
+        500
+      ],
+      "approach": [
+        750,
+        500
+      ]
+    },
+    "bridge-east": {
+      "point": [
+        820.0,
+        544.8
+      ],
+      "approach": [
+        850,
+        564
+      ]
+    },
+    "enemy-approach": {
+      "point": [
+        920,
+        730
+      ],
+      "approach": [
+        920,
+        730
+      ]
+    }
+  },
+  "roads": [
+    {
+      "id": "city-bridge-enemy",
+      "material": "provisional-authored-route-not-painted-road-mask",
+      "width": 24,
+      "polyline": [
+        [
+          750,
+          372
+        ],
+        [
+          650,
+          436
+        ],
+        [
+          750,
+          500
+        ],
+        [
+          850,
+          564
+        ],
+        [
+          960,
+          655
+        ],
+        [
+          920,
+          730
+        ]
+      ]
+    }
+  ],
+  "camera": {
+    "pixelToWorld": 1,
+    "bounds": [
+      0,
+      0,
+      1440,
+      960
+    ]
+  },
+  "art_source": "existing",
+  "placeholder": false,
+  "provenance": {
+    "route": "existing original generated crops + authored data; no new image/video call",
+    "candidate": true,
+    "layoutSource": "authored in work/build_map_assembly_v1.py",
+    "collisionSource": "provisional manually authored walk unions and building base ellipses, not alpha-derived or an original full-screen navigation map",
+    "roadSource": "authored route centreline; three existing stone-road dioramas are visual cues only",
+    "terrainSource": "exports/01-率土之滨/map-kit/map-kit-manifest.json",
+    "terrainSourceSha256": "a13a7549a11e4e286ee1150342179bc3f485797639447aa978381a87a071e580",
+    "bridgeDeckSourceAnchorPx": [
+      164,
+      197
+    ],
+    "bridgeCollisionScope": "provisional plane approximation of visible deck; single image cannot provide separate rail occlusion",
+    "warnings": [
+      {
+        "id": "TERRAIN_SEAMS_UNVERIFIED",
+        "value": "stone-rimmed standalone grass/river/road dioramas repeated at uniform 0.72 scale",
+        "threshold": "seam-compatible shared edge pixels and sockets required for continuous terrain",
+        "status": "WARN"
+      },
+      {
+        "id": "RIVER_MIRRORED_FOR_AXIS",
+        "value": 5,
+        "threshold": "mirror-safe lighting and shore continuity not approved",
+        "status": "WARN"
+      },
+      {
+        "id": "PROVISIONAL_COLLISION_AND_ROADS",
+        "value": "manually authored land unions, bridge corridor, small building-base ellipses and route centreline",
+        "threshold": "painted contact, edge and collision approval required",
+        "status": "WARN"
+      },
+      {
+        "id": "BRIDGE_SINGLE_SPRITE_DEPTH",
+        "value": "whole bridge sorts below player on deck; foreground rail is not split",
+        "threshold": "front rail occluder or approved engine depth solution required",
+        "status": "WARN"
+      },
+      {
+        "id": "REPRESENTATIVE_UNIT_STATIC_SE",
+        "value": "existing infantry-64h PNG, foot [128,224], static slide in any movement direction",
+        "threshold": "directional walk animations are absent",
+        "status": "WARN"
+      },
+      {
+        "id": "SCALE_CONVENTION_PROVISIONAL",
+        "value": "64px silhouette, 8x4.8px foot ellipse, uniform world terrain scale 0.72",
+        "threshold": "client gameplay scale and camera contract not accepted",
+        "status": "WARN"
+      },
+      {
+        "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+        "value": "all source alpha retained; compositing/resampling may accumulate faint alpha",
+        "threshold": "no alpha cleanup or threshold deletion authorized",
+        "status": "WARN"
+      },
+      {
+        "id": "NO_PER_PIXEL_OCCLUSION_CUE",
+        "value": "simple y-sort only; actor-shaped cue behind roofs is not implemented",
+        "threshold": "client depth/occlusion review required",
+        "status": "WARN"
+      }
+    ],
+    "tool": "build_map_assembly_v1.py",
+    "version": "1",
+    "params": {
+      "terrainUniformScale": 0.72,
+      "bridgeUniformScale": 1.15,
+      "world": [
+        1440,
+        960
+      ]
+    },
+    "inputs": [
+      {
+        "path": "../map-kit/map-kit-manifest.json",
+        "sha256": "a13a7549a11e4e286ee1150342179bc3f485797639447aa978381a87a071e580"
+      },
+      {
+        "path": "../units/units-manifest.json",
+        "sha256": "18466c09f8c64006113e52173cdffaecf9659b04587cbabe6159fada20374b1b"
+      }
+    ]
+  }
+}

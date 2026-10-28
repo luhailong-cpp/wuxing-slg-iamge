@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "completedAtUtc": "2026-10-27T17:31:56.792863+00:00",
+  "scope": "buff-cloud, debuff-mist, fire:3 generated eight-frame temporal FX one-shot candidates",
+  "imageGenerationRoute": "builtin image_gen.imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "hostGenerationCalls": 5,
+  "chosenSourceSheets": 3,
+  "supersededSources": [
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v1.png",
+      "reason": "raw nominal-cell cross-over failure; not exported"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v2.png",
+      "reason": "tight source margin proposal, replaced byv3 before export"
+    }
+  ],
+  "clips": [
+    {
+      "id": "buff-cloud",
+      "manifest": "exports/01-率土之滨/fx-animation/buff-cloud/manifest.json",
+      "manifestSha256": "4aa22ecff24db84eebcfc96b5b8793d727730dd33ae2805956d4b687d02eba18",
+      "review": "records/01-率土之滨/buff-cloud-animation-review-20261027.json",
+      "reviewSha256": "d9e04c8edd104b043ed16817af6b8e220178bc1d7439b0364486058626b439ff",
+      "sourceSheet": {
+        "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png",
+        "sha256": "fb0c951d786f5aa4d5079293f546c0d501a78db0ebf5a5247631d0461b7300b0",
+        "record": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png.generation.json",
+        "grid": {
+          "columns": 4,
+          "rows": 2,
+          "order": "left_to_right_top_to_bottom"
+        }
+      },
+      "frameCount": 8,
+      "uniqueFrameHashes": 8,
+      "frameSize": [
+        640,
+        640
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1,
+      "loop": false,
+      "frameVerification": [
+        {
+          "index": 0,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-00.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 1,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-01.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 2,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-02.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 3,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-03.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 4,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-04.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 5,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-05.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 6,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-06.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 7,
+          "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-07.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        }
+      ],
+      "warnings": [
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 92932,
+            "detached_components": 2
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ],
+      "edgeMaxAlphaAllFrames": 0,
+      "central60PercentForFinalFramesAtAlpha16": true
+    },
+    {
+      "id": "debuff-mist",
+      "manifest": "exports/01-率土之滨/fx-animation/debuff-mist/manifest.json",
+      "manifestSha256": "3514ae91f9dc410acd5f8c46035bb11e85e7e490a340eb75c69151419f38729a",
+      "review": "records/01-率土之滨/debuff-mist-animation-review-20261027.json",
+      "reviewSha256": "b2d6141ff73f8432f7510f390d35985d70a4550e708403b7b5679951b063f2b5",
+      "sourceSheet": {
+        "file": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png",
+        "sha256": "56658e737b1f417f001a4022dbf62a471481af50508bda8faaaf658a243c9188",
+        "record": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png.generation.json",
+        "grid": {
+          "columns": 4,
+          "rows": 2,
+          "order": "left_to_right_top_to_bottom"
+        }
+      },
+      "frameCount": 8,
+      "uniqueFrameHashes": 8,
+      "frameSize": [
+        768,
+        768
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1,
+      "loop": false,
+      "frameVerification": [
+        {
+          "index": 0,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-00.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 1,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-01.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 2,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-02.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 3,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-03.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 4,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-04.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 5,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-05.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 6,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-06.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 7,
+          "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-07.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        }
+      ],
+      "warnings": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 180779,
+            "detached_components": 67
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ],
+      "edgeMaxAlphaAllFrames": 0,
+      "central60PercentForFinalFramesAtAlpha16": true
+    },
+    {
+      "id": "fire",
+      "manifest": "exports/01-率土之滨/fx-animation/fire/manifest.json",
+      "manifestSha256": "0ec9e473bb06d5f97ed7a5dc610a3a27f70a2753a4ea336cdd721984953b61a6",
+      "review": "records/01-率土之滨/fire-animation-review-20261027.json",
+      "reviewSha256": "8c2a9fccb525aff31f5f5eb2204068ab8ca02c12498b22a556fa421b53dbb840",
+      "sourceSheet": {
+        "file": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png",
+        "sha256": "0d3b4cd50fdfb4a66d78f4d23613364e6c58c323ff145126d454c1bf65a57833",
+        "record": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png.generation.json",
+        "grid": {
+          "columns": 4,
+          "rows": 2,
+          "order": "left_to_right_top_to_bottom"
+        }
+      },
+      "frameCount": 8,
+      "uniqueFrameHashes": 8,
+      "frameSize": [
+        1024,
+        1024
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1,
+      "loop": false,
+      "frameVerification": [
+        {
+          "index": 0,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-00.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 1,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-01.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 2,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-02.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 3,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-03.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 4,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-04.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 5,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-05.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 6,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-06.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        },
+        {
+          "index": 7,
+          "file": "exports/01-率土之滨/fx-animation/fire/frame-07.png",
+          "sha256MatchesManifestAndRecord": true,
+          "sourceCropPixelsPreserved": true,
+          "sharedFrameSizeMatches": true,
+          "sharedAnchorMatches": true
+        }
+      ],
+      "warnings": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 4,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 95863,
+            "detached_components": 3
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ],
+      "edgeMaxAlphaAllFrames": 0,
+      "central60PercentForFinalFramesAtAlpha16": true
+    }
+  ],
+  "totalDistinctFrameFiles": 24,
+  "allFramesHashPixelSizeAnchorVerification": true,
+  "allChosenSourcesOwnershipReviewed": true,
+  "allLightDarkCompositesActuallyViewed": true,
+  "alphaEdited": false,
+  "repaintedByCode": false,
+  "resampled": false,
+  "sourceFrameRegistration": "Manual effect-origin integer translation on fixed transparent canvas; no per-bbox scale normalization",
+  "timingContract": "0.8s one-shot /0.1s perframe is demonstration only; no combat events or approved final timing",
+  "status": "three_one_shot_candidates_ready_for_root_engine_preview_pending_user_and_motion_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "engineValidationPerformedByThisWorker": false,
+  "gitOperationsPerformed": false,
+  "readmeOrUnityScriptsModified": false,
+  "limitations": [
+    "Raw faint_specks warnings persist; no threshold cleaning or keying was used to hide them.",
+    "Raw safe_frame warnings on debuff/fire remain historical source-sheet diagnostics, even though registered padded final frames have broad transparent margins.",
+    "Final motion smoothness, game-size effect scale, timing and integration still need actual engine and user review."
+  ]
+}

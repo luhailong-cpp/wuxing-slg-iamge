@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/early-three-alpha-qa.png",
+  "sha256": "3c85c998ed7d79a117768d952a75b9760dbcc095d8611ecc92421089cf33fc38",
+  "qaOnly": true,
+  "operation": "premultiplied_LANCZOS_thumbnail_on_light_and_dark",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png",
+      "sha256": "afafd07555ff615c7824efb17526c992759bb8cacb36b4fdecefda4e6cb9cc6c"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png",
+      "sha256": "7cce405788136b7e78c1f1c2700f7f7133f4674d1649ef9dbe647cbeb72cc2c5"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png",
+      "sha256": "bac25ce9f9eda35f22f1eade3cd341aca10d180f19e51c3497cada279a3d3457"
+    }
+  ],
+  "supersededForDeliveryBy": {
+    "light": "records/roster-expansion-20261029-wu1/qa/cards-light.png",
+    "dark": "records/roster-expansion-20261029-wu1/qa/cards-dark.png",
+    "avatarsLight": "records/roster-expansion-20261029-wu1/qa/avatars-light.png",
+    "avatarsDark": "records/roster-expansion-20261029-wu1/qa/avatars-dark.png"
+  }
+}

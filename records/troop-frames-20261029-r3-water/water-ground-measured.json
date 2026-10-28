@@ -1,0 +1,1386 @@
+{
+  "schema": "wuxing-slg.manually-reviewed-ground-registration-input.v1",
+  "character": "troop-water",
+  "manualBasis": "All selected 4 native sheets and measurement grids actually viewed. Source ownership at transparent gutters, weapon and shield excluded from ground contact. Defeat frames5/6 seated support is measured from visible soles/pants/knee contact, not standing feet.",
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+    "sha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c",
+    "helmetWidth": 501,
+    "helmetMeasurement": [
+      435,
+      300,
+      936,
+      687
+    ],
+    "groundRootInteger": [
+      695,
+      1126
+    ],
+    "contactMeasurements": [
+      {
+        "roi": [
+          465,
+          1020,
+          621,
+          1102
+        ],
+        "anatomicalSupport": "boot",
+        "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+        "contactPoint": [
+          518.0,
+          1093
+        ],
+        "supportBandX": [
+          490,
+          546
+        ],
+        "alphaThresholdDiagnosticOnly": 16
+      },
+      {
+        "roi": [
+          785,
+          1080,
+          932,
+          1172
+        ],
+        "anatomicalSupport": "boot",
+        "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+        "contactPoint": [
+          872.5,
+          1160
+        ],
+        "supportBandX": [
+          844,
+          901
+        ],
+        "alphaThresholdDiagnosticOnly": 16
+      }
+    ]
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png.generation.json",
+      "sha256": "5cb7cbe8f3dc8bfe4fa35e75e808e2cd5b2bfb05cab3e4de75b19c09305d8c09",
+      "cols": 2,
+      "rows": 2,
+      "rowBoundary": 650,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 242,
+      "helmetMeasurement": [
+        264,
+        225,
+        506,
+        403
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.743801652892562,
+      "durationsMs": [
+        280,
+        280,
+        180,
+        280
+      ],
+      "loop": true,
+      "timingStatus": "suggested only, not playback-accepted",
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            390,
+            597
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                270,
+                548,
+                353,
+                592
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                299.5,
+                586
+              ],
+              "supportBandX": [
+                280,
+                319
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                430,
+                565,
+                510,
+                615
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                481.0,
+                608
+              ],
+              "supportBandX": [
+                460,
+                502
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            328,
+            599
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                205,
+                545,
+                290,
+                595
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                236.5,
+                587
+              ],
+              "supportBandX": [
+                216,
+                257
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                370,
+                565,
+                453,
+                620
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                419.0,
+                611
+              ],
+              "supportBandX": [
+                397,
+                441
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            650,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            380,
+            489
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                255,
+                430,
+                340,
+                480
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                287.0,
+                477
+              ],
+              "supportBandX": [
+                265,
+                309
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                420,
+                450,
+                505,
+                510
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                473.5,
+                501
+              ],
+              "supportBandX": [
+                452,
+                495
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            650,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            328,
+            490
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                205,
+                430,
+                290,
+                480
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                234.0,
+                478
+              ],
+              "supportBandX": [
+                212,
+                256
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                370,
+                455,
+                455,
+                510
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                422.5,
+                502
+              ],
+              "supportBandX": [
+                401,
+                444
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        }
+      ]
+    },
+    {
+      "id": "attack",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png.generation.json",
+      "sha256": "7c44796514c6c15aafa045f0c7de9c56873c529d339b73f8ef5c1ce4f5d753a4",
+      "cols": 3,
+      "rows": 2,
+      "rowBoundary": 528,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 226,
+      "helmetMeasurement": [
+        158,
+        142,
+        384,
+        301
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.7964601769911505,
+      "durationsMs": [
+        140,
+        110,
+        100,
+        70,
+        110,
+        170
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            528
+          ],
+          "sourceCellSize": [
+            512,
+            528
+          ],
+          "groundRootInteger": [
+            276,
+            492
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                155,
+                438,
+                242,
+                491
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                187.0,
+                483
+              ],
+              "supportBandX": [
+                165,
+                209
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                312,
+                456,
+                397,
+                509
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                364.0,
+                502
+              ],
+              "supportBandX": [
+                343,
+                385
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            528
+          ],
+          "sourceCellSize": [
+            512,
+            528
+          ],
+          "groundRootInteger": [
+            277,
+            492
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                132,
+                440,
+                218,
+                496
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                165.0,
+                488
+              ],
+              "supportBandX": [
+                145,
+                185
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                340,
+                456,
+                420,
+                504
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                389.5,
+                497
+              ],
+              "supportBandX": [
+                367,
+                412
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 110,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            528
+          ],
+          "sourceCellSize": [
+            512,
+            528
+          ],
+          "groundRootInteger": [
+            255,
+            498
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                108,
+                446,
+                191,
+                502
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                139.5,
+                491
+              ],
+              "supportBandX": [
+                119,
+                160
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                316,
+                455,
+                402,
+                512
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                370.0,
+                504
+              ],
+              "supportBandX": [
+                349,
+                391
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            528,
+            566,
+            1024
+          ],
+          "sourceCellSize": [
+            566,
+            496
+          ],
+          "groundRootInteger": [
+            233,
+            424
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                70,
+                365,
+                155,
+                430
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                106.5,
+                421
+              ],
+              "supportBandX": [
+                86,
+                127
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                295,
+                382,
+                390,
+                439
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                359.0,
+                428
+              ],
+              "supportBandX": [
+                337,
+                381
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 70,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            566,
+            528,
+            1072,
+            1024
+          ],
+          "sourceCellSize": [
+            506,
+            496
+          ],
+          "groundRootInteger": [
+            194,
+            422
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                46,
+                365,
+                133,
+                423
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                77.5,
+                414
+              ],
+              "supportBandX": [
+                56,
+                99
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                248,
+                384,
+                346,
+                442
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                311.0,
+                429
+              ],
+              "supportBandX": [
+                288,
+                334
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 110,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1072,
+            528,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            464,
+            496
+          ],
+          "groundRootInteger": [
+            228,
+            444
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                112,
+                393,
+                197,
+                448
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                140.0,
+                435
+              ],
+              "supportBandX": [
+                118,
+                162
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                272,
+                410,
+                352,
+                465
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                317.0,
+                454
+              ],
+              "supportBandX": [
+                296,
+                338
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 170,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        }
+      ]
+    },
+    {
+      "id": "hurt",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png.generation.json",
+      "sha256": "363d491a2cab621da66e5892b788a37ffe496a03c8fd27b0237e82f428e74a39",
+      "cols": 2,
+      "rows": 2,
+      "rowBoundary": 644,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 307,
+      "helmetMeasurement": [
+        202,
+        170,
+        509,
+        378
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.5863192182410424,
+      "durationsMs": [
+        100,
+        100,
+        140,
+        180
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            644
+          ],
+          "sourceCellSize": [
+            627,
+            644
+          ],
+          "groundRootInteger": [
+            355,
+            620
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                197,
+                557,
+                303,
+                619
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                235.0,
+                611
+              ],
+              "supportBandX": [
+                209,
+                261
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                417,
+                580,
+                519,
+                637
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                475.5,
+                630
+              ],
+              "supportBandX": [
+                451,
+                500
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            644
+          ],
+          "sourceCellSize": [
+            627,
+            644
+          ],
+          "groundRootInteger": [
+            366,
+            617
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                208,
+                555,
+                309,
+                630
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                241.0,
+                620
+              ],
+              "supportBandX": [
+                219,
+                263
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                425,
+                555,
+                530,
+                619
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                492.0,
+                614
+              ],
+              "supportBandX": [
+                469,
+                515
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            644,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            610
+          ],
+          "groundRootInteger": [
+            379,
+            541
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                220,
+                480,
+                327,
+                552
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                261.0,
+                543
+              ],
+              "supportBandX": [
+                236,
+                286
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                435,
+                488,
+                545,
+                552
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                497.0,
+                539
+              ],
+              "supportBandX": [
+                474,
+                520
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            644,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            610
+          ],
+          "groundRootInteger": [
+            350,
+            553
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                492,
+                296,
+                560
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                230.5,
+                546
+              ],
+              "supportBandX": [
+                205,
+                256
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                405,
+                510,
+                513,
+                570
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                470.5,
+                560
+              ],
+              "supportBandX": [
+                446,
+                495
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        }
+      ]
+    },
+    {
+      "id": "defeat",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "cols": 3,
+      "rows": 2,
+      "rowBoundary": 590,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 224,
+      "helmetMeasurement": [
+        193,
+        169,
+        417,
+        333
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.8035714285714286,
+      "durationsMs": [
+        120,
+        140,
+        160,
+        180,
+        220,
+        600
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            590
+          ],
+          "sourceCellSize": [
+            512,
+            590
+          ],
+          "groundRootInteger": [
+            309,
+            532
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                480,
+                275,
+                534
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                224.0,
+                525
+              ],
+              "supportBandX": [
+                202,
+                246
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                344,
+                492,
+                425,
+                546
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                394.0,
+                539
+              ],
+              "supportBandX": [
+                373,
+                415
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 120,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            590
+          ],
+          "sourceCellSize": [
+            512,
+            590
+          ],
+          "groundRootInteger": [
+            268,
+            535
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                160,
+                495,
+                245,
+                545
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                190.0,
+                537
+              ],
+              "supportBandX": [
+                169,
+                211
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                302,
+                495,
+                375,
+                542
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                345.0,
+                533
+              ],
+              "supportBandX": [
+                325,
+                365
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            590
+          ],
+          "sourceCellSize": [
+            512,
+            590
+          ],
+          "groundRootInteger": [
+            266,
+            532
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                193,
+                499,
+                264,
+                541
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                227.5,
+                534
+              ],
+              "supportBandX": [
+                204,
+                251
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                278,
+                499,
+                346,
+                541
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                305.0,
+                530
+              ],
+              "supportBandX": [
+                278,
+                332
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 160,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            590,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            434
+          ],
+          "groundRootInteger": [
+            308,
+            396
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                231,
+                351,
+                305,
+                401
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                271.0,
+                397
+              ],
+              "supportBandX": [
+                247,
+                295
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                320,
+                351,
+                390,
+                401
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                345.5,
+                395
+              ],
+              "supportBandX": [
+                320,
+                371
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            590,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            434
+          ],
+          "groundRootInteger": [
+            299,
+            392
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                202,
+                355,
+                269,
+                399
+              ],
+              "anatomicalSupport": "extended boot sole",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                239.5,
+                393
+              ],
+              "supportBandX": [
+                223,
+                256
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                330,
+                355,
+                396,
+                399
+              ],
+              "anatomicalSupport": "folded knee/seated support",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                358.5,
+                391
+              ],
+              "supportBandX": [
+                330,
+                387
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 220,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            590,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            434
+          ],
+          "groundRootInteger": [
+            266,
+            388
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                229,
+                365,
+                248,
+                388
+              ],
+              "anatomicalSupport": "seated pants/hip support",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                238.0,
+                384
+              ],
+              "supportBandX": [
+                229,
+                247
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                270,
+                356,
+                338,
+                400
+              ],
+              "anatomicalSupport": "front boot sole",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                294.5,
+                392
+              ],
+              "supportBandX": [
+                270,
+                319
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 600,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "tool": "image_gen.imagegen",
+  "submittedParameters": {
+    "prompt": "Create ONE native transparent map road decal for the horizontal SLG 五行问鼎, matching these four actually attached references. References1-2 are the primary Daoist chibi HD hand-painted style, reference3 is the existing ivory stone bridge (material/camera only), reference4 is the newly generated river crossing underlay (match its approach-road slab material, width proportions and camera). Do not include any bridge or river from these references.\n\nOutput ONE clean straight stone road strip running upper-left to lower-right in strict orthographic 2:1 isometric projection: long axis vector proportional to (+2,+1), road width direction proportional to (+2,-1). Show its whole silhouette inside generous transparent margins. Canvas landscape 3:2. The finished paved surface is an elongated parallelogram: approximately corners (290,250),(1120,665),(890,780),(60,365) within a 1200x900 conceptual frame; preserve the2:1 slope, no perspective convergence. Road needs to remain straight and constant width.\nWarm pale ivory/light gray rectangular stone slabs, three slabs across and roughly10 paving rows long, smooth rounded modestly weathered edges, thin soft warm joints, subtle handpainted shading. Same slab scale and color as bridgehead pavement. Both short ends are plain square cut paving edges perpendicular in world space, so this can overlap matching paving at either end. There is NO terminal step, capstone, staircase, arch, raised pedestal or decorative endstop. Two LONG sides may have a very thin irregular low grass fringe, maximum one fifth of the road width. Absolutely no broad grass diamond, enclosing lawn island, stone rim, bushes, flowers, grass tufts at either short end, road signs or props.\nIt is a flat walkable road surface decal, not a floating block. Almost no extrusion, extremely soft contact shading only immediately beside the long edges. Bright clean daylight, painterly Q-version finish and enough native detail to match attached terrain. True transparent alpha everywhere outside the stone road and tiny long-side grass fringe. Keep stone interiors opaque. No text, UI, characters, grid, labels, checkerboard, cast ground shadow on background, black fill or glow.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/map-depth-20261028/bridge-composite-reference.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style"
+    },
+    {
+      "path": "exports/01-率土之滨/map-depth-20261028/bridge-composite-reference.png",
+      "sha256": "ee0a5c6547419673352023012712d8eacdcf2559669d8a2f2e41059d86c58592",
+      "role": "bridge camera stone material"
+    },
+    {
+      "path": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5",
+      "role": "current underlay approach paving"
+    }
+  ],
+  "ruleReadEvidence": [
+    {
+      "path": "D:/work/wuxing-slg-iamge/AGENTS.md",
+      "sha256": "da53e17f66054d0bdd2acaec3feae3a0333f01be75610e7661f812d7c91a29ad"
+    },
+    {
+      "path": "D:/work/image/AGENTS.md",
+      "sha256": "b247ee3eda4d04bc367ca6c36ed220a4ca54eb4179aa573df57f357861e63d6b"
+    },
+    {
+      "path": "D:/work/wuxing-slg-iamge/config/image-generation.json",
+      "sha256": "7d1558e9aa43e5bfad6f379a3d034484f0877398ce1a31471bcf3779dad29eb4"
+    },
+    {
+      "path": "D:/work/wuxing-slg-iamge/docs/IMAGE_MODEL_POLICY.md",
+      "sha256": "462bb5ac795c6b8a063cd8f03ade9788150cbbf9a7fa8928669a9539afa3480e"
+    }
+  ],
+  "requestedAt": "2026-10-29T03:34:48.095Z",
+  "officialVerification": "Parent /root reverified official sources 2026-10-28",
+  "heavyLocalPause": true
+}

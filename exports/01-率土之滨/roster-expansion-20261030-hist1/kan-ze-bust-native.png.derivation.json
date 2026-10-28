@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/kan-ze-bust-native.png",
+  "sha256": "1718e832c6608d092ed0a0085d70d0af19cf05b9d2be23355fef05cbcf65c0f6",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/kan-ze-master-v1.png",
+    "sha256": "479475c27ee04542ed8f2af8aa0ed5edcbc5d03f6720ab582cf65e5cd72d7f8a",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/kan-ze-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-face-native.png",
+  "sha256": "7c282273842f3b72d3eaf634399f506d67cc71969f1b089c497e0703bc264be3",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 515,
+  "height": 570,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "cao-cao",
+  "displayName": "曹操",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/03-cao-cao-v1.png",
+      "sha256": "c0db4bf3c35683b1ada5c2b968692042a9e334381199a7a65b35d3c16cc76bf9",
+      "record": "designs/01-率土之滨/characters/03-cao-cao-v1.png.generation.json",
+      "recordSha256": "d0b8a5739e8a39101f74e37c9f32ad7fb522d35e8be06100c9a8a1fa83fe02e2"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    275,
+    0,
+    790,
+    570
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    515,
+    570
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    260,
+    670,
+    480
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 94249,
+    "alpha1Pixels": 6233,
+    "semiTransparentPixels": 199301,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      18,
+      515,
+      570
+    ],
+    "edgePixelsAbove32": [
+      244,
+      0,
+      6,
+      494
+    ],
+    "marginsAbove32": [
+      0,
+      18,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-face-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 6233,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-face-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        275,
+        0,
+        790,
+        570
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-face-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

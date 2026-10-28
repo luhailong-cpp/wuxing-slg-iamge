@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/hua-tuo-face-native.png",
+  "sha256": "1cd5072149ac82cee7229871f66ffc9433c951b0e8df7dd68f253a30cec080be",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 515,
+  "height": 705,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "hua-tuo",
+  "displayName": "华佗",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/13-hua-tuo-v1.png",
+      "sha256": "38a949372e8a53a0a9402a8cabfa232f007fded40ec624d1157a24d7343ccbce",
+      "record": "designs/01-率土之滨/characters/13-hua-tuo-v1.png.generation.json",
+      "recordSha256": "12bdc34db6090e80a89c122d202b5080866fb9a27e29aabecce3f50b3f2f4be7"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    300,
+    125,
+    815,
+    830
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    515,
+    705
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    430,
+    310,
+    735,
+    570
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 85032,
+    "alpha1Pixels": 7684,
+    "semiTransparentPixels": 278043,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      23,
+      515,
+      705
+    ],
+    "edgePixelsAbove32": [
+      380,
+      0,
+      80,
+      515
+    ],
+    "marginsAbove32": [
+      0,
+      23,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/hua-tuo-face-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 7684,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/hua-tuo-face-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        300,
+        125,
+        815,
+        830
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/hua-tuo-face-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

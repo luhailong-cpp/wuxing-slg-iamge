@@ -1,0 +1,21 @@
+{
+  "file": "records/map-connectors-20261028-r2/04-fixed-with-bridge-dark.png",
+  "sha256": "ef5d48079e6b2a5ab62a0d101f460ff999141d17e20c2f1def0ac3ea4d6d37f7",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+      "sha256": "a2346e1f3904b60dd60aec1ad4332c3a5b9707b99ae078e3e316fbfdd959e2da"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b"
+    }
+  ],
+  "operation": "native alpha composite on named flat background then original independent bridge-back/front both display603×603 at[223,314]",
+  "artifactPurpose": "diagnostic only, not new AI art",
+  "sourceFilesModified": false
+}

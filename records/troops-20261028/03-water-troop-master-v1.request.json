@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-28T08:11:34.630Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept. Asset type: one ordinary five-element troop master with true alpha, a landscape SLG map unit.\nGenerate ONE generic WATER 水兵 rank-and-file soldier, one of five troop types. Five elements describe TROOPS, not named heroes. Input images 1 and 2 establish the exact approved Taoist chibi hand-painted visual style. Input image 3 is the newly made METAL troop and establishes the common troop family, head/body proportions, southeast orientation, camera elevation, ivory/jade/gold painted finish, and ordinary soldier character. Do not copy the metal soldier's metal shield or saber; give this troop the distinct equipment specified below.\nA low rounded dark-teal helmet with a subtle water-drop jade forehead rivet, short black hair; compact curved blue-teal scale armor over ivory tunic, short blue-white shoulder cape stopping at waist, short boots. ONE small physical ring-headed short baton in far hand and ONE compact oval ripple-pattern shield in near hand. Fabric and metal painted blue/cyan with restrained warm-gold trim. No floating water, no splash, no aura, no animal fins.\nSame very large round head and tiny sturdy body as image 3, about 2.5 heads total. Calm friendly disciplined neutral face. Fixed elevated three-quarter/isometric camera looking down about 35 degrees; body and both boots point southeast (screen lower-right). Feet fully visible and planted. Bright refined hand-painting, broad readable silhouette, soft painted volume and fine tasteful cloud/ruyi engraving. Use the approved jade green/ivory/warm-gold foundation plus the element accents. Not plastic 3D, not photoreal, not named general, no cavalry, no bow, no spear, no huge hero headdress.\nSquare canvas. Entire figure including gear, crest, both shoes and weapon tips must fit with LARGE empty TRANSPARENT margins. Figure should occupy only central 60% canvas height and width, at least 18% clear alpha margin on all sides. Model must draw the whole unit at that smaller framing, not cut extremities. Centered balanced rest pose. Upper-left soft lighting and self-shadow; NO ground tile, NO pedestal, NO cast shadow, NO text, NO UI, NO background, NO checkerboard, NO ambient magical particles. Exactly one soldier, no extra creatures or props. Preserve true transparent alpha.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/zhou-yu-native-dark.png",
+  "sha256": "d4425ef4dc56cfe71628bc2f8687d8533ee7b2a8b11e0c660d943abfe3c8661f",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1500,
+  "height": 985,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhou-yu-face-native.png",
+      "sha256": "acb92a0b9cd5088608ed6d0233c02da709fe4e18881bced9bada63fb03cfefcc",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhou-yu-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhou-yu-bust-native.png",
+      "sha256": "38199bcaa9fc977e4fa9f2405e0f3b14b412adf0e861b51aca02d843102f245d",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhou-yu-bust-native.png.derivation.json"
+    }
+  ]
+}

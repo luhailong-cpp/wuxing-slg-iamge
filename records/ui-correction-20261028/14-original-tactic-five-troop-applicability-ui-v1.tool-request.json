@@ -1,0 +1,33 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T11:19:32.765Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Precise localized UI edit, complete opaque wide landscape screen about1916x821. Image3 is the original target; images1/2 authoritative jade-green/ivory/gold Daoist chibi hand-painted style; image4 five EXISTING troop emblems. Preserve target layout and all current text/data/art except the single troop applicability row. This game keeps historical generals and original 战法 system; five elements are troop types only.\nReplace old top-right row \"兵种类型 骑兵 步兵 弓兵\" and three black/gold troop icons with a clear row \"兵种类型 全部兵种\" and immediately below/alongside five small existing emblems with exact captions \"金兵 木兵 水兵 火兵 土兵\". This is adaptation of original all-three-types applicability to all-five-types, not an invented restricted subset. Metal emblem is FOUR pointed ivory/gold shape with GREEN JADE CENTER, wood two leaves, water drop, fire flame, earth mountains. They must fit with breathing room; minimally enlarge the upper information panel if needed, without overlaps or clipped text. Do not classify the tactic itself as elemental.\nKeep exact: 战法详情; 谋攻 Lv.1; D级; 谋略; 战法类型 主动; 有效距离4; 发动率45%; 目标类型敌军单体; 对敌军单体造成策略攻击。; 可学习3/3; 暂无已学习武将; 学习战法无需消耗; buttons学习 / 返回战法库 / 满级效果; 简选中 and详unselected. Preserve large fan tactic artwork. No术法/灵力/金行使 or elemental heroes. No added counters or new probability/rules/numbers. No prototype or technical notes.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/14-tactic-detail-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/14-original-tactic-five-troop-applicability-ui-v1.prompt.txt",
+  "referenceNotes": []
+}

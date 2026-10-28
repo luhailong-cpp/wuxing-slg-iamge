@@ -1,0 +1,34 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T08:10:34.587Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit\nAsset type: high-fidelity landscape Chinese SLG character-detail UI.\nEdit the third attached image, the existing Liu Bei detail screen. Preserve its wide horizontal approximately 1916x821 composition, Liu Bei identity and pose, Han faction, original layout and all existing functions. Render in the same refined Daoist chibi hand-painted style.\nInput roles: image1 confirmed mail UI and image2 confirmed party UI are authoritative jade/ivory/gold hand-painted style references only. Image3 is the EDIT TARGET. Image4 is the Liu Bei v2 master for the same male character identity, tall jade crown, long brown hair, small goatee, green and ivory robes and two swords. Image5 is the five-emblem reference sheet; use ONLY its metal ivory/gold four-point jade-center emblem for the TROOP TYPE badge.\nThis is Liu Bei commanding 金兵. Gold is a troop type; do not replace the man with a gold-element hero and do not assign an elemental hero identity.\nRequired edit: in the top detail stat row replace old infantry emblem and \"步兵\" with the reference metal emblem and exact \"金兵\". Keep \"攻击距离 3\". Cleanly render \"COST 2.0\" without an overlapping icon on the word.\nPreserve exact relevant text and values: faction \"汉\"; name \"刘备\"; four stars; side navigation \"领兵\", \"内政\", \"列传\", \"外观\", \"传承\"; upper status \"未保护\"; tabs \"详情\", \"配点\", \"兵种\" with 详情 selected. \"Lv.5\", \"0 / 500\"; \"兵力 500 / 500\"; \"体力 100 / 100\"; \"攻击 78 (+0.73)\", \"防御 84 (+0.79)\", \"谋略 74 (+0.62)\", \"攻城 19 (+0.97)\", \"速度 58 (+0.39)\". Lower original tactic \"义勇军\", \"Lv.1\", plus slot \"学习\", lock slot \"未觉醒\", \"战法经验 200\".\nKeep original Liu Bei male portrait and clothes; keep green/silk/gold panels and scenic backdrop, all three skill slots and existing controls. Do not replace 谋略 with 灵力, COST with 统御, 战法 with 术法, or 义勇军 with a new elemental skill. No new stats, probabilities, counters, new rules, explanatory prototype footnotes, watermark, or game title.\nNo \"步兵\", \"弓兵\", \"骑兵\" or \"金行使\" anywhere. The elemental symbol appears only as the small troop badge, not a new faction. Maintain readable Chinese, full frame, no added cropping. Complete opaque landscape screen.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.prompt.txt"
+}
+

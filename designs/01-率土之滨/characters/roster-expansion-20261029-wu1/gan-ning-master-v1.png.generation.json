@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png",
+  "sha256": "0db774f29ec7053ba001f7842465f6d4035b48b71cabf8836586440ed76057b1",
+  "generatedAt": null,
+  "generatedAtReason": "Host-managed image tool returned image_url/output_hint only; model, quality and service timestamp not disclosed.",
+  "observedStartedUTCFromClock": {
+    "current_time": "2026-10-29 10:37:56 UTC"
+  },
+  "observedCompletedUTCFromClock": {
+    "current_time": "2026-10-29 10:40:17 UTC"
+  },
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_image",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create exactly ONE portrait 2:3 full-body character master, approximately 1024x1536 native. Original character artwork for 五行问鼎, a horizontal Three Kingdoms SLG. Premium high-definition Daoist chibi hand-painted 2D illustration in the same series as attached references. Big expressive head and short sturdy body, about 3 heads tall, round and friendly but clearly an adult when specified. Fine controlled brush shading, ivory silk, jade/teal enamel, restrained warm gold engraved cloud curves, crisp soft-edged rendering, no photorealism, no plastic 3D look. The first and second attached images are PRIMARY STYLE references only: use their finish, warm jade-gold-ivory visual language, not their UI or background. Subsequent attached characters are PEER STYLE/PROPORTION references only: never copy their face, exact pose, crown, costume or identity. Historical named general, not an elemental hero; metal/wood/water/fire/earth classify ordinary troops only. One standing full figure in calm 3/4 front view looking toward viewer, face and hands readable, no action blur. Keep all hair, headgear, sleeves, footwear, weapon tips and tassels inside the canvas with at least 8% transparent margin on every side. Fully drawn opaque character interior with natural anti-aliased contour, genuine alpha background, no painted backdrop, no gradient halo, no scenery, no floor or cast shadow, no particle aura. No text, letters, Chinese writing, numbers, card, frame, UI, title, watermark or logo. All designs are original stylizations rather than copies of any official game's portraits.\n\nGAN NING 甘宁, the bold bell-wearing former river raider turned general. Adult early 30s, compact muscular build, sun-tanned face, strong cheekbones, lively wide brown eyes, one eyebrow raised and a broad roguish grin showing a little tooth; clean jaw with light sideburns, no heavy beard. Black hair tied in an asymmetric short high knot with an ivory-red patterned headband, two small bronze bells on red ties at the belt, one jade bead earring. Short sleeveless dark teal armour vest over ivory fitted fabric, muscular forearms partly visible with leather bracers, rich but restrained red-ivory brocade sash, rolled trouser cuffs and practical boots; warm gold cloud trim consistent with series. Holds one short curved sabre down beside him, entire blade visible and inside margins, other hand casually gripping a coil of plain rope at hip. A small asymmetric fabric shoulder mantle, not a giant pirate hat, no skulls, no ship, no cannon, no firearms, no bird. Cheerful daring river-warrior identity.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/09-zhang-fei-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "records/roster-expansion-20261029-wu1/gan-ning-master-v1.receipt.json",
+  "unverifiedReason": "Host-managed image tool returned image_url/output_hint only; model, quality and service timestamp not disclosed.",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-master-v1.actualprompt.txt",
+  "references": [
+    {
+      "key": "mail",
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actualViewed": true,
+      "role": "primary_style"
+    },
+    {
+      "key": "team",
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actualViewed": true,
+      "role": "primary_style"
+    },
+    {
+      "key": "sunquan",
+      "file": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "sha256": "e1ee5843358777ce56e8a1b20b6f16424301d0a6ad0e5d2da4087efbdb62c799",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    },
+    {
+      "key": "zhouyu",
+      "file": "designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "sha256": "3ecc8fe1c952e758bf513fc8756fec0c71dc1666b430e2a8f13110a5570272ed",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    },
+    {
+      "key": "zhangfei",
+      "file": "designs/01-率土之滨/characters/09-zhang-fei-v1.png",
+      "sha256": "783a39018536d3780d3a5591ab4e5beb5dd0bb08cac82475cb9911c3a8b04000",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    }
+  ],
+  "sourceNativeFile": "C:/Users/luyua/.codex/generated_images/01a18183-e67c-75f0-bd68-7e540a4430ae/exec-1e6c025d-f4e6-4a3a-a71f-60535d53e3ef.png",
+  "personID": "ww-p-f639aded718e",
+  "displayName": "甘宁",
+  "status": "generated_candidate_pending_alpha_QA"
+}

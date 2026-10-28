@@ -1,0 +1,1675 @@
+{
+  "schemaVersion": 1,
+  "preparedAtUtc": "2026-10-27T17:35:57.926531+00:00",
+  "scope": "Eight generated FX one-shot phase candidates;64 actual PNG frames, no character animation or client integration",
+  "repository": "https://github.com/luhailong-cpp/wuxing-slg-iamge",
+  "spriteFileCount": 64,
+  "clipCount": 8,
+  "effects": [
+    {
+      "id": "slash-arc",
+      "manifest": "exports/01-率土之滨/fx-animation/slash-arc/manifest.json",
+      "manifestSha256": "65f0084449bb2ee6b6543ad98532e2d928ff388315cb222ae22fb4e9dd17a687",
+      "frameCount": 8,
+      "canvas": [
+        900,
+        900
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "registered_candidate_pending_motion_and_user_review",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "strategy-array",
+      "manifest": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+      "manifestSha256": "76cb7033ec051ce2d2f82f1f8062cee572f840f18170d5b2235c4af975628abe",
+      "frameCount": 8,
+      "canvas": [
+        900,
+        900
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "registered_candidate_pending_motion_and_user_review",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "healing-light",
+      "manifest": "exports/01-率土之滨/fx-animation/healing-light/manifest.json",
+      "manifestSha256": "b0332b5fc9f97ded72536ff27bf839c39c6b710b6c48be3f05e9b7fdfb7d5720",
+      "frameCount": 8,
+      "canvas": [
+        900,
+        900
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "registered_candidate_pending_motion_and_user_review",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "buff-cloud",
+      "manifest": "exports/01-率土之滨/fx-animation/buff-cloud/manifest.json",
+      "manifestSha256": "4aa22ecff24db84eebcfc96b5b8793d727730dd33ae2805956d4b687d02eba18",
+      "frameCount": 8,
+      "canvas": [
+        640,
+        640
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "eight_distinct_frame_one_shot_candidate_pending_user_review",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "debuff-mist",
+      "manifest": "exports/01-率土之滨/fx-animation/debuff-mist/manifest.json",
+      "manifestSha256": "3514ae91f9dc410acd5f8c46035bb11e85e7e490a340eb75c69151419f38729a",
+      "frameCount": 8,
+      "canvas": [
+        768,
+        768
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "eight_distinct_frame_one_shot_candidate_pending_user_review",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "fire",
+      "manifest": "exports/01-率土之滨/fx-animation/fire/manifest.json",
+      "manifestSha256": "0ec9e473bb06d5f97ed7a5dc610a3a27f70a2753a4ea336cdd721984953b61a6",
+      "frameCount": 8,
+      "canvas": [
+        1024,
+        1024
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "eight_distinct_frame_one_shot_candidate_pending_user_review",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "capture-circle",
+      "manifest": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+      "manifestSha256": "60938d71f4ef3eea2998051ce9fa82f241ba9a6241bdd14e6098b7d4945bfaf7",
+      "frameCount": 8,
+      "canvas": [
+        900,
+        900
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "status": "registered_eight_phase_one_shot_candidate_with_warnings",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    },
+    {
+      "id": "reward-glow",
+      "manifest": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+      "manifestSha256": "7dfe736af4ef54ffd26d467421ae80604012d5792d312dc2b3dcdc63d83054a1",
+      "frameCount": 8,
+      "canvas": [
+        900,
+        900
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "status": "registered_eight_phase_one_shot_candidate_with_warnings",
+      "sourceQualityWarningsPreserved": true,
+      "sourceReviewNotPromotedToFinal": true
+    }
+  ],
+  "frames": [
+    {
+      "id": "slash-arc/frame-00",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png.derivation.json",
+      "recordSha256": "8acad5b456d684b14f188acccb75a973e5e74f2ef258ea9045dcdb1048edc5ef",
+      "sourceSha256": "ea1218414baa62192062c88cfe4e90b0933f408048de281f879bca0ddd887b32",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-00.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 799542,
+      "alphaOne": 5514,
+      "alphaSemi": 10458,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-01",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png.derivation.json",
+      "recordSha256": "3a0b005b21fa4c44ed2ba67eb71af89d0724a93f58192d0cd2d764c02950b2bf",
+      "sourceSha256": "85139dae186315e4500d468e46475025bb011238df69d1964c9d6e9dd2b748fc",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-01.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 782195,
+      "alphaOne": 15080,
+      "alphaSemi": 27805,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-02",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png.derivation.json",
+      "recordSha256": "b96cad06a5ca1554347d8e2a56d8f9668a5fc63251ed1b3f3ad47018e662c955",
+      "sourceSha256": "78673bf0f2b54de718ce7a829b3f3dfcdfc7d83101561cc4beccd77cb672a06d",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-02.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 758469,
+      "alphaOne": 16086,
+      "alphaSemi": 51531,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-03",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png.derivation.json",
+      "recordSha256": "4ebd8e8f2151d1c17504388583317bde36c4b21f9635c4940922c79fb7bebbe6",
+      "sourceSha256": "afc28f1389c353e967c35040537475fccc56bb97833814d0b2e093cb5a7b6155",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-03.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 734162,
+      "alphaOne": 21405,
+      "alphaSemi": 75838,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-04",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png.derivation.json",
+      "recordSha256": "bc10cf1abb0aea8ca7992425bbcb7751b1a7f2b7799b6dd5dff9c31a813dbef7",
+      "sourceSha256": "9fe541508e6c3edd09679bd442d5b440047a69d7ae413ef821a03899d3f05741",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-04.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 740755,
+      "alphaOne": 11261,
+      "alphaSemi": 69245,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-05",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png.derivation.json",
+      "recordSha256": "7391be5422b0f294edb96afb09f8ac4cbb78f27b2237ccbd9a97001243866197",
+      "sourceSha256": "4e2034a20ef87268a333a4c9132f770a09525f91f2dd42d45c839e891ca61305",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-05.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 756140,
+      "alphaOne": 16602,
+      "alphaSemi": 53860,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-06",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png.derivation.json",
+      "recordSha256": "baefa0f90cb82222f5caa786d44f73d3633637255e20511eb786331267eea2fa",
+      "sourceSha256": "59970c00ecee6887bb167a2ae289b4c75b0bfe3cb86e1ae5bc441dcd64788920",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-06.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 780043,
+      "alphaOne": 12973,
+      "alphaSemi": 29957,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "slash-arc/frame-07",
+      "effect": "slash-arc",
+      "source": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png.derivation.json",
+      "recordSha256": "236eded3843a2556f9c422cb2af52e1c2d98e6190045c65ed22e7029094ab9a7",
+      "sourceSha256": "e0d00de7459d8cdf01c708b08e505831a56d80678721ec92c22dde5f0aac5cbb",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-07.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 795128,
+      "alphaOne": 10875,
+      "alphaSemi": 14872,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-00",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png.derivation.json",
+      "recordSha256": "ed4b16af0d2649e63d646c482b75fa053c69f57d182a23155f65c405fea7f664",
+      "sourceSha256": "62fd7cdfbc75a1a971e97708c73992400bb8dd758d722bdf2d4dcfe2328c81d1",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-00.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 797726,
+      "alphaOne": 4979,
+      "alphaSemi": 12274,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-01",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png.derivation.json",
+      "recordSha256": "26e73b2ae0b733acd2ef107218f782c850fcdeffed014f761dec8d66f202b0fb",
+      "sourceSha256": "3851757119075d897f0c20eeabf6f9e0afba76ca98465b1373a9d3ae0b7641cb",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-01.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 770294,
+      "alphaOne": 7833,
+      "alphaSemi": 39706,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-02",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png.derivation.json",
+      "recordSha256": "55d9fe3de0099b456e99d73b510f4a5f00b46e97cc0d6b2c85b6d03031624161",
+      "sourceSha256": "98e308e82994fe5694594482fb27e41e81c7674d2a2a8f518beac3fe2d04f14b",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-02.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 738988,
+      "alphaOne": 9850,
+      "alphaSemi": 71012,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-03",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png.derivation.json",
+      "recordSha256": "0b8a6ab830e62761d0074e45cae26f33269811c18ade5deb8a275c8554ae6517",
+      "sourceSha256": "d1b151f379878a94f7e71b37209ea21589a732b72c5a5d32369252f6b9006cdc",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-03.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 719425,
+      "alphaOne": 8409,
+      "alphaSemi": 90575,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-04",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png.derivation.json",
+      "recordSha256": "600eddc5b3729f013805e5b50cb2ddd42ae9ef4b6ab1ee7f91eadf460372878c",
+      "sourceSha256": "e4a05f4ffb34b72b6b9a62065b9b79c697826dd5a9ee6ff70e10a618a35bf671",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-04.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 710273,
+      "alphaOne": 9761,
+      "alphaSemi": 99727,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-05",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png.derivation.json",
+      "recordSha256": "bda9567a80e860331fab6682000576cd3736c7d01d27e515b3ae7cc7be423e68",
+      "sourceSha256": "68a1d742aaf893dc1d3927b15131cea585752396b7f3ba9fd140937b0ae98dd0",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-05.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 719992,
+      "alphaOne": 17809,
+      "alphaSemi": 90008,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-06",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png.derivation.json",
+      "recordSha256": "ad10fbb1bf8858cd2007c23cd82cbd0f7734eb9e5e2f07e9f10b6383994f5561",
+      "sourceSha256": "81397590b1fcc43bd6e2ad731c495a67b47ffc8d6f955ff743240d37e2c5d1bb",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-06.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 753410,
+      "alphaOne": 10998,
+      "alphaSemi": 56590,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "strategy-array/frame-07",
+      "effect": "strategy-array",
+      "source": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png.derivation.json",
+      "recordSha256": "aca31f6c08e3d55390031260827867b181eb34b1099466207f35f7f0b208bac8",
+      "sourceSha256": "860c9f1725fb7a2e501f4b93f985b4f5bd41f2798acd3c663cc87a1b93af480b",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-07.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 796618,
+      "alphaOne": 7151,
+      "alphaSemi": 13382,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-00",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-00.png.derivation.json",
+      "recordSha256": "52c0f2e2cde84d069133c9c12f163422fb3004158aeaed6bdc2f71ffda0e6124",
+      "sourceSha256": "8a02195915c29500471d12b26c847f1bf1fc3ddbb21450f09f6b057156dbfec9",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-00.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 791187,
+      "alphaOne": 6277,
+      "alphaSemi": 18813,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-01",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-01.png.derivation.json",
+      "recordSha256": "e2aa811c377bf251e5fa8fe0e2113dbf57b2413c5e547f2365c9eb53c21bdfaf",
+      "sourceSha256": "85292e920f588a349d493f8b0bec46a06a4fa517361325c2bc7adae61b9757ff",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-01.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 766312,
+      "alphaOne": 10342,
+      "alphaSemi": 43688,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-02",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-02.png.derivation.json",
+      "recordSha256": "1eaf5bb8856dbdf8ec027afda2f7d59b54b8da0a37afa6e62ed97687e26d3f73",
+      "sourceSha256": "33e6c7de4a40671eb0810acae71e3f2fe8a972efbf6eb400821f8b61571aeb07",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-02.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 740586,
+      "alphaOne": 14432,
+      "alphaSemi": 69414,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-03",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-03.png.derivation.json",
+      "recordSha256": "416793b1654657aa29b47c16119aa53136c8e6c4b32852bcbd12cf3ca060021e",
+      "sourceSha256": "21f1a661dcf6a35cf051a7dd842e57224f345940969b60be5c0981e656a649e8",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-03.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 713239,
+      "alphaOne": 11585,
+      "alphaSemi": 96761,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-04",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-04.png.derivation.json",
+      "recordSha256": "9f7f8d02502d00a0eca8bd27a428f72339889f40ab885011478136745d7b8541",
+      "sourceSha256": "5b3807591ef244dc35a5e00e48523d6fdbf36babd78f599d6bfef8c6b48a6358",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-04.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 674810,
+      "alphaOne": 17288,
+      "alphaSemi": 135190,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-05",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-05.png.derivation.json",
+      "recordSha256": "097fd43b2f8118cef1c4dd1ff117bc4cd8511a26aba0794865b2ef9ced46b487",
+      "sourceSha256": "e79eb5622d9c0612c9cdce2a07a6f9d48298ac9bdc5330c2bc0fa5d92d483d03",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-05.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 739994,
+      "alphaOne": 15597,
+      "alphaSemi": 70006,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-06",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-06.png.derivation.json",
+      "recordSha256": "3922b730d5dca82d488177f5d24d215810260e0fb08cae18fd4f328be03cecdc",
+      "sourceSha256": "26d76bb22a500069c053f4dce74c9307a1a2ce08249f98a4318e437ec2d7249a",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-06.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 768085,
+      "alphaOne": 15707,
+      "alphaSemi": 41915,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "healing-light/frame-07",
+      "effect": "healing-light",
+      "source": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png.derivation.json",
+      "recordSha256": "be460d2a8709f692065fbc8af211e754eb7bae0b3c765656410705f1e4ebd4f2",
+      "sourceSha256": "f2b67586ed45083f739cd0907a1a73d473fd6be6f359252709c54a3e78a2f6c8",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-07.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 788138,
+      "alphaOne": 10344,
+      "alphaSemi": 21862,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-00",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-00.png.derivation.json",
+      "recordSha256": "0d631bdea0420b4ad5fd4a5c124dc147e42e548c5acdb37dad1393b4d590687d",
+      "sourceSha256": "72b9785ac81964fcf69d72ba7102276449842b327b6a4cddd6909875819ed48a",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-00.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 392662,
+      "alphaOne": 6744,
+      "alphaSemi": 16938,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-01",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-01.png.derivation.json",
+      "recordSha256": "ed2802a1c968d69bedccf2547479d062794629cfbeab25ea7277302059d0c5c1",
+      "sourceSha256": "baf024717dbc03b2450130f90125072768480387f73a8574e2a8b7e46361e45f",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-01.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 376801,
+      "alphaOne": 9891,
+      "alphaSemi": 32799,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-02",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-02.png.derivation.json",
+      "recordSha256": "fe9ff69b946688758f423536bf4913fca4a52a0660703bedd11c33b652995118",
+      "sourceSha256": "a35acdbdb5329f3d1bd144ae0a02058c29c2d53f196268296aeb6c0a7f34647b",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-02.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 363906,
+      "alphaOne": 9970,
+      "alphaSemi": 45693,
+      "alphaOpaque": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-03",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-03.png.derivation.json",
+      "recordSha256": "5d12e484a28fd67c2fbf447af5f91cf4b4a3d9262e06a131350f7a5b49057813",
+      "sourceSha256": "69e9b7617924aaf83944443af07ab03b7b3131d60c719c12f754cd7463c73670",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-03.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 356348,
+      "alphaOne": 8172,
+      "alphaSemi": 53252,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-04",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-04.png.derivation.json",
+      "recordSha256": "48a097f773191d552ad3b65e14b17f200adf8f1cc396855586caf6e0f0a03413",
+      "sourceSha256": "36dce6e5a3c0a84ca7f711f5c80b170be5cd5e78afb40ca8aeb92956e4b4b017",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-04.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 347136,
+      "alphaOne": 8032,
+      "alphaSemi": 62464,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-05",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-05.png.derivation.json",
+      "recordSha256": "b0c959b627097beb1d0e41e36fd5e8fb39706a6fa9aadeede8cbebf53361a370",
+      "sourceSha256": "b1beb193e824769ab438c98b85ac2c97957f64d8f2fa453fbe65d086f4e85bdb",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-05.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 352809,
+      "alphaOne": 12039,
+      "alphaSemi": 56791,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-06",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-06.png.derivation.json",
+      "recordSha256": "bcf3a1572bdde72dfe8c3eff907ab0769d8824fc29704b488ac854d00ad2fd79",
+      "sourceSha256": "4fabc35f59524c7c2ee27835922353f528911ce72a728f41ee0c69bb4c868224",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-06.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 378386,
+      "alphaOne": 9801,
+      "alphaSemi": 31214,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "buff-cloud/frame-07",
+      "effect": "buff-cloud",
+      "source": "exports/01-率土之滨/fx-animation/buff-cloud/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-07.png.derivation.json",
+      "recordSha256": "e3d442733e6759fc73d9b640b056a89e548fbfd5be4291972c3433458701f3d1",
+      "sourceSha256": "9fd4380c6df1dbddd46c405e07e2c8a20bb2a956007d68b8664c314432476af1",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-07.png",
+      "width": 640,
+      "height": 640,
+      "alphaZero": 393196,
+      "alphaOne": 6901,
+      "alphaSemi": 16404,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-00",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-00.png.derivation.json",
+      "recordSha256": "7fe74e59557849dc1238d5397475c95d32365265d4989b7da74c166d821abcfc",
+      "sourceSha256": "5cbf4bfb7f4ca650aa59c0d6364e0fb2e7c361faa5ae8d02b3cb4b450cbbdb85",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-00.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 575889,
+      "alphaOne": 7505,
+      "alphaSemi": 13935,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-01",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-01.png.derivation.json",
+      "recordSha256": "ab2d2adc990548134044654347375baa104880b7d920f99eb3d91d6c2fc97349",
+      "sourceSha256": "f9fc07fcabda4c6c92b4768f4929778adf4f882c2f5140890966d5c04b3386fa",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-01.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 555081,
+      "alphaOne": 11884,
+      "alphaSemi": 34743,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-02",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-02.png.derivation.json",
+      "recordSha256": "aab269355d5c3bdff380e6abcacee758ff258205ffa29462efd6aa796dc41598",
+      "sourceSha256": "a4b40597e657c8c31b5a3df206a55dfbbad8a739c9de9e3845999ea3a1d074ea",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-02.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 518990,
+      "alphaOne": 19362,
+      "alphaSemi": 70834,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-03",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-03.png.derivation.json",
+      "recordSha256": "6e28e841b3a96782db93b4aa5d192573f7603209c345eed4236bc73de3b47523",
+      "sourceSha256": "2afdfa335d4abf68dd4cacb917d6b3c72ca8b10528d85a9d4fbc7f92216ad48c",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-03.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 492667,
+      "alphaOne": 19188,
+      "alphaSemi": 97157,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-04",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-04.png.derivation.json",
+      "recordSha256": "b24f9657c67538fa8cd99befcbed00cda3d5401669ab68649b77162e8b81ce20",
+      "sourceSha256": "6808a8c1b95685cbc83e27e894ee7695586d08e4fb9822d7cfc9a4115e460f8e",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-04.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 454916,
+      "alphaOne": 17358,
+      "alphaSemi": 134908,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-05",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-05.png.derivation.json",
+      "recordSha256": "858d51445971b115b986b6f1612efeed597d94d4349043e9a07723f9822ed13a",
+      "sourceSha256": "e65d70a3b3f2eafbd6888bf5525d4b414a5625d6d58a407b9850c34357a9715a",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-05.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 485189,
+      "alphaOne": 28937,
+      "alphaSemi": 104635,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-06",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-06.png.derivation.json",
+      "recordSha256": "57ca5445fc134fe6575bf1c28969866a2d4f09370b97229bdd6cce7c8c884ded",
+      "sourceSha256": "d5cb6dfd100e22ed458fa11cb0f8bb0d88fbf046bce634443910080456f77714",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-06.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 551566,
+      "alphaOne": 16586,
+      "alphaSemi": 38258,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "debuff-mist/frame-07",
+      "effect": "debuff-mist",
+      "source": "exports/01-率土之滨/fx-animation/debuff-mist/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/debuff-mist/frame-07.png.derivation.json",
+      "recordSha256": "827dfeea867ec9829fd191323ea950debfcb47a71834d9aa821c56ec588361ee",
+      "sourceSha256": "5b5cacfda5223a2c947d24cde443897794c5180f8b44dfb327e2438d3d6814b3",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-07.png",
+      "width": 768,
+      "height": 768,
+      "alphaZero": 575426,
+      "alphaOne": 8611,
+      "alphaSemi": 14398,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-00",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-00.png.derivation.json",
+      "recordSha256": "b424b1d17b3334e6a8978c4793b53faf75639b2bdc0b259f1a7de63bd98df809",
+      "sourceSha256": "be67feebcb51a53c1d78317741ee6d9c82a9a7658bcc049eb2b89a501ee30850",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-00.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 1038196,
+      "alphaOne": 4463,
+      "alphaSemi": 10380,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-01",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-01.png.derivation.json",
+      "recordSha256": "4c19f41e360bbd5c635e945b98775160082d90db3f4456dba02513b2d7f13a71",
+      "sourceSha256": "0d457fd098e377e38d67eac71357104b44556b56368498316c328dd6a0257e79",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-01.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 1021743,
+      "alphaOne": 10533,
+      "alphaSemi": 26833,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-02",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-02.png.derivation.json",
+      "recordSha256": "93a4f723494c602f5b62d95c19591f9df2bbe463f4e7a9526e74db3f1c9f0de5",
+      "sourceSha256": "c4856552322e9490c74f15ec136d893355d0e0696287acae64654f2027e610dd",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-02.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 1011555,
+      "alphaOne": 9033,
+      "alphaSemi": 37021,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-03",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-03.png.derivation.json",
+      "recordSha256": "c6e4ad85b438a1f7decbcdb32432da36f643085026c263d6294e3a375a4803f6",
+      "sourceSha256": "c5491e95cb3970c1312ede35090dd8ab90e62cd096e31150d003cef67e687138",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-03.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 998404,
+      "alphaOne": 6715,
+      "alphaSemi": 50172,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-04",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-04.png.derivation.json",
+      "recordSha256": "c969559562439f753245efc57e3e3fc943d72bd32cb9f26c5efa50fb1fcaebe4",
+      "sourceSha256": "416b211421563d1a3dbf51ccea9ec898d35083274bb29d83e8a7a390212caec4",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-04.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 966779,
+      "alphaOne": 10396,
+      "alphaSemi": 81797,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-05",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-05.png.derivation.json",
+      "recordSha256": "47911c3e4260a3999f21e9ea46bdc4062ba76220249f583aeb51fb36f1a9ceb7",
+      "sourceSha256": "c40aba96572ce78b43a1159fbaec9baada2bbb4e781392b50b6d48dfaf57a72b",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-05.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 997939,
+      "alphaOne": 12261,
+      "alphaSemi": 50637,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-06",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-06.png.derivation.json",
+      "recordSha256": "7dcb203ed6f06eaee3f008b0458fb93a251f9c551a025fd4963a9d92e817a4f7",
+      "sourceSha256": "03cbd60331bde1f048994027575142b95e5d80df074d314c7fd81af8dfefab1e",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-06.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 1024684,
+      "alphaOne": 10520,
+      "alphaSemi": 23892,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "fire/frame-07",
+      "effect": "fire",
+      "source": "exports/01-率土之滨/fx-animation/fire/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/fire/frame-07.png.derivation.json",
+      "recordSha256": "fabd5a6bde8fd5f5c35015716d926dea97e43f40c14c1f3a2f9f7f18aa1c7ad1",
+      "sourceSha256": "d756356afe6a91630175bec3e80f83983e59f6ff18c7e13a39742b31c63dbda9",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-07.png",
+      "width": 1024,
+      "height": 1024,
+      "alphaZero": 1036603,
+      "alphaOne": 5654,
+      "alphaSemi": 11973,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "capture-circle/frame-00",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-00.png.derivation.json",
+      "recordSha256": "6051213d924174120b8eb1905a0147c3574713d474bdc23327138c5bc7248cbc",
+      "sourceSha256": "da748c63dd681ab1530b77c56d16e399beb1fb1ce553408c047800b3927f198d",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-00.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 727509,
+      "alphaOne": 47192,
+      "alphaSemi": 82491,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-01",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png.derivation.json",
+      "recordSha256": "a8b0dffe2e986d0f89af3b6c980a1958cd3dd6fe328a95ee525bf660f71b1124",
+      "sourceSha256": "2d730b384eef8e09c61af34071bfef50c5e35e14774f83edcb9aa762075b033a",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-01.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 720296,
+      "alphaOne": 46469,
+      "alphaSemi": 89704,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-02",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-02.png.derivation.json",
+      "recordSha256": "7b0c76685b66fc4820008df7ee4117a6a3e44e59df5474a6b630f896fde865c3",
+      "sourceSha256": "1440c384e92f1d44f4ba61dabc87355c9fe341a8b9f4825bf2b0a845600fb24b",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-02.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 707887,
+      "alphaOne": 39986,
+      "alphaSemi": 102113,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-03",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-03.png.derivation.json",
+      "recordSha256": "947ed9b9945f8236a2fedd3987c1f2c9dd3644331d9aabcec4fbf1cc985d7021",
+      "sourceSha256": "41def6f0302a9efa8ab8d496eb9e6821d44ebbddf4a12851aab122e4d5cafc2d",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-03.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 703405,
+      "alphaOne": 35004,
+      "alphaSemi": 106595,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-04",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png.derivation.json",
+      "recordSha256": "be4d6d7d72dc2077f4fc66a8bb7d3d3547a0d6b5e5fb2991492526a6a66cb8a2",
+      "sourceSha256": "e011974e7e38c2f3b9d00dd2e686f637e67ed36d1e21858ac27fcf8d2840468e",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-04.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 697186,
+      "alphaOne": 32706,
+      "alphaSemi": 112814,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-05",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png.derivation.json",
+      "recordSha256": "4b1393a57d1746a98c977db4bd1c142ad91fe4ab040397fe13d74e30c1640362",
+      "sourceSha256": "2926b4a7dcc8243411df38ea3f73c3ffc1263a8aee875a3f355c1ec86c878ad1",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-05.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 703059,
+      "alphaOne": 40459,
+      "alphaSemi": 106941,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-06",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png.derivation.json",
+      "recordSha256": "fb9de5ab6f3aa3bac1e546afe68fcd17448eaeeb620f5ada8659922f69461020",
+      "sourceSha256": "ab32972e9b3d5a2b4c7ad7c1d04e816918ceed930fcab2eeca15a4432f44a57a",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-06.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 708430,
+      "alphaOne": 44438,
+      "alphaSemi": 101570,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "capture-circle/frame-07",
+      "effect": "capture-circle",
+      "source": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png.derivation.json",
+      "recordSha256": "95b10d944c15e448f9d9f4b62644ea99c03b33ecec07d0da386c3411bb9f367c",
+      "sourceSha256": "940c9122847fc3bd54095f03ed63c0d11d2fae916cacda71d04884a6e8543fd5",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-07.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 731039,
+      "alphaOne": 46621,
+      "alphaSemi": 78961,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.4,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ]
+    },
+    {
+      "id": "reward-glow/frame-00",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-00.png.derivation.json",
+      "recordSha256": "032416329e9bd33e26e6fcba9e1b8c465c00737170ffac387755d50c515ca13f",
+      "sourceSha256": "1af63eff2d4bf7a58984f78c5da69756145bfc548adcbcd6b816e7b773947e75",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-00.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 772688,
+      "alphaOne": 18464,
+      "alphaSemi": 37312,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-01",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-01.png.derivation.json",
+      "recordSha256": "b57c8d3517c8653e5526cb37b593bd4e8130eb78dcfa436735792fbc3e53b4cc",
+      "sourceSha256": "8375b948372a902f857253b1cc803a30415b0794d7750ffd45a0edc66e72aab8",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-01.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 737691,
+      "alphaOne": 31722,
+      "alphaSemi": 72309,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-02",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-02.png.derivation.json",
+      "recordSha256": "0b2fcc8d72ed043333d72f49d5a09b0290a1fd4206755abd09f8661dedf8b792",
+      "sourceSha256": "fe66f0872d9b651b57b4e198c23c9d272ba4d03325eb058b13bd5786acb84914",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-02.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 714433,
+      "alphaOne": 22877,
+      "alphaSemi": 95567,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-03",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-03.png.derivation.json",
+      "recordSha256": "ba816823b9f008aa67b69394d0208d2c8d612f3f80db7dd88e3ce52b7a353cfe",
+      "sourceSha256": "beb813c2c818f4c1769efafe7697cd3adbf53dc6eb193d46bf3b407ae6b994b9",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-03.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 703607,
+      "alphaOne": 16178,
+      "alphaSemi": 106393,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-04",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png.derivation.json",
+      "recordSha256": "660adaadac0396d632df1c702461442ef7211fa41408682475ae6043d9e5927c",
+      "sourceSha256": "a02310cddfdff8ec55b23bfbbed556beb261f4e268537a0b71cf93f30ca2bf56",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-04.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 638023,
+      "alphaOne": 35321,
+      "alphaSemi": 171977,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-05",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png.derivation.json",
+      "recordSha256": "617c5e97a990f9ca01ced2442079e2bd477ce364cbfc6eee817d63cf4f3a5221",
+      "sourceSha256": "399769806818a22b4d2f7c64c7313b4bad31b816401e22c4bc5d4f2a732c3a73",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-05.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 706983,
+      "alphaOne": 23881,
+      "alphaSemi": 103017,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-06",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png.derivation.json",
+      "recordSha256": "b3371a7f53092bf1a74f964977d727d9b370487f8d9563e7aa93c6c64abade98",
+      "sourceSha256": "02506dd2901967558d129891e19bf11321edd27fd55266e3b21494c8ff61b9d4",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-06.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 739229,
+      "alphaOne": 24229,
+      "alphaSemi": 70771,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "reward-glow/frame-07",
+      "effect": "reward-glow",
+      "source": "exports/01-率土之滨/fx-animation/reward-glow/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-07.png.derivation.json",
+      "recordSha256": "b79a61acaffbc696bba68df85f17f0524e01b52ab9b798f3fa2c15dda06be9c6",
+      "sourceSha256": "2456c358d7879123c9b30fc640991f3a553716e8a28162f2e603fb215d28ef53",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-07.png",
+      "width": 900,
+      "height": 900,
+      "alphaZero": 776301,
+      "alphaOne": 18671,
+      "alphaSemi": 33699,
+      "alphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "id": "slash-arc",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/slash-arc.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/slash-arc/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/slash-arc/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "strategy-array",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/strategy-array.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/strategy-array/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "healing-light",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/healing-light.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/healing-light/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "buff-cloud",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/buff-cloud.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/buff-cloud/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/buff-cloud/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "debuff-mist",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/debuff-mist.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/debuff-mist/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/debuff-mist/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "fire",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/fire.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/fire/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/fire/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "capture-circle",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/capture-circle.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/capture-circle/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    },
+    {
+      "id": "reward-glow",
+      "assetPath": "Assets/WuxingSLGFXAnimationPreview/Clips/reward-glow.anim",
+      "manifest": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+      "framePaths": [
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-00.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-01.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-02.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-03.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-04.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-05.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-06.png",
+        "Assets/WuxingSLGFXAnimationPreview/Frames/reward-glow/frame-07.png"
+      ],
+      "durationSeconds": 0.8,
+      "frameDurationSeconds": 0.1
+    }
+  ],
+  "animationContract": {
+    "uniqueFramesPerClip": 8,
+    "objectKeyCountPerClip": 8,
+    "keyTimesSeconds": [
+      0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ],
+    "terminalFrameKeySeconds": 0.7,
+    "unityAutomaticFinalSampleHoldsUntilSeconds": 0.8,
+    "durationSeconds": 0.8,
+    "loop": false,
+    "events": [],
+    "timingDemonstrationOnly": true,
+    "extraTerminalRepeatKey": false
+  },
+  "importConventions": {
+    "PPU": 100,
+    "maxTextureSize": 4096,
+    "textureFormat": "RGBA32",
+    "compression": "Uncompressed",
+    "NPOT": "None",
+    "mipmap": false,
+    "sRGB": true,
+    "alphaSource": "FromInput",
+    "alphaIsTransparency": false,
+    "readable": true,
+    "mesh": "FullRect",
+    "spriteMode": "Single",
+    "pivotConversion": "Unity pivotY=1-PNG top-left normalized anchorY"
+  },
+  "limitations": [
+    "Source safe-frame, faint-alpha, registration and contour/timing warnings remain in every copied source manifest.",
+    "Importable clips do not prove final smooth animation or user approval.",
+    "Headless import does not validate GPU blending, combat events, controllers or target mobile performance.",
+    "Animation timing is a .8second preview convention, not a confirmed game contract.",
+    "No role/creature motion or actual game-client integration is included.",
+    "64 PNG frames map to64 object-reference keys; Unity automatically holds each final0.7second sample through0.8second clip length. No ninth repeat key or ninth image.",
+    "The required nonempty final faint-glow frame persists: loop=false does not automatically hide/destroy/recycle its SpriteRenderer. Caller must hide or reclaim it after0.8seconds; no runtime script or gameplay event is supplied."
+  ]
+}

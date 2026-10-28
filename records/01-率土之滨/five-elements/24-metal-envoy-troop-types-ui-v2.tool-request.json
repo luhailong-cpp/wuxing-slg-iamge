@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T15:02:41.484Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: 金木水火土原创SLG兵种功能静态整屏候选v2，完整不透明横屏约21:9。\nInput images and roles: 附图1邮件、附图2组队是最高优先道家Q版高清手绘UI画风。附图3是本次唯一人物身份母版：金系铸锋使原创年轻成年女性。附图4是旧兵种页面，仅参考功能结构和信息层级，不复制历史男性、刘备、汉、双剑、长黑发或其姓名。附图5是同角色新详情页，参考金系菱形徽记、身份名牌、页签、统御术语的一致性；人物脸、发型、衣装和两件法器以附图3为准。\nPrimary request: 真正重新设计为金系原创女性的“兵种”页，不是旧历史男性换字。主体为同一位铸锋使，短银灰发、上挑小发束、棕金圆眼、温和坚定笑容、侧边暖金花簪与玉珠短流苏。保持米白短外袍、玉绿内衬、金护臂、玉腰带、棕色工具袋、短靴、短矩形金玉符尺与花瓣式折叠阵盘。保持母版脸、发型、衣服结构、站姿和持物，不换成持枪持剑或骑马动作。不要黑色背景或光晕，干净合成在明亮仙山亭阁背景。此为角色master身份视觉预览，不生成新动作或动画。\nLayout: 左侧约34%为人物全身预览，头发、符尺、阵盘和双鞋均完整，人物不遮卡片信息。左侧一条玉绿金边竖牌，简洁金色几何菱形徽记、“金系”、名字“铸锋使”、四星、“Lv.5”。右侧约63%为完整米白纸绢云纹金边主面板，上方三个页签“详情”“配点”“兵种”，兵种玉绿选中，其余米白；右上圆形关闭X。\nRight content: 顶部横排三张同宽兵种卡，分别盾矛图标与“步兵”、弓箭图标与“弓兵”、马头图标与“骑兵”。图标为道家Q版手绘金玉材质，不是主角换持物。步兵卡为当前选中，玉绿底金边，卡内标签“当前”；弓兵和骑兵为浅米白非选中，标签“可切换”，不要画锁或禁用。\n卡片下方一条清楚三列数据：“当前兵种 步兵”“攻击距离 3”“统御 2.0”。这些是原型演示字段，不添加未给定等级/适性/克制数值。\n再下方标题“兵种特性”，两个清楚小槽：第一个为已开放“基础兵种”，简洁盾形图标；第二个灰色锁图标和“进阶未解锁”，旁边小提示“进阶条件待解锁”。不要用对勾误示进阶已开。\n底部主按钮“已使用步兵”为清楚灰玉禁用态，因为当前已选正在用的步兵；次按钮“返回详情”为米白金边可用态。不要同时把弓骑标成当前，不展示切换已成功。页面简洁留白，主要卡片、数字和状态大且清楚。\nStyle: 延续附图1/2的道家Q版高清细腻手绘，玉绿/青绿控件、象牙米白纸绢、暖金细边、圆润如意云纹，温润明亮、清楚中文、对齐、留白与安全边距。背景低对比、不抢数据。完整单页静态方向稿，不拼图、不多页缩略、无设备模型、无客户端或动画承诺。\nAvoid: 汉/魏/蜀/吴等历史阵营、刘备、曹操、三国人物、长黑发男子、胡须、双剑、帝王冠，乱码、数字错误、卡片重复、人物或控件裁切、海量光效、黑灰战争HUD、写实、塑料3D、商标水印和未确认正式游戏名。",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "demoValuesAreGameplayContract": false,
+  "scope": "same master identity UI visual preview; static; no new action or animation"
+}

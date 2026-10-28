@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-29T11:19:13.341Z",
+  "reviewer": "audit_mapfx",
+  "reviewType": "actual_local_image_visual_inspection",
+  "status": "PASS_STATIC_VISUAL_CANDIDATE_WITH_RECORDED_LIMITATIONS",
+  "sourceMastersViewed": 6,
+  "qaCompositesActuallyViewed": 16,
+  "qaFiles": [
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/cards-light.png",
+      "sha256": "f28693417ad7ec1cbe45ba9508a2b7e63b425b112abce0bac14a5a714d903413",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/cards-dark.png",
+      "sha256": "bdcedd0d1271eca735c6ac33b53130dfe7a42358e2f23615e522108fa22657e2",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/avatars-light.png",
+      "sha256": "5c387375d6f8362f3e13d95db854ac9e364d505b9e462bcc3c0a0ad067a4ead2",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/avatars-dark.png",
+      "sha256": "e7a94f90c71898cfdab72fb63dcbc5d46dea8c410f71f2ddccd3ff8facccae80",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/sun-jian-native-light.png",
+      "sha256": "e2941782fcc59c228ebd86fac30e646c10121e940d5a79ec46ac7fe06d4fb9cf",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/sun-jian-native-dark.png",
+      "sha256": "117c640e5938b8efe9d43d1325bd0249638fe880f8059db8572a515c784f780b",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/sun-ce-native-light.png",
+      "sha256": "45148db8880f0c23dc5636aa21a3e38c78b7f9ae7235ed1654a16b8001f218c3",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/sun-ce-native-dark.png",
+      "sha256": "aa2b3b6164457e7bf44ec25eddf1cc1bb7001335d790ebfa35213b508de750df",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/lu-xun-native-light.png",
+      "sha256": "872a255bc11f798d55e29433084259b7e0a8526b668f9816a9dc3e97e4764933",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/lu-xun-native-dark.png",
+      "sha256": "d9a55844276633ac0d910819a50dce3ba5720562401dba50c8d6944ffb69803b",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/lu-su-native-light.png",
+      "sha256": "08f9ccab184403bc976b1fac5816eabdd48528d9a70bd925ff94b9b051ee5b56",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/lu-su-native-dark.png",
+      "sha256": "6c08eae0a1255eedd4aede36dea49e255849923d8bd20b5dd898dac08b0a0efb",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/lv-meng-native-light.png",
+      "sha256": "ece7fe9848803b061ea0d445b2259454c9dd6bee3ab3e02b0e2c3d5118149a57",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/lv-meng-native-dark.png",
+      "sha256": "57b92f9152b420b29984a529a104c09a01dd480061a8f9de83958cee15abcd43",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/gan-ning-native-light.png",
+      "sha256": "c60b8e8807e32e7d23211f31a60a1a31aff2bed437dd1df1947b7c206961e6e4",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/gan-ning-native-dark.png",
+      "sha256": "0ae107c42e52eafaf0ff60fbe6a89459dd018cebd9b796aba4f8826959869fc6",
+      "actuallyViewed": true
+    }
+  ],
+  "observations": [
+    {
+      "id": "sun-jian",
+      "name": "孙坚",
+      "personID": "ww-p-745064a05078",
+      "identity": "成熟短须、玉冠高髻、虎纹重肩甲、短披风、刀与卷筒；父辈武将气质与孙策有区分。",
+      "deviations": [
+        "头饰比提示中的低矮实用盔冠更高、更华丽；保留作为本系列候选，不称逐项提示完全命中。"
+      ],
+      "checks": {
+        "style": "PASS_same_series_jade_ivory_warm_gold_handpainted_chibi",
+        "historicalNamedCharacterNotElementalHero": true,
+        "faceReadableAt128": true,
+        "completeVisibleFullSilhouette": true,
+        "lightDarkBackground": "PASS_no_visible_baked_backdrop_or_broad_matte",
+        "faceBustCrop": "PASS_identity_retained_in_intentional_rectangular_UI_window",
+        "requestedEightPercentSourceMargin": "NOT_MET",
+        "strictOpaque255Interior": "NOT_MET_max_alpha254_preserved"
+      },
+      "status": "SELECTED_STATIC_ART_CANDIDATE"
+    },
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "personID": "ww-p-8fa0077b6be6",
+      "identity": "无须青年笑脸、红抹额、扬起马尾、红披风与短杆枪，身形较陆逊结实。",
+      "deviations": [
+        "马尾和披风比文字要求更长；完整源轮廓仍在画布内。"
+      ],
+      "checks": {
+        "style": "PASS_same_series_jade_ivory_warm_gold_handpainted_chibi",
+        "historicalNamedCharacterNotElementalHero": true,
+        "faceReadableAt128": true,
+        "completeVisibleFullSilhouette": true,
+        "lightDarkBackground": "PASS_no_visible_baked_backdrop_or_broad_matte",
+        "faceBustCrop": "PASS_identity_retained_in_intentional_rectangular_UI_window",
+        "requestedEightPercentSourceMargin": "NOT_MET",
+        "strictOpaque255Interior": "NOT_MET_max_alpha254_preserved"
+      },
+      "status": "SELECTED_STATIC_ART_CANDIDATE"
+    },
+    {
+      "id": "lu-xun",
+      "name": "陆逊",
+      "personID": "ww-p-91d823d76f0b",
+      "identity": "清瘦无须儒将、青玉布冠、长发、白青宽袍轻甲、展开地图和短指挥棒。",
+      "deviations": [
+        "冠帽高于低冠文字要求；手绘面部偏年轻，不把设定年龄当作可验证事实。"
+      ],
+      "checks": {
+        "style": "PASS_same_series_jade_ivory_warm_gold_handpainted_chibi",
+        "historicalNamedCharacterNotElementalHero": true,
+        "faceReadableAt128": true,
+        "completeVisibleFullSilhouette": true,
+        "lightDarkBackground": "PASS_no_visible_baked_backdrop_or_broad_matte",
+        "faceBustCrop": "PASS_identity_retained_in_intentional_rectangular_UI_window",
+        "requestedEightPercentSourceMargin": "NOT_MET",
+        "strictOpaque255Interior": "NOT_MET_max_alpha254_preserved"
+      },
+      "status": "SELECTED_STATIC_ART_CANDIDATE"
+    },
+    {
+      "id": "lu-su",
+      "name": "鲁肃",
+      "personID": "ww-p-397eac76e115",
+      "identity": "圆润温和面型、灰鬓、较宽体态、宽袖文臣袍与卷牍/竹筹；无战斗武器。",
+      "deviations": [],
+      "checks": {
+        "style": "PASS_same_series_jade_ivory_warm_gold_handpainted_chibi",
+        "historicalNamedCharacterNotElementalHero": true,
+        "faceReadableAt128": true,
+        "completeVisibleFullSilhouette": true,
+        "lightDarkBackground": "PASS_no_visible_baked_backdrop_or_broad_matte",
+        "faceBustCrop": "PASS_identity_retained_in_intentional_rectangular_UI_window",
+        "requestedEightPercentSourceMargin": "NOT_MET",
+        "strictOpaque255Interior": "NOT_MET_max_alpha254_preserved"
+      },
+      "status": "SELECTED_STATIC_ART_CANDIDATE"
+    },
+    {
+      "id": "lv-meng",
+      "name": "吕蒙",
+      "personID": "ww-p-799cddfec017",
+      "identity": "皱眉短须、包头军巾、紧凑结实体态、深色层甲、竹简和佩刀；与鲁肃衣装/体态不同。",
+      "deviations": [
+        "与孙坚保留同系列浓眉短须语言，主要靠军巾、表情、甲型与竹简区分；不是写实历史相貌考证。"
+      ],
+      "checks": {
+        "style": "PASS_same_series_jade_ivory_warm_gold_handpainted_chibi",
+        "historicalNamedCharacterNotElementalHero": true,
+        "faceReadableAt128": true,
+        "completeVisibleFullSilhouette": true,
+        "lightDarkBackground": "PASS_no_visible_baked_backdrop_or_broad_matte",
+        "faceBustCrop": "PASS_identity_retained_in_intentional_rectangular_UI_window",
+        "requestedEightPercentSourceMargin": "NOT_MET",
+        "strictOpaque255Interior": "NOT_MET_max_alpha254_preserved"
+      },
+      "status": "SELECTED_STATIC_ART_CANDIDATE"
+    },
+    {
+      "id": "gan-ning",
+      "name": "甘宁",
+      "personID": "ww-p-f639aded718e",
+      "identity": "粗壮裸露上臂、红白头巾、露齿笑脸、短鬓须、玉耳饰、铃铛、盘绳和弯刀；无海盗帽/火器。",
+      "deviations": [
+        "发束比文字短结要求更高更蓬松；衣袍仍采用同系列云纹与金玉装饰。"
+      ],
+      "checks": {
+        "style": "PASS_same_series_jade_ivory_warm_gold_handpainted_chibi",
+        "historicalNamedCharacterNotElementalHero": true,
+        "faceReadableAt128": true,
+        "completeVisibleFullSilhouette": true,
+        "lightDarkBackground": "PASS_no_visible_baked_backdrop_or_broad_matte",
+        "faceBustCrop": "PASS_identity_retained_in_intentional_rectangular_UI_window",
+        "requestedEightPercentSourceMargin": "NOT_MET",
+        "strictOpaque255Interior": "NOT_MET_max_alpha254_preserved"
+      },
+      "status": "SELECTED_STATIC_ART_CANDIDATE"
+    }
+  ],
+  "commonLimitations": [
+    "All six native masters are 1024x1536 RGBA with alpha range 0..254; no 255-alpha pixels. Source alpha retained without normalization.",
+    "Alpha1 residue remains, including some canvas edge pixels; threshold32 major contours are inset and light/dark composites show no broad background or hard matte.",
+    "Requested 8% master margins were not reached. Card-full derivative preserves all source pixels through premultiplied downsampling and adds transparent canvas padding.",
+    "Face/bust/avatars are intentional rectangular UI crops. They are not isolated-head repaintings; ribbons, hair and body can meet the crop edge.",
+    "Costume/headgear/age cues are original stylization, not an archaeological or historical-likeness certification.",
+    "No animation, Unity import, runtime UI, renderer transparent-RGB behavior, packaging or client integration was tested.",
+    "These six candidates do not establish complete Three Kingdoms or complete game art coverage."
+  ],
+  "modelEvidence": {
+    "configModel": "gpt-image-2.5-sunburst",
+    "configQuality": "max",
+    "actualModel": null,
+    "actualQuality": null
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "UnityRun": false,
+  "heavyToolsRun": false
+}

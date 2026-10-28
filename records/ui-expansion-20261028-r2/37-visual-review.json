@@ -1,0 +1,19 @@
+{
+  "reviewedAt": "2026-10-29T04:15:30.461Z",
+  "file": "designs/01-率土之滨/ui/expansion-20261028-r2/37-ranking-ui-v1.png",
+  "sha256": "1bdefaca66ac33c1609e7e598f2729c55e009b465087a6b1e5c7c1a63a45b9e8",
+  "reviewMethod": "Native generated pixels actually viewed",
+  "findings": [
+    "Five table rows are aligned and sample values match the prompt",
+    "Rank 3 self highlight and pinned summary agree at16280",
+    "No five-element hero grouping or obsolete infantry/archer/cavalry classification",
+    "Jade/ivory/gold and tab hierarchy match supplied main references"
+  ],
+  "layoutCandidatePassed": true,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "remaining": [
+    "All text/data are baked into the direction mockup",
+    "Other ranking tabs, rules popup, empty/loading/error states and live data remain to implement"
+  ]
+}

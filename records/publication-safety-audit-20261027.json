@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "auditedAtUtc": "2026-10-27T13:08:00.628590+00:00",
+  "root": "D:/work/wuxing-slg-iamge",
+  "scope": {
+    "method": "Read-only project inventory, UTF-8 text credential pattern scan, JSON parse checks, PNG/JPG decoding, generated/derived image SHA256 to adjacent record checks, and visual review of all eight unique user screenshots. No system credentials were read and no Git state was changed.",
+    "fileCountAtScan": 432,
+    "totalBytesAtScan": 186760626,
+    "scannedTextFiles": 320,
+    "imageCount": 111,
+    "extensionCounts": {
+      ".md": 13,
+      ".json": 236,
+      ".png": 102,
+      ".txt": 68,
+      ".py": 3,
+      ".pyc": 1,
+      ".jpg": 9
+    },
+    "limitations": "Pattern scan is not proof that no unknown secret exists. Files may change because production workers are still closing their handoffs; rerun against final staged file set before pushing."
+  },
+  "credentialScan": {
+    "patterns": [
+      "github_token",
+      "openai_token",
+      "aws_access_key",
+      "private_key",
+      "bearer_literal",
+      "credential_url",
+      "secret_assignment"
+    ],
+    "findings": [],
+    "sensitiveFilenameFindings": [],
+    "systemOrPersonalLogsFound": false,
+    "gpsMetadataFiles": []
+  },
+  "candidateExclusions": [
+    "tools/__pycache__/finalize_image_record.cpython-312.pyc"
+  ],
+  "imageProvenance": {
+    "generatedOrDerivedImagesWithVerifiedAdjacentRecords": 100,
+    "missingAdjacentRecords": [],
+    "sha256Mismatches": [],
+    "imageDecodeErrors": [],
+    "invalidJsonFiles": [],
+    "mainStyleReferences": "Two copied project references are separately identified by records/style-reference-manifest.json, with original historical model/quality unknown preserved.",
+    "generationEvidenceLimitations": "Root UI 18-24 and map/FX v2 have disclosed recovery gaps. Valid sidecars and file hashes do not prove exact model/quality or missing original tool responses."
+  },
+  "thirdPartySources": {
+    "screenshotFileCount": 9,
+    "uniqueScreenshotCount": 8,
+    "duplicateGroups": [
+      [
+        "uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg",
+        "uploads/01-率土之滨/user-reference-20261026/08-general-recruit-result-duplicate.jpg"
+      ]
+    ],
+    "visualPrivacyReview": "All eight unique screenshots were viewed. They show game tutorial, tactics, character and map UI. No visible email, telephone, real-name account information, chat conversations or credential field was observed.",
+    "files": [
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+        "sha256": "df13d577da8963add78718d93bc5a648b5deeadab2c20a623a37976637b4b56d",
+        "bytes": 238286,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/02-tactic-detail.jpg",
+        "sha256": "c18bb9956b794ea7f8d3d4bbec7718c39559464e5ba1176a452906e11790553f",
+        "bytes": 92471,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/03-tactic-library.jpg",
+        "sha256": "9e3f8076dd8dadd9f3d68b5da4f9f0eb8ddea3317e8474e18f0ed023470a35e5",
+        "bytes": 75113,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/04-general-detail.jpg",
+        "sha256": "2141a2052acb29678c0e3c78945b404d1e869f112e806c999e14c24791cfb1d7",
+        "bytes": 201849,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/05-army-formation.jpg",
+        "sha256": "6cf9c0ad96a549810c8a970b62c34cad0f948c2b91faf1ee6109b274ba69d768",
+        "bytes": 310144,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/06-map-march.jpg",
+        "sha256": "9596ba16be05962d9843b9b731c4f370033e146e9eb03777d2441678aad68880",
+        "bytes": 256296,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg",
+        "sha256": "b40a3d1b54dab5da64133f601dbe7c1427a09aa44bef9ca05b2cc3a59054ffa1",
+        "bytes": 89098,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/08-general-recruit-result-duplicate.jpg",
+        "sha256": "b40a3d1b54dab5da64133f601dbe7c1427a09aa44bef9ca05b2cc3a59054ffa1",
+        "bytes": 89098,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg",
+        "sha256": "94be818db5b563991c28ebecaa68bc7c7cbcc7d5cb0156f261e35b9443e3dd37",
+        "bytes": 236523,
+        "source": "User-supplied screenshots of third-party game 率土之滨",
+        "permittedProjectRole": "SLG functionality and layout reference only; not official Wuxing character identity or art style",
+        "license": "Third-party rights retained; no open-source license granted by this repository"
+      }
+    ],
+    "licensing": "No LICENSE file was found. Do not add a blanket open-source license to third-party screenshots or copied source materials."
+  },
+  "publicationIssues": [
+    {
+      "priority": "required_before_push",
+      "file": "tools/__pycache__/finalize_image_record.cpython-312.pyc",
+      "action": "Exclude Python cache with .gitignore or explicit staging policy; deletion is not required."
+    },
+    {
+      "priority": "required_before_push",
+      "file": "README.md",
+      "action": "Replace stale 12UI+1 character counts and statement that screenshots authorize historical identities; lead with 金木水火土 and mark all artwork as unfinished pending review. Preserve upload status as pending until remote verification succeeds."
+    },
+    {
+      "priority": "required_before_push",
+      "file": "designs/01-率土之滨/README.md",
+      "action": "Mark old 12UI+1 character section as historical or update index to current actual files. Historical identity candidates must be explicitly pending original Wuxing redesign, not launch roster."
+    },
+    {
+      "priority": "recommended",
+      "file": "uploads/01-率土之滨/user-reference-20261026/",
+      "action": "Add a short source/rights notice or link this audit source manifest so screenshots cannot be confused with original deliverables."
+    },
+    {
+      "priority": "informational",
+      "file": "generation records and tool responses",
+      "action": "125 text files contain host image paths or tool artifact paths used as provenance. These are project production evidence, not personal system logs or credential findings. Avoid adding unrelated system diagnostics; preserve original generation evidence without falsifying hashes."
+    }
+  ],
+  "status": "conditional_pass_after_cache_exclusion_and_documentation_corrections",
+  "readyToPushClaim": false
+}

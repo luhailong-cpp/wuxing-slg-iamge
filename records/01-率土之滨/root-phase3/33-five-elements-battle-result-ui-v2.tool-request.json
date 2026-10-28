@@ -1,0 +1,29 @@
+{
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T18:45:00Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Redesign attached image 3, the battle-result UI, for our original FIVE ELEMENTS game. Create one polished landscape Chinese mobile SLG screen, native about1916x821, opaque complete scene, following the jade/ivory/warm-gold fine HD hand-painted Daoist CHIBI style of attached images1(mail) and2(team). They are the primary style references. Keep the functional two-sided battle-result layout from image3, with clear generous spacing, no clipping. It is a static art direction mockup, not a live client.\n\nImage4 is a documented reference-only contact sheet of our five original heroes: top-left METAL girl short silver bob/amber eyes/rune ruler and array compass; top-middle WOOD boy brown hair bamboo staff; top-right WATER girl navy twin braids/water ring; bottom-left FIRE boy red hair/flame tablets; bottom-middle EARTH woman low dark bun/mountain seal and shield. The contact sheet is identity reference; do not copy the sheet layout. Use ONLY the METAL, WOOD and WATER heroes together as our team's three clearly separated waist-up portraits on the left. Preserve their individual faces, hair, costumes, palette, and signature props. Do not replace them with generic previous characters, generals, historical people or swapped costumes. Image5 defines the generic garrison infantry appearance on the right: jade round hat, ivory robe, short spear and round jade shield. It is an enemy garrison represented by neutral/vermillion UI label, not a fourth hero.\n\nExact main copy and structure:\nTop title 战斗结算.\nLeft header 我方 · 第一部队, with three portrait labels 金行使 / 木行使 / 水行使.\nRight header 敌方 · 野外守军, with the infantry portrait and label 守军步卒.\nSmall center top location 青竹原野 · 5回合.\nCentral compact victorious jade-and-gold medallion 胜利; do not let it obscure either team's portraits or the data.\nLeft results rows 初始兵力 1000 / 损失兵力 180 / 剩余兵力 820; green remaining bar exactly about82percent full with 820/1000.\nRight results rows 初始兵力 900 / 损失兵力 900 / 剩余兵力 0; empty grey remaining bar with 0/900.\nBottom reward header 战斗奖励, three item tiles: grain bag 粮草 ×600; bronze coins 铜钱 ×300; scroll 经验 ×200.\nBottom two buttons 返回战报 (primary jade) and 返回大地图 (ivory).\nMake every Chinese label readable and the two result columns aligned. No extra invented rewards, no contradictory totals, no probability or paid-game rules. No implementation/debug/candidate text in the interface. Keep ornaments away from data. This is genuinely new five-elements hero artwork replacing the old anonymous team, not merely new names.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/33-battle-result-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

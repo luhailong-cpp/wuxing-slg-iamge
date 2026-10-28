@@ -1,0 +1,26 @@
+{
+  "file": "records/troop-frames-20261028-r2/metal-attack-layout.png",
+  "sha256": "5624d33f00ab262b7d999a603cdcad10812b6cc77248dd74454e5e380b24caa5",
+  "derivedFrom": {
+    "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+    "purpose": "candidate identity master; userApproved false",
+    "actuallyViewed": true
+  },
+  "operation": {
+    "script": "C:/Users/luyua/.codex/skills/generate2dsprite/scripts/make_anchor_layout.py",
+    "mode": "native_alpha",
+    "resampler": "lanczos",
+    "rows": 2,
+    "cols": 3,
+    "cell": [
+      512,
+      512
+    ],
+    "subjectHeightRatio": 0.64,
+    "subjectWidthRatio": 0.72,
+    "feetRatio": 0.82,
+    "placement": "centers source alpha>0 bbox horizontally; alpha>0 bottom at 82%; physical foot/root not manually calibrated"
+  },
+  "usage": "Geometry reference only; repetitions do not constitute animation; source alpha residue preserved by helper"
+}

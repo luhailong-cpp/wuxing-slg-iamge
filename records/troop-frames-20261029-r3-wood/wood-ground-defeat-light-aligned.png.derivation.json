@@ -1,0 +1,43 @@
+{
+  "file": "records/troop-frames-20261029-r3-wood/wood-ground-defeat-light-aligned.png",
+  "sha256": "7876e00ad1a5f467e08a0f42f0c752b89d77853a061335b8d6845351f8e174c1",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-idle-se-v1.png",
+      "sha256": "84ab3c81d719a3f0083d70dad1c999bfa7b134019e72a5591a02d9599a59bb20",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-idle-se-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-attack-se-v1.png",
+      "sha256": "714378fc40a04f5603d633439cf4282a2fafbd372458f8f0c102310ecf28a47e",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-attack-se-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-hurt-se-v1.png",
+      "sha256": "3c1f137666f1ce4ceee7f43ded3b624e61dc37b69298d5b2b8db9696fc8b457e",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-hurt-se-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-defeat-se-v1.png",
+      "sha256": "209e832fa550b042bba5c2e1a69de53b1b4d8c13e42de86409f355981f2d08bb",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-defeat-se-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+      "sha256": "94c417d03cdefc8ed2b8a7865d9c221de149968f8bb9f83a376c8d52c4475473"
+    }
+  ],
+  "operation": {
+    "type": "QA-only contact/helmet/grid/grounding preview",
+    "scripts": [
+      "work/troop-frames-20261029-r3-wood/measure.py",
+      "work/troop-frames-20261029-r3-wood/review_sources.py",
+      "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py"
+    ],
+    "notRuntimeAsset": true
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-wood/wood-ground-measured.json",
+    "sha256": "5ceab3b8ac48c4ae5dd0c25095e7aeca7a90c5c6cc98f75a4da59f1e8e2f1552"
+  }
+}

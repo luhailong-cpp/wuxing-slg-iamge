@@ -1,0 +1,87 @@
+{
+  "schema": "generate2dmap.placements.v2",
+  "props": [
+    {
+      "id": "city",
+      "image": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "x": 650,
+      "y": 308,
+      "anchor": "px",
+      "anchorPx": [
+        228.0,
+        364
+      ],
+      "scale": 0.65,
+      "sortY": 308,
+      "layer": "props",
+      "solid": true,
+      "footprint": {
+        "shape": "ellipse",
+        "width": 164,
+        "depth": 60,
+        "offset": [
+          0,
+          -34
+        ],
+        "basis": "world_px"
+      }
+    },
+    {
+      "id": "bridge",
+      "image": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "x": 751.725,
+      "y": 620.75,
+      "anchor": "px",
+      "anchorPx": [
+        165.5,
+        302
+      ],
+      "scale": 1.15,
+      "sortY": 430,
+      "layer": "props",
+      "solid": false
+    },
+    {
+      "id": "enemy-camp",
+      "image": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "x": 850,
+      "y": 692,
+      "anchor": "px",
+      "anchorPx": [
+        187.5,
+        314
+      ],
+      "scale": 0.75,
+      "sortY": 692,
+      "layer": "props",
+      "solid": true,
+      "footprint": {
+        "shape": "ellipse",
+        "width": 148,
+        "depth": 54,
+        "offset": [
+          0,
+          -35
+        ],
+        "basis": "world_px"
+      }
+    }
+  ],
+  "actors": [
+    {
+      "id": "representative-infantry",
+      "image": "exports/01-率土之滨/units/infantry-64h.png",
+      "x": 750,
+      "y": 372,
+      "anchor": "px",
+      "anchorPx": [
+        128,
+        224
+      ],
+      "scale": 1,
+      "layer": "actors",
+      "sortY": 372
+    }
+  ],
+  "foreground": []
+}

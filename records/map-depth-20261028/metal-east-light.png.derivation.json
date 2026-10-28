@@ -1,0 +1,30 @@
+{
+  "file": "records/map-depth-20261028/metal-east-light.png",
+  "sha256": "4f0feb0faf7abe35e8774cf5ff737a7bf1dfb8de9743fc3557ebfdbbb1750fd4",
+  "width": 1000,
+  "height": 1000,
+  "format": "PNG",
+  "operation": "diagnostic_alpha_composite",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-back.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-front.png.derivation.json"
+    },
+    {
+      "file": "records/map-depth-20261028/metal-static-diagnostic-201.png",
+      "sha256": "9a6c86c14cdecc0c7fb9ff238d8cd7b1607dc8dcb04edd093ddd12a4fdd5df9b",
+      "record": "records/map-depth-20261028/metal-static-diagnostic-201.png.derivation.json"
+    }
+  ],
+  "newArtwork": false,
+  "diagnosticOnly": true,
+  "clientIntegrated": false,
+  "createdAt": "2026-10-28T08:37:54.610Z",
+  "runtimeEvidence": null
+}

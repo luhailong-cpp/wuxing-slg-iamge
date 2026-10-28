@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "executionCellId": "30",
+  "startedAt": "2026-10-26T17:23:55.727Z",
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept / production icon sprite sheet\n为道家Q版SLG制作16枚独立图标精细原画，实际附图1邮件、图2组队是美术主参考。细腻高清手绘、圆润饱满、温暖玉绿与米白、暖金点缀，图标有清楚主轮廓与不同材质，适度高光而非塑料3D。\n严格4列×4行等大方格，目标2048×2048。真正透明背景，无边框底板、无文字/数字/水印、无网格线，每个图标单独居中于所属格子，尺寸约格宽/高65%，每边至少15%透明空隙，图标不跨格，所有图标投影极短。\n从左到右再从上到下固定：\n第一行：木材（绑扎木条）、铁矿（青灰矿石）、石料（浅灰石块）、粮草（小麦与粮袋）。\n第二行：铜钱（方孔金铜钱）、玉符（青玉圆佩带小短穗）、战法经验（玉绿竹简卷）、预备兵力（小米白玉绿头盔）。\n第三行：攻击（交叉短剑）、防御（圆盾）、谋略（羽扇）、速度（小马蹄带云纹）。\n第四行：攻城（小攻城槌）、体力（玉绿葫芦）、倒计时（小金边沙漏）、锁定（暖金小锁）。\n每个图标有独一可辨的身份，风格完全统一，轮廓粗细清楚，图标内部细节精细但不堆金饰，别画文字标签或背景卡，不要把整张做成不透明图。",
+    "promptFile": "prompts/01-率土之滨/runtime-ui-02-resource-icons.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  }
+}

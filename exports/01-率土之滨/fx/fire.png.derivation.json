@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx/fire.png",
+  "sha256": "1c212f38d429c02a935c0596d55b6afc9e67d2ded577cbfef7de24f8e2500ab2",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 435,
+  "height": 443,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "route": "native_crop_from_existing_host_image",
+  "operation": "crop",
+  "cropBox": [
+    457,
+    444,
+    892,
+    887
+  ],
+  "cropBoxConvention": "left,top,right,bottom; right/bottom exclusive",
+  "ownershipMethod": "manually inspected individual subject and transparent gutters, not equal-grid splitting",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png",
+    "sha256": "7d581df81399fb7e71e4cd5d142ebbb9296e0936a7a8fabc1c6ea56aeac0904d",
+    "generationRecord": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png.generation.json",
+    "sourceNativeSize": [
+      1774,
+      887
+    ],
+    "generatedAt": null,
+    "originalReceiptEvidenceGapPreserved": true
+  },
+  "resampled": false,
+  "repainted": false,
+  "rekeyed": false,
+  "pixelIdentityAgainstSourceCrop": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 73849,
+    "alpha1PixelCount": 22116,
+    "semiTransparentPixelCount": 118856,
+    "opaquePixelCount": 0,
+    "contentBoxAlphaAbove1": [
+      23,
+      8,
+      384,
+      385
+    ],
+    "edgeMaxAlpha": {
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "edgePixelsAlphaAbove1": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "contentMarginsAlphaAbove1": {
+      "left": 23,
+      "top": 8,
+      "right": 51,
+      "bottom": 58
+    },
+    "alphaEdited": false
+  },
+  "anchor_px": [
+    203.5,
+    385
+  ],
+  "anchorNormalized": [
+    0.46781609195402296,
+    0.8690744920993227
+  ],
+  "anchorMethod": "bottom_center_of_alpha_above_1_content_box; provisional map placement anchor",
+  "static": true,
+  "animationFrameCount": 0,
+  "animations": [],
+  "qa": {
+    "cropIntegrity": "pass",
+    "significantAlphaThreshold": 1,
+    "minimumSignificantContentMarginPx": 8,
+    "visibleAdjacentSubject": false,
+    "subjectContoursComplete": true,
+    "lightDarkBackgroundVisualReview": "pass_for_static_candidate",
+    "visualReviewBackgroundsRGB": [
+      [
+        245,
+        241,
+        230
+      ],
+      [
+        28,
+        38,
+        44
+      ]
+    ],
+    "warnings": [
+      {
+        "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+        "value": 22116,
+        "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+        "file": "exports/01-率土之滨/fx/fire.png",
+        "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+      },
+      {
+        "id": "NARROW_NATIVE_GUTTER",
+        "value": 8,
+        "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+        "file": "exports/01-率土之滨/fx/fire.png",
+        "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+      }
+    ]
+  },
+  "status": "native_static_crop_candidate_pending_user_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false
+}

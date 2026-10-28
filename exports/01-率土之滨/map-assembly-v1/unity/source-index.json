@@ -1,0 +1,936 @@
+{
+  "schema": "wuxing.unity-map-assembly-source-index.v1",
+  "status": "candidate",
+  "art_source": "existing",
+  "newGenerationCalls": 0,
+  "worldPixels": [
+    1440,
+    960
+  ],
+  "pixelsPerUnit": 100,
+  "coordinateMapping": "Unity x=source x/100; Unity y=(960-source y)/100. Pivot=(anchorX/width,1-anchorY/height). Terrain ground-centre contact is offset separately from source support pivot.",
+  "spriteCount": 7,
+  "spriteRendererInstanceCount": 39,
+  "assets": [
+    {
+      "id": "grassland",
+      "category": "map",
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+      "width": 377,
+      "height": 290,
+      "sourceAlphaZero": 73746,
+      "sourceAlphaOne": 2484,
+      "sourceAlphaSemi": 35547,
+      "sourceAlphaOpaque": 37,
+      "pivotX": 0.5424403183023873,
+      "pivotY": 0.10689655172413792,
+      "anchorPxTopLeft": [
+        204.5,
+        259
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2484,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "id": "stone-road",
+      "category": "map",
+      "source": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json",
+      "sourceSha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+      "width": 366,
+      "height": 290,
+      "sourceAlphaZero": 69622,
+      "sourceAlphaOne": 2862,
+      "sourceAlphaSemi": 36477,
+      "sourceAlphaOpaque": 41,
+      "pivotX": 0.4849726775956284,
+      "pivotY": 0.09310344827586203,
+      "anchorPxTopLeft": [
+        177.5,
+        263
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2862,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "id": "river-straight",
+      "category": "map",
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+      "width": 377,
+      "height": 314,
+      "sourceAlphaZero": 79742,
+      "sourceAlphaOne": 2928,
+      "sourceAlphaSemi": 38597,
+      "sourceAlphaOpaque": 39,
+      "pivotX": 0.5450928381962865,
+      "pivotY": 0.20382165605095537,
+      "anchorPxTopLeft": [
+        205.5,
+        250
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2928,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "id": "main-city",
+      "category": "map",
+      "source": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json",
+      "sourceSha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/main-city.png",
+      "width": 445,
+      "height": 397,
+      "sourceAlphaZero": 85315,
+      "sourceAlphaOne": 4060,
+      "sourceAlphaSemi": 91331,
+      "sourceAlphaOpaque": 19,
+      "pivotX": 0.5123595505617977,
+      "pivotY": 0.08312342569269526,
+      "anchorPxTopLeft": [
+        228.0,
+        364
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4060,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "category": "map",
+      "source": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json",
+      "sourceSha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/bridge.png",
+      "width": 334,
+      "height": 375,
+      "sourceAlphaZero": 87074,
+      "sourceAlphaOne": 5117,
+      "sourceAlphaSemi": 38153,
+      "sourceAlphaOpaque": 23,
+      "pivotX": 0.49550898203592814,
+      "pivotY": 0.19466666666666665,
+      "anchorPxTopLeft": [
+        165.5,
+        302
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5117,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "id": "enemy-camp",
+      "category": "map",
+      "source": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json",
+      "sourceSha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/enemy-camp.png",
+      "width": 374,
+      "height": 375,
+      "sourceAlphaZero": 71959,
+      "sourceAlphaOne": 4277,
+      "sourceAlphaSemi": 68257,
+      "sourceAlphaOpaque": 34,
+      "pivotX": 0.5013368983957219,
+      "pivotY": 0.16266666666666663,
+      "anchorPxTopLeft": [
+        187.5,
+        314
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4277,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "id": "infantry-64h",
+      "category": "unit",
+      "source": "exports/01-率土之滨/units/infantry-64h.png",
+      "sourceRecord": "exports/01-率土之滨/units/infantry-64h.png.derivation.json",
+      "sourceSha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/infantry-64h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 63244,
+      "sourceAlphaOne": 88,
+      "sourceAlphaSemi": 2115,
+      "sourceAlphaOpaque": 177,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "anchorPxTopLeft": [
+        128,
+        224
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "id": "ground-0-0",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 650.36,
+      "y": 244.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -10000,
+      "contactX": 650,
+      "contactY": 180,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-0-1",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 550.36,
+      "y": 308.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9999,
+      "contactX": 550,
+      "contactY": 244,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-1-0",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 750.36,
+      "y": 308.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9998,
+      "contactX": 750,
+      "contactY": 244,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-0-2",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 450.36,
+      "y": 372.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9997,
+      "contactX": 450,
+      "contactY": 308,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-1-1",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 650.36,
+      "y": 372.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9996,
+      "contactX": 650,
+      "contactY": 308,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-2-0",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 850.36,
+      "y": 372.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9995,
+      "contactX": 850,
+      "contactY": 308,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-0-3",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 350.36,
+      "y": 436.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9994,
+      "contactX": 350,
+      "contactY": 372,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-1-2",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 550.36,
+      "y": 436.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9993,
+      "contactX": 550,
+      "contactY": 372,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-2-1",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 750.36,
+      "y": 436.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9992,
+      "contactX": 750,
+      "contactY": 372,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-3-0",
+      "assetId": "river-straight",
+      "kind": "terrain",
+      "x": 949.64,
+      "y": 438.24,
+      "scale": 0.72,
+      "flipX": true,
+      "sortOrder": -9991,
+      "contactX": 950,
+      "contactY": 372,
+      "contactSourceX": 205,
+      "contactSourceY": 158
+    },
+    {
+      "id": "ground-0-4",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 250.36,
+      "y": 500.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9990,
+      "contactX": 250,
+      "contactY": 436,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-1-3",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 450.36,
+      "y": 500.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9989,
+      "contactX": 450,
+      "contactY": 436,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-2-2",
+      "assetId": "stone-road",
+      "kind": "terrain",
+      "x": 650.36,
+      "y": 503.68,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9988,
+      "contactX": 650,
+      "contactY": 436,
+      "contactSourceX": 177,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-3-1",
+      "assetId": "river-straight",
+      "kind": "terrain",
+      "x": 849.64,
+      "y": 502.24,
+      "scale": 0.72,
+      "flipX": true,
+      "sortOrder": -9987,
+      "contactX": 850,
+      "contactY": 436,
+      "contactSourceX": 205,
+      "contactSourceY": 158
+    },
+    {
+      "id": "ground-4-0",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 1050.36,
+      "y": 500.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9986,
+      "contactX": 1050,
+      "contactY": 436,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-1-4",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 350.36,
+      "y": 564.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9985,
+      "contactX": 350,
+      "contactY": 500,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-2-3",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 550.36,
+      "y": 564.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9984,
+      "contactX": 550,
+      "contactY": 500,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-3-2",
+      "assetId": "river-straight",
+      "kind": "terrain",
+      "x": 749.64,
+      "y": 566.24,
+      "scale": 0.72,
+      "flipX": true,
+      "sortOrder": -9983,
+      "contactX": 750,
+      "contactY": 500,
+      "contactSourceX": 205,
+      "contactSourceY": 158
+    },
+    {
+      "id": "ground-4-1",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 950.36,
+      "y": 564.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9982,
+      "contactX": 950,
+      "contactY": 500,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-5-0",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 1150.36,
+      "y": 564.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9981,
+      "contactX": 1150,
+      "contactY": 500,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-2-4",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 450.36,
+      "y": 628.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9980,
+      "contactX": 450,
+      "contactY": 564,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-3-3",
+      "assetId": "river-straight",
+      "kind": "terrain",
+      "x": 649.64,
+      "y": 630.24,
+      "scale": 0.72,
+      "flipX": true,
+      "sortOrder": -9979,
+      "contactX": 650,
+      "contactY": 564,
+      "contactSourceX": 205,
+      "contactSourceY": 158
+    },
+    {
+      "id": "ground-4-2",
+      "assetId": "stone-road",
+      "kind": "terrain",
+      "x": 850.36,
+      "y": 631.68,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9978,
+      "contactX": 850,
+      "contactY": 564,
+      "contactSourceX": 177,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-5-1",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 1050.36,
+      "y": 628.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9977,
+      "contactX": 1050,
+      "contactY": 564,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-6-0",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 1250.36,
+      "y": 628.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9976,
+      "contactX": 1250,
+      "contactY": 564,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-3-4",
+      "assetId": "river-straight",
+      "kind": "terrain",
+      "x": 549.64,
+      "y": 694.24,
+      "scale": 0.72,
+      "flipX": true,
+      "sortOrder": -9975,
+      "contactX": 550,
+      "contactY": 628,
+      "contactSourceX": 205,
+      "contactSourceY": 158
+    },
+    {
+      "id": "ground-4-3",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 750.36,
+      "y": 692.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9974,
+      "contactX": 750,
+      "contactY": 628,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-5-2",
+      "assetId": "stone-road",
+      "kind": "terrain",
+      "x": 950.36,
+      "y": 695.68,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9973,
+      "contactX": 950,
+      "contactY": 628,
+      "contactSourceX": 177,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-6-1",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 1150.36,
+      "y": 692.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9972,
+      "contactX": 1150,
+      "contactY": 628,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-4-4",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 650.36,
+      "y": 756.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9971,
+      "contactX": 650,
+      "contactY": 692,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-5-3",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 850.36,
+      "y": 756.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9970,
+      "contactX": 850,
+      "contactY": 692,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-6-2",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 1050.36,
+      "y": 756.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9969,
+      "contactX": 1050,
+      "contactY": 692,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-5-4",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 750.36,
+      "y": 820.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9968,
+      "contactX": 750,
+      "contactY": 756,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-6-3",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 950.36,
+      "y": 820.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9967,
+      "contactX": 950,
+      "contactY": 756,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "ground-6-4",
+      "assetId": "grassland",
+      "kind": "terrain",
+      "x": 850.36,
+      "y": 884.8,
+      "scale": 0.72,
+      "flipX": false,
+      "sortOrder": -9966,
+      "contactX": 850,
+      "contactY": 820,
+      "contactSourceX": 204,
+      "contactSourceY": 169
+    },
+    {
+      "id": "city",
+      "assetId": "main-city",
+      "kind": "prop",
+      "x": 650,
+      "y": 308,
+      "scale": 0.65,
+      "flipX": false,
+      "sortOrder": 3080,
+      "contactX": 650,
+      "contactY": 308,
+      "contactSourceX": 228.0,
+      "contactSourceY": 364
+    },
+    {
+      "id": "bridge",
+      "assetId": "bridge",
+      "kind": "prop",
+      "x": 751.725,
+      "y": 620.75,
+      "scale": 1.15,
+      "flipX": false,
+      "sortOrder": 4300,
+      "contactX": 751.725,
+      "contactY": 620.75,
+      "contactSourceX": 165.5,
+      "contactSourceY": 302
+    },
+    {
+      "id": "enemy-camp",
+      "assetId": "enemy-camp",
+      "kind": "prop",
+      "x": 950,
+      "y": 780,
+      "scale": 0.75,
+      "flipX": false,
+      "sortOrder": 7800,
+      "contactX": 950,
+      "contactY": 780,
+      "contactSourceX": 187.5,
+      "contactSourceY": 314
+    },
+    {
+      "id": "representative-infantry",
+      "assetId": "infantry-64h",
+      "kind": "actor",
+      "x": 750,
+      "y": 372,
+      "scale": 1,
+      "flipX": false,
+      "sortOrder": 3721,
+      "contactX": 750,
+      "contactY": 372,
+      "contactSourceX": 128,
+      "contactSourceY": 224
+    }
+  ],
+  "fixedRoute": {
+    "schema": "wuxing.fixed-preview-route.v1",
+    "sourceBundleSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+    "canonicalRuntimeVersion": "1.1.2",
+    "canonicalRuntimeSha256": "25c9d06322d6d98c76092aebe228227b526685e9309675285622e9d574df0c5b",
+    "speedPixelsPerSecond": 150,
+    "loop": false,
+    "fixedSEStaticUnit": true,
+    "route": [
+      [
+        750,
+        372
+      ],
+      [
+        650,
+        436
+      ],
+      [
+        750,
+        500
+      ],
+      [
+        850,
+        564
+      ],
+      [
+        866,
+        754
+      ],
+      [
+        894,
+        770
+      ],
+      [
+        938,
+        778
+      ],
+      [
+        950,
+        795
+      ]
+    ],
+    "legs": [
+      {
+        "from": [
+          750,
+          372
+        ],
+        "to": [
+          650,
+          436
+        ],
+        "points": [
+          [
+            650,
+            436
+          ]
+        ],
+        "canonicalSegmentsValid": true,
+        "lineOfSightShortcut": true
+      },
+      {
+        "from": [
+          650,
+          436
+        ],
+        "to": [
+          750,
+          500
+        ],
+        "points": [
+          [
+            750,
+            500
+          ]
+        ],
+        "canonicalSegmentsValid": true,
+        "lineOfSightShortcut": true
+      },
+      {
+        "from": [
+          750,
+          500
+        ],
+        "to": [
+          850,
+          564
+        ],
+        "points": [
+          [
+            850,
+            564
+          ]
+        ],
+        "canonicalSegmentsValid": true,
+        "lineOfSightShortcut": true
+      },
+      {
+        "from": [
+          850,
+          564
+        ],
+        "to": [
+          950,
+          795
+        ],
+        "points": [
+          [
+            866,
+            754
+          ],
+          [
+            894,
+            770
+          ],
+          [
+            938,
+            778
+          ],
+          [
+            950,
+            795
+          ]
+        ],
+        "canonicalSegmentsValid": true
+      }
+    ]
+  },
+  "sourceData": {
+    "map-bundle.json": {
+      "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+      "packageAsset": "Assets/WuxingSLGMapAssemblyPreview/Data/map-bundle.json"
+    },
+    "layout-plan.json": {
+      "file": "exports/01-率土之滨/map-assembly-v1/layout-plan.json",
+      "sha256": "b7ca3bbf3b30c499905ecb82ad94ccc648862966bdb696139db46da3adb9cbb0",
+      "packageAsset": "Assets/WuxingSLGMapAssemblyPreview/Data/layout-plan.json"
+    },
+    "positive-nav-report.json": {
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-report.json",
+      "sha256": "92fffe59be90361988938fd47da7a17037108d79f2ab9e5d917e2ba6a819d01a",
+      "packageAsset": "Assets/WuxingSLGMapAssemblyPreview/Data/positive-nav-report.json"
+    },
+    "negative-no-bridge-nav-report.json": {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-report.json",
+      "sha256": "a6444a2b47d335ab604124efa035c40e2de2719c038528040db2764d6aaef165",
+      "packageAsset": "Assets/WuxingSLGMapAssemblyPreview/Data/negative-no-bridge-nav-report.json"
+    },
+    "fixed-route.json": {
+      "file": "work/map-assembly-unity-route-v1.json",
+      "sha256": "cd20ee98635c750d71b1836f9221db49ae99f658a4121cce3428e9b3cd128c80",
+      "packageAsset": "Assets/WuxingSLGMapAssemblyPreview/Data/fixed-route.json"
+    }
+  },
+  "runtimeSource": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/Runtime/WuxingMapAssemblyRouteDemo.cs",
+    "sha256": "fe3c0783aeaa1e0d426c9d12be472fb61a985230dbfb51734206a1389a42f0b6"
+  },
+  "warningPolicy": "All existing seam/mirror/bridge front rail/provisional collision+scale/staticSE/alpha1 WARN retained. Camera uses native GPU bilinear sampling, not PIL rounded LANCZOS mosaic: tiny edge/sampling differences are expected.",
+  "navigation": "Existing canonical bundle six targets reachable; no-bridge negative control four unreachable. Unity demo is a fixed validated route, not a new pathfinding/controller implementation.",
+  "clientIntegrated": false,
+  "userApproved": false
+}

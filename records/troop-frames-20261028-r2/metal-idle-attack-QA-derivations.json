@@ -1,0 +1,139 @@
+{
+  "createdAt": "2026-10-29T04:00:11.186Z",
+  "outputs": [
+    {
+      "file": "records/troop-frames-20261028-r2/metal-idle-v1-light.png",
+      "sha256": "34cf72fba5c130c0f0a2979b7454a6f7fa9b8ea44b6af9d6cec7fd59ce557367",
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v1.png",
+        "sha256": "f55884a5837c66f2d080748ffc007de3aeadda1440e743a9f7ca8896720cf694",
+        "generationRecord": "records/troop-frames-20261028-r2/metal-idle-v1.generation.json"
+      },
+      "operation": {
+        "type": "PIL alpha_composite native RGBA onto opaque background; convertRGB; same native size",
+        "background": [
+          240,
+          235,
+          222
+        ]
+      },
+      "usage": "QA only, actually viewed; not new AI art"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-idle-v1-dark.png",
+      "sha256": "87d3716ec7f586a4fb33eea396a73329fea19383e564cab457923f590dae852a",
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v1.png",
+        "sha256": "f55884a5837c66f2d080748ffc007de3aeadda1440e743a9f7ca8896720cf694",
+        "generationRecord": "records/troop-frames-20261028-r2/metal-idle-v1.generation.json"
+      },
+      "operation": {
+        "type": "PIL alpha_composite native RGBA onto opaque background; convertRGB; same native size",
+        "background": [
+          25,
+          34,
+          41
+        ]
+      },
+      "usage": "QA only, actually viewed; not new AI art"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-idle-v2-light.png",
+      "sha256": "fc67d88ec22fc744468a437295d8325d4c295de0f2ee27bac39761ca6bb6286f",
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+        "sha256": "13005f21f1a5b4b77d57195e045fb64455ec5f9e2f37f19756ee6b2d518949c6",
+        "generationRecord": "records/troop-frames-20261028-r2/metal-idle-v2.generation.json"
+      },
+      "operation": {
+        "type": "PIL alpha_composite native RGBA onto opaque background; convertRGB; same native size",
+        "background": [
+          240,
+          235,
+          222
+        ]
+      },
+      "usage": "QA only, actually viewed; not new AI art"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-idle-v2-dark.png",
+      "sha256": "3311ddcfb97b5fe491d3887462062537692aba74715d452501ba03c2004d8c7a",
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+        "sha256": "13005f21f1a5b4b77d57195e045fb64455ec5f9e2f37f19756ee6b2d518949c6",
+        "generationRecord": "records/troop-frames-20261028-r2/metal-idle-v2.generation.json"
+      },
+      "operation": {
+        "type": "PIL alpha_composite native RGBA onto opaque background; convertRGB; same native size",
+        "background": [
+          25,
+          34,
+          41
+        ]
+      },
+      "usage": "QA only, actually viewed; not new AI art"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-attack-v1-light.png",
+      "sha256": "1a7c15c8183139b6b858cc049c466d594d98cb0726305c6c9d04134d9dc1a44c",
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png",
+        "sha256": "049aa3833389063598ab558c57f9df1317637637b084fddee29e89f79c793d49",
+        "generationRecord": "records/troop-frames-20261028-r2/metal-attack-v1.generation.json"
+      },
+      "operation": {
+        "type": "PIL alpha_composite native RGBA onto opaque background; convertRGB; same native size",
+        "background": [
+          240,
+          235,
+          222
+        ]
+      },
+      "usage": "QA only, actually viewed; not new AI art"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-attack-v1-dark.png",
+      "sha256": "83cf20cb9a1ed851d2091120a7fe7427a89fc6ca9cd60ad48e9f821d9c7ff2f6",
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png",
+        "sha256": "049aa3833389063598ab558c57f9df1317637637b084fddee29e89f79c793d49",
+        "generationRecord": "records/troop-frames-20261028-r2/metal-attack-v1.generation.json"
+      },
+      "operation": {
+        "type": "PIL alpha_composite native RGBA onto opaque background; convertRGB; same native size",
+        "background": [
+          25,
+          34,
+          41
+        ]
+      },
+      "usage": "QA only, actually viewed; not new AI art"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-idle-v2-root-review.png",
+      "sha256": "f2243ba43993b481016f9f0109f3ed3955bb17c664cdfdb20b5a28d1c684adc3",
+      "derivedFrom": {
+        "candidateFrameManifest": "records/troop-frames-20261028-r2/metal-idle-v2-candidate-frames.json",
+        "sourceRecords": "records/troop-frames-20261028-r2/metal-idle-v2-native-frames/pipeline-meta.json"
+      },
+      "operation": {
+        "type": "PIL alpha composite + Lanczos resize complete cell to256px + candidate root/ground markers + frame duration labels",
+        "script": "records/troop-frames-20261028-r2/metal-idle-attack-frames-audit.py"
+      },
+      "usage": "QA only; fixed root marker is proposed manual estimate, not accepted engine pivot; actually viewed"
+    },
+    {
+      "file": "records/troop-frames-20261028-r2/metal-attack-v1-root-review.png",
+      "sha256": "88c67260fb1591ff87216fdb7e8373cba08b0f789fcf15f19f9f638c936925cd",
+      "derivedFrom": {
+        "candidateFrameManifest": "records/troop-frames-20261028-r2/metal-attack-v1-candidate-frames.json",
+        "sourceRecords": "records/troop-frames-20261028-r2/metal-attack-v1-native-frames/pipeline-meta.json"
+      },
+      "operation": {
+        "type": "PIL alpha composite + Lanczos resize complete cell to256px + candidate root/ground markers + frame duration labels",
+        "script": "records/troop-frames-20261028-r2/metal-idle-attack-frames-audit.py"
+      },
+      "usage": "QA only; fixed root marker is proposed manual estimate, not accepted engine pivot; actually viewed"
+    }
+  ]
+}

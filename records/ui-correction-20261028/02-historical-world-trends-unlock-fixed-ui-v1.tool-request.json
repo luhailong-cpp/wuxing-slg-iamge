@@ -1,0 +1,32 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T11:05:55.211Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Precise localized edit to attached image3, wide landscape天下大势screen. Images1/2 are only authoritative Daoist chibi jade/ivory/gold hand-painted style references. Preserve image3 historical stage names and rates-like season system EXACTLY: 烽烟初起/汉室衰微/群雄并起/逐鹿中原/天下归一. Keep first已领取,second进行中,remaining未开启with locks,第12天,2/5paging,selected汉室衰微,40/60,01天12:30:00,countdown and玉符x300/铜钱x50000 rewards,grey达成后领取. Do not rewrite world stages into five-element fantasy stages. Five elements are only troop classes, so there is no need to add five-element content to this screen.\nFix ONLY the lower selected-stage \"解锁内容\" status strip: remove the existing gold completion check beside\"新阶段开启\". Use a closed LOCK icon and exact text\"达成后解锁新阶段\". This selected stage is in progress40/60 and has NOT unlocked the next stage. Retain bottom previous-stage reward green check and\"已领取\", since that one is completed. All other labels, scenery, frame, controls, city panorama, spacing and values unchanged. No extra product title, no developer notes, no new rule or popup. Readable complete opaque horizontal screen.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/02-world-trends-ui-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/02-historical-world-trends-unlock-fixed-ui-v1.prompt.txt"
+}
+

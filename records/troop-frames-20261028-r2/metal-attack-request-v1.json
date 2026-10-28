@@ -1,0 +1,71 @@
+{
+  "preparedAt": "2026-10-29T03:17:17.598Z",
+  "status": "prepared",
+  "action": "attack",
+  "direction": "SE",
+  "frames": 6,
+  "grid": {
+    "columns": 3,
+    "rows": 2,
+    "requestedCell": [
+      512,
+      512
+    ]
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "promptFile": "prompts/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261028-r2/metal-attack-layout.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "purpose": "candidate identity master; userApproved false",
+      "actuallyViewed": true
+    },
+    {
+      "path": "records/troop-frames-20261028-r2/metal-attack-layout.png",
+      "sha256": "5624d33f00ab262b7d999a603cdcad10812b6cc77248dd74454e5e380b24caa5",
+      "purpose": "derived geometry-only layout; not new art or animation",
+      "actuallyViewed": true
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "main style reference",
+      "actuallyViewed": true
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "main style reference",
+      "actuallyViewed": true
+    }
+  ],
+  "masterUserApproved": false,
+  "output": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png"
+}

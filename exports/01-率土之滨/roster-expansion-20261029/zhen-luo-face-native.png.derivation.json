@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/zhen-luo-face-native.png",
+  "sha256": "f647a55fcbf59c7239ae4785597cd46b496fea53e3176ff7beb67312100ff5e5",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/zhen-luo-master-v1.png",
+    "sha256": "d39b555c7c3c69b6571fba6030902942e85fe23663cbd7fb14b8e1c1c523d104",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/zhen-luo-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      250,
+      80,
+      825,
+      690
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

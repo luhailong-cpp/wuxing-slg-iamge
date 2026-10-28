@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/warning-native.png",
+  "sha256": "0bb8b6c84637b7dfe2e1760e990dab40a9050c6da3ae49a1af324656614716a0",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 285,
+  "height": 235,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "transform": {
+    "cropBox": [
+      326,
+      969,
+      611,
+      1204
+    ],
+    "resampled": false,
+    "scale": 1,
+    "padding": null
+  },
+  "manualOwnership": {
+    "id": "warning",
+    "label": "警告",
+    "manualCropBox": [
+      326,
+      969,
+      611,
+      1204
+    ],
+    "sourceComponentIdAbove16": 14,
+    "sourceComponentPixelsAbove16": 33107,
+    "nativeSize": [
+      285,
+      235
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 27674,
+      "alpha1Pixels": 4733,
+      "semiTransparentPixels": 39061,
+      "opaquePixels": 240,
+      "pixelsAbove16": 33107,
+      "bboxAbove16": [
+        17,
+        17,
+        270,
+        221
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": true,
+  "alphaCleanupApplied": false,
+  "alphaResampled": false,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 27674,
+    "alpha1Pixels": 4733,
+    "semiTransparentPixels": 39061,
+    "opaquePixels": 240,
+    "pixelsAbove16": 33107,
+    "bboxAbove16": [
+      17,
+      17,
+      270,
+      221
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 4733,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

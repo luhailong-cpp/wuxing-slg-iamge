@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-shu1/qa/huang-zhong-native-crops-light.png",
+  "sha256": "d14d1ccd3d6e1299cf23c1179ed50b781d225aa09b504d66cc6e21836ab74ab1",
+  "qaOnly": true,
+  "width": 1405,
+  "height": 990,
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "operation": {
+    "type": "native_portrait_windows_1to1",
+    "displayScale": 1
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-face-native.png",
+      "sha256": "73917cf8fcab667906bebe2d57d250534975074dabfe9329f984d073c8dfeeea",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-bust-native.png",
+      "sha256": "bca401b2a9d69f18b500aa40558733969973ac8fc6c9d39c0d40c8882bf11028",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-bust-native.png.derivation.json"
+    }
+  ]
+}

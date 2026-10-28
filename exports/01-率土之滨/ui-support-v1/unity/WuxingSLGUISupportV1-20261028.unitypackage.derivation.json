@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T08:55:16.426222+00:00",
+  "file": "exports/01-率土之滨/ui-support-v1/unity/WuxingSLGUISupportV1-20261028.unitypackage",
+  "sha256": "59448583002dcdb6f98f8512ae8f199f790e390b2a4b9d30089eb9a85035296d",
+  "bytes": 1379013,
+  "operation": "Import32manual-crop/proportionaldisplay sourcePNGs, verifyRGBA, export and freshproject roundtrip",
+  "newArtworkGeneratedDuringPackaging": false,
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/ui-support-v1/unity/source-index.json",
+    "sha256": "6b078171ca402e5b2b20aec538e8d74e0911fc9bbf473ad9f6fbdd2de40695a1"
+  },
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/ui-support-v1/ui-support-manifest.json",
+    "sha256": "59978ca29bce51f911667509293ba47d4d07b40bb8526334ec926eafc2471095"
+  },
+  "sourceMaster": {
+    "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+    "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+    "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+    "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+  },
+  "exportRoot": "Assets/WuxingSLGUISupportV1",
+  "pngCount": 32,
+  "sourceMasterPixelsModified": false,
+  "records": [
+    {
+      "file": "records/ui-support-20261028/unity/unity-source-validation.json",
+      "sha256": "5506a2be2a06cf3c6e94a60c4ab28873b64065b49a9fcfa4e5a8d91e1ef13aac"
+    },
+    {
+      "file": "records/ui-support-20261028/unity/unity-roundtrip-validation.json",
+      "sha256": "4212a95079f34a595d49462082da6a34d2fe8729649b3d5a2fd75ac31ee02db9"
+    }
+  ],
+  "archiveAudit": {
+    "file": "records/ui-support-20261028/unity/unity-package-archive-audit.json",
+    "sha256": "2b7f5e2032cd2fe418872569d1cfd102beb071f5a371a4f5927af0935e4b98b8"
+  },
+  "deliverySummary": {
+    "file": "records/ui-support-20261028/unity/delivery-summary.json",
+    "sha256": "827e2713f81522ac64a011925d1b888e85b0d5d1f26f7b73987f7783eb7ce4d7"
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

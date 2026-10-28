@@ -1,0 +1,19 @@
+{
+  "tool": "image_gen.imagegen",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a18183-e67c-75f0-bd68-7e540a4430ae as C:\\Users\\luyua\\.codex\\generated_images\\01a18183-e67c-75f0-bd68-7e540a4430ae\\exec-e0a70743-1968-4a6a-9735-846abf551899.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "observedStartedUTCFromClock": {
+    "current_time": "2026-10-29 04:29:58 UTC"
+  },
+  "observedCompletedUTCFromClock": {
+    "current_time": "2026-10-29 04:45:03 UTC"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "generatedAt": null,
+  "generatedAtReason": "image_gen did not return a service generation timestamp; real UTC observations supplied by clock.curr_time are preserved separately",
+  "resultId": null
+}

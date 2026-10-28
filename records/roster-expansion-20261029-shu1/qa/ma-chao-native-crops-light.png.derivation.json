@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-shu1/qa/ma-chao-native-crops-light.png",
+  "sha256": "8c33fc58088d9fbe7180e1f988bc35ddc0431c048f75fdb309b9cb8a6ba6e4b0",
+  "qaOnly": true,
+  "width": 1330,
+  "height": 950,
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "operation": {
+    "type": "native_portrait_windows_1to1",
+    "displayScale": 1
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-face-native.png",
+      "sha256": "afad667174d7835da8d7900b07af5e6df0140da6dffb818c107e1a0559f2bda2",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-bust-native.png",
+      "sha256": "c03b0860d4c5f7caff6634d362778c9c6af5dbf6b933e3b55222a025e59f9482",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-bust-native.png.derivation.json"
+    }
+  ]
+}

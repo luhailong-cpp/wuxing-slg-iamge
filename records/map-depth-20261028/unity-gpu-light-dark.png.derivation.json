@@ -1,0 +1,25 @@
+{
+  "file": "records/map-depth-20261028/unity-gpu-light-dark.png",
+  "sha256": "10ef621e14dbf012fb3726b433c420d588bb381a919505b77b6a2b754da31d2b",
+  "width": 1800,
+  "height": 1270,
+  "format": "PNG",
+  "operation": "diagnostic_scaled_montage",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-back.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-front.png.derivation.json"
+    }
+  ],
+  "newArtwork": false,
+  "diagnosticOnly": true,
+  "clientIntegrated": false,
+  "createdAt": "2026-10-28T08:37:54.661Z",
+  "runtimeEvidence": "records/map-depth-20261028/unity-source-report.json"
+}

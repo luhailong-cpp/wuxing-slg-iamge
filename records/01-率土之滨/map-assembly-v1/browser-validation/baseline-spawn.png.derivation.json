@@ -1,0 +1,32 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/browser-validation/baseline-spawn.png",
+  "sha256": "571598e79260920356f176362412be994c150e069c93b62444cc760a180c3f63",
+  "size": [
+    1440,
+    960
+  ],
+  "operation": "actual_headless_chrome_canvas_capture",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview.html",
+      "sha256": "7207849b8b765baeb208d29be77d16db2bf8d9c857f98959287c853d3acdf669"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/verification.json",
+      "sha256": "c9555c902621c7b4c4e8a0ca32ec5e9c59d7ecdc018dc01e9fd7e7d1fc45181f"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "browser": "156.0.8078.48",
+  "canvasState": {
+    "actorFootWorldPx": [
+      750,
+      372
+    ],
+    "debug": false
+  },
+  "diagnosticMarker": true,
+  "productArt": false
+}

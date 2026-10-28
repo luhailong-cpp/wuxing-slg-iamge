@@ -1,0 +1,96 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-card-full.png",
+  "sha256": "19d63a828900312f025413e7637c284c93470a117b0926e9fa5558cc8421c65e",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "zhang-liao",
+  "displayName": "张辽",
+  "variant": "card-full",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+      "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+      "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 509147,
+    "alphaOne": 7902,
+    "alphaSemi": 373666,
+    "alphaOpaque": 1923,
+    "bboxAlpha16": [
+      78,
+      62,
+      725,
+      1077
+    ],
+    "marginsAlpha16": [
+      78,
+      62,
+      43,
+      75
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    490,
+    425,
+    715,
+    605
+  ],
+  "faceRoiOutputApprox": [
+    368.875,
+    340.188,
+    523.562,
+    463.938
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

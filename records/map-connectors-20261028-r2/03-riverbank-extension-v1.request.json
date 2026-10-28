@@ -1,0 +1,72 @@
+{
+  "tool": "image_gen.imagegen",
+  "submittedParameters": {
+    "prompt": "Generate ONE finished native transparent map terrain strip: a straight RIVER EXTENSION with both grassy banks for 五行问鼎 horizontal SLG. Four reference images are actually supplied. First two are primary Daoist Q-version HD hand-painted style. Third bridge is camera/stone scale only—DO NOT draw bridge. Fourth crossing underlay is the primary continuity reference for the turquoise river color, flow marks, low natural banks, grass density and scale. New output has NO road or crossing, only the straight river and its two long grassy banks.\n\nWide landscape canvas 3:2 or 8:5, transparent around the strip. Strict orthographic 2:1 isometric, no vanishing point. River length runs lower-left to upper-right, screen axis (+2,-1), perpendicular to the bridge's roadway. Keep both river sides parallel with gently irregular natural bank details. Conceptual geometry in 1600x1000 canvas: turquoise-water quadrilateral corners NE upperbank(1180,220), NE lowerbank(1400,330), SW lowerbank(420,820), SW upperbank(200,710). Grass bands on both LONG sides only, about120 screen pixels wide, never wrapping across either end. Keep entire complete strip inside safe margins. The long banks can carry a few low smooth rounded ivory stones and sparse reeds at middle-third locations, but both terminal150-pixel zones must be completely free of stones, flowers and reeds, to allow joining other river pieces. Water must reach both open terminal cuts at equal constant width. NO closure, beach, semicircular end, pool, dam, waterfall, elevation step, water-wall extrusion or decorative cap across either terminal.\nMatch the fourth reference's light turquoise water and gentle thin cyan/white ripples over a clean painterly surface. Soft sandy shallows only along the two banks. Grass bright natural green, soft rounded clumps, not neon. No thick solid stone river border and no enclosing island diamond. The water surface sits on the same ground plane, flat and fully painted; transparent alpha is only outside silhouette, never a hole in the river.\nHigh-detail cohesive hand-painted finish with modest light from upper-left. No UI, words, symbols, buildings, bridge, boats, people, troops, animals or FX. No labels, grid, checkerboard, black fill, outer glow, arbitrary ground shadow or backdrop. This is a reusable open-ended river strip candidate, no claim of mathematically seamless texture.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/map-depth-20261028/bridge-composite-reference.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style"
+    },
+    {
+      "path": "exports/01-率土之滨/map-depth-20261028/bridge-composite-reference.png",
+      "sha256": "ee0a5c6547419673352023012712d8eacdcf2559669d8a2f2e41059d86c58592",
+      "role": "bridge camera and scale; excluded output"
+    },
+    {
+      "path": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5",
+      "role": "current crossing river and grass materials"
+    }
+  ],
+  "ruleReadEvidence": [
+    {
+      "path": "D:/work/wuxing-slg-iamge/AGENTS.md",
+      "sha256": "da53e17f66054d0bdd2acaec3feae3a0333f01be75610e7661f812d7c91a29ad"
+    },
+    {
+      "path": "D:/work/image/AGENTS.md",
+      "sha256": "b247ee3eda4d04bc367ca6c36ed220a4ca54eb4179aa573df57f357861e63d6b"
+    },
+    {
+      "path": "D:/work/wuxing-slg-iamge/config/image-generation.json",
+      "sha256": "7d1558e9aa43e5bfad6f379a3d034484f0877398ce1a31471bcf3779dad29eb4"
+    },
+    {
+      "path": "D:/work/wuxing-slg-iamge/docs/IMAGE_MODEL_POLICY.md",
+      "sha256": "462bb5ac795c6b8a063cd8f03ade9788150cbbf9a7fa8928669a9539afa3480e"
+    }
+  ],
+  "requestedAt": "2026-10-29T03:40:56.161Z",
+  "officialVerification": "Parent /root reverified official sources 2026-10-28",
+  "heavyLocalPause": true
+}

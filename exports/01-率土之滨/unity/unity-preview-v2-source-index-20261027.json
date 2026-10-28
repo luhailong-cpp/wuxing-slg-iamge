@@ -1,0 +1,4189 @@
+{
+  "schemaVersion": 2,
+  "preparedAtUtc": "2026-10-27T17:55:28.242003+00:00",
+  "scope": "111 static Sprite previewV2: corrected36 UI replace old36; other75 sourcePNG bytes unchanged",
+  "supersedesPreviewOnly": "exports/01-率土之滨/unity/unity-preview-source-index-20261027.json",
+  "assetCount": 111,
+  "replacedUISpriteCount": 36,
+  "unchangedOtherSpriteCount": 75,
+  "importConventions": {
+    "pixelsPerUnit": 100,
+    "spriteMode": "Single FullRect",
+    "compression": "Uncompressed RGBA32",
+    "mipmaps": false,
+    "npotScale": "None",
+    "alphaSource": "FromInput",
+    "alphaIsTransparency": false,
+    "uiCandidateBordersAppliedForIsolatedPreviewCount": 16,
+    "clientVerified": false
+  },
+  "limitations": [
+    "UI crops remain candidates, native alpha1 and narrow margins preserved.",
+    "GPU rendering and package roundtrip results are separate actual reports; source index preparation is not success evidence."
+  ],
+  "assets": [
+    {
+      "id": "button-primary-normal",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png.derivation.json",
+      "sourceRecordSha256": "1ba34c4563340c25df58a43e27c4450ce7e2f3e19048aa845befd81f28e70603",
+      "sourceSha256": "fc76f228e4f46d671f03f759dc5c8d2036f4ecba86b5f5e06e8d917f84d603e1",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-primary-normal.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 56102,
+      "sourceAlphaOne": 3053,
+      "sourceAlphaSemi": 45861,
+      "sourceAlphaOpaque": 37,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3053,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-primary-normal.json"
+    },
+    {
+      "id": "button-primary-pressed",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-pressed.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-primary-pressed.png.derivation.json",
+      "sourceRecordSha256": "78e9724f30378ac6f77582dcf582e98dfecea998cc1719a543127d1a15a1a89f",
+      "sourceSha256": "a3a9a21c44c00150cf144a2ad21fbebb63890b37a7224039b2cce7bce1c9e5ea",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-primary-pressed.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 56137,
+      "sourceAlphaOne": 2929,
+      "sourceAlphaSemi": 45824,
+      "sourceAlphaOpaque": 39,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 2929,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-pressed.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-primary-pressed.json"
+    },
+    {
+      "id": "button-primary-disabled",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png.derivation.json",
+      "sourceRecordSha256": "617bb0e73a8c68f0688291ff2eb639fd59fa620021bc38745c34ad2945cad64b",
+      "sourceSha256": "d6c623554697d101a705d82cfff025996cc93f29095ff9fd2c55a1aee2137290",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-primary-disabled.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 54410,
+      "sourceAlphaOne": 4527,
+      "sourceAlphaSemi": 47516,
+      "sourceAlphaOpaque": 74,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4527,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-primary-disabled.json"
+    },
+    {
+      "id": "button-primary-hover",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-hover.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-primary-hover.png.derivation.json",
+      "sourceRecordSha256": "57e481893bfac7b0599c35002fa5080757d937b84e6972647c49845ec0a781de",
+      "sourceSha256": "e7b09b90b04d9bc0812f58c9d0dcfc7765a00bee81170639bc18b6b0dfca4298",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-primary-hover.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 31988,
+      "sourceAlphaOne": 5848,
+      "sourceAlphaSemi": 70012,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 5848,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-hover.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-primary-hover.json"
+    },
+    {
+      "id": "button-secondary-normal",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json",
+      "sourceRecordSha256": "64b9b88d313ee80d0de1298b96be6ac5945f1ab8a7ead30694535c8e5de2bc9d",
+      "sourceSha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-secondary-normal.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 56742,
+      "sourceAlphaOne": 2452,
+      "sourceAlphaSemi": 45207,
+      "sourceAlphaOpaque": 51,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 2452,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-secondary-normal.json"
+    },
+    {
+      "id": "button-secondary-pressed",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-pressed.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-secondary-pressed.png.derivation.json",
+      "sourceRecordSha256": "98c15342c8ff857282a0c7bc157ed8cd9039bc83ffcedd3afd8395e8b1774fbd",
+      "sourceSha256": "d13d5e70e092c7e6f6c9a79f49638d17ca3893fb15e7802819c989842a236e72",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-secondary-pressed.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 55717,
+      "sourceAlphaOne": 3516,
+      "sourceAlphaSemi": 46218,
+      "sourceAlphaOpaque": 65,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3516,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-pressed.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-secondary-pressed.json"
+    },
+    {
+      "id": "button-secondary-disabled",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png.derivation.json",
+      "sourceRecordSha256": "a777c3d3b72656ca4d9d950ebc2df832da9d39a2244467e62da11dc1fc5f9fef",
+      "sourceSha256": "6dfd438d55eb2230582fabae596fcfdaf89d45773910fab662e90d6bfa6ee047",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-secondary-disabled.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 53951,
+      "sourceAlphaOne": 4979,
+      "sourceAlphaSemi": 47971,
+      "sourceAlphaOpaque": 78,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4979,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-secondary-disabled.json"
+    },
+    {
+      "id": "button-secondary-hover",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-hover.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/button-secondary-hover.png.derivation.json",
+      "sourceRecordSha256": "eae941c1229153fa7bfda626cbbca58bb44ba458283631f53cfbf471692a1c44",
+      "sourceSha256": "9d5530cd02421fad440f6d11927a9642ef72bd7fadba3e7f8883e78df535c0a1",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/button-secondary-hover.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 34171,
+      "sourceAlphaOne": 4206,
+      "sourceAlphaSemi": 67829,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4206,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-hover.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/button-secondary-hover.json"
+    },
+    {
+      "id": "tab-selected",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png.derivation.json",
+      "sourceRecordSha256": "acda982df8e743abeafffa2f748d686930e17800ecc4a28ecfd9cdea9c45309f",
+      "sourceSha256": "8911a2acb0acf90a3cf5811302f9d9246271ce00edfa773b8a7b54f9cd654954",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/tab-selected.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 55752,
+      "sourceAlphaOne": 3909,
+      "sourceAlphaSemi": 46241,
+      "sourceAlphaOpaque": 7,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3909,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/tab-selected.json"
+    },
+    {
+      "id": "tab-normal",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/tab-normal.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/tab-normal.png.derivation.json",
+      "sourceRecordSha256": "a6c6fff56727e2738c9aebe87727ab0680e561493f65d749827d9ae47d9cf842",
+      "sourceSha256": "479f1df20b96584b719b5f27415fdea8e99d0d0c037350b450e122ce1dc80a45",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/tab-normal.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 54924,
+      "sourceAlphaOne": 4153,
+      "sourceAlphaSemi": 47073,
+      "sourceAlphaOpaque": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4153,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/tab-normal.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/tab-normal.json"
+    },
+    {
+      "id": "tab-locked",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/tab-locked.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/tab-locked.png.derivation.json",
+      "sourceRecordSha256": "9e8bd464dcdc05759e85fa95cf456c7e2764ef92aa6e70bd96dd1e78c00fd069",
+      "sourceSha256": "dfa2c500a921d336905c76f05bbdb387551231fd073a786148eb059d01fedac1",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/tab-locked.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 53621,
+      "sourceAlphaOne": 5218,
+      "sourceAlphaSemi": 48370,
+      "sourceAlphaOpaque": 9,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 5218,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/tab-locked.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/tab-locked.json"
+    },
+    {
+      "id": "tab-notification",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/tab-notification.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/tab-notification.png.derivation.json",
+      "sourceRecordSha256": "20e5be73d829e1594fa152a0fce0b9cf171285136696f8d64dd089d193d6c7d0",
+      "sourceSha256": "945c88092fe612eb41ae4cce2ada79d85850a8605c3c6003675077b38c06f444",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/tab-notification.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 54359,
+      "sourceAlphaOne": 4168,
+      "sourceAlphaSemi": 47627,
+      "sourceAlphaOpaque": 14,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4168,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/tab-notification.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/tab-notification.json"
+    },
+    {
+      "id": "card-row-normal",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png.derivation.json",
+      "sourceRecordSha256": "32f30e71bc5b17d8423241083b43ad29fa80d016fb3181a8ab8d5c0586233b53",
+      "sourceSha256": "05be25b876d4531d8c1a7229ea9174a36361bc0515014e29ba3e2b3882735644",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/card-row-normal.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 48572,
+      "sourceAlphaOne": 3813,
+      "sourceAlphaSemi": 53326,
+      "sourceAlphaOpaque": 102,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3813,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/card-row-normal.json"
+    },
+    {
+      "id": "card-row-selected",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png.derivation.json",
+      "sourceRecordSha256": "afd6aad22e1affd2ce2053abecc1ecc552ca1501c8d0065e1681c12992b36445",
+      "sourceSha256": "e5f483500b3b25900e74c6ae70865d8027e52e50ea03ba5ee3f2bf78a4af40e9",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/card-row-selected.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 47895,
+      "sourceAlphaOne": 3835,
+      "sourceAlphaSemi": 54023,
+      "sourceAlphaOpaque": 82,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3835,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/card-row-selected.json"
+    },
+    {
+      "id": "card-row-disabled",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/card-row-disabled.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/card-row-disabled.png.derivation.json",
+      "sourceRecordSha256": "eb7e8fc5382b05a13df038af9ab8f56184709b67854e39efad8e8db83adb8567",
+      "sourceSha256": "81d3a51e24fbb293ef98be5c56c73ceab3899f3d824ef041c3e0626576b8b817",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/card-row-disabled.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 47363,
+      "sourceAlphaOne": 4626,
+      "sourceAlphaSemi": 54554,
+      "sourceAlphaOpaque": 83,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4626,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-disabled.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/card-row-disabled.json"
+    },
+    {
+      "id": "card-row-empty",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png.derivation.json",
+      "sourceRecordSha256": "c56ff108a5ca33852a9b692e37b70e35ad6fa9b379eff4ada96c7b106197c5bf",
+      "sourceSha256": "f0392af2988a136709b08cedd0784b0a7613c8a6b7445f8d89b53c3889a34722",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/card-row-empty.png",
+      "width": 500,
+      "height": 204,
+      "sourceAlphaZero": 49090,
+      "sourceAlphaOne": 3053,
+      "sourceAlphaSemi": 52899,
+      "sourceAlphaOpaque": 11,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3053,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": true,
+      "borderLeft": 128,
+      "borderBottom": 90,
+      "borderRight": 128,
+      "borderTop": 90,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/card-row-empty.json"
+    },
+    {
+      "id": "icon-wood",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png.derivation.json",
+      "sourceRecordSha256": "65370a27e0b0c63cc299be6ab6909835661a1b992a994af52c5969b25556472a",
+      "sourceSha256": "9f4edcbbe1dcbec3757922cdc2db77bd58525a5aa66e8db1f6e9ae4b95a70b24",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-wood.png",
+      "width": 321,
+      "height": 276,
+      "sourceAlphaZero": 34124,
+      "sourceAlphaOne": 3809,
+      "sourceAlphaSemi": 54428,
+      "sourceAlphaOpaque": 44,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3809,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            15,
+            22,
+            17,
+            13
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-wood.json"
+    },
+    {
+      "id": "icon-iron",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png.derivation.json",
+      "sourceRecordSha256": "e7477e580d8f4f029628a4d3eb2983aef1e37e158a0191f7e5e93bd905ee3023",
+      "sourceSha256": "b300d2383afa1a225888b413b7904416ea407203c139cec8de17595d87443619",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-iron.png",
+      "width": 288,
+      "height": 276,
+      "sourceAlphaZero": 30765,
+      "sourceAlphaOne": 3491,
+      "sourceAlphaSemi": 48698,
+      "sourceAlphaOpaque": 25,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3491,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            12,
+            18,
+            16,
+            17
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-iron.json"
+    },
+    {
+      "id": "icon-stone",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png.derivation.json",
+      "sourceRecordSha256": "c79d7fecc76af79edfdb1c8b8e5cc44cb2adeff92e16065632736dcdeff1cf2a",
+      "sourceSha256": "affb6e5da8ed971055e6d20094595ff0d432d1b8eb14d12eeb23d2cdcc7b0fa1",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-stone.png",
+      "width": 313,
+      "height": 272,
+      "sourceAlphaZero": 37929,
+      "sourceAlphaOne": 3418,
+      "sourceAlphaSemi": 47169,
+      "sourceAlphaOpaque": 38,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3418,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            13,
+            22,
+            24,
+            19
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-stone.json"
+    },
+    {
+      "id": "icon-grain",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png.derivation.json",
+      "sourceRecordSha256": "5e738285b0a3d86b40c6a91a77cfc6c9746f4373d58221e11e2e25f5b9b76f42",
+      "sourceSha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-grain.png",
+      "width": 316,
+      "height": 305,
+      "sourceAlphaZero": 38075,
+      "sourceAlphaOne": 4462,
+      "sourceAlphaSemi": 58279,
+      "sourceAlphaOpaque": 26,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4462,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            11,
+            21,
+            33,
+            16
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-grain.json"
+    },
+    {
+      "id": "icon-coin",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png.derivation.json",
+      "sourceRecordSha256": "21f43cb3016fd40ef6c838ca6ca33f237b29aec934965b226a4a55c817bcfc2a",
+      "sourceSha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-coin.png",
+      "width": 318,
+      "height": 252,
+      "sourceAlphaZero": 28885,
+      "sourceAlphaOne": 4033,
+      "sourceAlphaSemi": 51236,
+      "sourceAlphaOpaque": 15,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4033,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-coin.json"
+    },
+    {
+      "id": "icon-jade",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png.derivation.json",
+      "sourceRecordSha256": "95ccf060e203e817b06d8cf35f2c8688968f6dad5de61ef8195244ee8bdce8f6",
+      "sourceSha256": "e5953137c7472e8094451aaebb1273accf5386d6dc5b9158c484ee17d5602ec7",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-jade.png",
+      "width": 300,
+      "height": 310,
+      "sourceAlphaZero": 45455,
+      "sourceAlphaOne": 4989,
+      "sourceAlphaSemi": 47539,
+      "sourceAlphaOpaque": 6,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4989,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            19,
+            15,
+            18,
+            19
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-jade.json"
+    },
+    {
+      "id": "icon-tactic-exp",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png.derivation.json",
+      "sourceRecordSha256": "0d1e7539a231ecb3a5c0e518f861225914abb657a8db774d6610a2ec52e66796",
+      "sourceSha256": "1264796a71a4e8f59e1cb47f824b6e826c5d987367b546d3a8210a2c190f5512",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-tactic-exp.png",
+      "width": 325,
+      "height": 292,
+      "sourceAlphaZero": 34698,
+      "sourceAlphaOne": 6330,
+      "sourceAlphaSemi": 60179,
+      "sourceAlphaOpaque": 23,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 6330,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            14,
+            20,
+            20,
+            20
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-tactic-exp.json"
+    },
+    {
+      "id": "icon-reserve",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-reserve.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-reserve.png.derivation.json",
+      "sourceRecordSha256": "5e30db08d8dc7368699c96d6262866d0656a5e1f5681779b4b1cff1d2132f5eb",
+      "sourceSha256": "385c6ffd275edbf3c1b3129e58805a18d8ce49c6ccc5e6c442a3005d6c9eca7f",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-reserve.png",
+      "width": 303,
+      "height": 302,
+      "sourceAlphaZero": 40602,
+      "sourceAlphaOne": 4064,
+      "sourceAlphaSemi": 50893,
+      "sourceAlphaOpaque": 11,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4064,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-reserve.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-reserve.json"
+    },
+    {
+      "id": "icon-attack",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png.derivation.json",
+      "sourceRecordSha256": "0e150985a2bf17c0cd5bde220d9cb1454a84b26d34559ea6a06b73e91d37532a",
+      "sourceSha256": "28aaf6f82a4648cdca82e245a81851f0323a336f0e5e5b699c76e95f2e87eb65",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-attack.png",
+      "width": 320,
+      "height": 285,
+      "sourceAlphaZero": 36845,
+      "sourceAlphaOne": 9356,
+      "sourceAlphaSemi": 54321,
+      "sourceAlphaOpaque": 34,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 9356,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            24,
+            21,
+            20,
+            3
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-attack.json"
+    },
+    {
+      "id": "icon-defense",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png.derivation.json",
+      "sourceRecordSha256": "3320ea6fd639a9de53dd0ff93554230f0fa27dcf32931fdd1316b857c49bc599",
+      "sourceSha256": "073f05e16c53531eb8e5ea0de2feb2d5d4c04b4d40d0eb17be0915a3e4fb4368",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-defense.png",
+      "width": 281,
+      "height": 273,
+      "sourceAlphaZero": 24139,
+      "sourceAlphaOne": 3151,
+      "sourceAlphaSemi": 52553,
+      "sourceAlphaOpaque": 21,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 3151,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            17,
+            19,
+            18,
+            6
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-defense.json"
+    },
+    {
+      "id": "icon-strategy",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png.derivation.json",
+      "sourceRecordSha256": "04705d6d35c5ef6af7384c274f66cee84c5003676890105efa03c94b07caf4b8",
+      "sourceSha256": "dcdb901dfa5d0aa4d208f75b85eafec8e6c34a54686aa8089263f5f58282453b",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-strategy.png",
+      "width": 305,
+      "height": 309,
+      "sourceAlphaZero": 29392,
+      "sourceAlphaOne": 6919,
+      "sourceAlphaSemi": 64846,
+      "sourceAlphaOpaque": 7,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 6919,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            22,
+            16,
+            21,
+            2
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-strategy.json"
+    },
+    {
+      "id": "icon-speed",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png.derivation.json",
+      "sourceRecordSha256": "5b4464605144726ac63b717258ea6fa6f61c7ff77867a547a4b2b8a2958f5478",
+      "sourceSha256": "d921f3719872aa0d68a847f6818e9d39142a759b6b6ab5213c031ddcf4babb66",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-speed.png",
+      "width": 308,
+      "height": 312,
+      "sourceAlphaZero": 28608,
+      "sourceAlphaOne": 7195,
+      "sourceAlphaSemi": 67459,
+      "sourceAlphaOpaque": 29,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 7195,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-speed.json"
+    },
+    {
+      "id": "icon-siege",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png.derivation.json",
+      "sourceRecordSha256": "cb005d00773a9e7a1d9d4193e1a06b812b33fc7501c440ba6cccb6fd1eca0d95",
+      "sourceSha256": "407dc3dd961eb5a3933c65b9b4aa34c81a31846bbaf08c2672086396cb8ed9b8",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-siege.png",
+      "width": 342,
+      "height": 310,
+      "sourceAlphaZero": 40783,
+      "sourceAlphaOne": 5259,
+      "sourceAlphaSemi": 65191,
+      "sourceAlphaOpaque": 46,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 5259,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            22,
+            4,
+            14,
+            15
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-siege.json"
+    },
+    {
+      "id": "icon-stamina",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png.derivation.json",
+      "sourceRecordSha256": "6b8830d336ef6ce935f291397ed3f8ed60de7adb766614792c2b28b8e4c6bb03",
+      "sourceSha256": "7806d8577b4378bbad2f5738b1375140eb51b51a25c948eb826889cb2cbd32e4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-stamina.png",
+      "width": 298,
+      "height": 322,
+      "sourceAlphaZero": 35076,
+      "sourceAlphaOne": 4000,
+      "sourceAlphaSemi": 60842,
+      "sourceAlphaOpaque": 38,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4000,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            15,
+            8,
+            14,
+            16
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-stamina.json"
+    },
+    {
+      "id": "icon-timer",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png.derivation.json",
+      "sourceRecordSha256": "ee12cd34eda164da9d3f12574415a008e69b85af95815855d00f11e54cfe29b6",
+      "sourceSha256": "22a30cfb6c38951e75030b216c0daeb5ca180c6f2a062550ab95fae276907c5a",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-timer.png",
+      "width": 292,
+      "height": 301,
+      "sourceAlphaZero": 30715,
+      "sourceAlphaOne": 4122,
+      "sourceAlphaSemi": 57132,
+      "sourceAlphaOpaque": 45,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4122,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            24,
+            2,
+            20,
+            20
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-timer.json"
+    },
+    {
+      "id": "icon-lock",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/icon-lock.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/icon-lock.png.derivation.json",
+      "sourceRecordSha256": "986e8e95bd6a5d93ad9f4fc61a380c24c83ab503c8f7e531a6e92bd45c7a0950",
+      "sourceSha256": "c0d3f7c4b108b104e28920fc0a8e47f39d9baff9af6a4e057d18562827e22552",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/icon-lock.png",
+      "width": 311,
+      "height": 289,
+      "sourceAlphaZero": 37489,
+      "sourceAlphaOne": 4277,
+      "sourceAlphaSemi": 52318,
+      "sourceAlphaOpaque": 72,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 4277,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-lock.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/icon-lock.json"
+    },
+    {
+      "id": "panel-main",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json",
+      "sourceRecordSha256": "54d289f555400c9c93af17b980111cec496f1bcd29b722c2c0c909db2d32b1cc",
+      "sourceSha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/panel-main.png",
+      "width": 946,
+      "height": 550,
+      "sourceAlphaZero": 91276,
+      "sourceAlphaOne": 8456,
+      "sourceAlphaSemi": 429024,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 8456,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "NARROW_VISIBLE_GUTTER",
+          "value": [
+            20,
+            12,
+            14,
+            22
+          ],
+          "threshold": {
+            "preferredMinimumEachSidePx": 16
+          },
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/panel-main.json"
+    },
+    {
+      "id": "panel-confirm",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png.derivation.json",
+      "sourceRecordSha256": "683ae7f7d4e024b3ba4778bf4920e8dbf9804e2e54c33f656313deab1571de62",
+      "sourceSha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/panel-confirm.png",
+      "width": 568,
+      "height": 402,
+      "sourceAlphaZero": 42447,
+      "sourceAlphaOne": 6900,
+      "sourceAlphaSemi": 185889,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 6900,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/panel-confirm.json"
+    },
+    {
+      "id": "panel-dialogue",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png.derivation.json",
+      "sourceRecordSha256": "d4b3ad9d09c5c2c75822c9d250b2518a032d94464b865e9269c0bcae20a2dfe5",
+      "sourceSha256": "f8afc62592e23a429a524a25cdfa284ac0bc559406a4060bf27839986a109bf5",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/panel-dialogue.png",
+      "width": 1006,
+      "height": 310,
+      "sourceAlphaZero": 92355,
+      "sourceAlphaOne": 7829,
+      "sourceAlphaSemi": 219505,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 7829,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/panel-dialogue.json"
+    },
+    {
+      "id": "panel-detail",
+      "category": "UI",
+      "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+      "sourceRecord": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json",
+      "sourceRecordSha256": "f6854b6c0d6c493b00527270bb320083b0556601202b1f6133736ba3ef4bebab",
+      "sourceSha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/UI/panel-detail.png",
+      "width": 464,
+      "height": 540,
+      "sourceAlphaZero": 54524,
+      "sourceAlphaOne": 5668,
+      "sourceAlphaSemi": 196036,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_RETAINED",
+          "value": 5668,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+        },
+        {
+          "id": "CANDIDATE_ONLY",
+          "message": "16 common-frame controls may use candidate borders in an isolated Unity Sliced render; actual render evidence is separate, clientVerified staysfalse."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/UI/panel-detail.json"
+    },
+    {
+      "id": "main-city",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json",
+      "sourceRecordSha256": "7243271093ac473630d5815f42b87c724d0b939a261f984cae138fd405a5976c",
+      "sourceSha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/main-city.png",
+      "width": 445,
+      "height": 397,
+      "sourceAlphaZero": 85315,
+      "sourceAlphaOne": 4060,
+      "sourceAlphaSemi": 91331,
+      "sourceAlphaOpaque": 19,
+      "pivotX": 0.5123595505617977,
+      "pivotY": 0.08312342569269526,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5123595505617977,
+        0.9168765743073047
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4060,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/main-city.json"
+    },
+    {
+      "id": "branch-city",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/branch-city.png.derivation.json",
+      "sourceRecordSha256": "0aaf092720e7e00f4170387ba794eaf768ecca666602460c0f4fa28c3d67783b",
+      "sourceSha256": "cf9ea07241606ccfd228d90a1981eb373f87c8cad5a43bab0c9e67688891d2c4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/branch-city.png",
+      "width": 387,
+      "height": 397,
+      "sourceAlphaZero": 80049,
+      "sourceAlphaOne": 4537,
+      "sourceAlphaSemi": 73569,
+      "sourceAlphaOpaque": 21,
+      "pivotX": 0.4935400516795866,
+      "pivotY": 0.09823677581863977,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4935400516795866,
+        0.9017632241813602
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4537,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/branch-city.json"
+    },
+    {
+      "id": "garrison-city",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/garrison-city.png.derivation.json",
+      "sourceRecordSha256": "cd38a1af868ea9e2471e4027a62aa20f6979f719d088a2330adfe5b5de30fcae",
+      "sourceSha256": "3e84ed76abaef698571e198328e28ed6479063ecc5ed3cf2a918ab2b8cb2c8a8",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/garrison-city.png",
+      "width": 422,
+      "height": 397,
+      "sourceAlphaZero": 88293,
+      "sourceAlphaOne": 4195,
+      "sourceAlphaSemi": 79192,
+      "sourceAlphaOpaque": 49,
+      "pivotX": 0.49170616113744076,
+      "pivotY": 0.09823677581863977,
+      "sourceAnchorNormalizedTopLeft": [
+        0.49170616113744076,
+        0.9017632241813602
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4195,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/garrison-city.json"
+    },
+    {
+      "id": "fortress",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/fortress.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/fortress.png.derivation.json",
+      "sourceRecordSha256": "2b4d48e648b093595bc80a591ad01e3783c519d448823cd10b0cbbcd37977db9",
+      "sourceSha256": "19d22b35e6ca9175ba5a4f7176b5ad6954ce174a9fa44322eafc2e585d8ba2ff",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/fortress.png",
+      "width": 430,
+      "height": 384,
+      "sourceAlphaZero": 98782,
+      "sourceAlphaOne": 4600,
+      "sourceAlphaSemi": 66274,
+      "sourceAlphaOpaque": 64,
+      "pivotX": 0.5093023255813953,
+      "pivotY": 0.12760416666666663,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5093023255813953,
+        0.8723958333333334
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4600,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/fortress.json"
+    },
+    {
+      "id": "military-camp",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/military-camp.png.derivation.json",
+      "sourceRecordSha256": "1d1beb182165c5d909f4205433f35162cd156806462933fbdcfaf9ac38e23a6d",
+      "sourceSha256": "35115f89b9087a07483741cfacc2871aaaecccf90e8c3d43ea26abdd2ffccb42",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/military-camp.png",
+      "width": 406,
+      "height": 384,
+      "sourceAlphaZero": 76605,
+      "sourceAlphaOne": 4229,
+      "sourceAlphaSemi": 79257,
+      "sourceAlphaOpaque": 42,
+      "pivotX": 0.48645320197044334,
+      "pivotY": 0.11197916666666663,
+      "sourceAnchorNormalizedTopLeft": [
+        0.48645320197044334,
+        0.8880208333333334
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4229,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/military-camp.json"
+    },
+    {
+      "id": "county-city",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/county-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/county-city.png.derivation.json",
+      "sourceRecordSha256": "71d904aa79977bd139c3df36302fce733498560f450cd09ac32b7ce339d34545",
+      "sourceSha256": "eef027bc7df7a2a66591033dce5e4acb8ce055f6fcdcbd7916c8de7fd905e3a7",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/county-city.png",
+      "width": 418,
+      "height": 384,
+      "sourceAlphaZero": 78108,
+      "sourceAlphaOne": 3825,
+      "sourceAlphaSemi": 82360,
+      "sourceAlphaOpaque": 44,
+      "pivotX": 0.5023923444976076,
+      "pivotY": 0.09114583333333337,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5023923444976076,
+        0.9088541666666666
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3825,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/county-city.json"
+    },
+    {
+      "id": "commandery-city",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/commandery-city.png.derivation.json",
+      "sourceRecordSha256": "c171d2996e745d7042d7348924563fd746e5e43dbf937865c0068145f01a97c1",
+      "sourceSha256": "0ebd161bbbdcdb5ea5d41c9647547a95300dbd8dbc31b36468897d6d8b120c48",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/commandery-city.png",
+      "width": 430,
+      "height": 413,
+      "sourceAlphaZero": 85665,
+      "sourceAlphaOne": 5357,
+      "sourceAlphaSemi": 91903,
+      "sourceAlphaOpaque": 22,
+      "pivotX": 0.5151162790697674,
+      "pivotY": 0.15012106537530268,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5151162790697674,
+        0.8498789346246973
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5357,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/commandery-city.json"
+    },
+    {
+      "id": "provincial-capital",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/provincial-capital.png.derivation.json",
+      "sourceRecordSha256": "b87ed673b36c74888ec1ea1a9bb561b20bc39b297486e27745d52a79138c1318",
+      "sourceSha256": "2267c8fba4978c4f3f707e3a93368e35610a29ccd50fe0c1ceb6125ba9567287",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/provincial-capital.png",
+      "width": 398,
+      "height": 413,
+      "sourceAlphaZero": 76951,
+      "sourceAlphaOne": 4420,
+      "sourceAlphaSemi": 87317,
+      "sourceAlphaOpaque": 106,
+      "pivotX": 0.5113065326633166,
+      "pivotY": 0.16464891041162233,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5113065326633166,
+        0.8353510895883777
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4420,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 10,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/provincial-capital.json"
+    },
+    {
+      "id": "capital-city",
+      "category": "Map/cities",
+      "source": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/cities/capital-city.png.derivation.json",
+      "sourceRecordSha256": "4863336543ac50ee7efed9077beb0062da16bb3725264ca115f475068f7ff797",
+      "sourceSha256": "b0dd1f7e6bea8691b2927ce22a83c2d92c70a5b18fcd393443b3d2feb1413a9b",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/cities/capital-city.png",
+      "width": 426,
+      "height": 413,
+      "sourceAlphaZero": 74169,
+      "sourceAlphaOne": 5471,
+      "sourceAlphaSemi": 101705,
+      "sourceAlphaOpaque": 64,
+      "pivotX": 0.4788732394366197,
+      "pivotY": 0.10895883777239712,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4788732394366197,
+        0.8910411622276029
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5471,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 9,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/cities/capital-city.json"
+    },
+    {
+      "id": "city-hall",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/city-hall.png.derivation.json",
+      "sourceRecordSha256": "f3974d8141f12114c8ce86c248bfac8833eecd2cf06502fe065f29f5c6060c61",
+      "sourceSha256": "0cf60166fd24c6c311f34f5a90f10da3bd5c9baf0183aa4fedeb1cbf9b68d8f9",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/city-hall.png",
+      "width": 386,
+      "height": 355,
+      "sourceAlphaZero": 71199,
+      "sourceAlphaOne": 6539,
+      "sourceAlphaSemi": 65812,
+      "sourceAlphaOpaque": 19,
+      "pivotX": 0.5116580310880829,
+      "pivotY": 0.10422535211267603,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5116580310880829,
+        0.895774647887324
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 6539,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/city-hall.json"
+    },
+    {
+      "id": "training-ground",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/training-ground.png.derivation.json",
+      "sourceRecordSha256": "50c6b71c8a1eb06f7cf5a007a4515d9b4b3ac152c5835275955349c10cfb9775",
+      "sourceSha256": "024deabb0b713a8703a193ff1916dcbaed37a0b0b54d3cdd19c94e1ebbdfa2f4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/training-ground.png",
+      "width": 360,
+      "height": 355,
+      "sourceAlphaZero": 62414,
+      "sourceAlphaOne": 7062,
+      "sourceAlphaSemi": 65367,
+      "sourceAlphaOpaque": 19,
+      "pivotX": 0.5097222222222222,
+      "pivotY": 0.09014084507042253,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5097222222222222,
+        0.9098591549295775
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 7062,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/training-ground.json"
+    },
+    {
+      "id": "recruitment-hall",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png.derivation.json",
+      "sourceRecordSha256": "daa02194ac0c8b83cb45305e726637a129068386e5167df4dd75101b846e12a7",
+      "sourceSha256": "a7d9280a9af0b840f95bbd40ee3823d9a82cf6f4ef31bef45d642d4a156b4ced",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/recruitment-hall.png",
+      "width": 341,
+      "height": 355,
+      "sourceAlphaZero": 64831,
+      "sourceAlphaOne": 5699,
+      "sourceAlphaSemi": 56205,
+      "sourceAlphaOpaque": 19,
+      "pivotX": 0.4868035190615836,
+      "pivotY": 0.11267605633802813,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4868035190615836,
+        0.8873239436619719
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5699,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/recruitment-hall.json"
+    },
+    {
+      "id": "warehouse",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/warehouse.png.derivation.json",
+      "sourceRecordSha256": "10ab25b49f9f9099bf40af9ea47d20b495c8d9ca1ee16dbdaab23b0e6d25b7e0",
+      "sourceSha256": "389a2a8ac2e9fd0f06c608d383aaa6686abc5017842d96213f8667874efe6c4f",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/warehouse.png",
+      "width": 361,
+      "height": 355,
+      "sourceAlphaZero": 73339,
+      "sourceAlphaOne": 5468,
+      "sourceAlphaSemi": 54798,
+      "sourceAlphaOpaque": 18,
+      "pivotX": 0.4916897506925208,
+      "pivotY": 0.09859154929577463,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4916897506925208,
+        0.9014084507042254
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5468,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/warehouse.json"
+    },
+    {
+      "id": "residence",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/residence.png.derivation.json",
+      "sourceRecordSha256": "9a0d61ae402b1eed3d16d2eb94bcb8fc3a43b2af74754287e1831078753b3ff8",
+      "sourceSha256": "e9234ee6e5d062998321caf51ec080236578ddc614fc65620ccce42c818cbe73",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/residence.png",
+      "width": 385,
+      "height": 321,
+      "sourceAlphaZero": 53961,
+      "sourceAlphaOne": 6005,
+      "sourceAlphaSemi": 69609,
+      "sourceAlphaOpaque": 15,
+      "pivotX": 0.4974025974025974,
+      "pivotY": 0.049844236760124616,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4974025974025974,
+        0.9501557632398754
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 6005,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 13,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/residence.json"
+    },
+    {
+      "id": "market",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/market.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/market.png.derivation.json",
+      "sourceRecordSha256": "70a9e29ed792648af0da50ea82efb94a417e6366c6439cbe28c4676a520b08a5",
+      "sourceSha256": "5e0378de79b73fd1b8977110a044bdaff2b28b5cf3a999225fb0f28c8dc7248d",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/market.png",
+      "width": 369,
+      "height": 321,
+      "sourceAlphaZero": 57951,
+      "sourceAlphaOne": 5712,
+      "sourceAlphaSemi": 60482,
+      "sourceAlphaOpaque": 16,
+      "pivotX": 0.508130081300813,
+      "pivotY": 0.08722741433021808,
+      "sourceAnchorNormalizedTopLeft": [
+        0.508130081300813,
+        0.9127725856697819
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5712,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/market.json"
+    },
+    {
+      "id": "workshop",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/workshop.png.derivation.json",
+      "sourceRecordSha256": "93f1a4a9937bd0c46659f1d3ce5d9d6d9cd1fae745152ae94ad5c255203d8287",
+      "sourceSha256": "b2828ce790a51a7c6b289e990193a0cd6858fa42710349655abea1c7a43cfce8",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/workshop.png",
+      "width": 344,
+      "height": 321,
+      "sourceAlphaZero": 48287,
+      "sourceAlphaOne": 5157,
+      "sourceAlphaSemi": 62128,
+      "sourceAlphaOpaque": 9,
+      "pivotX": 0.5087209302325582,
+      "pivotY": 0.08722741433021808,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5087209302325582,
+        0.9127725856697819
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5157,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/workshop.json"
+    },
+    {
+      "id": "wall-segment",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/wall-segment.png.derivation.json",
+      "sourceRecordSha256": "c1aaab84a1af79f60885137e8dbff233e5f192b1794dfc136bfe6870f041202b",
+      "sourceSha256": "e6c72fa97367d7b763a9d60cc6bbeb4f45473a37e5cab2528c0db87297bcc4ae",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/wall-segment.png",
+      "width": 350,
+      "height": 321,
+      "sourceAlphaZero": 59003,
+      "sourceAlphaOne": 4619,
+      "sourceAlphaSemi": 53317,
+      "sourceAlphaOpaque": 30,
+      "pivotX": 0.49142857142857144,
+      "pivotY": 0.09345794392523366,
+      "sourceAnchorNormalizedTopLeft": [
+        0.49142857142857144,
+        0.9065420560747663
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4619,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/wall-segment.json"
+    },
+    {
+      "id": "city-gate",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/city-gate.png.derivation.json",
+      "sourceRecordSha256": "8f8a50b65555f68a1ad0ca3f996fcaacca0920a5a6a6381b4e2b72b8a2bee2da",
+      "sourceSha256": "263f0cb89d1523e48aa600f7acbf630fd06d72625af50546cc03846426834901",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/city-gate.png",
+      "width": 403,
+      "height": 375,
+      "sourceAlphaZero": 72444,
+      "sourceAlphaOne": 5423,
+      "sourceAlphaSemi": 78652,
+      "sourceAlphaOpaque": 29,
+      "pivotX": 0.5210918114143921,
+      "pivotY": 0.17866666666666664,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5210918114143921,
+        0.8213333333333334
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5423,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 9,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/city-gate.json"
+    },
+    {
+      "id": "bridge",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json",
+      "sourceRecordSha256": "a8bf1a98bdb43b753988e58458841a2c7bc194df163d29634340047080d1a667",
+      "sourceSha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/bridge.png",
+      "width": 334,
+      "height": 375,
+      "sourceAlphaZero": 87074,
+      "sourceAlphaOne": 5117,
+      "sourceAlphaSemi": 38153,
+      "sourceAlphaOpaque": 23,
+      "pivotX": 0.49550898203592814,
+      "pivotY": 0.19466666666666665,
+      "sourceAnchorNormalizedTopLeft": [
+        0.49550898203592814,
+        0.8053333333333333
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5117,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/bridge.json"
+    },
+    {
+      "id": "enemy-camp",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json",
+      "sourceRecordSha256": "2c69ba9bdaadc62d9b68505ceaf00e9937ae8f116019f296f14f0ae2b757b997",
+      "sourceSha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/enemy-camp.png",
+      "width": 374,
+      "height": 375,
+      "sourceAlphaZero": 71959,
+      "sourceAlphaOne": 4277,
+      "sourceAlphaSemi": 68257,
+      "sourceAlphaOpaque": 34,
+      "pivotX": 0.5013368983957219,
+      "pivotY": 0.16266666666666663,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5013368983957219,
+        0.8373333333333334
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4277,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/enemy-camp.json"
+    },
+    {
+      "id": "damaged-warehouse",
+      "category": "Map/buildings",
+      "source": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png.derivation.json",
+      "sourceRecordSha256": "a3d1da4a3358f1d4cac60bb4bc4471909a57efecfdb841c20de8a4dcbbc4510f",
+      "sourceSha256": "48b71a2738310167451334c7aa18afd3b6d24cfeaa4182fa131acf4d801e381f",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/buildings/damaged-warehouse.png",
+      "width": 337,
+      "height": 375,
+      "sourceAlphaZero": 72206,
+      "sourceAlphaOne": 4738,
+      "sourceAlphaSemi": 54157,
+      "sourceAlphaOpaque": 12,
+      "pivotX": 0.4821958456973294,
+      "pivotY": 0.18133333333333335,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4821958456973294,
+        0.8186666666666667
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4738,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/buildings/damaged-warehouse.json"
+    },
+    {
+      "id": "grassland",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json",
+      "sourceRecordSha256": "01958af27e8d03d7c0548d7fd57cf0da76abe6199f615bbabe71558489bc3726",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/grassland.png",
+      "width": 377,
+      "height": 290,
+      "sourceAlphaZero": 73746,
+      "sourceAlphaOne": 2484,
+      "sourceAlphaSemi": 35547,
+      "sourceAlphaOpaque": 37,
+      "pivotX": 0.5424403183023873,
+      "pivotY": 0.10689655172413792,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5424403183023873,
+        0.8931034482758621
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2484,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/grassland.json"
+    },
+    {
+      "id": "stone-road",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json",
+      "sourceRecordSha256": "054f9d31bb4d3de3059cd14e2a8cc2074cdf8165e8e3c0d68d0dc9e86cd96f97",
+      "sourceSha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/stone-road.png",
+      "width": 366,
+      "height": 290,
+      "sourceAlphaZero": 69622,
+      "sourceAlphaOne": 2862,
+      "sourceAlphaSemi": 36477,
+      "sourceAlphaOpaque": 41,
+      "pivotX": 0.4849726775956284,
+      "pivotY": 0.09310344827586203,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4849726775956284,
+        0.906896551724138
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2862,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/stone-road.json"
+    },
+    {
+      "id": "woodland",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/woodland.png.derivation.json",
+      "sourceRecordSha256": "48a2429247a0803d77da66b31c307ef9d80079f9dcfe93689ded9c9dea533025",
+      "sourceSha256": "189a79e2cffbc60edba98f51ef96f9d1c92690b10bad7ff7ef1b02044e6a9403",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/woodland.png",
+      "width": 331,
+      "height": 290,
+      "sourceAlphaZero": 51582,
+      "sourceAlphaOne": 3137,
+      "sourceAlphaSemi": 44382,
+      "sourceAlphaOpaque": 26,
+      "pivotX": 0.486404833836858,
+      "pivotY": 0.07241379310344831,
+      "sourceAnchorNormalizedTopLeft": [
+        0.486404833836858,
+        0.9275862068965517
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3137,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/woodland.json"
+    },
+    {
+      "id": "mountains",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/mountains.png.derivation.json",
+      "sourceRecordSha256": "c48e242d966fb582323779e33538799cf168f41cd5dc546b6bf528fe047f864c",
+      "sourceSha256": "a4966fe9f473631658837cd93b5ccebccd1fe76af70dbe2b47619d4ce14e27b6",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/mountains.png",
+      "width": 374,
+      "height": 290,
+      "sourceAlphaZero": 69877,
+      "sourceAlphaOne": 2594,
+      "sourceAlphaSemi": 38555,
+      "sourceAlphaOpaque": 28,
+      "pivotX": 0.4585561497326203,
+      "pivotY": 0.096551724137931,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4585561497326203,
+        0.903448275862069
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2594,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/mountains.json"
+    },
+    {
+      "id": "wheat-field",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "sourceRecordSha256": "2be5e79a2bbe7107899df91fadf3aeb561b760dcca7eacf4dce936c7628b1f50",
+      "sourceSha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/wheat-field.png",
+      "width": 377,
+      "height": 291,
+      "sourceAlphaZero": 69946,
+      "sourceAlphaOne": 3231,
+      "sourceAlphaSemi": 39731,
+      "sourceAlphaOpaque": 30,
+      "pivotX": 0.5397877984084881,
+      "pivotY": 0.10996563573883167,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5397877984084881,
+        0.8900343642611683
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3231,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/wheat-field.json"
+    },
+    {
+      "id": "iron-mine",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/iron-mine.png.derivation.json",
+      "sourceRecordSha256": "43cf04984e8872a00b592a53cd24c832f44557e8ef5446c75af9fecf59ed3642",
+      "sourceSha256": "636e3a70fa9236bc32463a092ae72019f13754cdf02d026ce43c9f1388a517cf",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/iron-mine.png",
+      "width": 366,
+      "height": 291,
+      "sourceAlphaZero": 61648,
+      "sourceAlphaOne": 2948,
+      "sourceAlphaSemi": 44821,
+      "sourceAlphaOpaque": 37,
+      "pivotX": 0.48633879781420764,
+      "pivotY": 0.08247422680412375,
+      "sourceAnchorNormalizedTopLeft": [
+        0.48633879781420764,
+        0.9175257731958762
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2948,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/iron-mine.json"
+    },
+    {
+      "id": "quarry",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/quarry.png.derivation.json",
+      "sourceRecordSha256": "b155fd5b2259607c0f8f417a21766d4807826fdb6bdd7cf05769d7b4369d476c",
+      "sourceSha256": "f42916022ef70daa5e14a1249e5dac47ff1c5318330ddb0aac4479a080b241a1",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/quarry.png",
+      "width": 334,
+      "height": 291,
+      "sourceAlphaZero": 57238,
+      "sourceAlphaOne": 2917,
+      "sourceAlphaSemi": 39908,
+      "sourceAlphaOpaque": 48,
+      "pivotX": 0.4820359281437126,
+      "pivotY": 0.09278350515463918,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4820359281437126,
+        0.9072164948453608
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2917,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/quarry.json"
+    },
+    {
+      "id": "river-bend",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-bend.png.derivation.json",
+      "sourceRecordSha256": "44c2fca8beca771edb835f903e874998df4e05045f75741fa8577a617c073dd7",
+      "sourceSha256": "1ab192b801bb9cbdf6a69ec73c07024748f94c28f2016d9ad22ac779808a49ae",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/river-bend.png",
+      "width": 371,
+      "height": 291,
+      "sourceAlphaZero": 66608,
+      "sourceAlphaOne": 3240,
+      "sourceAlphaSemi": 41312,
+      "sourceAlphaOpaque": 41,
+      "pivotX": 0.4743935309973046,
+      "pivotY": 0.09278350515463918,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4743935309973046,
+        0.9072164948453608
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3240,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/river-bend.json"
+    },
+    {
+      "id": "river-straight",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json",
+      "sourceRecordSha256": "591f1efc3e84f1e8dc85e7fc2cdd7e54599a50fdab20cfdb05e4fab76f2b7cd6",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/river-straight.png",
+      "width": 377,
+      "height": 314,
+      "sourceAlphaZero": 79742,
+      "sourceAlphaOne": 2928,
+      "sourceAlphaSemi": 38597,
+      "sourceAlphaOpaque": 39,
+      "pivotX": 0.5450928381962865,
+      "pivotY": 0.20382165605095537,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5450928381962865,
+        0.7961783439490446
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2928,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/river-straight.json"
+    },
+    {
+      "id": "river-bank",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-bank.png.derivation.json",
+      "sourceRecordSha256": "797826da88aaeeb68f728d09fff96aa49a795a6a95159ab0dafa128fb6b1614d",
+      "sourceSha256": "0850349a3551e3a3e49ba9f81b4ba8d24cb46e7cd871dde270c35f7721036435",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/river-bank.png",
+      "width": 366,
+      "height": 314,
+      "sourceAlphaZero": 70567,
+      "sourceAlphaOne": 3960,
+      "sourceAlphaSemi": 44328,
+      "sourceAlphaOpaque": 29,
+      "pivotX": 0.4849726775956284,
+      "pivotY": 0.16242038216560506,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4849726775956284,
+        0.8375796178343949
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3960,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/river-bank.json"
+    },
+    {
+      "id": "ferry",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/ferry.png.derivation.json",
+      "sourceRecordSha256": "90a973fab2b463b1c81f49faa1eae19cb72e863cf71eadc6e768738776145430",
+      "sourceSha256": "94399b62cc4aa8ff84ab3c9add568df5737dc2141e25e30168795670d124e577",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/ferry.png",
+      "width": 341,
+      "height": 314,
+      "sourceAlphaZero": 63117,
+      "sourceAlphaOne": 3673,
+      "sourceAlphaSemi": 43926,
+      "sourceAlphaOpaque": 31,
+      "pivotX": 0.501466275659824,
+      "pivotY": 0.15923566878980888,
+      "sourceAnchorNormalizedTopLeft": [
+        0.501466275659824,
+        0.8407643312101911
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3673,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/ferry.json"
+    },
+    {
+      "id": "building-plot",
+      "category": "Map/terrain",
+      "source": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/building-plot.png.derivation.json",
+      "sourceRecordSha256": "634311e6c8b164abcf978bfdeb6f05cc695ed9230e0ba066371da00454ec1729",
+      "sourceSha256": "0b867ee3dc8132ff4ba3bafc8a52f9dd79eaf2099e37127c1bf48e9c4cb86829",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Map/terrain/building-plot.png",
+      "width": 364,
+      "height": 314,
+      "sourceAlphaZero": 76180,
+      "sourceAlphaOne": 2451,
+      "sourceAlphaSemi": 38095,
+      "sourceAlphaOpaque": 21,
+      "pivotX": 0.46153846153846156,
+      "pivotY": 0.19426751592356684,
+      "sourceAnchorNormalizedTopLeft": [
+        0.46153846153846156,
+        0.8057324840764332
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2451,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Map/terrain/building-plot.json"
+    },
+    {
+      "id": "slash-arc",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/slash-arc.png",
+      "sourceRecord": "exports/01-率土之滨/fx/slash-arc.png.derivation.json",
+      "sourceRecordSha256": "33cc160e4765cf7edede16ef6e8fc0f1eddf3998e056e7210c8a9356ad36dd65",
+      "sourceSha256": "f99351842b8d0444c67c3d1e8202975c9c929e4563a6efc483025b6110c88dc4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/slash-arc.png",
+      "width": 457,
+      "height": 450,
+      "sourceAlphaZero": 84955,
+      "sourceAlphaOne": 37407,
+      "sourceAlphaSemi": 120695,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.49452954048140046,
+      "pivotY": 0.07333333333333336,
+      "sourceAnchorNormalizedTopLeft": [
+        0.49452954048140046,
+        0.9266666666666666
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 37407,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/slash-arc.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/slash-arc.json"
+    },
+    {
+      "id": "strategy-array",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/strategy-array.png",
+      "sourceRecord": "exports/01-率土之滨/fx/strategy-array.png.derivation.json",
+      "sourceRecordSha256": "8659ec419c7de677823bb9cc77ed6daeb7b9e44a3ee570d42d48f03c59540818",
+      "sourceSha256": "8387d21e6f90b06cb0437b274212f3e9dd795eb488ba144d02c5ddfea04359da",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/strategy-array.png",
+      "width": 435,
+      "height": 446,
+      "sourceAlphaZero": 73055,
+      "sourceAlphaOne": 30179,
+      "sourceAlphaSemi": 120955,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.4942528735632184,
+      "pivotY": 0.017937219730941756,
+      "sourceAnchorNormalizedTopLeft": [
+        0.4942528735632184,
+        0.9820627802690582
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 30179,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/strategy-array.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 8,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/strategy-array.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/strategy-array.json"
+    },
+    {
+      "id": "healing-light",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/healing-light.png",
+      "sourceRecord": "exports/01-率土之滨/fx/healing-light.png.derivation.json",
+      "sourceRecordSha256": "adbfefee64887190bb91127b311e30e067986c431aaa9e1ac726943f5b86d03a",
+      "sourceSha256": "6988d4c23fc8edbc9a29b352c53ba8fbb4e085234e6d9ee226e39e594f41bdf2",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/healing-light.png",
+      "width": 418,
+      "height": 480,
+      "sourceAlphaZero": 87350,
+      "sourceAlphaOne": 30200,
+      "sourceAlphaSemi": 113290,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5047846889952153,
+      "pivotY": 0.08750000000000002,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5047846889952153,
+        0.9125
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 30200,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/healing-light.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/healing-light.json"
+    },
+    {
+      "id": "buff-cloud",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/buff-cloud.png",
+      "sourceRecord": "exports/01-率土之滨/fx/buff-cloud.png.derivation.json",
+      "sourceRecordSha256": "4797ab34fb0a29690bcac907caa8baba684305e1f3907bbf09be24d529c63d20",
+      "sourceSha256": "b03d95ae5129b021ac02d876bf3076c537496a3f08a472eed93f77ab33c0ed90",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/buff-cloud.png",
+      "width": 464,
+      "height": 455,
+      "sourceAlphaZero": 90892,
+      "sourceAlphaOne": 31628,
+      "sourceAlphaSemi": 120225,
+      "sourceAlphaOpaque": 3,
+      "pivotX": 0.48814655172413796,
+      "pivotY": 0.0461538461538461,
+      "sourceAnchorNormalizedTopLeft": [
+        0.48814655172413796,
+        0.9538461538461539
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 31628,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/buff-cloud.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/buff-cloud.json"
+    },
+    {
+      "id": "debuff-mist",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/debuff-mist.png",
+      "sourceRecord": "exports/01-率土之滨/fx/debuff-mist.png.derivation.json",
+      "sourceRecordSha256": "3c9d62e94056a328a8306c6a1b7e6a6c673fcd3fe24d247b1b9bda9a1498193d",
+      "sourceSha256": "5e9cd2161e200da25ba2015d93799e29601b2156c602a1e6b542ea3c441fdaec",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/debuff-mist.png",
+      "width": 457,
+      "height": 437,
+      "sourceAlphaZero": 58205,
+      "sourceAlphaOne": 37103,
+      "sourceAlphaSemi": 141504,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.513129102844639,
+      "pivotY": 0.10068649885583525,
+      "sourceAnchorNormalizedTopLeft": [
+        0.513129102844639,
+        0.8993135011441648
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 37103,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/debuff-mist.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/debuff-mist.json"
+    },
+    {
+      "id": "fire",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/fire.png",
+      "sourceRecord": "exports/01-率土之滨/fx/fire.png.derivation.json",
+      "sourceRecordSha256": "8240d73f7f06390388fba2e64dae35355f6d46ceee253f5a86b425a3e4fb9aca",
+      "sourceSha256": "1c212f38d429c02a935c0596d55b6afc9e67d2ded577cbfef7de24f8e2500ab2",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/fire.png",
+      "width": 435,
+      "height": 443,
+      "sourceAlphaZero": 73849,
+      "sourceAlphaOne": 22116,
+      "sourceAlphaSemi": 118856,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.46781609195402296,
+      "pivotY": 0.13092550790067725,
+      "sourceAnchorNormalizedTopLeft": [
+        0.46781609195402296,
+        0.8690744920993227
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 22116,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/fire.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 8,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/fire.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/fire.json"
+    },
+    {
+      "id": "capture-circle",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/capture-circle.png",
+      "sourceRecord": "exports/01-率土之滨/fx/capture-circle.png.derivation.json",
+      "sourceRecordSha256": "82a95b35044c32bc0a9f620aa5a44122e2105071732ebae46d1209b8ccefb6f8",
+      "sourceSha256": "40c0df3f582e47b42cae33a66adb0e18110dc597aa365c88bd96eecf95d88ca4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/capture-circle.png",
+      "width": 418,
+      "height": 407,
+      "sourceAlphaZero": 57488,
+      "sourceAlphaOne": 23860,
+      "sourceAlphaSemi": 112638,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.49760765550239233,
+      "pivotY": 0.14250614250614246,
+      "sourceAnchorNormalizedTopLeft": [
+        0.49760765550239233,
+        0.8574938574938575
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 23860,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/capture-circle.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 10,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/capture-circle.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/capture-circle.json"
+    },
+    {
+      "id": "reward-glow",
+      "category": "StaticFX",
+      "source": "exports/01-率土之滨/fx/reward-glow.png",
+      "sourceRecord": "exports/01-率土之滨/fx/reward-glow.png.derivation.json",
+      "sourceRecordSha256": "a6e92f0f3c8e5e7b0b8e2a0585e282947f494882d59ca6432f77600d1a74718b",
+      "sourceSha256": "bf17b7291b5c7f59d686a61fa5a89402e9bb668411bc606dce86d285bff10a5a",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/StaticFX/reward-glow.png",
+      "width": 464,
+      "height": 432,
+      "sourceAlphaZero": 74565,
+      "sourceAlphaOne": 45678,
+      "sourceAlphaSemi": 125883,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5172413793103449,
+      "pivotY": 0.12037037037037035,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5172413793103449,
+        0.8796296296296297
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 45678,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/reward-glow.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/StaticFX/reward-glow.json"
+    },
+    {
+      "id": "metal-native",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/metal-native.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/metal-native.png.derived.json",
+      "sourceRecordSha256": "2c3c0ff1ea2b176f348b8a9dffe1a15aabe1fba63ab5fc98dcd14d165706d6d6",
+      "sourceSha256": "a8c7e43078fcaa3e3a13fedf856700cc0f12e9c6113bf109859a59864174a958",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/metal-native.png",
+      "width": 470,
+      "height": 480,
+      "sourceAlphaZero": 150360,
+      "sourceAlphaOne": 2622,
+      "sourceAlphaSemi": 75240,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/metal-native.json"
+    },
+    {
+      "id": "metal-32",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/metal-32.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/metal-32.png.derived.json",
+      "sourceRecordSha256": "b525943e4f4705f8ee162d69d23d059f92abf024c8dac3947d33983792b8b1dc",
+      "sourceSha256": "e21b7b9fb0702780dfac60ad90e47735040a1a79eb267ede6d0ed5f2964e7cb8",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/metal-32.png",
+      "width": 32,
+      "height": 32,
+      "sourceAlphaZero": 648,
+      "sourceAlphaOne": 25,
+      "sourceAlphaSemi": 336,
+      "sourceAlphaOpaque": 40,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/metal-32.json"
+    },
+    {
+      "id": "metal-64",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/metal-64.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/metal-64.png.derived.json",
+      "sourceRecordSha256": "02fd9e64375949495f106e2c9614929434a4af82311726d322f8c0cc1f528492",
+      "sourceSha256": "9a6b34f95e7e9325ee9c86808460b6296f7e5b826e8949fe4d9df919a6495c6e",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/metal-64.png",
+      "width": 64,
+      "height": 64,
+      "sourceAlphaZero": 2849,
+      "sourceAlphaOne": 45,
+      "sourceAlphaSemi": 1168,
+      "sourceAlphaOpaque": 79,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/metal-64.json"
+    },
+    {
+      "id": "metal-128",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/metal-128.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/metal-128.png.derived.json",
+      "sourceRecordSha256": "b07de01a67fabcc1cb1c8213167163f37fc45cc72cb40266f0c3018e439d0223",
+      "sourceSha256": "9e0709bac1f6e73df24b303e6b251973356a506107883eefb01de35785357fe8",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/metal-128.png",
+      "width": 128,
+      "height": 128,
+      "sourceAlphaZero": 11828,
+      "sourceAlphaOne": 87,
+      "sourceAlphaSemi": 4379,
+      "sourceAlphaOpaque": 177,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/metal-128.json"
+    },
+    {
+      "id": "wood-native",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/wood-native.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/wood-native.png.derived.json",
+      "sourceRecordSha256": "49a7a1f2bc5df82b8bbf9c6145af7f2b2db9a611e4eb6589dd222691056460c2",
+      "sourceSha256": "d30dee826b248af79557b5e3d51bc1298ec31634e421364c20919d48cfb9aba6",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/wood-native.png",
+      "width": 482,
+      "height": 456,
+      "sourceAlphaZero": 138735,
+      "sourceAlphaOne": 3556,
+      "sourceAlphaSemi": 81057,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/wood-native.json"
+    },
+    {
+      "id": "wood-32",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/wood-32.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/wood-32.png.derived.json",
+      "sourceRecordSha256": "59600fff262f1b25d1f38c188e8c2d91337d150ee24d15c25abcbd6c1535be44",
+      "sourceSha256": "18b23d93661f91d971e201c45bfc820b65e5c59e1c3865e7e948d170896cff90",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/wood-32.png",
+      "width": 32,
+      "height": 32,
+      "sourceAlphaZero": 643,
+      "sourceAlphaOne": 27,
+      "sourceAlphaSemi": 327,
+      "sourceAlphaOpaque": 54,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/wood-32.json"
+    },
+    {
+      "id": "wood-64",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/wood-64.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/wood-64.png.derived.json",
+      "sourceRecordSha256": "031a61381c205faee3be3cff46ffbbd13b2427dc73e4d3b3776f5368e1d9b4d0",
+      "sourceSha256": "fa75b544f741b46b10e364a35d361be1bf6b726704fba5d14d19739628024b11",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/wood-64.png",
+      "width": 64,
+      "height": 64,
+      "sourceAlphaZero": 2766,
+      "sourceAlphaOne": 67,
+      "sourceAlphaSemi": 1193,
+      "sourceAlphaOpaque": 137,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/wood-64.json"
+    },
+    {
+      "id": "wood-128",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/wood-128.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/wood-128.png.derived.json",
+      "sourceRecordSha256": "8b77c3962eea286297a1430caf43e34384a6eab249d66cf2a65ee31def57dd32",
+      "sourceSha256": "33105e1e340ed5700e8f4a46d00fd789586f9359caf5287fe201982ebde73d45",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/wood-128.png",
+      "width": 128,
+      "height": 128,
+      "sourceAlphaZero": 11729,
+      "sourceAlphaOne": 128,
+      "sourceAlphaSemi": 4399,
+      "sourceAlphaOpaque": 256,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/wood-128.json"
+    },
+    {
+      "id": "water-native",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/water-native.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/water-native.png.derived.json",
+      "sourceRecordSha256": "0446b763e1e7921720bf9801adb328fe5f442d36fd6d04ad0797187d4eff4970",
+      "sourceSha256": "9eb76d1ad7a191b8e510a380cf4fa6d12c6913d911cebdf5c6371eb41b48095c",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/water-native.png",
+      "width": 395,
+      "height": 460,
+      "sourceAlphaZero": 101148,
+      "sourceAlphaOne": 2895,
+      "sourceAlphaSemi": 80552,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/water-native.json"
+    },
+    {
+      "id": "water-32",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/water-32.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/water-32.png.derived.json",
+      "sourceRecordSha256": "b6d7cc71e770918932121b86b558797284ddb2614352cdee8a91453aafacd679",
+      "sourceSha256": "2a9655a09d57ca38c9910fe2c2508090f6dea0d34ec49f9a7d1a6f08000c7202",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/water-32.png",
+      "width": 32,
+      "height": 32,
+      "sourceAlphaZero": 614,
+      "sourceAlphaOne": 21,
+      "sourceAlphaSemi": 370,
+      "sourceAlphaOpaque": 40,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/water-32.json"
+    },
+    {
+      "id": "water-64",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/water-64.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/water-64.png.derived.json",
+      "sourceRecordSha256": "082815598dc7fc1ed2ce6c8351e68d10db055be64b13865b55484643ef9143f9",
+      "sourceSha256": "c5c7a7ccb7032a3251b407fc1bde28347fafcc34e3baa9360b2f34bb3727ba27",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/water-64.png",
+      "width": 64,
+      "height": 64,
+      "sourceAlphaZero": 2669,
+      "sourceAlphaOne": 52,
+      "sourceAlphaSemi": 1342,
+      "sourceAlphaOpaque": 85,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/water-64.json"
+    },
+    {
+      "id": "water-128",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/water-128.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/water-128.png.derived.json",
+      "sourceRecordSha256": "47e7954c8091fefecfd14c59e4565a70f4e35370f5272deaf3680980e51bd764",
+      "sourceSha256": "6874576c0d6f48541563197dc2f99ff4446b088c7d4a4d000f6cac44368ad1a5",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/water-128.png",
+      "width": 128,
+      "height": 128,
+      "sourceAlphaZero": 11131,
+      "sourceAlphaOne": 104,
+      "sourceAlphaSemi": 5086,
+      "sourceAlphaOpaque": 167,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/water-128.json"
+    },
+    {
+      "id": "fire-native",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/fire-native.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/fire-native.png.derived.json",
+      "sourceRecordSha256": "0cb2aafe941447916ad8caf938e70609a642f2430151e30bee390e210537e243",
+      "sourceSha256": "64992af0b9418844b26c7b5da300e45b8fe10a17d94c1a3ed2aa36d055904ffc",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/fire-native.png",
+      "width": 415,
+      "height": 472,
+      "sourceAlphaZero": 107177,
+      "sourceAlphaOne": 3173,
+      "sourceAlphaSemi": 88703,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/fire-native.json"
+    },
+    {
+      "id": "fire-32",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/fire-32.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/fire-32.png.derived.json",
+      "sourceRecordSha256": "71ca7d77a447f99d2b5ae6106414cf28503e3a91b487bd08c6764164184bc84e",
+      "sourceSha256": "4780d4e1f0025bef19e0791f8d8286b832e0de78bd5ecfa659611d1e5cf47886",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/fire-32.png",
+      "width": 32,
+      "height": 32,
+      "sourceAlphaZero": 579,
+      "sourceAlphaOne": 23,
+      "sourceAlphaSemi": 398,
+      "sourceAlphaOpaque": 47,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/fire-32.json"
+    },
+    {
+      "id": "fire-64",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/fire-64.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/fire-64.png.derived.json",
+      "sourceRecordSha256": "e9bb3080a7b07a8325c57213f2e52e5f96f41d72e0dec193b5e6b1ccbc3d1a2b",
+      "sourceSha256": "d09f464608bcbcb58e9f244326440feee0e0eefd167e0b93117567d4d486f185",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/fire-64.png",
+      "width": 64,
+      "height": 64,
+      "sourceAlphaZero": 2587,
+      "sourceAlphaOne": 40,
+      "sourceAlphaSemi": 1405,
+      "sourceAlphaOpaque": 104,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/fire-64.json"
+    },
+    {
+      "id": "fire-128",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/fire-128.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/fire-128.png.derived.json",
+      "sourceRecordSha256": "ea45858d88d751b04a253a65c11dcf68e9604f38a842fa282f2a3a8ab163d97b",
+      "sourceSha256": "77b98c5bc75bf435037d9a79e3f84421aa1e3b2af003c5f225c902c7ea15dd2d",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/fire-128.png",
+      "width": 128,
+      "height": 128,
+      "sourceAlphaZero": 10716,
+      "sourceAlphaOne": 135,
+      "sourceAlphaSemi": 5453,
+      "sourceAlphaOpaque": 215,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/fire-128.json"
+    },
+    {
+      "id": "earth-native",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/earth-native.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/earth-native.png.derived.json",
+      "sourceRecordSha256": "e87e32286596fdc6c56a89f4319360a854ed77cec737875a6cd557087a374967",
+      "sourceSha256": "7bea3aab160c1234132f9ea3a2bcb4c0485355d4e75a5a412d5f4dfbf169a29e",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/earth-native.png",
+      "width": 532,
+      "height": 400,
+      "sourceAlphaZero": 115856,
+      "sourceAlphaOne": 4273,
+      "sourceAlphaSemi": 96944,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/earth-native.json"
+    },
+    {
+      "id": "earth-32",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/earth-32.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/earth-32.png.derived.json",
+      "sourceRecordSha256": "78fc5408d2662c113cbf3b932bd841064032d9c5a8aba506299aab8e5102f1f0",
+      "sourceSha256": "da113e06cd7fc80eed4ad9f15158f8ff3ce78bff497d1b625de9f658459c44db",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/earth-32.png",
+      "width": 32,
+      "height": 32,
+      "sourceAlphaZero": 646,
+      "sourceAlphaOne": 15,
+      "sourceAlphaSemi": 340,
+      "sourceAlphaOpaque": 38,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/earth-32.json"
+    },
+    {
+      "id": "earth-64",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/earth-64.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/earth-64.png.derived.json",
+      "sourceRecordSha256": "9fc85f5444dc3a0652f0b877b8bbbe286052c43ef174b1f416c28b352c55df56",
+      "sourceSha256": "ba066d8a812e7251d016321ce6ac41a3666a2fafa4fe0340970d74e771c9d875",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/earth-64.png",
+      "width": 64,
+      "height": 64,
+      "sourceAlphaZero": 2748,
+      "sourceAlphaOne": 68,
+      "sourceAlphaSemi": 1250,
+      "sourceAlphaOpaque": 98,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/earth-64.json"
+    },
+    {
+      "id": "earth-128",
+      "category": "Emblems",
+      "source": "exports/01-率土之滨/five-elements/emblems/earth-128.png",
+      "sourceRecord": "exports/01-率土之滨/five-elements/emblems/earth-128.png.derived.json",
+      "sourceRecordSha256": "007aa1b26174817f1990ca29c0fa7b9a0871f05d6d25dde4afe56501f655b0f4",
+      "sourceSha256": "09eddd9f902a8b3c38757365d8f25a6a993f9174916ec2cccd66dac8f83987d4",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Emblems/earth-128.png",
+      "width": 128,
+      "height": 128,
+      "sourceAlphaZero": 11511,
+      "sourceAlphaOne": 158,
+      "sourceAlphaSemi": 4680,
+      "sourceAlphaOpaque": 193,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Emblems/earth-128.json"
+    },
+    {
+      "id": "01-metal-envoy-v1",
+      "category": "Characters",
+      "source": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "sourceRecordSha256": "210e71a0e43dd334acffe30dbed6f8f946ff5f05a509be0665e6e69b18cb4f74",
+      "sourceSha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Characters/01-metal-envoy-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "sourceAlphaZero": 870056,
+      "sourceAlphaOne": 36838,
+      "sourceAlphaSemi": 702808,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.5078125,
+      "pivotY": 0.04557291666666663,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        "Pivot is provisional bottom-center of significant-alpha bbox; not an approved animation registration anchor."
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Characters/01-metal-envoy-v1.json"
+    },
+    {
+      "id": "02-wood-envoy-v1",
+      "category": "Characters",
+      "source": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "sourceRecordSha256": "dd3800dfd429174d906029509e7bed4eef1810ec4607c0185e5a082e0bb041f7",
+      "sourceSha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Characters/02-wood-envoy-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "sourceAlphaZero": 946510,
+      "sourceAlphaOne": 29595,
+      "sourceAlphaSemi": 626354,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.541015625,
+      "pivotY": 0.07942708333333337,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        "Pivot is provisional bottom-center of significant-alpha bbox; not an approved animation registration anchor."
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Characters/02-wood-envoy-v1.json"
+    },
+    {
+      "id": "03-water-envoy-v1",
+      "category": "Characters",
+      "source": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "sourceRecordSha256": "87947f2cf3c1d2f9a7e35de8c1f5c798059808c95a6b9918ebd8787dc2697979",
+      "sourceSha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Characters/03-water-envoy-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "sourceAlphaZero": 835988,
+      "sourceAlphaOne": 23304,
+      "sourceAlphaSemi": 736876,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.50244140625,
+      "pivotY": 0.03515625,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        "Pivot is provisional bottom-center of significant-alpha bbox; not an approved animation registration anchor."
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Characters/03-water-envoy-v1.json"
+    },
+    {
+      "id": "04-fire-envoy-v1",
+      "category": "Characters",
+      "source": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "sourceRecordSha256": "5587ce0759dcfa73492fa2ed2338bac08ad69bba2916c02e31fcac2b87fa58e4",
+      "sourceSha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Characters/04-fire-envoy-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "sourceAlphaZero": 864454,
+      "sourceAlphaOne": 26120,
+      "sourceAlphaSemi": 708410,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.4970703125,
+      "pivotY": 0.04296875,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        "Pivot is provisional bottom-center of significant-alpha bbox; not an approved animation registration anchor."
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Characters/04-fire-envoy-v1.json"
+    },
+    {
+      "id": "05-earth-envoy-v1",
+      "category": "Characters",
+      "source": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "sourceRecordSha256": "cf6f24dba60acb7667f1a48373fbe171967bc473f5bc4d070ff902933432dd02",
+      "sourceSha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Characters/05-earth-envoy-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "sourceAlphaZero": 867482,
+      "sourceAlphaOne": 12279,
+      "sourceAlphaSemi": 705382,
+      "sourceAlphaOpaque": 0,
+      "pivotX": 0.51513671875,
+      "pivotY": 0.08919270833333337,
+      "sourceAnchorNormalizedTopLeft": null,
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        "Pivot is provisional bottom-center of significant-alpha bbox; not an approved animation registration anchor."
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Characters/05-earth-envoy-v1.json"
+    },
+    {
+      "id": "infantry-native",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/infantry-native.png",
+      "sourceRecord": "exports/01-率土之滨/units/infantry-native.png.derivation.json",
+      "sourceRecordSha256": "5a137646c17380e233d76695df1802073836171df8c246da9b1bcca947889026",
+      "sourceSha256": "07a1be8115580b894dc88656d586344e97a920766b975e9207d8cb9440d7d4e8",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/infantry-native.png",
+      "width": 809,
+      "height": 887,
+      "sourceAlphaZero": 368942,
+      "sourceAlphaOne": 6685,
+      "sourceAlphaSemi": 348395,
+      "sourceAlphaOpaque": 246,
+      "pivotX": 0.5,
+      "pivotY": 0.018038331454340528,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.9819616685456595
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/infantry-native.json"
+    },
+    {
+      "id": "infantry-64h",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/infantry-64h.png",
+      "sourceRecord": "exports/01-率土之滨/units/infantry-64h.png.derivation.json",
+      "sourceRecordSha256": "47d52dd4c77d60a1bef266d46a6b5699af36671f7981f4ca8d82e4f78efb2218",
+      "sourceSha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/infantry-64h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 63244,
+      "sourceAlphaOne": 88,
+      "sourceAlphaSemi": 2115,
+      "sourceAlphaOpaque": 177,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.875
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/infantry-64h.json"
+    },
+    {
+      "id": "infantry-128h",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/infantry-128h.png",
+      "sourceRecord": "exports/01-率土之滨/units/infantry-128h.png.derivation.json",
+      "sourceRecordSha256": "63ccca28725c278a5ed85b0f52e56b71932528cc5e174a22ceb217a03ff6bb68",
+      "sourceSha256": "f868bbf9ece22ce4e0a9dc991939718cd7efdb274b52f40b2fbc3eb48399f62e",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/infantry-128h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 57097,
+      "sourceAlphaOne": 209,
+      "sourceAlphaSemi": 8037,
+      "sourceAlphaOpaque": 402,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.875
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/infantry-128h.json"
+    },
+    {
+      "id": "archer-native",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/archer-native.png",
+      "sourceRecord": "exports/01-率土之滨/units/archer-native.png.derivation.json",
+      "sourceRecordSha256": "2fd6ea6829701f6963569fc695632540feb68fc396c9ec6ad3fba23bec647af3",
+      "sourceSha256": "264a45f0999607493e40952da2ef62f9af064791fadbead2eaab2ffa77de2180",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/archer-native.png",
+      "width": 758,
+      "height": 927,
+      "sourceAlphaZero": 370980,
+      "sourceAlphaOne": 9397,
+      "sourceAlphaSemi": 331210,
+      "sourceAlphaOpaque": 476,
+      "pivotX": 0.5,
+      "pivotY": 0.017259978425027023,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.982740021574973
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            322,
+            193,
+            206,
+            166
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/archer-native.json"
+    },
+    {
+      "id": "archer-64h",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/archer-64h.png",
+      "sourceRecord": "exports/01-率土之滨/units/archer-64h.png.derivation.json",
+      "sourceRecordSha256": "8ece00cef93c376e838a699fcdaec350e087f6d2e9e86530cef947ed890c4c2e",
+      "sourceSha256": "f1e31217e37212921940bf4f2656ca471ee585f86ceb0f4873c78225b4b7ccbb",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/archer-64h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 63494,
+      "sourceAlphaOne": 92,
+      "sourceAlphaSemi": 1864,
+      "sourceAlphaOpaque": 178,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.875
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            322,
+            193,
+            206,
+            166
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/archer-64h.json"
+    },
+    {
+      "id": "archer-128h",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/archer-128h.png",
+      "sourceRecord": "exports/01-率土之滨/units/archer-128h.png.derivation.json",
+      "sourceRecordSha256": "d6bd19f32221e70afe078b2f3d8bde2b0ca9c6857b91e8fe2df5bcca32fe69b5",
+      "sourceSha256": "6f2e4233bd370cb1919511b223e7d88c89d86998dfe95a973236c5f05d466e95",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/archer-128h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 58140,
+      "sourceAlphaOne": 190,
+      "sourceAlphaSemi": 6966,
+      "sourceAlphaOpaque": 430,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.875
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            322,
+            193,
+            206,
+            166
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/archer-128h.json"
+    },
+    {
+      "id": "cavalry-native",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/cavalry-native.png",
+      "sourceRecord": "exports/01-率土之滨/units/cavalry-native.png.derivation.json",
+      "sourceRecordSha256": "e9131f28b5c999006ece221b74eb7b31b30a163eff867cfef7ac0f33bad1c99f",
+      "sourceSha256": "c37c7e03039b4964bbd8ac09725bb500aa8282597cea1a8c070710ddbbe3ba1f",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/cavalry-native.png",
+      "width": 812,
+      "height": 1054,
+      "sourceAlphaZero": 426879,
+      "sourceAlphaOne": 11178,
+      "sourceAlphaSemi": 428625,
+      "sourceAlphaOpaque": 344,
+      "pivotX": 0.5,
+      "pivotY": 0.015180265654648917,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.9848197343453511
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            290,
+            146,
+            184,
+            86
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/cavalry-native.json"
+    },
+    {
+      "id": "cavalry-64h",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/cavalry-64h.png",
+      "sourceRecord": "exports/01-率土之滨/units/cavalry-64h.png.derivation.json",
+      "sourceRecordSha256": "4a9451dc76287eb9541ad083df6f267d01bbdd02ec33dd863fcfb5a1d5a1a103",
+      "sourceSha256": "e0b883a34abe253100d0b2dbda6abcfb24af429842cb8ba1e3a54d811ca740ea",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/cavalry-64h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 63531,
+      "sourceAlphaOne": 86,
+      "sourceAlphaSemi": 1838,
+      "sourceAlphaOpaque": 167,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.875
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            290,
+            146,
+            184,
+            86
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/cavalry-64h.json"
+    },
+    {
+      "id": "cavalry-128h",
+      "category": "Units",
+      "source": "exports/01-率土之滨/units/cavalry-128h.png",
+      "sourceRecord": "exports/01-率土之滨/units/cavalry-128h.png.derivation.json",
+      "sourceRecordSha256": "8751a952e01f51fa5f3210e1f930ee7f3033134a5d9bee6d107da532ed1654ee",
+      "sourceSha256": "9c0107893b3c950bda1f9eb6ae56c1847ba9d24c6a310c52e08b7777efd6a6d7",
+      "assetPath": "Assets/WuxingSLGArtPreviewV2/Units/cavalry-128h.png",
+      "width": 256,
+      "height": 256,
+      "sourceAlphaZero": 58219,
+      "sourceAlphaOne": 195,
+      "sourceAlphaSemi": 6919,
+      "sourceAlphaOpaque": 398,
+      "pivotX": 0.5,
+      "pivotY": 0.125,
+      "sourceAnchorNormalizedTopLeft": [
+        0.5,
+        0.875
+      ],
+      "previewPixelsPerUnit": 100,
+      "notes": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            290,
+            146,
+            184,
+            86
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png"
+        }
+      ],
+      "renderSlice": false,
+      "borderLeft": 0,
+      "borderBottom": 0,
+      "borderRight": 0,
+      "borderTop": 0,
+      "packageRecordPath": "Assets/WuxingSLGArtPreviewV2/Provenance/Records/Units/cavalry-128h.json"
+    }
+  ]
+}

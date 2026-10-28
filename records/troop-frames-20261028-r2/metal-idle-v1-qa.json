@@ -1,0 +1,184 @@
+{
+  "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v1.png",
+  "sha256": "f55884a5837c66f2d080748ffc007de3aeadda1440e743a9f7ca8896720cf694",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "format": "PNG",
+  "alpha": {
+    "zero": 998171,
+    "one": 67336,
+    "semi": 572016,
+    "opaque": 2329,
+    "min": 0,
+    "max": 255
+  },
+  "grid": {
+    "columns": 2,
+    "rows": 2,
+    "requestedCell": [
+      512,
+      512
+    ],
+    "actualExactCell": [
+      627,
+      627
+    ],
+    "rounding": "nearest grid edge"
+  },
+  "cells": [
+    {
+      "index": 1,
+      "box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          15,
+          627,
+          627
+        ],
+        "1": [
+          99,
+          93,
+          548,
+          626
+        ],
+        "16": [
+          102,
+          96,
+          546,
+          623
+        ]
+      },
+      "alpha16HeightRatio": 0.8405103668261563,
+      "alpha16BottomRatio": 0.9936204146730463,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "ee9c2609279e40ace9a7858b204be95a45b2a8a0a964f8280f1526dccf576517"
+    },
+    {
+      "index": 2,
+      "box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          1,
+          7,
+          613,
+          627
+        ],
+        "1": [
+          97,
+          94,
+          546,
+          627
+        ],
+        "16": [
+          100,
+          96,
+          544,
+          623
+        ]
+      },
+      "alpha16HeightRatio": 0.8405103668261563,
+      "alpha16BottomRatio": 0.9936204146730463,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "e21bfa2a4df02f977edc92963cdec68a32eff3bdf0cccccadf3f7d574bebec56"
+    },
+    {
+      "index": 3,
+      "box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          0,
+          627,
+          611
+        ],
+        "1": [
+          100,
+          62,
+          570,
+          595
+        ],
+        "16": [
+          102,
+          64,
+          567,
+          592
+        ]
+      },
+      "alpha16HeightRatio": 0.8421052631578947,
+      "alpha16BottomRatio": 0.9441786283891547,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "2b08c2382816f926fc880164127cf7874a7702d8085f1bf4f0f6a5f7a77d314c"
+    },
+    {
+      "index": 4,
+      "box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          0,
+          611,
+          611
+        ],
+        "1": [
+          99,
+          64,
+          549,
+          595
+        ],
+        "16": [
+          101,
+          66,
+          546,
+          592
+        ]
+      },
+      "alpha16HeightRatio": 0.8389154704944178,
+      "alpha16BottomRatio": 0.9441786283891547,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "83862d256576af068d926c827962ae00b48526ee8cade455ebc2a22527d625c7"
+    }
+  ],
+  "nativeUnmodified": true,
+  "rootPivot": "not manually accepted",
+  "formalAnimationApproved": false,
+  "visualReview": {
+    "viewed": [
+      "native original",
+      "full light composite",
+      "full dark composite"
+    ],
+    "identity": "Candidate identity retained: silver/gold/jade metal troop, screen-left sword and screen-right shield",
+    "alphaVisual": "Composites show clear background on light and dark; native preview RGB backdrop is not alpha-composited truth",
+    "distinctPoses": "Subtle changes in shield/eyes/shoulder; breathing cycle not playback-verified",
+    "blockingFindings": [
+      "Native sheet did not honor target body scale 64% or foot plane 82%; requires geometry correction and root validation",
+      "Native size 1254 square instead of requested1024; actual cells627 square",
+      "Across-row foot baseline drift"
+    ],
+    "status": "needs_geometry_revision_not_engine_ready"
+  }
+}

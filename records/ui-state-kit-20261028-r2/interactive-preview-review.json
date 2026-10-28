@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-29T05:23:34.737Z",
+  "route": "CUA in-app browser over localhost",
+  "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/interactive-preview.html",
+  "statesChecked": [
+    "tab selected changes",
+    "checkbox off/on",
+    "switch on/off",
+    "confirm/error/empty content",
+    "light/dark background",
+    "primary click feedback",
+    "disabled controls exposed disabled"
+  ],
+  "fix": "Disabled primary label contrast improved and visually rechecked",
+  "screenshot": "records/ui-state-kit-20261028-r2/interactive-preview-light.png",
+  "unverified": [
+    "Unity runtime",
+    "nine-slice",
+    "pressed frame transient screenshot"
+  ]
+}

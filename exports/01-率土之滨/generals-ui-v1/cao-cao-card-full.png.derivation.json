@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-card-full.png",
+  "sha256": "56cfb4abbdbd9f330c7ca35f903c2eb59b818d3f1c3c86c39bbb2d5fc1c0075b",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "cao-cao",
+  "displayName": "曹操",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/03-cao-cao-v1.png",
+      "sha256": "c0db4bf3c35683b1ada5c2b968692042a9e334381199a7a65b35d3c16cc76bf9",
+      "record": "designs/01-率土之滨/characters/03-cao-cao-v1.png.generation.json",
+      "recordSha256": "d0b8a5739e8a39101f74e37c9f32ad7fb522d35e8be06100c9a8a1fa83fe02e2"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    260,
+    670,
+    480
+  ],
+  "faceRoiOutputApprox": [
+    313.88,
+    226.75,
+    492.62,
+    378.0
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 443174,
+    "alpha1Pixels": 6129,
+    "semiTransparentPixels": 440241,
+    "opaquePixels": 1321,
+    "bboxAbove32": [
+      53,
+      60,
+      727,
+      1091
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      53,
+      60,
+      41,
+      61
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-card-full.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 6129,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/cao-cao-card-full.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

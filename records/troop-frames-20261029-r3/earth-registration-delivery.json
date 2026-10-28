@@ -1,0 +1,71 @@
+{
+  "unit": "earth",
+  "status": "technical_registration_candidate_not_user_or_engine_accepted",
+  "counts": {
+    "sourceSheets": 4,
+    "animationFrames": 20,
+    "native1024PNG": 20,
+    "normalized1024PNG": 20,
+    "map128hPNG": 20,
+    "exportPNG": 60,
+    "generatedNewSheetsThisStep": 0
+  },
+  "manifest": {
+    "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+    "sha256": "3513458655bb41c9a4419b76911eeb62f6090aec1ced29edc53d457398914de6"
+  },
+  "clips": {
+    "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/clips.json",
+    "sha256": "bd93c5fb073eae9de9ad1fb84a0eca449bcf356fbca07953e72044f92bb50fae"
+  },
+  "sourceSheetHashes": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-idle-se-v1.png",
+      "sha256": "078ad81111d12db0456f67ac38fb6859ca760ed186dcffd1c249ec3a00f97b8a"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-attack-se-v1.png",
+      "sha256": "cd0da5d4697cf7ea4ba3a1ee313c4cd824005095bc2035f184cf5080f7318dfe"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-hurt-se-v1.png",
+      "sha256": "84a21339df10b48f52cef5a8e73c6469118ddfc72d2612b15dcfafc5c9d61587"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-defeat-se-v1.png",
+      "sha256": "f2ccf16f70119832b204755b852f99ff50bb31818cba68ffbbba633326c0d9c5"
+    }
+  ],
+  "maxNormalizedRootErrorPx": 0.8486725663717607,
+  "masterMapAlpha16Height": 129,
+  "overview": [
+    {
+      "file": "records/troop-frames-20261029-r3/earth-registration-all-actions-map-light.png",
+      "sha256": "b7b3b30df81a164eed449877ad47465326527eda981034f6c6573ef391fe87e7"
+    },
+    {
+      "file": "records/troop-frames-20261029-r3/earth-registration-all-actions-map-dark.png",
+      "sha256": "4fbd1a69646b7bd26e3706f4543f2520e48704266f7756e64ed9ab3532ea42ca"
+    }
+  ],
+  "technicalChecks": {
+    "allNativeExactRGBA": true,
+    "sourceExactlyPartitionedOnce": true,
+    "oneScalePerAction": true,
+    "perFrameFit": false,
+    "outputBoundaryAlphaZero": true
+  },
+  "limits": [
+    "user approval of identity or final visual",
+    "motion smoothness and timing",
+    "individual feet do not slide",
+    "all generated proportions identical beyond measured neutral helmet width",
+    "Unity import or playback"
+  ],
+  "warnings": [
+    "Faint original alpha haze retained in native; resized alpha can quantize.",
+    "SE direction only; walk excluded.",
+    "Manual helmet/contact interpretation has artistic measurement uncertainty.",
+    "map128h is approximate: measured master alpha>16 height 129 px."
+  ]
+}

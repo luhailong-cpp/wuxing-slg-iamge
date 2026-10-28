@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "status": "drafts_checked_pending_user_review",
+  "reviewMethod": "主制作与独立子任务均实际查看图片，对照已确认风格主图；像素与透明通道以本地文件读取结果为准。",
+  "assets": [
+    {
+      "file": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "result": "direction_draft_deliverable",
+      "blockingIssues": [],
+      "checks": {
+        "styleContinuity": true,
+        "chineseLabelsReadable": true,
+        "controlsComplete": true,
+        "obviousClipping": false
+      },
+      "followUps": [
+        "用户确认方向后可降低地图细节密度",
+        "按目标终端尺寸调整右侧部队栏占幅"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/characters/01-spear-dao-general-v1.png",
+      "result": "direction_draft_deliverable",
+      "blockingIssues": [],
+      "checks": {
+        "styleContinuity": true,
+        "fullSpearVisible": true,
+        "capeAndFeetComplete": true,
+        "realAlphaVerified": true
+      },
+      "followUps": [
+        "正式切图按合同补透明外边距，枪尖当前距上边约10px",
+        "用户确认方向后可简化金甲纹样和高光"
+      ]
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

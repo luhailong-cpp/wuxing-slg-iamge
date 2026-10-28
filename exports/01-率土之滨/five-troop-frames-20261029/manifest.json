@@ -1,0 +1,4010 @@
+{
+  "schemaVersion": 1,
+  "game": "五行问鼎",
+  "createdAt": "2026-10-29T11:41:36.681Z",
+  "frameRoute": "direct image generated frames per user request",
+  "frameSourceReference": "https://github.com/0x0funky/agent-sprite-forge",
+  "direction": "SE",
+  "gridActions": [
+    "idle",
+    "attack",
+    "hurt",
+    "defeat"
+  ],
+  "frameCount": 100,
+  "derivativeVariants": [
+    "native1024",
+    "normalized1024",
+    "map128h"
+  ],
+  "playbackValidated": false,
+  "clientImported": false,
+  "walkAccepted": false,
+  "userFinalAccepted": false,
+  "commonCanvas": [
+    384,
+    384
+  ],
+  "commonRootTopLeft": [
+    192,
+    288
+  ],
+  "unityPivot": [
+    0.5,
+    0.25
+  ],
+  "units": [
+    {
+      "id": "metal",
+      "name": "金兵",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceManifestSha256": "460cea2c74fdae669a6609da4e4b0b0b2a949c04e9d62be22ac92a7696045a32",
+      "actions": [
+        {
+          "id": "idle",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "metal",
+              "action": "idle",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-01.png",
+              "sha256": "1e0087cd94f15f3f4673983883185b6ca821305347d0f7eedff716f3ad466914",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-01.png"
+            },
+            {
+              "unit": "metal",
+              "action": "idle",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-02.png",
+              "sha256": "bb0ed36d37ffcf00578affdd8f22f5dbdd705035ed6e0299da36263b4f7f5c1c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-02.png"
+            },
+            {
+              "unit": "metal",
+              "action": "idle",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-03.png",
+              "sha256": "1c5c104d1ff0d8529d733051b67423646833ca63248f9d4ec6e159cffe3db198",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-03.png"
+            },
+            {
+              "unit": "metal",
+              "action": "idle",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-04.png",
+              "sha256": "1d6421b128be203e28dc72b5f42fcdd0fd6dd1df8b14526ea4c61a7de3c99ffb",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-04.png"
+            }
+          ]
+        },
+        {
+          "id": "attack",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "metal",
+              "action": "attack",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-01.png",
+              "sha256": "1634663d3be65b0b86721b5e437f092235a0265ed08dd5d39c8a82834635f6f6",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-01.png"
+            },
+            {
+              "unit": "metal",
+              "action": "attack",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-02.png",
+              "sha256": "825ccc4465ace1631a2db21800e201137da286fa673832bc56fb88c7cf0e0efc",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-02.png"
+            },
+            {
+              "unit": "metal",
+              "action": "attack",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-03.png",
+              "sha256": "e8f4129e6881ec49c080cef90a19fee7dcfad3bb71599dd097dfb5880bd01b15",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-03.png"
+            },
+            {
+              "unit": "metal",
+              "action": "attack",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-04.png",
+              "sha256": "cbc064d36ae999ff562d5f5562ba1957fd4c42e1be956e83baab52efc287a732",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 70,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-04.png"
+            },
+            {
+              "unit": "metal",
+              "action": "attack",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-05.png",
+              "sha256": "00b6f8407155bad92c3fa9b2ecc65793cb39b89e57c40fbd39b4f2e7d8735f65",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-05.png"
+            },
+            {
+              "unit": "metal",
+              "action": "attack",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-06.png",
+              "sha256": "df0510c58032650bbf218bdf25da9f55194a693af107b260adb125861a711f7a",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-06.png"
+            }
+          ]
+        },
+        {
+          "id": "hurt",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "metal",
+              "action": "hurt",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-01.png",
+              "sha256": "320c86c6f64afe5ffc6549e48ddfdde436f048763465b5091458ce3a7346bbff",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-01.png"
+            },
+            {
+              "unit": "metal",
+              "action": "hurt",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-02.png",
+              "sha256": "4010062f27d0e320456ec8268171cb93d28c7f64c41fe5e40671001d1eb62f0d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-02.png"
+            },
+            {
+              "unit": "metal",
+              "action": "hurt",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-03.png",
+              "sha256": "99184e00df9796e07f6d37a17a1b4eb3a3a958e6a774117f23260511ae39a9dd",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-03.png"
+            },
+            {
+              "unit": "metal",
+              "action": "hurt",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-04.png",
+              "sha256": "fd5eed7aa9165560c431d6e63b4013d7b4a95854b082d3b25cfa7a96b3446cc9",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-04.png"
+            }
+          ]
+        },
+        {
+          "id": "defeat",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "metal",
+              "action": "defeat",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-01.png",
+              "sha256": "775ba88dd470a65f2cbefd1e25314ef330ffe872edc13ed27e1d89049fa6a4ca",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-01.png"
+            },
+            {
+              "unit": "metal",
+              "action": "defeat",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-02.png",
+              "sha256": "4a5afe412fadbf456923cd2938c48e788a10f31a950dbf6b520c57cf03a3806d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-02.png"
+            },
+            {
+              "unit": "metal",
+              "action": "defeat",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-03.png",
+              "sha256": "d7652c548eeac00381126dc78bb0621e2b3b81c56ffc82048f9245a0de6b3cc7",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-03.png"
+            },
+            {
+              "unit": "metal",
+              "action": "defeat",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-04.png",
+              "sha256": "62ed4d42e476c79ab1cae20ac26002831eb1ad4c6d4e1ecd8e7e73d4e55692f2",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 200,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-04.png"
+            },
+            {
+              "unit": "metal",
+              "action": "defeat",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-05.png",
+              "sha256": "e07c784799df882f425f61c1fe2a3aa194a2ea4951bb0ef9805faf44a6d09f4a",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 200,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-05.png"
+            },
+            {
+              "unit": "metal",
+              "action": "defeat",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-06.png",
+              "sha256": "c9ce5feb3e7b0e269448f783015d0ddbc3a14735d8c7b0e8087057f260ee43fe",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 600,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-06.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "name": "木兵",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceManifestSha256": "e36a58ad0b480ac23a14c3309305887cb8e567fa5d76a4875921491a3c7548a0",
+      "actions": [
+        {
+          "id": "idle",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "wood",
+              "action": "idle",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-01.png",
+              "sha256": "094157bedb54617f3753b2ef81a1b197ca7448c2d2eeda027a4843eb8281baf5",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-01.png"
+            },
+            {
+              "unit": "wood",
+              "action": "idle",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-02.png",
+              "sha256": "9e4806e087ee2258b2afa3e65306e2dfed8ab08b5a9ce98ab08f7a87f4f5a47b",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-02.png"
+            },
+            {
+              "unit": "wood",
+              "action": "idle",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-03.png",
+              "sha256": "fe9971fdb70c57432f29091e9260870f1d4e7d755454c451be3bc1bac3ef228e",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-03.png"
+            },
+            {
+              "unit": "wood",
+              "action": "idle",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-04.png",
+              "sha256": "e97e020fb44e9bf98481900debc86a3748bf6d34a39c561bee51d4de2ed1668d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-04.png"
+            }
+          ]
+        },
+        {
+          "id": "attack",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "wood",
+              "action": "attack",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-01.png",
+              "sha256": "12db92616d675417be839a3e2f4d2c290d57d26877a883bd46e16f24f6e04b2c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 140,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-01.png"
+            },
+            {
+              "unit": "wood",
+              "action": "attack",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-02.png",
+              "sha256": "567799a79580086e006516f92b6180ccc74eac8463d5d9490f9384e126ac8a54",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 110,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-02.png"
+            },
+            {
+              "unit": "wood",
+              "action": "attack",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-03.png",
+              "sha256": "67bae748a8f29866f04a2a40d81fcb97c28ee67da27ad277c417d8fd7b17e028",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-03.png"
+            },
+            {
+              "unit": "wood",
+              "action": "attack",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-04.png",
+              "sha256": "ded118fff9a53a18b44b375ee11c879acbd320052c99baa39b3a7416465e1e5d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 70,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-04.png"
+            },
+            {
+              "unit": "wood",
+              "action": "attack",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-05.png",
+              "sha256": "eb4b5d6e2fd303763dc44836ca9f5ec2e1c0c994d473b9c43acb5cb81065abd4",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 110,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-05.png"
+            },
+            {
+              "unit": "wood",
+              "action": "attack",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-06.png",
+              "sha256": "e431f0fa78b21aad85d04cc1543d703d805b78cbd2d7d980697401667d97e64d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 170,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-06.png"
+            }
+          ]
+        },
+        {
+          "id": "hurt",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "wood",
+              "action": "hurt",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+              "sha256": "c3981e53a926fa162cc7c495cf2e765b04c4b1b11a9730e54dc71c336f0ef468",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-01.png"
+            },
+            {
+              "unit": "wood",
+              "action": "hurt",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+              "sha256": "4e97ff3eda5135dfeb05b25bc324c2eb526e2d8e2ee2b7ab5822e51593c21d04",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-02.png"
+            },
+            {
+              "unit": "wood",
+              "action": "hurt",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+              "sha256": "fcd0ae88d5a47329757b195e1890c0dcd392046b967380c56edc6653a480bfaa",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 140,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-03.png"
+            },
+            {
+              "unit": "wood",
+              "action": "hurt",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+              "sha256": "c67afccda7f9ebd632fe2d9b90eb49c99af6adcbbdb01e15a5745b91edbae4e2",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-04.png"
+            }
+          ]
+        },
+        {
+          "id": "defeat",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "wood",
+              "action": "defeat",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+              "sha256": "290c448e060cb53e44485c3a3c22ae251f003bb2e7460ebed3a5fe9b047983ac",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-01.png"
+            },
+            {
+              "unit": "wood",
+              "action": "defeat",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+              "sha256": "586541df8abfbaa8546ee6ca08b24ffa0845354fe101c320441908be0e1f923b",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 140,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-02.png"
+            },
+            {
+              "unit": "wood",
+              "action": "defeat",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+              "sha256": "95b144c740f5e4408e33b0262b18ecd16b9001c42cce816accdbe126bc317311",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-03.png"
+            },
+            {
+              "unit": "wood",
+              "action": "defeat",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+              "sha256": "37af1095d0288ef26c2a10d6e11d9a6468df879605098a28d0d95cf9936dcdeb",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-04.png"
+            },
+            {
+              "unit": "wood",
+              "action": "defeat",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+              "sha256": "9773e4f07143fd7f0fb0510aa1cef043c97120b8492ad1817fcfefcec0022a5c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 220,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-05.png"
+            },
+            {
+              "unit": "wood",
+              "action": "defeat",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+              "sha256": "77e624d367e97f0c95a2971e295d396d0325d7c764ce23b8f20c7740c3d15131",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 600,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-06.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "水兵",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceManifestSha256": "a03e19907dce33d295bc0889d2a67d506a34e05a9e64e861df6d6a244131cbaf",
+      "actions": [
+        {
+          "id": "idle",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "water",
+              "action": "idle",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-01.png",
+              "sha256": "34513c746e5a37e32eafcd54aef0fa3a115c2be165616f1ad4c71c3dadc93531",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-01.png"
+            },
+            {
+              "unit": "water",
+              "action": "idle",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-02.png",
+              "sha256": "4fed82d7afa52bbddaa9e8cbf52163827a6649dd35cd56c943caa8b68a0a1100",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-02.png"
+            },
+            {
+              "unit": "water",
+              "action": "idle",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-03.png",
+              "sha256": "2de5005d0f605539827e2520e68779677dd5c86ce88ec23717fce4e50c9dae25",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-03.png"
+            },
+            {
+              "unit": "water",
+              "action": "idle",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-04.png",
+              "sha256": "6eb2b089f5b552e2f18949990af42b97e9f3b5c1831eb7b96cbc3dc11c848bde",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 280,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-04.png"
+            }
+          ]
+        },
+        {
+          "id": "attack",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "water",
+              "action": "attack",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-01.png",
+              "sha256": "78118bdd32b3c68c90c54a9e5182793a549061e9b1a372fbc485dfc8daa9da21",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 140,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-01.png"
+            },
+            {
+              "unit": "water",
+              "action": "attack",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-02.png",
+              "sha256": "b3640e76e6b66e0700c3cd5437c356a3489f96d8d48c359a41896ad032e3f2d9",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 110,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-02.png"
+            },
+            {
+              "unit": "water",
+              "action": "attack",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-03.png",
+              "sha256": "a81d272501182c76c457527c32fe52215188c16580dc36595f121aa80cabad1e",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-03.png"
+            },
+            {
+              "unit": "water",
+              "action": "attack",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-04.png",
+              "sha256": "f8a419a29702c1e96a937c682e37df0b57d27cecc55b5b2b01ffed6e7badc74a",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 70,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-04.png"
+            },
+            {
+              "unit": "water",
+              "action": "attack",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-05.png",
+              "sha256": "dc21c266a903dd1c5be425af15172e51f5118446f839808de067cf441e4cea9e",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 110,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-05.png"
+            },
+            {
+              "unit": "water",
+              "action": "attack",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-06.png",
+              "sha256": "d11a6465702c7ed20644dfddb0fd957c2805816873df1f790488a9b311c59d7c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 170,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-06.png"
+            }
+          ]
+        },
+        {
+          "id": "hurt",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "water",
+              "action": "hurt",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+              "sha256": "9aeee732833727ca8f2d521ba6524ce59c51b0e2b455a166c8bf41c0cabb0423",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-01.png"
+            },
+            {
+              "unit": "water",
+              "action": "hurt",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+              "sha256": "7717e6daffa5d67efd0a433891b4828cd534925e4b529d05615f7ea287e8803d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-02.png"
+            },
+            {
+              "unit": "water",
+              "action": "hurt",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+              "sha256": "4c83727bbbbc8cc646b4d36bb22c3572e5c1ae52583e9b2f5ba451f31774f70f",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 140,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-03.png"
+            },
+            {
+              "unit": "water",
+              "action": "hurt",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+              "sha256": "eb3cfeede5af6811cb2bfce30c68db8c67c3faa2f638f1ad390ad3949f805a9b",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-04.png"
+            }
+          ]
+        },
+        {
+          "id": "defeat",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "water",
+              "action": "defeat",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+              "sha256": "ebe8966c6bf320c2a2086fe24ce640ffc8209aef741dc5f0260cf913550089d5",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-01.png"
+            },
+            {
+              "unit": "water",
+              "action": "defeat",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+              "sha256": "387daf3569a9fed560b983f3ba77d248f3c2dc1dc62e413855e2aba3ddf73f49",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 140,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-02.png"
+            },
+            {
+              "unit": "water",
+              "action": "defeat",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+              "sha256": "12d28356b81b34c224a1f9ac7492fd250b13028fa2f809f2b4e28b027330da39",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-03.png"
+            },
+            {
+              "unit": "water",
+              "action": "defeat",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+              "sha256": "93f5700301ae54c03ac3ad5a05386d432d12a3d35eb4fc575aa251b15a734f9c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-04.png"
+            },
+            {
+              "unit": "water",
+              "action": "defeat",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+              "sha256": "cbafabdc9e1f131209db22928ffff3aaff02af595257db3acbab45075d143ea0",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 220,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-05.png"
+            },
+            {
+              "unit": "water",
+              "action": "defeat",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+              "sha256": "f4f73d05b3b516f79586ce979a9cb468f3a19a422718113a0f1e61e1aa0568f6",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 600,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-06.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "火兵",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceManifestSha256": "d75c0056df64718d4788c08d7fbc5361464a0d9d2d0c7054efebcad1d016a49c",
+      "actions": [
+        {
+          "id": "idle",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "fire",
+              "action": "idle",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-01.png",
+              "sha256": "4de7c5b9baa75b0cc50af8831ab77f8dcc4be45ac629939890077ec9cb6704d8",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-01.png"
+            },
+            {
+              "unit": "fire",
+              "action": "idle",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-02.png",
+              "sha256": "7f77c222f5c28d9cb2bda2ff07b0d2572c553870cae8ee9f1b2d1c0c7bfb8a00",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-02.png"
+            },
+            {
+              "unit": "fire",
+              "action": "idle",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-03.png",
+              "sha256": "f8b77770f972fb25d9c9cfe81d9d5b4aa8aa1807131ad1c961a7a05e0309780e",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-03.png"
+            },
+            {
+              "unit": "fire",
+              "action": "idle",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-04.png",
+              "sha256": "004ca4d5ab59253024d72d84af706952f6469ba25fa72ef9446a2f5f2df31a11",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-04.png"
+            }
+          ]
+        },
+        {
+          "id": "attack",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "fire",
+              "action": "attack",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-01.png",
+              "sha256": "4f3fbf54a8b4acc8488879887ce87ca8b9f3b5911d6c9a55984aa82d5db617a2",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-01.png"
+            },
+            {
+              "unit": "fire",
+              "action": "attack",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-02.png",
+              "sha256": "cd25c5a2ae010d1418642b6aff01df9d7df43bdce949d616de69bd377fe67f5c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-02.png"
+            },
+            {
+              "unit": "fire",
+              "action": "attack",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-03.png",
+              "sha256": "e9d71ed29221b78d50d86bc81be37872ba60100477a007078b476e9d3e00d20c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-03.png"
+            },
+            {
+              "unit": "fire",
+              "action": "attack",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-04.png",
+              "sha256": "606f3d9489e82b8a4215b82c4a7a02c4c0b0824a76c9531d79514e53f62f82b5",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 70,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-04.png"
+            },
+            {
+              "unit": "fire",
+              "action": "attack",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-05.png",
+              "sha256": "eef13f1d36739f467eb88d8ee5c4af02187e1724df6ec113ca7702f971cf932c",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-05.png"
+            },
+            {
+              "unit": "fire",
+              "action": "attack",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-06.png",
+              "sha256": "cd6c64de2f1dac41265c62f747c7db9a176f9fdeb0c1f197360c7a82741bad16",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-06.png"
+            }
+          ]
+        },
+        {
+          "id": "hurt",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "fire",
+              "action": "hurt",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+              "sha256": "aaf20ccd115c41bd55dd84839ff88f83beb7c4d290d11dd1eab9d8b476f71e8d",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-01.png"
+            },
+            {
+              "unit": "fire",
+              "action": "hurt",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+              "sha256": "cd2bef2392bbd89ec986297496f9f4d2ea711ebd9866c4e16f0e6f45938fff15",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-02.png"
+            },
+            {
+              "unit": "fire",
+              "action": "hurt",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+              "sha256": "9351340cfac8ac28ae5a897f1621f1f336bfb302fd0e01730347913d4dd27232",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-03.png"
+            },
+            {
+              "unit": "fire",
+              "action": "hurt",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+              "sha256": "34ff270aa7fd75ee7b68c26e31da47261ffb0dc97edd7134eccd4890132c9743",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-04.png"
+            }
+          ]
+        },
+        {
+          "id": "defeat",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "fire",
+              "action": "defeat",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+              "sha256": "060b7f3f2ddcfb8d770d0a2cc149bc81bcfcdc29762bf16bbf13fbe5c0fed3e5",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-01.png"
+            },
+            {
+              "unit": "fire",
+              "action": "defeat",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+              "sha256": "187b93928658d0f64e494004c71dfc065cf03fdfb7a143b64e8eb671e0edd782",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-02.png"
+            },
+            {
+              "unit": "fire",
+              "action": "defeat",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+              "sha256": "48041d2e21e91a6d83b2fbafe8ab07c94081966c2ebce2f446ae2122217fd258",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-03.png"
+            },
+            {
+              "unit": "fire",
+              "action": "defeat",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+              "sha256": "e9a2f6678eedc61c0f784e11243db89d8e254bfef3a1d0ec893daddc8f2f3085",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 200,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-04.png"
+            },
+            {
+              "unit": "fire",
+              "action": "defeat",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+              "sha256": "20aa64635a33320149bac827b0ab94bb33e264bb633015c1933fae72ae19bdb2",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 200,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-05.png"
+            },
+            {
+              "unit": "fire",
+              "action": "defeat",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+              "sha256": "542ca7f5862e9f296b240372c998bbab62be83e2ff4271e0b3fa92a2bb568043",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 600,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-06.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "土兵",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceManifestSha256": "3513458655bb41c9a4419b76911eeb62f6090aec1ced29edc53d457398914de6",
+      "actions": [
+        {
+          "id": "idle",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "earth",
+              "action": "idle",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-01.png",
+              "sha256": "4ae9fec91ea43afb071b1b780c4f3d71541cee63f1483b2a2caf061e384e1e1a",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-01.png"
+            },
+            {
+              "unit": "earth",
+              "action": "idle",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-02.png",
+              "sha256": "fa81e5ed11bf0444208b6e71f53003f6f994649ea7049c6653678f8a7699aed9",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-02.png"
+            },
+            {
+              "unit": "earth",
+              "action": "idle",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-03.png",
+              "sha256": "a346ac3c7b6e351cea17364b2d3191ba4b0da31ad1e9637580da28a6fda5e604",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-03.png"
+            },
+            {
+              "unit": "earth",
+              "action": "idle",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-04.png",
+              "sha256": "414a6e98c31e1afc916b77a320de291344aae9ecaddbc595cf6c8741fe687426",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 250,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-04.png"
+            }
+          ]
+        },
+        {
+          "id": "attack",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "earth",
+              "action": "attack",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-01.png",
+              "sha256": "0ab7e5b5d3dbbb7674b02966978220dc973a559d5588b9c3cf8f0de804b09032",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-01.png"
+            },
+            {
+              "unit": "earth",
+              "action": "attack",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-02.png",
+              "sha256": "8dc14655daf0df935a544be3088b24b4b15ab13713e4463adcb0eecc57881c03",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-02.png"
+            },
+            {
+              "unit": "earth",
+              "action": "attack",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-03.png",
+              "sha256": "b59826b618184b5e75f58d9c6406dd55265e365a7b3ba9fb016be4d3075f1317",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-03.png"
+            },
+            {
+              "unit": "earth",
+              "action": "attack",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-04.png",
+              "sha256": "5ecfe04feda29955270c92b9bde80e6ecc264998b83c6ee8108cc66f9d1252b5",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 70,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-04.png"
+            },
+            {
+              "unit": "earth",
+              "action": "attack",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-05.png",
+              "sha256": "be130c9d3c14f845706baa20e5d9946279ce40d9ad567080a8a5ecbdd3f5b79f",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-05.png"
+            },
+            {
+              "unit": "earth",
+              "action": "attack",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-06.png",
+              "sha256": "69282a7f0eba4985c1227720195f35932d9ef01435699bf813dd06fe9a59999b",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-06.png"
+            }
+          ]
+        },
+        {
+          "id": "hurt",
+          "frameCount": 4,
+          "frames": [
+            {
+              "unit": "earth",
+              "action": "hurt",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+              "sha256": "f51c9b2a3d10f8c0fd87b42074eddcfd6ee035637bccd016791adb66085b325a",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-01.png"
+            },
+            {
+              "unit": "earth",
+              "action": "hurt",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+              "sha256": "65c0df5363ae97e45bb644afd822faf880a4e87beaa3684bab3049061e98b47b",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 100,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-02.png"
+            },
+            {
+              "unit": "earth",
+              "action": "hurt",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+              "sha256": "e65deb1ca2bf429ffd12c8cd64d288489ee4e43277f8e6da2348a03b77c8d924",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-03.png"
+            },
+            {
+              "unit": "earth",
+              "action": "hurt",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+              "sha256": "4151cea702df196bd0f5c8006dfe6265a9d91cacb9e039865a0032769d365b42",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 180,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-04.png"
+            }
+          ]
+        },
+        {
+          "id": "defeat",
+          "frameCount": 6,
+          "frames": [
+            {
+              "unit": "earth",
+              "action": "defeat",
+              "index": 1,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+              "sha256": "a083d6419aa68c598889d4f28aa4c635acb311250aca86f7b092aa17acf69e14",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 1,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-01.png"
+            },
+            {
+              "unit": "earth",
+              "action": "defeat",
+              "index": 2,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+              "sha256": "2f49d0dd70870c25fb2a10b065e8bed360dd2891f8d711066630c0bc1ffccb04",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 2,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 120,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-02.png"
+            },
+            {
+              "unit": "earth",
+              "action": "defeat",
+              "index": 3,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+              "sha256": "82ab6c228079da25a22d7b756cac0b745e21ac78c82fd7e3c01f8a5bcbacbc1b",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 3,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 160,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-03.png"
+            },
+            {
+              "unit": "earth",
+              "action": "defeat",
+              "index": 4,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+              "sha256": "529188e5b503a0266dbef5fdbcc91b01cd91cfc24b59a56ed8176e95a2b5e298",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 4,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 200,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-04.png"
+            },
+            {
+              "unit": "earth",
+              "action": "defeat",
+              "index": 5,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+              "sha256": "3a63b78a98d5db8d84d1cafe0f3864b7fde1791016ecd6108a852c1e5befab00",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 5,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 200,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-05.png"
+            },
+            {
+              "unit": "earth",
+              "action": "defeat",
+              "index": 6,
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+              "sha256": "ead0fc8048328b7201bf0972c4e7f6ed2136a992e549bcf2a12b17c26f776994",
+              "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+              "sourceIndex": 6,
+              "canvas": [
+                384,
+                384
+              ],
+              "pivot": [
+                0.5,
+                0.25
+              ],
+              "durationMsProposal": 600,
+              "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-06.png"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "unit": "metal",
+      "action": "idle",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "1e0087cd94f15f3f4673983883185b6ca821305347d0f7eedff716f3ad466914",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-01.png"
+    },
+    {
+      "unit": "metal",
+      "action": "idle",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-02.png",
+      "sha256": "bb0ed36d37ffcf00578affdd8f22f5dbdd705035ed6e0299da36263b4f7f5c1c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-02.png"
+    },
+    {
+      "unit": "metal",
+      "action": "idle",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-03.png",
+      "sha256": "1c5c104d1ff0d8529d733051b67423646833ca63248f9d4ec6e159cffe3db198",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-03.png"
+    },
+    {
+      "unit": "metal",
+      "action": "idle",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-04.png",
+      "sha256": "1d6421b128be203e28dc72b5f42fcdd0fd6dd1df8b14526ea4c61a7de3c99ffb",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/idle/idle-04.png"
+    },
+    {
+      "unit": "metal",
+      "action": "attack",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-01.png",
+      "sha256": "1634663d3be65b0b86721b5e437f092235a0265ed08dd5d39c8a82834635f6f6",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-01.png"
+    },
+    {
+      "unit": "metal",
+      "action": "attack",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-02.png",
+      "sha256": "825ccc4465ace1631a2db21800e201137da286fa673832bc56fb88c7cf0e0efc",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-02.png"
+    },
+    {
+      "unit": "metal",
+      "action": "attack",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-03.png",
+      "sha256": "e8f4129e6881ec49c080cef90a19fee7dcfad3bb71599dd097dfb5880bd01b15",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-03.png"
+    },
+    {
+      "unit": "metal",
+      "action": "attack",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-04.png",
+      "sha256": "cbc064d36ae999ff562d5f5562ba1957fd4c42e1be956e83baab52efc287a732",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 70,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-04.png"
+    },
+    {
+      "unit": "metal",
+      "action": "attack",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-05.png",
+      "sha256": "00b6f8407155bad92c3fa9b2ecc65793cb39b89e57c40fbd39b4f2e7d8735f65",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-05.png"
+    },
+    {
+      "unit": "metal",
+      "action": "attack",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/attack/map128h/attack-06.png",
+      "sha256": "df0510c58032650bbf218bdf25da9f55194a693af107b260adb125861a711f7a",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/attack/attack-06.png"
+    },
+    {
+      "unit": "metal",
+      "action": "hurt",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-01.png",
+      "sha256": "320c86c6f64afe5ffc6549e48ddfdde436f048763465b5091458ce3a7346bbff",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-01.png"
+    },
+    {
+      "unit": "metal",
+      "action": "hurt",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-02.png",
+      "sha256": "4010062f27d0e320456ec8268171cb93d28c7f64c41fe5e40671001d1eb62f0d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-02.png"
+    },
+    {
+      "unit": "metal",
+      "action": "hurt",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-03.png",
+      "sha256": "99184e00df9796e07f6d37a17a1b4eb3a3a958e6a774117f23260511ae39a9dd",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-03.png"
+    },
+    {
+      "unit": "metal",
+      "action": "hurt",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/hurt/map128h/hurt-04.png",
+      "sha256": "fd5eed7aa9165560c431d6e63b4013d7b4a95854b082d3b25cfa7a96b3446cc9",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/hurt/hurt-04.png"
+    },
+    {
+      "unit": "metal",
+      "action": "defeat",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-01.png",
+      "sha256": "775ba88dd470a65f2cbefd1e25314ef330ffe872edc13ed27e1d89049fa6a4ca",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-01.png"
+    },
+    {
+      "unit": "metal",
+      "action": "defeat",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-02.png",
+      "sha256": "4a5afe412fadbf456923cd2938c48e788a10f31a950dbf6b520c57cf03a3806d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-02.png"
+    },
+    {
+      "unit": "metal",
+      "action": "defeat",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-03.png",
+      "sha256": "d7652c548eeac00381126dc78bb0621e2b3b81c56ffc82048f9245a0de6b3cc7",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-03.png"
+    },
+    {
+      "unit": "metal",
+      "action": "defeat",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-04.png",
+      "sha256": "62ed4d42e476c79ab1cae20ac26002831eb1ad4c6d4e1ecd8e7e73d4e55692f2",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 200,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-04.png"
+    },
+    {
+      "unit": "metal",
+      "action": "defeat",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-05.png",
+      "sha256": "e07c784799df882f425f61c1fe2a3aa194a2ea4951bb0ef9805faf44a6d09f4a",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 200,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-05.png"
+    },
+    {
+      "unit": "metal",
+      "action": "defeat",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/defeat/map128h/defeat-06.png",
+      "sha256": "c9ce5feb3e7b0e269448f783015d0ddbc3a14735d8c7b0e8087057f260ee43fe",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 600,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/metal/defeat/defeat-06.png"
+    },
+    {
+      "unit": "wood",
+      "action": "idle",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "094157bedb54617f3753b2ef81a1b197ca7448c2d2eeda027a4843eb8281baf5",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-01.png"
+    },
+    {
+      "unit": "wood",
+      "action": "idle",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-02.png",
+      "sha256": "9e4806e087ee2258b2afa3e65306e2dfed8ab08b5a9ce98ab08f7a87f4f5a47b",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-02.png"
+    },
+    {
+      "unit": "wood",
+      "action": "idle",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-03.png",
+      "sha256": "fe9971fdb70c57432f29091e9260870f1d4e7d755454c451be3bc1bac3ef228e",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-03.png"
+    },
+    {
+      "unit": "wood",
+      "action": "idle",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-04.png",
+      "sha256": "e97e020fb44e9bf98481900debc86a3748bf6d34a39c561bee51d4de2ed1668d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/idle/idle-04.png"
+    },
+    {
+      "unit": "wood",
+      "action": "attack",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-01.png",
+      "sha256": "12db92616d675417be839a3e2f4d2c290d57d26877a883bd46e16f24f6e04b2c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 140,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-01.png"
+    },
+    {
+      "unit": "wood",
+      "action": "attack",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-02.png",
+      "sha256": "567799a79580086e006516f92b6180ccc74eac8463d5d9490f9384e126ac8a54",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 110,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-02.png"
+    },
+    {
+      "unit": "wood",
+      "action": "attack",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-03.png",
+      "sha256": "67bae748a8f29866f04a2a40d81fcb97c28ee67da27ad277c417d8fd7b17e028",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-03.png"
+    },
+    {
+      "unit": "wood",
+      "action": "attack",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-04.png",
+      "sha256": "ded118fff9a53a18b44b375ee11c879acbd320052c99baa39b3a7416465e1e5d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 70,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-04.png"
+    },
+    {
+      "unit": "wood",
+      "action": "attack",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-05.png",
+      "sha256": "eb4b5d6e2fd303763dc44836ca9f5ec2e1c0c994d473b9c43acb5cb81065abd4",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 110,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-05.png"
+    },
+    {
+      "unit": "wood",
+      "action": "attack",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-06.png",
+      "sha256": "e431f0fa78b21aad85d04cc1543d703d805b78cbd2d7d980697401667d97e64d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 170,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/attack/attack-06.png"
+    },
+    {
+      "unit": "wood",
+      "action": "hurt",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+      "sha256": "c3981e53a926fa162cc7c495cf2e765b04c4b1b11a9730e54dc71c336f0ef468",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-01.png"
+    },
+    {
+      "unit": "wood",
+      "action": "hurt",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+      "sha256": "4e97ff3eda5135dfeb05b25bc324c2eb526e2d8e2ee2b7ab5822e51593c21d04",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-02.png"
+    },
+    {
+      "unit": "wood",
+      "action": "hurt",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+      "sha256": "fcd0ae88d5a47329757b195e1890c0dcd392046b967380c56edc6653a480bfaa",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 140,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-03.png"
+    },
+    {
+      "unit": "wood",
+      "action": "hurt",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+      "sha256": "c67afccda7f9ebd632fe2d9b90eb49c99af6adcbbdb01e15a5745b91edbae4e2",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/hurt/hurt-04.png"
+    },
+    {
+      "unit": "wood",
+      "action": "defeat",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+      "sha256": "290c448e060cb53e44485c3a3c22ae251f003bb2e7460ebed3a5fe9b047983ac",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-01.png"
+    },
+    {
+      "unit": "wood",
+      "action": "defeat",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+      "sha256": "586541df8abfbaa8546ee6ca08b24ffa0845354fe101c320441908be0e1f923b",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 140,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-02.png"
+    },
+    {
+      "unit": "wood",
+      "action": "defeat",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+      "sha256": "95b144c740f5e4408e33b0262b18ecd16b9001c42cce816accdbe126bc317311",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-03.png"
+    },
+    {
+      "unit": "wood",
+      "action": "defeat",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+      "sha256": "37af1095d0288ef26c2a10d6e11d9a6468df879605098a28d0d95cf9936dcdeb",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-04.png"
+    },
+    {
+      "unit": "wood",
+      "action": "defeat",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+      "sha256": "9773e4f07143fd7f0fb0510aa1cef043c97120b8492ad1817fcfefcec0022a5c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 220,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-05.png"
+    },
+    {
+      "unit": "wood",
+      "action": "defeat",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+      "sha256": "77e624d367e97f0c95a2971e295d396d0325d7c764ce23b8f20c7740c3d15131",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 600,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/wood/defeat/defeat-06.png"
+    },
+    {
+      "unit": "water",
+      "action": "idle",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "34513c746e5a37e32eafcd54aef0fa3a115c2be165616f1ad4c71c3dadc93531",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-01.png"
+    },
+    {
+      "unit": "water",
+      "action": "idle",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-02.png",
+      "sha256": "4fed82d7afa52bbddaa9e8cbf52163827a6649dd35cd56c943caa8b68a0a1100",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-02.png"
+    },
+    {
+      "unit": "water",
+      "action": "idle",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-03.png",
+      "sha256": "2de5005d0f605539827e2520e68779677dd5c86ce88ec23717fce4e50c9dae25",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-03.png"
+    },
+    {
+      "unit": "water",
+      "action": "idle",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-04.png",
+      "sha256": "6eb2b089f5b552e2f18949990af42b97e9f3b5c1831eb7b96cbc3dc11c848bde",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 280,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/idle/idle-04.png"
+    },
+    {
+      "unit": "water",
+      "action": "attack",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-01.png",
+      "sha256": "78118bdd32b3c68c90c54a9e5182793a549061e9b1a372fbc485dfc8daa9da21",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 140,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-01.png"
+    },
+    {
+      "unit": "water",
+      "action": "attack",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-02.png",
+      "sha256": "b3640e76e6b66e0700c3cd5437c356a3489f96d8d48c359a41896ad032e3f2d9",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 110,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-02.png"
+    },
+    {
+      "unit": "water",
+      "action": "attack",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-03.png",
+      "sha256": "a81d272501182c76c457527c32fe52215188c16580dc36595f121aa80cabad1e",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-03.png"
+    },
+    {
+      "unit": "water",
+      "action": "attack",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-04.png",
+      "sha256": "f8a419a29702c1e96a937c682e37df0b57d27cecc55b5b2b01ffed6e7badc74a",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 70,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-04.png"
+    },
+    {
+      "unit": "water",
+      "action": "attack",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-05.png",
+      "sha256": "dc21c266a903dd1c5be425af15172e51f5118446f839808de067cf441e4cea9e",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 110,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-05.png"
+    },
+    {
+      "unit": "water",
+      "action": "attack",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-06.png",
+      "sha256": "d11a6465702c7ed20644dfddb0fd957c2805816873df1f790488a9b311c59d7c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 170,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/attack/attack-06.png"
+    },
+    {
+      "unit": "water",
+      "action": "hurt",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+      "sha256": "9aeee732833727ca8f2d521ba6524ce59c51b0e2b455a166c8bf41c0cabb0423",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-01.png"
+    },
+    {
+      "unit": "water",
+      "action": "hurt",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+      "sha256": "7717e6daffa5d67efd0a433891b4828cd534925e4b529d05615f7ea287e8803d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-02.png"
+    },
+    {
+      "unit": "water",
+      "action": "hurt",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+      "sha256": "4c83727bbbbc8cc646b4d36bb22c3572e5c1ae52583e9b2f5ba451f31774f70f",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 140,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-03.png"
+    },
+    {
+      "unit": "water",
+      "action": "hurt",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+      "sha256": "eb3cfeede5af6811cb2bfce30c68db8c67c3faa2f638f1ad390ad3949f805a9b",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/hurt/hurt-04.png"
+    },
+    {
+      "unit": "water",
+      "action": "defeat",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+      "sha256": "ebe8966c6bf320c2a2086fe24ce640ffc8209aef741dc5f0260cf913550089d5",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-01.png"
+    },
+    {
+      "unit": "water",
+      "action": "defeat",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+      "sha256": "387daf3569a9fed560b983f3ba77d248f3c2dc1dc62e413855e2aba3ddf73f49",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 140,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-02.png"
+    },
+    {
+      "unit": "water",
+      "action": "defeat",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+      "sha256": "12d28356b81b34c224a1f9ac7492fd250b13028fa2f809f2b4e28b027330da39",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-03.png"
+    },
+    {
+      "unit": "water",
+      "action": "defeat",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+      "sha256": "93f5700301ae54c03ac3ad5a05386d432d12a3d35eb4fc575aa251b15a734f9c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-04.png"
+    },
+    {
+      "unit": "water",
+      "action": "defeat",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+      "sha256": "cbafabdc9e1f131209db22928ffff3aaff02af595257db3acbab45075d143ea0",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 220,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-05.png"
+    },
+    {
+      "unit": "water",
+      "action": "defeat",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+      "sha256": "f4f73d05b3b516f79586ce979a9cb468f3a19a422718113a0f1e61e1aa0568f6",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 600,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/water/defeat/defeat-06.png"
+    },
+    {
+      "unit": "fire",
+      "action": "idle",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "4de7c5b9baa75b0cc50af8831ab77f8dcc4be45ac629939890077ec9cb6704d8",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-01.png"
+    },
+    {
+      "unit": "fire",
+      "action": "idle",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-02.png",
+      "sha256": "7f77c222f5c28d9cb2bda2ff07b0d2572c553870cae8ee9f1b2d1c0c7bfb8a00",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-02.png"
+    },
+    {
+      "unit": "fire",
+      "action": "idle",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-03.png",
+      "sha256": "f8b77770f972fb25d9c9cfe81d9d5b4aa8aa1807131ad1c961a7a05e0309780e",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-03.png"
+    },
+    {
+      "unit": "fire",
+      "action": "idle",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/idle/map128h/idle-04.png",
+      "sha256": "004ca4d5ab59253024d72d84af706952f6469ba25fa72ef9446a2f5f2df31a11",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/idle/idle-04.png"
+    },
+    {
+      "unit": "fire",
+      "action": "attack",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-01.png",
+      "sha256": "4f3fbf54a8b4acc8488879887ce87ca8b9f3b5911d6c9a55984aa82d5db617a2",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-01.png"
+    },
+    {
+      "unit": "fire",
+      "action": "attack",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-02.png",
+      "sha256": "cd25c5a2ae010d1418642b6aff01df9d7df43bdce949d616de69bd377fe67f5c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-02.png"
+    },
+    {
+      "unit": "fire",
+      "action": "attack",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-03.png",
+      "sha256": "e9d71ed29221b78d50d86bc81be37872ba60100477a007078b476e9d3e00d20c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-03.png"
+    },
+    {
+      "unit": "fire",
+      "action": "attack",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-04.png",
+      "sha256": "606f3d9489e82b8a4215b82c4a7a02c4c0b0824a76c9531d79514e53f62f82b5",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 70,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-04.png"
+    },
+    {
+      "unit": "fire",
+      "action": "attack",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-05.png",
+      "sha256": "eef13f1d36739f467eb88d8ee5c4af02187e1724df6ec113ca7702f971cf932c",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-05.png"
+    },
+    {
+      "unit": "fire",
+      "action": "attack",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/attack/map128h/attack-06.png",
+      "sha256": "cd6c64de2f1dac41265c62f747c7db9a176f9fdeb0c1f197360c7a82741bad16",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/attack/attack-06.png"
+    },
+    {
+      "unit": "fire",
+      "action": "hurt",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+      "sha256": "aaf20ccd115c41bd55dd84839ff88f83beb7c4d290d11dd1eab9d8b476f71e8d",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-01.png"
+    },
+    {
+      "unit": "fire",
+      "action": "hurt",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+      "sha256": "cd2bef2392bbd89ec986297496f9f4d2ea711ebd9866c4e16f0e6f45938fff15",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-02.png"
+    },
+    {
+      "unit": "fire",
+      "action": "hurt",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+      "sha256": "9351340cfac8ac28ae5a897f1621f1f336bfb302fd0e01730347913d4dd27232",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-03.png"
+    },
+    {
+      "unit": "fire",
+      "action": "hurt",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+      "sha256": "34ff270aa7fd75ee7b68c26e31da47261ffb0dc97edd7134eccd4890132c9743",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/hurt/hurt-04.png"
+    },
+    {
+      "unit": "fire",
+      "action": "defeat",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+      "sha256": "060b7f3f2ddcfb8d770d0a2cc149bc81bcfcdc29762bf16bbf13fbe5c0fed3e5",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-01.png"
+    },
+    {
+      "unit": "fire",
+      "action": "defeat",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+      "sha256": "187b93928658d0f64e494004c71dfc065cf03fdfb7a143b64e8eb671e0edd782",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-02.png"
+    },
+    {
+      "unit": "fire",
+      "action": "defeat",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+      "sha256": "48041d2e21e91a6d83b2fbafe8ab07c94081966c2ebce2f446ae2122217fd258",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-03.png"
+    },
+    {
+      "unit": "fire",
+      "action": "defeat",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+      "sha256": "e9a2f6678eedc61c0f784e11243db89d8e254bfef3a1d0ec893daddc8f2f3085",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 200,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-04.png"
+    },
+    {
+      "unit": "fire",
+      "action": "defeat",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+      "sha256": "20aa64635a33320149bac827b0ab94bb33e264bb633015c1933fae72ae19bdb2",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 200,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-05.png"
+    },
+    {
+      "unit": "fire",
+      "action": "defeat",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+      "sha256": "542ca7f5862e9f296b240372c998bbab62be83e2ff4271e0b3fa92a2bb568043",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 600,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/fire/defeat/defeat-06.png"
+    },
+    {
+      "unit": "earth",
+      "action": "idle",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "4ae9fec91ea43afb071b1b780c4f3d71541cee63f1483b2a2caf061e384e1e1a",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-01.png"
+    },
+    {
+      "unit": "earth",
+      "action": "idle",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-02.png",
+      "sha256": "fa81e5ed11bf0444208b6e71f53003f6f994649ea7049c6653678f8a7699aed9",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-02.png"
+    },
+    {
+      "unit": "earth",
+      "action": "idle",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-03.png",
+      "sha256": "a346ac3c7b6e351cea17364b2d3191ba4b0da31ad1e9637580da28a6fda5e604",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-03.png"
+    },
+    {
+      "unit": "earth",
+      "action": "idle",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-04.png",
+      "sha256": "414a6e98c31e1afc916b77a320de291344aae9ecaddbc595cf6c8741fe687426",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 250,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/idle/idle-04.png"
+    },
+    {
+      "unit": "earth",
+      "action": "attack",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-01.png",
+      "sha256": "0ab7e5b5d3dbbb7674b02966978220dc973a559d5588b9c3cf8f0de804b09032",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-01.png"
+    },
+    {
+      "unit": "earth",
+      "action": "attack",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-02.png",
+      "sha256": "8dc14655daf0df935a544be3088b24b4b15ab13713e4463adcb0eecc57881c03",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-02.png"
+    },
+    {
+      "unit": "earth",
+      "action": "attack",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-03.png",
+      "sha256": "b59826b618184b5e75f58d9c6406dd55265e365a7b3ba9fb016be4d3075f1317",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-03.png"
+    },
+    {
+      "unit": "earth",
+      "action": "attack",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-04.png",
+      "sha256": "5ecfe04feda29955270c92b9bde80e6ecc264998b83c6ee8108cc66f9d1252b5",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 70,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-04.png"
+    },
+    {
+      "unit": "earth",
+      "action": "attack",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-05.png",
+      "sha256": "be130c9d3c14f845706baa20e5d9946279ce40d9ad567080a8a5ecbdd3f5b79f",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-05.png"
+    },
+    {
+      "unit": "earth",
+      "action": "attack",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-06.png",
+      "sha256": "69282a7f0eba4985c1227720195f35932d9ef01435699bf813dd06fe9a59999b",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/attack/attack-06.png"
+    },
+    {
+      "unit": "earth",
+      "action": "hurt",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+      "sha256": "f51c9b2a3d10f8c0fd87b42074eddcfd6ee035637bccd016791adb66085b325a",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-01.png"
+    },
+    {
+      "unit": "earth",
+      "action": "hurt",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+      "sha256": "65c0df5363ae97e45bb644afd822faf880a4e87beaa3684bab3049061e98b47b",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 100,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-02.png"
+    },
+    {
+      "unit": "earth",
+      "action": "hurt",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+      "sha256": "e65deb1ca2bf429ffd12c8cd64d288489ee4e43277f8e6da2348a03b77c8d924",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-03.png"
+    },
+    {
+      "unit": "earth",
+      "action": "hurt",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+      "sha256": "4151cea702df196bd0f5c8006dfe6265a9d91cacb9e039865a0032769d365b42",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 180,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/hurt/hurt-04.png"
+    },
+    {
+      "unit": "earth",
+      "action": "defeat",
+      "index": 1,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+      "sha256": "a083d6419aa68c598889d4f28aa4c635acb311250aca86f7b092aa17acf69e14",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 1,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-01.png"
+    },
+    {
+      "unit": "earth",
+      "action": "defeat",
+      "index": 2,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+      "sha256": "2f49d0dd70870c25fb2a10b065e8bed360dd2891f8d711066630c0bc1ffccb04",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 2,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 120,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-02.png"
+    },
+    {
+      "unit": "earth",
+      "action": "defeat",
+      "index": 3,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+      "sha256": "82ab6c228079da25a22d7b756cac0b745e21ac78c82fd7e3c01f8a5bcbacbc1b",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 3,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 160,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-03.png"
+    },
+    {
+      "unit": "earth",
+      "action": "defeat",
+      "index": 4,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+      "sha256": "529188e5b503a0266dbef5fdbcc91b01cd91cfc24b59a56ed8176e95a2b5e298",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 4,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 200,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-04.png"
+    },
+    {
+      "unit": "earth",
+      "action": "defeat",
+      "index": 5,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+      "sha256": "3a63b78a98d5db8d84d1cafe0f3864b7fde1791016ecd6108a852c1e5befab00",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 5,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 200,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-05.png"
+    },
+    {
+      "unit": "earth",
+      "action": "defeat",
+      "index": 6,
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+      "sha256": "ead0fc8048328b7201bf0972c4e7f6ed2136a992e549bcf2a12b17c26f776994",
+      "sourceManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+      "sourceIndex": 6,
+      "canvas": [
+        384,
+        384
+      ],
+      "pivot": [
+        0.5,
+        0.25
+      ],
+      "durationMsProposal": 600,
+      "targetUnityPath": "Assets/Art/WuxingTroops/Frames/earth/defeat/defeat-06.png"
+    }
+  ],
+  "warnings": [
+    "Only four SE action frame families; walk and other directions pending",
+    "Original alpha1 and sub255 alpha retained; see per-unit QA",
+    "Map128h is approximate standing scale; actual master silhouettes vary118–137px",
+    "Timing proposal is not playback validation"
+  ],
+  "clientIntegrated": true,
+  "integrationScope": "100 map128h frames / 20 clips / 5 prefabs; source interval sampling and GPU pose checks",
+  "runtimePlayModeTested": false,
+  "fullGameArtComplete": false
+}

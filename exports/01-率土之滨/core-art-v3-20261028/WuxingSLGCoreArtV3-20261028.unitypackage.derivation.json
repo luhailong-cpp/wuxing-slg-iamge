@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T08:36:59.770798+00:00",
+  "file": "exports/01-率土之滨/core-art-v3-20261028/WuxingSLGCoreArtV3-20261028.unitypackage",
+  "sha256": "98557a0b424018d68bc0208839098f868dc8130b49c4851ca5b754e9f690fac9",
+  "bytes": 12911932,
+  "operation": "Select exact74 PNGs from three source manifests; byte-copy import preserving pivots and borders; verifyRGBA export then freshproject import",
+  "newArtworkGenerated": false,
+  "sourcePixelsModified": false,
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/core-art-v3-20261028/source-index.json",
+    "sha256": "a59b304f13588b46d77b236b6e0d5417eab0d79ca86387600585eb9a12475dd2"
+  },
+  "sourceManifests": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/runtime-ui-manifest.json",
+      "sha256": "54acde6613bcff0798370aca57fefa73bd99f134a4ca658148da9d1e58babf09"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/map-kit-manifest.json",
+      "sha256": "a13a7549a11e4e286ee1150342179bc3f485797639447aa978381a87a071e580"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/emblems-manifest.json",
+      "sha256": "bd70dab0449052e1986472e82e9d1ea06f10758fa55fbd1991fc1772f62fa422"
+    }
+  ],
+  "exportRoot": "Assets/WuxingSLGCoreArtV3",
+  "records": [
+    {
+      "file": "records/core-art-v3-20261028/unity-source-validation.json",
+      "sha256": "7c312a4129a3cd6d16f8ff22777b2fa40405936f77730bc3fe1e4bff2e3a1f1d"
+    },
+    {
+      "file": "records/core-art-v3-20261028/unity-roundtrip-validation.json",
+      "sha256": "f94f35fc2169f5b52b51879433c389972ac43a66f28407133b2334922965e3a7"
+    }
+  ],
+  "archiveAudit": {
+    "file": "records/core-art-v3-20261028/unity-package-archive-audit.json",
+    "sha256": "1d63800b88fd3fc805e6ca95f1d3e0ddf59db9b4cdad4f3be1fe179659f4ad2b"
+  },
+  "deliverySummary": {
+    "file": "records/core-art-v3-20261028/delivery-summary.json",
+    "sha256": "abb0322eb3defeb01c639eb608372ad84000b3a667cc2e5811d504b9103b023e"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

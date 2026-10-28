@@ -1,0 +1,35 @@
+{
+  "source": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+    "record": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png.generation.json"
+  },
+  "probeImage": "records/map-depth-20261028/metal-static-diagnostic-201.png",
+  "footpointCandidate": [
+    715,
+    1185
+  ],
+  "testPositions": {
+    "west": [
+      244,
+      422
+    ],
+    "middle": [
+      500,
+      447
+    ],
+    "east": [
+      760,
+      670
+    ]
+  },
+  "renderOrder": [
+    "back",
+    "metal static candidate",
+    "front"
+  ],
+  "animationFrames": 0,
+  "newTroopArtwork": false,
+  "clientIntegrated": false,
+  "mode": "static diagnostic composition only"
+}

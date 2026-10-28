@@ -1,0 +1,225 @@
+{
+  "schema": "generate2dmap.scene_snapshot.v1",
+  "runtime": {
+    "name": "map-runtime",
+    "version": "1.1.2"
+  },
+  "world": {
+    "width": 1440,
+    "height": 960,
+    "actorRadius": 8,
+    "ySquash": 0.6,
+    "cell": 4,
+    "tickHz": 60,
+    "solids": 2,
+    "portals": 0,
+    "oneWay": false
+  },
+  "actor": {
+    "x": 750,
+    "y": 372,
+    "valid": true,
+    "facing": [
+      0.707,
+      0.707
+    ],
+    "latched": [],
+    "travelled": 122.5,
+    "pathLength": 0
+  },
+  "ready": true,
+  "error": null,
+  "tick": 56,
+  "title": "Wuxing City Bridge Camp - Existing Art Candidate",
+  "source": {
+    "file": "map-bundle.json",
+    "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+    "schema": "generate2dmap.map_bundle.v2"
+  },
+  "start": "city-gate",
+  "speed": 150,
+  "zoom": 1,
+  "debug": false,
+  "assets": {
+    "total": 5,
+    "loaded": 5,
+    "failed": []
+  },
+  "drawOrder": [
+    "city",
+    "bridge",
+    "enemy-camp"
+  ],
+  "exitsFired": [],
+  "interactionsReached": [
+    "city-gate"
+  ],
+  "events": [
+    {
+      "tick": 0,
+      "type": "arrive",
+      "id": "city-gate"
+    },
+    {
+      "tick": 1,
+      "type": "reach",
+      "id": "city-gate"
+    },
+    {
+      "tick": 3,
+      "type": "arrive",
+      "id": "city-gate"
+    },
+    {
+      "tick": 16,
+      "type": "arrive",
+      "id": "city-gate"
+    },
+    {
+      "tick": 28,
+      "type": "arrive",
+      "id": "city-gate"
+    },
+    {
+      "tick": 40,
+      "type": "arrive",
+      "id": "city-gate"
+    },
+    {
+      "tick": 52,
+      "type": "arrive",
+      "id": "city-gate"
+    },
+    {
+      "tick": 52,
+      "type": "routes",
+      "ok": true,
+      "failing": 0
+    }
+  ],
+  "routes": {
+    "ok": true,
+    "speed": 150,
+    "budget": 2.5,
+    "tickHz": 60,
+    "cell": 4,
+    "spawns": [
+      {
+        "id": "city-gate",
+        "valid": true,
+        "reachableCells": 21400
+      }
+    ],
+    "results": [
+      {
+        "target": "city-gate",
+        "kind": "interaction",
+        "from": "city-gate",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 4,
+        "distance": 10,
+        "maxStep": 2.5,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          742,
+          366
+        ]
+      },
+      {
+        "target": "enemy-camp",
+        "kind": "interaction",
+        "from": "city-gate",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 163,
+        "distance": 405.694,
+        "maxStep": 2.5,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          878,
+          706
+        ]
+      },
+      {
+        "target": "bridge-west.approach[0]",
+        "kind": "approach",
+        "from": "city-gate",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 48,
+        "distance": 118.727,
+        "maxStep": 2.5,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          650,
+          436
+        ]
+      },
+      {
+        "target": "bridge-mid.approach[0]",
+        "kind": "approach",
+        "from": "city-gate",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 58,
+        "distance": 144.221,
+        "maxStep": 2.5,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          750,
+          500
+        ]
+      },
+      {
+        "target": "bridge-east.approach[0]",
+        "kind": "approach",
+        "from": "city-gate",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 106,
+        "distance": 262.861,
+        "maxStep": 2.5,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          850,
+          564
+        ]
+      },
+      {
+        "target": "enemy-approach.approach[0]",
+        "kind": "approach",
+        "from": "city-gate",
+        "ok": true,
+        "reachable": true,
+        "reason": null,
+        "ticks": 226,
+        "distance": 564.894,
+        "maxStep": 2.5,
+        "zeroMotionTicks": 0,
+        "blocked": false,
+        "firedEnRoute": [],
+        "end": [
+          1030,
+          730
+        ]
+      }
+    ],
+    "portals": []
+  }
+}

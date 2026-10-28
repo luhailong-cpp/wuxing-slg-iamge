@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx/debuff-mist.png",
+  "sha256": "5e9cd2161e200da25ba2015d93799e29601b2156c602a1e6b542ea3c441fdaec",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 457,
+  "height": 437,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "route": "native_crop_from_existing_host_image",
+  "operation": "crop",
+  "cropBox": [
+    0,
+    450,
+    457,
+    887
+  ],
+  "cropBoxConvention": "left,top,right,bottom; right/bottom exclusive",
+  "ownershipMethod": "manually inspected individual subject and transparent gutters, not equal-grid splitting",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png",
+    "sha256": "7d581df81399fb7e71e4cd5d142ebbb9296e0936a7a8fabc1c6ea56aeac0904d",
+    "generationRecord": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png.generation.json",
+    "sourceNativeSize": [
+      1774,
+      887
+    ],
+    "generatedAt": null,
+    "originalReceiptEvidenceGapPreserved": true
+  },
+  "resampled": false,
+  "repainted": false,
+  "rekeyed": false,
+  "pixelIdentityAgainstSourceCrop": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "fullyTransparentPixelCount": 58205,
+    "alpha1PixelCount": 37103,
+    "semiTransparentPixelCount": 141504,
+    "opaquePixelCount": 0,
+    "contentBoxAlphaAbove1": [
+      47,
+      31,
+      422,
+      393
+    ],
+    "edgeMaxAlpha": {
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "edgePixelsAlphaAbove1": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "contentMarginsAlphaAbove1": {
+      "left": 47,
+      "top": 31,
+      "right": 35,
+      "bottom": 44
+    },
+    "alphaEdited": false
+  },
+  "anchor_px": [
+    234.5,
+    393
+  ],
+  "anchorNormalized": [
+    0.513129102844639,
+    0.8993135011441648
+  ],
+  "anchorMethod": "bottom_center_of_alpha_above_1_content_box; provisional map placement anchor",
+  "static": true,
+  "animationFrameCount": 0,
+  "animations": [],
+  "qa": {
+    "cropIntegrity": "pass",
+    "significantAlphaThreshold": 1,
+    "minimumSignificantContentMarginPx": 8,
+    "visibleAdjacentSubject": false,
+    "subjectContoursComplete": true,
+    "lightDarkBackgroundVisualReview": "pass_for_static_candidate",
+    "visualReviewBackgroundsRGB": [
+      [
+        245,
+        241,
+        230
+      ],
+      [
+        28,
+        38,
+        44
+      ]
+    ],
+    "warnings": [
+      {
+        "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+        "value": 37103,
+        "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+        "file": "exports/01-率土之滨/fx/debuff-mist.png",
+        "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+      }
+    ]
+  },
+  "status": "native_static_crop_candidate_pending_user_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false
+}

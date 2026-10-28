@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+  "sha256": "0ebd161bbbdcdb5ea5d41c9647547a95300dbd8dbc31b36468897d6d8b120c48",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 430,
+  "height": 413,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "route": "native_crop_from_existing_host_image",
+  "operation": "crop",
+  "cropBox": [
+    0,
+    841,
+    430,
+    1254
+  ],
+  "cropBoxConvention": "left,top,right,bottom; right/bottom exclusive",
+  "ownershipMethod": "manually inspected individual subject and transparent gutters, not equal-grid splitting",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+    "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd",
+    "generationRecord": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png.generation.json",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "generatedAt": null,
+    "originalReceiptEvidenceGapPreserved": true
+  },
+  "resampled": false,
+  "repainted": false,
+  "rekeyed": false,
+  "pixelIdentityAgainstSourceCrop": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixelCount": 85665,
+    "alpha1PixelCount": 5357,
+    "semiTransparentPixelCount": 91903,
+    "opaquePixelCount": 22,
+    "contentBoxAlphaAbove1": [
+      33,
+      35,
+      410,
+      351
+    ],
+    "edgeMaxAlpha": {
+      "top": 1,
+      "bottom": 0,
+      "left": 1,
+      "right": 1
+    },
+    "edgePixelsAlphaAbove1": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "contentMarginsAlphaAbove1": {
+      "left": 33,
+      "top": 35,
+      "right": 20,
+      "bottom": 62
+    },
+    "alphaEdited": false
+  },
+  "anchor_px": [
+    221.5,
+    351
+  ],
+  "anchorNormalized": [
+    0.5151162790697674,
+    0.8498789346246973
+  ],
+  "anchorMethod": "bottom_center_of_alpha_above_1_content_box; provisional map placement anchor",
+  "static": true,
+  "animationFrameCount": 0,
+  "animations": [],
+  "qa": {
+    "cropIntegrity": "pass",
+    "significantAlphaThreshold": 1,
+    "minimumSignificantContentMarginPx": 8,
+    "visibleAdjacentSubject": false,
+    "subjectContoursComplete": true,
+    "lightDarkBackgroundVisualReview": "pass_for_static_candidate",
+    "visualReviewBackgroundsRGB": [
+      [
+        245,
+        241,
+        230
+      ],
+      [
+        28,
+        38,
+        44
+      ]
+    ],
+    "warnings": [
+      {
+        "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+        "value": 5357,
+        "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+        "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+        "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+      }
+    ]
+  },
+  "status": "native_static_crop_candidate_pending_user_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false
+}

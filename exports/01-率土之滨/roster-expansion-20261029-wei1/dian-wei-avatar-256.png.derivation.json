@@ -1,0 +1,99 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-256.png",
+  "sha256": "30d6747f52927c86e9c5633895c41156885934b9fdd73c8729ce86a7b45ec939",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "dian-wei",
+  "displayName": "典韦",
+  "variant": "avatar-256",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+      "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+      "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    340,
+    190,
+    690,
+    615
+  ],
+  "resizeTo": [
+    184,
+    224
+  ],
+  "pasteOffsetTopLeft": [
+    36,
+    16,
+    220,
+    240
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 34927,
+    "alphaOne": 471,
+    "alphaSemi": 30423,
+    "alphaOpaque": 186,
+    "bboxAlpha16": [
+      36,
+      22,
+      220,
+      240
+    ],
+    "marginsAlpha16": [
+      36,
+      22,
+      36,
+      16
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    402,
+    360,
+    637,
+    555
+  ],
+  "faceRoiOutputApprox": [
+    68.594,
+    105.6,
+    192.137,
+    208.376
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

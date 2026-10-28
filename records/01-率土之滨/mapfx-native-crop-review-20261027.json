@@ -1,0 +1,3339 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "scope": "native static crop candidates; not full-game, animation, navigation or client acceptance",
+  "art_source": "existing",
+  "sourceRoute": "host_image",
+  "operation": "crop",
+  "resampled": false,
+  "alphaEdited": false,
+  "minimumSignificantContentMarginPx": 8,
+  "significantAlphaThreshold": 1,
+  "nearZeroAlphaPolicy": "Preserve source values. Alpha=1 background quantization residue may meet a crop edge; no source alpha>1 content touches an edge.",
+  "anchorMethod": "bottom center of alpha>1 content bbox; provisional, no collider contract",
+  "static": true,
+  "animationFrameCount": 0,
+  "clientIntegrated": false,
+  "userApproved": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false,
+  "sourceReceiptEvidenceGaps": "v2 native images were recovered; original complete tool response and precise call completion time are unavailable. See unchanged generation records.",
+  "reviewedSourceSheetCount": 4,
+  "plannedSubjects": 41,
+  "exportedMapObjects": 33,
+  "exportedStaticFX": 8,
+  "failedCropIntegritySubjects": [],
+  "requiresRedrawForCropIntegrity": 0,
+  "acceptanceLevel": "native crop integrity and two-background static visual check only",
+  "formalGameAcceptance": false,
+  "checks": {
+    "allSourcesMatchGenerationSidecarHash": true,
+    "allExportsDecoded": true,
+    "allPixelArraysMatchOriginalCrop": true,
+    "allHaveRealAlpha0Pixels": true,
+    "allBoundaryAlphaAbove1Counts": 0,
+    "allSignificantContentMarginsAtLeast8px": true,
+    "all41SubjectsActuallyVisuallyReviewedOnLightAndDark": true
+  },
+  "overlappingNearZeroGutters": [
+    {
+      "subjects": [
+        "strategy-array",
+        "fire"
+      ],
+      "box": [
+        457,
+        444,
+        892,
+        446
+      ],
+      "maxAlpha": 1,
+      "alphaAbove1PixelCount": 0
+    }
+  ],
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4060,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4537,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4195,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4600,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4229,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3825,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5357,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4420,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 10,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5471,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 9,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 6539,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 7062,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5699,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5468,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 6005,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 13,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5712,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5157,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4619,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5423,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 9,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5117,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4277,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4738,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2484,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2862,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3137,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2594,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3231,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2948,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2917,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3240,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2928,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3960,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3673,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2451,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 37407,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/slash-arc.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 30179,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 8,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 30200,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/healing-light.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 31628,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/buff-cloud.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 37103,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/debuff-mist.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 22116,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/fire.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 8,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/fx/fire.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 23860,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 10,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 45678,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/fx/reward-glow.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    }
+  ],
+  "qaPreviews": [
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/buildings-row-1-native-light-dark.png",
+      "sha256": "83fe6843fc84ea4edc82a42348ca24a22ea349742d3824552f25c3befce263cf",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/buildings-row-2-native-light-dark.png",
+      "sha256": "ec303ca58c54be94c99002d2b89196b27ca2228de162e652ff45b8f740523fc1",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/buildings-row-3-native-light-dark.png",
+      "sha256": "81895105c21728fdc4fcb17beec973b8a1262027f26956259b296c6426a61025",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/cities-row-1-native-light-dark.png",
+      "sha256": "8c70b4f3cd554d07b48a3de50d486290c9977c71eb75d396ae8fc0291f9a9695",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/cities-row-2-native-light-dark.png",
+      "sha256": "2f82896f3d124d1d1f5b8423685e44ff6ff346133d8121905997201d141ee250",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/cities-row-3-native-light-dark.png",
+      "sha256": "9f257d9eb1f3892d4314c0deaf4d21381c7471cb4a4104672d85b2f0ceadcab6",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/fx-row-1-native-light-dark.png",
+      "sha256": "361c733653915838668e55f3d2f971052a35953ce7f694c9f9220645e54ab1c1",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/fx-row-2-native-light-dark.png",
+      "sha256": "5c0808726b493bd83f2ad639bfd535aee1274d77b35821aa8e9a25f76244ad27",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/terrain-row-1-native-light-dark.png",
+      "sha256": "9ece1d423c0f944893dfc8c68fcca7aac0439f910f304401576aa90a79e520c5",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/terrain-row-2-native-light-dark.png",
+      "sha256": "6fbc79edc5718ffe94ed1c9475e790d7163e80b81c86992138d153846b35dc9e",
+      "visuallyInspected": true
+    },
+    {
+      "file": "records/01-率土之滨/mapfx-crop-qa-20261027/terrain-row-3-native-light-dark.png",
+      "sha256": "19ec4d527de1d755da1438ad6c418e6b2a67a413403524deed05c19316ce189c",
+      "visuallyInspected": true
+    }
+  ],
+  "assets": [
+    {
+      "id": "main-city",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "record": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "width": 445,
+      "height": 397,
+      "cropBox": [
+        0,
+        60,
+        445,
+        457
+      ],
+      "anchor_px": [
+        228.0,
+        364
+      ],
+      "anchorNormalized": [
+        0.5123595505617977,
+        0.9168765743073047
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 85315,
+        "alpha1PixelCount": 4060,
+        "semiTransparentPixelCount": 91331,
+        "opaquePixelCount": 19,
+        "contentBoxAlphaAbove1": [
+          34,
+          49,
+          422,
+          364
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 34,
+          "top": 49,
+          "right": 23,
+          "bottom": 33
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4060,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "branch-city",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+      "record": "exports/01-率土之滨/map-kit/cities/branch-city.png.derivation.json",
+      "sha256": "cf9ea07241606ccfd228d90a1981eb373f87c8cad5a43bab0c9e67688891d2c4",
+      "width": 387,
+      "height": 397,
+      "cropBox": [
+        445,
+        60,
+        832,
+        457
+      ],
+      "anchor_px": [
+        191.0,
+        358
+      ],
+      "anchorNormalized": [
+        0.4935400516795866,
+        0.9017632241813602
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 80049,
+        "alpha1PixelCount": 4537,
+        "semiTransparentPixelCount": 73569,
+        "opaquePixelCount": 21,
+        "contentBoxAlphaAbove1": [
+          34,
+          60,
+          348,
+          358
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 34,
+          "top": 60,
+          "right": 39,
+          "bottom": 39
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4537,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "garrison-city",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+      "record": "exports/01-率土之滨/map-kit/cities/garrison-city.png.derivation.json",
+      "sha256": "3e84ed76abaef698571e198328e28ed6479063ecc5ed3cf2a918ab2b8cb2c8a8",
+      "width": 422,
+      "height": 397,
+      "cropBox": [
+        832,
+        60,
+        1254,
+        457
+      ],
+      "anchor_px": [
+        207.5,
+        358
+      ],
+      "anchorNormalized": [
+        0.49170616113744076,
+        0.9017632241813602
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 88293,
+        "alpha1PixelCount": 4195,
+        "semiTransparentPixelCount": 79192,
+        "opaquePixelCount": 49,
+        "contentBoxAlphaAbove1": [
+          28,
+          55,
+          387,
+          358
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 28,
+          "top": 55,
+          "right": 35,
+          "bottom": 39
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4195,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "fortress",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+      "record": "exports/01-率土之滨/map-kit/cities/fortress.png.derivation.json",
+      "sha256": "19d22b35e6ca9175ba5a4f7176b5ad6954ce174a9fa44322eafc2e585d8ba2ff",
+      "width": 430,
+      "height": 384,
+      "cropBox": [
+        0,
+        457,
+        430,
+        841
+      ],
+      "anchor_px": [
+        219.0,
+        335
+      ],
+      "anchorNormalized": [
+        0.5093023255813953,
+        0.8723958333333334
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 98782,
+        "alpha1PixelCount": 4600,
+        "semiTransparentPixelCount": 66274,
+        "opaquePixelCount": 64,
+        "contentBoxAlphaAbove1": [
+          52,
+          44,
+          386,
+          335
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 52,
+          "top": 44,
+          "right": 44,
+          "bottom": 49
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4600,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "military-camp",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+      "record": "exports/01-率土之滨/map-kit/cities/military-camp.png.derivation.json",
+      "sha256": "35115f89b9087a07483741cfacc2871aaaecccf90e8c3d43ea26abdd2ffccb42",
+      "width": 406,
+      "height": 384,
+      "cropBox": [
+        430,
+        457,
+        836,
+        841
+      ],
+      "anchor_px": [
+        197.5,
+        341
+      ],
+      "anchorNormalized": [
+        0.48645320197044334,
+        0.8880208333333334
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 76605,
+        "alpha1PixelCount": 4229,
+        "semiTransparentPixelCount": 79257,
+        "opaquePixelCount": 42,
+        "contentBoxAlphaAbove1": [
+          18,
+          41,
+          377,
+          341
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 18,
+          "top": 41,
+          "right": 29,
+          "bottom": 43
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4229,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "county-city",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+      "record": "exports/01-率土之滨/map-kit/cities/county-city.png.derivation.json",
+      "sha256": "eef027bc7df7a2a66591033dce5e4acb8ce055f6fcdcbd7916c8de7fd905e3a7",
+      "width": 418,
+      "height": 384,
+      "cropBox": [
+        836,
+        457,
+        1254,
+        841
+      ],
+      "anchor_px": [
+        210.0,
+        349
+      ],
+      "anchorNormalized": [
+        0.5023923444976076,
+        0.9088541666666666
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 78108,
+        "alpha1PixelCount": 3825,
+        "semiTransparentPixelCount": 82360,
+        "opaquePixelCount": 44,
+        "contentBoxAlphaAbove1": [
+          27,
+          43,
+          393,
+          349
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 27,
+          "top": 43,
+          "right": 25,
+          "bottom": 35
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3825,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "commandery-city",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+      "record": "exports/01-率土之滨/map-kit/cities/commandery-city.png.derivation.json",
+      "sha256": "0ebd161bbbdcdb5ea5d41c9647547a95300dbd8dbc31b36468897d6d8b120c48",
+      "width": 430,
+      "height": 413,
+      "cropBox": [
+        0,
+        841,
+        430,
+        1254
+      ],
+      "anchor_px": [
+        221.5,
+        351
+      ],
+      "anchorNormalized": [
+        0.5151162790697674,
+        0.8498789346246973
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 85665,
+        "alpha1PixelCount": 5357,
+        "semiTransparentPixelCount": 91903,
+        "opaquePixelCount": 22,
+        "contentBoxAlphaAbove1": [
+          33,
+          35,
+          410,
+          351
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 33,
+          "top": 35,
+          "right": 20,
+          "bottom": 62
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5357,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "provincial-capital",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "record": "exports/01-率土之滨/map-kit/cities/provincial-capital.png.derivation.json",
+      "sha256": "2267c8fba4978c4f3f707e3a93368e35610a29ccd50fe0c1ceb6125ba9567287",
+      "width": 398,
+      "height": 413,
+      "cropBox": [
+        430,
+        841,
+        828,
+        1254
+      ],
+      "anchor_px": [
+        203.5,
+        345
+      ],
+      "anchorNormalized": [
+        0.5113065326633166,
+        0.8353510895883777
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 76951,
+        "alpha1PixelCount": 4420,
+        "semiTransparentPixelCount": 87317,
+        "opaquePixelCount": 106,
+        "contentBoxAlphaAbove1": [
+          19,
+          29,
+          388,
+          345
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 19,
+          "top": 29,
+          "right": 10,
+          "bottom": 68
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4420,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 10,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "capital-city",
+      "group": "cities",
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "record": "exports/01-率土之滨/map-kit/cities/capital-city.png.derivation.json",
+      "sha256": "b0dd1f7e6bea8691b2927ce22a83c2d92c70a5b18fcd393443b3d2feb1413a9b",
+      "width": 426,
+      "height": 413,
+      "cropBox": [
+        828,
+        841,
+        1254,
+        1254
+      ],
+      "anchor_px": [
+        204.0,
+        368
+      ],
+      "anchorNormalized": [
+        0.4788732394366197,
+        0.8910411622276029
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 74169,
+        "alpha1PixelCount": 5471,
+        "semiTransparentPixelCount": 101705,
+        "opaquePixelCount": 64,
+        "contentBoxAlphaAbove1": [
+          9,
+          27,
+          399,
+          368
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 9,
+          "top": 27,
+          "right": 27,
+          "bottom": 45
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5471,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 9,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "city-hall",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/city-hall.png.derivation.json",
+      "sha256": "0cf60166fd24c6c311f34f5a90f10da3bd5c9baf0183aa4fedeb1cbf9b68d8f9",
+      "width": 386,
+      "height": 355,
+      "cropBox": [
+        0,
+        35,
+        386,
+        390
+      ],
+      "anchor_px": [
+        197.5,
+        318
+      ],
+      "anchorNormalized": [
+        0.5116580310880829,
+        0.895774647887324
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 71199,
+        "alpha1PixelCount": 6539,
+        "semiTransparentPixelCount": 65812,
+        "opaquePixelCount": 19,
+        "contentBoxAlphaAbove1": [
+          39,
+          32,
+          356,
+          318
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 0,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 39,
+          "top": 32,
+          "right": 30,
+          "bottom": 37
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 6539,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "training-ground",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/training-ground.png.derivation.json",
+      "sha256": "024deabb0b713a8703a193ff1916dcbaed37a0b0b54d3cdd19c94e1ebbdfa2f4",
+      "width": 360,
+      "height": 355,
+      "cropBox": [
+        386,
+        35,
+        746,
+        390
+      ],
+      "anchor_px": [
+        183.5,
+        323
+      ],
+      "anchorNormalized": [
+        0.5097222222222222,
+        0.9098591549295775
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 62414,
+        "alpha1PixelCount": 7062,
+        "semiTransparentPixelCount": 65367,
+        "opaquePixelCount": 19,
+        "contentBoxAlphaAbove1": [
+          29,
+          32,
+          338,
+          323
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 29,
+          "top": 32,
+          "right": 22,
+          "bottom": 32
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 7062,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "recruitment-hall",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png.derivation.json",
+      "sha256": "a7d9280a9af0b840f95bbd40ee3823d9a82cf6f4ef31bef45d642d4a156b4ced",
+      "width": 341,
+      "height": 355,
+      "cropBox": [
+        746,
+        35,
+        1087,
+        390
+      ],
+      "anchor_px": [
+        166.0,
+        315
+      ],
+      "anchorNormalized": [
+        0.4868035190615836,
+        0.8873239436619719
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 64831,
+        "alpha1PixelCount": 5699,
+        "semiTransparentPixelCount": 56205,
+        "opaquePixelCount": 19,
+        "contentBoxAlphaAbove1": [
+          18,
+          71,
+          314,
+          315
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 0,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 18,
+          "top": 71,
+          "right": 27,
+          "bottom": 40
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5699,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "warehouse",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/warehouse.png.derivation.json",
+      "sha256": "389a2a8ac2e9fd0f06c608d383aaa6686abc5017842d96213f8667874efe6c4f",
+      "width": 361,
+      "height": 355,
+      "cropBox": [
+        1087,
+        35,
+        1448,
+        390
+      ],
+      "anchor_px": [
+        177.5,
+        320
+      ],
+      "anchorNormalized": [
+        0.4916897506925208,
+        0.9014084507042254
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 73339,
+        "alpha1PixelCount": 5468,
+        "semiTransparentPixelCount": 54798,
+        "opaquePixelCount": 18,
+        "contentBoxAlphaAbove1": [
+          26,
+          69,
+          329,
+          320
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 26,
+          "top": 69,
+          "right": 32,
+          "bottom": 35
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5468,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "residence",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/residence.png.derivation.json",
+      "sha256": "e9234ee6e5d062998321caf51ec080236578ddc614fc65620ccce42c818cbe73",
+      "width": 385,
+      "height": 321,
+      "cropBox": [
+        0,
+        390,
+        385,
+        711
+      ],
+      "anchor_px": [
+        191.5,
+        305
+      ],
+      "anchorNormalized": [
+        0.4974025974025974,
+        0.9501557632398754
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 53961,
+        "alpha1PixelCount": 6005,
+        "semiTransparentPixelCount": 69609,
+        "opaquePixelCount": 15,
+        "contentBoxAlphaAbove1": [
+          29,
+          13,
+          354,
+          305
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 0,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 29,
+          "top": 13,
+          "right": 31,
+          "bottom": 16
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 6005,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 13,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "market",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/market.png.derivation.json",
+      "sha256": "5e0378de79b73fd1b8977110a044bdaff2b28b5cf3a999225fb0f28c8dc7248d",
+      "width": 369,
+      "height": 321,
+      "cropBox": [
+        385,
+        390,
+        754,
+        711
+      ],
+      "anchor_px": [
+        187.5,
+        293
+      ],
+      "anchorNormalized": [
+        0.508130081300813,
+        0.9127725856697819
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 57951,
+        "alpha1PixelCount": 5712,
+        "semiTransparentPixelCount": 60482,
+        "opaquePixelCount": 16,
+        "contentBoxAlphaAbove1": [
+          31,
+          39,
+          344,
+          293
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 31,
+          "top": 39,
+          "right": 25,
+          "bottom": 28
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5712,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "workshop",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/workshop.png.derivation.json",
+      "sha256": "b2828ce790a51a7c6b289e990193a0cd6858fa42710349655abea1c7a43cfce8",
+      "width": 344,
+      "height": 321,
+      "cropBox": [
+        754,
+        390,
+        1098,
+        711
+      ],
+      "anchor_px": [
+        175.0,
+        293
+      ],
+      "anchorNormalized": [
+        0.5087209302325582,
+        0.9127725856697819
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 48287,
+        "alpha1PixelCount": 5157,
+        "semiTransparentPixelCount": 62128,
+        "opaquePixelCount": 9,
+        "contentBoxAlphaAbove1": [
+          26,
+          16,
+          324,
+          293
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 0,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 26,
+          "top": 16,
+          "right": 20,
+          "bottom": 28
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5157,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "wall-segment",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/wall-segment.png.derivation.json",
+      "sha256": "e6c72fa97367d7b763a9d60cc6bbeb4f45473a37e5cab2528c0db87297bcc4ae",
+      "width": 350,
+      "height": 321,
+      "cropBox": [
+        1098,
+        390,
+        1448,
+        711
+      ],
+      "anchor_px": [
+        172.0,
+        291
+      ],
+      "anchorNormalized": [
+        0.49142857142857144,
+        0.9065420560747663
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 59003,
+        "alpha1PixelCount": 4619,
+        "semiTransparentPixelCount": 53317,
+        "opaquePixelCount": 30,
+        "contentBoxAlphaAbove1": [
+          20,
+          26,
+          324,
+          291
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 20,
+          "top": 26,
+          "right": 26,
+          "bottom": 30
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4619,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "city-gate",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/city-gate.png.derivation.json",
+      "sha256": "263f0cb89d1523e48aa600f7acbf630fd06d72625af50546cc03846426834901",
+      "width": 403,
+      "height": 375,
+      "cropBox": [
+        0,
+        711,
+        403,
+        1086
+      ],
+      "anchor_px": [
+        210.0,
+        308
+      ],
+      "anchorNormalized": [
+        0.5210918114143921,
+        0.8213333333333334
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 72444,
+        "alpha1PixelCount": 5423,
+        "semiTransparentPixelCount": 78652,
+        "opaquePixelCount": 29,
+        "contentBoxAlphaAbove1": [
+          33,
+          9,
+          387,
+          308
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 33,
+          "top": 9,
+          "right": 16,
+          "bottom": 67
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5423,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 9,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "bridge",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "width": 334,
+      "height": 375,
+      "cropBox": [
+        403,
+        711,
+        737,
+        1086
+      ],
+      "anchor_px": [
+        165.5,
+        302
+      ],
+      "anchorNormalized": [
+        0.49550898203592814,
+        0.8053333333333333
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 87074,
+        "alpha1PixelCount": 5117,
+        "semiTransparentPixelCount": 38153,
+        "opaquePixelCount": 23,
+        "contentBoxAlphaAbove1": [
+          16,
+          94,
+          315,
+          302
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 16,
+          "top": 94,
+          "right": 19,
+          "bottom": 73
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5117,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "enemy-camp",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "width": 374,
+      "height": 375,
+      "cropBox": [
+        737,
+        711,
+        1111,
+        1086
+      ],
+      "anchor_px": [
+        187.5,
+        314
+      ],
+      "anchorNormalized": [
+        0.5013368983957219,
+        0.8373333333333334
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 71959,
+        "alpha1PixelCount": 4277,
+        "semiTransparentPixelCount": 68257,
+        "opaquePixelCount": 34,
+        "contentBoxAlphaAbove1": [
+          19,
+          31,
+          356,
+          314
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 19,
+          "top": 31,
+          "right": 18,
+          "bottom": 61
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4277,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "damaged-warehouse",
+      "group": "buildings",
+      "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+      "record": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png.derivation.json",
+      "sha256": "48b71a2738310167451334c7aa18afd3b6d24cfeaa4182fa131acf4d801e381f",
+      "width": 337,
+      "height": 375,
+      "cropBox": [
+        1111,
+        711,
+        1448,
+        1086
+      ],
+      "anchor_px": [
+        162.5,
+        307
+      ],
+      "anchorNormalized": [
+        0.4821958456973294,
+        0.8186666666666667
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 72206,
+        "alpha1PixelCount": 4738,
+        "semiTransparentPixelCount": 54157,
+        "opaquePixelCount": 12,
+        "contentBoxAlphaAbove1": [
+          18,
+          52,
+          307,
+          307
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 18,
+          "top": 52,
+          "right": 30,
+          "bottom": 68
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4738,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "grassland",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "width": 377,
+      "height": 290,
+      "cropBox": [
+        0,
+        110,
+        377,
+        400
+      ],
+      "anchor_px": [
+        204.5,
+        259
+      ],
+      "anchorNormalized": [
+        0.5424403183023873,
+        0.8931034482758621
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 73746,
+        "alpha1PixelCount": 2484,
+        "semiTransparentPixelCount": 35547,
+        "opaquePixelCount": 37,
+        "contentBoxAlphaAbove1": [
+          66,
+          52,
+          343,
+          259
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 66,
+          "top": 52,
+          "right": 34,
+          "bottom": 31
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2484,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "stone-road",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "width": 366,
+      "height": 290,
+      "cropBox": [
+        377,
+        110,
+        743,
+        400
+      ],
+      "anchor_px": [
+        177.5,
+        263
+      ],
+      "anchorNormalized": [
+        0.4849726775956284,
+        0.906896551724138
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 69622,
+        "alpha1PixelCount": 2862,
+        "semiTransparentPixelCount": 36477,
+        "opaquePixelCount": 41,
+        "contentBoxAlphaAbove1": [
+          35,
+          54,
+          320,
+          263
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 35,
+          "top": 54,
+          "right": 46,
+          "bottom": 27
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2862,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "woodland",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/woodland.png.derivation.json",
+      "sha256": "189a79e2cffbc60edba98f51ef96f9d1c92690b10bad7ff7ef1b02044e6a9403",
+      "width": 331,
+      "height": 290,
+      "cropBox": [
+        743,
+        110,
+        1074,
+        400
+      ],
+      "anchor_px": [
+        161.0,
+        269
+      ],
+      "anchorNormalized": [
+        0.486404833836858,
+        0.9275862068965517
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 51582,
+        "alpha1PixelCount": 3137,
+        "semiTransparentPixelCount": 44382,
+        "opaquePixelCount": 26,
+        "contentBoxAlphaAbove1": [
+          24,
+          35,
+          298,
+          269
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 24,
+          "top": 35,
+          "right": 33,
+          "bottom": 21
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3137,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "mountains",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/mountains.png.derivation.json",
+      "sha256": "a4966fe9f473631658837cd93b5ccebccd1fe76af70dbe2b47619d4ce14e27b6",
+      "width": 374,
+      "height": 290,
+      "cropBox": [
+        1074,
+        110,
+        1448,
+        400
+      ],
+      "anchor_px": [
+        171.5,
+        262
+      ],
+      "anchorNormalized": [
+        0.4585561497326203,
+        0.903448275862069
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 69877,
+        "alpha1PixelCount": 2594,
+        "semiTransparentPixelCount": 38555,
+        "opaquePixelCount": 28,
+        "contentBoxAlphaAbove1": [
+          33,
+          32,
+          310,
+          262
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 33,
+          "top": 32,
+          "right": 64,
+          "bottom": 28
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2594,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "wheat-field",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "sha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "width": 377,
+      "height": 291,
+      "cropBox": [
+        0,
+        400,
+        377,
+        691
+      ],
+      "anchor_px": [
+        203.5,
+        259
+      ],
+      "anchorNormalized": [
+        0.5397877984084881,
+        0.8900343642611683
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 69946,
+        "alpha1PixelCount": 3231,
+        "semiTransparentPixelCount": 39731,
+        "opaquePixelCount": 30,
+        "contentBoxAlphaAbove1": [
+          57,
+          38,
+          350,
+          259
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 57,
+          "top": 38,
+          "right": 27,
+          "bottom": 32
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3231,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "iron-mine",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/iron-mine.png.derivation.json",
+      "sha256": "636e3a70fa9236bc32463a092ae72019f13754cdf02d026ce43c9f1388a517cf",
+      "width": 366,
+      "height": 291,
+      "cropBox": [
+        377,
+        400,
+        743,
+        691
+      ],
+      "anchor_px": [
+        178.0,
+        267
+      ],
+      "anchorNormalized": [
+        0.48633879781420764,
+        0.9175257731958762
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 61648,
+        "alpha1PixelCount": 2948,
+        "semiTransparentPixelCount": 44821,
+        "opaquePixelCount": 37,
+        "contentBoxAlphaAbove1": [
+          26,
+          38,
+          330,
+          267
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 26,
+          "top": 38,
+          "right": 36,
+          "bottom": 24
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2948,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "quarry",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/quarry.png.derivation.json",
+      "sha256": "f42916022ef70daa5e14a1249e5dac47ff1c5318330ddb0aac4479a080b241a1",
+      "width": 334,
+      "height": 291,
+      "cropBox": [
+        743,
+        400,
+        1077,
+        691
+      ],
+      "anchor_px": [
+        161.0,
+        264
+      ],
+      "anchorNormalized": [
+        0.4820359281437126,
+        0.9072164948453608
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 57238,
+        "alpha1PixelCount": 2917,
+        "semiTransparentPixelCount": 39908,
+        "opaquePixelCount": 48,
+        "contentBoxAlphaAbove1": [
+          16,
+          46,
+          306,
+          264
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 16,
+          "top": 46,
+          "right": 28,
+          "bottom": 27
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2917,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "river-bend",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-bend.png.derivation.json",
+      "sha256": "1ab192b801bb9cbdf6a69ec73c07024748f94c28f2016d9ad22ac779808a49ae",
+      "width": 371,
+      "height": 291,
+      "cropBox": [
+        1077,
+        400,
+        1448,
+        691
+      ],
+      "anchor_px": [
+        176.0,
+        264
+      ],
+      "anchorNormalized": [
+        0.4743935309973046,
+        0.9072164948453608
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 66608,
+        "alpha1PixelCount": 3240,
+        "semiTransparentPixelCount": 41312,
+        "opaquePixelCount": 41,
+        "contentBoxAlphaAbove1": [
+          29,
+          39,
+          323,
+          264
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 29,
+          "top": 39,
+          "right": 48,
+          "bottom": 27
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3240,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "river-straight",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "width": 377,
+      "height": 314,
+      "cropBox": [
+        0,
+        691,
+        377,
+        1005
+      ],
+      "anchor_px": [
+        205.5,
+        250
+      ],
+      "anchorNormalized": [
+        0.5450928381962865,
+        0.7961783439490446
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 79742,
+        "alpha1PixelCount": 2928,
+        "semiTransparentPixelCount": 38597,
+        "opaquePixelCount": 39,
+        "contentBoxAlphaAbove1": [
+          58,
+          41,
+          353,
+          250
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 58,
+          "top": 41,
+          "right": 24,
+          "bottom": 64
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2928,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "river-bank",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-bank.png.derivation.json",
+      "sha256": "0850349a3551e3a3e49ba9f81b4ba8d24cb46e7cd871dde270c35f7721036435",
+      "width": 366,
+      "height": 314,
+      "cropBox": [
+        377,
+        691,
+        743,
+        1005
+      ],
+      "anchor_px": [
+        177.5,
+        263
+      ],
+      "anchorNormalized": [
+        0.4849726775956284,
+        0.8375796178343949
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 70567,
+        "alpha1PixelCount": 3960,
+        "semiTransparentPixelCount": 44328,
+        "opaquePixelCount": 29,
+        "contentBoxAlphaAbove1": [
+          26,
+          33,
+          329,
+          263
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 26,
+          "top": 33,
+          "right": 37,
+          "bottom": 51
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3960,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "ferry",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/ferry.png.derivation.json",
+      "sha256": "94399b62cc4aa8ff84ab3c9add568df5737dc2141e25e30168795670d124e577",
+      "width": 341,
+      "height": 314,
+      "cropBox": [
+        743,
+        691,
+        1084,
+        1005
+      ],
+      "anchor_px": [
+        171.0,
+        264
+      ],
+      "anchorNormalized": [
+        0.501466275659824,
+        0.8407643312101911
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 63117,
+        "alpha1PixelCount": 3673,
+        "semiTransparentPixelCount": 43926,
+        "opaquePixelCount": 31,
+        "contentBoxAlphaAbove1": [
+          23,
+          19,
+          319,
+          264
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 23,
+          "top": 19,
+          "right": 22,
+          "bottom": 50
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 3673,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "building-plot",
+      "group": "terrain",
+      "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+      "record": "exports/01-率土之滨/map-kit/terrain/building-plot.png.derivation.json",
+      "sha256": "0b867ee3dc8132ff4ba3bafc8a52f9dd79eaf2099e37127c1bf48e9c4cb86829",
+      "width": 364,
+      "height": 314,
+      "cropBox": [
+        1084,
+        691,
+        1448,
+        1005
+      ],
+      "anchor_px": [
+        168.0,
+        253
+      ],
+      "anchorNormalized": [
+        0.46153846153846156,
+        0.8057324840764332
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 76180,
+        "alpha1PixelCount": 2451,
+        "semiTransparentPixelCount": 38095,
+        "opaquePixelCount": 21,
+        "contentBoxAlphaAbove1": [
+          22,
+          37,
+          314,
+          253
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 22,
+          "top": 37,
+          "right": 50,
+          "bottom": 61
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2451,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "slash-arc",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/slash-arc.png",
+      "record": "exports/01-率土之滨/fx/slash-arc.png.derivation.json",
+      "sha256": "f99351842b8d0444c67c3d1e8202975c9c929e4563a6efc483025b6110c88dc4",
+      "width": 457,
+      "height": 450,
+      "cropBox": [
+        0,
+        0,
+        457,
+        450
+      ],
+      "anchor_px": [
+        226.0,
+        417
+      ],
+      "anchorNormalized": [
+        0.49452954048140046,
+        0.9266666666666666
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 84955,
+        "alpha1PixelCount": 37407,
+        "semiTransparentPixelCount": 120695,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          31,
+          90,
+          421,
+          417
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 31,
+          "top": 90,
+          "right": 36,
+          "bottom": 33
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 37407,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/slash-arc.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "strategy-array",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "record": "exports/01-率土之滨/fx/strategy-array.png.derivation.json",
+      "sha256": "8387d21e6f90b06cb0437b274212f3e9dd795eb488ba144d02c5ddfea04359da",
+      "width": 435,
+      "height": 446,
+      "cropBox": [
+        457,
+        0,
+        892,
+        446
+      ],
+      "anchor_px": [
+        215.0,
+        438
+      ],
+      "anchorNormalized": [
+        0.4942528735632184,
+        0.9820627802690582
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixelCount": 73055,
+        "alpha1PixelCount": 30179,
+        "semiTransparentPixelCount": 120955,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          28,
+          74,
+          402,
+          438
+        ],
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 28,
+          "top": 74,
+          "right": 33,
+          "bottom": 8
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 30179,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/strategy-array.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 8,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/strategy-array.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "healing-light",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/healing-light.png",
+      "record": "exports/01-率土之滨/fx/healing-light.png.derivation.json",
+      "sha256": "6988d4c23fc8edbc9a29b352c53ba8fbb4e085234e6d9ee226e39e594f41bdf2",
+      "width": 418,
+      "height": 480,
+      "cropBox": [
+        892,
+        0,
+        1310,
+        480
+      ],
+      "anchor_px": [
+        211.0,
+        438
+      ],
+      "anchorNormalized": [
+        0.5047846889952153,
+        0.9125
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 87350,
+        "alpha1PixelCount": 30200,
+        "semiTransparentPixelCount": 113290,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          58,
+          47,
+          364,
+          438
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 58,
+          "top": 47,
+          "right": 54,
+          "bottom": 42
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 30200,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/healing-light.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "buff-cloud",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/buff-cloud.png",
+      "record": "exports/01-率土之滨/fx/buff-cloud.png.derivation.json",
+      "sha256": "b03d95ae5129b021ac02d876bf3076c537496a3f08a472eed93f77ab33c0ed90",
+      "width": 464,
+      "height": 455,
+      "cropBox": [
+        1310,
+        0,
+        1774,
+        455
+      ],
+      "anchor_px": [
+        226.5,
+        434
+      ],
+      "anchorNormalized": [
+        0.48814655172413796,
+        0.9538461538461539
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 90892,
+        "alpha1PixelCount": 31628,
+        "semiTransparentPixelCount": 120225,
+        "opaquePixelCount": 3,
+        "contentBoxAlphaAbove1": [
+          25,
+          108,
+          428,
+          434
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 25,
+          "top": 108,
+          "right": 36,
+          "bottom": 21
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 31628,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/buff-cloud.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "debuff-mist",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/debuff-mist.png",
+      "record": "exports/01-率土之滨/fx/debuff-mist.png.derivation.json",
+      "sha256": "5e9cd2161e200da25ba2015d93799e29601b2156c602a1e6b542ea3c441fdaec",
+      "width": 457,
+      "height": 437,
+      "cropBox": [
+        0,
+        450,
+        457,
+        887
+      ],
+      "anchor_px": [
+        234.5,
+        393
+      ],
+      "anchorNormalized": [
+        0.513129102844639,
+        0.8993135011441648
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 58205,
+        "alpha1PixelCount": 37103,
+        "semiTransparentPixelCount": 141504,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          47,
+          31,
+          422,
+          393
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 47,
+          "top": 31,
+          "right": 35,
+          "bottom": 44
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 37103,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/debuff-mist.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "fire",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/fire.png",
+      "record": "exports/01-率土之滨/fx/fire.png.derivation.json",
+      "sha256": "1c212f38d429c02a935c0596d55b6afc9e67d2ded577cbfef7de24f8e2500ab2",
+      "width": 435,
+      "height": 443,
+      "cropBox": [
+        457,
+        444,
+        892,
+        887
+      ],
+      "anchor_px": [
+        203.5,
+        385
+      ],
+      "anchorNormalized": [
+        0.46781609195402296,
+        0.8690744920993227
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixelCount": 73849,
+        "alpha1PixelCount": 22116,
+        "semiTransparentPixelCount": 118856,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          23,
+          8,
+          384,
+          385
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 23,
+          "top": 8,
+          "right": 51,
+          "bottom": 58
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 22116,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/fire.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 8,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/fire.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "capture-circle",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "record": "exports/01-率土之滨/fx/capture-circle.png.derivation.json",
+      "sha256": "40c0df3f582e47b42cae33a66adb0e18110dc597aa365c88bd96eecf95d88ca4",
+      "width": 418,
+      "height": 407,
+      "cropBox": [
+        892,
+        480,
+        1310,
+        887
+      ],
+      "anchor_px": [
+        208.0,
+        349
+      ],
+      "anchorNormalized": [
+        0.49760765550239233,
+        0.8574938574938575
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 57488,
+        "alpha1PixelCount": 23860,
+        "semiTransparentPixelCount": 112638,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          10,
+          37,
+          406,
+          349
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 10,
+          "top": 37,
+          "right": 12,
+          "bottom": 58
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 23860,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/capture-circle.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        },
+        {
+          "id": "NARROW_NATIVE_GUTTER",
+          "value": 10,
+          "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+          "file": "exports/01-率土之滨/fx/capture-circle.png",
+          "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    },
+    {
+      "id": "reward-glow",
+      "group": "fx",
+      "file": "exports/01-率土之滨/fx/reward-glow.png",
+      "record": "exports/01-率土之滨/fx/reward-glow.png.derivation.json",
+      "sha256": "bf17b7291b5c7f59d686a61fa5a89402e9bb668411bc606dce86d285bff10a5a",
+      "width": 464,
+      "height": 432,
+      "cropBox": [
+        1310,
+        455,
+        1774,
+        887
+      ],
+      "anchor_px": [
+        240.0,
+        380
+      ],
+      "anchorNormalized": [
+        0.5172413793103449,
+        0.8796296296296297
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "fullyTransparentPixelCount": 74565,
+        "alpha1PixelCount": 45678,
+        "semiTransparentPixelCount": 125883,
+        "opaquePixelCount": 0,
+        "contentBoxAlphaAbove1": [
+          60,
+          30,
+          420,
+          380
+        ],
+        "edgeMaxAlpha": {
+          "top": 1,
+          "bottom": 1,
+          "left": 1,
+          "right": 1
+        },
+        "edgePixelsAlphaAbove1": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "contentMarginsAlphaAbove1": {
+          "left": 60,
+          "top": 30,
+          "right": 44,
+          "bottom": 52
+        },
+        "alphaEdited": false
+      },
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 45678,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/fx/reward-glow.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ],
+      "cropIntegrity": "pass",
+      "status": "native_static_crop_candidate_pending_user_and_engine_review"
+    }
+  ],
+  "remaining": [
+    "Five-element ownership/faction variants are not systematically authored or approved.",
+    "Terrain native crops are illustrated props; seamless map tiling is not validated.",
+    "Anchors are provisional; actor scale, footprint/collision and target engine are undefined.",
+    "FX are static images with zero animation frames, not completed animated effects.",
+    "Original alpha=1 quantization residue remains; no mathematically cleaned matte is claimed.",
+    "All assets await user review and real-client integration."
+  ]
+}

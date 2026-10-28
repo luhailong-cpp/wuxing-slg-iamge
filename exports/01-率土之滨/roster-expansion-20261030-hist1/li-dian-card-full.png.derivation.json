@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/li-dian-card-full.png",
+  "sha256": "e6f5247d624000d9d5339d0c5ddddece21343b7cdfe6c065468815049dec0f0d",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-dian-master-v1.png",
+    "sha256": "9fc6882423f3cd86f31031d1d23ed5d98e781eb6ac5708274d67cae2fc583f02",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-dian-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

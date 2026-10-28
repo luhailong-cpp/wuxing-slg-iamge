@@ -1,0 +1,38 @@
+{
+  "file": "records/map-depth-20261028/middle-dark.png",
+  "sha256": "479d57db695517e22bcc3871e33f362a7b3f1a7cf425a41194a735385cd81bc1",
+  "createdAt": "2026-10-28T08:14:06.203468+00:00",
+  "width": 1000,
+  "height": 1000,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "diagnostic_composite",
+  "details": {
+    "layerOrder": [
+      "bridge-back.png",
+      "neutral diagnostic capsule",
+      "bridge-front.png"
+    ],
+    "footpoint": [
+      463,
+      506
+    ],
+    "background": "dark",
+    "diagnosticOnly": true,
+    "resampled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-back.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-front.png.derivation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false
+}

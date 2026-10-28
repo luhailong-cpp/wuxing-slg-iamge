@@ -1,0 +1,21 @@
+{
+  "file": "records/troop-frames-20261029-r3-water/water-ground-hurt-light-aligned.png",
+  "sha256": "d011aa44b3abed04f433dbc171c33d88a5df60bc3b9fd905998ae01ac62749ed",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "sha256": "363d491a2cab621da66e5892b788a37ffe496a03c8fd27b0237e82f428e74a39",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "QA-only contact/helmet/grid/grounding preview",
+    "notRuntimeAsset": true,
+    "registrationInput": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "scripts": [
+      "work/troop-frames-20261029-r3-water/measure.py",
+      "work/troop-frames-20261029-r3-water/review_sources.py",
+      "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py"
+    ]
+  }
+}

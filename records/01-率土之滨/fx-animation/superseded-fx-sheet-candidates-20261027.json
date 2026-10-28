@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "scope": "only these2 first source sheets; not selected exports",
+  "items": [
+    {
+      "source": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v1.png",
+      "status": "superseded_containment_candidate_not_exported",
+      "qa": {
+        "rawSpillReport": "records/01-率土之滨/fx-animation/slash-arc-sheet-v1.spill-qc.json",
+        "warningsAndFailures": [
+          {
+            "id": "safe_frame",
+            "status": "warn",
+            "value": 2,
+            "threshold": 0,
+            "cells": [
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+          },
+          {
+            "id": "faint_specks",
+            "status": "warn",
+            "value": {
+              "floor_px": 251266,
+              "detached_components": 13
+            },
+            "threshold": 0,
+            "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+          }
+        ],
+        "exported": false,
+        "reason": "peak contour/halo unsafe for nominal grid ownership; replaced by real AI containment edit v2"
+      }
+    },
+    {
+      "source": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v1.png",
+      "status": "superseded_containment_candidate_not_exported",
+      "qa": {
+        "rawSpillReport": "records/01-率土之滨/fx-animation/strategy-array-sheet-v1.spill-qc.json",
+        "warningsAndFailures": [
+          {
+            "id": "cross_cell_visible",
+            "status": "fail",
+            "value": 1,
+            "threshold": 0,
+            "note": "the same test on the visible edge (alpha > 16)"
+          },
+          {
+            "id": "safe_frame",
+            "status": "warn",
+            "value": 4,
+            "threshold": 0,
+            "cells": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                0
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+          },
+          {
+            "id": "faint_specks",
+            "status": "warn",
+            "value": {
+              "floor_px": 235870,
+              "detached_components": 32
+            },
+            "threshold": 0,
+            "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+          }
+        ],
+        "exported": false,
+        "reason": "peak contour/halo unsafe for nominal grid ownership; replaced by real AI containment edit v2"
+      }
+    }
+  ]
+}

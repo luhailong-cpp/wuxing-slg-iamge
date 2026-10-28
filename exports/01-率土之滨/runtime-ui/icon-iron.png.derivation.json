@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-iron",
+  "file": "exports/01-率土之滨/runtime-ui/icon-iron.png",
+  "sha256": "b300d2383afa1a225888b413b7904416ea407203c139cec8de17595d87443619",
+  "width": 288,
+  "height": 276,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 30765,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      337,
+      45,
+      625,
+      321
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

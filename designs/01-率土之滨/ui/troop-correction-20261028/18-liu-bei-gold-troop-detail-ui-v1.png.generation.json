@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png",
+  "sha256": "c6a7a151db4f0f23aecd159af6cd752a63d6cb936019cb5715f8dcd2c40a434f",
+  "generatedAt": "2026-10-28T08:12:26.680Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-28T08:11:01.439Z",
+  "width": 1915,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无model/quality参数，实际返回未披露型号或画质。",
+  "evidence": [
+    {
+      "file": "records/ui-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/ui-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1771a-2076-7f21-94c3-d0fbda0da0db/exec-fb17bb55-a4b0-4c2d-a4fa-12a420193d23.png",
+      "sha256": "c6a7a151db4f0f23aecd159af6cd752a63d6cb936019cb5715f8dcd2c40a434f",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png",
+      "sha256": "5b81458f7accd4aacfbe755cf5a1e7e5a2d95d22fd1ff527c7b7612b1afc20ce",
+      "role": "18刘备旧详情页编辑目标，保留身份/战法/属性，修正兵种与COST字样",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "role": "刘备v2身份与服装双剑母版",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/characters/02-liu-bei-v2.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "sha256": "2e0c66c6b26615ce080cb49ac24de33647baa8d6d3e9ee2f4c98a9037ceea029",
+      "role": "五行徽记仅金徽记作为金兵标识",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "刘备详情页：恢复率土身份与体系，兵种金兵作当前示例，D1候选",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-28T08:13:02.772140+00:00"
+}

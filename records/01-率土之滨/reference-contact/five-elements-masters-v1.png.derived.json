@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+  "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+  "derivedAtUtc": "2026-10-27T13:30:23.593228+00:00",
+  "width": 1536,
+  "height": 1536,
+  "mode": "RGBA",
+  "operation": "premultiplied_alpha_lanczos_half_scale_and_composite_contact_sheet",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "record": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.5,
+      "pasteOffset": [
+        0,
+        0
+      ],
+      "identity": "01-metal"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "record": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.5,
+      "pasteOffset": [
+        512,
+        0
+      ],
+      "identity": "02-wood"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "record": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.5,
+      "pasteOffset": [
+        1024,
+        0
+      ],
+      "identity": "03-water"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "record": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.5,
+      "pasteOffset": [
+        0,
+        768
+      ],
+      "identity": "04-fire"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "record": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "sourceDimensions": [
+        1024,
+        1536
+      ],
+      "scale": 0.5,
+      "pasteOffset": [
+        512,
+        768
+      ],
+      "identity": "05-earth"
+    }
+  ],
+  "purpose": "Reference contact sheet to carry five exact candidate identities within host five-reference input limit; not a new master or runtime asset.",
+  "grid": [
+    3,
+    2
+  ],
+  "readingOrder": [
+    "metal",
+    "wood",
+    "water",
+    "fire",
+    "earth",
+    "empty"
+  ],
+  "resampled": true,
+  "paintedOrRekeyed": false,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false
+}

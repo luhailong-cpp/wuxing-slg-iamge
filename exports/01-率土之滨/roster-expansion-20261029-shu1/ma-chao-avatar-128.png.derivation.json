@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-avatar-128.png",
+  "sha256": "b0aaea118a27b321fa48cc93c66d2c89ea18bbdcc1efecfb2342870d3f378bcb",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "ma-chao",
+  "displayName": "马超",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/ma-chao-master-v1.png",
+      "sha256": "8c42e6a221e744c3875c5d6ccf68fa898b3c88d41e2853e445c5625dcfd8d03a",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/ma-chao-master-v1.png.generation.json",
+      "recordSha256": "be05231a6a75930ae7f58f41fa592271e703a1089d20e606a21c900a435c581c"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    380,
+    250,
+    760,
+    655
+  ],
+  "resizeTo": [
+    105,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    11,
+    8,
+    116,
+    120
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    470,
+    475,
+    665,
+    612
+  ],
+  "faceRoiOutputApprox": [
+    35.87,
+    70.22,
+    89.75,
+    108.11
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 6594,
+    "alpha1Pixels": 105,
+    "opaquePixels": 110,
+    "bboxAbove32": [
+      11,
+      8,
+      113,
+      120
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      11,
+      8,
+      15,
+      8
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": true,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 28101,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        21,
+        34,
+        21,
+        76
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

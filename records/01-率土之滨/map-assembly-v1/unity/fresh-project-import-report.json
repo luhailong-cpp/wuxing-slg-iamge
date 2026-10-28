@@ -1,0 +1,1260 @@
+{
+    "schema": "wuxing.unity-map-assembly-import-export.v1",
+    "unityVersion": "6000.6.0f1",
+    "verifiedAtUtc": "2026-10-27T19:29:13.6721590Z",
+    "mode": "fresh_empty_project_package_import",
+    "error": "",
+    "packageSha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+    "sceneAsset": "Assets/WuxingSLGMapAssemblyPreview/Scenes/MapAssemblyPreview.unity",
+    "graphicsDeviceType": "Null",
+    "packageBytes": 1000922,
+    "passed": true,
+    "sceneExists": true,
+    "missingScriptsZero": true,
+    "routeReferencesMatch": true,
+    "cameraExists": true,
+    "cameraFramingMatches": true,
+    "batchMode": true,
+    "graphicsIsNull": true,
+    "clientIntegrated": false,
+    "spriteFiles": 7,
+    "rendererInstances": 39,
+    "routePoints": 8,
+    "cameraPosition": {
+        "x": 7.199999809265137,
+        "y": 4.800000190734863,
+        "z": -10.0
+    },
+    "cameraOrthographicSize": 4.800000190734863,
+    "aspectBeforeProjectionProbe": 1.3333333730697632,
+    "projectionProbeAspect": 1.5,
+    "cameraAspectPolicy": "Scene has fixed vertical extent. 3:2 Game view is recommended; projection probe and GPU captures explicitly use1440x960. Responsive camera coverage is not verified.",
+    "assets": [
+        {
+            "id": "grassland",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "category": "map",
+            "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 377,
+            "sourceHeight": 290,
+            "importedWidth": 377,
+            "importedHeight": 290,
+            "spriteCount": 1,
+            "alphaZero": 73746,
+            "alphaOne": 2484,
+            "alphaSemi": 35547,
+            "alphaOpaque": 37,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 204.49998474121094,
+            "expectedPivotY": 31.0,
+            "spritePivotX": 204.49998474121094,
+            "spritePivotY": 31.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        },
+        {
+            "id": "stone-road",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+            "category": "map",
+            "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 366,
+            "sourceHeight": 290,
+            "importedWidth": 366,
+            "importedHeight": 290,
+            "spriteCount": 1,
+            "alphaZero": 69622,
+            "alphaOne": 2862,
+            "alphaSemi": 36477,
+            "alphaOpaque": 41,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 177.5,
+            "expectedPivotY": 27.0,
+            "spritePivotX": 177.5,
+            "spritePivotY": 27.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        },
+        {
+            "id": "river-straight",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+            "category": "map",
+            "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 377,
+            "sourceHeight": 314,
+            "importedWidth": 377,
+            "importedHeight": 314,
+            "spriteCount": 1,
+            "alphaZero": 79742,
+            "alphaOne": 2928,
+            "alphaSemi": 38597,
+            "alphaOpaque": 39,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 205.5,
+            "expectedPivotY": 64.0,
+            "spritePivotX": 205.5,
+            "spritePivotY": 64.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        },
+        {
+            "id": "main-city",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/main-city.png",
+            "category": "map",
+            "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 445,
+            "sourceHeight": 397,
+            "importedWidth": 445,
+            "importedHeight": 397,
+            "spriteCount": 1,
+            "alphaZero": 85315,
+            "alphaOne": 4060,
+            "alphaSemi": 91331,
+            "alphaOpaque": 19,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 228.0,
+            "expectedPivotY": 33.0,
+            "spritePivotX": 228.0,
+            "spritePivotY": 33.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        },
+        {
+            "id": "bridge",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/bridge.png",
+            "category": "map",
+            "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 334,
+            "sourceHeight": 375,
+            "importedWidth": 334,
+            "importedHeight": 375,
+            "spriteCount": 1,
+            "alphaZero": 87074,
+            "alphaOne": 5117,
+            "alphaSemi": 38153,
+            "alphaOpaque": 23,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 165.5,
+            "expectedPivotY": 73.0,
+            "spritePivotX": 165.5,
+            "spritePivotY": 73.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        },
+        {
+            "id": "enemy-camp",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/enemy-camp.png",
+            "category": "map",
+            "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 374,
+            "sourceHeight": 375,
+            "importedWidth": 374,
+            "importedHeight": 375,
+            "spriteCount": 1,
+            "alphaZero": 71959,
+            "alphaOne": 4277,
+            "alphaSemi": 68257,
+            "alphaOpaque": 34,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 187.49998474121094,
+            "expectedPivotY": 61.0,
+            "spritePivotX": 187.49998474121094,
+            "spritePivotY": 61.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        },
+        {
+            "id": "infantry-64h",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/infantry-64h.png",
+            "category": "unit",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "textureFormat": "RGBA32",
+            "sourceWidth": 256,
+            "sourceHeight": 256,
+            "importedWidth": 256,
+            "importedHeight": 256,
+            "spriteCount": 1,
+            "alphaZero": 63244,
+            "alphaOne": 88,
+            "alphaSemi": 2115,
+            "alphaOpaque": 177,
+            "maximumTextureSize": 4096,
+            "expectedPivotX": 128.0,
+            "expectedPivotY": 32.0,
+            "spritePivotX": 128.0,
+            "spritePivotY": 32.0,
+            "pixelsPerUnit": 100.0,
+            "bytesMatchSource": true,
+            "nativeDimensionsMatch": true,
+            "alphaCountsMatch": true,
+            "sourceHasAlpha": true,
+            "settingsMatch": true,
+            "pivotMatch": true,
+            "oneFullRectSprite": true,
+            "passed": true
+        }
+    ],
+    "instances": [
+        {
+            "id": "ground-0-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 6.503599643707275,
+                "y": 7.1519999504089355,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 650.0,
+                "y": 180.0
+            },
+            "sortingOrder": -10000,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-0-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 5.503599643707275,
+                "y": 6.51200008392334,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 550.0,
+                "y": 243.99998474121094
+            },
+            "sortingOrder": -9999,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-1-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 7.503599643707275,
+                "y": 6.51200008392334,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 750.0,
+                "y": 243.99998474121094
+            },
+            "sortingOrder": -9998,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-0-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 4.503599643707275,
+                "y": 5.872000217437744,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 449.9999694824219,
+                "y": 308.0
+            },
+            "sortingOrder": -9997,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-1-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 6.503599643707275,
+                "y": 5.872000217437744,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 650.0,
+                "y": 308.0
+            },
+            "sortingOrder": -9996,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-2-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 8.503600120544434,
+                "y": 5.872000217437744,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 850.0,
+                "y": 308.0
+            },
+            "sortingOrder": -9995,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-0-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 3.5035998821258545,
+                "y": 5.232000350952148,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 350.0,
+                "y": 371.99993896484375
+            },
+            "sortingOrder": -9994,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-1-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 5.503599643707275,
+                "y": 5.232000350952148,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 550.0,
+                "y": 371.99993896484375
+            },
+            "sortingOrder": -9993,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-2-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 7.503599643707275,
+                "y": 5.232000350952148,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 750.0,
+                "y": 371.99993896484375
+            },
+            "sortingOrder": -9992,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-3-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+            "position": {
+                "x": 9.496399879455566,
+                "y": 5.217599868774414,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 950.0,
+                "y": 372.0
+            },
+            "sortingOrder": -9991,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-0-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 2.5036001205444336,
+                "y": 4.5920000076293945,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 250.00003051757813,
+                "y": 436.0
+            },
+            "sortingOrder": -9990,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-1-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 4.503599643707275,
+                "y": 4.5920000076293945,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 449.9999694824219,
+                "y": 436.0
+            },
+            "sortingOrder": -9989,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-2-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+            "position": {
+                "x": 6.503599643707275,
+                "y": 4.563199996948242,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 650.0,
+                "y": 436.0
+            },
+            "sortingOrder": -9988,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-3-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+            "position": {
+                "x": 8.496399879455566,
+                "y": 4.577600002288818,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 850.0,
+                "y": 436.0
+            },
+            "sortingOrder": -9987,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-4-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 10.503600120544434,
+                "y": 4.5920000076293945,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 1050.0,
+                "y": 436.0
+            },
+            "sortingOrder": -9986,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-1-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 3.5035998821258545,
+                "y": 3.952000141143799,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 350.0,
+                "y": 500.0
+            },
+            "sortingOrder": -9985,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-2-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 5.503599643707275,
+                "y": 3.952000141143799,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 550.0,
+                "y": 500.0
+            },
+            "sortingOrder": -9984,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-3-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+            "position": {
+                "x": 7.496400356292725,
+                "y": 3.9376001358032227,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 750.0,
+                "y": 500.0
+            },
+            "sortingOrder": -9983,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-4-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 9.503600120544434,
+                "y": 3.952000141143799,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 950.0,
+                "y": 500.0
+            },
+            "sortingOrder": -9982,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-5-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 11.503600120544434,
+                "y": 3.952000141143799,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 1150.0,
+                "y": 500.0
+            },
+            "sortingOrder": -9981,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-2-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 4.503599643707275,
+                "y": 3.312000036239624,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 449.9999694824219,
+                "y": 564.0
+            },
+            "sortingOrder": -9980,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-3-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+            "position": {
+                "x": 6.496400356292725,
+                "y": 3.297600030899048,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 650.0,
+                "y": 564.0
+            },
+            "sortingOrder": -9979,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-4-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+            "position": {
+                "x": 8.503600120544434,
+                "y": 3.2832000255584717,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 850.0,
+                "y": 564.0
+            },
+            "sortingOrder": -9978,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-5-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 10.503600120544434,
+                "y": 3.312000036239624,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 1050.0,
+                "y": 564.0
+            },
+            "sortingOrder": -9977,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-6-0",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 12.503600120544434,
+                "y": 3.312000036239624,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 1250.0,
+                "y": 564.0
+            },
+            "sortingOrder": -9976,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-3-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+            "position": {
+                "x": 5.496400356292725,
+                "y": 2.657600164413452,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 550.0,
+                "y": 628.0
+            },
+            "sortingOrder": -9975,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-4-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 7.503599643707275,
+                "y": 2.6720001697540283,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 750.0,
+                "y": 628.0
+            },
+            "sortingOrder": -9974,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-5-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+            "position": {
+                "x": 9.503600120544434,
+                "y": 2.643200159072876,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 950.0,
+                "y": 628.0
+            },
+            "sortingOrder": -9973,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-6-1",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 11.503600120544434,
+                "y": 2.6720001697540283,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 1150.0,
+                "y": 628.0
+            },
+            "sortingOrder": -9972,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-4-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 6.503599643707275,
+                "y": 2.0320000648498535,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 650.0,
+                "y": 692.0
+            },
+            "sortingOrder": -9971,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-5-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 8.503600120544434,
+                "y": 2.0320000648498535,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 850.0,
+                "y": 692.0
+            },
+            "sortingOrder": -9970,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-6-2",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 10.503600120544434,
+                "y": 2.0320000648498535,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 1050.0,
+                "y": 692.0
+            },
+            "sortingOrder": -9969,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-5-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 7.503599643707275,
+                "y": 1.3920000791549683,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 750.0,
+                "y": 756.0
+            },
+            "sortingOrder": -9968,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-6-3",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 9.503600120544434,
+                "y": 1.3920000791549683,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 950.0,
+                "y": 756.0
+            },
+            "sortingOrder": -9967,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "ground-6-4",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+            "position": {
+                "x": 8.503600120544434,
+                "y": 0.752000093460083,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.7200000286102295,
+                "y": 0.7200000286102295,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 850.0,
+                "y": 820.0
+            },
+            "sortingOrder": -9966,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "city",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/main-city.png",
+            "position": {
+                "x": 6.5,
+                "y": 6.519999980926514,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.6499999761581421,
+                "y": 0.6499999761581421,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 650.0,
+                "y": 308.0
+            },
+            "sortingOrder": 3080,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "bridge",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/bridge.png",
+            "position": {
+                "x": 7.517249584197998,
+                "y": 3.3924999237060547,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.149999976158142,
+                "y": 1.149999976158142,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 751.7249755859375,
+                "y": 620.75
+            },
+            "sortingOrder": 4300,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "enemy-camp",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/enemy-camp.png",
+            "position": {
+                "x": 9.5,
+                "y": 1.7999999523162842,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 950.0,
+                "y": 780.0
+            },
+            "sortingOrder": 7800,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        },
+        {
+            "id": "representative-infantry",
+            "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/infantry-64h.png",
+            "position": {
+                "x": 7.5,
+                "y": 5.880000114440918,
+                "z": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "contactWorldTopLeft": {
+                "x": 750.0,
+                "y": 372.0
+            },
+            "sortingOrder": 3721,
+            "spriteMatch": true,
+            "positionMatch": true,
+            "scaleMatch": true,
+            "flipMatch": true,
+            "sortMatch": true,
+            "contactMatch": true,
+            "passed": true
+        }
+    ]
+}

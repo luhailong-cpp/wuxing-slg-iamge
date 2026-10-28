@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "executionCellId": "19",
+  "callStartedAt": "2026-10-26T18:17:43.747Z",
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: precise-object-edit\nAsset type: 刘备全身透明静态master边缘修订。\nInput images: 第一张是唯一编辑对象：本项目已生成的刘备，白绿衣、温厚成年脸、双剑。第二张邮件和第三张组队仅为已确认道家Q版手绘风格。\nReproduce the FIRST image's exact character identity: same warm adult face, same hair and jade crown, same white-and-jade-green robes, brown leather harness, gold trim, two silver straight swords and same overall natural standing pose. Preserve the hand-painted finish and palette.\nTHE ONLY CHANGE: 修复画面构图与余边。将完整刘备连同双剑、衣摆、发冠统一缩小并居中到画布内部，使整个人物和两把完整剑占画布约76%的高度和约76%的宽度。右侧剑尖与左侧衣摆必须完整重新呈现，不能被画布裁切，头顶、脚底、左右所有端点都有至少10%真正透明余边。不要改变面孔、年龄、衣装设计、双剑数量和持剑姿势，不增添新物件。\nCanvas: 同样竖幅约2:3，单一全身角色，完整头冠、双手、双足、两把剑刃和剑尖、披带全部在画布内。真实透明背景，保留alpha，不画白底/色底/地面/阴影盘/光雾背景。\nNo text, letters, numbers, logo, watermark, UI, border, frame, grid or additional characters.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

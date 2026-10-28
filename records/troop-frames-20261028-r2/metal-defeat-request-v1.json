@@ -1,0 +1,67 @@
+{
+  "startedAt": "2026-10-29T03:52:18.890Z",
+  "promptFile": "prompts/01-率土之滨/troop-frames-20261028-r2/metal-defeat-se-v1.prompt.txt",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "userOverride": "User requested action-frame images referencing agent-sprite-forge rather than waiting on video. Direct image-generated sheet used; no video invoked.",
+  "masterApprovalStatus": "existing_candidate_userApproved_false",
+  "references": [
+    {
+      "path": "records/troop-frames-20261028-r2/metal-defeat-anchor.png",
+      "sha256": "b42d6c9dec5b78ff00bc6f43cd02eb8289f2f7ff6ed15e5cdadc4c835960afc9",
+      "role": "edit_target_derived_scale_root_template"
+    },
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "role": "identity_master"
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative_style"
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Edit IMAGE 1, a repeated-metal-soldier layout, into one DEFEAT / EXHAUSTED KNEELING sprite sheet for the landscape strategy game 五行问鼎. Preserve IMAGE 1's exact 3-column by 2-row layout, the SMALL anatomical scale, generous empty margins, and common local root in every cell. IMAGE 2 is the exact detailed identity master. IMAGES 3 and 4 are only art style references, do not import their characters or UI.\nThere must be six genuinely distinct sequential poses of ONE non-looping defeat action, read left-to-right then next row:\n0 The soldier is still standing but staggers from exhaustion, knees beginning to buckle, expression strained.\n1 Knees bend deeply, shoulders droop, shield lowers, saber angled safely downward in its original hand.\n2 One knee touches the ground near the original root; the other foot supports, torso still half-upright.\n3 Both knees settle onto the ground, head begins to bow; same anatomy gets shorter because of kneeling, do not resize the character to fill the cell.\n4 Kneeling body folds forward gently, helmet tilts downward, shield hand supports its shield against the ground beside the same body.\n5 Final stable kneeling defeated pose: head fully bowed, eyes closed, saber held down alongside, shield resting against same arm, ready to hold on screen. No resurrection, no reversed recovery.\nKeep same detailed chibi rounded face, silver-and-gold helmet, ivory plume, jade ornament, green tunic, ivory trousers and gold-rimmed silver armour. SABER stays in same hand (left of image in neutral stance) and oval SHIELD stays in same hand (right of image). One of each, no detached spare weapons, no change of costume. Preserve the master's elevated SE/down-right three-quarter facing and upper-left light.\nThe standing scale in cell0 matches the small template; all later poses keep exactly that anatomical size even when crouched. Keep every feather, sword tip and shield fully inside its cell with more than 15% margin. Root x50% and ground y82% per cell, feet/knees come to that same imaginary ground plane, no horizontal travel. True transparent RGBA background, no cast shadow/ground/noise/floor. High definition smooth hand-painted chibi finish, not pixel art. No text, labels, grid, checkerboard, blood or effects. Overall landscape 3:2 aspect.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261028-r2/metal-defeat-anchor.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "grid": {
+    "rows": 2,
+    "cols": 3
+  },
+  "framePhases": [
+    "stagger",
+    "knees_buckle",
+    "one_knee",
+    "both_knees",
+    "bow",
+    "settled_defeat"
+  ],
+  "sourceRepository": "https://github.com/0x0funky/agent-sprite-forge"
+}

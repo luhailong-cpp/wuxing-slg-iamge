@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/14-tactic-detail-ui-v1.png",
+  "sha256": "bd8c9b9dd0594baf1507ed744bfbb9ebb4a3954f932d6249a12e6c4509d9385b",
+  "generatedAt": "2026-10-26T16:54:55.059Z",
+  "generatedAtBasis": "宿主调用完成时记录的UTC时间；工具未另披露图像生成时间",
+  "callStartedAt": "2026-10-26T16:53:30.296Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "executionCellIdReason": "调用直接完成，宿主未返回可见cell ID",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/02-tactic-detail.jpg",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/13-tactic-library-ui-v1.png"
+    ],
+    "promptFile": "prompts/01-率土之滨/14-tactic-detail-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/14-tactic-detail-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/14-tactic-detail-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17713-1e35-7c31-9d6b-0c9e74cc986e/exec-0c56c40b-5966-4efb-b657-65271a897c66.png",
+      "sha256": "bd8c9b9dd0594baf1507ed744bfbb9ebb4a3954f932d6249a12e6c4509d9385b",
+      "copyHashVerified": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回字段未披露实际模型和画质；当前可读取PNG元数据未提供可核实版本字段。配置目标不能作为实际版本证据。",
+  "prompt": "prompts/01-率土之滨/14-tactic-detail-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "用户指定邮件UI主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "用户指定组队UI主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/02-tactic-detail.jpg",
+      "sha256": "c18bb9956b794ea7f8d3d4bbec7718c39559464e5ba1176a452906e11790553f",
+      "role": "用户上传谋攻详情截图：仅属性、学习状态及布局参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/13-tactic-library-ui-v1.png",
+      "sha256": "11430d8f52dac6e28ba08bf311719e2b8a4f8585442f7e8a7f1d949c02105d34",
+      "role": "本项目战法库：谋攻扇形图标、D级与3/3状态连续性参考",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "谋攻战法详情完整静态功能方向稿",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "runtimeGeometryProvided": false,
+  "art_source": "host_image",
+  "scene_mode": "baked_screen_mode"
+}

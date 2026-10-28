@@ -1,0 +1,34 @@
+{
+  "file": "records/troop-frames-20261029-r3-wood/wood-layout-2x2-reference.png",
+  "sha256": "9d786eb9ae1a4e3797e73ee89b48f315820e951f73938d11b1d86c60dfd128a3",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+      "sha256": "94c417d03cdefc8ed2b8a7865d9c221de149968f8bb9f83a376c8d52c4475473",
+      "generationRecord": "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "reference_only_repeated_master_layout",
+    "resampler": "premultiplied Lanczos",
+    "resizedFullSource": [
+      400,
+      400
+    ],
+    "grid": [
+      2,
+      2
+    ],
+    "cell": [
+      512,
+      512
+    ],
+    "cellPasteOffset": [
+      36,
+      24
+    ],
+    "alphaEditing": false
+  },
+  "notNativeGeneration": true,
+  "notAnimationFrames": true
+}

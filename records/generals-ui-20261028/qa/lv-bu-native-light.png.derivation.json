@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/lv-bu-native-light.png",
+  "sha256": "d4572ed1a9de4422aa74fc54eaabfee27b5a2515c05b96c99794625ebe45eeb3",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1485,
+  "height": 1005,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png",
+      "sha256": "1b524f030f500e55b92f72ec1895586771e40b2c0c6e445ba4cd147f18d29c99",
+      "record": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-bust-native.png",
+      "sha256": "508538b86e5efa037df6c884f17cde117f533fa8a5bc538664ae6a450787cf0f",
+      "record": "exports/01-率土之滨/generals-ui-v1/lv-bu-bust-native.png.derivation.json"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-01.png",
+  "sha256": "298f773873cf0428c88b57d87116c9ed683af2c56761cba5cf91294b10e324e2",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-attack-se-v1.png",
+      "sha256": "714378fc40a04f5603d633439cf4282a2fafbd372458f8f0c102310ecf28a47e",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-attack-se-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "derived_animation_frame",
+    "tier": "native",
+    "sourceRectXYXYExclusive": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "originalAlphaDeleted": false,
+    "nativeRGBAExact": true,
+    "nativeTranslation": [
+      223,
+      288
+    ],
+    "actionUniformScale": 1,
+    "normalizedTranslation": null,
+    "mapScale": null,
+    "resampler": "none, integer copy",
+    "root": [
+      512,
+      768
+    ],
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ]
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-wood/wood-ground-measured.json",
+    "sha256": "5ceab3b8ac48c4ae5dd0c25095e7aeca7a90c5c6cc98f75a4da59f1e8e2f1552"
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "notNativeGeneration": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

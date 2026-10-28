@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T19:03:46Z",
+  "scope": "Root phase3 actual visual review of original UI31-35 and generated33/34/35 five-elements revisions",
+  "selected": [
+    {
+      "id": 33,
+      "file": "designs/01-率土之滨/ui/33-five-elements-battle-result-ui-v2.png",
+      "sha256": "526cf37330b5b7615be7a4467e8c608d69a91a1896656d2c362cbf53a6d477e3",
+      "checks": [
+        "Metal/Wood/Water three distinct identity references rendered as new illustration; generic garrison matches Dao infantry reference.",
+        "Left1000-180=820, right900-900=0; corresponding remaining bars and reward600/300/200 visually checked.",
+        "Titles, labels, result data and buttons readable; central victory ornament does not cover result rows."
+      ],
+      "status": "static_direction_candidate"
+    },
+    {
+      "id": 34,
+      "file": "designs/01-率土之滨/ui/34-metal-envoy-awakening-ui-v2.png",
+      "sha256": "3c309306de0f6bb6aa924dfff1ee97edd6a2cb36cd292831f7112419e582cf1c",
+      "checks": [
+        "Metal short silver bob/amber face/rune ruler/lotus compass and both boots visible; no spear warrior reused.",
+        "20/20 achieved,1/2 token deficit1 and disabled materials button agree.",
+        "Before third slot locked; after third slot empty plus; two earlier slots remain same order."
+      ],
+      "status": "static_direction_candidate"
+    },
+    {
+      "id": 35,
+      "file": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v3.png",
+      "sha256": "608232939668918bd3921459b878a304b4981d3df404db744328ff2463a6987b",
+      "checks": [
+        "Five newly designed hero identities represented once each: Wood/Earth left, Metal/Water/Fire right.",
+        "V2 fused gold-lotus/water-ring artwork repaired in V3: water ring empty center and own hand; no shared gold-lotus center.",
+        "5000 coins afford300/1500;680 jade afford200 but not1000; red deficit320 matches disabled five-recruit control."
+      ],
+      "status": "static_direction_candidate"
+    }
+  ],
+  "retainedWithoutRegeneration": [
+    {
+      "id": 31,
+      "file": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+      "finding": "Actual view: neutral forest resource land, wood output, garrison and post-occupation locked actions; no named historical identity found in this screen. Full rules/navigation and independent UI states remain unverified."
+    },
+    {
+      "id": 32,
+      "file": "designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+      "finding": "Actual view: neutral resource/material inventory, selected grain pack3x1000=3000, no historical character. Currency/material names and all interactive states still demonstration candidates."
+    }
+  ],
+  "supersededCandidates": [
+    {
+      "file": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v2.png",
+      "reason": "Metal gold lotus and Water blue ring fused into one shared-looking prop; preserved as source for targeted edit, not current direction."
+    }
+  ],
+  "limits": [
+    "These are AI-redrawn baked static UI direction images; hero portraits and skill icons are references, not exact source-pixel reuse. Separate HeroSkill Unity assets provide actual reusable source pixels.",
+    "Values, rarity stars, token costs, recruitment illustrations, awakening and slot conditions are independent illustrative snapshots, not approved gameplay or pool-membership contracts.",
+    "All generated native widths retained (33/34:1916,35v3:1915; height821); not resampled to equal widths.",
+    "No user approval, target-device or game-client integration proven."
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

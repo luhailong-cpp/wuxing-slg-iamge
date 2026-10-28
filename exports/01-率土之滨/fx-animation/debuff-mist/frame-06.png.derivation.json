@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/debuff-mist/frame-06.png",
+  "sha256": "d5cb6dfd100e22ed458fa11cb0f8bb0d88fbf046bce634443910080456f77714",
+  "createdAtUtc": "2026-10-27T17:17:00.852588+00:00",
+  "width": 768,
+  "height": 768,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "operation": "native_full_cell_crop_then_integer_translation_on_shared_transparent_canvas",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png",
+      "sha256": "56658e737b1f417f001a4022dbf62a471481af50508bda8faaaf658a243c9188",
+      "generationRecord": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png.generation.json"
+    }
+  ],
+  "sourceNativeDimensions": [
+    1774,
+    887
+  ],
+  "cropBox": [
+    887,
+    444,
+    1331,
+    887
+  ],
+  "cropBoxConvention": "left,top,right,bottom exclusive",
+  "cropSize": [
+    444,
+    443
+  ],
+  "offset": [
+    164,
+    156
+  ],
+  "offsetConvention": "top-left paste coordinate of the full crop onto fixed output canvas, no mask",
+  "sourceAnchorPx": [
+    1107,
+    672
+  ],
+  "sourceAnchorMethod": "manual visible effect-origin annotation rounded to native integer; approximate2px visual precision",
+  "anchor_px": [
+    384,
+    384
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "scale": 1.0,
+  "resampled": false,
+  "alphaEdited": false,
+  "rekeyed": false,
+  "repainted": false,
+  "sourceCropPixelsPreserved": true,
+  "gridRounding": "half-up4x2; native443/444px cell difference retained with transparent padding, no resample",
+  "frameIndex": 6,
+  "phase": "sparse_residue",
+  "durationSeconds": 0.1,
+  "alphaInspection": {
+    "range": [
+      0,
+      250
+    ],
+    "fullyTransparentPixels": 551566,
+    "alpha1Pixels": 16586,
+    "bboxAbove16": [
+      318,
+      312,
+      469,
+      457
+    ],
+    "edgeMaxAlpha": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "status": "one_shot_frame_candidate_pending_user_and_motion_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,79 @@
+{
+  "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group1-light.png",
+  "sha256": "2472b10e049d4621f45dc544b59447dd75cfa0e07504a224b763b8ddf6c25305",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-500x204.png",
+      "sha256": "8813811e1834d2c41ae232f3d3d6ba9c95829f00a8522e6116246b1e2afbb949",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-500x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-900x204.png",
+      "sha256": "077ec6ab61958003c33e3673629b493b4d64d223cb8b9f4280d3d647ac7ad2c5",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-900x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-500x300.png",
+      "sha256": "0dc8a03c038ebd653b17e98395f034e7933c6a71040634e7ba9bb2c16e6d7b80",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-500x300.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-500x204.png",
+      "sha256": "0837651610bcff1a52af55dbe8a28a56dcafd5c20de26aed639f1e449b3b9a99",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-500x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-900x204.png",
+      "sha256": "58b56b297064bda7de6d6335e8131cba8c293e1abecfa66dcd51c1d765ec4343",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-900x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-500x300.png",
+      "sha256": "7ac54a2009e852519d9cef3569df15d4e4aa168edcac803947e0be79622ebc69",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-500x300.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-500x204.png",
+      "sha256": "a00108be8528c26139c42041c64e4aba867720ec63cbf0f5719f714d5bcced30",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-500x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-900x204.png",
+      "sha256": "f294a45d9331be21eb07bd1a4609f894055644ced99f34879c026e3630cf6500",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-900x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-500x300.png",
+      "sha256": "99f5fd3a6cc024b45ba4c042640d1e6607491e30c091ec44c55d057d277e7295",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-500x300.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-500x204.png",
+      "sha256": "d99726a2130a062c6a76f91ecdab9a44806270abd50e409c9e92e20cd0e96ec2",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-500x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-900x204.png",
+      "sha256": "a6faeba06603a09dead7e77c0838077fbf1d17d5f9b3006c4b0ec6ea385c6723",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-900x204.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-500x300.png",
+      "sha256": "e62e14775d0cc3459ba72d992b3f20cacb855386f903c558db3554cf68024391",
+      "record": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-500x300.png.derivation.json"
+    }
+  ],
+  "operation": "QA-only1:1 alpha composite montage of actual Unity GPU renders, diagnostic labels",
+  "sourceResized": false,
+  "outputDimensions": [
+    1960,
+    1360
+  ],
+  "backgroundRGBA": [
+    245,
+    241,
+    231,
+    255
+  ],
+  "gameDeliverable": false
+}

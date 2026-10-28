@@ -1,0 +1,99 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-256.png",
+  "sha256": "41790a0d8741446ac75f3a994513203b64a07d4366a4ced34fb5ce0bd2be3344",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "xu-chu",
+  "displayName": "许褚",
+  "variant": "avatar-256",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+      "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+      "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    350,
+    155,
+    730,
+    540
+  ],
+  "resizeTo": [
+    221,
+    224
+  ],
+  "pasteOffsetTopLeft": [
+    17,
+    16,
+    238,
+    240
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 27721,
+    "alphaOne": 423,
+    "alphaSemi": 37650,
+    "alphaOpaque": 165,
+    "bboxAlpha16": [
+      17,
+      27,
+      238,
+      240
+    ],
+    "marginsAlpha16": [
+      17,
+      27,
+      18,
+      16
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    415,
+    280,
+    686,
+    480
+  ],
+  "faceRoiOutputApprox": [
+    54.803,
+    88.727,
+    212.411,
+    205.091
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

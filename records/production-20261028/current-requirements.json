@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-28T08:04:40.594Z",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "userQuote": "横版 ，不是弓骑兵， 不是五系角色，而是我们的兵是金木水火土，其他的都和率土一样",
+  "orientation": "landscape",
+  "troopTypes": [
+    "金",
+    "木",
+    "水",
+    "火",
+    "土"
+  ],
+  "troopIds": [
+    "metal",
+    "wood",
+    "water",
+    "fire",
+    "earth"
+  ],
+  "elementsApplyTo": "troop_type_not_general_identity",
+  "generalIdentityBasis": "率土之滨人物身份参考，转绘为已确认道家Q版",
+  "systemBasis": "率土之滨功能/内容/布局，其余系统承接已有参考",
+  "style": "道家Q版高清手绘；玉绿青绿、米白纸绢、暖金细边、圆润云纹",
+  "engine": "Unity",
+  "exactResolution": null,
+  "actualClientPath": "D:/work/wuxing-slg-unity",
+  "completeGameArt": false,
+  "supersedes": [
+    "五行原创英雄替换率土武将",
+    "步弓骑三兵种",
+    "以5名五系角色作为最终完工分母"
+  ],
+  "productionNext": [
+    "按官方来源核对率土完整名册，并补充三国人物身份库；不是只做现有12将",
+    "完成五兵种直接帧图切片、接地点与身份检查，行走未通过则保持缺口",
+    "处理已审页面的单位映射、全状态和新37排行榜页",
+    "补齐地图布局连接与寻路合同",
+    "归还本机时段后定位桥像素校验失败并完成Unity视觉验收"
+  ],
+  "pending": [
+    "完整率土名册与三国人物范围已获用户确认，需逐条核对实际身份/变体并制作，现有12将不算全部",
+    "五兵种动作帧改为直接图集，金兵20帧技术候选，其他四兵制作中；行走相位未通过",
+    "精确目标设备、分辨率与正式五行克制倍率仍待确定",
+    "新Unity项目导入完成但最终Sprite/动画/场景/GPU验收未通过，本机重型窗口仍暂停"
+  ],
+  "productName": "五行问鼎",
+  "namingBasis": "user requested assistant to choose name",
+  "clientRepository": "https://github.com/luhailong-cpp/wuxing-slg-unity",
+  "clientCreationAuthorized": true,
+  "updatedAt": "2026-10-30T09:53:21.212Z",
+  "completedThisBatch": [
+    "五兵种静态母版及20导出",
+    "12历史武将60张UI导出",
+    "7包253PNG/8FXClip/2Prefab实际导入",
+    "独立私有Unity仓库创建并推送核验",
+    "五行问鼎命名、透明标题与独立登录背景候选",
+    "桥前栏/后层独立深度资源",
+    "36页当前选稿均落盘且逐项哈希核对；16张新选中、1页恢复、19页复核"
+  ],
+  "ruleProposal": "金克木，木克土，土克水，水克火，火克金；未确定倍率，未实战平衡验收",
+  "originalProductionPlan": [
+    "五行五兵种SE静态母版及真实alpha独立资源",
+    "兵种页保留刘备身份重制五种兵",
+    "历史三国武将复核与同源头像卡面",
+    "恢复战法/编队/征兵/招募等率土体系",
+    "地图桥前栏独立遮挡",
+    "完整状态矩阵及真实动作/客户端验收"
+  ],
+  "rosterScope": {
+    "confirmedAt": "2026-10-29T06:40:44.660Z",
+    "userQuotes": [
+      "按《率土之滨》的完整武将名册制作",
+      "也要所有三国人物道家Q版风格"
+    ],
+    "basis": "full_STZB_roster_plus_Three_Kingdoms_people",
+    "existingTwelveAreFinalScope": false,
+    "style": "all人物道家Q版高清手绘，保留各自历史/演义身份与辨识特征",
+    "identityVsCardVariant": "one person identity may have multiple faction/rarity/SP/season card variants; track both without conflating counts",
+    "completeness": "primary-source roster reconciliation in progress; total not asserted",
+    "currentMasterPeople": 52,
+    "currentUiDerivatives": 260
+  },
+  "frameProduction": {
+    "userQuote": "不要动作， 动作帧图参照这个[https://github.com/0x0funky/agent-sprite-forge](https://github.com/0x0funky/agent-sprite-forge)",
+    "route": "direct_image_generated_action_frame_sheets",
+    "videoDependencyRemoved": true,
+    "reference": "https://github.com/0x0funky/agent-sprite-forge",
+    "selectedMetalFrames": 20,
+    "metalManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+    "walkAccepted": false,
+    "otherTroopsInProduction": false,
+    "selectedExportedFrames": 100,
+    "fourActionsAllFiveTroopsCandidates": true,
+    "clientIntegrated": true,
+    "unityIntegrationScope": "SE100 map frames,20 clips,5 prefabs; not runtime combat"
+  },
+  "mapScope": {
+    "userQuote": "我地图只要率土的四分之一",
+    "reference": "率土之滨 strategic world map",
+    "areaRatio": 0.25,
+    "interpretation": "approximately one quarter explorable world area/scale with complete city/pass/resource/road/river gameplay layout",
+    "extentReferenceCells": null,
+    "dimensionRule": "Same aspect/cell density: linear extent0.5 each, area0.25; not quartering both axes",
+    "style": "道家Q版高清手绘",
+    "mapComplete": false,
+    "referenceExactMapDimensionsUnverified": true,
+    "exactReferenceCellCount": 2250000,
+    "targetNominalCellCount": 562500,
+    "productionGrid": [
+      750,
+      750
+    ],
+    "contract": "records/quarter-world-20261030/world-scope-contract.json",
+    "fullMapComplete": false
+  },
+  "currentMasterPeople": 52,
+  "currentUiDerivatives": 260
+}

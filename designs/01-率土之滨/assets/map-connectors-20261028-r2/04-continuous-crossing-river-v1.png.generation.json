@@ -1,0 +1,82 @@
+{
+  "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+  "sha256": "a2346e1f3904b60dd60aec1ad4332c3a5b9707b99ae078e3e316fbfdd959e2da",
+  "width": 1665,
+  "height": 944,
+  "format": "PNG",
+  "pngColorType": 6,
+  "generatedAt": null,
+  "generationTimeEvidence": "image_gen did not return a service generation timestamp; real UTC observations supplied by clock.curr_time are preserved separately",
+  "observedCompletedUTCFromClock": {
+    "current_time": "2026-10-29 04:45:03 UTC"
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "prompt": "prompts/01-率土之滨/map-connectors-20261028-r2/04-continuous-crossing-river-v1.actualprompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/records/map-connectors-20261028-r2/04-edit-target-no-bridge.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/records/map-connectors-20261028-r2/04-edit-layout-constraints.png"
+    ]
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/01-率土之滨/map-connectors-20261028-r2/04-continuous-crossing-river-v1.actualprompt.txt",
+  "references": [
+    {
+      "path": "records/map-connectors-20261028-r2/04-edit-target-no-bridge.png",
+      "sha256": "9c3274c38ff4d2f51af3a6e1b553a172c7278cf889212def6b068e6197a80b2b",
+      "role": "EDIT TARGET: composed bridge-free ground+river, documented derived input"
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style only"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style only"
+    },
+    {
+      "path": "records/map-connectors-20261028-r2/04-edit-layout-constraints.png",
+      "sha256": "c0c1db5a7617cc97a428c9496679f6cfc0f4eed632af6c99443980c65a9277d2",
+      "role": "source geometry and targeted repair constraint diagram; not art"
+    }
+  ],
+  "editTarget": {
+    "path": "records/map-connectors-20261028-r2/04-edit-target-no-bridge.png",
+    "sha256": "9c3274c38ff4d2f51af3a6e1b553a172c7278cf889212def6b068e6197a80b2b",
+    "role": "EDIT TARGET: composed bridge-free ground+river, documented derived input"
+  },
+  "evidence": "records/map-connectors-20261028-r2/04-continuous-crossing-river-v1.receipt.json",
+  "nativeSource": "C:/Users/luyua/.codex/generated_images/01a18183-e67c-75f0-bd68-7e540a4430ae/exec-e0a70743-1968-4a6a-9735-846abf551899.png",
+  "unverifiedReason": "宿主管理，工具未披露实际型号/质量/服务生成时间；真实UTC观察来自clock.curr_time",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "observedGenerationWindowUTC": {
+    "started": "2026-10-29T04:29:58Z",
+    "completed": "2026-10-29T04:45:03Z",
+    "source": "clock.curr_time observations around awaited image_gen call; not service generatedAt"
+  }
+}

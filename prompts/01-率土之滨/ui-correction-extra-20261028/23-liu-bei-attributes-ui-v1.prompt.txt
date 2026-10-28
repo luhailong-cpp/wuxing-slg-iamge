@@ -1,0 +1,14 @@
+Edit target: reference3, the older Liu Bei attributes allocation UI. Produce one corrected full landscape UI in the same composition, target1915x821. References1/2 are mandatory approved Daoist chibi UI style; reference4 is the exact Liu Bei master identity; reference5 supplies the metal troop emblem only. Keep the ornate jade/ivory/warm-gold panel, mountain garden setting, large general on the left and five attribute allocation rows on the right. Do not replace the layout with a roster.
+
+IDENTITY: historical 刘备, the man from reference4: long dark hair, slim tall upright deep-green jade crown, thin moustache and short pointed goatee, white/jade robes with gold trim, twin swords. Not a white-haired woman, 金行使, 铸锋使, five-element hero or generic named cultivator. Left identity plaque exactly: small "汉", large "刘备", exactly FOUR gold stars, "Lv.5". Below: metal emblem then "金兵"; next separate row "COST 2.0". 金兵 means the currently selected troop type only, not Liu Bei's permanent identity or faction. Do not write explanatory production notes into the UI.
+METAL EMBLEM: match the top-left symbol of reference5: FOUR sharp diamond/star points, ivory/gold curved arms and a small circular green jade center. It is not a coin, plain yellow diamond, flower, coin square-hole or shield.
+
+CONTENT/layout: title "属性分配". On the attribute panel top, use three consistent tabs "详情" "配点" "兵种", with 配点 selected jade green. Top right "可用属性点 10", help and close buttons. Five rows with icons and readable text EXACTLY:
+攻击 78 (+0)
+防御 84 (+0)
+谋略 74 (+0)
+速度 58 (+0)
+攻城 19 (+0)
+Each row has a minus button, a horizontal allocation track and a plus button. This is zero pending allocation: the five minus controls are disabled gray; all thumb positions at the left, zero added fill; plus controls available warm gold. Do not invent nonzero additions or spend the10 points.
+Bottom hint "每增加1点，消耗1属性点"; status "尚未分配属性点". Bottom "重置" and "确认配点" are both disabled gray because no changes are pending. This preserves the corrected state logic.
+Keep proper visual spacing, clear Chinese text, no COST overlap and no clipped controls. Use "谋略", never "灵力"; use "COST", never "统御". No 步兵/弓兵/骑兵, no 金系 or 金行使 wording. Do not add title branding, new currencies, skill trees, game rules or debug text. Full opaque finished UI candidate, not separate assets.

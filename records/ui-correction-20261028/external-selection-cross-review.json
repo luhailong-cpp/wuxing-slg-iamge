@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-28T12:50:38.827Z",
+  "reviewerTask": "/root/check_materials",
+  "method": "Individually viewed all five full native images using tools.view_image(detail=original); checked with producing-agent review.",
+  "items": [
+    {
+      "screenId": 23,
+      "findings": [
+        "刘备汉4星、高绿冠小胡须、金兵徽记与COST2.0保持。",
+        "攻击78、防御84、谋略74、速度58、攻城19均+0，可用10；五减号及重置/确认灰态正确。"
+      ],
+      "status": "candidate_cross_reviewed"
+    },
+    {
+      "screenId": 34,
+      "findings": [
+        "刘备4星与高绿冠身份正确；20/20达成，觉醒玉1/2还差1，材料不足按钮灰态。",
+        "第三战法位预览由锁至加号；沿原样例，不确认觉醒玩法材料规则。"
+      ],
+      "status": "candidate_cross_reviewed"
+    },
+    {
+      "screenId": 35,
+      "findings": [
+        "刘备/曹操/赵云/诸葛亮预览身份可辨，没有五系英雄卡池。",
+        "5000铜钱可付300/1500；玉符680可付200，但1000五连灰态差320，一致。"
+      ],
+      "status": "candidate_cross_reviewed"
+    },
+    {
+      "screenId": 22,
+      "findings": [
+        "对白明确改为避开流寇营地，与红色标注相符；任务0/1、残破仓库、前往救援保留。"
+      ],
+      "remainingLimits": [
+        "单位与五行兵/历史武将数据尚待映射；路线没有真实寻路验证。"
+      ],
+      "status": "copy_corrected_candidate_cross_reviewed"
+    },
+    {
+      "screenId": 25,
+      "findings": [
+        "五行问鼎标题清楚，首服选中/次服流畅/三服维护及协议选中可见。"
+      ],
+      "remainingLimits": [
+        "烘焙AI重绘标题非独立logo逐像素复用；登录业务与安全区未验收。"
+      ],
+      "status": "copy_corrected_candidate_cross_reviewed"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "8",
+  "startedAt": "2026-10-26T18:21:27.022Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: ui-mockup\n制作一张完整横屏约21:9的道家Q版高清手绘SLG游戏界面静态方向稿。实际附图1是邮件主参考，附图2是组队主参考，两图是最高优先美术依据。保持同系列精细完成度：玉绿青绿标题与主按钮，象牙米白纸绢面板，暖金细边，圆润饱满框板，云纹与如意卷边，玉珠与少量红穗，柔和手绘明暗；中文深玉绿清楚可读。不要写实战争风、暗黑皮肤、塑料3D、厚黑边、模糊字、噪点、密集金色雕花。元素在安全边距内，层级清楚、留白自然、对齐准确。没有设备模型、展示台、海报广告、水印、尚未确认的正式游戏名。只生成本页，不做拼图。示例人名、日期、数值不抄主参考；所有角色是同画法的原创Q版差异化头像。\n本页完整「任务」窗口。顶部中央玉绿标题「任务」，右上圆形关闭按钮。左侧约23%竖向分类「主线」「日常」「成就」，当前主线为玉绿选中，另外两项米白。\n右侧约73%为三张纵向任务行卡，每张有精细小插画、任务名、单行目标、进度、奖励图标和状态按钮。第一张高亮暖金细框，名称「立足之地」，目标「完成一次城主府升级」，进度「1 / 1」，玉绿进度条满，奖励铜钱图标「铜钱 ×3000」，右侧玉绿可用按钮「领取」。第二张名称「扩张领地」，目标「占领三块资源地」，进度「1 / 3」，进度条约三分之一，奖励粮草图标「粮草 ×2000」，右侧米白按钮「前往」，上方小标签「进行中」。第三张名称「招贤纳士」，目标「完成一次武将招募」，进度「1 / 1」，进度条满但淡色，奖励玉符图标「玉符 ×50」，右侧灰金勾与「已领取」，不得再出现可领取按钮。\n右上小字「主线任务 3项」，左下小米白提示「完成目标后可领取奖励」，右下米白小按钮「查看成就」。所有数值与状态自洽，任务卡结构保持统一，图标清楚，正文短小，留白足够。",
+    "promptFile": "prompts/01-率土之滨/29-quests-ui-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

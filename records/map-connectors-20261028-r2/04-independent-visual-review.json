@@ -1,0 +1,38 @@
+{
+  "reviewer": "/root/check_materials",
+  "observedAt": "2026-10-29T05:36:10.500Z",
+  "method": "actual read-only visual review of4 QA images",
+  "images": [
+    "04-fixed-with-bridge-light.png",
+    "04-before-join-close-aligned.png",
+    "04-repaired-join-close.png",
+    "04-bridge-SE-landing-close.png"
+  ],
+  "findings": [
+    "before水面斜切色阶线在repaired-close已消失，水纹/岸边石子过渡连续，未见同等明显新硬边",
+    "总板与SE近景桥台阶接石路、石路贴岸成立",
+    "NW端短石路落在草岸，本板不含原长路外延",
+    "可作为固定布局连续场景板视觉候选，不升级为无缝tile/任意拼接/碰撞寻路通过",
+    "无需为当前已知水面问题扩大修图"
+  ],
+  "navigationTested": false,
+  "clientIntegrated": false,
+  "evidence": [
+    {
+      "file": "records/map-connectors-20261028-r2/04-fixed-with-bridge-light.png",
+      "sha256": "313c75f2fd517083e8433dd5bf4fb77000b781b22be72ce2a431f88824f3abbd"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-before-join-close-aligned.png",
+      "sha256": "caf66c73c9c5f1e992bbd22874ff877e3eea62ac3677f61786bf96b0613a6cf8"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-repaired-join-close.png",
+      "sha256": "baf46b530906a5f8df6d85df24a91a6cd925c220e5c39320127e74e273ac9f7a"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-bridge-SE-landing-close.png",
+      "sha256": "293a0c946e1081e18a653574180a91faf5b27aeb3f1fc57bf39d6f419fe6fe75"
+    }
+  ]
+}

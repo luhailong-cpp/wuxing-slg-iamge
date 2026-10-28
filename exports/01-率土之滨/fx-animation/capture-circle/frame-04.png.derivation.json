@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+  "sha256": "e011974e7e38c2f3b9d00dd2e686f637e67ed36d1e21858ac27fcf8d2840468e",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+    "sha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png.generation.json"
+  },
+  "cropBox": [
+    0,
+    444,
+    444,
+    887
+  ],
+  "sourceAnchorPxGlobal": [
+    225,
+    719
+  ],
+  "sourceAnchorPxWithinCrop": [
+    225,
+    275
+  ],
+  "pasteOffset": [
+    225,
+    265
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    540
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.6
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "zeroPixels": 697186,
+    "alpha1Pixels": 32706,
+    "semiTransparentPixels": 112814,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      250,
+      326,
+      669,
+      658
+    ],
+    "bboxAbove16": [
+      258,
+      362,
+      630,
+      643
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 1
+  },
+  "phase": "four-pillar peak",
+  "timing": {
+    "startSeconds": 0.4,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

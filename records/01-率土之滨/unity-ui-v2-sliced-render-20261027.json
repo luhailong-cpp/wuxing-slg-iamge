@@ -1,0 +1,787 @@
+{
+    "schema": "wuxing.unity_ui_sliced_gpu_render.v1",
+    "renderedAtUtc": "2026-10-27T17:57:47.5586078Z",
+    "unityVersion": "6000.6.0f1",
+    "graphicsDeviceType": "Direct3D11",
+    "graphicsDeviceName": "NVIDIA GeForce RTX 3070 Ti",
+    "graphicsDeviceVersion": "Direct3D 11.0 [level 11.1]",
+    "colorSpace": "Gamma",
+    "error": "",
+    "batchMode": true,
+    "commandLineUsedNographics": false,
+    "attempted": true,
+    "supported": true,
+    "passed": true,
+    "clientVerified": false,
+    "expectedImageCount": 48,
+    "images": [
+        {
+            "id": "button-primary-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-500x204.png",
+            "sha256": "8813811e1834d2c41ae232f3d3d6ba9c95829f00a8522e6116246b1e2afbb949",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 40735,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-900x204.png",
+            "sha256": "077ec6ab61958003c33e3673629b493b4d64d223cb8b9f4280d3d647ac7ad2c5",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 85037,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-normal-500x300.png",
+            "sha256": "0dc8a03c038ebd653b17e98395f034e7933c6a71040634e7ba9bb2c16e6d7b80",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 78599,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-pressed",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-500x204.png",
+            "sha256": "0837651610bcff1a52af55dbe8a28a56dcafd5c20de26aed639f1e449b3b9a99",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 40701,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-pressed",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-900x204.png",
+            "sha256": "58b56b297064bda7de6d6335e8131cba8c293e1abecfa66dcd51c1d765ec4343",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 85056,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-pressed",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-pressed-500x300.png",
+            "sha256": "7ac54a2009e852519d9cef3569df15d4e4aa168edcac803947e0be79622ebc69",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 78454,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-500x204.png",
+            "sha256": "a00108be8528c26139c42041c64e4aba867720ec63cbf0f5719f714d5bcced30",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 40646,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-900x204.png",
+            "sha256": "f294a45d9331be21eb07bd1a4609f894055644ced99f34879c026e3630cf6500",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 84885,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-disabled-500x300.png",
+            "sha256": "99f5fd3a6cc024b45ba4c042640d1e6607491e30c091ec44c55d057d277e7295",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 78436,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-hover",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-500x204.png",
+            "sha256": "d99726a2130a062c6a76f91ecdab9a44806270abd50e409c9e92e20cd0e96ec2",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 52162,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-hover",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-900x204.png",
+            "sha256": "a6faeba06603a09dead7e77c0838077fbf1d17d5f9b3006c4b0ec6ea385c6723",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 106534,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-primary-hover",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-primary-hover-500x300.png",
+            "sha256": "e62e14775d0cc3459ba72d992b3f20cacb855386f903c558db3554cf68024391",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 91635,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-normal-500x204.png",
+            "sha256": "1ed0773d5a9c62f25c885daf620a3bf9047446b2bd93c90a107cfa923aa62134",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 40731,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-normal-900x204.png",
+            "sha256": "5c7d1baa40fca9e47481574d23d094a2d85d83a66b8e4714bb4feabe088f2857",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 85043,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-normal-500x300.png",
+            "sha256": "b7714355998b664ebd753cfd871d5c78a44cc567180c4041737052f3fcbf178a",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 78587,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-pressed",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-pressed-500x204.png",
+            "sha256": "63c110e72acb7dceb42fe7fdd68947265111ef58d6cf2b6158c68cfbb09aa296",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 40672,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-pressed",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-pressed-900x204.png",
+            "sha256": "086cca66fa4ca3114c9c963a2d6ba1063d82dbe8ace9522b3c99ff031fa9de17",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 84954,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-pressed",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-pressed-500x300.png",
+            "sha256": "c7084e49e33e96703d10b3f2daf486cc274d3d64819220376f97a06e763eb824",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 78452,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-disabled-500x204.png",
+            "sha256": "f07b59e55c90a0709fc8e48a8c9e2e14fd8ce4d28f238071723fbf0fda9b8548",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 40624,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-disabled-900x204.png",
+            "sha256": "bbe4356ccac13ba7c8168704d9c16780d13fe83b8f79d52d54194516c6b4095f",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 84838,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-disabled-500x300.png",
+            "sha256": "e9a7a478c40c942962d17ef3f4a8e2bdf42722561a9a81c278f0a9c105d75d9f",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 78390,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-hover",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-hover-500x204.png",
+            "sha256": "9b332fbf8d72f99ea11eb76e0de7fcdd23dd1e0f8dcfa18b2a29b8b07fd6c2b0",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 52312,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-hover",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-hover-900x204.png",
+            "sha256": "53c52c65704ed31b9e631b78fb44bd2f1104fd36ab7d3251f9aa8cee4d7513e6",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 106991,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "button-secondary-hover",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/button-secondary-hover-500x300.png",
+            "sha256": "02b1af5da8fc9d6dcfabcf89cca332d6a5cf61b30d9b61ca5cdfd2192a61e5b0",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 91612,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-selected",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-selected-500x204.png",
+            "sha256": "9e42995e21bfde97b1a251ddd771dcb4c0c52efef0ce201696d15c3393d1e87c",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 38667,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-selected",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-selected-900x204.png",
+            "sha256": "04e937b808401ffd99b18756bc1f722550c023297eb47442be18c305d180efff",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 81908,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-selected",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-selected-500x300.png",
+            "sha256": "ffd14b5223c000bd9f3e2f9576d2517c672b4250af583343af61d11eeca93fec",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 75909,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-normal-500x204.png",
+            "sha256": "9e409a2da9b748b76e9779ff2a800b036d5e21ed812e8bcc8c3d9b45a1df08bc",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 39284,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-normal-900x204.png",
+            "sha256": "12b5909e9ab2dce0ed89c0bb15fb27c07665368d7e1287a8b259f95bb78a0a39",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 82567,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-normal-500x300.png",
+            "sha256": "41c2000b5e35af354ce6bfc4a65f91afffc3072ba347936585bcd8f9d074812d",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 77038,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-locked",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-locked-500x204.png",
+            "sha256": "be762748e4583e8cf8a2655437df7c4ff2ceee6a8d90a6bf98f1618b44ee1724",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 39109,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-locked",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-locked-900x204.png",
+            "sha256": "5d01b6d56eabc1b22967c557923dd4f96264ec8c09cf4e73bacaf451fbdc2203",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 82420,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-locked",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-locked-500x300.png",
+            "sha256": "40275163d5f28270818b082dc4422fe805f991f83e3a178b22c21dd902307767",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 76726,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-notification",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-notification-500x204.png",
+            "sha256": "434977a43056bafe6e127b6b75440129b24dde4e6f8a3edf328ba728968e9f76",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 39750,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-notification",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-notification-900x204.png",
+            "sha256": "3dd5369e6e3f5cf2306f740e3180c52790e6798cf42db0778c7450016de700f1",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 83112,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "tab-notification",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/tab-notification-500x300.png",
+            "sha256": "17da00b7acdf185534186ac8a1877c600338b45cc826a19fde633c39dae205d1",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 77490,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-normal-500x204.png",
+            "sha256": "497de792619f9efbbeebfcdb743e5fb8d1152d86e5fb8244c9b74e475742859a",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 46383,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-normal-900x204.png",
+            "sha256": "f45f0187c9f50c526730ebbf49cb62789a424aa7ad195e728c088a4f60806dc7",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 96783,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-normal",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-normal-500x300.png",
+            "sha256": "bc3d672e17c0e41aaa9a828cff4fa234bb8a67c78218ae85ef8d75ce5406a411",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 82483,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-selected",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-selected-500x204.png",
+            "sha256": "ac4961060af6ed78a9b523cf2cacc8703459fab04d1023320b7f7a7690b7eeb3",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 46327,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-selected",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-selected-900x204.png",
+            "sha256": "6d41ff393a43f1c31a261cfacf789c3dd813ab7f2f0568eae2350eded6bc2da8",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 96727,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-selected",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-selected-500x300.png",
+            "sha256": "d94d99a3f84dd25f9dc210a706b42b2c313ca7ddce5a3251f1a972b30fa4b029",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 82407,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-disabled-500x204.png",
+            "sha256": "c200b9ca407edc55e9b97e2ec578517a6e357d6477cf6e1e443296003a5aa26d",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 46316,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-disabled-900x204.png",
+            "sha256": "7b5aaf23058853abeea31a5f77ac17da157c8ab1f9d9b8ac0830ba1429de70f0",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 96716,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-disabled",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-disabled-500x300.png",
+            "sha256": "8117b58bc932d6c3909c195dffd940ad2e43e3e8519a782f7aa34efe64332575",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 82412,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-empty",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-empty-500x204.png",
+            "sha256": "30ef42c2a2ca418d5147f1314558457fb86a115bbdc93dee39c132289f6c53b5",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 204,
+            "pixelsAboveAlpha16": 46430,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-empty",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-empty-900x204.png",
+            "sha256": "0b423e1d807bbb3b6b1b3e81f09d1b9b765cb7ae6271569ca3e162d5b3de42e7",
+            "drawMode": "Sliced",
+            "width": 900,
+            "height": 204,
+            "pixelsAboveAlpha16": 96946,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        },
+        {
+            "id": "card-row-empty",
+            "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-empty-500x300.png",
+            "sha256": "7ee9bb82947243c0d44811733d2e58767bb163dac6e6d3ca552117fd7786e9ad",
+            "drawMode": "Sliced",
+            "width": 500,
+            "height": 300,
+            "pixelsAboveAlpha16": 82526,
+            "border": {
+                "x": 128.0,
+                "y": 90.0,
+                "z": 128.0,
+                "w": 90.0
+            },
+            "nonempty": true
+        }
+    ]
+}

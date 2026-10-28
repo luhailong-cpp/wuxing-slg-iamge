@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "fire",
+  "reviewedAtUtc": "2026-10-27T17:27:21.498776+00:00",
+  "sourceSheet": {
+    "file": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png",
+    "sha256": "0d3b4cd50fdfb4a66d78f4d23613364e6c58c323ff145126d454c1bf65a57833",
+    "record": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png.generation.json",
+    "grid": {
+      "columns": 4,
+      "rows": 2,
+      "order": "left_to_right_top_to_bottom"
+    }
+  },
+  "exportManifest": "exports/01-率土之滨/fx-animation/fire/manifest.json",
+  "frameCount": 8,
+  "uniqueFrameHashes": 8,
+  "manualOwnershipReview": "All8 raw cells and registered light/dark frame composites actually viewed; complete contours, no visible cutting or adjacent-frame intrusion.",
+  "temporalPhaseReview": "All8 pictures preserve the same cinnabar-orange rounded S-flame identity.00-04 ignite and grow toward peak,05-06 collapse into smaller tongues,07 remains a tiny weak flame with few embers. Growth/fade phase continuity visually reviewed, no final smoothness claim.",
+  "sharedAnchorReview": "Manually marked the pale-gold ignition convergence point near the bottom of each flame and registered it to512,512 on shared1024 square canvas. Flame height grows upward from the same root; no per-bbox normalization, resampling, masking or alpha clearing.",
+  "rawSheetQcChecks": [
+    {
+      "id": "cross_cell_components",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "cells": [],
+      "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+    },
+    {
+      "id": "cross_cell_visible",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "the same test on the visible edge (alpha > 16)"
+    },
+    {
+      "id": "sheet_edge",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "art touching the sheet border was cut by the image edge"
+    },
+    {
+      "id": "empty_cells",
+      "status": "pass",
+      "value": [],
+      "threshold": [],
+      "note": "the first 8 cells must each hold a subject"
+    },
+    {
+      "id": "boundary_band",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "solid pixels within 9 px of a cell line; a different crop or rounding can cut them"
+    },
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 4,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 95863,
+        "detached_components": 3
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "rawSheetQcStatus": "warn",
+  "publishedQaImages": [
+    "records/01-率土之滨/qa/fire-animation-light.png",
+    "records/01-率土之滨/qa/fire-animation-dark.png"
+  ],
+  "sourcePixelIdentityAll": true,
+  "eightFramesNonempty": true,
+  "edgeMaxAlphaAllFrames": 0,
+  "central60PercentForFinalFramesAtAlpha16": true,
+  "nativeAlphaModified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "warnings": [
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 4,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 95863,
+        "detached_components": 3
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "status": "one_shot_candidate_ready_for_engine_preview_not_user_accepted",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "timingSeconds": 0.8,
+  "frameSeconds": 0.1,
+  "loop": false,
+  "combatEvents": []
+}

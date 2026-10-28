@@ -1,0 +1,1795 @@
+{
+  "schema": "wuxing-slg.manual-ground-registration.v1",
+  "input": "records/troop-frames-20261028-r2/metal-ground-registration-input.json",
+  "inputSha256": "7f144d646b63b89fea56db3842e24baacc967e996d872947b0877f22d05741b8",
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "helmetWidthLandmarks": [
+      396,
+      993
+    ],
+    "helmetWidth": 597,
+    "headMeasurement": "outer rigid helmet including ear plates, excluding plume and shoulder armor",
+    "fullAlpha16Height": 1134,
+    "groundContactRois": [
+      [
+        455,
+        1050,
+        630,
+        1132
+      ],
+      [
+        796,
+        1100,
+        951,
+        1201
+      ]
+    ]
+  },
+  "registration": {
+    "nativeCanvas": [
+      1024,
+      1024
+    ],
+    "nativeRoot": [
+      512,
+      768
+    ],
+    "targetHelmetWidth": 180,
+    "normalizedCanvas": [
+      1024,
+      1024
+    ],
+    "normalizedRoot": [
+      512,
+      768
+    ],
+    "measurementAlphaThreshold": 16,
+    "alphaHygiene": "none",
+    "contactRefinement": "within each hand-selected contact ROI: use alpha>16 bounding box, contact x midpoint of solid bottom 5px span, y bottom edge; ground root rounded midpoint of two contact points. Inspect markers before export.",
+    "perFrameScaling": false,
+    "allSourcePixelsMustFit": true
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "source": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+      "rows": 2,
+      "cols": 2,
+      "sourceRecord": "records/troop-frames-20261028-r2/metal-idle-v2.generation.json",
+      "helmetWidthLandmarks": [
+        235,
+        435
+      ],
+      "helmetWidth": 200,
+      "headMeasureFrame": 1,
+      "loop": true,
+      "durationsMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "sourceSha256": "13005f21f1a5b4b77d57195e045fb64455ec5f9e2f37f19756ee6b2d518949c6",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "uniformActionScaleTo180Helmet": 0.9,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              250,
+              432,
+              325,
+              474
+            ],
+            [
+              365,
+              453,
+              430,
+              500
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                250,
+                432,
+                325,
+                474
+              ],
+              "contactPoint": [
+                276.0,
+                470
+              ],
+              "solidBounds": [
+                256,
+                432,
+                325,
+                470
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                365,
+                453,
+                430,
+                500
+              ],
+              "contactPoint": [
+                402.0,
+                494
+              ],
+              "solidBounds": [
+                365,
+                453,
+                423,
+                494
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            339.0,
+            482.0
+          ],
+          "groundRootInteger": [
+            339,
+            482
+          ],
+          "registrationRoundingError": [
+            0.0,
+            0.0
+          ],
+          "durationMs": 250
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              255,
+              430,
+              330,
+              474
+            ],
+            [
+              373,
+              450,
+              438,
+              500
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                255,
+                430,
+                330,
+                474
+              ],
+              "contactPoint": [
+                284.5,
+                470
+              ],
+              "solidBounds": [
+                264,
+                430,
+                329,
+                470
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                373,
+                450,
+                438,
+                500
+              ],
+              "contactPoint": [
+                411.0,
+                494
+              ],
+              "solidBounds": [
+                373,
+                450,
+                433,
+                494
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            347.75,
+            482.0
+          ],
+          "groundRootInteger": [
+            348,
+            482
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.0
+          ],
+          "durationMs": 250
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              249,
+              423,
+              328,
+              468
+            ],
+            [
+              368,
+              446,
+              432,
+              494
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                249,
+                423,
+                328,
+                468
+              ],
+              "contactPoint": [
+                278.0,
+                467
+              ],
+              "solidBounds": [
+                257,
+                423,
+                328,
+                467
+              ],
+              "roiBottomClearance": 1
+            },
+            {
+              "roi": [
+                368,
+                446,
+                432,
+                494
+              ],
+              "contactPoint": [
+                403.5,
+                488
+              ],
+              "solidBounds": [
+                368,
+                446,
+                425,
+                488
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            340.75,
+            477.5
+          ],
+          "groundRootInteger": [
+            341,
+            478
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.5
+          ],
+          "durationMs": 250
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              253,
+              422,
+              330,
+              467
+            ],
+            [
+              373,
+              447,
+              437,
+              494
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                253,
+                422,
+                330,
+                467
+              ],
+              "contactPoint": [
+                284.0,
+                466
+              ],
+              "solidBounds": [
+                263,
+                422,
+                330,
+                466
+              ],
+              "roiBottomClearance": 1
+            },
+            {
+              "roi": [
+                373,
+                447,
+                437,
+                494
+              ],
+              "contactPoint": [
+                410.5,
+                488
+              ],
+              "solidBounds": [
+                373,
+                447,
+                432,
+                488
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            347.25,
+            477.0
+          ],
+          "groundRootInteger": [
+            347,
+            477
+          ],
+          "registrationRoundingError": [
+            -0.25,
+            0.0
+          ],
+          "durationMs": 250
+        }
+      ]
+    },
+    {
+      "id": "attack",
+      "source": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "sourceRecord": "records/troop-frames-20261028-r2/metal-attack-v1.generation.json",
+      "helmetWidthLandmarks": [
+        182,
+        393
+      ],
+      "helmetWidth": 211,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "sourceSha256": "049aa3833389063598ab558c57f9df1317637637b084fddee29e89f79c793d49",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "uniformActionScaleTo180Helmet": 0.8530805687203792,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              195,
+              423,
+              270,
+              468
+            ],
+            [
+              339,
+              443,
+              409,
+              491
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                423,
+                270,
+                468
+              ],
+              "contactPoint": [
+                222.5,
+                466
+              ],
+              "solidBounds": [
+                199,
+                423,
+                270,
+                466
+              ],
+              "roiBottomClearance": 2
+            },
+            {
+              "roi": [
+                339,
+                443,
+                409,
+                491
+              ],
+              "contactPoint": [
+                379.5,
+                485
+              ],
+              "solidBounds": [
+                339,
+                443,
+                403,
+                485
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            301.0,
+            475.5
+          ],
+          "groundRootInteger": [
+            301,
+            476
+          ],
+          "registrationRoundingError": [
+            0.0,
+            0.5
+          ],
+          "durationMs": 120
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              172,
+              420,
+              249,
+              466
+            ],
+            [
+              358,
+              440,
+              432,
+              491
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                172,
+                420,
+                249,
+                466
+              ],
+              "contactPoint": [
+                204.0,
+                463
+              ],
+              "solidBounds": [
+                180,
+                420,
+                249,
+                463
+              ],
+              "roiBottomClearance": 3
+            },
+            {
+              "roi": [
+                358,
+                440,
+                432,
+                491
+              ],
+              "contactPoint": [
+                403.5,
+                485
+              ],
+              "solidBounds": [
+                358,
+                440,
+                427,
+                485
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            303.75,
+            474.0
+          ],
+          "groundRootInteger": [
+            304,
+            474
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.0
+          ],
+          "durationMs": 100
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              201,
+              423,
+              281,
+              468
+            ],
+            [
+              382,
+              440,
+              457,
+              491
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                201,
+                423,
+                281,
+                468
+              ],
+              "contactPoint": [
+                217.0,
+                465
+              ],
+              "solidBounds": [
+                201,
+                423,
+                281,
+                465
+              ],
+              "roiBottomClearance": 3
+            },
+            {
+              "roi": [
+                382,
+                440,
+                457,
+                491
+              ],
+              "contactPoint": [
+                409.5,
+                485
+              ],
+              "solidBounds": [
+                382,
+                440,
+                434,
+                485
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            313.25,
+            475.0
+          ],
+          "groundRootInteger": [
+            313,
+            475
+          ],
+          "registrationRoundingError": [
+            -0.25,
+            0.0
+          ],
+          "durationMs": 100
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              212,
+              408,
+              288,
+              455
+            ],
+            [
+              397,
+              390,
+              473,
+              438
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                212,
+                408,
+                288,
+                455
+              ],
+              "contactPoint": [
+                243.0,
+                450
+              ],
+              "solidBounds": [
+                219,
+                408,
+                288,
+                450
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                397,
+                390,
+                473,
+                438
+              ],
+              "contactPoint": [
+                446.0,
+                437
+              ],
+              "solidBounds": [
+                397,
+                390,
+                469,
+                437
+              ],
+              "roiBottomClearance": 1
+            }
+          ],
+          "groundRootExactMidpoint": [
+            344.5,
+            443.5
+          ],
+          "groundRootInteger": [
+            345,
+            444
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.5
+          ],
+          "durationMs": 70
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              193,
+              405,
+              269,
+              445
+            ],
+            [
+              378,
+              414,
+              458,
+              462
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                193,
+                405,
+                269,
+                445
+              ],
+              "contactPoint": [
+                223.5,
+                441
+              ],
+              "solidBounds": [
+                201,
+                405,
+                269,
+                441
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                378,
+                414,
+                458,
+                462
+              ],
+              "contactPoint": [
+                426.0,
+                455
+              ],
+              "solidBounds": [
+                378,
+                414,
+                448,
+                455
+              ],
+              "roiBottomClearance": 7
+            }
+          ],
+          "groundRootExactMidpoint": [
+            324.75,
+            448.0
+          ],
+          "groundRootInteger": [
+            325,
+            448
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.0
+          ],
+          "durationMs": 100
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              206,
+              403,
+              284,
+              445
+            ],
+            [
+              348,
+              419,
+              425,
+              465
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                206,
+                403,
+                284,
+                445
+              ],
+              "contactPoint": [
+                225.5,
+                440
+              ],
+              "solidBounds": [
+                206,
+                403,
+                277,
+                440
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                348,
+                419,
+                425,
+                465
+              ],
+              "contactPoint": [
+                385.5,
+                458
+              ],
+              "solidBounds": [
+                348,
+                419,
+                408,
+                458
+              ],
+              "roiBottomClearance": 7
+            }
+          ],
+          "groundRootExactMidpoint": [
+            305.5,
+            449.0
+          ],
+          "groundRootInteger": [
+            306,
+            449
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.0
+          ],
+          "durationMs": 160
+        }
+      ]
+    },
+    {
+      "id": "hurt",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-hurt-se-v1.png",
+      "rows": 2,
+      "cols": 2,
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-hurt-se-v1.png.generation.json",
+      "helmetWidthLandmarks": [
+        200,
+        510
+      ],
+      "helmetWidth": 310,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "sourceSha256": "790a2f419141d8039b91400bfa59bbe6584b6760ec13bf30a9649a72c639b313",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "uniformActionScaleTo180Helmet": 0.5806451612903226,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              249,
+              545,
+              360,
+              598
+            ],
+            [
+              445,
+              551,
+              548,
+              614
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                249,
+                545,
+                360,
+                598
+              ],
+              "contactPoint": [
+                288.5,
+                593
+              ],
+              "solidBounds": [
+                254,
+                545,
+                354,
+                593
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                445,
+                551,
+                548,
+                614
+              ],
+              "contactPoint": [
+                506.0,
+                610
+              ],
+              "solidBounds": [
+                445,
+                551,
+                540,
+                610
+              ],
+              "roiBottomClearance": 4
+            }
+          ],
+          "groundRootExactMidpoint": [
+            397.25,
+            601.5
+          ],
+          "groundRootInteger": [
+            397,
+            602
+          ],
+          "registrationRoundingError": [
+            -0.25,
+            0.5
+          ],
+          "durationMs": 120
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              220,
+              549,
+              310,
+              614
+            ],
+            [
+              399,
+              550,
+              515,
+              610
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                220,
+                549,
+                310,
+                614
+              ],
+              "contactPoint": [
+                262.0,
+                605
+              ],
+              "solidBounds": [
+                231,
+                549,
+                310,
+                605
+              ],
+              "roiBottomClearance": 9
+            },
+            {
+              "roi": [
+                399,
+                550,
+                515,
+                610
+              ],
+              "contactPoint": [
+                472.0,
+                602
+              ],
+              "solidBounds": [
+                412,
+                550,
+                507,
+                602
+              ],
+              "roiBottomClearance": 8
+            }
+          ],
+          "groundRootExactMidpoint": [
+            367.0,
+            603.5
+          ],
+          "groundRootInteger": [
+            367,
+            604
+          ],
+          "registrationRoundingError": [
+            0.0,
+            0.5
+          ],
+          "durationMs": 100
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              253,
+              514,
+              368,
+              568
+            ],
+            [
+              467,
+              532,
+              574,
+              584
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                253,
+                514,
+                368,
+                568
+              ],
+              "contactPoint": [
+                290.5,
+                560
+              ],
+              "solidBounds": [
+                260,
+                514,
+                354,
+                560
+              ],
+              "roiBottomClearance": 8
+            },
+            {
+              "roi": [
+                467,
+                532,
+                574,
+                584
+              ],
+              "contactPoint": [
+                526.5,
+                574
+              ],
+              "solidBounds": [
+                474,
+                532,
+                563,
+                574
+              ],
+              "roiBottomClearance": 10
+            }
+          ],
+          "groundRootExactMidpoint": [
+            408.5,
+            567.0
+          ],
+          "groundRootInteger": [
+            409,
+            567
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.0
+          ],
+          "durationMs": 120
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            627
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              188,
+              518,
+              301,
+              572
+            ],
+            [
+              393,
+              543,
+              496,
+              599
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                188,
+                518,
+                301,
+                572
+              ],
+              "contactPoint": [
+                228.0,
+                570
+              ],
+              "solidBounds": [
+                194,
+                518,
+                295,
+                570
+              ],
+              "roiBottomClearance": 2
+            },
+            {
+              "roi": [
+                393,
+                543,
+                496,
+                599
+              ],
+              "contactPoint": [
+                448.0,
+                593
+              ],
+              "solidBounds": [
+                393,
+                543,
+                484,
+                593
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            338.0,
+            581.5
+          ],
+          "groundRootInteger": [
+            338,
+            582
+          ],
+          "registrationRoundingError": [
+            0.0,
+            0.5
+          ],
+          "durationMs": 180
+        }
+      ]
+    },
+    {
+      "id": "defeat",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-defeat-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-defeat-se-v1.png.generation.json",
+      "helmetWidthLandmarks": [
+        169,
+        391
+      ],
+      "helmetWidth": 222,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "sourceSha256": "083d7d38cd5bc679a411b139bed5a79768448baa2abcec1bb97ab0810e08985e",
+      "sourceMode": "RGBA",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "uniformActionScaleTo180Helmet": 0.8108108108108109,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              200,
+              430,
+              263,
+              475
+            ],
+            [
+              323,
+              451,
+              381,
+              502
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                200,
+                430,
+                263,
+                475
+              ],
+              "contactPoint": [
+                222.0,
+                471
+              ],
+              "solidBounds": [
+                202,
+                430,
+                263,
+                471
+              ],
+              "roiBottomClearance": 4
+            },
+            {
+              "roi": [
+                323,
+                451,
+                381,
+                502
+              ],
+              "contactPoint": [
+                355.5,
+                495
+              ],
+              "solidBounds": [
+                323,
+                451,
+                377,
+                495
+              ],
+              "roiBottomClearance": 7
+            }
+          ],
+          "groundRootExactMidpoint": [
+            288.75,
+            483.0
+          ],
+          "groundRootInteger": [
+            289,
+            483
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.0
+          ],
+          "durationMs": 120
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two boot soles",
+          "manualRois": [
+            [
+              212,
+              441,
+              282,
+              497
+            ],
+            [
+              323,
+              461,
+              383,
+              508
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                212,
+                441,
+                282,
+                497
+              ],
+              "contactPoint": [
+                237.0,
+                492
+              ],
+              "solidBounds": [
+                212,
+                441,
+                282,
+                492
+              ],
+              "roiBottomClearance": 5
+            },
+            {
+              "roi": [
+                323,
+                461,
+                383,
+                508
+              ],
+              "contactPoint": [
+                358.5,
+                500
+              ],
+              "solidBounds": [
+                323,
+                461,
+                383,
+                500
+              ],
+              "roiBottomClearance": 8
+            }
+          ],
+          "groundRootExactMidpoint": [
+            297.75,
+            496.0
+          ],
+          "groundRootInteger": [
+            298,
+            496
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.0
+          ],
+          "durationMs": 120
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "left knee and right boot",
+          "manualRois": [
+            [
+              239,
+              459,
+              307,
+              507
+            ],
+            [
+              323,
+              464,
+              382,
+              508
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                239,
+                459,
+                307,
+                507
+              ],
+              "contactPoint": [
+                268.0,
+                499
+              ],
+              "solidBounds": [
+                239,
+                459,
+                307,
+                499
+              ],
+              "roiBottomClearance": 8
+            },
+            {
+              "roi": [
+                323,
+                464,
+                382,
+                508
+              ],
+              "contactPoint": [
+                357.0,
+                502
+              ],
+              "solidBounds": [
+                323,
+                464,
+                382,
+                502
+              ],
+              "roiBottomClearance": 6
+            }
+          ],
+          "groundRootExactMidpoint": [
+            312.5,
+            500.5
+          ],
+          "groundRootInteger": [
+            313,
+            501
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.5
+          ],
+          "durationMs": 160
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two knees",
+          "manualRois": [
+            [
+              217,
+              403,
+              289,
+              449
+            ],
+            [
+              292,
+              404,
+              356,
+              447
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                217,
+                403,
+                289,
+                449
+              ],
+              "contactPoint": [
+                261.5,
+                443
+              ],
+              "solidBounds": [
+                217,
+                403,
+                289,
+                443
+              ],
+              "roiBottomClearance": 6
+            },
+            {
+              "roi": [
+                292,
+                404,
+                356,
+                447
+              ],
+              "contactPoint": [
+                320.0,
+                438
+              ],
+              "solidBounds": [
+                292,
+                404,
+                356,
+                438
+              ],
+              "roiBottomClearance": 9
+            }
+          ],
+          "groundRootExactMidpoint": [
+            290.75,
+            440.5
+          ],
+          "groundRootInteger": [
+            291,
+            441
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.5
+          ],
+          "durationMs": 200
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two knees",
+          "manualRois": [
+            [
+              214,
+              401,
+              284,
+              449
+            ],
+            [
+              297,
+              408,
+              359,
+              449
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                214,
+                401,
+                284,
+                449
+              ],
+              "contactPoint": [
+                253.0,
+                441
+              ],
+              "solidBounds": [
+                214,
+                401,
+                284,
+                441
+              ],
+              "roiBottomClearance": 8
+            },
+            {
+              "roi": [
+                297,
+                408,
+                359,
+                449
+              ],
+              "contactPoint": [
+                324.0,
+                439
+              ],
+              "solidBounds": [
+                297,
+                408,
+                359,
+                439
+              ],
+              "roiBottomClearance": 10
+            }
+          ],
+          "groundRootExactMidpoint": [
+            288.5,
+            440.0
+          ],
+          "groundRootInteger": [
+            289,
+            440
+          ],
+          "registrationRoundingError": [
+            0.5,
+            0.0
+          ],
+          "durationMs": 200
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "contactKind": "two knees",
+          "manualRois": [
+            [
+              222,
+              400,
+              290,
+              449
+            ],
+            [
+              298,
+              408,
+              360,
+              448
+            ]
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                222,
+                400,
+                290,
+                449
+              ],
+              "contactPoint": [
+                258.5,
+                440
+              ],
+              "solidBounds": [
+                222,
+                400,
+                290,
+                440
+              ],
+              "roiBottomClearance": 9
+            },
+            {
+              "roi": [
+                298,
+                408,
+                360,
+                448
+              ],
+              "contactPoint": [
+                329.0,
+                435
+              ],
+              "solidBounds": [
+                298,
+                408,
+                360,
+                435
+              ],
+              "roiBottomClearance": 13
+            }
+          ],
+          "groundRootExactMidpoint": [
+            293.75,
+            437.5
+          ],
+          "groundRootInteger": [
+            294,
+            438
+          ],
+          "registrationRoundingError": [
+            0.25,
+            0.5
+          ],
+          "durationMs": 600
+        }
+      ]
+    }
+  ]
+}

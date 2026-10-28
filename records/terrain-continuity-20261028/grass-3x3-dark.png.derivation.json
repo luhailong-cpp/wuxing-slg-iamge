@@ -1,0 +1,28 @@
+{
+  "file": "records/terrain-continuity-20261028/grass-3x3-dark.png",
+  "sha256": "94235e721cf640b458209f2d6e8db9c7b7cfe932fea5c2d8ae27e4daf2a50164",
+  "sourceNativeSize": [
+    1774,
+    887
+  ],
+  "exportSize": [
+    1600,
+    800
+  ],
+  "mode": "RGB",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png",
+      "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23",
+      "record": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png.generation.json"
+    }
+  ],
+  "operations": [
+    "3x3 copies of unchanged native pixels at recorded integer vectors",
+    "Resize1600x800 for diagnostic viewing only",
+    "No artwork repaint"
+  ],
+  "newArtwork": false,
+  "diagnosticOnly": true,
+  "sourceAlphaEdited": false
+}

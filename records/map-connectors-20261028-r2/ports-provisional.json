@@ -1,0 +1,139 @@
+{
+  "origin": "top-left",
+  "units": "native pixels",
+  "measurement": "manual visual estimates; not authoritative collision geometry",
+  "ports": {
+    "crossing": {
+      "roadNW": [
+        [
+          302,
+          453
+        ],
+        [
+          408,
+          396
+        ]
+      ],
+      "roadSE": [
+        [
+          1045,
+          814
+        ],
+        [
+          1150,
+          755
+        ]
+      ],
+      "riverNE": [
+        [
+          979,
+          375
+        ],
+        [
+          1170,
+          469
+        ]
+      ],
+      "riverSW": [
+        [
+          300,
+          759
+        ],
+        [
+          490,
+          855
+        ]
+      ]
+    },
+    "road": {
+      "NW": [
+        [
+          82,
+          278
+        ],
+        [
+          286,
+          161
+        ]
+      ],
+      "SE": [
+        [
+          1270,
+          954
+        ],
+        [
+          1490,
+          828
+        ]
+      ]
+    },
+    "river": {
+      "SW": [
+        [
+          66,
+          777
+        ],
+        [
+          238,
+          913
+        ]
+      ],
+      "NE": [
+        [
+          1425,
+          90
+        ],
+        [
+          1585,
+          180
+        ]
+      ]
+    }
+  },
+  "displayTransforms": {
+    "ground": {
+      "scale": 1,
+      "translation": [
+        500,
+        400
+      ]
+    },
+    "bridge": {
+      "sourceCanvas": [
+        1000,
+        1000
+      ],
+      "displayCanvas": [
+        905,
+        905
+      ],
+      "scale": 0.905,
+      "translation": [
+        772,
+        491
+      ]
+    },
+    "road": {
+      "displayCanvas": [
+        799,
+        532
+      ],
+      "scaleApprox": 0.52,
+      "translation": [
+        177,
+        382
+      ]
+    },
+    "river": {
+      "displayCanvas": [
+        1427,
+        893
+      ],
+      "scaleApprox": 0.9,
+      "translation": [
+        1439,
+        63
+      ]
+    }
+  }
+}

@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/unity/WuxingSLGArtPreview-20261027.unitypackage",
+  "sha256": "c7d20bb4a089da76dea0f412e7cb07e36fe77888b76ac222e265186396df411c",
+  "bytes": 28754662,
+  "createdAtUtc": "2026-10-27T15:01:33.471587+00:00",
+  "createdAtBasis": "Observed successful Unity export and independent package import verification; raw times in referenced Unity reports.",
+  "operation": "Unity6000.6_import_as_single_fullrect_sprites_then_AssetDatabase.ExportPackage",
+  "tool": "Unity Editor",
+  "actualUnityVersion": "6000.6.0f1",
+  "route": "local_unity_batchmode_nographics",
+  "sourceIndex": "exports/01-率土之滨/unity/unity-preview-source-index-20261027.json",
+  "sourceIndexSha256": "a215e3a81fda99d8425c4c6a3856487a7674bea7a81ae45f820ad901fc3b3732",
+  "verificationReport": "records/01-率土之滨/unity-preview-package-verification-20261027.json",
+  "verificationReportSha256": "b7d4d53afe64e027fb0f7057535de25007b8d116e9f1516572a43cd07d618f62",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-normal.png",
+      "sha256": "81a44101e25a7c32d37448189c321c9e8b25ac7ddbd39b5fd9bf40979af313af",
+      "record": "exports/01-率土之滨/runtime-ui/button-primary-normal.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-primary-normal.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-pressed.png",
+      "sha256": "25b778033c85b5f6f1d0c4f8314e7b3298fa91d7bb3d805a24059f864296d029",
+      "record": "exports/01-率土之滨/runtime-ui/button-primary-pressed.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-primary-pressed.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-disabled.png",
+      "sha256": "5bfc5402eef44e9cdd25933c1234b0e3bd518eb9e8db6fe7159c4fe5076ab652",
+      "record": "exports/01-率土之滨/runtime-ui/button-primary-disabled.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-primary-disabled.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-hover.png",
+      "sha256": "936f14f1bd3b705385bda12f74aa52db5417bd76be360ea201a8d4f45c445f45",
+      "record": "exports/01-率土之滨/runtime-ui/button-primary-hover.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-primary-hover.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-normal.png",
+      "sha256": "17ec03feee71c741b2fb8bdc782a94020eb6a310b4a4ff4dddb60eba76717b77",
+      "record": "exports/01-率土之滨/runtime-ui/button-secondary-normal.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-secondary-normal.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-pressed.png",
+      "sha256": "7f45e4ae30a389e69115d34f35fc50694193590af5a6213a0cd15776711e707b",
+      "record": "exports/01-率土之滨/runtime-ui/button-secondary-pressed.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-secondary-pressed.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-disabled.png",
+      "sha256": "6fe765d5260a67191b5ac0a5367c3a5db2ec58fc0852cd9d4735832a6fc7b262",
+      "record": "exports/01-率土之滨/runtime-ui/button-secondary-disabled.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-secondary-disabled.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-hover.png",
+      "sha256": "783b6e23f06131f52160952c07e4cbc3fa7702ed83b504795362d81d1bd6f312",
+      "record": "exports/01-率土之滨/runtime-ui/button-secondary-hover.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/button-secondary-hover.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/tab-selected.png",
+      "sha256": "c83f5d7b9d7b7d9de281f7cacd4eb0375f6c2fdbdadef924845f0d4ebea59f39",
+      "record": "exports/01-率土之滨/runtime-ui/tab-selected.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/tab-selected.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/tab-normal.png",
+      "sha256": "fec840fbce11511922e50505c24317f9e84b3285b2281edab2eac8e2a1f00372",
+      "record": "exports/01-率土之滨/runtime-ui/tab-normal.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/tab-normal.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/tab-locked.png",
+      "sha256": "2d5323ba7fc389f8e98b00c0558751415944e891a326589a83e04f30ca4efb96",
+      "record": "exports/01-率土之滨/runtime-ui/tab-locked.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/tab-locked.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/tab-notification.png",
+      "sha256": "f04b250b104357dd8b2fe332894c163e2771bf309f80d8d7f533b2e424656524",
+      "record": "exports/01-率土之滨/runtime-ui/tab-notification.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/tab-notification.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/card-row-normal.png",
+      "sha256": "879e8687b584d5647d16df1da2888ef9c35f88ee6909b63e7edf7d1d8fa518f7",
+      "record": "exports/01-率土之滨/runtime-ui/card-row-normal.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/card-row-normal.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/card-row-selected.png",
+      "sha256": "cecdc8b03122912abd45cf00988d773a247b197c3107000944f5f32584e429db",
+      "record": "exports/01-率土之滨/runtime-ui/card-row-selected.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/card-row-selected.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/card-row-disabled.png",
+      "sha256": "d81f38546fe2d384aad11b81347356a2a47311f7fc5608fc2b17636b7c05801a",
+      "record": "exports/01-率土之滨/runtime-ui/card-row-disabled.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/card-row-disabled.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/card-row-empty.png",
+      "sha256": "41c19cffcfcaec9dd85766e30ca8d0921565d9f44acbec9e0ae2943a54a63511",
+      "record": "exports/01-率土之滨/runtime-ui/card-row-empty.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/card-row-empty.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-wood.png",
+      "sha256": "9f4edcbbe1dcbec3757922cdc2db77bd58525a5aa66e8db1f6e9ae4b95a70b24",
+      "record": "exports/01-率土之滨/runtime-ui/icon-wood.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-wood.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-iron.png",
+      "sha256": "b300d2383afa1a225888b413b7904416ea407203c139cec8de17595d87443619",
+      "record": "exports/01-率土之滨/runtime-ui/icon-iron.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-iron.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-stone.png",
+      "sha256": "affb6e5da8ed971055e6d20094595ff0d432d1b8eb14d12eeb23d2cdcc7b0fa1",
+      "record": "exports/01-率土之滨/runtime-ui/icon-stone.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-stone.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-grain.png",
+      "sha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+      "record": "exports/01-率土之滨/runtime-ui/icon-grain.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-grain.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-coin.png",
+      "sha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+      "record": "exports/01-率土之滨/runtime-ui/icon-coin.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-coin.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-jade.png",
+      "sha256": "e5953137c7472e8094451aaebb1273accf5386d6dc5b9158c484ee17d5602ec7",
+      "record": "exports/01-率土之滨/runtime-ui/icon-jade.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-jade.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-tactic-exp.png",
+      "sha256": "1264796a71a4e8f59e1cb47f824b6e826c5d987367b546d3a8210a2c190f5512",
+      "record": "exports/01-率土之滨/runtime-ui/icon-tactic-exp.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-tactic-exp.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-reserve.png",
+      "sha256": "385c6ffd275edbf3c1b3129e58805a18d8ce49c6ccc5e6c442a3005d6c9eca7f",
+      "record": "exports/01-率土之滨/runtime-ui/icon-reserve.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-reserve.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-attack.png",
+      "sha256": "de0736e6433ee732aecf049d5d13d13aa80195106ff7ff9c4df47aa4d222f05f",
+      "record": "exports/01-率土之滨/runtime-ui/icon-attack.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-attack.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-defense.png",
+      "sha256": "578e36b1a7c33c42c227305dd36815d5f70f099672412a2171ced62d3623e1b6",
+      "record": "exports/01-率土之滨/runtime-ui/icon-defense.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-defense.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-strategy.png",
+      "sha256": "9710eed4fbaad94ec85721359633e42e430e9c211f1dd9c6cf68e00ee221b726",
+      "record": "exports/01-率土之滨/runtime-ui/icon-strategy.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-strategy.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-speed.png",
+      "sha256": "d921f3719872aa0d68a847f6818e9d39142a759b6b6ab5213c031ddcf4babb66",
+      "record": "exports/01-率土之滨/runtime-ui/icon-speed.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-speed.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-siege.png",
+      "sha256": "4e662934f997f396da4b4a3c35288c48a64db12eb73ad9a70d1bf0fb89d87fd5",
+      "record": "exports/01-率土之滨/runtime-ui/icon-siege.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-siege.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-stamina.png",
+      "sha256": "7806d8577b4378bbad2f5738b1375140eb51b51a25c948eb826889cb2cbd32e4",
+      "record": "exports/01-率土之滨/runtime-ui/icon-stamina.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-stamina.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-timer.png",
+      "sha256": "c9d8dfd838932bdcfb7330bb90c37719762d46d75662da3e0c4375c9e7614044",
+      "record": "exports/01-率土之滨/runtime-ui/icon-timer.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-timer.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-lock.png",
+      "sha256": "c0d3f7c4b108b104e28920fc0a8e47f39d9baff9af6a4e057d18562827e22552",
+      "record": "exports/01-率土之滨/runtime-ui/icon-lock.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/icon-lock.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/panel-main.png",
+      "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+      "record": "exports/01-率土之滨/runtime-ui/panel-main.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/panel-main.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/panel-confirm.png",
+      "sha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+      "record": "exports/01-率土之滨/runtime-ui/panel-confirm.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/panel-confirm.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/panel-dialogue.png",
+      "sha256": "f8afc62592e23a429a524a25cdfa284ac0bc559406a4060bf27839986a109bf5",
+      "record": "exports/01-率土之滨/runtime-ui/panel-dialogue.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/panel-dialogue.png"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui/panel-detail.png",
+      "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+      "record": "exports/01-率土之滨/runtime-ui/panel-detail.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/UI/panel-detail.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "record": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/main-city.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+      "sha256": "cf9ea07241606ccfd228d90a1981eb373f87c8cad5a43bab0c9e67688891d2c4",
+      "record": "exports/01-率土之滨/map-kit/cities/branch-city.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/branch-city.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+      "sha256": "3e84ed76abaef698571e198328e28ed6479063ecc5ed3cf2a918ab2b8cb2c8a8",
+      "record": "exports/01-率土之滨/map-kit/cities/garrison-city.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/garrison-city.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+      "sha256": "19d22b35e6ca9175ba5a4f7176b5ad6954ce174a9fa44322eafc2e585d8ba2ff",
+      "record": "exports/01-率土之滨/map-kit/cities/fortress.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/fortress.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+      "sha256": "35115f89b9087a07483741cfacc2871aaaecccf90e8c3d43ea26abdd2ffccb42",
+      "record": "exports/01-率土之滨/map-kit/cities/military-camp.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/military-camp.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+      "sha256": "eef027bc7df7a2a66591033dce5e4acb8ce055f6fcdcbd7916c8de7fd905e3a7",
+      "record": "exports/01-率土之滨/map-kit/cities/county-city.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/county-city.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+      "sha256": "0ebd161bbbdcdb5ea5d41c9647547a95300dbd8dbc31b36468897d6d8b120c48",
+      "record": "exports/01-率土之滨/map-kit/cities/commandery-city.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/commandery-city.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "sha256": "2267c8fba4978c4f3f707e3a93368e35610a29ccd50fe0c1ceb6125ba9567287",
+      "record": "exports/01-率土之滨/map-kit/cities/provincial-capital.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/provincial-capital.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "sha256": "b0dd1f7e6bea8691b2927ce22a83c2d92c70a5b18fcd393443b3d2feb1413a9b",
+      "record": "exports/01-率土之滨/map-kit/cities/capital-city.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/cities/capital-city.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+      "sha256": "0cf60166fd24c6c311f34f5a90f10da3bd5c9baf0183aa4fedeb1cbf9b68d8f9",
+      "record": "exports/01-率土之滨/map-kit/buildings/city-hall.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/city-hall.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+      "sha256": "024deabb0b713a8703a193ff1916dcbaed37a0b0b54d3cdd19c94e1ebbdfa2f4",
+      "record": "exports/01-率土之滨/map-kit/buildings/training-ground.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/training-ground.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+      "sha256": "a7d9280a9af0b840f95bbd40ee3823d9a82cf6f4ef31bef45d642d4a156b4ced",
+      "record": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/recruitment-hall.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "sha256": "389a2a8ac2e9fd0f06c608d383aaa6686abc5017842d96213f8667874efe6c4f",
+      "record": "exports/01-率土之滨/map-kit/buildings/warehouse.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/warehouse.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "sha256": "e9234ee6e5d062998321caf51ec080236578ddc614fc65620ccce42c818cbe73",
+      "record": "exports/01-率土之滨/map-kit/buildings/residence.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/residence.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+      "sha256": "5e0378de79b73fd1b8977110a044bdaff2b28b5cf3a999225fb0f28c8dc7248d",
+      "record": "exports/01-率土之滨/map-kit/buildings/market.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/market.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "sha256": "b2828ce790a51a7c6b289e990193a0cd6858fa42710349655abea1c7a43cfce8",
+      "record": "exports/01-率土之滨/map-kit/buildings/workshop.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/workshop.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+      "sha256": "e6c72fa97367d7b763a9d60cc6bbeb4f45473a37e5cab2528c0db87297bcc4ae",
+      "record": "exports/01-率土之滨/map-kit/buildings/wall-segment.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/wall-segment.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "sha256": "263f0cb89d1523e48aa600f7acbf630fd06d72625af50546cc03846426834901",
+      "record": "exports/01-率土之滨/map-kit/buildings/city-gate.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/city-gate.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "record": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/bridge.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "record": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/enemy-camp.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+      "sha256": "48b71a2738310167451334c7aa18afd3b6d24cfeaa4182fa131acf4d801e381f",
+      "record": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/buildings/damaged-warehouse.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "record": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/grassland.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "record": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/stone-road.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "sha256": "189a79e2cffbc60edba98f51ef96f9d1c92690b10bad7ff7ef1b02044e6a9403",
+      "record": "exports/01-率土之滨/map-kit/terrain/woodland.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/woodland.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "sha256": "a4966fe9f473631658837cd93b5ccebccd1fe76af70dbe2b47619d4ce14e27b6",
+      "record": "exports/01-率土之滨/map-kit/terrain/mountains.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/mountains.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "sha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "record": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/wheat-field.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+      "sha256": "636e3a70fa9236bc32463a092ae72019f13754cdf02d026ce43c9f1388a517cf",
+      "record": "exports/01-率土之滨/map-kit/terrain/iron-mine.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/iron-mine.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "sha256": "f42916022ef70daa5e14a1249e5dac47ff1c5318330ddb0aac4479a080b241a1",
+      "record": "exports/01-率土之滨/map-kit/terrain/quarry.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/quarry.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+      "sha256": "1ab192b801bb9cbdf6a69ec73c07024748f94c28f2016d9ad22ac779808a49ae",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-bend.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/river-bend.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/river-straight.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+      "sha256": "0850349a3551e3a3e49ba9f81b4ba8d24cb46e7cd871dde270c35f7721036435",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-bank.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/river-bank.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+      "sha256": "94399b62cc4aa8ff84ab3c9add568df5737dc2141e25e30168795670d124e577",
+      "record": "exports/01-率土之滨/map-kit/terrain/ferry.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/ferry.png"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+      "sha256": "0b867ee3dc8132ff4ba3bafc8a52f9dd79eaf2099e37127c1bf48e9c4cb86829",
+      "record": "exports/01-率土之滨/map-kit/terrain/building-plot.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Map/terrain/building-plot.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/slash-arc.png",
+      "sha256": "f99351842b8d0444c67c3d1e8202975c9c929e4563a6efc483025b6110c88dc4",
+      "record": "exports/01-率土之滨/fx/slash-arc.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/slash-arc.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "sha256": "8387d21e6f90b06cb0437b274212f3e9dd795eb488ba144d02c5ddfea04359da",
+      "record": "exports/01-率土之滨/fx/strategy-array.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/strategy-array.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/healing-light.png",
+      "sha256": "6988d4c23fc8edbc9a29b352c53ba8fbb4e085234e6d9ee226e39e594f41bdf2",
+      "record": "exports/01-率土之滨/fx/healing-light.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/healing-light.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/buff-cloud.png",
+      "sha256": "b03d95ae5129b021ac02d876bf3076c537496a3f08a472eed93f77ab33c0ed90",
+      "record": "exports/01-率土之滨/fx/buff-cloud.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/buff-cloud.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/debuff-mist.png",
+      "sha256": "5e9cd2161e200da25ba2015d93799e29601b2156c602a1e6b542ea3c441fdaec",
+      "record": "exports/01-率土之滨/fx/debuff-mist.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/debuff-mist.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/fire.png",
+      "sha256": "1c212f38d429c02a935c0596d55b6afc9e67d2ded577cbfef7de24f8e2500ab2",
+      "record": "exports/01-率土之滨/fx/fire.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/fire.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "sha256": "40c0df3f582e47b42cae33a66adb0e18110dc597aa365c88bd96eecf95d88ca4",
+      "record": "exports/01-率土之滨/fx/capture-circle.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/capture-circle.png"
+    },
+    {
+      "file": "exports/01-率土之滨/fx/reward-glow.png",
+      "sha256": "bf17b7291b5c7f59d686a61fa5a89402e9bb668411bc606dce86d285bff10a5a",
+      "record": "exports/01-率土之滨/fx/reward-glow.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/StaticFX/reward-glow.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-native.png",
+      "sha256": "a8c7e43078fcaa3e3a13fedf856700cc0f12e9c6113bf109859a59864174a958",
+      "record": "exports/01-率土之滨/five-elements/emblems/metal-native.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/metal-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-32.png",
+      "sha256": "e21b7b9fb0702780dfac60ad90e47735040a1a79eb267ede6d0ed5f2964e7cb8",
+      "record": "exports/01-率土之滨/five-elements/emblems/metal-32.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/metal-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-64.png",
+      "sha256": "9a6b34f95e7e9325ee9c86808460b6296f7e5b826e8949fe4d9df919a6495c6e",
+      "record": "exports/01-率土之滨/five-elements/emblems/metal-64.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/metal-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-128.png",
+      "sha256": "9e0709bac1f6e73df24b303e6b251973356a506107883eefb01de35785357fe8",
+      "record": "exports/01-率土之滨/five-elements/emblems/metal-128.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/metal-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-native.png",
+      "sha256": "d30dee826b248af79557b5e3d51bc1298ec31634e421364c20919d48cfb9aba6",
+      "record": "exports/01-率土之滨/five-elements/emblems/wood-native.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/wood-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-32.png",
+      "sha256": "18b23d93661f91d971e201c45bfc820b65e5c59e1c3865e7e948d170896cff90",
+      "record": "exports/01-率土之滨/five-elements/emblems/wood-32.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/wood-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-64.png",
+      "sha256": "fa75b544f741b46b10e364a35d361be1bf6b726704fba5d14d19739628024b11",
+      "record": "exports/01-率土之滨/five-elements/emblems/wood-64.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/wood-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-128.png",
+      "sha256": "33105e1e340ed5700e8f4a46d00fd789586f9359caf5287fe201982ebde73d45",
+      "record": "exports/01-率土之滨/five-elements/emblems/wood-128.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/wood-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/water-native.png",
+      "sha256": "9eb76d1ad7a191b8e510a380cf4fa6d12c6913d911cebdf5c6371eb41b48095c",
+      "record": "exports/01-率土之滨/five-elements/emblems/water-native.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/water-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/water-32.png",
+      "sha256": "2a9655a09d57ca38c9910fe2c2508090f6dea0d34ec49f9a7d1a6f08000c7202",
+      "record": "exports/01-率土之滨/five-elements/emblems/water-32.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/water-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/water-64.png",
+      "sha256": "c5c7a7ccb7032a3251b407fc1bde28347fafcc34e3baa9360b2f34bb3727ba27",
+      "record": "exports/01-率土之滨/five-elements/emblems/water-64.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/water-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/water-128.png",
+      "sha256": "6874576c0d6f48541563197dc2f99ff4446b088c7d4a4d000f6cac44368ad1a5",
+      "record": "exports/01-率土之滨/five-elements/emblems/water-128.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/water-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-native.png",
+      "sha256": "64992af0b9418844b26c7b5da300e45b8fe10a17d94c1a3ed2aa36d055904ffc",
+      "record": "exports/01-率土之滨/five-elements/emblems/fire-native.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/fire-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-32.png",
+      "sha256": "4780d4e1f0025bef19e0791f8d8286b832e0de78bd5ecfa659611d1e5cf47886",
+      "record": "exports/01-率土之滨/five-elements/emblems/fire-32.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/fire-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-64.png",
+      "sha256": "d09f464608bcbcb58e9f244326440feee0e0eefd167e0b93117567d4d486f185",
+      "record": "exports/01-率土之滨/five-elements/emblems/fire-64.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/fire-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-128.png",
+      "sha256": "77b98c5bc75bf435037d9a79e3f84421aa1e3b2af003c5f225c902c7ea15dd2d",
+      "record": "exports/01-率土之滨/five-elements/emblems/fire-128.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/fire-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-native.png",
+      "sha256": "7bea3aab160c1234132f9ea3a2bcb4c0485355d4e75a5a412d5f4dfbf169a29e",
+      "record": "exports/01-率土之滨/five-elements/emblems/earth-native.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/earth-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-32.png",
+      "sha256": "da113e06cd7fc80eed4ad9f15158f8ff3ce78bff497d1b625de9f658459c44db",
+      "record": "exports/01-率土之滨/five-elements/emblems/earth-32.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/earth-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-64.png",
+      "sha256": "ba066d8a812e7251d016321ce6ac41a3666a2fafa4fe0340970d74e771c9d875",
+      "record": "exports/01-率土之滨/five-elements/emblems/earth-64.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/earth-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-128.png",
+      "sha256": "09eddd9f902a8b3c38757365d8f25a6a993f9174916ec2cccd66dac8f83987d4",
+      "record": "exports/01-率土之滨/five-elements/emblems/earth-128.png.derived.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Emblems/earth-128.png"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "record": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Characters/01-metal-envoy-v1.png"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "record": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Characters/02-wood-envoy-v1.png"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "record": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Characters/03-water-envoy-v1.png"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "record": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Characters/04-fire-envoy-v1.png"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "record": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Characters/05-earth-envoy-v1.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-native.png",
+      "sha256": "07a1be8115580b894dc88656d586344e97a920766b975e9207d8cb9440d7d4e8",
+      "record": "exports/01-率土之滨/units/infantry-native.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/infantry-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/infantry-64h.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-128h.png",
+      "sha256": "f868bbf9ece22ce4e0a9dc991939718cd7efdb274b52f40b2fbc3eb48399f62e",
+      "record": "exports/01-率土之滨/units/infantry-128h.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/infantry-128h.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/archer-native.png",
+      "sha256": "264a45f0999607493e40952da2ef62f9af064791fadbead2eaab2ffa77de2180",
+      "record": "exports/01-率土之滨/units/archer-native.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/archer-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/archer-64h.png",
+      "sha256": "f1e31217e37212921940bf4f2656ca471ee585f86ceb0f4873c78225b4b7ccbb",
+      "record": "exports/01-率土之滨/units/archer-64h.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/archer-64h.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/archer-128h.png",
+      "sha256": "6f2e4233bd370cb1919511b223e7d88c89d86998dfe95a973236c5f05d466e95",
+      "record": "exports/01-率土之滨/units/archer-128h.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/archer-128h.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/cavalry-native.png",
+      "sha256": "c37c7e03039b4964bbd8ac09725bb500aa8282597cea1a8c070710ddbbe3ba1f",
+      "record": "exports/01-率土之滨/units/cavalry-native.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/cavalry-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/cavalry-64h.png",
+      "sha256": "e0b883a34abe253100d0b2dbda6abcfb24af429842cb8ba1e3a54d811ca740ea",
+      "record": "exports/01-率土之滨/units/cavalry-64h.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/cavalry-64h.png"
+    },
+    {
+      "file": "exports/01-率土之滨/units/cavalry-128h.png",
+      "sha256": "9c0107893b3c950bda1f9eb6ae56c1847ba9d24c6a310c52e08b7777efd6a6d7",
+      "record": "exports/01-率土之滨/units/cavalry-128h.png.derivation.json",
+      "unityAssetPath": "Assets/WuxingSLGArtPreview/Units/cavalry-128h.png"
+    }
+  ],
+  "pngBytesPreserved": true,
+  "importedAlphaCountsPreserved": true,
+  "sourceImageResampledByUnity": false,
+  "spriteCount": 111,
+  "animationFrameCount": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "Unity_importable_static_candidate_preview_with_recorded_warnings"
+}

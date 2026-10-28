@@ -1,0 +1,159 @@
+{
+  "character": "troop-earth",
+  "direction": "SE",
+  "status": "candidate_not_playback_accepted",
+  "unityPivot": [
+    0.5,
+    0.25
+  ],
+  "clips": [
+    {
+      "action": "idle",
+      "loop": true,
+      "playback": "forward_loop",
+      "frames": [
+        {
+          "durationMs": 250,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-01.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-01.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-01.png"
+        },
+        {
+          "durationMs": 250,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-02.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-02.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-02.png"
+        },
+        {
+          "durationMs": 250,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-03.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-03.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-03.png"
+        },
+        {
+          "durationMs": 250,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-04.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-04.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-04.png"
+        }
+      ]
+    },
+    {
+      "action": "attack",
+      "loop": false,
+      "playback": "forward_once",
+      "frames": [
+        {
+          "durationMs": 120,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-01.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-01.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-01.png"
+        },
+        {
+          "durationMs": 100,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-02.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-02.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-02.png"
+        },
+        {
+          "durationMs": 100,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-03.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-03.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-03.png"
+        },
+        {
+          "durationMs": 70,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-04.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-04.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-04.png"
+        },
+        {
+          "durationMs": 100,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-05.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-05.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-05.png"
+        },
+        {
+          "durationMs": 160,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-06.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-06.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-06.png"
+        }
+      ]
+    },
+    {
+      "action": "hurt",
+      "loop": false,
+      "playback": "forward_once",
+      "frames": [
+        {
+          "durationMs": 120,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-01.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-01.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-01.png"
+        },
+        {
+          "durationMs": 100,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-02.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-02.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-02.png"
+        },
+        {
+          "durationMs": 120,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-03.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-03.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-03.png"
+        },
+        {
+          "durationMs": 180,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-04.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-04.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-04.png"
+        }
+      ]
+    },
+    {
+      "action": "defeat",
+      "loop": false,
+      "playback": "forward_once_hold_last",
+      "frames": [
+        {
+          "durationMs": 120,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-01.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-01.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-01.png"
+        },
+        {
+          "durationMs": 120,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-02.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-02.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-02.png"
+        },
+        {
+          "durationMs": 160,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-03.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-03.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-03.png"
+        },
+        {
+          "durationMs": 200,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-04.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-04.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-04.png"
+        },
+        {
+          "durationMs": 200,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-05.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-05.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-05.png"
+        },
+        {
+          "durationMs": 600,
+          "native": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-06.png",
+          "normalized": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-06.png",
+          "map128h": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-06.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+  "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+  "generatedAt": null,
+  "generatedAtBasis": "原调用结束回执不可恢复；不得用文件mtime冒充生成时间",
+  "nativeFileMaterializedAtUtc": "2026-10-26T21:19:54.661760+00:00",
+  "callStartedAt": "2026-10-26T21:17:06.814Z",
+  "callCompletedAt": null,
+  "width": 1448,
+  "height": 1086,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "17",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "promptFile": "prompts/01-率土之滨/03-terrain-resources-sheet-v2.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "内置未披露实际模型/画质；恢复时执行cell已不存在，完整返回回执和精确完成时间不可追取。",
+  "prompt": "prompts/01-率土之滨/03-terrain-resources-sheet-v2.prompt.txt",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/03-terrain-resources-sheet-v2.tool-request.json"
+    },
+    {
+      "file": "records/01-率土之滨/03-terrain-resources-sheet-v2.tool-response.json"
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a178fa-5ce5-7082-8f5e-385dc9d2c436/exec-9c15da19-1077-48ff-8067-f96c26470b7e.png",
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+      "copyHashVerified": true
+    }
+  ],
+  "references": [
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v1.png",
+      "sha256": "24317b9a92a941f19ee3b7a3c888dbe6cf00c674f6ce236c5cd6e9fbc644eb4b",
+      "actuallyAttached": true,
+      "role": "AI编辑目标",
+      "generationRecord": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true,
+      "role": "首要道家Q版风格参考"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true,
+      "role": "首要道家Q版风格参考"
+    }
+  ],
+  "editedFrom": {
+    "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v1.png",
+    "sha256": "24317b9a92a941f19ee3b7a3c888dbe6cf00c674f6ce236c5cd6e9fbc644eb4b",
+    "generationRecord": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v1.png.generation.json"
+  },
+  "operation": "AI_edit",
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixelCount": 1086029,
+    "semiTransparentPixelCount": 486091,
+    "opaquePixelCount": 408,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "assetRole": "地形资源，12块视觉完整，尚无逐块alpha/裁切/拼接与导航验收",
+  "intendedObjectCount": 12,
+  "status": "candidate_pending_crop_and_alpha_QA",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T13:04:39.867973+00:00"
+}

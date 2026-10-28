@@ -1,0 +1,269 @@
+{
+  "schema": "generate2dmap.compose_report.v2",
+  "tool": {
+    "name": "compose_layered_preview",
+    "version": "0.4.0"
+  },
+  "base": "../../../exports/01-率土之滨/map-assembly-v1/scene-base.png",
+  "base_sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0",
+  "placements": "../../../exports/01-率土之滨/map-assembly-v1/placements.json",
+  "placements_sha256": "406883f12e08df430fb24a6bcc15f4cf6331a0920fdaa3f716aef2bf306b3bbc",
+  "output": "../../../exports/01-率土之滨/map-assembly-v1/assembled-preview.png",
+  "output_sha256": "c8ab834d7a8f80958434926f872e538282980545021a2489174ea208ecc27365",
+  "canvas_size": [
+    1440,
+    960
+  ],
+  "scale": 1.0,
+  "resampler": "lanczos",
+  "sort": "ground-line",
+  "anchor_policy": "manifest",
+  "compositing_order": [
+    {
+      "band": "base",
+      "draws": "the base image (scaled by --scale)"
+    },
+    {
+      "band": "background",
+      "draws": "placements on layer background",
+      "sorted_by": [
+        "sortY",
+        "x",
+        "id"
+      ]
+    },
+    {
+      "band": "world",
+      "draws": "props, objects, actors and every other layer",
+      "sorted_by": [
+        "sortY",
+        "x",
+        "id"
+      ]
+    },
+    {
+      "band": "foreground",
+      "draws": "the foreground list and layer foreground",
+      "sorted_by": [
+        "sortY",
+        "x",
+        "id"
+      ]
+    },
+    {
+      "band": "not baked",
+      "draws": "the debug overlay and plate pan are separate files"
+    }
+  ],
+  "prop_packs": [],
+  "pasted": [
+    {
+      "id": "city",
+      "group": "props",
+      "kind": "prop",
+      "layer": "props",
+      "band": "world",
+      "draw_index": 0,
+      "image": "../../../exports/01-率土之滨/map-kit/cities/main-city.png",
+      "image_sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "left": 502,
+      "top": 71,
+      "w": 289,
+      "h": 258,
+      "source_size": [
+        445,
+        397
+      ],
+      "anchorPx": [
+        228.0,
+        364.0
+      ],
+      "anchor_source": "px",
+      "anchor_world": [
+        650.0,
+        308.0
+      ],
+      "anchor_canvas": [
+        650.07191,
+        307.554156
+      ],
+      "anchor_world_error": [
+        0.07191,
+        -0.445844
+      ],
+      "resampler": "lanczos",
+      "clipped": false,
+      "visible_bounds": [
+        528,
+        104,
+        775,
+        306
+      ],
+      "sortY": 308.0,
+      "sort_source": "explicit",
+      "footprint": {
+        "shape": "ellipse",
+        "cx": 650.07191,
+        "cy": 273.554156,
+        "rx": 82.0,
+        "ry": 30.0,
+        "rotate": 0.0,
+        "source": "placement",
+        "solid": true
+      },
+      "warnings": []
+    },
+    {
+      "id": "representative-infantry",
+      "group": "actors",
+      "kind": "actor",
+      "layer": "actors",
+      "band": "world",
+      "draw_index": 1,
+      "image": "../../../exports/01-率土之滨/units/infantry-64h.png",
+      "image_sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "left": 622,
+      "top": 148,
+      "w": 256,
+      "h": 256,
+      "source_size": [
+        256,
+        256
+      ],
+      "anchorPx": [
+        128.0,
+        224.0
+      ],
+      "anchor_source": "px",
+      "anchor_world": [
+        750.0,
+        372.0
+      ],
+      "anchor_canvas": [
+        750.0,
+        372.0
+      ],
+      "anchor_world_error": [
+        0.0,
+        0.0
+      ],
+      "resampler": "lanczos",
+      "clipped": false,
+      "visible_bounds": [
+        721,
+        308,
+        780,
+        372
+      ],
+      "sortY": 372.0,
+      "sort_source": "explicit",
+      "footprint": null,
+      "warnings": []
+    },
+    {
+      "id": "bridge",
+      "group": "props",
+      "kind": "prop",
+      "layer": "props",
+      "band": "world",
+      "draw_index": 2,
+      "image": "../../../exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "image_sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "left": 561,
+      "top": 274,
+      "w": 384,
+      "h": 431,
+      "source_size": [
+        334,
+        375
+      ],
+      "anchorPx": [
+        165.5,
+        302.0
+      ],
+      "anchor_source": "px",
+      "anchor_world": [
+        751.725,
+        620.75
+      ],
+      "anchor_canvas": [
+        751.275449,
+        621.098667
+      ],
+      "anchor_world_error": [
+        -0.449551,
+        0.348667
+      ],
+      "resampler": "lanczos",
+      "clipped": false,
+      "visible_bounds": [
+        585,
+        385,
+        916,
+        618
+      ],
+      "sortY": 430.0,
+      "sort_source": "explicit",
+      "footprint": null,
+      "warnings": []
+    },
+    {
+      "id": "enemy-camp",
+      "group": "props",
+      "kind": "prop",
+      "layer": "props",
+      "band": "world",
+      "draw_index": 3,
+      "image": "../../../exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "image_sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "left": 709,
+      "top": 457,
+      "w": 281,
+      "h": 281,
+      "source_size": [
+        374,
+        375
+      ],
+      "anchorPx": [
+        187.5,
+        314.0
+      ],
+      "anchor_source": "px",
+      "anchor_world": [
+        850.0,
+        692.0
+      ],
+      "anchor_canvas": [
+        849.875668,
+        692.290667
+      ],
+      "anchor_world_error": [
+        -0.124332,
+        0.290667
+      ],
+      "resampler": "lanczos",
+      "clipped": false,
+      "visible_bounds": [
+        725,
+        482,
+        975,
+        691
+      ],
+      "sortY": 692.0,
+      "sort_source": "explicit",
+      "footprint": {
+        "shape": "ellipse",
+        "cx": 849.875668,
+        "cy": 657.290667,
+        "rx": 74.0,
+        "ry": 27.0,
+        "rotate": 0.0,
+        "source": "placement",
+        "solid": true
+      },
+      "warnings": []
+    }
+  ],
+  "warnings": [],
+  "audit_status": "pass"
+}

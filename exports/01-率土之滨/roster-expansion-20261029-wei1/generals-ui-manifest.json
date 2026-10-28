@@ -1,0 +1,3868 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "scope": "six historical persons, one original master each -> thirty UI derivatives; official card variants not fully covered",
+  "status": "static_candidates_visual_QA_complete_not_user_or_engine_accepted",
+  "generalCount": 6,
+  "selectedMasterCount": 6,
+  "assetCount": 30,
+  "variantCounts": {
+    "face-native": 6,
+    "bust-native": 6,
+    "avatar-128": 6,
+    "avatar-256": 6,
+    "card-full": 6
+  },
+  "avatarContainers": [
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "cardContainer": [
+    768,
+    1152
+  ],
+  "sources": [
+    {
+      "id": "xun-yu",
+      "name": "荀彧",
+      "version": 1,
+      "face": [
+        250,
+        20,
+        805,
+        620
+      ],
+      "bust": [
+        30,
+        20,
+        990,
+        1040
+      ],
+      "roi": [
+        430,
+        345,
+        705,
+        562
+      ],
+      "identity": "mature fine moustache and pointed chin beard, rectangular woven official crown, silk memorandum and wooden tablet",
+      "cropRevisionReason": "Exclude detached writing-tablet corner from face portrait; hat side pin may intentionally cross rectangular portrait boundary.",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+      "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+      "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 649752,
+        "alphaOne": 18415,
+        "alphaSemi": 923112,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          16,
+          25,
+          999,
+          1504
+        ],
+        "marginsAlpha16": [
+          16,
+          25,
+          25,
+          32
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "inspectedOriginal": true
+    },
+    {
+      "id": "guo-jia",
+      "name": "郭嘉",
+      "version": 1,
+      "face": [
+        340,
+        112,
+        825,
+        580
+      ],
+      "bust": [
+        35,
+        112,
+        980,
+        1050
+      ],
+      "roi": [
+        475,
+        320,
+        737,
+        530
+      ],
+      "identity": "youthful clean-shaven narrow face, low folded indigo cap, slim body, closed bamboo fan and hip scroll case",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+      "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+      "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 788613,
+        "alphaOne": 19783,
+        "alphaSemi": 784251,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          56,
+          124,
+          982,
+          1466
+        ],
+        "marginsAlpha16": [
+          56,
+          124,
+          42,
+          70
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "inspectedOriginal": true
+    },
+    {
+      "id": "zhang-liao",
+      "name": "张辽",
+      "version": 1,
+      "face": [
+        300,
+        120,
+        790,
+        675
+      ],
+      "bust": [
+        55,
+        120,
+        1000,
+        1050
+      ],
+      "roi": [
+        490,
+        425,
+        715,
+        605
+      ],
+      "identity": "lean stern commander, precise moustache and pointed beard, blue steel helmet and tall single crescent polearm",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+      "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+      "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 775084,
+        "alphaOne": 20141,
+        "alphaSemi": 797780,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          68,
+          20,
+          1008,
+          1496
+        ],
+        "marginsAlpha16": [
+          68,
+          20,
+          16,
+          40
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "inspectedOriginal": true
+    },
+    {
+      "id": "dian-wei",
+      "name": "典韦",
+      "version": 1,
+      "face": [
+        340,
+        190,
+        690,
+        615
+      ],
+      "bust": [
+        90,
+        190,
+        965,
+        1045
+      ],
+      "roi": [
+        402,
+        360,
+        637,
+        555
+      ],
+      "identity": "square face, shaved sides and topknot, short stubble, very broad shoulders, paired short iron halberds",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+      "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+      "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 914013,
+        "alphaOne": 23935,
+        "alphaSemi": 658851,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          24,
+          202,
+          1005,
+          1336
+        ],
+        "marginsAlpha16": [
+          24,
+          202,
+          19,
+          200
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "inspectedOriginal": true
+    },
+    {
+      "id": "xu-chu",
+      "name": "许褚",
+      "version": 1,
+      "face": [
+        350,
+        155,
+        730,
+        540
+      ],
+      "bust": [
+        15,
+        155,
+        1015,
+        1050
+      ],
+      "roi": [
+        415,
+        280,
+        686,
+        480
+      ],
+      "identity": "round full-cheeked clean-shaven face, cropped hair and headband, broad barrel body, one heavy dao",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+      "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+      "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 736156,
+        "alphaOne": 15729,
+        "alphaSemi": 836708,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          12,
+          174,
+          1014,
+          1436
+        ],
+        "marginsAlpha16": [
+          12,
+          174,
+          10,
+          100
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "inspectedOriginal": true
+    },
+    {
+      "id": "xiahou-yuan",
+      "name": "夏侯渊",
+      "version": 2,
+      "face": [
+        330,
+        145,
+        755,
+        615
+      ],
+      "bust": [
+        60,
+        95,
+        970,
+        1040
+      ],
+      "roi": [
+        488,
+        388,
+        686,
+        555
+      ],
+      "identity": "seasoned tan commander, fuller wedge beard and greying temples, both eyes visible, recurved bow and quiver",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+      "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+      "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe",
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "actualModel": null,
+      "actualQuality": null,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 782499,
+        "alphaOne": 18741,
+        "alphaSemi": 790365,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          62,
+          91,
+          962,
+          1459
+        ],
+        "marginsAlpha16": [
+          62,
+          91,
+          62,
+          77
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "inspectedOriginal": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-face-native.png",
+      "sha256": "08353cdb8f4cb2c4715c71d19acf216c74a9d485d0d428542b88f46d06de0839",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xun-yu",
+      "displayName": "荀彧",
+      "variant": "face-native",
+      "width": 555,
+      "height": 600,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+          "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+          "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        250,
+        20,
+        805,
+        620
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 95953,
+        "alphaOne": 6049,
+        "alphaSemi": 237047,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          5,
+          555,
+          600
+        ],
+        "marginsAlpha16": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "edgeAlpha16Pixels": 548
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        430,
+        345,
+        705,
+        562
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-face-native.png.derivation.json",
+      "recordSha256": "9f71039bb9902cba23e48c6a5ffba6706be474398912f393daf39c31c08f74b6"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-bust-native.png",
+      "sha256": "a5ce959da5f8d0a2b8a60cbd4eea79ac706bf334271e4a06d257964b00fbe578",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xun-yu",
+      "displayName": "荀彧",
+      "variant": "bust-native",
+      "width": 960,
+      "height": 1020,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+          "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+          "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        30,
+        20,
+        990,
+        1040
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 367316,
+        "alphaOne": 13285,
+        "alphaSemi": 611884,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          5,
+          957,
+          1020
+        ],
+        "marginsAlpha16": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "edgeAlpha16Pixels": 1031
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        430,
+        345,
+        705,
+        562
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-bust-native.png.derivation.json",
+      "recordSha256": "cc9c0438dd6ade5a20dcffa62b2b16d1590c67fd361e18da8759d835ce1b99e9"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-128.png",
+      "sha256": "4759071865b2fe08f80390d7c5fcf4269056011b9f88372881d1b43fce6f9d1e",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xun-yu",
+      "displayName": "荀彧",
+      "variant": "avatar-128",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+          "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+          "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        250,
+        20,
+        805,
+        620
+      ],
+      "resizeTo": [
+        104,
+        112
+      ],
+      "pasteOffsetTopLeft": [
+        12,
+        8,
+        116,
+        120
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 7872,
+        "alphaOne": 118,
+        "alphaSemi": 8182,
+        "alphaOpaque": 330,
+        "bboxAlpha16": [
+          12,
+          8,
+          116,
+          120
+        ],
+        "marginsAlpha16": [
+          12,
+          8,
+          12,
+          8
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        430,
+        345,
+        705,
+        562
+      ],
+      "faceRoiOutputApprox": [
+        45.73,
+        68.667,
+        97.261,
+        109.173
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-128.png.derivation.json",
+      "recordSha256": "ff9ca3c664e70462ccca0761f1fc7b8a4660bef228b8130e5adff5389a9df7fb"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-256.png",
+      "sha256": "2cb848c55aea1ed61ccf61a8f90bb3ab56faa411f46c1565861ebec15db2c0f0",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xun-yu",
+      "displayName": "荀彧",
+      "variant": "avatar-256",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+          "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+          "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        250,
+        20,
+        805,
+        620
+      ],
+      "resizeTo": [
+        207,
+        224
+      ],
+      "pasteOffsetTopLeft": [
+        24,
+        16,
+        231,
+        240
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 32603,
+        "alphaOne": 466,
+        "alphaSemi": 32351,
+        "alphaOpaque": 582,
+        "bboxAlpha16": [
+          24,
+          17,
+          231,
+          240
+        ],
+        "marginsAlpha16": [
+          24,
+          17,
+          25,
+          16
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        430,
+        345,
+        705,
+        562
+      ],
+      "faceRoiOutputApprox": [
+        91.135,
+        137.333,
+        193.703,
+        218.347
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-256.png.derivation.json",
+      "recordSha256": "c09d60328ff31efa4ff5d4325c52a9b04aea2dcfede1852808f6b9d35c697ebb"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-card-full.png",
+      "sha256": "590914d6a91c21aae8ea1033d0dbffb22d80a7573fec2c3fb524bd18993bdd2e",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xun-yu",
+      "displayName": "荀彧",
+      "variant": "card-full",
+      "width": 768,
+      "height": 1152,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+          "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+          "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "resizeTo": [
+        704,
+        1056
+      ],
+      "pasteOffsetTopLeft": [
+        32,
+        48
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 450104,
+        "alphaOne": 6940,
+        "alphaSemi": 433187,
+        "alphaOpaque": 1445,
+        "bboxAlpha16": [
+          43,
+          65,
+          719,
+          1082
+        ],
+        "marginsAlpha16": [
+          43,
+          65,
+          49,
+          70
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        430,
+        345,
+        705,
+        562
+      ],
+      "faceRoiOutputApprox": [
+        327.625,
+        285.188,
+        516.688,
+        434.375
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-card-full.png.derivation.json",
+      "recordSha256": "55547537ada1304a1e0138b626ef2bf094bb797586a358809873d2f604750d98"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-face-native.png",
+      "sha256": "374d0099ce7a97f52be48e8557bd43db935c3f814ca0e9db96af102cc95782b4",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "guo-jia",
+      "displayName": "郭嘉",
+      "variant": "face-native",
+      "width": 485,
+      "height": 468,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+          "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+          "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        340,
+        112,
+        825,
+        580
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 58291,
+        "alphaOne": 4849,
+        "alphaSemi": 168689,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          12,
+          475,
+          468
+        ],
+        "marginsAlpha16": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "edgeAlpha16Pixels": 578
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        475,
+        320,
+        737,
+        530
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-face-native.png.derivation.json",
+      "recordSha256": "981dfdc3f8407493ae4d190a94e13cbaae86c668b797d1b3e3a93db3e2d8ff52"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-bust-native.png",
+      "sha256": "0ae6430076e41a0a79063344804bc364d6d15207708d2822d3c144f438c30e27",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "guo-jia",
+      "displayName": "郭嘉",
+      "variant": "bust-native",
+      "width": 945,
+      "height": 938,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+          "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+          "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        35,
+        112,
+        980,
+        1050
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 347358,
+        "alphaOne": 14329,
+        "alphaSemi": 539052,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          21,
+          12,
+          937,
+          938
+        ],
+        "marginsAlpha16": [
+          21,
+          12,
+          8,
+          0
+        ],
+        "edgeAlpha16Pixels": 855
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        475,
+        320,
+        737,
+        530
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-bust-native.png.derivation.json",
+      "recordSha256": "c8e0f0a0d835d333e1020bf0c9040705d57af2a148bd1e2353843dc76893af94"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-128.png",
+      "sha256": "ebf51e8b189660f4c3a808c05b88e3e217d23deffb0e97ed89f05005fd85c189",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "guo-jia",
+      "displayName": "郭嘉",
+      "variant": "avatar-128",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+          "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+          "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        340,
+        112,
+        825,
+        580
+      ],
+      "resizeTo": [
+        112,
+        108
+      ],
+      "pasteOffsetTopLeft": [
+        8,
+        10,
+        120,
+        118
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 7313,
+        "alphaOne": 122,
+        "alphaSemi": 8801,
+        "alphaOpaque": 270,
+        "bboxAlpha16": [
+          8,
+          12,
+          118,
+          118
+        ],
+        "marginsAlpha16": [
+          8,
+          12,
+          10,
+          10
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        475,
+        320,
+        737,
+        530
+      ],
+      "faceRoiOutputApprox": [
+        39.175,
+        58,
+        99.678,
+        106.462
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-128.png.derivation.json",
+      "recordSha256": "de1233e733b9796a92801ea8b013c56f91db32ff6df0343c70c8f44533a31b97"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-256.png",
+      "sha256": "63b5ee6764afd576d00660df3192b3d24c07f145dc2c2907b9a421166c2db14e",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "guo-jia",
+      "displayName": "郭嘉",
+      "variant": "avatar-256",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+          "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+          "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        340,
+        112,
+        825,
+        580
+      ],
+      "resizeTo": [
+        224,
+        216
+      ],
+      "pasteOffsetTopLeft": [
+        16,
+        20,
+        240,
+        236
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 29853,
+        "alphaOne": 657,
+        "alphaSemi": 35317,
+        "alphaOpaque": 366,
+        "bboxAlpha16": [
+          16,
+          25,
+          236,
+          236
+        ],
+        "marginsAlpha16": [
+          16,
+          25,
+          20,
+          20
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        475,
+        320,
+        737,
+        530
+      ],
+      "faceRoiOutputApprox": [
+        78.351,
+        116,
+        199.357,
+        212.923
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-256.png.derivation.json",
+      "recordSha256": "910b13cbd0226c774a56b20de01b716c387aff9d75c5316441438992dce014e0"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-card-full.png",
+      "sha256": "c24e614d78e0ff41d8755bb696ef6c366e777de3ed1623e82e536c5739e42db0",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "guo-jia",
+      "displayName": "郭嘉",
+      "variant": "card-full",
+      "width": 768,
+      "height": 1152,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+          "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+          "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "resizeTo": [
+        704,
+        1056
+      ],
+      "pasteOffsetTopLeft": [
+        32,
+        48
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 515823,
+        "alphaOne": 7516,
+        "alphaSemi": 367762,
+        "alphaOpaque": 1151,
+        "bboxAlpha16": [
+          70,
+          133,
+          707,
+          1056
+        ],
+        "marginsAlpha16": [
+          70,
+          133,
+          61,
+          96
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        475,
+        320,
+        737,
+        530
+      ],
+      "faceRoiOutputApprox": [
+        358.562,
+        268,
+        538.688,
+        412.375
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-card-full.png.derivation.json",
+      "recordSha256": "72ee4cc9a66e0002d5df2cd812da53045ac19908f9028aee5544e1c8b97f5a62"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-face-native.png",
+      "sha256": "08a073d9ea6c93cc0ff6d189df1eb8acb32d2b8b82c5941e3ef206fe9c99d8ab",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "zhang-liao",
+      "displayName": "张辽",
+      "variant": "face-native",
+      "width": 490,
+      "height": 555,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+          "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+          "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        300,
+        120,
+        790,
+        675
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 83884,
+        "alphaOne": 4693,
+        "alphaSemi": 188066,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          12,
+          478,
+          555
+        ],
+        "marginsAlpha16": [
+          0,
+          12,
+          12,
+          0
+        ],
+        "edgeAlpha16Pixels": 740
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        490,
+        425,
+        715,
+        605
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-face-native.png.derivation.json",
+      "recordSha256": "febab0770e409f976767f6289c58d7513f3fcadbcaa210ecd50ab216bd74f709"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-bust-native.png",
+      "sha256": "35fc808ab7d37b3b3d6fadf7237c800709d38d3f304ef247702a1fb2ea2e397c",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "zhang-liao",
+      "displayName": "张辽",
+      "variant": "bust-native",
+      "width": 945,
+      "height": 930,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+          "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+          "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        55,
+        120,
+        1000,
+        1050
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 344099,
+        "alphaOne": 11882,
+        "alphaSemi": 534751,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          15,
+          0,
+          945,
+          930
+        ],
+        "marginsAlpha16": [
+          15,
+          0,
+          0,
+          0
+        ],
+        "edgeAlpha16Pixels": 1029
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        490,
+        425,
+        715,
+        605
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-bust-native.png.derivation.json",
+      "recordSha256": "ccda7c94f245880e5765899449205d05b2f9135d0cdf72aae9776b60b75a5c98"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-128.png",
+      "sha256": "a965637c149cb8732ae31ef14b54b05b0f9bbd2e34b7ad1aa4c569629bab6d24",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "zhang-liao",
+      "displayName": "张辽",
+      "variant": "avatar-128",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+          "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+          "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        300,
+        120,
+        790,
+        675
+      ],
+      "resizeTo": [
+        99,
+        112
+      ],
+      "pasteOffsetTopLeft": [
+        14,
+        8,
+        113,
+        120
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 8557,
+        "alphaOne": 105,
+        "alphaSemi": 7573,
+        "alphaOpaque": 254,
+        "bboxAlpha16": [
+          14,
+          10,
+          111,
+          120
+        ],
+        "marginsAlpha16": [
+          14,
+          10,
+          17,
+          8
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        490,
+        425,
+        715,
+        605
+      ],
+      "faceRoiOutputApprox": [
+        52.388,
+        69.55,
+        97.847,
+        105.874
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-128.png.derivation.json",
+      "recordSha256": "96400c97c65dc51bb30ea924b084a0175f4fb71377cd2587af436e79c4b7b6c8"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-256.png",
+      "sha256": "486719349ea7e311df4361cb9117813b55ac3fb28e45588d94df1ee551a417da",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "zhang-liao",
+      "displayName": "张辽",
+      "variant": "avatar-256",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+          "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+          "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        300,
+        120,
+        790,
+        675
+      ],
+      "resizeTo": [
+        198,
+        224
+      ],
+      "pasteOffsetTopLeft": [
+        29,
+        16,
+        227,
+        240
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 34983,
+        "alphaOne": 455,
+        "alphaSemi": 30095,
+        "alphaOpaque": 458,
+        "bboxAlpha16": [
+          29,
+          21,
+          222,
+          240
+        ],
+        "marginsAlpha16": [
+          29,
+          21,
+          34,
+          16
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        490,
+        425,
+        715,
+        605
+      ],
+      "faceRoiOutputApprox": [
+        105.776,
+        139.099,
+        196.694,
+        211.748
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-256.png.derivation.json",
+      "recordSha256": "bce25832b2cafb1afd42c2cff6a55602285fcfa822fb4ed2356b4670652ccb86"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-card-full.png",
+      "sha256": "19d63a828900312f025413e7637c284c93470a117b0926e9fa5558cc8421c65e",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "zhang-liao",
+      "displayName": "张辽",
+      "variant": "card-full",
+      "width": 768,
+      "height": 1152,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+          "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+          "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "resizeTo": [
+        704,
+        1056
+      ],
+      "pasteOffsetTopLeft": [
+        32,
+        48
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 509147,
+        "alphaOne": 7902,
+        "alphaSemi": 373666,
+        "alphaOpaque": 1923,
+        "bboxAlpha16": [
+          78,
+          62,
+          725,
+          1077
+        ],
+        "marginsAlpha16": [
+          78,
+          62,
+          43,
+          75
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        490,
+        425,
+        715,
+        605
+      ],
+      "faceRoiOutputApprox": [
+        368.875,
+        340.188,
+        523.562,
+        463.938
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-card-full.png.derivation.json",
+      "recordSha256": "90f1c4c946188524f81fe3509506a0d03ac50dd77e5057510b4b660275b92b91"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-face-native.png",
+      "sha256": "132a5d6d0bdc07a8a834fb3d7bf87ed7ab8c55cc16b2af01a9180ae5a8a7d8ff",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "dian-wei",
+      "displayName": "典韦",
+      "variant": "face-native",
+      "width": 350,
+      "height": 425,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+          "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+          "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        340,
+        190,
+        690,
+        615
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 37394,
+        "alphaOne": 2449,
+        "alphaSemi": 111356,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          12,
+          350,
+          425
+        ],
+        "marginsAlpha16": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "edgeAlpha16Pixels": 715
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        402,
+        360,
+        637,
+        555
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-face-native.png.derivation.json",
+      "recordSha256": "837f08f52a6e0d49527b3a539136ff171d3e12f3485b69d7e21065602c9ef008"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-bust-native.png",
+      "sha256": "9404838955b22a721adc8a40e6dd54bfaad1b559a67c03685037f96b217a874f",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "dian-wei",
+      "displayName": "典韦",
+      "variant": "bust-native",
+      "width": 875,
+      "height": 855,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+          "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+          "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        90,
+        190,
+        965,
+        1045
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 257809,
+        "alphaOne": 13904,
+        "alphaSemi": 490316,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          12,
+          875,
+          855
+        ],
+        "marginsAlpha16": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "edgeAlpha16Pixels": 1022
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        402,
+        360,
+        637,
+        555
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-bust-native.png.derivation.json",
+      "recordSha256": "09640a84068dfbe14369efd29f7ae1ff7145951b9ebe9aa772b4cc69a69cc11a"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-128.png",
+      "sha256": "a6143ee3e5847fb9bff7fc0b6a062c7937e4df80154a89a7b18bb664cea92fb1",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "dian-wei",
+      "displayName": "典韦",
+      "variant": "avatar-128",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+          "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+          "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        340,
+        190,
+        690,
+        615
+      ],
+      "resizeTo": [
+        92,
+        112
+      ],
+      "pasteOffsetTopLeft": [
+        18,
+        8,
+        110,
+        120
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 8649,
+        "alphaOne": 91,
+        "alphaSemi": 7593,
+        "alphaOpaque": 142,
+        "bboxAlpha16": [
+          18,
+          11,
+          110,
+          120
+        ],
+        "marginsAlpha16": [
+          18,
+          11,
+          18,
+          8
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        402,
+        360,
+        637,
+        555
+      ],
+      "faceRoiOutputApprox": [
+        34.297,
+        52.8,
+        96.069,
+        104.188
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-128.png.derivation.json",
+      "recordSha256": "684022ff2e18c211708580de3de1e4b264cbd250b94fb1f592485a1718e55029"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-256.png",
+      "sha256": "30d6747f52927c86e9c5633895c41156885934b9fdd73c8729ce86a7b45ec939",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "dian-wei",
+      "displayName": "典韦",
+      "variant": "avatar-256",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+          "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+          "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        340,
+        190,
+        690,
+        615
+      ],
+      "resizeTo": [
+        184,
+        224
+      ],
+      "pasteOffsetTopLeft": [
+        36,
+        16,
+        220,
+        240
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 34927,
+        "alphaOne": 471,
+        "alphaSemi": 30423,
+        "alphaOpaque": 186,
+        "bboxAlpha16": [
+          36,
+          22,
+          220,
+          240
+        ],
+        "marginsAlpha16": [
+          36,
+          22,
+          36,
+          16
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        402,
+        360,
+        637,
+        555
+      ],
+      "faceRoiOutputApprox": [
+        68.594,
+        105.6,
+        192.137,
+        208.376
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-256.png.derivation.json",
+      "recordSha256": "bf732c89cd925a6da74a41b4eb81fe44c1702707790b9af53e7aafdab833bf76"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-card-full.png",
+      "sha256": "8a8110e75beec5f729935776afd97502b4d6f4fbec97ba1c45f52f43c10c6e3a",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "dian-wei",
+      "displayName": "典韦",
+      "variant": "card-full",
+      "width": 768,
+      "height": 1152,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+          "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+          "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "resizeTo": [
+        704,
+        1056
+      ],
+      "pasteOffsetTopLeft": [
+        32,
+        48
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 575281,
+        "alphaOne": 9842,
+        "alphaSemi": 308130,
+        "alphaOpaque": 1325,
+        "bboxAlpha16": [
+          49,
+          186,
+          723,
+          967
+        ],
+        "marginsAlpha16": [
+          49,
+          186,
+          45,
+          185
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        402,
+        360,
+        637,
+        555
+      ],
+      "faceRoiOutputApprox": [
+        308.375,
+        295.5,
+        469.938,
+        429.562
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-card-full.png.derivation.json",
+      "recordSha256": "a59ca366785f3bc8de4fe63c3228d8dd8262e886d5e94ac28c2baf5823f2a20a"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-face-native.png",
+      "sha256": "8f67b8cd6a2ffc163be8c5d5e0a1b35081c5e631a39554081470fb0a6e21e14e",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xu-chu",
+      "displayName": "许褚",
+      "variant": "face-native",
+      "width": 380,
+      "height": 385,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+          "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+          "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        350,
+        155,
+        730,
+        540
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 34176,
+        "alphaOne": 1755,
+        "alphaSemi": 112124,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          19,
+          380,
+          385
+        ],
+        "marginsAlpha16": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "edgeAlpha16Pixels": 693
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        415,
+        280,
+        686,
+        480
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-face-native.png.derivation.json",
+      "recordSha256": "6b4b8065a1fe005d6082db96d74b99b8c78ccecedee8cca61ba50322d6e2d33a"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-bust-native.png",
+      "sha256": "9a350dbd8dbfaaa9d133bb442a66f1ca67d0c2fa3bdfbccc791ba770d48c4e7c",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xu-chu",
+      "displayName": "许褚",
+      "variant": "bust-native",
+      "width": 1000,
+      "height": 895,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+          "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+          "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        15,
+        155,
+        1015,
+        1050
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 297379,
+        "alphaOne": 9459,
+        "alphaSemi": 597621,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          19,
+          999,
+          895
+        ],
+        "marginsAlpha16": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "edgeAlpha16Pixels": 933
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        415,
+        280,
+        686,
+        480
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-bust-native.png.derivation.json",
+      "recordSha256": "95fc28c14a0fcf4fa879bd636fa6cf9a4581c86b4f04cd3cecc54876d44a2a73"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-128.png",
+      "sha256": "88f8c9113710061e19391b9d70fd0075e6913ed3e8e04b733d62736e95cf57e8",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xu-chu",
+      "displayName": "许褚",
+      "variant": "avatar-128",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+          "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+          "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        350,
+        155,
+        730,
+        540
+      ],
+      "resizeTo": [
+        111,
+        112
+      ],
+      "pasteOffsetTopLeft": [
+        8,
+        8,
+        119,
+        120
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 6765,
+        "alphaOne": 112,
+        "alphaSemi": 9467,
+        "alphaOpaque": 152,
+        "bboxAlpha16": [
+          8,
+          13,
+          119,
+          120
+        ],
+        "marginsAlpha16": [
+          8,
+          13,
+          9,
+          8
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        415,
+        280,
+        686,
+        480
+      ],
+      "faceRoiOutputApprox": [
+        26.987,
+        44.364,
+        106.147,
+        102.545
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-128.png.derivation.json",
+      "recordSha256": "14251fc59234f220a1d719fdd956bbb573c0342120b2a6412548e392d0b1becc"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-256.png",
+      "sha256": "41790a0d8741446ac75f3a994513203b64a07d4366a4ced34fb5ce0bd2be3344",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xu-chu",
+      "displayName": "许褚",
+      "variant": "avatar-256",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+          "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+          "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        350,
+        155,
+        730,
+        540
+      ],
+      "resizeTo": [
+        221,
+        224
+      ],
+      "pasteOffsetTopLeft": [
+        17,
+        16,
+        238,
+        240
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 27721,
+        "alphaOne": 423,
+        "alphaSemi": 37650,
+        "alphaOpaque": 165,
+        "bboxAlpha16": [
+          17,
+          27,
+          238,
+          240
+        ],
+        "marginsAlpha16": [
+          17,
+          27,
+          18,
+          16
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        415,
+        280,
+        686,
+        480
+      ],
+      "faceRoiOutputApprox": [
+        54.803,
+        88.727,
+        212.411,
+        205.091
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-256.png.derivation.json",
+      "recordSha256": "bdd3e10c6326bbb737845552aaec5bac6607c816cb2e61607b5bed6c9d233d0f"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-card-full.png",
+      "sha256": "6216d178d7c6231e7fec7eee5e79f4831fa22ce709a19218d5b310571b35735c",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xu-chu",
+      "displayName": "许褚",
+      "variant": "card-full",
+      "width": 768,
+      "height": 1152,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+          "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png.generation.json",
+          "recordSha256": "05202ad749f31af30fccc077a6adf6dd6cb644afc78f826e35e6ba755ca7c1cd"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "resizeTo": [
+        704,
+        1056
+      ],
+      "pasteOffsetTopLeft": [
+        32,
+        48
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 490464,
+        "alphaOne": 5849,
+        "alphaSemi": 392954,
+        "alphaOpaque": 1318,
+        "bboxAlpha16": [
+          40,
+          168,
+          730,
+          1036
+        ],
+        "marginsAlpha16": [
+          40,
+          168,
+          38,
+          116
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        415,
+        280,
+        686,
+        480
+      ],
+      "faceRoiOutputApprox": [
+        317.312,
+        240.5,
+        503.625,
+        378
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-card-full.png.derivation.json",
+      "recordSha256": "99718c67ca142783ca7545ab68a6db4fc2d990544ce56304ea0743a6b79e1de9"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-face-native.png",
+      "sha256": "2b218c44aa3991cc7ab8ee910f58790e433b6046c20576a50eda16f33f84fc61",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xiahou-yuan",
+      "displayName": "夏侯渊",
+      "variant": "face-native",
+      "width": 425,
+      "height": 470,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+          "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+          "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        330,
+        145,
+        755,
+        615
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 34993,
+        "alphaOne": 3481,
+        "alphaSemi": 164757,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          0,
+          0,
+          425,
+          470
+        ],
+        "marginsAlpha16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgeAlpha16Pixels": 1055
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        488,
+        388,
+        686,
+        555
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-face-native.png.derivation.json",
+      "recordSha256": "e0544fec8df7cd3d6767433003bf7ae1da068d669f290849f1282b368ba644c4"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-bust-native.png",
+      "sha256": "1023e763752768771bf59697ab153f5efef0cd50fca8b2b521ded17d16003584",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xiahou-yuan",
+      "displayName": "夏侯渊",
+      "variant": "bust-native",
+      "width": 910,
+      "height": 945,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+          "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+          "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+        }
+      ],
+      "operation": "native_rectangle_crop",
+      "cropBox": [
+        60,
+        95,
+        970,
+        1040
+      ],
+      "resizeTo": null,
+      "pasteOffsetTopLeft": null,
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alphaZero": 302577,
+        "alphaOne": 13192,
+        "alphaSemi": 557373,
+        "alphaOpaque": 0,
+        "bboxAlpha16": [
+          2,
+          0,
+          902,
+          945
+        ],
+        "marginsAlpha16": [
+          2,
+          0,
+          8,
+          0
+        ],
+        "edgeAlpha16Pixels": 879
+      },
+      "sourcePixelsExact": true,
+      "resampled": false,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        488,
+        388,
+        686,
+        555
+      ],
+      "faceRoiOutputApprox": null,
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-bust-native.png.derivation.json",
+      "recordSha256": "824d6744e4a91c6d5dae471eebaace2c2fa13f2e471c5d332fffa83f149d8e6b"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-128.png",
+      "sha256": "a4047508e673406b58c68ee670b1b1270c10fdbfb69d6e902e0d2aab52f0ac14",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xiahou-yuan",
+      "displayName": "夏侯渊",
+      "variant": "avatar-128",
+      "width": 128,
+      "height": 128,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+          "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+          "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        330,
+        145,
+        755,
+        615
+      ],
+      "resizeTo": [
+        101,
+        112
+      ],
+      "pasteOffsetTopLeft": [
+        13,
+        8,
+        114,
+        120
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 6916,
+        "alphaOne": 92,
+        "alphaSemi": 9193,
+        "alphaOpaque": 275,
+        "bboxAlpha16": [
+          13,
+          8,
+          114,
+          120
+        ],
+        "marginsAlpha16": [
+          13,
+          8,
+          14,
+          8
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        488,
+        388,
+        686,
+        555
+      ],
+      "faceRoiOutputApprox": [
+        50.548,
+        65.906,
+        97.602,
+        105.702
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-128.png.derivation.json",
+      "recordSha256": "836ca2407afd744cd675bd088975ee24bac85202726b0d7ccbb1a97ac21171f8"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-256.png",
+      "sha256": "ce56c678b9209b91a636473954b7d3b063da2ffaeb2c6eed46530f80bbdd7c10",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xiahou-yuan",
+      "displayName": "夏侯渊",
+      "variant": "avatar-256",
+      "width": 256,
+      "height": 256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+          "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+          "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        330,
+        145,
+        755,
+        615
+      ],
+      "resizeTo": [
+        203,
+        224
+      ],
+      "pasteOffsetTopLeft": [
+        26,
+        16,
+        229,
+        240
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 28127,
+        "alphaOne": 480,
+        "alphaSemi": 36958,
+        "alphaOpaque": 451,
+        "bboxAlpha16": [
+          26,
+          16,
+          229,
+          240
+        ],
+        "marginsAlpha16": [
+          26,
+          16,
+          27,
+          16
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        488,
+        388,
+        686,
+        555
+      ],
+      "faceRoiOutputApprox": [
+        101.468,
+        131.813,
+        196.042,
+        211.404
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-256.png.derivation.json",
+      "recordSha256": "952601d3f6eca2147427f495660bc002e26e5237d2bb954e5053bd868666284f"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-card-full.png",
+      "sha256": "c3dc992abc9da7f13d06d94d360b55225c7925f98ba797d9dce54e5a3d81ee41",
+      "schemaVersion": 1,
+      "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+      "generalId": "xiahou-yuan",
+      "displayName": "夏侯渊",
+      "variant": "card-full",
+      "width": 768,
+      "height": 1152,
+      "format": "PNG",
+      "mode": "RGBA",
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+          "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+          "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+          "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+        }
+      ],
+      "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+      "cropBox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "resizeTo": [
+        704,
+        1056
+      ],
+      "pasteOffsetTopLeft": [
+        32,
+        48
+      ],
+      "originalMasterSize": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alphaZero": 512194,
+        "alphaOne": 7244,
+        "alphaSemi": 370818,
+        "alphaOpaque": 1724,
+        "bboxAlpha16": [
+          74,
+          110,
+          694,
+          1051
+        ],
+        "marginsAlpha16": [
+          74,
+          110,
+          74,
+          101
+        ],
+        "edgeAlpha16Pixels": 0
+      },
+      "sourcePixelsExact": false,
+      "resampled": true,
+      "upscaled": false,
+      "repainted": false,
+      "alphaHygiene": "none",
+      "alphaKeyed": false,
+      "alphaThresholdCleared": false,
+      "faceRoiSourceApprox": [
+        488,
+        388,
+        686,
+        555
+      ],
+      "faceRoiOutputApprox": [
+        367.5,
+        314.75,
+        503.625,
+        429.562
+      ],
+      "pivotNormalizedBottomLeft": [
+        0.5,
+        0.5
+      ],
+      "warnings": [
+        "CANDIDATE_NOT_USER_ACCEPTED",
+        "NO_ANIMATION_OR_ENGINE_VALIDATION",
+        "SOURCE_SOFT_ALPHA_RETAINED",
+        "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+      ],
+      "status": "derived_static_UI_candidate",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "newGeneratedImage": false,
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-card-full.png.derivation.json",
+      "recordSha256": "38a8a5b2e9559180c5d268de298263e1a1110cd907844536408811fb77941acc"
+    }
+  ],
+  "qa": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/avatars-light.png",
+      "sha256": "3ef739cd5ad9061b3a178a6a7825f85c7b39a732ab2ee4ee9574172161d7e85b",
+      "qaOnly": true,
+      "operation": {
+        "type": "composite_with_labels",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-128.png",
+          "sha256": "4759071865b2fe08f80390d7c5fcf4269056011b9f88372881d1b43fce6f9d1e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-256.png",
+          "sha256": "2cb848c55aea1ed61ccf61a8f90bb3ab56faa411f46c1565861ebec15db2c0f0"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-128.png",
+          "sha256": "ebf51e8b189660f4c3a808c05b88e3e217d23deffb0e97ed89f05005fd85c189"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-256.png",
+          "sha256": "63b5ee6764afd576d00660df3192b3d24c07f145dc2c2907b9a421166c2db14e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-128.png",
+          "sha256": "a965637c149cb8732ae31ef14b54b05b0f9bbd2e34b7ad1aa4c569629bab6d24"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-256.png",
+          "sha256": "486719349ea7e311df4361cb9117813b55ac3fb28e45588d94df1ee551a417da"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-128.png",
+          "sha256": "a6143ee3e5847fb9bff7fc0b6a062c7937e4df80154a89a7b18bb664cea92fb1"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-256.png",
+          "sha256": "30d6747f52927c86e9c5633895c41156885934b9fdd73c8729ce86a7b45ec939"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-128.png",
+          "sha256": "88f8c9113710061e19391b9d70fd0075e6913ed3e8e04b733d62736e95cf57e8"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-256.png",
+          "sha256": "41790a0d8741446ac75f3a994513203b64a07d4366a4ced34fb5ce0bd2be3344"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-128.png",
+          "sha256": "a4047508e673406b58c68ee670b1b1270c10fdbfb69d6e902e0d2aab52f0ac14"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-256.png",
+          "sha256": "ce56c678b9209b91a636473954b7d3b063da2ffaeb2c6eed46530f80bbdd7c10"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/cards-light.png",
+      "sha256": "6e1b8109db8dd477307c8643088cc03e806e8403dcc45aea885d7e1bf8243942",
+      "qaOnly": true,
+      "operation": {
+        "type": "full_card_overview",
+        "assetDisplayScale": 0.375,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-card-full.png",
+          "sha256": "590914d6a91c21aae8ea1033d0dbffb22d80a7573fec2c3fb524bd18993bdd2e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-card-full.png",
+          "sha256": "c24e614d78e0ff41d8755bb696ef6c366e777de3ed1623e82e536c5739e42db0"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-card-full.png",
+          "sha256": "19d63a828900312f025413e7637c284c93470a117b0926e9fa5558cc8421c65e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-card-full.png",
+          "sha256": "8a8110e75beec5f729935776afd97502b4d6f4fbec97ba1c45f52f43c10c6e3a"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-card-full.png",
+          "sha256": "6216d178d7c6231e7fec7eee5e79f4831fa22ce709a19218d5b310571b35735c"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-card-full.png",
+          "sha256": "c3dc992abc9da7f13d06d94d360b55225c7925f98ba797d9dce54e5a3d81ee41"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xun-yu-native-light.png",
+      "sha256": "e2fec0fcc42c0a36c80e471eacf51265d0536b2470035b72ddcac6504166ad0d",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-face-native.png",
+          "sha256": "08353cdb8f4cb2c4715c71d19acf216c74a9d485d0d428542b88f46d06de0839"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-bust-native.png",
+          "sha256": "a5ce959da5f8d0a2b8a60cbd4eea79ac706bf334271e4a06d257964b00fbe578"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/guo-jia-native-light.png",
+      "sha256": "7a3084ca6f81209c161a9c0096e1e32d757c76b9215ac29183ab0a5a46f9cfbf",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-face-native.png",
+          "sha256": "374d0099ce7a97f52be48e8557bd43db935c3f814ca0e9db96af102cc95782b4"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-bust-native.png",
+          "sha256": "0ae6430076e41a0a79063344804bc364d6d15207708d2822d3c144f438c30e27"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/zhang-liao-native-light.png",
+      "sha256": "63f9e5e111be58340e8b5bb518215b0678f3b5132c060a3c199f8e1bab7df3b8",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-face-native.png",
+          "sha256": "08a073d9ea6c93cc0ff6d189df1eb8acb32d2b8b82c5941e3ef206fe9c99d8ab"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-bust-native.png",
+          "sha256": "35fc808ab7d37b3b3d6fadf7237c800709d38d3f304ef247702a1fb2ea2e397c"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/dian-wei-native-light.png",
+      "sha256": "004740d01d6c5df036660586111ad012164dbfc8a6d0da10b4a9dbff0ccac105",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-face-native.png",
+          "sha256": "132a5d6d0bdc07a8a834fb3d7bf87ed7ab8c55cc16b2af01a9180ae5a8a7d8ff"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-bust-native.png",
+          "sha256": "9404838955b22a721adc8a40e6dd54bfaad1b559a67c03685037f96b217a874f"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xu-chu-native-light.png",
+      "sha256": "215ef16266b56edfdd508c67816a64305819c118bf429ad67a87e13d0bbd6204",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-face-native.png",
+          "sha256": "8f67b8cd6a2ffc163be8c5d5e0a1b35081c5e631a39554081470fb0a6e21e14e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-bust-native.png",
+          "sha256": "9a350dbd8dbfaaa9d133bb442a66f1ca67d0c2fa3bdfbccc791ba770d48c4e7c"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xiahou-yuan-native-light.png",
+      "sha256": "60e784e43d76d9c09c7ebb31a7f4e1a6061ecb0347e5116fe3fd0b972f2841c9",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          245,
+          239,
+          222,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-face-native.png",
+          "sha256": "2b218c44aa3991cc7ab8ee910f58790e433b6046c20576a50eda16f33f84fc61"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-bust-native.png",
+          "sha256": "1023e763752768771bf59697ab153f5efef0cd50fca8b2b521ded17d16003584"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/avatars-dark.png",
+      "sha256": "c81a8b7dfc54eb9f5b22cb74d7df1521a2897d5864242e5c616f19bb9c754d13",
+      "qaOnly": true,
+      "operation": {
+        "type": "composite_with_labels",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-128.png",
+          "sha256": "4759071865b2fe08f80390d7c5fcf4269056011b9f88372881d1b43fce6f9d1e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-avatar-256.png",
+          "sha256": "2cb848c55aea1ed61ccf61a8f90bb3ab56faa411f46c1565861ebec15db2c0f0"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-128.png",
+          "sha256": "ebf51e8b189660f4c3a808c05b88e3e217d23deffb0e97ed89f05005fd85c189"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-avatar-256.png",
+          "sha256": "63b5ee6764afd576d00660df3192b3d24c07f145dc2c2907b9a421166c2db14e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-128.png",
+          "sha256": "a965637c149cb8732ae31ef14b54b05b0f9bbd2e34b7ad1aa4c569629bab6d24"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-256.png",
+          "sha256": "486719349ea7e311df4361cb9117813b55ac3fb28e45588d94df1ee551a417da"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-128.png",
+          "sha256": "a6143ee3e5847fb9bff7fc0b6a062c7937e4df80154a89a7b18bb664cea92fb1"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-avatar-256.png",
+          "sha256": "30d6747f52927c86e9c5633895c41156885934b9fdd73c8729ce86a7b45ec939"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-128.png",
+          "sha256": "88f8c9113710061e19391b9d70fd0075e6913ed3e8e04b733d62736e95cf57e8"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-avatar-256.png",
+          "sha256": "41790a0d8741446ac75f3a994513203b64a07d4366a4ced34fb5ce0bd2be3344"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-128.png",
+          "sha256": "a4047508e673406b58c68ee670b1b1270c10fdbfb69d6e902e0d2aab52f0ac14"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-256.png",
+          "sha256": "ce56c678b9209b91a636473954b7d3b063da2ffaeb2c6eed46530f80bbdd7c10"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/cards-dark.png",
+      "sha256": "cec633ff66e7328bc96927bef971c955fd947f3ad85ea48f16c169445014fa2c",
+      "qaOnly": true,
+      "operation": {
+        "type": "full_card_overview",
+        "assetDisplayScale": 0.375,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-card-full.png",
+          "sha256": "590914d6a91c21aae8ea1033d0dbffb22d80a7573fec2c3fb524bd18993bdd2e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-card-full.png",
+          "sha256": "c24e614d78e0ff41d8755bb696ef6c366e777de3ed1623e82e536c5739e42db0"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-card-full.png",
+          "sha256": "19d63a828900312f025413e7637c284c93470a117b0926e9fa5558cc8421c65e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-card-full.png",
+          "sha256": "8a8110e75beec5f729935776afd97502b4d6f4fbec97ba1c45f52f43c10c6e3a"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-card-full.png",
+          "sha256": "6216d178d7c6231e7fec7eee5e79f4831fa22ce709a19218d5b310571b35735c"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-card-full.png",
+          "sha256": "c3dc992abc9da7f13d06d94d360b55225c7925f98ba797d9dce54e5a3d81ee41"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xun-yu-native-dark.png",
+      "sha256": "cf9ccb06328025495cbcb4dc0d4fb88ece4def6d2bf63a9354f4257efb867061",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-face-native.png",
+          "sha256": "08353cdb8f4cb2c4715c71d19acf216c74a9d485d0d428542b88f46d06de0839"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-bust-native.png",
+          "sha256": "a5ce959da5f8d0a2b8a60cbd4eea79ac706bf334271e4a06d257964b00fbe578"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/guo-jia-native-dark.png",
+      "sha256": "624303579c9e8990d0e1f9a43297bb2705369c28cb3133c7b358ecc1f8b96818",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-face-native.png",
+          "sha256": "374d0099ce7a97f52be48e8557bd43db935c3f814ca0e9db96af102cc95782b4"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-bust-native.png",
+          "sha256": "0ae6430076e41a0a79063344804bc364d6d15207708d2822d3c144f438c30e27"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/zhang-liao-native-dark.png",
+      "sha256": "e0ad89c6ff52327aa0dddedc0365fb57605f5f3dd5f02b7e8f36ec7e8faaec6e",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-face-native.png",
+          "sha256": "08a073d9ea6c93cc0ff6d189df1eb8acb32d2b8b82c5941e3ef206fe9c99d8ab"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-bust-native.png",
+          "sha256": "35fc808ab7d37b3b3d6fadf7237c800709d38d3f304ef247702a1fb2ea2e397c"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/dian-wei-native-dark.png",
+      "sha256": "49654b8593bd23b836aad208be895386a2ff17610e3cedcd487180ccf4811a44",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-face-native.png",
+          "sha256": "132a5d6d0bdc07a8a834fb3d7bf87ed7ab8c55cc16b2af01a9180ae5a8a7d8ff"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-bust-native.png",
+          "sha256": "9404838955b22a721adc8a40e6dd54bfaad1b559a67c03685037f96b217a874f"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xu-chu-native-dark.png",
+      "sha256": "1883696c5159a85d0963b5ef160efacb50a2192f54111a34a38f354174503ffb",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-face-native.png",
+          "sha256": "8f67b8cd6a2ffc163be8c5d5e0a1b35081c5e631a39554081470fb0a6e21e14e"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xu-chu-bust-native.png",
+          "sha256": "9a350dbd8dbfaaa9d133bb442a66f1ca67d0c2fa3bdfbccc791ba770d48c4e7c"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xiahou-yuan-native-dark.png",
+      "sha256": "7028e27f29e52d6ad8a34e3604ba8acf3b2eeaa093152ae28b6d3cdc0f0cd5d2",
+      "qaOnly": true,
+      "operation": {
+        "type": "native_rectangular_portrait_QA",
+        "assetDisplayScale": 1,
+        "backgroundRGBA": [
+          28,
+          43,
+          48,
+          255
+        ]
+      },
+      "sourceImages": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-face-native.png",
+          "sha256": "2b218c44aa3991cc7ab8ee910f58790e433b6046c20576a50eda16f33f84fc61"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-bust-native.png",
+          "sha256": "1023e763752768771bf59697ab153f5efef0cd50fca8b2b521ded17d16003584"
+        }
+      ],
+      "font": "local QA only: Microsoft YaHei; font file not distributed"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "animationIncluded": false,
+  "masterPixelsChangedByDerivation": false,
+  "selectedSourceRequirement": "no effective alpha16 edge contact",
+  "notComplete": [
+    "all official card variants",
+    "all Three Kingdoms personalities",
+    "character animation",
+    "Unity import",
+    "user visual acceptance"
+  ],
+  "finalQA": {
+    "at": "2026-10-29T13:07:22.404Z",
+    "reviewer": "audit_characters",
+    "selectedOriginalsActuallyViewed": true,
+    "faceAndBustNativeEachReviewed": true,
+    "avatars128And256ActualSizeReviewed": true,
+    "lightAndDarkCardsReviewed": true,
+    "reviewedEvidence": [
+      {
+        "file": "records/roster-expansion-20261029-wei1/avatars-light.png",
+        "sha256": "3ef739cd5ad9061b3a178a6a7825f85c7b39a732ab2ee4ee9574172161d7e85b"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/avatars-dark.png",
+        "sha256": "c81a8b7dfc54eb9f5b22cb74d7df1521a2897d5864242e5c616f19bb9c754d13"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/cards-light.png",
+        "sha256": "6e1b8109db8dd477307c8643088cc03e806e8403dcc45aea885d7e1bf8243942"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/cards-dark.png",
+        "sha256": "cec633ff66e7328bc96927bef971c955fd947f3ad85ea48f16c169445014fa2c"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/xun-yu-native-light.png",
+        "sha256": "e2fec0fcc42c0a36c80e471eacf51265d0536b2470035b72ddcac6504166ad0d"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/guo-jia-native-light.png",
+        "sha256": "7a3084ca6f81209c161a9c0096e1e32d757c76b9215ac29183ab0a5a46f9cfbf"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/zhang-liao-native-light.png",
+        "sha256": "63f9e5e111be58340e8b5bb518215b0678f3b5132c060a3c199f8e1bab7df3b8"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/dian-wei-native-light.png",
+        "sha256": "004740d01d6c5df036660586111ad012164dbfc8a6d0da10b4a9dbff0ccac105"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/xu-chu-native-light.png",
+        "sha256": "215ef16266b56edfdd508c67816a64305819c118bf429ad67a87e13d0bbd6204"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/xiahou-yuan-native-light.png",
+        "sha256": "60e784e43d76d9c09c7ebb31a7f4e1a6061ecb0347e5116fe3fd0b972f2841c9"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/xun-yu-master-v1-light.png",
+        "sha256": "2ed728b8702d04dd6da071af28e8f11e3af732d8af5f4ee744a41debc0a1c48d"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/guo-jia-master-v1-dark.png",
+        "sha256": "c2a975e7f95fcfb4fd2ee02d72a26a8fda9f5e3f1a06ac96e31d2bbf16543866"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/zhang-liao-master-v1-dark.png",
+        "sha256": "be152b4f5c51892591d74f6e9406921223f58bd102286d48f1fdeac14e13f322"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/dian-wei-master-v1-light.png",
+        "sha256": "df7d2178ce07282a6dc6bf37bd30164e0995aa6ca421831d1b457f8a77f6d7a7"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/xu-chu-master-v1-dark.png",
+        "sha256": "0945d944090c64eb174f76062d46625ddae9e0162cd5f4a45e525e7b0cff2799"
+      },
+      {
+        "file": "records/roster-expansion-20261029-wei1/xiahou-yuan-master-v2-light.png",
+        "sha256": "e9f1fa2a6ec140f16a530370834e85d8bd8d7ccd7fb49bc9befbfbd486e8792b"
+      }
+    ],
+    "masterHashChecks": 6,
+    "assetHashChecks": 30,
+    "nativeCropPixelExactCount": 12,
+    "sourceEffectiveAlphaEdgeContacts": 0,
+    "actualModel": null,
+    "actualQuality": null
+  },
+  "warnings": [
+    "Original margins are narrower than 8% on one or more sides; all six selected sources have no alpha>16 edge contacts and no visible body/weapon truncation.",
+    "Original alpha range 0..254 and alpha1 residue retained; no threshold cleaning or forced alpha255.",
+    "Face and bust are intentional rectangular portrait windows. Ribbons, weapon tips and hat side pins may cross portrait borders. Full card preserves the full source canvas.",
+    "Candidate appearance is original illustration design, not verified historical appearance.",
+    "Six identities do not complete all official card variants or all Three Kingdoms people."
+  ]
+}

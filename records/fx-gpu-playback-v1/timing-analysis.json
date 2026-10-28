@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "trace": {
+    "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+    "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+  },
+  "observedFrameSequenceAll8": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "rawEpsilonDiagnosticMismatchCount": 48,
+  "epsilonComparatorExplanation": "Initial diagnostic expectedFrameIndex adds5microseconds before floor. At a float key boundary this anticipates the next frame while the actual Animator clock remains just below it. Raw flags are retained; this is not reordered playback.",
+  "maximumMismatchDistanceFromNominalKeySeconds": 2.279877698851962e-07,
+  "intervalToleranceSeconds": 1e-06,
+  "all752VisibleSamplesWithinObservedFrameIntervalWithTolerance": true,
+  "visibleSampleCount": 752,
+  "clearedSampleCount": 208,
+  "phaseHoldCaptureCountsExample": {
+    "0": 5,
+    "1": 7,
+    "2": 5,
+    "3": 6,
+    "4": 6,
+    "5": 7,
+    "6": 6,
+    "7": 5
+  },
+  "firstVideoSampleGameTimeSeconds": 0.01666666753590107,
+  "lastVideoSampleGameTimeSeconds": 1.0000000008692342,
+  "callerFirstClearGameTimeSeconds": 0.8000000008692344,
+  "warnings": [
+    {
+      "id": "EPSILON_PHASE_BOUNDARY_DIAGNOSTIC",
+      "value": 48,
+      "threshold": 0,
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "message": "Raw epsilon expected-phase flags differ at float boundaries, up to0.228microseconds below nominal key. All actual references remain in-order and within1microsecond interval tolerance."
+    },
+    {
+      "id": "CAPTURE_PHASE_HOLD_COUNTS_VARY",
+      "value": [
+        5,
+        7,
+        5,
+        6,
+        6,
+        7,
+        6,
+        5
+      ],
+      "threshold": "not required to equal6 captures per phase at float boundaries",
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "message": "Sampling starts at1/60second; fixed60Hz capture and float boundaries yield5..7samples per authored0.1s phase. Do not infer final smoothness or deviceperformance."
+    }
+  ],
+  "performanceBenchmark": false,
+  "finalSmoothnessApproved": false
+}

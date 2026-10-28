@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-29T05:19:42.265Z",
+  "reviewer": "/root/check_materials",
+  "nativeSourcesActuallyViewed": 3,
+  "derivedSpritesInspectedInLabelledLightDarkContacts": 23,
+  "method": "Viewed generated native sheets; inspected all labelled crops composited over ivory and dark jade; checked native RGBA files and alpha statistics. No Unity, browser interaction, OCR or resize stress test.",
+  "groups": [
+    {
+      "sheet": "01-button-tab-state-sheet-v1.png",
+      "count": 9,
+      "status": "candidate_visual_reviewed_with_limits",
+      "observations": [
+        "Primary jade buttons: default bright, pressed inset/darker, disabled gray-sage.",
+        "Secondary ivory buttons: default light, pressed warm inset, disabled gray.",
+        "Tabs: default ivory, selected jade, disabled gray. No words or values baked.",
+        "All9 crops contain complete visible control; 512x224 family canvas."
+      ],
+      "limitations": [
+        "State outlines and corner detail vary slightly; not pixel-identical sprites.",
+        "Pressed state is shading depth, not proven touch/click feedback or accessible contrast."
+      ]
+    },
+    {
+      "sheet": "02-checkbox-toggle-state-sheet-v1.png",
+      "count": 8,
+      "status": "candidate_visual_reviewed_with_limits",
+      "observations": [
+        "Unchecked/checked/disabled-unchecked/disabled-checked squares distinguishable.",
+        "Toggle off is thumb-left, on thumb-right, disabled states retain position difference.",
+        "Glyphs are graphic checkmarks only; no text. All8 complete in light/dark contacts."
+      ],
+      "limitations": [
+        "Checkmark and thumb baked into state images; no separate animation pieces.",
+        "Input disabling must be implemented by client."
+      ]
+    },
+    {
+      "sheet": "03-feedback-frame-illustration-sheet-v1.png",
+      "count": 6,
+      "status": "candidate_visual_reviewed_with_limits",
+      "observations": [
+        "Three blank frames: jade confirm, cinnabar error, muted empty-state; no controls or text baked.",
+        "Separate jade check seal, warning triangle, open empty chest are complete.",
+        "Transparent gaps confirmed; apparent native preview background is hidden RGB under transparent alpha, not a delivered opaque backdrop."
+      ],
+      "limitations": [
+        "Frames do not by themselves implement confirm/error/empty state interactions.",
+        "Only proposed nine-slice bounds, no target-size/device validation."
+      ]
+    }
+  ],
+  "fileEvidence": "records/ui-state-kit-20261028-r2/export-integrity.json",
+  "warningsRetained": [
+    "All3 sources contain alpha1 and alpha2..8 pixels retained unchanged.",
+    "Sheets01/03 maxAlpha254 with no fully opaque255 pixels; no alpha normalization.",
+    "Nine-slice borders are suggestions only; Simple fixed/aspect-preserving rendering default."
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullStateCoverage": false,
+  "fullGameArtComplete": false
+}

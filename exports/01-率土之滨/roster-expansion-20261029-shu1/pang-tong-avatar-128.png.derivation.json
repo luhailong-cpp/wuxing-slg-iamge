@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-avatar-128.png",
+  "sha256": "733e84a5d9953c1d57c32f2b398397f8eb118bf1b2afa59768469eabce412adb",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "pang-tong",
+  "displayName": "庞统",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/pang-tong-master-v1.png",
+      "sha256": "fff403fc5bad2ce464729d31d76a23cebe7e2d71ac95d63d063eb17bafd8e82b",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/pang-tong-master-v1.png.generation.json",
+      "recordSha256": "6e9f790cce8a1c2a15e103cd9244cc7c02f21541aef972c39b7a77b549bba703"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    280,
+    190,
+    790,
+    675
+  ],
+  "resizeTo": [
+    112,
+    107
+  ],
+  "pasteOffsetTopLeft": [
+    8,
+    10,
+    120,
+    117
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    400,
+    360,
+    700,
+    615
+  ],
+  "faceRoiOutputApprox": [
+    34.35,
+    47.51,
+    100.24,
+    103.76
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 6797,
+    "alpha1Pixels": 126,
+    "opaquePixels": 223,
+    "bboxAbove32": [
+      8,
+      11,
+      120,
+      117
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      8,
+      11,
+      8,
+      11
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": true,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 15956,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        60,
+        196,
+        44,
+        109
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

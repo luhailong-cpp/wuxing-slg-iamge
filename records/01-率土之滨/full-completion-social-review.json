@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "batchId": "full-completion-social-20261026",
+  "date": "2026-10-26",
+  "reviewer": "art_inventory",
+  "method": "实际查看两张指定风格主图及六张落盘原生PNG；尺寸、来源副本哈希与生成记录由finalize_image_record.py核验。",
+  "status": "six_direction_drafts_ready_for_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "scope": "完整静态视觉稿；本批不提供独立控件或宣称已接入客户端。",
+  "sharedFindings": [
+    "六张保持玉绿标题/按钮、米白纸绢、暖金云纹、圆润手绘与清楚中文。",
+    "未添加尚未确认的正式游戏名；登录页标题牌保持空白。",
+    "主要面板与按钮完整，无明显裁切或遮挡。",
+    "每张实际附两张风格主图，配置目标保留GPT Image 2.5/max，实际模型和画质未披露记录为null。"
+  ],
+  "images": [
+    {
+      "file": "designs/01-率土之滨/ui/25-login-server-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "actuallyViewed": true,
+      "mustFix": [],
+      "checks": [
+        "空标题牌完整，启程/选服/公告/开始游戏文字可读。",
+        "一服选中且流畅；二服流畅；三服灰态维护；协议已勾选与开始按钮可用状态一致。"
+      ],
+      "followUps": [
+        "正式游戏名与区服数据由用户和客户端配置覆盖；本页未制作公告展开或维护区服点击反馈。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "actuallyViewed": true,
+      "mustFix": [],
+      "checks": [
+        "成员3/50，三行成员一致；贡献1200+800+400=2400，与本周贡献一致。",
+        "等级3、盟主云川、两在线一离线、总览选中和60%进度均可读。"
+      ],
+      "followUps": [
+        "活跃成员3表示活跃人数，不等同在线人数2；正式规则应由数据层明确。",
+        "正式实现区分成员权限与公告编辑权限；目前是有管理权限的预览。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/27-mail-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "actuallyViewed": true,
+      "mustFix": [],
+      "checks": [
+        "四封邮件与选中首战告捷详情一致，待领取/未读/已领取不同状态清楚。",
+        "附件铜钱10000、粮草5000及剩余7天清楚，当前领取按钮可用。"
+      ],
+      "followUps": [
+        "列表中各行礼物图标应在正式实现按实际附件有无控制；本稿未将无附件通知单列。",
+        "未领附件删除、一键领取失败、过期与空邮件等动态状态还需按完整状态矩阵补齐。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/28-chat-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "actuallyViewed": true,
+      "mustFix": [],
+      "checks": [
+        "世界频道选中，世界/同盟/私聊与屏蔽入口清楚。",
+        "四条气泡左右方向、昵称、时间和各自头像一致；输入条/表情/发送完整。"
+      ],
+      "followUps": [
+        "发送中/失败/禁言/空消息及频道切换状态需在交互与状态资源中补齐。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/29-quests-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "actuallyViewed": true,
+      "mustFix": [],
+      "checks": [
+        "三项主线与主线任务3项一致。",
+        "立足之地1/1可领取；扩张领地1/3进行中有前往；招贤纳士1/1已领取且无可领取按钮。",
+        "奖励铜钱3000、粮草2000、玉符50可读。"
+      ],
+      "followUps": [
+        "正式进度条由实际比例驱动，领取成功/失败与日常成就页需按状态矩阵落实。"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/30-settings-help-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "actuallyViewed": true,
+      "mustFix": [],
+      "checks": [
+        "声音选中；主音量80%、音效60%的滑杆大致对应；背景音乐/战斗音效开关为开。",
+        "重置/保存/帮助入口清楚，连接中断提示卡内取消和重新连接完整，不遮挡设置项。"
+      ],
+      "followUps": [
+        "该连接提示目前作为设置内独立状态预览；正式断线模态层、焦点与重连中/失败/成功需要运行时验收。"
+      ]
+    }
+  ]
+}

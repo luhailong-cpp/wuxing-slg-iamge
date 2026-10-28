@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "updatedAtUtc": "2026-10-30T13:46:35.799Z",
+  "productName": "五行问鼎",
+  "fullGameArtComplete": false,
+  "userFinalAcceptance": false,
+  "contract": "docs/CURRENT_REQUIREMENTS_20261028.md",
+  "baselineCatalog": "records/current-art-catalog-20261028.json",
+  "roster": {
+    "scope": "完整率土武将名册与三国人物；统一道家Q版",
+    "research": "docs/research/ROSTER_PRIMARY_SOURCES_20261029.md",
+    "officialFacts": "records/roster-20261029/OFFICIAL_ROSTER_FACTS_20261029.json",
+    "publicCardRows": 430,
+    "publicDisplayNames": 309,
+    "canonicalPersonCount": null,
+    "currentExistingMasterPeople": 52,
+    "newMasters": [
+      "designs/01-率土之滨/characters/roster-expansion-20261029/sima-yi-master-v1.png",
+      "designs/01-率土之滨/characters/roster-expansion-20261029/xiahou-dun-master-v1.png"
+    ],
+    "reconciliationInProgress": true,
+    "newThisBatchPeople": 40,
+    "generalManifest": "exports/01-率土之滨/art-review-20261029/generals-manifest.json",
+    "UIderivatives": 260,
+    "identityReconciliation": "records/roster-20261029/PRODUCTION_IDENTITY_RECONCILIATION_20261029.json",
+    "productionQueue": "records/roster-20261029/PRODUCTION_QUEUE_20261029.json",
+    "clientUiDerivativesImported": 260,
+    "currentProductionOverlay": "records/roster-20261029/CURRENT_PRODUCTION_OVERLAY_20261030.json"
+  },
+  "troopFrames": {
+    "route": "host_image_direct_frame_sheets_user_override",
+    "reference": "https://github.com/0x0funky/agent-sprite-forge",
+    "actions": [
+      "idle",
+      "attack",
+      "hurt",
+      "defeat"
+    ],
+    "view": "SE",
+    "selectedFramesExported": 100,
+    "uniqueFramesNotDerivativeFileCount": true,
+    "metalManifest": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/manifest.json",
+    "woodManifest": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/manifest.json",
+    "fireManifest": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+    "earthManifest": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/manifest.json",
+    "waterStatus": "20 grounded frame candidates exported and light/dark reviewed",
+    "walkStatus": "metal v3 still fails intended gait; all walk acceptance pending",
+    "clientIntegrated": true,
+    "waterManifest": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+    "combinedManifest": "exports/01-率土之滨/five-troop-frames-20261029/manifest.json",
+    "browserReview": "records/roster-expansion-20261029/browser-review.json",
+    "integrationScope": "100 map128h PNG / 20 clips / 5 prefabs; source interval sampling and GPU pose checks, not runtime combat",
+    "runtimePlayModeTested": false
+  },
+  "ui": {
+    "baselineScreens": 36,
+    "newScreen": "designs/01-率土之滨/ui/expansion-20261028-r2/37-ranking-ui-v1.png",
+    "stateKitManifest": "exports/01-率土之滨/ui-state-kit-20261028-r2/ui-state-kit-manifest.json",
+    "stateKitSprites": 23,
+    "interactivePreview": "exports/01-率土之滨/ui-state-kit-20261028-r2/interactive-preview.html",
+    "previewReview": "records/ui-state-kit-20261028-r2/interactive-preview-review.json",
+    "allStatesClientValidated": false
+  },
+  "map": {
+    "manifest": "records/map-connectors-20261028-r2/delivery-manifest.json",
+    "selectedPlate": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+    "internalRiverSeamVisuallyRepaired": true,
+    "seamlessTile": false,
+    "sceneNavigationValidated": false,
+    "areaRatioToSTZB": 0.25,
+    "exactReferenceCellCount": 2250000,
+    "referenceSource": "https://apps.apple.com/cn/app/%E4%BA%91-%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id1658292466",
+    "targetNominalCellCount": 562500,
+    "productionGrid": [
+      750,
+      750
+    ],
+    "worldScopeContract": "records/quarter-world-20261030/world-scope-contract.json",
+    "regionalLayoutStudy": "records/quarter-world-20261030/layout-manifest.json",
+    "completeWorldDelivered": false
+  },
+  "engine": {
+    "path": "D:/work/wuxing-slg-unity",
+    "heavyWorkPaused": false,
+    "finalValidationPassed": true,
+    "newBatchImported": true,
+    "latestCoordinatedPauseUntil": null,
+    "bridgeFailureDiagnosis": "Verified baseline3 invisible-alpha0 RGB warnings only; 592 baseline files/GUID exact, new326 fullRGBA exact, baseline and extension inventory passed",
+    "pendingNewBatchPng": 326,
+    "newImporterPreparedNotCompiled": false,
+    "finalValidationScope": "asset import integrity and inventory only",
+    "fullGameClientValidated": false,
+    "importedPng": 579,
+    "clips": 28,
+    "prefabs": 7,
+    "integrationReport": "records/unity-integration-20261030.json"
+  },
+  "publication": {
+    "newBatchPublished": true,
+    "lastVerifiedArtCommit": "57cc0ee2a213043e3dae7dbe6fd4591cc1da4f97",
+    "lastVerifiedArtTree": "e64185bdd65b4f82d198fb78c01b30c7bc5f4fa9",
+    "publishedSnapshotIdentityCount": 52,
+    "postSnapshotLocalAddedPeople": 0,
+    "lastVerifiedUnityCommit": "ba6fd27989338dc579cf55266cfc1adb398fdfdb",
+    "unpublishedMapContractAndRegionalStudy": false,
+    "lastVerifiedUnityTree": "b90d9fde924e33e282f9de1fc9e718652ca802d7"
+  },
+  "reviewPage": "exports/01-率土之滨/art-review-20261029/index.html"
+}

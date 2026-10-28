@@ -1,0 +1,63 @@
+{
+  "status": "PREPARED_NOT_SUBMITTED",
+  "tool": "image_gen.imagegen",
+  "actualCallCount": 0,
+  "submitted": false,
+  "plannedParameters": {
+    "prompt": "Create ONE native square action-frame sheet with exactly4 poses arranged2 columns × 2 rows.\nExact same ordinary WATER troop as reference3: Daoist chibi boy with large brown eyes, blue-teal rounded helmet, gold trim, white swirling plume, blue teardrop jewel, white wave scroll ornaments, blue scale cuirass, ivory padded sleeves/trousers, gold-trim blue boots. Right-screen arm holds the same oval blue wave-pattern shield with gold rim and center spiral. Other hand holds the same short navy baton with OPEN GOLD RING at its outer tip, turquoise bead and blue tassel; no spear or sword replacement. Same SE/three-quarter right facing, no left-facing mirrors, no named elemental hero.\nUse refs1/2 solely for approved Daoist Q-version HD hand-painted style; ref3 is exact identity. Transparent native RGBA sheet, no text, numbers, grid, separators, ground, cast shadows, FX, water trails, new weapons or additional figures. Equal cells read left-to-right top row first. Entire character including plume and weapon must remain inside each cell with15% clear margins. Neutral standing total silhouette targets60-68% of each cell height; one constant anatomy/helmet scale across all frames, never enlarge crouched/defeated poses to match standing bbox. Common root centered near80% cell height; keep grounded boot/knee contacts coherent with the2:1 dimetric ground camera. Clear visible pose phases, no duplicate/copied poses or discarded components.\nACTION hurt; one-shot candidate.\n1. ready just before impact\n2. small chest recoil, shield lifts and eyebrows wince\n3. knees compress to absorb hit, ring baton lowered\n4. recover toward ready, same facing",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+    ],
+    "transparent_background": true
+  },
+  "plannedConfigTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary approved style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary approved style"
+    },
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+      "sha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c",
+      "role": "exact water troop identity"
+    }
+  ],
+  "action": {
+    "id": "hurt",
+    "frames": 4,
+    "rows": 2,
+    "cols": 2,
+    "loop": false,
+    "phases": [
+      "ready just before impact",
+      "small chest recoil, shield lifts and eyebrows wince",
+      "knees compress to absorb hit, ring baton lowered",
+      "recover toward ready, same facing"
+    ]
+  },
+  "intendedNativePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+  "artSource": "host_image",
+  "userOverride": "records/troop-frames-20261028-r2/user-route-override.json",
+  "handoffReason": "Parent reprioritized official full roster research before any water generation started"
+}

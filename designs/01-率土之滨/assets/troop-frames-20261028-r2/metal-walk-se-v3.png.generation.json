@@ -1,0 +1,76 @@
+{
+  "file": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-walk-se-v3.png",
+  "sha256": "77033998530d75a1f9b55076be363b394aaa47d36a84a2535c5566009195604d",
+  "generatedAt": "2026-10-29T03:23:20.503Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": "exec-ea653681-894e-4b58-9ce7-18fce83b7cb0",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create a NEW eight-frame walking sprite sheet using the supplied identity and pose guides. Wide 2:1 transparent canvas, exactly 4 columns x 2 rows, row-major order. No video.\nIMAGE 1: exact METAL soldier identity. Preserve the helmet/plume, face, teal-and-ivory costume, silver armour/gold rims/jade gems and curved saber and oval shield; same hands in every pose.\nIMAGE 2: motion and layout guide only. The ORANGE stick leg means the NEAR leg, BLUE means the FAR leg. Match the eight leg phases faithfully, especially the reversed lead in the lower row. Do NOT draw the guide, its lines, colors, frames, labels or stick figures.\nIMAGE 3: the master repeated at small common scale, a size/root guide only. Keep this generous empty padding. Each FULL soldier including feather must be no taller than 64% of its cell, not 90%. Match its head/body proportions, NOT the thin stick figure's proportions.\nIMAGES 4-5: hand-painted style only; never add their scenery/UI.\nPOSES are the central requirement. Draw visibly DIFFERENT articulated leg poses, including a lifted knee/passing boot in frames 2 and 6. Eight copies of the standing pose are wrong. Top row: near leg contact, near down, far passing, far advance. Bottom row: FAR leg contact, FAR down, NEAR passing, NEAR advance. In frame 0, the near boot is ahead of the far boot. In frame 4, the far boot is ahead of the near boot. The trousers, shin guards and boots follow the joints rather than sliding as a rigid cutout. Arms counter-swing with restrained saber/shield movement, preserving handedness.\nUse the same elevated three-quarter SE/down-right view as IMAGE 1 in every cell; the side-view sticks communicate gait phase, not a request to rotate the soldier to side view. Feet walk in place along the implied southeast axis around a fixed centre. At least one sole contacts the same projected ground plane in each frame; no flight. The torso bobs slightly with weight transfer, same anatomy/scale/camera in all cells.\nThe full figure, saber, plume, shield must remain inside the guide's blue safe box with at least 15% clear padding. Prefer a slightly smaller body to any boundary crowding. Real transparent alpha outside the figures. Crisp detailed HD hand-painted chibi, upper-left lighting. NO motion effects, ground shadow, dust, checkerboard, label, frame or border.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261028-r2/metal-walk-pose-guide/guide.png",
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261028-r2/metal-anchor-2x4.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "request": "records/troop-frames-20261028-r2/metal-walk-request-v3.json",
+    "sourceToolFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-ea653681-894e-4b58-9ce7-18fce83b7cb0.png"
+  },
+  "unverifiedReason": "宿主管理，未披露实际型号/质量",
+  "prompt": "prompts/01-率土之滨/troop-frames-20261028-r2/metal-walk-se-v3.prompt.txt",
+  "references": [
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "role": "identity_master"
+    },
+    {
+      "path": "records/troop-frames-20261028-r2/metal-walk-pose-guide/guide.png",
+      "sha256": "9f36aa274812a26ac6dcbc2a41ec802b54d339cb546fbce4dec1f824512ebc6a",
+      "role": "code_drawn_pose_layout_guide_not_game_art"
+    },
+    {
+      "path": "records/troop-frames-20261028-r2/metal-anchor-2x4.png",
+      "sha256": "6594e158fd8dd7499ee77239b34e59af43c23ec4e4fc8fd554b55b4d9a2500a4",
+      "role": "derived_scale_root_template"
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative_style"
+    }
+  ],
+  "status": "pose_variation_improved_but_gait_phase_acceptance_failed",
+  "userApproved": false
+}

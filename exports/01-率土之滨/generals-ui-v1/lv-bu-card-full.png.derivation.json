@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-card-full.png",
+  "sha256": "75ebcabeb9f7b7df33e215e0a2c1cda3aa9a3b2f74a47e4b8e9fb3111aa8a120",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "lv-bu",
+  "displayName": "吕布",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/11-lv-bu-v2.png",
+      "sha256": "a43d22e78c52b5d45f2c397dc01264a64572ba885f1210fea2cb84395bf4da30",
+      "record": "designs/01-率土之滨/characters/11-lv-bu-v2.png.generation.json",
+      "recordSha256": "b7f1e29e85e661c71e6e07a5c08a1ae281a82b9a461999ed076e6b4058a239b5"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    405,
+    500,
+    650,
+    700
+  ],
+  "faceRoiOutputApprox": [
+    310.44,
+    391.75,
+    478.88,
+    529.25
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 566263,
+    "alpha1Pixels": 9416,
+    "semiTransparentPixels": 315784,
+    "opaquePixels": 2689,
+    "bboxAbove32": [
+      79,
+      133,
+      724,
+      1014
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      79,
+      133,
+      44,
+      138
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-card-full.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 9416,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-card-full.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "HISTORICAL_TOOL_RECEIPT_INCOMPLETE",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-card-full.png",
+      "message": "Original Lv Bu v2 output_hint and exact completion time unavailable; source file and sidecar hashes retained without filling missing history."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

@@ -1,0 +1,99 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-avatar-128.png",
+  "sha256": "a4047508e673406b58c68ee670b1b1270c10fdbfb69d6e902e0d2aab52f0ac14",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "xiahou-yuan",
+  "displayName": "夏侯渊",
+  "variant": "avatar-128",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+      "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+      "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    330,
+    145,
+    755,
+    615
+  ],
+  "resizeTo": [
+    101,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    13,
+    8,
+    114,
+    120
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 6916,
+    "alphaOne": 92,
+    "alphaSemi": 9193,
+    "alphaOpaque": 275,
+    "bboxAlpha16": [
+      13,
+      8,
+      114,
+      120
+    ],
+    "marginsAlpha16": [
+      13,
+      8,
+      14,
+      8
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    488,
+    388,
+    686,
+    555
+  ],
+  "faceRoiOutputApprox": [
+    50.548,
+    65.906,
+    97.602,
+    105.702
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

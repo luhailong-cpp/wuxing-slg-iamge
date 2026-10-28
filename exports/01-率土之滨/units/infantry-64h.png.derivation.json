@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/units/infantry-64h.png",
+  "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+  "derivedAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "width": 256,
+  "height": 256,
+  "mode": "RGBA",
+  "format": "PNG",
+  "operation": "premultiplied_lanczos_downscale_and_transparent_canvas_registration",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/units/infantry-native.png",
+      "sha256": "07a1be8115580b894dc88656d586344e97a920766b975e9207d8cb9440d7d4e8",
+      "record": "exports/01-率土之滨/units/infantry-native.png.derivation.json"
+    }
+  ],
+  "resampled": true,
+  "scale": 0.07485380116959064,
+  "resizedDimensions": [
+    61,
+    66
+  ],
+  "pasteOffset": [
+    98,
+    159
+  ],
+  "plannedSilhouetteHeightPx": 64,
+  "anchorPxTopLeft": [
+    128,
+    224
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.875
+  ],
+  "nativeDetailClaim": false,
+  "static": true,
+  "animationFrameCount": 0,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 63244,
+    "alpha1Pixels": 88,
+    "opaquePixels": 177,
+    "bboxByThreshold": {
+      "1": [
+        98,
+        159,
+        159,
+        225
+      ],
+      "16": [
+        99,
+        160,
+        158,
+        224
+      ],
+      "127": [
+        99,
+        160,
+        158,
+        224
+      ]
+    },
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_map_unit_display_candidate"
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/unity/gpu-footpoints-light-dark.png",
+  "sha256": "b2eabca8d2cf24e10ea6ecb9efa383256cd3b89a9e7ca89cbac8ec4f1c0244c1",
+  "size": [
+    1500,
+    650
+  ],
+  "operation": "qa_contact_sheet_native_pixel_crops_and_integer_paste",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-light.png",
+      "sha256": "9e4258a3390329e74416548e9650d0514e5f5c6b84256dd2138b26ced839fffc"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-light.png",
+      "sha256": "c6b74829283decce4644a03b73dbbf7d8c18e19d7ee11aa21031aafca7a2d316"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-light.png",
+      "sha256": "5883f42c300b4e550e569e683ab5629e13bc8f7740a632a6ee5dc8a625c08d72"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-light.png",
+      "sha256": "e85b2a5845722fa01a355a8cdfece6d56ab5a3347d685e06f6b8762a5f24f5ec"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-light.png",
+      "sha256": "463caefab588c7c4d6ac13727b0d50186a428bb97785e6beb72573c2cecd5731"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-dark.png",
+      "sha256": "8d69f8f34ef5302e726b2d68c468aadb4b2ec4383c6f7eac8d44081dba3e5815"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-dark.png",
+      "sha256": "14bd40df18c856260d76c1ed261248e8a172d49a29a77b542f6b819fc245fdb3"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-dark.png",
+      "sha256": "502897d337a815831e2ddafadf4b6d59ac185ae8f1015c9b3234c1f94d73e875"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-dark.png",
+      "sha256": "8aa8c783eb6e1671e431076bb0f33fac3ec5b71219fe4948f4a6e1a8b248900a"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-dark.png",
+      "sha256": "12a404a48892b0ed33b0eb1071c54732d679e11eb56b471e61b1c2a25e65d189"
+    }
+  ],
+  "crops": [
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-light.png",
+      "cropBox": [
+        600,
+        187,
+        900,
+        487
+      ],
+      "offset": [
+        0,
+        25
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-light.png",
+      "cropBox": [
+        501,
+        250,
+        801,
+        550
+      ],
+      "offset": [
+        300,
+        25
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-light.png",
+      "cropBox": [
+        598,
+        314,
+        898,
+        614
+      ],
+      "offset": [
+        600,
+        25
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-light.png",
+      "cropBox": [
+        699,
+        378,
+        999,
+        678
+      ],
+      "offset": [
+        900,
+        25
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-light.png",
+      "cropBox": [
+        799,
+        608,
+        1099,
+        908
+      ],
+      "offset": [
+        1200,
+        25
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-dark.png",
+      "cropBox": [
+        600,
+        187,
+        900,
+        487
+      ],
+      "offset": [
+        0,
+        350
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-dark.png",
+      "cropBox": [
+        501,
+        250,
+        801,
+        550
+      ],
+      "offset": [
+        300,
+        350
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-dark.png",
+      "cropBox": [
+        598,
+        314,
+        898,
+        614
+      ],
+      "offset": [
+        600,
+        350
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-dark.png",
+      "cropBox": [
+        699,
+        378,
+        999,
+        678
+      ],
+      "offset": [
+        900,
+        350
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-dark.png",
+      "cropBox": [
+        799,
+        608,
+        1099,
+        908
+      ],
+      "offset": [
+        1200,
+        350
+      ]
+    }
+  ],
+  "resampled": false,
+  "qaOnly": true,
+  "productArt": false,
+  "labels": "QA labels only; no map/unit artwork drawn"
+}

@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-29T08:23:26.027Z",
+  "kind": "lightweight_JSON_integrity_only_no_client_test",
+  "checks": {
+    "factRows": 975,
+    "uniqueCardIds": 975,
+    "allRowsSourceComplete": true,
+    "uiRows": 430,
+    "uiIdsMatch": true,
+    "uiPredicatesMatch": true,
+    "nameRows": 314,
+    "namedEntityCandidates": 300,
+    "allIdentitiesUnresolved": true,
+    "noGameTroopTypeInferred": true,
+    "sourceMatchTwoFetches": true
+  },
+  "files": [
+    {
+      "path": "docs/research/ROSTER_PRIMARY_SOURCES_20261029.md",
+      "bytes": 9580,
+      "sha256": "676499c0f3b0a09500d8487a822d83d8285e4083fade6c9bb8a18eb51ba6a31a"
+    },
+    {
+      "path": "records/roster-20261029/http-evidence.json",
+      "bytes": 4934,
+      "sha256": "4bbbe652c73fdde36ab7dd798a8e199895ea9d0a438a8c11daf03827949f12fe"
+    },
+    {
+      "path": "records/roster-20261029/OFFICIAL_DISPLAY_NAME_CANDIDATES_20261029.json",
+      "bytes": 201073,
+      "sha256": "824e906a10d1e3e6ac40525d22272ac376b5cf6b06065ec35faa39e7111ddd6f"
+    },
+    {
+      "path": "records/roster-20261029/OFFICIAL_PUBLIC_LIST_430_20261029.json",
+      "bytes": 333279,
+      "sha256": "51022f2c79a483c8028ddeef1f1c29e333e5f564fd37fd16e92de84fda23558a"
+    },
+    {
+      "path": "records/roster-20261029/OFFICIAL_ROSTER_FACTS_20261029.json",
+      "bytes": 759891,
+      "sha256": "ff43cde8aa3ac82caced8b0551bf4478df3d2eec8220b2747575aaf19dc14942"
+    },
+    {
+      "path": "records/roster-20261029/RESEARCH_EVIDENCE_AND_GAPS_20261029.json",
+      "bytes": 4746,
+      "sha256": "e3871f49dca4d15d083fb51b6e07ff574a6e01d6dca2c8893dc981d2e42af757"
+    }
+  ]
+}

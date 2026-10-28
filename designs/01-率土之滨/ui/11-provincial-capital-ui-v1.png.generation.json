@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+  "sha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+  "generatedAt": "2026-10-26T11:30:22.788Z",
+  "generatedAtBasis": "工具调用完成时记录的UTC时间，非工具另披露的内部图像生成时间",
+  "callStartedAt": "2026-10-26T11:28:25.986Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "scene_mode": "baked_scene_mode",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": "12",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png"
+    ],
+    "promptFile": "prompts/01-率土之滨/11-provincial-capital-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具未开放model/quality参数，返回字段未披露实际模型或质量，当前可读取PNG元数据没有相关可靠证据。配置目标不等同实际返回。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/11-provincial-capital-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/11-provincial-capital-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-cdc2de89-5808-476c-b825-6266447ab321.png",
+      "sha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/11-provincial-capital-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要风格主图：邮件配色/材质/控件层级",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要风格主图：组队配色/材质/手绘细节",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "sha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "role": "本SLG大地图：世界观与城池建筑形制",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/01-world-map-ui-v1.png.generation.json"
+    },
+    {
+      "file": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+      "sha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+      "role": "旧道家主城：建筑/灰石路/石桥/庭院材质，不作为新城布局与分块合同",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "州府城池详情UI",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "runtimeGeometryProvided": false,
+  "brief": "designs/01-率土之滨/CITY_BATCH.md"
+}

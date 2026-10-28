@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-bust-native.png",
+  "sha256": "043d2979ef8d3c7bd6dd3d18d0a1fc3d209edd6d4de02131bad7cc84fe3f45f5",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 920,
+  "height": 940,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "wei-yan",
+  "displayName": "魏延",
+  "variant": "bust-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/wei-yan-master-v1.png",
+      "sha256": "48feb538691b4722f4ab2a0fee6c23be7c4c91cbaa4cda017023274b111f9c37",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/wei-yan-master-v1.png.generation.json",
+      "recordSha256": "3e6a40094397640b40e0980297dbb13f8c6fbba6c7a05eda6b7c81f006ea79ed"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    70,
+    100,
+    990,
+    1040
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    920,
+    940
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    490,
+    350,
+    675,
+    500
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 339177,
+    "alpha1Pixels": 8955,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      3,
+      899,
+      940
+    ],
+    "edgePixelsAbove32": [
+      58,
+      0,
+      0,
+      886
+    ],
+    "marginsAbove32": [
+      0,
+      3,
+      21,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": true,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 13135,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        65,
+        103,
+        27,
+        95
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

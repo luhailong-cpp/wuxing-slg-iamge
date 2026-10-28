@@ -1,0 +1,2273 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "scope": "5 original masters ->25 still derived hero UI preview PNGs, no new generation",
+  "assetCount": 25,
+  "heroCount": 5,
+  "masterDirectory": "designs/01-率土之滨/characters/five-elements",
+  "avatarContainers": [
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "cardContainer": [
+    768,
+    1152
+  ],
+  "nativePortraitSizesVary": true,
+  "newBorderArt": false,
+  "animationIncluded": false,
+  "assets": [
+    {
+      "assetId": "01-metal-face-native",
+      "heroId": "01-metal",
+      "element": "metal",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "sha256": "d3e9652984940f22bfa60a2a5adae065839e048ca6d9539e5db8a581bd9950db",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png.derivation.json",
+      "width": 590,
+      "height": 530,
+      "alphaInspection": {
+        "fullyTransparentPixels": 122470,
+        "alpha1PixelCount": 10817,
+        "alphaSemiPixels": 190230,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          0,
+          20,
+          590,
+          530
+        ],
+        "edgePixelsAbove16": [
+          0,
+          190,
+          487,
+          177
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 10817,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            205,
+            55,
+            795,
+            585
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "01-metal-bust-native",
+      "heroId": "01-metal",
+      "element": "metal",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+      "sha256": "57a6c8dc3bed807606e13a2ae150f7e8f521611de105a7c305e25170d41ad5a3",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png.derivation.json",
+      "width": 965,
+      "height": 945,
+      "alphaInspection": {
+        "fullyTransparentPixels": 385435,
+        "alpha1PixelCount": 22188,
+        "alphaSemiPixels": 526490,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          25,
+          20,
+          947,
+          945
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          681,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 22188,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            35,
+            55,
+            1000,
+            1000
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        }
+      ]
+    },
+    {
+      "assetId": "01-metal-avatar-128",
+      "heroId": "01-metal",
+      "element": "metal",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "sha256": "66fe30b65b11f21d66b1de9e3bb26d81bae97254854a6aba824a98c5125b025e",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png.derivation.json",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "fullyTransparentPixels": 9395,
+        "alpha1PixelCount": 205,
+        "alphaSemiPixels": 6646,
+        "alphaOpaquePixels": 343,
+        "bboxAbove16": [
+          8,
+          16,
+          120,
+          114
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        38.94,
+        50.16,
+        86.4,
+        93.99
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 205,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            205,
+            55,
+            795,
+            585
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "01-metal-avatar-256",
+      "heroId": "01-metal",
+      "element": "metal",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "sha256": "2a8e69d66f1b70f9b30d36c0b80d5208704ba07f7e1cad97039801e6874fd26f",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png.derivation.json",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "fullyTransparentPixels": 38561,
+        "alpha1PixelCount": 1013,
+        "alphaSemiPixels": 26389,
+        "alphaOpaquePixels": 586,
+        "bboxAbove16": [
+          16,
+          34,
+          240,
+          228
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        77.88,
+        100.95,
+        172.8,
+        188.18
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 1013,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            205,
+            55,
+            795,
+            585
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "01-metal-card-preview",
+      "heroId": "01-metal",
+      "element": "metal",
+      "variant": "card-preview",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "sha256": "3a35cc99afd85cd4395974319f22244a24d78f40fa3c9660f1bfca7f23979893",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png.derivation.json",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "fullyTransparentPixels": 554859,
+        "alpha1PixelCount": 15467,
+        "alphaSemiPixels": 328459,
+        "alphaOpaquePixels": 1418,
+        "bboxAbove16": [
+          73,
+          99,
+          707,
+          1054
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 15467,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        }
+      ]
+    },
+    {
+      "assetId": "02-wood-face-native",
+      "heroId": "02-wood",
+      "element": "wood",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "sha256": "6593beb5cbebfb41b6e48c00b2952a439a19263d5428009f0e384374a7ea7594",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png.derivation.json",
+      "width": 630,
+      "height": 590,
+      "alphaInspection": {
+        "fullyTransparentPixels": 135185,
+        "alpha1PixelCount": 12236,
+        "alphaSemiPixels": 236515,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          0,
+          20,
+          618,
+          590
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          453,
+          381
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 12236,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            270,
+            180,
+            900,
+            770
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "02-wood-bust-native",
+      "heroId": "02-wood",
+      "element": "wood",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "sha256": "f6e4cfad8cdb9e3cbad46d88f7bc5ef8435892d47cf567cbc81a34026e3c7c27",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png.derivation.json",
+      "width": 920,
+      "height": 920,
+      "alphaInspection": {
+        "fullyTransparentPixels": 369762,
+        "alpha1PixelCount": 19568,
+        "alphaSemiPixels": 476638,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          33,
+          30,
+          894,
+          920
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          742,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 19568,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            90,
+            170,
+            1010,
+            1090
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        }
+      ]
+    },
+    {
+      "assetId": "02-wood-avatar-128",
+      "heroId": "02-wood",
+      "element": "wood",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "sha256": "81e61476bf436725dfdd6719ba049ab976b182b775899629654bbee45ad2a160",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png.derivation.json",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "fullyTransparentPixels": 8793,
+        "alpha1PixelCount": 182,
+        "alphaSemiPixels": 7206,
+        "alphaOpaquePixels": 385,
+        "bboxAbove16": [
+          8,
+          14,
+          118,
+          116
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        31.47,
+        56.92,
+        84.62,
+        103.54
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 182,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            270,
+            180,
+            900,
+            770
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "02-wood-avatar-256",
+      "heroId": "02-wood",
+      "element": "wood",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "sha256": "044373d933ef3c31c95b6c19b509d8decf9fda303e6cd44308245bfd50dabb3d",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png.derivation.json",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "fullyTransparentPixels": 36076,
+        "alpha1PixelCount": 981,
+        "alphaSemiPixels": 28791,
+        "alphaOpaquePixels": 669,
+        "bboxAbove16": [
+          16,
+          30,
+          236,
+          233
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        62.93,
+        114.83,
+        169.24,
+        208.08
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 981,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            270,
+            180,
+            900,
+            770
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "02-wood-card-preview",
+      "heroId": "02-wood",
+      "element": "wood",
+      "variant": "card-preview",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "sha256": "e9b646158a52677180f349189b1f90dcf7566dc32cd3f3760a0c87f65c600444",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png.derivation.json",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "fullyTransparentPixels": 590813,
+        "alpha1PixelCount": 12443,
+        "alphaSemiPixels": 292618,
+        "alphaOpaquePixels": 1305,
+        "bboxAbove16": [
+          116,
+          185,
+          710,
+          1019
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 12443,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        }
+      ]
+    },
+    {
+      "assetId": "03-water-face-native",
+      "heroId": "03-water",
+      "element": "water",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "sha256": "8a4dc832af751b11bf96f3cb1f0ef2363d4594251b156a1f694b268bc61f5f24",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png.derivation.json",
+      "width": 730,
+      "height": 640,
+      "alphaInspection": {
+        "fullyTransparentPixels": 189267,
+        "alpha1PixelCount": 7806,
+        "alphaSemiPixels": 277933,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          0,
+          27,
+          719,
+          640
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          587,
+          284
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 7806,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            285,
+            60,
+            1015,
+            700
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "03-water-bust-native",
+      "heroId": "03-water",
+      "element": "water",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "sha256": "94c3ad0bc149dadd0374900db1a401a432cec1332ecfab70e09d5cd02b7f5261",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png.derivation.json",
+      "width": 1015,
+      "height": 960,
+      "alphaInspection": {
+        "fullyTransparentPixels": 407514,
+        "alpha1PixelCount": 16551,
+        "alphaSemiPixels": 566886,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          20,
+          27,
+          999,
+          960
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          693,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 16551,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            5,
+            60,
+            1020,
+            1020
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        }
+      ]
+    },
+    {
+      "assetId": "03-water-avatar-128",
+      "heroId": "03-water",
+      "element": "water",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "sha256": "f011ac5773971485aae21cd7906bd138e7e5a2f4770c49ff6c7470484c396e02",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png.derivation.json",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "fullyTransparentPixels": 9678,
+        "alpha1PixelCount": 85,
+        "alphaSemiPixels": 6458,
+        "alphaOpaquePixels": 248,
+        "bboxAbove16": [
+          8,
+          19,
+          119,
+          113
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        27.18,
+        43.33,
+        67.84,
+        77.02
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 85,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            285,
+            60,
+            1015,
+            700
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "03-water-avatar-256",
+      "heroId": "03-water",
+      "element": "water",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "sha256": "4dc00cc8d060cdd3a321be72583b1f698d56a7a40ffccbab657ed21193c24441",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png.derivation.json",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "fullyTransparentPixels": 39500,
+        "alpha1PixelCount": 449,
+        "alphaSemiPixels": 25581,
+        "alphaOpaquePixels": 455,
+        "bboxAbove16": [
+          16,
+          38,
+          237,
+          226
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        54.36,
+        86.66,
+        135.67,
+        154.03
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 449,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            285,
+            60,
+            1015,
+            700
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "03-water-card-preview",
+      "heroId": "03-water",
+      "element": "water",
+      "variant": "card-preview",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "sha256": "ec493212c8cc09cb42ebb993158b3ff536b4e391fefc031c5a66564ee96d7fbc",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png.derivation.json",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "fullyTransparentPixels": 538375,
+        "alpha1PixelCount": 9330,
+        "alphaSemiPixels": 345246,
+        "alphaOpaquePixels": 1115,
+        "bboxAbove16": [
+          49,
+          108,
+          722,
+          1064
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 9330,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        }
+      ]
+    },
+    {
+      "assetId": "04-fire-face-native",
+      "heroId": "04-fire",
+      "element": "fire",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "sha256": "6564f21e4bc4b82ab8828ffc18defaaa60c869029f5168412d41307e56ad3d1b",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png.derivation.json",
+      "width": 615,
+      "height": 510,
+      "alphaInspection": {
+        "fullyTransparentPixels": 144543,
+        "alpha1PixelCount": 8698,
+        "alphaSemiPixels": 169107,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          0,
+          23,
+          595,
+          510
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          351,
+          42
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 8698,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            220,
+            65,
+            835,
+            575
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "04-fire-bust-native",
+      "heroId": "04-fire",
+      "element": "fire",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "sha256": "c76108bb2704f56179f7655b2b04d989cb7a79eb5aebff433bb93dfd34c30b33",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png.derivation.json",
+      "width": 960,
+      "height": 955,
+      "alphaInspection": {
+        "fullyTransparentPixels": 408573,
+        "alpha1PixelCount": 16875,
+        "alphaSemiPixels": 508227,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          20,
+          23,
+          937,
+          955
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          606,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 16875,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            30,
+            65,
+            990,
+            1020
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        }
+      ]
+    },
+    {
+      "assetId": "04-fire-avatar-128",
+      "heroId": "04-fire",
+      "element": "fire",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "sha256": "9cf4d1c07b432a1105eb82e20d5f0f6bfc85063bb3864ebd47c58e57a337eb52",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png.derivation.json",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "fullyTransparentPixels": 10514,
+        "alpha1PixelCount": 215,
+        "alphaSemiPixels": 5562,
+        "alphaOpaquePixels": 308,
+        "bboxAbove16": [
+          8,
+          21,
+          117,
+          110
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        33.5,
+        60.76,
+        89.22,
+        102.71
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 215,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            220,
+            65,
+            835,
+            575
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "04-fire-avatar-256",
+      "heroId": "04-fire",
+      "element": "fire",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "sha256": "3de0f2c3fad9fe72ee84932806b5d9cb89df9332d0b79e49c722ea308ceee25d",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png.derivation.json",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "fullyTransparentPixels": 43234,
+        "alpha1PixelCount": 701,
+        "alphaSemiPixels": 21700,
+        "alphaOpaquePixels": 602,
+        "bboxAbove16": [
+          16,
+          43,
+          233,
+          221
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        66.99,
+        122.53,
+        178.45,
+        206.41
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 701,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            220,
+            65,
+            835,
+            575
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "04-fire-card-preview",
+      "heroId": "04-fire",
+      "element": "fire",
+      "variant": "card-preview",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "sha256": "972fef94efcd1e1cde945b0bf66e2b4d380dba194e58ca4bef95b66194ad8731",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png.derivation.json",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "fullyTransparentPixels": 551592,
+        "alpha1PixelCount": 10630,
+        "alphaSemiPixels": 331411,
+        "alphaOpaquePixels": 1733,
+        "bboxAbove16": [
+          66,
+          108,
+          697,
+          1057
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 10630,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        }
+      ]
+    },
+    {
+      "assetId": "05-earth-face-native",
+      "heroId": "05-earth",
+      "element": "earth",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "sha256": "1d8b5fa18e28c0d909d77ffdd5da1a1da8f1687d05461be728e025a0159e8829",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png.derivation.json",
+      "width": 540,
+      "height": 450,
+      "alphaInspection": {
+        "fullyTransparentPixels": 76266,
+        "alpha1PixelCount": 4977,
+        "alphaSemiPixels": 166734,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          0,
+          26,
+          540,
+          450
+        ],
+        "edgePixelsAbove16": [
+          0,
+          54,
+          474,
+          66
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 4977,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            280,
+            150,
+            820,
+            600
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "05-earth-bust-native",
+      "heroId": "05-earth",
+      "element": "earth",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "sha256": "fd8c75652373e56da7f1c87171cc4073224f5ab1944b76c62b9d696d7cee7090",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png.derivation.json",
+      "width": 950,
+      "height": 890,
+      "alphaInspection": {
+        "fullyTransparentPixels": 294380,
+        "alpha1PixelCount": 8324,
+        "alphaSemiPixels": 551120,
+        "alphaOpaquePixels": 0,
+        "bboxAbove16": [
+          25,
+          26,
+          923,
+          890
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          750,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 8324,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            50,
+            150,
+            1000,
+            1040
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        }
+      ]
+    },
+    {
+      "assetId": "05-earth-avatar-128",
+      "heroId": "05-earth",
+      "element": "earth",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "sha256": "43b007254aecaa469aebabcec91438cf421e94feaf4a29db363665d3cde0371c",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png.derivation.json",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "fullyTransparentPixels": 9063,
+        "alpha1PixelCount": 107,
+        "alphaSemiPixels": 7038,
+        "alphaOpaquePixels": 283,
+        "bboxAbove16": [
+          8,
+          22,
+          120,
+          110
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        26.67,
+        50.07,
+        90.96,
+        98.63
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 107,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            280,
+            150,
+            820,
+            600
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "05-earth-avatar-256",
+      "heroId": "05-earth",
+      "element": "earth",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "sha256": "b4b27eb1dd29342670971e8c916031b2bfd59d005723ab3eb30a059d3daf1ad0",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png.derivation.json",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "fullyTransparentPixels": 36938,
+        "alpha1PixelCount": 473,
+        "alphaSemiPixels": 28113,
+        "alphaOpaquePixels": 485,
+        "bboxAbove16": [
+          16,
+          44,
+          240,
+          221
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": [
+        53.33,
+        100.49,
+        181.93,
+        198.14
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 473,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_CROP",
+          "value": [
+            280,
+            150,
+            820,
+            600
+          ],
+          "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+          "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+        },
+        {
+          "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+          "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+        }
+      ]
+    },
+    {
+      "assetId": "05-earth-card-preview",
+      "heroId": "05-earth",
+      "element": "earth",
+      "variant": "card-preview",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "sha256": "eb715b07d68ef54b3fe5be61f275be41bbf237cfa5ee2edd3889c56e24d4050a",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png.derivation.json",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "fullyTransparentPixels": 552329,
+        "alpha1PixelCount": 4644,
+        "alphaSemiPixels": 331367,
+        "alphaOpaquePixels": 1040,
+        "bboxAbove16": [
+          83,
+          169,
+          706,
+          1008
+        ],
+        "edgePixelsAbove16": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "SOURCE_MASTER_UNAPPROVED",
+          "value": true,
+          "threshold": false,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+          "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+        },
+        {
+          "id": "NATIVE_SOFT_ALPHA_RETAINED",
+          "value": 4644,
+          "threshold": 0,
+          "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+          "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 10817,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        205,
+        55,
+        795,
+        585
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 22188,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        35,
+        55,
+        1000,
+        1000
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 205,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        205,
+        55,
+        795,
+        585
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 1013,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        205,
+        55,
+        795,
+        585
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 15467,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 12236,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        270,
+        180,
+        900,
+        770
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 19568,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        90,
+        170,
+        1010,
+        1090
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 182,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        270,
+        180,
+        900,
+        770
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 981,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        270,
+        180,
+        900,
+        770
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 12443,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 7806,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        285,
+        60,
+        1015,
+        700
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 16551,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        5,
+        60,
+        1020,
+        1020
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 85,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        285,
+        60,
+        1015,
+        700
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 449,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        285,
+        60,
+        1015,
+        700
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 9330,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 8698,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        220,
+        65,
+        835,
+        575
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 16875,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        30,
+        65,
+        990,
+        1020
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 215,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        220,
+        65,
+        835,
+        575
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 701,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        220,
+        65,
+        835,
+        575
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 10630,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 4977,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        280,
+        150,
+        820,
+        600
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 8324,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        50,
+        150,
+        1000,
+        1040
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 107,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        280,
+        150,
+        820,
+        600
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 473,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        280,
+        150,
+        820,
+        600
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    },
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 4644,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    }
+  ],
+  "status": "derived_previews_manually_reviewed_candidate_ready_for_technical_Unity_import",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+  "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "zhao-yun",
+  "displayName": "赵云",
+  "variant": "avatar-256",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/05-zhao-yun-v1.png",
+      "sha256": "f98706781dab1263db6ade684fe4b0939c5f33382ccf6bbc21c67dc0947624cc",
+      "record": "designs/01-率土之滨/characters/05-zhao-yun-v1.png.generation.json",
+      "recordSha256": "45cceed1c13a9038d1d70f934ab4622070ce88a8f94d89951dead56f9268a65a"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    200,
+    175,
+    760,
+    750
+  ],
+  "resizeTo": [
+    218,
+    224
+  ],
+  "pasteOffsetTopLeft": [
+    19,
+    16,
+    237,
+    240
+  ],
+  "canvas": [
+    256,
+    256
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    360,
+    430,
+    630,
+    695
+  ],
+  "faceRoiOutputApprox": [
+    81.29,
+    115.34,
+    186.39,
+    218.57
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 31919,
+    "alpha1Pixels": 663,
+    "semiTransparentPixels": 33294,
+    "opaquePixels": 323,
+    "bboxAbove32": [
+      19,
+      26,
+      237,
+      240
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      19,
+      26,
+      19,
+      16
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 663,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        200,
+        175,
+        760,
+        750
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "value": [
+        8,
+        16,
+        6,
+        29
+      ],
+      "threshold": "original requested 8–10% not attained",
+      "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+      "message": "Full-card output preserves entire source canvas and adds padding; it cannot recover any source detail not drawn."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

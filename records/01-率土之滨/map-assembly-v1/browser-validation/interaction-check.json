@@ -1,0 +1,195 @@
+{
+  "schema": "wuxing.preview-interaction-check.v1",
+  "browser": "156.0.8078.48",
+  "checks": [
+    {
+      "id": "e_city_interaction",
+      "ok": true
+    },
+    {
+      "id": "mouse_click_bridge_mid",
+      "ok": true
+    },
+    {
+      "id": "e_enemy_interaction",
+      "ok": true
+    }
+  ],
+  "cityInteraction": {
+    "schema": "generate2dmap.scene_snapshot.v1",
+    "runtime": {
+      "name": "map-runtime",
+      "version": "1.1.2"
+    },
+    "world": {
+      "width": 1440,
+      "height": 960,
+      "actorRadius": 8,
+      "ySquash": 0.6,
+      "cell": 4,
+      "tickHz": 60,
+      "solids": 2,
+      "portals": 0,
+      "oneWay": false
+    },
+    "actor": {
+      "x": 750,
+      "y": 372,
+      "valid": true,
+      "facing": [
+        0.707,
+        0.707
+      ],
+      "latched": [],
+      "travelled": 0,
+      "pathLength": 0
+    },
+    "ready": true,
+    "error": null,
+    "tick": 2,
+    "title": "Wuxing City Bridge Camp - Existing Art Candidate",
+    "source": {
+      "file": "map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+      "schema": "generate2dmap.map_bundle.v2"
+    },
+    "start": "city-gate",
+    "speed": 150,
+    "zoom": 1,
+    "debug": false,
+    "assets": {
+      "total": 5,
+      "loaded": 5,
+      "failed": []
+    },
+    "drawOrder": [
+      "city",
+      "bridge",
+      "enemy-camp"
+    ],
+    "exitsFired": [],
+    "interactionsReached": [
+      "city-gate"
+    ],
+    "events": [
+      {
+        "tick": 0,
+        "type": "arrive",
+        "id": "city-gate"
+      },
+      {
+        "tick": 0,
+        "type": "interact",
+        "id": "city-gate"
+      },
+      {
+        "tick": 1,
+        "type": "reach",
+        "id": "city-gate"
+      }
+    ],
+    "routes": null
+  },
+  "clickTarget": {
+    "x": 750.000023475354,
+    "y": 499.9999765434415
+  },
+  "enemyInteraction": {
+    "schema": "generate2dmap.scene_snapshot.v1",
+    "runtime": {
+      "name": "map-runtime",
+      "version": "1.1.2"
+    },
+    "world": {
+      "width": 1440,
+      "height": 960,
+      "actorRadius": 8,
+      "ySquash": 0.6,
+      "cell": 4,
+      "tickHz": 60,
+      "solids": 2,
+      "portals": 0,
+      "oneWay": false
+    },
+    "actor": {
+      "x": 950,
+      "y": 795,
+      "valid": true,
+      "facing": [
+        0.466,
+        0.885
+      ],
+      "latched": [],
+      "travelled": 144.221,
+      "pathLength": 0
+    },
+    "ready": true,
+    "error": null,
+    "tick": 102,
+    "title": "Wuxing City Bridge Camp - Existing Art Candidate",
+    "source": {
+      "file": "map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+      "schema": "generate2dmap.map_bundle.v2"
+    },
+    "start": "city-gate",
+    "speed": 150,
+    "zoom": 1,
+    "debug": false,
+    "assets": {
+      "total": 5,
+      "loaded": 5,
+      "failed": []
+    },
+    "drawOrder": [
+      "city",
+      "bridge",
+      "enemy-camp"
+    ],
+    "exitsFired": [],
+    "interactionsReached": [
+      "city-gate",
+      "enemy-camp"
+    ],
+    "events": [
+      {
+        "tick": 0,
+        "type": "arrive",
+        "id": "city-gate"
+      },
+      {
+        "tick": 0,
+        "type": "interact",
+        "id": "city-gate"
+      },
+      {
+        "tick": 1,
+        "type": "reach",
+        "id": "city-gate"
+      },
+      {
+        "tick": 2,
+        "type": "arrive",
+        "id": "city-gate"
+      },
+      {
+        "tick": 100,
+        "type": "teleport",
+        "x": 950,
+        "y": 795
+      },
+      {
+        "tick": 100,
+        "type": "interact",
+        "id": "enemy-camp"
+      },
+      {
+        "tick": 101,
+        "type": "reach",
+        "id": "enemy-camp"
+      }
+    ],
+    "routes": null
+  },
+  "ok": true
+}
