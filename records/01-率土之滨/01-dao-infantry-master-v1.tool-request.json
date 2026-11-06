@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-27T13:46:51.3078608Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "promptFile": "prompts/01-率土之滨/01-dao-infantry-master-v1.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept\nAsset type: one static master for a SMALL MAP INFANTRY UNIT sprite in a five-elements Daoist chibi SLG; not a hero portrait and not an animation sheet.\nInputs: Image1 and Image2 are the PRIMARY Daoist Q/chibi hand-painted style references only. Use their jade/ivory/warm-gold palette, round faces and soft refined painted materials; no UI panels or copied hero identity.\nSubject: ONE original anonymous Daoist guard infantry unit, youthful adult man, very big round head and compact sturdy body approx2.5heads tall. Small rounded jade-green cloth cap with tiny ivory cloud crest, short dark hair, friendly alert eyes. Simple ivory short tunic, jade-green short shoulder coat, restrained gold piping, dark wrapped trousers, little soft brown boots. One compact ROUND SHIELD with a simple ivory/jade cloud emblem and ONE short broad ritual spear/rune staff; weapon and shield held close to body. No long streaming tassels, no giant weapon, no ornate imperial armor. Neutral shared-faction unit; do not invent an elemental damage bonus, historical name or official affiliation.\nCamera: true isometric/three-quarter TOP-DOWN strategy-map view, camera about40degrees above ground, body facing SOUTH-EAST toward bottom-right. Show cap top, upper shoulders and both feet clearly; avoid straight-on card portrait. Solid readable silhouette at a future128px display height, simplified folds and broad clear colors, fewer tiny jewels than hero masters.\nFraming: square transparent canvas. Whole figure, cap, shield, staff tip and boots fit within CENTRAL65% width AND height. At least15% genuine transparent margin on all four sides. Tip cannot reach an edge. Feet on one consistent low imaginary baseline inside the frame; no visible ground or base. Natural ready/idle standing stance, no attack swing, no action sequence or duplicated body.\nFinish: high-definition fine hand-painted Daoist chibi, gentle daylight, rounded jade and ivory forms, restrained gold trim. Actual transparent alpha background, NO floor, pedestal, circle shadow, matte, checkerboard, glow, smoke, scenery, UI, words, numbers, logos or watermark. No 三国, historical warrior identity, realistic adult proportions, low-res pixel art, plastic3D, blur or photorealism. Exactly one infantry unit. Static master only; no implied animation.",
+    "model": null,
+    "quality": null,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false
+}

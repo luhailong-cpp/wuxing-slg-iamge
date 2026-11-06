@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/progress-frame-native.png",
+  "sha256": "a55e696d1e49916227442f8de0c4ba79c776c7d6bfac0a0d1fdeb14ac8cfe1b2",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 335,
+  "height": 105,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "transform": {
+    "cropBox": [
+      612,
+      745,
+      947,
+      850
+    ],
+    "resampled": false,
+    "scale": 1,
+    "padding": null
+  },
+  "manualOwnership": {
+    "id": "progress-frame",
+    "label": "进度外框",
+    "manualCropBox": [
+      612,
+      745,
+      947,
+      850
+    ],
+    "sourceComponentIdAbove16": 11,
+    "sourceComponentPixelsAbove16": 18404,
+    "nativeSize": [
+      335,
+      105
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 10106,
+      "alpha1Pixels": 3160,
+      "semiTransparentPixels": 25061,
+      "opaquePixels": 8,
+      "pixelsAbove16": 18404,
+      "bboxAbove16": [
+        18,
+        20,
+        322,
+        85
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": true,
+  "alphaCleanupApplied": false,
+  "alphaResampled": false,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 10106,
+    "alpha1Pixels": 3160,
+    "semiTransparentPixels": 25061,
+    "opaquePixels": 8,
+    "pixelsAbove16": 18404,
+    "bboxAbove16": [
+      18,
+      20,
+      322,
+      85
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 3160,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    },
+    {
+      "id": "PROGRESS_ASSEMBLY_AND_STRETCH_NOT_VALIDATED",
+      "message": "Frame and fill are separate static drawings; no nine-slice, arbitrary stretch, fill alignment or progress clipping accepted."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png",
+  "sha256": "a63c376507fafed1704aab74a39dd6a2e1d31f17795dafb41e7b8577ec27527a",
+  "generatedAt": "2026-10-27T18:51:49.614Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T18:50:50.979Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/15-army-formation-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/reference-contact/five-elements-masters-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/worker-theme-phase3/15-five-elements-formation-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具仅返回image_url/output_hint，未披露模型/画质。",
+  "evidence": [
+    {
+      "file": "records/worker-theme-phase3/15-five-elements-formation-ui-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/worker-theme-phase3/15-five-elements-formation-ui-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-f08e-7500-b96a-7cf0bcdf73d9/exec-7454a36d-28e4-4a50-9df4-22f121feec05.png",
+      "sha256": "a63c376507fafed1704aab74a39dd6a2e1d31f17795dafb41e7b8577ec27527a",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/worker-theme-phase3/15-five-elements-formation-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/15-army-formation-ui-v1.png",
+      "sha256": "ea6aaaa095f7fe7b8b32667caa6a075a029e2c1eeb052877e53ed3f7d8317178",
+      "role": "旧编队仅功能布局，旧人物全部弃用",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/15-army-formation-ui-v1.png.generation.json"
+    },
+    {
+      "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+      "role": "五位原创master有记录参考拼板，仅取金木身份",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "五行编队静态身份视觉候选；烘焙头像非像素复用；演示配置；无客户端集成",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T18:52:13.934026+00:00"
+}

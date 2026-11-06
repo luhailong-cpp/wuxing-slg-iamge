@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/24-metal-envoy-troop-types-ui-v2.png",
+  "sha256": "638bd1c927c5feff35f6ef2fe345906b975b520c1aaa0380552a62cb4f3bcb45",
+  "generatedAt": "2026-10-27T15:03:33.666Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T15:02:41.484Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/five-elements/24-metal-envoy-troop-types-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；工具仅返回image_url和output_hint，未披露model/quality或独立resultId。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/five-elements/24-metal-envoy-troop-types-ui-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/five-elements/24-metal-envoy-troop-types-ui-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-f08e-7500-b96a-7cf0bcdf73d9/exec-6c411e7e-6b43-4b90-be89-badae2c2d0bd.png",
+      "sha256": "638bd1c927c5feff35f6ef2fe345906b975b520c1aaa0380552a62cb4f3bcb45",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/five-elements/24-metal-envoy-troop-types-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要邮件UI画风",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要组队UI画风",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "role": "唯一金系铸锋使人物身份master",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png",
+      "sha256": "99cfef59ce0175677d94821726872c7488a00d3ee7300f52ccd82252375c6392",
+      "role": "旧兵种仅功能布局，不用历史身份",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png",
+      "sha256": "702bb211bb1f0fafeb8a8dbd1f845104e2346e97f7e0d4e1c9a1a56737cd1cd8",
+      "role": "18新金系详情UI术语与徽记一致性",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "金系铸锋使兵种静态UI候选，母版身份视觉预览，演示数值非玩法合同",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T15:08:39.810059+00:00",
+  "theme": "金木水火土原创SLG",
+  "identityMaster": {
+    "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+    "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+    "purpose": "same identity screen visual preview; no new action master or animation"
+  },
+  "replacesHistoricalDirectionCandidate": "designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png",
+  "demoValuesAreGameplayContract": false,
+  "screenMode": "baked_static_direction_draft",
+  "animationFrames": 0
+}

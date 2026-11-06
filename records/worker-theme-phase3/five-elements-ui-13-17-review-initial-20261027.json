@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T19:16:09.199637+00:00",
+  "reviewer": "theme_scope agent; visual and provenance checks, not user acceptance",
+  "scope": "P0 five-elements UI 13-17; own new versions only",
+  "status": "five_static_candidates_ready_for_parent_review_with_warnings",
+  "fullGameArtComplete": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "gameplayContractEstablished": false,
+  "runtimePortraitReuseVerified": false,
+  "d3OrD4Claimed": false,
+  "nativeVideoOrCharacterAnimationProduced": false,
+  "actualModelsAndQualitiesDisclosed": false,
+  "sharedReadmeCatalogOrPackagesModified": false,
+  "gitOperationsPerformed": false,
+  "items": [
+    {
+      "stem": "13-five-elements-spell-library-ui-v5",
+      "title": "五行术法库",
+      "file": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v5.png",
+      "sha256": "53d204e82b7ea3af1b065604d9ded8e7232587f987ed89d41e0ba655a559832b",
+      "generationRecord": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v5.png.generation.json",
+      "prompt": "prompts/01-率土之滨/worker-theme-phase3/13-five-elements-spell-library-ui-v5.prompt.txt",
+      "request": "records/worker-theme-phase3/13-five-elements-spell-library-ui-v5.tool-request.json",
+      "response": "records/worker-theme-phase3/13-five-elements-spell-library-ui-v5.tool-response.json",
+      "dimensions": [
+        1915,
+        821
+      ],
+      "mode": "RGB",
+      "nativeNoResampling": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceCount": 3,
+      "references": [
+        {
+          "file": "designs/mail-ui-v1/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "actuallyAttached": true,
+          "role": "邮件主风格"
+        },
+        {
+          "file": "designs/team-ui-v2/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "actuallyAttached": true,
+          "role": "组队主风格"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v4.png",
+          "sha256": "c610ce3a77385fc13c37d4104a3cb6f0a36ef552507c4c4ee015efaf02defe2c",
+          "actuallyAttached": true,
+          "role": "13 v4精确修图对象：仅移除页脚演示配置按钮"
+        }
+      ],
+      "manuallyViewedNative": true,
+      "visualChecks": [
+        "五系完整物件图标及五张卡片+一空位；5/200、分类、金系选中与详情、拆解入口保留。",
+        "可学习依次3/3、2/3、2/2、1/2、1/3，术法经验200。",
+        "火符牌底部和土山印底部完整；v4新增演示配置/play按钮在v5已移除。"
+      ],
+      "warnings": [
+        "原生1915×821，比其余页少1列；未缩放。",
+        "拆解术法目前为垃圾桶样图标，文字清楚但后续组件可统一为拆解物件语义。"
+      ],
+      "layoutAndChineseStatus": "candidate_readable_no_material_control_occlusion_observed",
+      "recommendedForParentReview": true,
+      "status": "candidate_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "deliveryLevel": "D1_static_fullscreen_direction",
+      "pixelIdenticalPortraitReuse": false,
+      "characterAnimationGenerated": false
+    },
+    {
+      "stem": "14-metal-spell-detail-ui-v2",
+      "title": "金系术法详情",
+      "file": "designs/01-率土之滨/ui/phase3-theme/14-metal-spell-detail-ui-v2.png",
+      "sha256": "a4a02f3bd66c72fc42be0569fbab197fe40374d49ac5b456b9e004dd2e125dd9",
+      "generationRecord": "designs/01-率土之滨/ui/phase3-theme/14-metal-spell-detail-ui-v2.png.generation.json",
+      "prompt": "prompts/01-率土之滨/worker-theme-phase3/14-metal-spell-detail-ui-v2.prompt.txt",
+      "request": "records/worker-theme-phase3/14-metal-spell-detail-ui-v2.tool-request.json",
+      "response": "records/worker-theme-phase3/14-metal-spell-detail-ui-v2.tool-response.json",
+      "dimensions": [
+        1916,
+        821
+      ],
+      "mode": "RGB",
+      "nativeNoResampling": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceCount": 5,
+      "references": [
+        {
+          "file": "designs/mail-ui-v1/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "actuallyAttached": true,
+          "role": "邮件主风格"
+        },
+        {
+          "file": "designs/team-ui-v2/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "actuallyAttached": true,
+          "role": "组队主风格"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/14-tactic-detail-ui-v1.png",
+          "sha256": "bd8c9b9dd0594baf1507ed744bfbb9ebb4a3954f932d6249a12e6c4509d9385b",
+          "actuallyAttached": true,
+          "role": "旧术法详情仅功能布局"
+        },
+        {
+          "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png",
+          "sha256": "9b22889d597cb673c4cb1f423a2bbeb0d6974a916bb19453efebf4370edbeae9",
+          "actuallyAttached": true,
+          "role": "五系原创术法物件候选"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v2.png",
+          "sha256": "14d4ff12f355b07cbf7cb4dad308cea249fd0cdff284a3cb2d5431641e89c3c7",
+          "actuallyAttached": true,
+          "role": "本批术法库金系名称与图标连续性"
+        }
+      ],
+      "manuallyViewedNative": true,
+      "visualChecks": [
+        "铸锋符阵与13名称/符尺阵盘一致；可学习3/3。",
+        "品阶待定、主动、有效距离4、发动率45%、敌军单体；步兵/弓兵/骑兵列出。",
+        "简选中、详未选，满级效果、空学习位、学习/返回术法库入口清晰。"
+      ],
+      "warnings": [
+        "描述区可见“当前为演示配置，数值与规则待确认。”；这些仍是方向稿文字，正式产品文案待定。"
+      ],
+      "layoutAndChineseStatus": "candidate_readable_no_material_control_occlusion_observed",
+      "recommendedForParentReview": true,
+      "status": "candidate_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "deliveryLevel": "D1_static_fullscreen_direction",
+      "pixelIdenticalPortraitReuse": false,
+      "characterAnimationGenerated": false
+    },
+    {
+      "stem": "15-five-elements-formation-ui-v2",
+      "title": "五行编队",
+      "file": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png",
+      "sha256": "a63c376507fafed1704aab74a39dd6a2e1d31f17795dafb41e7b8577ec27527a",
+      "generationRecord": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png.generation.json",
+      "prompt": "prompts/01-率土之滨/worker-theme-phase3/15-five-elements-formation-ui-v2.prompt.txt",
+      "request": "records/worker-theme-phase3/15-five-elements-formation-ui-v2.tool-request.json",
+      "response": "records/worker-theme-phase3/15-five-elements-formation-ui-v2.tool-response.json",
+      "dimensions": [
+        1916,
+        821
+      ],
+      "mode": "RGB",
+      "nativeNoResampling": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceCount": 4,
+      "references": [
+        {
+          "file": "designs/mail-ui-v1/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "actuallyAttached": true,
+          "role": "邮件主风格"
+        },
+        {
+          "file": "designs/team-ui-v2/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "actuallyAttached": true,
+          "role": "组队主风格"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/15-army-formation-ui-v1.png",
+          "sha256": "ea6aaaa095f7fe7b8b32667caa6a075a029e2c1eeb052877e53ed3f7d8317178",
+          "actuallyAttached": true,
+          "role": "旧编队仅功能布局，旧人物全部弃用"
+        },
+        {
+          "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+          "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+          "actuallyAttached": true,
+          "role": "五位原创master有记录参考拼板，仅取金木身份"
+        }
+      ],
+      "manuallyViewedNative": true,
+      "visualChecks": [
+        "母版拼板金系银灰短发女性铸锋使、木系棕发竹杖男性青蘅使，未沿用旧人物。",
+        "成员2/3，统御2.0+2.5=4.5/8，500+500=1000，士气100；大营/中军/空前锋。",
+        "第一队选中、第二队待配置、第三/四队锁定；征兵/配置/互换/阵容录入口保留。"
+      ],
+      "warnings": [
+        "四星、统御、兵力上限、维持消耗50/小时均为演示候选，非玩法合同。",
+        "页脚有小型演示配置文字。"
+      ],
+      "layoutAndChineseStatus": "candidate_readable_no_material_control_occlusion_observed",
+      "recommendedForParentReview": true,
+      "status": "candidate_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "deliveryLevel": "D1_static_fullscreen_direction",
+      "pixelIdenticalPortraitReuse": false,
+      "characterAnimationGenerated": false
+    },
+    {
+      "stem": "16-five-elements-conscription-ui-v2",
+      "title": "五行征兵",
+      "file": "designs/01-率土之滨/ui/phase3-theme/16-five-elements-conscription-ui-v2.png",
+      "sha256": "c2ad9abe414a4f328a84022e2af5e6e8b8bff6372018dc23610368f34f4d6b0e",
+      "generationRecord": "designs/01-率土之滨/ui/phase3-theme/16-five-elements-conscription-ui-v2.png.generation.json",
+      "prompt": "prompts/01-率土之滨/worker-theme-phase3/16-five-elements-conscription-ui-v2.prompt.txt",
+      "request": "records/worker-theme-phase3/16-five-elements-conscription-ui-v2.tool-request.json",
+      "response": "records/worker-theme-phase3/16-five-elements-conscription-ui-v2.tool-response.json",
+      "dimensions": [
+        1916,
+        821
+      ],
+      "mode": "RGB",
+      "nativeNoResampling": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceCount": 5,
+      "references": [
+        {
+          "file": "designs/mail-ui-v1/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "actuallyAttached": true,
+          "role": "邮件主风格"
+        },
+        {
+          "file": "designs/team-ui-v2/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "actuallyAttached": true,
+          "role": "组队主风格"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/16-conscription-ui-v1.png",
+          "sha256": "fab1b06a30be8c93fdb579d145cb30224425d6024319957fb8b7a7d39ef5daec",
+          "actuallyAttached": true,
+          "role": "旧征兵仅功能布局与演示算术"
+        },
+        {
+          "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+          "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+          "actuallyAttached": true,
+          "role": "五位原创master有记录参考拼板，仅取金木身份"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png",
+          "sha256": "a63c376507fafed1704aab74a39dd6a2e1d31f17795dafb41e7b8577ec27527a",
+          "actuallyAttached": true,
+          "role": "新编队金木人物及UI连续性，非像素级头像复用"
+        }
+      ],
+      "manuallyViewedNative": true,
+      "visualChecks": [
+        "同一金木母版身份；各500/1000 ->目标1000，新增各+500。",
+        "1000->2000，新增1000；粮草需10000/持有8000/不足2000；铜钱需2000/持有5000。",
+        "时间00:20:00；预备役200、立即补满需1000、不勾选且提示不足；粮草不足按钮灰色带锁。"
+      ],
+      "warnings": [
+        "成本、兵力、时间为演示；页脚有演示配置文字。"
+      ],
+      "layoutAndChineseStatus": "candidate_readable_no_material_control_occlusion_observed",
+      "recommendedForParentReview": true,
+      "status": "candidate_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "deliveryLevel": "D1_static_fullscreen_direction",
+      "pixelIdenticalPortraitReuse": false,
+      "characterAnimationGenerated": false
+    },
+    {
+      "stem": "17-five-elements-battle-report-ui-v3",
+      "title": "五行战报",
+      "file": "designs/01-率土之滨/ui/phase3-theme/17-five-elements-battle-report-ui-v3.png",
+      "sha256": "932c7af8f8b6ba354dcdea9a8e6dc1f32e6be97671ccee3987aab4c354d37f8a",
+      "generationRecord": "designs/01-率土之滨/ui/phase3-theme/17-five-elements-battle-report-ui-v3.png.generation.json",
+      "prompt": "prompts/01-率土之滨/worker-theme-phase3/17-five-elements-battle-report-ui-v3.prompt.txt",
+      "request": "records/worker-theme-phase3/17-five-elements-battle-report-ui-v3.tool-request.json",
+      "response": "records/worker-theme-phase3/17-five-elements-battle-report-ui-v3.tool-response.json",
+      "dimensions": [
+        1916,
+        821
+      ],
+      "mode": "RGB",
+      "nativeNoResampling": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "referenceCount": 5,
+      "references": [
+        {
+          "file": "designs/mail-ui-v1/01-mail-event.png",
+          "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+          "actuallyAttached": true,
+          "role": "邮件主风格"
+        },
+        {
+          "file": "designs/team-ui-v2/team-ui-v2.png",
+          "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+          "actuallyAttached": true,
+          "role": "组队主风格"
+        },
+        {
+          "file": "designs/01-率土之滨/ui/17-battle-report-ui-v2.png",
+          "sha256": "4fa0aed671307a64a45bf49270ca40f305f024757b4b679fb17df95bc58da1b1",
+          "actuallyAttached": true,
+          "role": "旧战报仅功能布局与演示算术，旧人物弃用"
+        },
+        {
+          "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+          "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+          "actuallyAttached": true,
+          "role": "五位原创master有记录参考拼板，仅取金木身份"
+        },
+        {
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+          "sha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+          "actuallyAttached": true,
+          "role": "原创道家步兵master作匿名野外守军头像候选，非正式敌方设定"
+        }
+      ],
+      "manuallyViewedNative": true,
+      "visualChecks": [
+        "我方铸锋使/青蘅使来自五母版拼板；敌方匿名守军来自已有道家步兵master，非正式敌方设定。",
+        "4/100条，四行列表、1/1分页；所选青竹原野与10-26 10:20在左右一致。",
+        "我方1000-180=820；敌方900-900=0；角色兵损100+80=180、剩余400+420=820；5回合。",
+        "详细战报使用卷轴，战斗回放入口可见；未实现回放。"
+      ],
+      "warnings": [
+        "战报是独立历史演示快照，不宣称为16粮草不足后的真实战斗；页脚有演示战报文字。"
+      ],
+      "layoutAndChineseStatus": "candidate_readable_no_material_control_occlusion_observed",
+      "recommendedForParentReview": true,
+      "status": "candidate_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "deliveryLevel": "D1_static_fullscreen_direction",
+      "pixelIdenticalPortraitReuse": false,
+      "characterAnimationGenerated": false
+    }
+  ],
+  "retainedCandidateHistory": [
+    {
+      "file": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v2.png",
+      "sha256": "14d4ff12f355b07cbf7cb4dad308cea249fd0cdff284a3cb2d5431641e89c3c7",
+      "record": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v2.png.generation.json",
+      "status": "retained_unselected_candidate",
+      "issue": "下排火/土图标底缘被卡片文案窗截住。"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v3.png",
+      "sha256": "607c28aa31320aeae8f05a0cdc64b1a60d601ef227c89b56cf98062a411a3dc2",
+      "record": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v3.png.generation.json",
+      "status": "retained_unselected_candidate",
+      "issue": "图标缩小但下排截窗仍在，未宣称修复。"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v4.png",
+      "sha256": "c610ce3a77385fc13c37d4104a3cb6f0a36ef552507c4c4ee015efaf02defe2c",
+      "record": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v4.png.generation.json",
+      "status": "retained_unselected_candidate",
+      "issue": "五完整图标已改善，但新增演示配置/play页脚控件；v5已移除。"
+    }
+  ],
+  "globalLimitations": [
+    "整屏均为生成式烘焙UI方向稿，未切片/未客户端交互/未Unity功能集成。",
+    "人物为母版身份视觉再现，不能声称像素级头像复用；public_audit负责独立导出头像。",
+    "术法新名、四星、数值、兵种适配、目标/成本/时间均为候选演示，非玩法规则合同。",
+    "源五行术法sheet自身仍待独立QA；本批没有宣称源sheet通过或成为运行时icon包。",
+    "未调用收费API/CLI；宿主只返回image_url/output_hint；PNG+实际metadata receipt承载证据，未重复保存base64。"
+  ]
+}

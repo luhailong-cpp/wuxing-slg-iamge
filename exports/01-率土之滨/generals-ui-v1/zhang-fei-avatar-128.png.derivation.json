@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/zhang-fei-avatar-128.png",
+  "sha256": "8077d41bb7bfd69b099e618c5b3a76e4d1f828abb6282f1a1a1942322a81d495",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "zhang-fei",
+  "displayName": "张飞",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/09-zhang-fei-v1.png",
+      "sha256": "783a39018536d3780d3a5591ab4e5beb5dd0bb08cac82475cb9911c3a8b04000",
+      "record": "designs/01-率土之滨/characters/09-zhang-fei-v1.png.generation.json",
+      "recordSha256": "5f0bf25e3671501f78ffb233d9359a694469589f7443af351c10f82db8eb5a07"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    240,
+    280,
+    735,
+    805
+  ],
+  "resizeTo": [
+    106,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    11,
+    8,
+    117,
+    120
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    350,
+    465,
+    635,
+    720
+  ],
+  "faceRoiOutputApprox": [
+    34.56,
+    47.47,
+    95.59,
+    101.87
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 7526,
+    "alpha1Pixels": 98,
+    "semiTransparentPixels": 8656,
+    "opaquePixels": 202,
+    "bboxAbove32": [
+      11,
+      12,
+      117,
+      120
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      11,
+      12,
+      11,
+      8
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhang-fei-avatar-128.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 98,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhang-fei-avatar-128.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        240,
+        280,
+        735,
+        805
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/zhang-fei-avatar-128.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

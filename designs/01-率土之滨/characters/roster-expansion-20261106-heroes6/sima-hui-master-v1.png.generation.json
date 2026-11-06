@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+  "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+  "generatedAt": "2026-11-06T11:23:13.155791+00:00",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-06T11:18:47.325Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-8ae7427b-d514-4c7c-afde-66e0430c0df7",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-master-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. No actual model or quality returned. The public release does not identify the model or quality of this specific result.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261106-heroes6/sima-hui-master-v1.request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261106-heroes6/sima-hui-master-v1.response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1b089-1f97-7013-b0c7-59a96b923658/exec-8ae7427b-d514-4c7c-afde-66e0430c0df7.png",
+      "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 893201,
+    "semiTransparentPixelCount": 679663,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-11-06T11:23:56.114049+00:00",
+  "identity": {
+    "id": "sima-hui",
+    "name": "司马徽",
+    "personID": "ww-p-a6b659948cdc",
+    "cardIDs": [
+      100354,
+      100811
+    ],
+    "source": "https://zh.wikisource.org/zh-hans/三國志/卷37",
+    "identityEvidence": "Records of the Three Kingdoms vol. 37, Pei Songzhi commentary citing Xiangyang Ji: Sima Decao and his recognition of Pang Tong."
+  }
+}

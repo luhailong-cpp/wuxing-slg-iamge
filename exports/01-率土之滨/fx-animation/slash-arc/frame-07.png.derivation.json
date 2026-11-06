@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png",
+  "sha256": "e0d00de7459d8cdf01c708b08e505831a56d80678721ec92c22dde5f0aac5cbb",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png",
+    "sha256": "da618f485d3cbd050c69cd5ea54a509fe8c12d41557f390c84de429d18e77e34",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png.generation.json"
+  },
+  "operation": "native_crop_then_integer_translate_paste_on_transparent_fixed_canvas",
+  "cropBox": [
+    1331,
+    444,
+    1774,
+    887
+  ],
+  "cropBoxConvention": "left,top,right-exclusive,bottom-exclusive",
+  "ownershipMethod": "nominal4x2 half-up boxes, manually inspected complete contours and gaps",
+  "sourceNativeSize": [
+    1774,
+    887
+  ],
+  "sourceCropSize": [
+    443,
+    443
+  ],
+  "sourceAnchorPx": [
+    1545,
+    675
+  ],
+  "sourceAnchorLocalPx": [
+    214,
+    231
+  ],
+  "sourceAnchorMethod": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+  "sourceAnchorUncertainty": "human visual estimate; approximately +/-3px, candidate only",
+  "pasteOffsetPx": [
+    236,
+    219
+  ],
+  "offsetPx": [
+    236,
+    219
+  ],
+  "targetAnchorPx": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "exportSize": [
+    900,
+    900
+  ],
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "alphaHygiene": "none",
+  "pixelIdentityAgainstSourceCrop": true,
+  "perFrameBboxNormalization": false,
+  "sourceAnchorMappedToTargetResidualPx": [
+    0,
+    0
+  ],
+  "previousExport": {
+    "sha256": "4fe3c1260e48434d3290e9da14cf68495ba7bd7b26399a4e3ada313ecd4e770e",
+    "previousOperation": "unregistered native cell crop/padding; exact source can be recovered from sourceSheet and old packaging metadata"
+  },
+  "createdAtUtc": "2026-10-27T17:28:31.333449+00:00"
+}

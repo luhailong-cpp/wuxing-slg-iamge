@@ -1,0 +1,162 @@
+{
+  "scope": "Read-only full current36 exported UI alpha edge audit; edge evidence does not by itself prove every touched pixel is a clipped intended component",
+  "threshold": 16,
+  "assetCount": 36,
+  "edgeTouchCount": 7,
+  "items": [
+    {
+      "id": "button-primary-hover",
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-hover.png",
+      "edgePixelsAbove16": [
+        0,
+        330,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        0,
+        116,
+        3,
+        0
+      ],
+      "cropBox": [
+        1330,
+        0,
+        1774,
+        222
+      ]
+    },
+    {
+      "id": "button-secondary-hover",
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-hover.png",
+      "edgePixelsAbove16": [
+        328,
+        0,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        96,
+        7,
+        3,
+        0
+      ],
+      "cropBox": [
+        1330,
+        222,
+        1774,
+        444
+      ]
+    },
+    {
+      "id": "icon-attack",
+      "file": "exports/01-率土之滨/runtime-ui/icon-attack.png",
+      "edgePixelsAbove16": [
+        0,
+        19,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        1,
+        247,
+        0,
+        1
+      ],
+      "cropBox": [
+        15,
+        640,
+        335,
+        937
+      ]
+    },
+    {
+      "id": "icon-defense",
+      "file": "exports/01-率土之滨/runtime-ui/icon-defense.png",
+      "edgePixelsAbove16": [
+        0,
+        25,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        1,
+        234,
+        1,
+        1
+      ],
+      "cropBox": [
+        337,
+        635,
+        618,
+        918
+      ]
+    },
+    {
+      "id": "icon-strategy",
+      "file": "exports/01-率土之滨/runtime-ui/icon-strategy.png",
+      "edgePixelsAbove16": [
+        0,
+        43,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        1,
+        252,
+        1,
+        1
+      ],
+      "cropBox": [
+        642,
+        620,
+        947,
+        940
+      ]
+    },
+    {
+      "id": "icon-siege",
+      "file": "exports/01-率土之滨/runtime-ui/icon-siege.png",
+      "edgePixelsAbove16": [
+        61,
+        0,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        254,
+        3,
+        0,
+        1
+      ],
+      "cropBox": [
+        10,
+        915,
+        352,
+        1235
+      ]
+    },
+    {
+      "id": "icon-timer",
+      "file": "exports/01-率土之滨/runtime-ui/icon-timer.png",
+      "edgePixelsAbove16": [
+        30,
+        0,
+        0,
+        0
+      ],
+      "alphaMaxAtEdges": [
+        255,
+        1,
+        1,
+        1
+      ],
+      "cropBox": [
+        650,
+        915,
+        942,
+        1230
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/official-card-art-20261104/card-100585-artwork.png",
+  "sha256": "002496b13023eb192d3c26c85fedf0bdfe38dd497650cffc38471a538896167b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/official-card-art-20261104/card-100585-master-v1.png",
+    "sha256": "f54685fc07820c04dbcd2d940d40af4fe087492a51d19aaab571bcc12cfeaa0f",
+    "generation": "designs/01-率土之滨/characters/official-card-art-20261104/card-100585-master-v1.png.generation.json",
+    "generationSha256": "b5131e94182c7f255d87db85ee133a1afcb4fa2ff1c8c2d8e8c76fd69e36c4ce"
+  },
+  "operation": {
+    "crop": [
+      0,
+      120,
+      1024,
+      1457
+    ],
+    "cropBasis": "alpha above 16 plus up to 24 native pixels on each edge",
+    "uniformScale": 0.6875,
+    "resizedSize": [
+      704,
+      919
+    ],
+    "offset": [
+      32,
+      52
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false
+}

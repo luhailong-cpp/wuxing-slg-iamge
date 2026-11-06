@@ -1,0 +1,111 @@
+{
+  "operation": "QA montage of10 actual GPU captures, 8 observed phases + caller clear + late clear; no source sprite rendering or hand frame assignment",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+      "sha256": "7dfe736af4ef54ffd26d467421ae80604012d5792d312dc2b3dcdc63d83054a1"
+    }
+  ],
+  "displayScale": 0.5,
+  "resizeMethod": "LANCZOS of opaque GPU captures only",
+  "labels": "Actual source game elapsed, not invented phase key times",
+  "localRawInputs": [
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0000.png",
+      "sha256": "c2aa87cda475ad6a2416d7ade9c5976d22fd93ea28fdec2ba4a2f9a9f5dab3d6",
+      "published": false,
+      "captureOrdinal": 0,
+      "observedFrameIndex": 0,
+      "gameElapsedSeconds": 0.01666666753590107
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0005.png",
+      "sha256": "c1dd58df04c1eab50be116661e2cc38724043c66b631f1b7cea500652c3a42d1",
+      "published": false,
+      "captureOrdinal": 5,
+      "observedFrameIndex": 1,
+      "gameElapsedSeconds": 0.10000000086923441
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0012.png",
+      "sha256": "1a87aa058cc4122b96580c5b52d40a5700a84c98b74547d01b452d70cad89bd2",
+      "published": false,
+      "captureOrdinal": 12,
+      "observedFrameIndex": 2,
+      "gameElapsedSeconds": 0.21666666753590108
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0017.png",
+      "sha256": "339c2a68efbb26b8f5a630f7a8aba671b2221a6676d1193a3d0e0a61eb69a7c9",
+      "published": false,
+      "captureOrdinal": 17,
+      "observedFrameIndex": 3,
+      "gameElapsedSeconds": 0.3000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0023.png",
+      "sha256": "69add738ab2a922aea9d85e0fa2c7327031143838b4c8c829934225510805489",
+      "published": false,
+      "captureOrdinal": 23,
+      "observedFrameIndex": 4,
+      "gameElapsedSeconds": 0.4000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0029.png",
+      "sha256": "9fba663587c723ead813b50b78cc8fea11e35a9b6789840f63d706d2b70eed7d",
+      "published": false,
+      "captureOrdinal": 29,
+      "observedFrameIndex": 5,
+      "gameElapsedSeconds": 0.5000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0036.png",
+      "sha256": "743cde3f55151edcfa0f3205e635f1f4676c1565361bf2953c5ba5c02279b08f",
+      "published": false,
+      "captureOrdinal": 36,
+      "observedFrameIndex": 6,
+      "gameElapsedSeconds": 0.616666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0042.png",
+      "sha256": "6e4a1e027de7d97336da74888070bce0e0ebbea29e8d58454695bcbf49eb768d",
+      "published": false,
+      "captureOrdinal": 42,
+      "observedFrameIndex": 7,
+      "gameElapsedSeconds": 0.716666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0047.png",
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "published": false,
+      "captureOrdinal": 47,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 0.8000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/reward-glow/dark/frame-0059.png",
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "published": false,
+      "captureOrdinal": 59,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 1.0000000008692342
+    }
+  ],
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/montages/reward-glow-dark.png",
+  "sha256": "8843d798900d81a6c31fc394c9a1789e20f8e830caca8a356c49d7b3ceecc8e3",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

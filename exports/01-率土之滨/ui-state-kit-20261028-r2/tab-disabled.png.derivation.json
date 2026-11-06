@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-disabled.png",
+  "sha256": "1bb1cb20ca63dba7c88e0e96e43e6185088e46c368f1ced1f29437b974d19afd",
+  "derivedAtUtc": "2026-10-29T04:02:55.072007+00:00",
+  "width": 512,
+  "height": 224,
+  "mode": "RGBA",
+  "operation": "axis_aligned_rectangular_crop_only",
+  "cropBoxSourceXYXY": [
+    1024,
+    640,
+    1536,
+    864
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "record": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png.generation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "nativeSingleAsset": false,
+  "pixelValueIdentity": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alpha0": 45617,
+    "alpha1": 3643,
+    "alpha2to8": 1072,
+    "alpha255": 0,
+    "bboxAbove8": [
+      31,
+      28,
+      465,
+      180
+    ],
+    "edgePixelsAbove8": 0
+  },
+  "nineSlice": {
+    "defaultImportMode": "Simple",
+    "validatedInRuntime": false,
+    "suggestedBorderPxLTRB": [
+      104,
+      76,
+      104,
+      76
+    ],
+    "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+    "note": "Corners fixed; selected/default shape differs slightly at pixel level; no pixel-identical state geometry claim."
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

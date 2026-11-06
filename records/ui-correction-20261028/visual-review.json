@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-28T08:18:59.186Z",
+  "sourceContract": "docs/CURRENT_REQUIREMENTS_20261028.md",
+  "batchScope": [
+    18,
+    19,
+    24
+  ],
+  "requirement": "横版SLG；金木水火土仅五种兵种；其余身份与系统按率土参考，沿既定道家Q版画风。",
+  "nativeOutputCount": 3,
+  "fullGameArtComplete": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "reviewMethod": "Actual generated-image view in host for all three outputs; file dimensions and cryptographic/source-chain integrity independently inspected by local script.",
+  "items": [
+    {
+      "screenId": 24,
+      "stem": "24-liu-bei-five-troop-types-ui-v1",
+      "observed": [
+        "横版，刘备男武将、长发小胡须、玉冠双剑身份保留。",
+        "五卡从左到右金兵/木兵/水兵/火兵/土兵；四角金徽/绿叶/蓝水滴/红火焰/赭山图形区分；全部完整。",
+        "金兵当前，其他四卡可切换；当前兵种金兵与已使用金兵一致；原距离3与COST2.0保留。",
+        "未见步兵/弓兵/骑兵、五系英雄称号或新增克制/概率。"
+      ],
+      "warnings": [
+        "本页为烘焙整屏方向图，五个徽记是AI基于母图重现，不是独立导出像素贴图。",
+        "沿原目标图左侧角色构图，衣摆在画布底部有构图截边；不是完整立绘交付。",
+        "可切换四项仍用原页灰色次要状态外观，正式可交互与禁用对比需状态组件验收。"
+      ]
+    },
+    {
+      "screenId": 18,
+      "stem": "18-liu-bei-gold-troop-detail-ui-v1",
+      "observed": [
+        "横版，汉/刘备/四星及原男性双剑身份保留，未变五系英雄。",
+        "金徽与金兵位于领兵类型；COST 2.0字样不再与图标重叠。",
+        "Lv.5、0/500、兵力500/500、体力100/100、五项原数值与增量可读。",
+        "义勇军Lv.1、学习、未觉醒、战法经验200保留；属性仍为谋略，不是灵力。"
+      ],
+      "warnings": [
+        "角色轮廓是基于母版的生成式重现，非逐像素复用；右剑邻近面板、鞋底邻近画布下缘沿旧构图保留。",
+        "原等级、兵力、成长和技能数值为现有参考方向数据，未将其宣称为官方实时规则。"
+      ]
+    },
+    {
+      "screenId": 19,
+      "stem": "19-liu-bei-gold-troop-recruit-result-ui-v1",
+      "observed": [
+        "横版招募结果、获得武将、汉/刘备/四星/双剑身份保留。",
+        "卡片底行Lv.1/COST2.0/金徽金兵/攻击距离3可读，未见步弓骑。",
+        "已加入武将卡册、当前数量7/100、查看武将/确定/再次招募保持。"
+      ],
+      "warnings": [
+        "左卡是原有矩形局部人物构图，非完整立绘交付。",
+        "7/100与详情Lv.5等是独立页面示例，不宣称同一账号连续游戏数据。"
+      ]
+    }
+  ],
+  "sharedLimits": [
+    "所有三张都是D1候选，不含独立控件、动态文字、实际交互或客户端集成。",
+    "金兵作为本批可调整的当前选择，不构成刘备固定兵种/五行身份/阵营规则。",
+    "原生1915/1916×821按工具输出分别保存，没有拉齐或重采样。",
+    "配置目标gpt-image-2.5-sunburst/max；实际工具没有相应参数，actualModel/actualQuality均null。",
+    "只在本worker独占子目录新增，未改全局catalog、历史记录或Git。"
+  ]
+}
+

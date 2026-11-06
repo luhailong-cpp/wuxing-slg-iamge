@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-avatar-256.png",
+  "sha256": "2043a438925a60dd2d6138b4fee5f7a8b71319c581322c343280ec60b3a33b56",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+    "sha256": "c06ad04904a6bee8f45d1a02832202470c33af0d7c62a8b7f0397c391baaa510",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      170,
+      45,
+      698,
+      738
+    ],
+    "uniformScale": 0.34054834054834054,
+    "resizedSize": [
+      180,
+      236
+    ],
+    "offset": [
+      38,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

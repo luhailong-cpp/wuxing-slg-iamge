@@ -1,0 +1,49 @@
+{
+  "completedAt": "2026-10-28T08:54:32.975739+00:00",
+  "status": "native_continuous_plate_exported_and_Unity_roundtrip_verified_candidate",
+  "nativeGenerationCalls": 1,
+  "maxGenerationCallsAuthorized": 2,
+  "newNativeImages": 1,
+  "exportSprites": 1,
+  "unchangedNativePixels": true,
+  "alphaEdited": false,
+  "visualPlateCandidateAcceptedByAgent": true,
+  "visualSeamlessTiling": "FAIL",
+  "browserPassed": true,
+  "unitySourcePassed": true,
+  "unityFreshImportPassed": true,
+  "package": {
+    "file": "exports/01-率土之滨/terrain-continuity-20261028/unity/WuxingSLGContinuousGrass-20261028.unitypackage",
+    "sha256": "1c7c8540bbf0e4271a9ddc1c41cff6c9fc8d5f013484087479c2d9e11516ad66"
+  },
+  "packageBytes": 1281719,
+  "seamEvidence": {
+    "nearTransparentInternalPixels": 1440,
+    "below128InternalPixels": 8181,
+    "oppositeEdgeMeanAbsoluteRGB": [
+      19.891344383057092,
+      18.661141804788215
+    ]
+  },
+  "actualRepairs": [
+    "Removed independent stone/flower rim from the grass foundation",
+    "Provides continuous original grass within one bounded plate",
+    "Preserves original alpha and dimensions in native export and Unity import"
+  ],
+  "notClaimed": [
+    "Seamless repeat tiling",
+    "Road/river/bridge-approach completion",
+    "Navigation or collision validation",
+    "Troop animation",
+    "GPU or PlayMode rendering for this grass package",
+    "Actual client integration",
+    "Full game art complete"
+  ],
+  "nextSpecificMapGap": "Generate a common river/bank/bridge-approach socket matching the existing bridge layers before placing a bridge into this grass region.",
+  "globalDocsModified": false,
+  "oldMapModified": false,
+  "gitUsed": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

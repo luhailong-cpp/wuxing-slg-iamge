@@ -1,0 +1,213 @@
+{
+  "schema": "wuxing-slg.water-grounded-frames-qa.v1",
+  "reviewedAt": "2026-10-29T09:02:29.861352+00:00",
+  "status": "static_visual_and_integrity_candidate",
+  "generatedNativeSheetsInThisStep": 0,
+  "existingSelectedNativeSheets": 4,
+  "animationFrames": 20,
+  "derivedPng": 60,
+  "userApproved": false,
+  "unityRun": false,
+  "sources": [
+    {
+      "action": "idle",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "sha256": "5cb7cbe8f3dc8bfe4fa35e75e808e2cd5b2bfb05cab3e4de75b19c09305d8c09",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "frames": 4,
+      "visualFinding": "Selected repaired v2. Breathing/closed-eye exhale/recovery readable, all gear contained after ownership cutting.",
+      "status": "static_visual_technical_candidate"
+    },
+    {
+      "action": "attack",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "sha256": "7c44796514c6c15aafa045f0c7de9c56873c529d339b73f8ef5c1ce4f5d753a4",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "frames": 6,
+      "visualFinding": "Six phases readable; ring baton remains in right hand, shield in left. Lower-row source boundaries x566/x1072 preserve extended ring weapons. Perspective/head tilt still varies.",
+      "status": "static_visual_technical_candidate"
+    },
+    {
+      "action": "hurt",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "sha256": "363d491a2cab621da66e5892b788a37ffe496a03c8fd27b0237e82f428e74a39",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "frames": 4,
+      "visualFinding": "Recoil, closed eyes, crouch and recovery are distinguishable. No visible equipment swap or clipped body.",
+      "status": "static_visual_technical_candidate"
+    },
+    {
+      "action": "defeat",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "frames": 6,
+      "visualFinding": "Standing -> knee support -> kneeling -> seated low hold. Frames5/6 use real visible sole and seated trouser/knee support. Frame6 baton rests beside hand as prompted; tassel is explicitly excluded from ground root.",
+      "status": "static_visual_technical_candidate"
+    }
+  ],
+  "actuallyViewed": [
+    "four selected native source PNGs",
+    "four measurement grids",
+    "four boot/knee/seated support boards",
+    "master contact/helmet board",
+    "defeat6 magnified seat crop",
+    "eight aligned light/dark boards"
+  ],
+  "checks": [
+    {
+      "id": "source_partition_rgba_preserved",
+      "action": "idle",
+      "status": "PASS",
+      "nativeExactRGBAFrames": 4,
+      "wholeSourceAlphaNonzeroCount": 472156,
+      "cutEdgesAlphaAbove16": 0,
+      "maximumRootMidpointErrorPx": 0.6100478468899837
+    },
+    {
+      "id": "source_partition_rgba_preserved",
+      "action": "attack",
+      "status": "PASS",
+      "nativeExactRGBAFrames": 6,
+      "wholeSourceAlphaNonzeroCount": 614478,
+      "cutEdgesAlphaAbove16": 0,
+      "maximumRootMidpointErrorPx": 0.5546875
+    },
+    {
+      "id": "source_partition_rgba_preserved",
+      "action": "hurt",
+      "status": "PASS",
+      "nativeExactRGBAFrames": 4,
+      "wholeSourceAlphaNonzeroCount": 687445,
+      "cutEdgesAlphaAbove16": 0,
+      "maximumRootMidpointErrorPx": 0.7161084529504933
+    },
+    {
+      "id": "source_partition_rgba_preserved",
+      "action": "defeat",
+      "status": "PASS",
+      "nativeExactRGBAFrames": 6,
+      "wholeSourceAlphaNonzeroCount": 564588,
+      "cutEdgesAlphaAbove16": 0,
+      "maximumRootMidpointErrorPx": 0.462890625
+    }
+  ],
+  "warnings": [
+    {
+      "id": "source_low_alpha_residue",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "value": 29414,
+      "threshold": 0,
+      "unit": "alpha=1 pixels",
+      "handling": "Preserved in source/native1024; no cleanup."
+    },
+    {
+      "id": "source_low_alpha_residue",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "value": 41683,
+      "threshold": 0,
+      "unit": "alpha=1 pixels",
+      "handling": "Preserved in source/native1024; no cleanup."
+    },
+    {
+      "id": "source_no_fully_opaque_pixel",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "value": 254,
+      "threshold": 255,
+      "unit": "maximum alpha",
+      "handling": "Original opacity retained."
+    },
+    {
+      "id": "source_low_alpha_residue",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "value": 61950,
+      "threshold": 0,
+      "unit": "alpha=1 pixels",
+      "handling": "Preserved in source/native1024; no cleanup."
+    },
+    {
+      "id": "source_low_alpha_residue",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "value": 35048,
+      "threshold": 0,
+      "unit": "alpha=1 pixels",
+      "handling": "Preserved in source/native1024; no cleanup."
+    },
+    {
+      "id": "source_no_fully_opaque_pixel",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "value": 254,
+      "threshold": 255,
+      "unit": "maximum alpha",
+      "handling": "Original opacity retained."
+    },
+    {
+      "id": "source_grid_not_uniform",
+      "status": "WARN",
+      "files": [
+        "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+        "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+        "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+        "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png"
+      ],
+      "value": "explicit ownership sourceRect differs from equal grid",
+      "threshold": "uniform-grid import",
+      "handling": "Use measured sourceRect; original PNG unchanged."
+    },
+    {
+      "id": "map128h_legacy_name",
+      "status": "WARN",
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "value": 137,
+      "threshold": 128,
+      "unit": "master alpha>16 silhouette px",
+      "handling": "Shared180px helmet method retained; no per-frame fit."
+    },
+    {
+      "id": "motion_not_playback_accepted",
+      "status": "WARN",
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+      "value": "static QA only",
+      "threshold": "user/client playback acceptance",
+      "handling": "Suggested timing; foot spacing/head tilt/loop seam remain for playback."
+    },
+    {
+      "id": "defeat_seated_support_transition",
+      "status": "WARN",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "value": "kneeling frames3/4 transition to seated frames5/6",
+      "threshold": "one continuous support model",
+      "handling": "Manual knee/sole/seated pants projections used; baton/tassel/shield excluded. Playback transition remains unverified."
+    }
+  ],
+  "limits": [
+    "No new image generation during ownership/export step. Existing source records retained unchanged.",
+    "Idle v2 selected; idle v1 not used as an animation source, remains historical input to its edit record.",
+    "Only SE four actions, not all-direction or locomotion coverage.",
+    "No Unity/animation playback, user approval, hitbox or gameplay validation.",
+    "Native1024 preserves exactRGBA; smaller tiers are resampled derivatives and naturally quantize alpha.",
+    "Tool model/quality remain unconfirmed as existing source sidecars state."
+  ]
+}

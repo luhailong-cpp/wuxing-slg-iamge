@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-28T12:06:46.667Z",
+  "producer": "audit_mapfx",
+  "scope": "23/34/35 correction only",
+  "items": [
+    {
+      "screenId": 23,
+      "title": "刘备配点",
+      "selectedPath": "designs/01-率土之滨/ui/troop-correction-extra-20261028/23-liu-bei-attributes-ui-v1.png",
+      "sha256": "af6b104d38bd33198bf9751201ef1a6d23cbdb040f6d7f00cb999c583a86695d",
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-extra-20261028/23-liu-bei-attributes-ui-v1.png.generation.json",
+      "qaRecord": "records/ui-correction-extra-20261028/23-liu-bei-attributes-ui-v1.visual-qa.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRecheckedInThisBatch": true,
+      "newGenerationInThisBatch": true,
+      "visualConclusion": {
+        "historicalIdentity": "PASS",
+        "fourStars": "PASS",
+        "tallGreenCrown": "PASS",
+        "metalFourPointJadeCoreEmblem": "PASS_visual_at_native_view",
+        "noOldInfantryOrElementHeroWording": "PASS",
+        "zeroAllocationButtons": "PASS_minus_reset_confirm_disabled_plus_enabled",
+        "fiveAttributeRows": "PASS",
+        "COSTNoOverlap": "PASS"
+      },
+      "correctionRounds": 0,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "limits": [
+        "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+        "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+        "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+        "User approval and full state coverage remain false",
+        "金兵 is current example selection only, not Liu Bei permanent faction or fixed troop rule"
+      ]
+    },
+    {
+      "screenId": 34,
+      "title": "武将觉醒",
+      "selectedPath": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v2.png",
+      "sha256": "14daaa79e75c86ea5e201953b21fc39ed092649f379ce5e44ff0ad89779deff6",
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v2.png.generation.json",
+      "qaRecord": "records/ui-correction-extra-20261028/34-liu-bei-awakening-ui-v2.visual-qa.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRecheckedInThisBatch": true,
+      "newGenerationInThisBatch": true,
+      "visualConclusion": {
+        "historicalIdentity": "PASS",
+        "fourStars": "PASS_after_targeted_fix",
+        "materialArithmetic": "PASS_1of2_oneMissing",
+        "disabledInsufficientAction": "PASS",
+        "thirdTacticSlotPreview": "PASS_locked_before_plus_after",
+        "noElementHeroOrSpellSlotWording": "PASS",
+        "layoutPreserved": "PASS_visual_function_hierarchy"
+      },
+      "correctionRounds": 1,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "limits": [
+        "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+        "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+        "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+        "User approval and full state coverage remain false",
+        "觉醒玉 and count1/2 inherited from the original direction; formal awakening gameplay rules not validated",
+        "Targeted edit changed surrounding raster pixels slightly; no pixel-perfect locality claim"
+      ]
+    },
+    {
+      "screenId": 35,
+      "title": "招募入口",
+      "selectedPath": "designs/01-率土之滨/ui/troop-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.png",
+      "sha256": "7af390204fc5aa050f7ed83589af6d65795664d48894f057753ebf470a4740fe",
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.png.generation.json",
+      "qaRecord": "records/ui-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.visual-qa.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRecheckedInThisBatch": true,
+      "newGenerationInThisBatch": true,
+      "visualConclusion": {
+        "historicalGeneralPreview": "PASS_LiuBei_CaoCao_ZhaoYun_ZhugeLiang",
+        "masterIdentityConsistency": "PASS_visual",
+        "noFiveElementHeroSummon": "PASS",
+        "twoCurrencyColumns": "PASS",
+        "currencyArithmetic": "PASS_1000minus680equals320",
+        "jadeFiveRecruitDisabled": "PASS",
+        "coinsOnlyForCopperCurrency": "PASS",
+        "noForcedElementRecruitCategories": "PASS"
+      },
+      "correctionRounds": 0,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "limits": [
+        "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+        "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+        "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+        "User approval and full state coverage remain false",
+        "Displayed historical generals are preview examples; actual pool eligibility and rarity/odds are not validated"
+      ]
+    }
+  ],
+  "generationCalls": 4,
+  "newNativeImages": 4,
+  "selectedPages": 3,
+  "nonselectedDrafts": 1,
+  "localHeavyWorkPaused": true,
+  "unityLaunched": false,
+  "browserLaunched": false,
+  "compilationOrTestsRun": false,
+  "subprocessesLaunched": false,
+  "globalSelectionModified": false,
+  "fullGameArtComplete": false
+}

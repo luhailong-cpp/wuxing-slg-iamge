@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+  "sha256": "fd8c75652373e56da7f1c87171cc4073224f5ab1944b76c62b9d696d7cee7090",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 950,
+  "height": 890,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "05-earth",
+  "element": "earth",
+  "variant": "bust-native",
+  "identityPreservedFromMaster": "brown side-swept bun, jade bead tassel hairpiece; ochre ivory green robe, mountain seal and jade shield in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "record": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "recordSha256": "cf6f24dba60acb7667f1a48373fbe171967bc473f5bc4d070ff902933432dd02"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    50,
+    150,
+    1000,
+    1040
+  ],
+  "resizeTo": null,
+  "resizeScaleNominal": null,
+  "actualScaleXY": null,
+  "resizeMethod": null,
+  "paddingCanvas": null,
+  "pasteOffsetTopLeft": null,
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    370,
+    310,
+    680,
+    545
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 294380,
+    "alpha1PixelCount": 8324,
+    "alphaSemiPixels": 551120,
+    "alphaOpaquePixels": 0,
+    "bboxAbove16": [
+      25,
+      26,
+      923,
+      890
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      750,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 8324,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        50,
+        150,
+        1000,
+        1040
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

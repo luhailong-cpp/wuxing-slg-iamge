@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 2,
+  "assetId": "slash-arc",
+  "reviewedAtUtc": "2026-10-27T17:30:59.320451+00:00",
+  "reviewer": "theme_scope",
+  "reviewScope": "生成worker实际逐格及浅深底文件级QA，非独立第二审稿人或用户验收。",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png",
+  "sourceSha256": "da618f485d3cbd050c69cd5ea54a509fe8c12d41557f390c84de429d18e77e34",
+  "sourceRecord": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png.generation.json",
+  "artSource": "host_image",
+  "route": "builtin image_gen.imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "findings": [
+    "8相位从微火花、短弧、月牙扩张至峰值，再缩为残弧和末火花，视觉属于同一斩击动作。",
+    "v1峰值占格过大保留为失败/待修源；v2为一次实际AI边距编辑后源。",
+    "原先444固定画布只保证canvas anchor，未解决上/下行约60—80px图形漂移；已另按人工标定的斩击作用/旋转中心逐帧整数注册到900方，旧未注册manifest保留为superseded证据。",
+    "注册后斩击中心在共同anchor附近，主月牙本身形状和宽度仍有生成式自然变体，平滑度不作为已通过。"
+  ],
+  "ownership": {
+    "nominalGridAdjusted": false,
+    "cropBoxes": [
+      [
+        0,
+        0,
+        444,
+        444
+      ],
+      [
+        444,
+        0,
+        887,
+        444
+      ],
+      [
+        887,
+        0,
+        1331,
+        444
+      ],
+      [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      [
+        0,
+        444,
+        444,
+        887
+      ],
+      [
+        444,
+        444,
+        887,
+        887
+      ],
+      [
+        887,
+        444,
+        1331,
+        887
+      ],
+      [
+        1331,
+        444,
+        1774,
+        887
+      ]
+    ],
+    "method": "manual visual subject ownership with transparent gaps; preserve source pixels",
+    "healingNominalCrossingResolvedByY400OwnershipSplit": false,
+    "allSourceCropMaxEdgeAlpha": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "allSourceCropVisibleBorderPixelCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "visibleSourceContoursComplete": true,
+    "visibleNeighborIntrusionObserved": false
+  },
+  "registration": {
+    "manualSourceAnchors": true,
+    "semanticOriginSelection": "斩击作用/旋转中心；符阵阵心；治疗环底心，各按具体FX语义。",
+    "sameTargetCanvas": [
+      900,
+      900
+    ],
+    "sameTargetAnchor": [
+      450,
+      450
+    ],
+    "sourceAnchorTransformsVerified": true,
+    "transformResidualPx": 0,
+    "nativeScalePreserved": true,
+    "perFrameBboxNormalization": false,
+    "alphaErasureOrDespill": false,
+    "manualPointUncertainty": "approximate human visual points, +/-3px; not final event/hitpoint calibration"
+  },
+  "perFrame": [
+    {
+      "index": 0,
+      "cropBox": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "cropNativeSize": [
+        444,
+        444
+      ],
+      "sourceAnchorPx": [
+        243,
+        300
+      ],
+      "sourceAnchorLocalPx": [
+        243,
+        300
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        207,
+        150
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 585776,
+      "visibleSourceCropBbox": [
+        202,
+        264,
+        282,
+        335
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png",
+      "sha256": "ea1218414baa62192062c88cfe4e90b0933f408048de281f879bca0ddd887b32",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 1,
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "cropNativeSize": [
+        443,
+        444
+      ],
+      "sourceAnchorPx": [
+        667,
+        300
+      ],
+      "sourceAnchorLocalPx": [
+        223,
+        300
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        227,
+        150
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 1593240,
+      "visibleSourceCropBbox": [
+        148,
+        233,
+        300,
+        362
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png",
+      "sha256": "85139dae186315e4500d468e46475025bb011238df69d1964c9d6e9dd2b748fc",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 2,
+      "cropBox": [
+        887,
+        0,
+        1331,
+        444
+      ],
+      "cropNativeSize": [
+        444,
+        444
+      ],
+      "sourceAnchorPx": [
+        1110,
+        300
+      ],
+      "sourceAnchorLocalPx": [
+        223,
+        300
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        227,
+        150
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 5776354,
+      "visibleSourceCropBbox": [
+        101,
+        196,
+        344,
+        414
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png",
+      "sha256": "78673bf0f2b54de718ce7a829b3f3dfcdfc7d83101561cc4beccd77cb672a06d",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 3,
+      "cropBox": [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      "cropNativeSize": [
+        443,
+        444
+      ],
+      "sourceAnchorPx": [
+        1552,
+        300
+      ],
+      "sourceAnchorLocalPx": [
+        221,
+        300
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        229,
+        150
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 9605596,
+      "visibleSourceCropBbox": [
+        65,
+        164,
+        344,
+        431
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png",
+      "sha256": "afc28f1389c353e967c35040537475fccc56bb97833814d0b2e093cb5a7b6155",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 4,
+      "cropBox": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "cropNativeSize": [
+        444,
+        443
+      ],
+      "sourceAnchorPx": [
+        243,
+        675
+      ],
+      "sourceAnchorLocalPx": [
+        243,
+        231
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        207,
+        219
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 10465038,
+      "visibleSourceCropBbox": [
+        106,
+        99,
+        386,
+        365
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png",
+      "sha256": "9fe541508e6c3edd09679bd442d5b440047a69d7ae413ef821a03899d3f05741",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 5,
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "cropNativeSize": [
+        443,
+        443
+      ],
+      "sourceAnchorPx": [
+        670,
+        675
+      ],
+      "sourceAnchorLocalPx": [
+        226,
+        231
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        224,
+        219
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 5936472,
+      "visibleSourceCropBbox": [
+        134,
+        121,
+        348,
+        347
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png",
+      "sha256": "4e2034a20ef87268a333a4c9132f770a09525f91f2dd42d45c839e891ca61305",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 6,
+      "cropBox": [
+        887,
+        444,
+        1331,
+        887
+      ],
+      "cropNativeSize": [
+        444,
+        443
+      ],
+      "sourceAnchorPx": [
+        1108,
+        675
+      ],
+      "sourceAnchorLocalPx": [
+        221,
+        231
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        229,
+        219
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 2425356,
+      "visibleSourceCropBbox": [
+        134,
+        147,
+        297,
+        306
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png",
+      "sha256": "59970c00ecee6887bb167a2ae289b4c75b0bfe3cb86e1ae5bc441dcd64788920",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 7,
+      "cropBox": [
+        1331,
+        444,
+        1774,
+        887
+      ],
+      "cropNativeSize": [
+        443,
+        443
+      ],
+      "sourceAnchorPx": [
+        1545,
+        675
+      ],
+      "sourceAnchorLocalPx": [
+        214,
+        231
+      ],
+      "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        236,
+        219
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 472158,
+      "visibleSourceCropBbox": [
+        178,
+        197,
+        250,
+        264
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png",
+      "sha256": "e0d00de7459d8cdf01c708b08e505831a56d80678721ec92c22dde5f0aac5cbb",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    }
+  ],
+  "oneShotSequence": {
+    "allEightFramesNonempty": true,
+    "eightDistinctHashes": true,
+    "alphaSumByFrame": [
+      585776,
+      1593240,
+      5776354,
+      9605596,
+      10465038,
+      5936472,
+      2425356,
+      472158
+    ],
+    "peakFrameIndex": 4,
+    "strictGrowthThenDecayAlphaSum": true,
+    "chronologicalPhasesActuallyViewed": true,
+    "registeredLightAndDarkContactActuallyViewed": true,
+    "fullPlaybackSmoothnessFinalApproval": false
+  },
+  "timing": {
+    "durationSeconds": 0.8,
+    "frameDurationSeconds": 0.1,
+    "loop": false,
+    "events": [],
+    "status": "demonstration only; no damage/heal/combat bindings"
+  },
+  "sourceNominalGridSkillQa": {
+    "rawReport": "records/01-率土之滨/fx-animation/slash-arc-sheet-v2.spill-qc.json",
+    "rawReportSha256": "7980fb5ca1e53cc67cf35797d0e46e1141de2870a4d96d3333799a62e0dfb5a4",
+    "rawReportOriginalLocation": "work/fx-animation-theme-scope/slash-arc-v2-spill/sheet-qc.json",
+    "relativeNamesInRawReportBasis": "original tool output location; overlays are scratch intermediates",
+    "method": "8-connected components at alpha > 127 (solid) and > 16 (visible edge) on the raw sheet; a component belongs to the cell holding most of its pixels; cells are forge_core.rounded_grid_boxes; specks are forge_core.alpha_hygiene('both') counts",
+    "status": "warn",
+    "warningsAndFailuresVerbatim": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 127930,
+          "detached_components": 4
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "allChecks": [
+      {
+        "id": "cross_cell_components",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "cells": [],
+        "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "the same test on the visible edge (alpha > 16)"
+      },
+      {
+        "id": "sheet_edge",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "art touching the sheet border was cut by the image edge"
+      },
+      {
+        "id": "empty_cells",
+        "status": "pass",
+        "value": [],
+        "threshold": [],
+        "note": "the first 8 cells must each hold a subject"
+      },
+      {
+        "id": "boundary_band",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "solid pixels within 9 px of a cell line; a different crop or rounding can cut them"
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 127930,
+          "detached_components": 4
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "nominalFailureDoesNotDescribeFinalManualOwnership": false
+  },
+  "finalFrameValidation": {
+    "frameCount": 8,
+    "animations": 1,
+    "pngRgba": true,
+    "sourcePixelsPreserved": true,
+    "sharedCanvasAndAnchor": true,
+    "visibleClipOrNeighborIssues": false
+  },
+  "manifest": "exports/01-率土之滨/fx-animation/slash-arc/manifest.json",
+  "status": "registered_generated_eight_phase_candidate_pending_user_motion_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "smoothAnimationFinallyApproved": false,
+  "battleEventsImplemented": false,
+  "fullGameArtComplete": false,
+  "limitations": [
+    "生成式8相位候选，不是已经用户验收的流畅成品动画；仍需检查真实播放节奏、形状一致性与游戏缩放。",
+    "安全边距与微量低alpha散点源警告保留，不称全部QC通过。",
+    "运行时0.8s结束后隐藏；当前无伤害/治疗事件、打击停顿或客户端集成验收。"
+  ]
+}

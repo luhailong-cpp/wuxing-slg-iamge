@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+  "sha256": "f6e4cfad8cdb9e3cbad46d88f7bc5ef8435892d47cf567cbc81a34026e3c7c27",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 920,
+  "height": 920,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "02-wood",
+  "element": "wood",
+  "variant": "bust-native",
+  "identityPreservedFromMaster": "brown bun, jade leaf hairpiece and leaves; green ivory robe, leaf staff in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "record": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "recordSha256": "dd3800dfd429174d906029509e7bed4eef1810ec4607c0185e5a082e0bb041f7"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    90,
+    170,
+    1010,
+    1090
+  ],
+  "resizeTo": null,
+  "resizeScaleNominal": null,
+  "actualScaleXY": null,
+  "resizeMethod": null,
+  "paddingCanvas": null,
+  "pasteOffsetTopLeft": null,
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    402,
+    438,
+    701,
+    700
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 369762,
+    "alpha1PixelCount": 19568,
+    "alphaSemiPixels": 476638,
+    "alphaOpaquePixels": 0,
+    "bboxAbove16": [
+      33,
+      30,
+      894,
+      920
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      742,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 19568,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        90,
+        170,
+        1010,
+        1090
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

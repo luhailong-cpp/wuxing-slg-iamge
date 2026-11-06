@@ -1,0 +1,1378 @@
+{
+  "schemaVersion": 2,
+  "updatedAtUtc": "2026-10-28T12:50:39.641335+00:00",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "gameName": "五行问鼎",
+  "contract": "docs/CURRENT_REQUIREMENTS_20261028.md",
+  "sourceChecklist": "records/ui-correction-20261028/ui-36-troop-correction-checklist.json",
+  "sourceChecklistSha256": "8b9846cdb2e194d6ebabdf2e8898bf3432fef63d1a9713cb49c6e4fd189ad423",
+  "sourceCatalog": "records/current-art-catalog-20261027.json",
+  "pageCount": 36,
+  "selectedCount": 36,
+  "pendingSelectionScreenIds": [],
+  "correctedOrRestoredPageIds": [
+    2,
+    3,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    33,
+    34,
+    35
+  ],
+  "statusCounts": {
+    "reviewed_visual_mapping_followup": 10,
+    "corrected_direction_candidate": 14,
+    "reviewed_no_explicit_conflict_observed": 5,
+    "reviewed_restored_candidate": 1,
+    "corrected_copy_direction_candidate": 2,
+    "reviewed_local_ui_followup": 4
+  },
+  "items": [
+    {
+      "screenId": 1,
+      "title": "大地图",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "priorCatalogSelectionSha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "selectedFile": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "sha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "nativeSize": {
+        "width": 1931,
+        "height": 814,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/01-world-map-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+        "sourceSha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "01-visual-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "地图部队、右侧三条部队记录",
+          "detail": "旧稿的兵士与部队头像尚无当前五行兵资源/历史武将 ID 映射证据。",
+          "action": "接入时明确地图单位、武将头像、兵种徽记和行军状态图标各自角色；不要把马形行军图标自动当骑兵分类。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 2,
+      "title": "天下大势",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/02-world-trends-ui-v2.png",
+      "priorCatalogSelectionSha256": "3880515c59f5bf408c71f55ac57a726ba5ffaf9a0b1d4b1d77685777c18ef1bb",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/02-historical-world-trends-unlock-fixed-ui-v1.png",
+      "sha256": "019610c71f8c5b2563c584c46391651a78f9805b1aa222db273d968660eec0bb",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/02-historical-world-trends-unlock-fixed-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "五阶段恢复历史命名；第2/5汉室衰微进行中，后三阶段未开启。",
+        "40/60尚未达成；解锁栏锁图标，奖励按钮灰色，前序已领取状态独立。",
+        "赛季12天、倒计时01天12:30:00、玉符300铜钱50000保持。"
+      ],
+      "remainingLimits": [
+        "静态示例界面，不验证历史系统阶段命名或数值与原版同账号一致。"
+      ],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 3,
+      "title": "武将卡册",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/03-five-elements-roster-ui-v3.png",
+      "priorCatalogSelectionSha256": "e77d6e67b2e5cdc92cde0139cb1e0a817c392b81a322a58b712c80f40a323deb",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v2.png",
+      "sha256": "701b21a9ea86ba761764584a189857d204a7c0ca0cefdb3d4c28b804470a8b96",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v2.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "六历史武将/全部+五兵种筛选/刘备4星及金兵字段完整。",
+        "金兵徽记已改四角绿玉中心，义勇军已改绿旗兵群图形；原属性/战法体系保留。"
+      ],
+      "remainingLimits": [],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 4,
+      "title": "主城",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+      "priorCatalogSelectionSha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+      "selectedFile": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+      "sha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/04-main-city-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+        "sourceSha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "04-ambient-troops",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "校场与募兵所周边小兵",
+          "detail": "场景军士可能是气氛装饰，也可能代表可操作单位；静态图无法确定。",
+          "action": "若为游戏部队，建立五行兵映射；纯装饰可按公共城建皮肤保留，不强加五行建筑/资源。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 5,
+      "title": "分城",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+      "priorCatalogSelectionSha256": "7511461ca58efc5581495a3d156558435b437976a932e545af53cd97369d21a8",
+      "selectedFile": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+      "sha256": "7511461ca58efc5581495a3d156558435b437976a932e545af53cd97369d21a8",
+      "nativeSize": {
+        "width": 1931,
+        "height": 814,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_no_explicit_conflict_observed",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "no_explicit_conflict_observed",
+        "sourcePath": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+        "sourceSha256": "7511461ca58efc5581495a3d156558435b437976a932e545af53cd97369d21a8"
+      },
+      "remainingReviewIssues": [],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 6,
+      "title": "戍城",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+      "priorCatalogSelectionSha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "selectedFile": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+      "sha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+        "sourceSha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "06-roster-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "右侧驻军头像、场景军士",
+          "detail": "这些部队头像尚未展示历史武将身份和与当前资源的绑定；兵士也无五行兵映射证据。",
+          "action": "按部队数据绑定历史武将 ID 与五行兵 ID；不得因有马或无标签通用兵就判为旧三兵种系统。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 7,
+      "title": "要塞",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+      "priorCatalogSelectionSha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+      "selectedFile": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+      "sha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/07-fortress-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+        "sourceSha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "07-roster-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "驻军记录、要塞前军士",
+          "detail": "武将头像与作战单位的当前身份/兵种绑定未证实。",
+          "action": "接入时分别绑定历史武将与五行兵；中性驻军/容量图标无需强改成兵种图标。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 8,
+      "title": "军营",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+      "priorCatalogSelectionSha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+      "selectedFile": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+      "sha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+        "sourceSha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "08-roster-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "驻军记录与军营训练单位",
+          "detail": "当前五行兵与历史武将资源的绑定未显示。",
+          "action": "按实际部队数据建立头像、兵士、徽记映射；场景器具按用途判定，不能一律删除弓靶或坐骑。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 9,
+      "title": "县城",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+      "priorCatalogSelectionSha256": "21811d82f2c6f4c7c9ff598c9547b622d7901ee59913dea7ab291fac4c70892b",
+      "selectedFile": "designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+      "sha256": "21811d82f2c6f4c7c9ff598c9547b622d7901ee59913dea7ab291fac4c70892b",
+      "nativeSize": {
+        "width": 1932,
+        "height": 814,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+        "sourceSha256": "21811d82f2c6f4c7c9ff598c9547b622d7901ee59913dea7ab291fac4c70892b"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "09-guard-icon-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "右侧守军图标",
+          "detail": "图标若只表示守军可保留；若代码将它用作具体兵种则需要对应五行兵。",
+          "action": "接入时明确图标语义；不要仅因图标含弓/盾而判为旧弓兵类型。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 10,
+      "title": "郡城",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+      "priorCatalogSelectionSha256": "965122cbfd510c341013969a20b054a846a4cda6c2c614e1d9880bc710bd567b",
+      "selectedFile": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+      "sha256": "965122cbfd510c341013969a20b054a846a4cda6c2c614e1d9880bc710bd567b",
+      "nativeSize": {
+        "width": 1931,
+        "height": 814,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+        "sourceSha256": "965122cbfd510c341013969a20b054a846a4cda6c2c614e1d9880bc710bd567b"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "10-decorative-unit-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "右侧防务区域淡色骑乘剪影",
+          "detail": "无法仅凭剪影认定旧骑兵分类。",
+          "action": "如用于具体守军/兵种展示则建立五行兵映射；若是中性防务装饰可保留。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 11,
+      "title": "州府",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+      "priorCatalogSelectionSha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+      "selectedFile": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+      "sha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_no_explicit_conflict_observed",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "no_explicit_conflict_observed",
+        "sourcePath": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+        "sourceSha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0"
+      },
+      "remainingReviewIssues": [],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 12,
+      "title": "国都",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+      "priorCatalogSelectionSha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e",
+      "selectedFile": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+      "sha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_no_explicit_conflict_observed",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "no_explicit_conflict_observed",
+        "sourcePath": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+        "sourceSha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e"
+      },
+      "remainingReviewIssues": [],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 13,
+      "title": "战法库",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v5.png",
+      "priorCatalogSelectionSha256": "53d204e82b7ea3af1b065604d9ded8e7232587f987ed89d41e0ba655a559832b",
+      "selectedFile": "designs/01-率土之滨/ui/13-tactic-library-ui-v1.png",
+      "sha256": "11430d8f52dac6e28ba08bf311719e2b8a4f8585442f7e8a7f1d949c02105d34",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/13-tactic-library-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "reviewed_restored_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "实际复看历史v1；全部/攻击/谋略/恢复/辅助分类正确。",
+        "6/200，突击D攻击3/3、谋攻D谋略3/3、回春C恢复2/3、守心C辅助1/3、破阵B攻击1/2、御风B辅助2/2；谋攻选中。",
+        "没有步弓骑兵种字段、五系英雄或五行术法替换；恢复原文件即可。"
+      ],
+      "remainingLimits": [
+        "战法文本及数据沿历史样例，未核验原版同账号真实数据；静态候选尚未客户端验收。"
+      ],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 14,
+      "title": "战法详情",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/phase3-theme/14-metal-spell-detail-ui-v3.png",
+      "priorCatalogSelectionSha256": "1ac2c4f9c550d8caa466ce6ede0c7247bd45155a9425649c1540ffaa5f03fddb",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/14-original-tactic-five-troop-applicability-ui-v1.png",
+      "sha256": "7d879d12426f80ca6b0c994dd58461959448e0b2beb6371030817d9625f85e5b",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/14-original-tactic-five-troop-applicability-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "谋攻D、Lv.1、主动、距离4、45%、敌军单体、3/3和无消耗学习保留。",
+        "全兵种适用由原全部三兵种适配为全部五行兵种；徽记与文字顺序金木水火土且完整。",
+        "没有将战法变为五行术法，面板间隔与按钮完整。"
+      ],
+      "remainingLimits": [
+        "适用集合遵循原全部兵种语义；正式武将/战法数据表仍待真实游戏配置，不宣称数值已验收。"
+      ],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 15,
+      "title": "部队配置",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v3.png",
+      "priorCatalogSelectionSha256": "f51ff4351a2d71f9123e458c5f20e5aa37108b5196f3dda8ea75ff5b94817f19",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/15-historical-generals-five-troops-formation-ui-v2.png",
+      "sha256": "710d5d8aeb7cc8a8d32272f1c7ac7a6e10c92ac97368e7fd5c68949e928b3920",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/15-historical-generals-five-troops-formation-ui-v2.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "刘备四星、赵云五星，刘备金兵/赵云木兵仅装备兵种；队伍数值自洽。",
+        "金徽记已修正四角绿玉中心，无马首旧兵种符号。"
+      ],
+      "remainingLimits": [],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 16,
+      "title": "征兵",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/phase3-theme/16-five-elements-conscription-ui-v3.png",
+      "priorCatalogSelectionSha256": "aeda5db96440404bc07d6849620a615e4be65e64061335541e475724fd7fb48b",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/16-historical-generals-five-troops-conscription-ui-v1.png",
+      "sha256": "b8853840fdfdc3bb194850d412a48a8fdddde3404e2df4ff2319dbf188fcbf49",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/16-historical-generals-five-troops-conscription-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "刘备金兵/赵云木兵、双头像身份明确。",
+        "各500→1000/+500，总1000→2000/+1000；粮草缺2000、预备役不足与禁用一致。"
+      ],
+      "remainingLimits": [],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 17,
+      "title": "战报",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/phase3-theme/17-five-elements-battle-report-ui-v4.png",
+      "priorCatalogSelectionSha256": "a2960fbdddbef9b18a6d097dcfb9ff894657b3cbfcdbcf86fe68b8c2f45be852",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/17-historical-generals-five-troops-battle-report-ui-v2.png",
+      "sha256": "8de1d02ef321743be42a04ed1149b88d2300795c0f9574e92917339bacf9b507",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/17-historical-generals-five-troops-battle-report-ui-v2.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "刘备恢复高直深绿玉冠，小胡须与绿白衣；赵云无须银甲形象保留。",
+        "金兵、木兵文字可读；金四尖玉芯徽记与木叶徽记正确。",
+        "1000-180=820，900-900=0；刘备损100剩400、赵云损80剩420；5回合。"
+      ],
+      "remainingLimits": [
+        "小头像为生成重绘，需后续运行时用原始母版派生头像替换；未接入客户端。"
+      ],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 18,
+      "title": "刘备详情",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png",
+      "priorCatalogSelectionSha256": "702bb211bb1f0fafeb8a8dbd1f845104e2346e97f7e0d4e1c9a1a56737cd1cd8",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png",
+      "sha256": "c6a7a151db4f0f23aecd159af6cd752a63d6cb936019cb5715f8dcd2c40a434f",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "横版，汉/刘备/四星及原男性双剑身份保留，未变五系英雄。",
+        "金徽与金兵位于领兵类型；COST 2.0字样不再与图标重叠。",
+        "Lv.5、0/500、兵力500/500、体力100/100、五项原数值与增量可读。",
+        "义勇军Lv.1、学习、未觉醒、战法经验200保留；属性仍为谋略，不是灵力。"
+      ],
+      "remainingLimits": [
+        "角色轮廓是基于母版的生成式重现，非逐像素复用；右剑邻近面板、鞋底邻近画布下缘沿旧构图保留。",
+        "原等级、兵力、成长和技能数值为现有参考方向数据，未将其宣称为官方实时规则。"
+      ],
+      "reviewRecordSha256": "d4d30893cfac1163e4cd0ed6afbdd99947cee5952ed8bedd2e854e878d170c7a"
+    },
+    {
+      "screenId": 19,
+      "title": "刘备招募结果",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/19-metal-envoy-recruit-result-ui-v2.png",
+      "priorCatalogSelectionSha256": "56b44835e1076a81c5a416abed4e9469727ef2c1e46ba80a04d73e893ddac1b5",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/19-liu-bei-gold-troop-recruit-result-ui-v1.png",
+      "sha256": "3d10ee88acd896b16ec31fd877f8086b76127262553e4c8a0058217a3116ca74",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/19-liu-bei-gold-troop-recruit-result-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "横版招募结果、获得武将、汉/刘备/四星/双剑身份保留。",
+        "卡片底行Lv.1/COST2.0/金徽金兵/攻击距离3可读，未见步弓骑。",
+        "已加入武将卡册、当前数量7/100、查看武将/确定/再次招募保持。"
+      ],
+      "remainingLimits": [
+        "左卡是原有矩形局部人物构图，非完整立绘交付。",
+        "7/100与详情Lv.5等是独立页面示例，不宣称同一账号连续游戏数据。"
+      ],
+      "reviewRecordSha256": "d4d30893cfac1163e4cd0ed6afbdd99947cee5952ed8bedd2e854e878d170c7a"
+    },
+    {
+      "screenId": 20,
+      "title": "建造引导",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+      "priorCatalogSelectionSha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833",
+      "selectedFile": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+      "sha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+        "sourceSha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "20-background-unit-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "募兵/训练区背景小兵",
+          "detail": "小兵是背景装饰还是操作单位尚无数据层证据。",
+          "action": "仅在代表实际部队时绑定当前五行兵；保留教程 NPC 及普通城建功能。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 21,
+      "title": "行军",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/21-map-march-ui-v4.png",
+      "priorCatalogSelectionSha256": "67710def47a3061f84b0b8b90dd6447d8fe62065a1eed6f7ffda0e95a6232f32",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/21-historical-generals-five-troops-map-march-ui-v2.png",
+      "sha256": "b023a2b7f886d692a77330e4cf35d403b78e47bfdd9116abfdc6b39067930ebe",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/21-historical-generals-five-troops-map-march-ui-v2.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "三部队刘备金兵、赵云木兵、曹操火兵正确，地图为金/木/火普通兵形象。",
+        "三条卡片地点已补回：主城→敌方城池、平原营地、要塞→主城；状态/原数字对照保持。",
+        "绿色路线沿单石桥跨两岸至敌门；橙色返程结束在主城门，木兵驻军无路线；没有桥头几何回退。"
+      ],
+      "remainingLimits": [
+        "2000/1000/1500在旧稿只由马头图标承载，字段语义未被真实数据证实；本稿仅为中性行装图标，须运行时绑定确认，不定义新资源。",
+        "地图单位为整屏重绘且非实际寻路/动作验证；武将兵种分配为可修订样例。"
+      ],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 22,
+      "title": "救援引导",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "priorCatalogSelectionSha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+      "selectedFile": "designs/01-率土之滨/ui/qa-correction-20261028/22-rescue-camp-copy-ui-v2.png",
+      "sha256": "6bbc5224e39df774513cab82f90ed0bae92c690903156e166137bd1d6837f83e",
+      "nativeSize": {
+        "width": 1914,
+        "height": 822,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/qa-correction-20261028/22-rescue-camp-copy-ui-v2.png.generation.json",
+      "reviewRecord": "records/qa-correction-20261028/visual-review.json",
+      "correctionStatus": "corrected_copy_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visible_copy_fix_required",
+        "sourcePath": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+        "sourceSha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "22-unit-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "我方军士与带队者",
+          "detail": "未提供与当前五行兵、历史武将身份的绑定证据。",
+          "action": "区分武将/兵士/NPC，再按实际数据映射；无标签的骑乘表现不自动认定旧三兵种。"
+        }
+      ],
+      "reviewerTask": "/root",
+      "resolvedPriorIssueIds": [
+        "22-dialogue-referent"
+      ],
+      "remainingLimits": [
+        "只修指代；通用地图兵士与骑乘引导单位尚待五行兵视觉映射",
+        "路线为画面表达，未验证可达性、碰撞、寻路或实际游戏流程"
+      ],
+      "visualFindings": [
+        "对白明确改为避开流寇营地，与红色标注相符；任务0/1、残破仓库、前往救援保留。"
+      ],
+      "crossReviewRecord": "records/ui-correction-20261028/external-selection-cross-review.json",
+      "reviewRecordSha256": "06b4fcad90b6f14af0c77e87370180e5bfc5c32a9b8d58ccde68b6421abd76e0"
+    },
+    {
+      "screenId": 23,
+      "title": "刘备配点",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/23-metal-envoy-attributes-ui-v2.png",
+      "priorCatalogSelectionSha256": "1b637b9e0baabd47396e1e5a8e3e5d4ddd1187d79ba4c136ceec0520ed4ac8ff",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-extra-20261028/23-liu-bei-attributes-ui-v1.png",
+      "sha256": "af6b104d38bd33198bf9751201ef1a6d23cbdb040f6d7f00cb999c583a86695d",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-extra-20261028/23-liu-bei-attributes-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-extra-20261028/23-liu-bei-attributes-ui-v1.visual-qa.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/audit_mapfx",
+      "remainingLimits": [
+        "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+        "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+        "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+        "User approval and full state coverage remain false",
+        "金兵 is current example selection only, not Liu Bei permanent faction or fixed troop rule"
+      ],
+      "visualFindings": [
+        "刘备汉4星、高绿冠小胡须、金兵徽记与COST2.0保持。",
+        "攻击78、防御84、谋略74、速度58、攻城19均+0，可用10；五减号及重置/确认灰态正确。"
+      ],
+      "crossReviewRecord": "records/ui-correction-20261028/external-selection-cross-review.json",
+      "reviewRecordSha256": "9a2676c0aa70816e6cfb97049281309baede91849f9c94ce44f0bbabedb06b05"
+    },
+    {
+      "screenId": 24,
+      "title": "刘备兵种",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/24-metal-envoy-troop-types-ui-v2.png",
+      "priorCatalogSelectionSha256": "638bd1c927c5feff35f6ef2fe345906b975b520c1aaa0380552a62cb4f3bcb45",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/24-liu-bei-five-troop-types-ui-v1.png",
+      "sha256": "ad92c9bb5149688b216c8f405f32b8053b7f20a82e9dd3d4f5342ecf3741db8b",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/24-liu-bei-five-troop-types-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "横版，刘备男武将、长发小胡须、玉冠双剑身份保留。",
+        "五卡从左到右金兵/木兵/水兵/火兵/土兵；四角金徽/绿叶/蓝水滴/红火焰/赭山图形区分；全部完整。",
+        "金兵当前，其他四卡可切换；当前兵种金兵与已使用金兵一致；原距离3与COST2.0保留。",
+        "未见步兵/弓兵/骑兵、五系英雄称号或新增克制/概率。"
+      ],
+      "remainingLimits": [
+        "本页为烘焙整屏方向图，五个徽记是AI基于母图重现，不是独立导出像素贴图。",
+        "沿原目标图左侧角色构图，衣摆在画布底部有构图截边；不是完整立绘交付。",
+        "可切换四项仍用原页灰色次要状态外观，正式可交互与禁用对比需状态组件验收。"
+      ],
+      "reviewRecordSha256": "d4d30893cfac1163e4cd0ed6afbdd99947cee5952ed8bedd2e854e878d170c7a"
+    },
+    {
+      "screenId": 25,
+      "title": "登录选服",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/25-login-server-ui-v1.png",
+      "priorCatalogSelectionSha256": "44e933deba035b37765e4430f6e9b1c9bcbcd641f008c66b4a7de313b3cd11fd",
+      "selectedFile": "designs/01-率土之滨/ui/qa-correction-20261028/25-wuxing-wending-login-server-ui-v2.png",
+      "sha256": "964c0cf217f1c1de6cb2ff31a13ab4e9e1a07d525b40ed67dcf67eb97f368e8b",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/qa-correction-20261028/25-wuxing-wending-login-server-ui-v2.png.generation.json",
+      "reviewRecord": "records/qa-correction-20261028/visual-review.json",
+      "correctionStatus": "corrected_copy_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visible_copy_fix_required",
+        "sourcePath": "designs/01-率土之滨/ui/25-login-server-ui-v1.png",
+        "sourceSha256": "44e933deba035b37765e4430f6e9b1c9bcbcd641f008c66b4a7de313b3cd11fd"
+      },
+      "remainingReviewIssues": [],
+      "reviewerTask": "/root",
+      "resolvedPriorIssueIds": [
+        "25-missing-title"
+      ],
+      "remainingLimits": [
+        "AI重绘方向稿，标题为烘焙像素，不声称与独立logo完全逐像素一致",
+        "正式登录/协议/服务器业务未接入，未做设备与安全区验收"
+      ],
+      "visualFindings": [
+        "五行问鼎标题清楚，首服选中/次服流畅/三服维护及协议选中可见。"
+      ],
+      "crossReviewRecord": "records/ui-correction-20261028/external-selection-cross-review.json",
+      "reviewRecordSha256": "06b4fcad90b6f14af0c77e87370180e5bfc5c32a9b8d58ccde68b6421abd76e0"
+    },
+    {
+      "screenId": 26,
+      "title": "同盟",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "priorCatalogSelectionSha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b",
+      "selectedFile": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "sha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/26-alliance-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_local_ui_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "local_ui_followup",
+        "sourcePath": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+        "sourceSha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "26-28-player-avatar",
+          "kind": "cross_page_consistency",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "清禾玩家头像；对照 screenId 28",
+          "detail": "若两个页面描述同一示例账号且未表达换头像，两处头像外观不一致。",
+          "action": "统一示例玩家 ID 与头像，或明确可更换头像的状态；不要把玩家头像误判为五系武将。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 27,
+      "title": "邮件",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/27-mail-ui-v1.png",
+      "priorCatalogSelectionSha256": "804eb2f770288552e8e2497bff138cb9790cec956927eb07a616cf92ecee82ba",
+      "selectedFile": "designs/01-率土之滨/ui/27-mail-ui-v1.png",
+      "sha256": "804eb2f770288552e8e2497bff138cb9790cec956927eb07a616cf92ecee82ba",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/27-mail-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/27-mail-ui-v1.png",
+        "sourceSha256": "804eb2f770288552e8e2497bff138cb9790cec956927eb07a616cf92ecee82ba"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "27-illustration-unit-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "邮件正文上方军队插画",
+          "detail": "插画中的通用头盔军士若承担具体兵种示意，需要与当前资源一致；若纯装饰则不构成旧分类证据。",
+          "action": "在独立 UI 分层/接入时确认插画用途，再决定映射或保留。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 28,
+      "title": "聊天",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/28-chat-ui-v1.png",
+      "priorCatalogSelectionSha256": "de01459135509fa77f68aef6759d256c9fae714494a46b80d7eec30dca0d57db",
+      "selectedFile": "designs/01-率土之滨/ui/28-chat-ui-v1.png",
+      "sha256": "de01459135509fa77f68aef6759d256c9fae714494a46b80d7eec30dca0d57db",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/28-chat-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_local_ui_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "local_ui_followup",
+        "sourcePath": "designs/01-率土之滨/ui/28-chat-ui-v1.png",
+        "sourceSha256": "de01459135509fa77f68aef6759d256c9fae714494a46b80d7eec30dca0d57db"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "26-28-player-avatar",
+          "kind": "cross_page_consistency",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "清禾玩家头像；对照 screenId 26",
+          "detail": "同名示例账号两页头像不同；是否为换头像状态未知。",
+          "action": "绑定同一示例玩家 ID 后统一头像或记录换头像状态；不能据此外观断言五系英雄。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 29,
+      "title": "任务",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/29-quests-ui-v1.png",
+      "priorCatalogSelectionSha256": "a4179f8a5579d9df12d7f31473b33a356e9a3689bf22cdc0690f8b09a1624c84",
+      "selectedFile": "designs/01-率土之滨/ui/29-quests-ui-v1.png",
+      "sha256": "a4179f8a5579d9df12d7f31473b33a356e9a3689bf22cdc0690f8b09a1624c84",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/29-quests-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_no_explicit_conflict_observed",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "no_explicit_conflict_observed",
+        "sourcePath": "designs/01-率土之滨/ui/29-quests-ui-v1.png",
+        "sourceSha256": "a4179f8a5579d9df12d7f31473b33a356e9a3689bf22cdc0690f8b09a1624c84"
+      },
+      "remainingReviewIssues": [],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 30,
+      "title": "设置帮助",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/30-settings-help-ui-v1.png",
+      "priorCatalogSelectionSha256": "2ef4da3a2a4ab24f63a2a6b7eea73de3b8dabc0c93e8d60fa2de90d1634a8410",
+      "selectedFile": "designs/01-率土之滨/ui/30-settings-help-ui-v1.png",
+      "sha256": "2ef4da3a2a4ab24f63a2a6b7eea73de3b8dabc0c93e8d60fa2de90d1634a8410",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/30-settings-help-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_local_ui_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "local_ui_followup",
+        "sourcePath": "designs/01-率土之滨/ui/30-settings-help-ui-v1.png",
+        "sourceSha256": "2ef4da3a2a4ab24f63a2a6b7eea73de3b8dabc0c93e8d60fa2de90d1634a8410"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "30-quality-under-audio",
+          "kind": "ui_grouping",
+          "certainty": "observed",
+          "priority": "followup",
+          "location": "声音页下方当前画质下拉项",
+          "detail": "图像质量控件与选中的声音分类不一致。",
+          "action": "移到画面页，或明确此面板是综合设置，避免误导。"
+        },
+        {
+          "id": "30-reconnect-scope",
+          "kind": "coverage_note",
+          "certainty": "observed",
+          "priority": "not_a_visible_defect",
+          "location": "右侧连接中断提示及重新连接按钮",
+          "detail": "断线提示与重连入口已可见；重连中、失败、恢复及实际事件尚未验证。",
+          "action": "后续状态清单只补未覆盖状态，不重复声称本页无断线/重连入口。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 31,
+      "title": "土地详情",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+      "priorCatalogSelectionSha256": "65c774e965202d436733ff54c428f3616a6b99f2fcd468753a23116142ed422d",
+      "selectedFile": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+      "sha256": "65c774e965202d436733ff54c428f3616a6b99f2fcd468753a23116142ed422d",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_visual_mapping_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "visual_mapping_followup",
+        "sourcePath": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+        "sourceSha256": "65c774e965202d436733ff54c428f3616a6b99f2fcd468753a23116142ed422d"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "31-guard-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "林地守军地图单位及右侧守军头像",
+          "detail": "当前可见的是通用野外守军，没有与现行五行兵 ID 的映射证据。",
+          "action": "依据实际守军数据绑定五行兵种；不因拿长兵器就直接判为旧步兵分类，也不把木材地块硬设为木兵。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 32,
+      "title": "背包",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+      "priorCatalogSelectionSha256": "2b5e5e6496bd94df81c8283b54c8d61a6f7ea336e6b3c993762e98195b07882d",
+      "selectedFile": "designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+      "sha256": "2b5e5e6496bd94df81c8283b54c8d61a6f7ea336e6b3c993762e98195b07882d",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/32-inventory-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_local_ui_followup",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "local_ui_followup",
+        "sourcePath": "designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+        "sourceSha256": "2b5e5e6496bd94df81c8283b54c8d61a6f7ea336e6b3c993762e98195b07882d"
+      },
+      "remainingReviewIssues": [
+        {
+          "id": "32-recruit-ticket-glyph",
+          "kind": "icon_embedded_text",
+          "certainty": "probable_needs_confirmation",
+          "priority": "followup",
+          "location": "下排右侧招募券卡内红色卷轴",
+          "detail": "卷轴内文目视疑似“储粮”，而卡名为“招募券”。",
+          "action": "局部确认字形；若确为储粮则改为无字招募券或招募相关字样，并让正式标签由 UI 文本层显示。"
+        }
+      ],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    },
+    {
+      "screenId": 33,
+      "title": "战斗结算",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/33-five-elements-battle-result-ui-v2.png",
+      "priorCatalogSelectionSha256": "526cf37330b5b7615be7a4467e8c608d69a91a1896656d2c362cbf53a6d477e3",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.png",
+      "sha256": "1f76212b7cd4b6ab28af6caa0b4742c64d2671bc8102f180f68506e60b426b34",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-20261028/expanded-visual-review.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/check_materials",
+      "visualFindings": [
+        "刘备高玉冠绿白衣小胡须，赵云银甲银冠长枪；标注刘备金兵、赵云木兵。",
+        "野外守军为参考土兵方石盾/短石锤/奶白缨盔形象。",
+        "1000-180=820和900-900=0一致；5回合、粮600/铜300/经验200、返回入口保持。"
+      ],
+      "remainingLimits": [
+        "兵种分配为可修订样例；角色为整屏重绘，后续运行时应引用独立母版导出；没有战斗倍率。"
+      ],
+      "reviewRecordSha256": "26a38ff54f94f26033986c90e21290b9b5d824a692a3fe5c4dbc68bb396018d4"
+    },
+    {
+      "screenId": 34,
+      "title": "武将觉醒",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/34-metal-envoy-awakening-ui-v2.png",
+      "priorCatalogSelectionSha256": "3c309306de0f6bb6aa924dfff1ee97edd6a2cb36cd292831f7112419e582cf1c",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v2.png",
+      "sha256": "14daaa79e75c86ea5e201953b21fc39ed092649f379ce5e44ff0ad89779deff6",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v2.png.generation.json",
+      "reviewRecord": "records/ui-correction-extra-20261028/34-liu-bei-awakening-ui-v2.visual-qa.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/audit_mapfx",
+      "remainingLimits": [
+        "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+        "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+        "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+        "User approval and full state coverage remain false",
+        "觉醒玉 and count1/2 inherited from the original direction; formal awakening gameplay rules not validated",
+        "Targeted edit changed surrounding raster pixels slightly; no pixel-perfect locality claim"
+      ],
+      "visualFindings": [
+        "刘备4星与高绿冠身份正确；20/20达成，觉醒玉1/2还差1，材料不足按钮灰态。",
+        "第三战法位预览由锁至加号；沿原样例，不确认觉醒玩法材料规则。"
+      ],
+      "crossReviewRecord": "records/ui-correction-20261028/external-selection-cross-review.json",
+      "reviewRecordSha256": "e5f703306fabb5dd069aa8933e826276f9f56ae25f2e79c9445e07c20a3eeadc"
+    },
+    {
+      "screenId": 35,
+      "title": "招募入口",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v3.png",
+      "priorCatalogSelectionSha256": "608232939668918bd3921459b878a304b4981d3df404db744328ff2463a6987b",
+      "selectedFile": "designs/01-率土之滨/ui/troop-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.png",
+      "sha256": "7af390204fc5aa050f7ed83589af6d65795664d48894f057753ebf470a4740fe",
+      "nativeSize": {
+        "width": 1916,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/troop-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.png.generation.json",
+      "reviewRecord": "records/ui-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.visual-qa.json",
+      "correctionStatus": "corrected_direction_candidate",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": true,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "reviewerTask": "/root/audit_mapfx",
+      "remainingLimits": [
+        "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+        "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+        "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+        "User approval and full state coverage remain false",
+        "Displayed historical generals are preview examples; actual pool eligibility and rarity/odds are not validated"
+      ],
+      "visualFindings": [
+        "刘备/曹操/赵云/诸葛亮预览身份可辨，没有五系英雄卡池。",
+        "5000铜钱可付300/1500；玉符680可付200，但1000五连灰态差320，一致。"
+      ],
+      "crossReviewRecord": "records/ui-correction-20261028/external-selection-cross-review.json",
+      "reviewRecordSha256": "3ad87f43f9effe557db08b83af365e3d68652008ea301a7cbd0e523328707639"
+    },
+    {
+      "screenId": 36,
+      "title": "建设队列",
+      "priorCatalogSelection": "designs/01-率土之滨/ui/36-construction-queue-ui-v2.png",
+      "priorCatalogSelectionSha256": "42671b3d515b46466542366e5c355b434fc52639318894587471c7e91b43f480",
+      "selectedFile": "designs/01-率土之滨/ui/36-construction-queue-ui-v2.png",
+      "sha256": "42671b3d515b46466542366e5c355b434fc52639318894587471c7e91b43f480",
+      "nativeSize": {
+        "width": 1915,
+        "height": 821,
+        "mode": "RGB",
+        "format": "PNG"
+      },
+      "generationRecord": "designs/01-率土之滨/ui/36-construction-queue-ui-v2.png.generation.json",
+      "reviewRecord": "records/ui-review-20261028/unaffected-pages-review.json",
+      "correctionStatus": "reviewed_no_explicit_conflict_observed",
+      "pixelRechecked": true,
+      "newGenerationInCurrentCorrection": false,
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false,
+      "priorReview": {
+        "record": "records/ui-review-20261028/unaffected-pages-review.json",
+        "category": "no_explicit_conflict_observed",
+        "sourcePath": "designs/01-率土之滨/ui/36-construction-queue-ui-v2.png",
+        "sourceSha256": "42671b3d515b46466542366e5c355b434fc52639318894587471c7e91b43f480"
+      },
+      "remainingReviewIssues": [],
+      "reviewerTask": "/root/audit_characters",
+      "reviewRecordSha256": "1e83b4d73ebd577433a602b6f1e75e50162ac878bc2eee6e1eb0a73baf688467"
+    }
+  ],
+  "globalCatalogModifiedByThisWorker": false,
+  "all36Approved": false,
+  "fullGameArtComplete": false,
+  "userApproved": false,
+  "clientIntegratedByThisWorker": false,
+  "limits": [
+    "Selection denotes static D1 direction candidates, not product completion, user approval or client validation.",
+    "A restored historical file keeps its original generation record; it is not counted as new generation.",
+    "Untitled/incorrect pages under active correction have null current selection instead of silently selecting the superseded file.",
+    "Unlabelled decorative soldiers, riding poses or horse status icons alone do not establish obsolete troop taxonomy.",
+    "Data figures and troop assignments are revisable mockup samples; no balancing multiplier or new game rules are established.",
+    "Five troop masters, independent sprites and Unity work are separately tracked by parent; this worker performed no Unity/test/build."
+  ]
+}

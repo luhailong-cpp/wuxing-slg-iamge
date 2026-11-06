@@ -1,0 +1,176 @@
+{
+  "schema": "wuxing.source-inputs.v1",
+  "sources": [
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "record": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json",
+      "nativeSize": [
+        377,
+        290
+      ],
+      "manifestAnchorPx": [
+        204.5,
+        259
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2484,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "record": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json",
+      "nativeSize": [
+        366,
+        290
+      ],
+      "manifestAnchorPx": [
+        177.5,
+        263
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2862,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json",
+      "nativeSize": [
+        377,
+        314
+      ],
+      "manifestAnchorPx": [
+        205.5,
+        250
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 2928,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "record": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json",
+      "nativeSize": [
+        445,
+        397
+      ],
+      "manifestAnchorPx": [
+        228.0,
+        364
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4060,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "record": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json",
+      "nativeSize": [
+        334,
+        375
+      ],
+      "manifestAnchorPx": [
+        165.5,
+        302
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 5117,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "record": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json",
+      "nativeSize": [
+        374,
+        375
+      ],
+      "manifestAnchorPx": [
+        187.5,
+        314
+      ],
+      "warnings": [
+        {
+          "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+          "value": 4277,
+          "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+          "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+          "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+        }
+      ]
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json",
+      "nativeSize": [
+        256,
+        256
+      ],
+      "manifestAnchorPx": [
+        128,
+        224
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ]
+    }
+  ],
+  "mapManifest": {
+    "file": "exports/01-率土之滨/map-kit/map-kit-manifest.json",
+    "sha256": "a13a7549a11e4e286ee1150342179bc3f485797639447aa978381a87a071e580"
+  },
+  "unitManifest": {
+    "file": "exports/01-率土之滨/units/units-manifest.json",
+    "sha256": "18466c09f8c64006113e52173cdffaecf9659b04587cbabe6159fada20374b1b"
+  },
+  "allSourcePNGHashesMatchManifest": true,
+  "sourcePNGBytesModified": false,
+  "generationCalls": 0
+}

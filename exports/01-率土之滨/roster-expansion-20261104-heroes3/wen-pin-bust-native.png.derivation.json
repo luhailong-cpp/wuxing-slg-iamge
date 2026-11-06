@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/wen-pin-bust-native.png",
+  "sha256": "5cb0b2e3bbb532c3a59f1a52b32b4e7d44c36adcf1e2669c85e7658c8f7001a8",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/wen-pin-master-v1.png",
+    "sha256": "d18effc48483ceaa2bd968a5b6ab4240463df713ba16cfcc70a76012e54a87ef",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/wen-pin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      54,
+      330,
+      924,
+      1014
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

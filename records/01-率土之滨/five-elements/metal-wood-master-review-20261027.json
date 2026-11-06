@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T13:16:43.262950+00:00",
+  "reviewer": "theme_scope",
+  "scope": "本制作worker完成后另立的文件级QA记录；不是另一名审稿人的独立验收。根窗口可追加实际复核。",
+  "method": "实际查看生成返回与浅/深背景只读合成预览；Pillow只读检查原生尺寸、alpha和阈值边界；源PNG仅原样复制，未后处理。",
+  "referencesActuallyViewedAndAttached": [
+    "designs/mail-ui-v1/01-mail-event.png",
+    "designs/team-ui-v2/team-ui-v2.png"
+  ],
+  "historicalCharacterImagesUsedAsIdentityReferences": false,
+  "toolRoute": "builtin image_gen.imagegen",
+  "modelQualityDisclosure": "actualModel/actualQuality均null；配置目标不替代工具实际披露。",
+  "rawResponseIntegrity": "完整返回仅有image_url、output_hint；image_url与宿主原生PNG重新编码值做SHA256全串比较相等后持久化，output_hint逐字保存；无缺失字段。",
+  "images": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "bboxByAlphaThreshold": {
+        "0": [
+          0,
+          19,
+          1010,
+          1536
+        ],
+        "8": [
+          59,
+          74,
+          982,
+          1464
+        ],
+        "32": [
+          60,
+          75,
+          982,
+          1463
+        ],
+        "128": [
+          60,
+          75,
+          981,
+          1463
+        ],
+        "240": [
+          61,
+          76,
+          976,
+          1462
+        ]
+      },
+      "borderAlphaMax": 1,
+      "borderNonzeroCount": 16,
+      "previewFile": "work/five-elements-metal-wood-qa/01-metal-envoy-v1-light-dark.png",
+      "previewOperation": "read-only visual QA composite on light and dark backgrounds; original unchanged; preview resized only",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "nativeCopyHashVerified": true,
+      "rawResponseFile": "records/01-率土之滨/five-elements/01-metal-envoy-v1.tool-response.raw.json",
+      "actuallyViewed": true,
+      "lightDarkPreviewActuallyViewed": true,
+      "transparentPixelsVerified": true,
+      "visibleSubjectClippingObserved": false,
+      "visibleOpaqueBackdropObserved": false,
+      "safeMarginsByAlphaOver8Px": {
+        "left": 59,
+        "top": 74,
+        "right": 42,
+        "bottom": 72
+      },
+      "requestedWideMarginsAchieved": false,
+      "borderNote": "alpha>0包含微量alpha=1的散边，最大边缘alpha=1；未擦除或重采样。",
+      "visualFindings": [
+        "全新短银灰发女性，金玉短符尺与花瓣式折叠阵盘、腰侧工具袋；与历史男性双剑造型明显不同。",
+        "衣服、发饰、双手、两鞋及两件法器均可见完整；浅深背景未见截图所示大面积光晕。",
+        "手绘完成度较高，金玉装饰偏繁；头身比比提示的2.7—3头身略修长，仍保留Q版大头。"
+      ],
+      "openItems": [
+        "实际安全余边没有达到提示目标，尤其右侧约4%；正式图集/动画前需按裁切和注册合同补足，当前不标打包通过。",
+        "全图没有alpha=255，主体主要接近不透明但最大254；可见预览未发现明显穿透，最终客户端仍需复核。",
+        "候选身份/称号、头身比例与金玉装饰密度待用户审阅；没有用户通过回执。"
+      ],
+      "status": "original_five_elements_master_candidate_pending_user_review_and_packaging_margin_fix",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "bboxByAlphaThreshold": {
+        "0": [
+          0,
+          9,
+          1012,
+          1536
+        ],
+        "8": [
+          122,
+          199,
+          985,
+          1412
+        ],
+        "32": [
+          123,
+          200,
+          985,
+          1412
+        ],
+        "128": [
+          124,
+          200,
+          985,
+          1411
+        ],
+        "240": [
+          129,
+          207,
+          983,
+          1410
+        ]
+      },
+      "borderAlphaMax": 1,
+      "borderNonzeroCount": 78,
+      "previewFile": "work/five-elements-metal-wood-qa/02-wood-envoy-v1-light-dark.png",
+      "previewOperation": "read-only visual QA composite on light and dark backgrounds; original unchanged; preview resized only",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "sourceRecord": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "nativeCopyHashVerified": true,
+      "rawResponseFile": "records/01-率土之滨/five-elements/02-wood-envoy-v1.tool-response.raw.json",
+      "actuallyViewed": true,
+      "lightDarkPreviewActuallyViewed": true,
+      "transparentPixelsVerified": true,
+      "visibleSubjectClippingObserved": false,
+      "visibleOpaqueBackdropObserved": false,
+      "safeMarginsByAlphaOver8Px": {
+        "left": 122,
+        "top": 199,
+        "right": 39,
+        "bottom": 124
+      },
+      "requestedWideMarginsAchieved": false,
+      "borderNote": "alpha>0包含微量alpha=1的散边，最大边缘alpha=1；未擦除或重采样。",
+      "visualFindings": [
+        "全新棕发叶簪男性，嫩芽披肩、竹节法杖与种子囊；没有历史医者长髯或羽扇。",
+        "竹杖叶尖、底端、衣角和双鞋完整；浅深背景未见大面积彩色背景。",
+        "木系轮廓清楚；双眼与圆脸偏少年Q版，成年年龄感未作用户确认。"
+      ],
+      "openItems": [
+        "实际安全余边没有达到提示目标，尤其右侧约4%；正式图集/动画前需按裁切和注册合同补足，当前不标打包通过。",
+        "全图没有alpha=255，主体主要接近不透明但最大254；可见预览未发现明显穿透，最终客户端仍需复核。",
+        "候选身份/称号、头身比例与金玉装饰密度待用户审阅；没有用户通过回执。"
+      ],
+      "status": "original_five_elements_master_candidate_pending_user_review_and_packaging_margin_fix",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ],
+  "fullGameArtComplete": false,
+  "animationComplete": false,
+  "runtimeIntegrated": false,
+  "notes": [
+    "称号与设计为原创五系方向候选，不构成正式首发角色或玩法合同。",
+    "QA预览仅work中间文件；未替换、擦除、缩放或修补原生master。",
+    "已读三份旧worker专用交接，不覆盖其文件。"
+  ]
+}

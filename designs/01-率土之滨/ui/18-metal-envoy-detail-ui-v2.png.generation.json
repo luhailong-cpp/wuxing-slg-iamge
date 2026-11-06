@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png",
+  "sha256": "702bb211bb1f0fafeb8a8dbd1f845104e2346e97f7e0d4e1c9a1a56737cd1cd8",
+  "generatedAt": "2026-10-27T13:17:40.729Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T13:16:52.467Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/18-metal-envoy-detail-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/18-metal-envoy-detail-ui-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/18-metal-envoy-detail-ui-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d74-9ca8-7061-8996-5aefcd03a82b/exec-5adcf1c4-3297-4435-9352-9e5269e77059.png",
+      "sha256": "702bb211bb1f0fafeb8a8dbd1f845104e2346e97f7e0d4e1c9a1a56737cd1cd8",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/18-metal-envoy-detail-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件主参考，仅风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队主参考，仅风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "role": "唯一人物身份母版：五行原创金系铸锋使",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png",
+      "sha256": "5b81458f7accd4aacfbe755cf5a1e7e5a2d95d22fd1ff527c7b7612b1afc20ce",
+      "role": "旧历史人物页，仅功能布局参考；历史身份不采用",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "五行金系铸锋使详情静态重设计候选",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T13:18:33.643236+00:00"
+}

@@ -1,0 +1,116 @@
+{
+  "observedAt": "2026-10-29T08:20:11.953Z",
+  "officialSource": {
+    "configUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+    "configHash": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+    "secondFetchUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10&v=9_29_4",
+    "secondFetchHash": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+    "matchingHashes": true,
+    "publicPredicate": "name !== \"侍卫\" && is_season_card !== 1 && is_release === 1",
+    "predicateSourceUrl": "https://g0-web.gsf.netease.com/community/stbj/js/index-CoxhlTyj.js",
+    "predicateSourceSha256": "180b2024583b34e74d7d47011065cb5c0c03e1bc49848802200ef668b78bed91",
+    "predicateCharOffset": 966116,
+    "factionMap": {
+      "1": "汉",
+      "2": "魏",
+      "3": "蜀",
+      "4": "吴",
+      "5": "群",
+      "6": "晋"
+    },
+    "sourceCacheDirectory": "work/roster-20261029",
+    "sourceCacheNotProductAsset": true
+  },
+  "namedEntityRules": {
+    "genericUnitNames": [
+      "禁军",
+      "精兵",
+      "官兵",
+      "军士",
+      "武官",
+      "侍卫"
+    ],
+    "multiPersonOrCollectiveNames": [
+      "十常侍",
+      "关兴＆张苞",
+      "袁氏兄弟",
+      "小乔＆大乔",
+      "赵统＆赵广",
+      "颜良＆文丑",
+      "蒯良＆蒯越",
+      "蜀三相"
+    ],
+    "rulesStatus": "Researcher classification of exact display labels, not official identity taxonomy",
+    "noAliasMerges": true,
+    "noCollectiveExpansion": true
+  },
+  "gaps": [
+    {
+      "id": "G1",
+      "status": "unverified",
+      "detail": "Official community public snapshot does not establish full current client collection/season availability. No live client inspection was run."
+    },
+    {
+      "id": "G2",
+      "status": "failed_fetch",
+      "detail": "Official stzb desktop/mobile card-list CDN JS fetch returned ECONNRESET; its alternative roster could not be cross-checked."
+    },
+    {
+      "id": "G3",
+      "status": "partial",
+      "detail": "Official website latest news titles were visible; community article URLs returned generic application shell, not article body."
+    },
+    {
+      "id": "G4",
+      "status": "unverified",
+      "detail": "Skin/facade catalog not harvested; iconHeroId/baseHeroId are not proof of unique portrait or canonical person identity."
+    },
+    {
+      "id": "G5",
+      "status": "unresolved",
+      "detail": "Alias normalization, same-name disambiguation, collective membership, non-Three-Kingdoms and non-human entities require corpus review."
+    },
+    {
+      "id": "G6",
+      "status": "unverified",
+      "detail": "The 65-volume historical corpus and 120-chapter novel have not yet been fully indexed into a person table."
+    }
+  ],
+  "historicalCorpusPlan": {
+    "status": "proposed_not_extracted",
+    "historyCore": {
+      "title": "三国志65卷及裴松之注",
+      "catalogUrl": "https://guji.nlc.cn/resource/resourceDetail?id=1016560&type=ziyuan",
+      "textCandidateUrl": "https://ctext.org/sanguozhi/zhs",
+      "evidence": "National Library catalog search result confirms 65 volumes, author Chen Shou and annotations Pei Songzhi; ctext full open returned403"
+    },
+    "novelCore": {
+      "title": "三国演义120回（固定版本，逐回覆盖）",
+      "textCandidateUrl": "https://ctext.org/sanguo-yanyi/zhs",
+      "publisherReferenceUrl": "https://www.nlcpress.com/ProductView.aspx?Id=11790",
+      "evidence": "Publisher description confirms ending at chapter120, but that particular product is only32 selected chapters and cannot be used as full corpus; ctext result indexed while full open403"
+    },
+    "auxiliary": {
+      "name": "CBDB",
+      "url": "https://cbdb.hsites.harvard.edu/coverage-cbdb",
+      "role": "Optional identity/alias cross-check, not Three Kingdoms census denominator; coverage statement primarily7th-20th centuries"
+    },
+    "denominator": "Union of resolved named persons from the frozen65-volume annotated historical corpus and fixed120-chapter novel, plus official game named entities tracked separately; count only after chapter/volume coverage and alias decisions audited",
+    "proposedPeriodForHistory": "AD184–280 active figures as core; earlier/later antecedents separately flagged, not silently discarded",
+    "recordsRequired": [
+      "canonicalPersonId",
+      "canonicalName",
+      "aliases",
+      "evidenceKind(history,novel,both,game_only)",
+      "sourceEdition",
+      "volumeOrChapter",
+      "sourceUrl",
+      "passageLocator",
+      "sameNameDisambiguation",
+      "groupMembership",
+      "inclusionDecision",
+      "decisionReason"
+    ],
+    "completeCount": null
+  }
+}

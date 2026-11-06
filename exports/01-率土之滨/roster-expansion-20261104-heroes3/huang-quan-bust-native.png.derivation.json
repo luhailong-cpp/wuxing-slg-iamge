@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/huang-quan-bust-native.png",
+  "sha256": "8d44dfd7bd5cf406939d771cd2f53c985a21cfcbfc8ce81466c7d59dbb35290f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/huang-quan-master-v1.png",
+    "sha256": "4fad4297e2cdd327d1a26d96094fb7e114c1afb11da33b5c677c388c29613692",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/huang-quan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1070
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

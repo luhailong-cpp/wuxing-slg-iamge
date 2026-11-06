@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-card-full.png",
+  "sha256": "c4a61e61095e97d08ad645d5c46316b676f39f1866d99697a1f44c323e0e06aa",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+    "sha256": "299a6efd0faf8e1b125eed3318651ff38a3927cb207251f830b4dcc2b32681d8",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

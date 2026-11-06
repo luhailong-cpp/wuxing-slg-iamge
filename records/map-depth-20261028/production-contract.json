@@ -1,0 +1,46 @@
+{
+  "createdAt": "2026-10-28T08:08:48.571Z",
+  "scope": "One matched bridge back/deck and foreground rail layer pair",
+  "art_source": "host_image",
+  "route": "builtin image_gen",
+  "viewport": {
+    "aspect": "landscape",
+    "preview": [
+      1440,
+      900
+    ]
+  },
+  "camera": "existing bridge isometric NW-SE",
+  "sourceImage": {
+    "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+    "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+    "role": "Geometry and identity edit target"
+  },
+  "targetSheet": [
+    2048,
+    1024
+  ],
+  "layerOrder": [
+    "back-deck",
+    "neutral diagnostic marker",
+    "front-rail"
+  ],
+  "targetLayerCanvas": [
+    1024,
+    1024
+  ],
+  "registration": "shared cell coordinates; must measure actual output, never assume independent generations match",
+  "actor": "neutral footpoint marker only; no superseded infantry",
+  "testFootpoints": [
+    "west-approach",
+    "deck-middle",
+    "east-approach"
+  ],
+  "notClaimed": [
+    "new seamless terrain",
+    "final navigation",
+    "official troop animation",
+    "real client integration"
+  ],
+  "userApproved": false
+}

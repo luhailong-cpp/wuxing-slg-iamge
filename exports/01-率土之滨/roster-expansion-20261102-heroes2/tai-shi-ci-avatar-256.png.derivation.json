@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/tai-shi-ci-avatar-256.png",
+  "sha256": "6721b13e28da7e0b5e9bfb74ff56a69ea405a90bf0348791d63bf98c7f3f3c55",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/tai-shi-ci-master-v1.png",
+    "sha256": "7999aac417304ea6c657ecee9ff13a38237ab1c89f21ff689aac870e454debc9",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/tai-shi-ci-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      320,
+      300,
+      810,
+      780
+    ],
+    "uniformScale": 0.4816326530612245,
+    "resizedSize": [
+      236,
+      231
+    ],
+    "offset": [
+      10,
+      12
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,31 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T11:43:50.823Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Minimal localized correction of image3 complete horizontal game map UI. Images1/2 style references only. Keep entire map, cities, two banks, single stone bridge, green crossing route, orange return route ending maincity, all troop sprites and their positions, generic upper-left player, top resources, right three portraits EXACTLY as image3. DO NOT regenerate map geometry.\nThe only correction is restoring omitted location labels in the RIGHT THREE ARMY CARDS while retaining all names, troop types, statuses and numbers. Fit FOUR compact readable lines of text per card next to existing avatar, lightly reduce vertical gaps as needed:\nCard1 line1 \"第一部队 · 刘备\"; line2 green \"行军中 · 金兵\"; line3 existing army icon8000 and neutral bag icon2000; line4 small pin icon plus \"主城 → 敌方城池\".\nCard2 line1 \"第二部队 · 赵云\"; line2 \"待命 · 木兵\"; line3 existing army icon6000 and neutral bag icon1000; line4 small pin icon plus \"平原营地\".\nCard3 line1 \"第三部队 · 曹操\"; line2 green \"返回中 · 火兵\"; line3 existing army icon5000 and neutral bag icon1500; line4 small pin icon plus \"要塞 → 主城\".\nKeep all text inside each card with clear margins. Names/lines must not collide with portraits or right chevrons. Compact spacing can free the fourth-line room; no need enlarge panel. Keep right buttons查看部队/撤回. Do not remove names to fit locations. Do not add horses, elemental heroes, new counters, numbers, probability, game title, technical notes or legends. Preserve complete opaque landscape frame.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/troop-correction-20261028/21-historical-generals-five-troops-map-march-ui-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/21-historical-generals-five-troops-map-march-ui-v2.prompt.txt"
+}

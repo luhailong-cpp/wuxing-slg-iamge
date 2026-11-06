@@ -1,0 +1,3914 @@
+{
+  "schema": "wuxing-slg.grounded-frame-candidates.v1",
+  "status": "technical_registration_candidate_not_user_or_engine_accepted",
+  "game": "五行问鼎",
+  "character": "troop-water",
+  "direction": "SE",
+  "userApproved": false,
+  "masterUserApproved": false,
+  "sourceRegistration": {
+    "file": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "sha256": "b89d6b9d11c190fa559adfbba16fa7833e5a166eba63d2e1519781d31bd47f7c"
+  },
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+    "sha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c",
+    "helmetWidth": 501,
+    "helmetMeasurement": [
+      435,
+      300,
+      936,
+      687
+    ],
+    "groundRootInteger": [
+      695,
+      1126
+    ],
+    "contactMeasurements": [
+      {
+        "roi": [
+          465,
+          1020,
+          621,
+          1102
+        ],
+        "anatomicalSupport": "boot",
+        "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+        "contactPoint": [
+          518.0,
+          1093
+        ],
+        "supportBandX": [
+          490,
+          546
+        ],
+        "alphaThresholdDiagnosticOnly": 16
+      },
+      {
+        "roi": [
+          785,
+          1080,
+          932,
+          1172
+        ],
+        "anatomicalSupport": "boot",
+        "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+        "contactPoint": [
+          872.5,
+          1160
+        ],
+        "supportBandX": [
+          844,
+          901
+        ],
+        "alphaThresholdDiagnosticOnly": 16
+      }
+    ],
+    "nativeStats": {
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1126871,
+      "alphaOne": 8269,
+      "alphaSemi": 445097,
+      "alphaOpaque": 548,
+      "alphaNonzero": 445645,
+      "alpha0BBox": [
+        33,
+        57,
+        1224,
+        1254
+      ],
+      "alpha16BBox": [
+        255,
+        151,
+        1058,
+        1161
+      ],
+      "alpha16Height": 1010
+    },
+    "uniformScale": 0.35964912280701755,
+    "qaReference": {
+      "file": "records/troop-frames-20261029-r3-water/water-ground-master-scale-reference.png",
+      "sha256": "14237c9efb5e807028dfda8fc8ab4af32e97cd2c819e958f9e080dbcf3c64578"
+    },
+    "mapReference": {
+      "file": "records/troop-frames-20261029-r3-water/water-ground-master-scale-reference-128h.png",
+      "sha256": "83b1e3e06de34aea148b9cdd1662a2c2520eb2bcdaa3e4e877d44a9257393a5a"
+    },
+    "normalizedStats": {
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaZero": 990492,
+      "alphaOne": 681,
+      "alphaSemi": 56918,
+      "alphaOpaque": 1166,
+      "alphaNonzero": 58084,
+      "alpha0BBox": [
+        320,
+        403,
+        679,
+        784
+      ],
+      "alpha16BBox": [
+        353,
+        417,
+        643,
+        781
+      ],
+      "alpha16Height": 364
+    },
+    "mapStats": {
+      "size": [
+        384,
+        384
+      ],
+      "alphaZero": 138719,
+      "alphaOne": 195,
+      "alphaSemi": 8281,
+      "alphaOpaque": 456,
+      "alphaNonzero": 8737,
+      "alpha0BBox": [
+        120,
+        151,
+        243,
+        295
+      ],
+      "alpha16BBox": [
+        132,
+        156,
+        241,
+        293
+      ],
+      "alpha16Height": 137
+    }
+  },
+  "contract": {
+    "nativeCanvas": [
+      1024,
+      1024
+    ],
+    "nativeRoot": [
+      512,
+      768
+    ],
+    "nativeOperation": "whole source cell with integer translation only; exact RGBA bytes retained",
+    "sharedHelmetWidthTargetPx": 180,
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "normalRoot": [
+      512,
+      768
+    ],
+    "scalePerActionOnly": true,
+    "perFrameFit": false,
+    "resampler": "premultiplied Lanczos; no explicit alpha deletion or cleaning",
+    "alphaCaveat": "Original alpha is bit-for-bit preserved in native1024 frames. Downsampling changes samples/quantizes alpha normally; there is no alpha threshold edit, crop or removed component. The entire resized source rectangle is pasted and checked.",
+    "mapCanvas": [
+      384,
+      384
+    ],
+    "mapRoot": [
+      192,
+      288
+    ],
+    "mapScaleFromNormal": 0.375,
+    "map128hMeaning": "Legacy tier name shared with metal exporter. Water master measured silhouette height is 137px in 384 canvas, not forced to128. Crouch/seated heights remain natural.",
+    "rootMethod": "manual boot/knee contact ROIs -> two contact points -> integer-rounded midpoint; each grounded frame registered separately",
+    "groundRootProofScope": "contact midpoint aligns; foot articulation/stance width are not redrawn",
+    "masterMapMeasuredHeightPx": 137,
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ],
+    "sourceCuts": "Explicit sourceRect only. Idle row650, attack row528 and lower-row columns0/566/1072/1536, hurt row644, defeat row590.",
+    "defeatSeatedContact": "Frame5 extended sole and folded knee; frame6 visible folded pants support plus front sole. Ring baton, tassel, shield excluded."
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png.generation.json",
+      "sha256": "5cb7cbe8f3dc8bfe4fa35e75e808e2cd5b2bfb05cab3e4de75b19c09305d8c09",
+      "cols": 2,
+      "rows": 2,
+      "rowBoundary": 650,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 242,
+      "helmetMeasurement": [
+        264,
+        225,
+        506,
+        403
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.743801652892562,
+      "durationsMs": [
+        280,
+        280,
+        180,
+        280
+      ],
+      "loop": true,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.743801652892562,
+      "uniformScaleActual": 0.7432216905901117,
+      "normalizedHelmetWidthPx": 179.859649122807,
+      "frameCount": 4,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            390,
+            597
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                270,
+                548,
+                353,
+                592
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                299.5,
+                586
+              ],
+              "supportBandX": [
+                280,
+                319
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                430,
+                565,
+                510,
+                615
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                481.0,
+                608
+              ],
+              "supportBandX": [
+                460,
+                502
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "c6961b81f8f81e72c6a52c4166405fa15c1d350bd241a1f6792665622bbd0d86",
+          "nativeTranslation": [
+            122,
+            171
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-01.png",
+            "sha256": "5fa8a929ed0ed5c6ea80be68737da11b8130da52306e21faec5b1f6b82e76021",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 935587,
+            "alphaOne": 6614,
+            "alphaSemi": 112585,
+            "alphaOpaque": 404,
+            "alphaNonzero": 112989,
+            "alpha0BBox": [
+              122,
+              256,
+              749,
+              821
+            ],
+            "alpha16BBox": [
+              295,
+              323,
+              700,
+              780
+            ],
+            "alpha16Height": 457,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.7432216905901117,
+          "resizedSourceSize": [
+            466,
+            483
+          ],
+          "normalizedTranslation": [
+            222,
+            324
+          ],
+          "normalizedContactPoints": [
+            [
+              444.5948963317385,
+              759.5279106858054
+            ],
+            [
+              579.4896331738437,
+              775.8787878787879
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.04226475279108399,
+            -0.29665071770341456
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-01.png",
+            "sha256": "87e61b25de23cd6158d638d09bd1143314193a150c541a8fc48bd0b3e1acc76f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 986410,
+            "alphaOne": 3376,
+            "alphaSemi": 61500,
+            "alphaOpaque": 666,
+            "alphaNonzero": 62166,
+            "alpha0BBox": [
+              222,
+              389,
+              688,
+              807
+            ],
+            "alpha16BBox": [
+              351,
+              437,
+              651,
+              777
+            ],
+            "alpha16Height": 340,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-01.png",
+            "sha256": "34513c746e5a37e32eafcd54aef0fa3a115c2be165616f1ad4c71c3dadc93531",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138642,
+            "alphaOne": 256,
+            "alphaSemi": 8392,
+            "alphaOpaque": 422,
+            "alphaNonzero": 8814,
+            "alpha0BBox": [
+              94,
+              154,
+              257,
+              296
+            ],
+            "alpha16BBox": [
+              131,
+              164,
+              245,
+              292
+            ],
+            "alpha16Height": 128,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.015849282296656497,
+            -0.11124401913878046
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            328,
+            599
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                205,
+                545,
+                290,
+                595
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                236.5,
+                587
+              ],
+              "supportBandX": [
+                216,
+                257
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                370,
+                565,
+                453,
+                620
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                419.0,
+                611
+              ],
+              "supportBandX": [
+                397,
+                441
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "82262271e52562b258d90f6d83943c132912a0d38e11b6cc8b83e76b54b10d85",
+          "nativeTranslation": [
+            184,
+            169
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-02.png",
+            "sha256": "43363428209f0ddc828d2d80410276f17770e3a86aed3c47fcd14927d900a44e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 931010,
+            "alphaOne": 8228,
+            "alphaSemi": 117279,
+            "alphaOpaque": 287,
+            "alphaNonzero": 117566,
+            "alpha0BBox": [
+              185,
+              188,
+              797,
+              818
+            ],
+            "alpha16BBox": [
+              297,
+              315,
+              697,
+              781
+            ],
+            "alpha16Height": 466,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.7432216905901117,
+          "resizedSourceSize": [
+            466,
+            483
+          ],
+          "normalizedTranslation": [
+            268,
+            323
+          ],
+          "normalizedContactPoints": [
+            [
+              443.7719298245614,
+              759.2711323763956
+            ],
+            [
+              579.4098883572568,
+              777.1084529505582
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.4090909090908781,
+            0.18979266347696466
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-02.png",
+            "sha256": "25d86189222a90fc3d8ec0ffd57e8f89460f3910541b1f61dd1c51ea623774b8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 983861,
+            "alphaOne": 4383,
+            "alphaSemi": 64160,
+            "alphaOpaque": 555,
+            "alphaNonzero": 64715,
+            "alpha0BBox": [
+              269,
+              337,
+              724,
+              805
+            ],
+            "alpha16BBox": [
+              352,
+              431,
+              650,
+              778
+            ],
+            "alpha16Height": 347,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-02.png",
+            "sha256": "4fed82d7afa52bbddaa9e8cbf52163827a6649dd35cd56c943caa8b68a0a1100",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138358,
+            "alphaOne": 338,
+            "alphaSemi": 8681,
+            "alphaOpaque": 417,
+            "alphaNonzero": 9098,
+            "alpha0BBox": [
+              101,
+              144,
+              263,
+              299
+            ],
+            "alpha16BBox": [
+              132,
+              161,
+              244,
+              292
+            ],
+            "alpha16Height": 131,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.15340909090907928,
+            0.07117224880386175
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            650,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            380,
+            489
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                255,
+                430,
+                340,
+                480
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                287.0,
+                477
+              ],
+              "supportBandX": [
+                265,
+                309
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                420,
+                450,
+                505,
+                510
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                473.5,
+                501
+              ],
+              "supportBandX": [
+                452,
+                495
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "792a54f4a0f8e5507c1c916c700b0aba614da1f3377bdd382723578de074b939",
+          "nativeTranslation": [
+            132,
+            279
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-03.png",
+            "sha256": "be6d65f4f2d4b461282a6620583a599193de737918d60a6c53a0c84892b3ce1f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 929670,
+            "alphaOne": 6789,
+            "alphaSemi": 118516,
+            "alphaOpaque": 390,
+            "alphaNonzero": 118906,
+            "alpha0BBox": [
+              132,
+              279,
+              759,
+              883
+            ],
+            "alpha16BBox": [
+              287,
+              321,
+              712,
+              781
+            ],
+            "alpha16Height": 460,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.7432216905901117,
+          "resizedSourceSize": [
+            466,
+            449
+          ],
+          "normalizedTranslation": [
+            230,
+            405
+          ],
+          "normalizedContactPoints": [
+            [
+              443.304625199362,
+              759.5167464114833
+            ],
+            [
+              581.9154704944178,
+              777.3540669856459
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.6100478468899837,
+            0.4354066985645204
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-03.png",
+            "sha256": "811116fe0881b636637c82f8d056b00f87ea3cdb10a5eb75c8d3d6dc7ba71025",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 982937,
+            "alphaOne": 3612,
+            "alphaSemi": 65031,
+            "alphaOpaque": 608,
+            "alphaNonzero": 65639,
+            "alpha0BBox": [
+              230,
+              405,
+              696,
+              854
+            ],
+            "alpha16BBox": [
+              345,
+              436,
+              661,
+              778
+            ],
+            "alpha16Height": 342,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-03.png",
+            "sha256": "2de5005d0f605539827e2520e68779677dd5c86ce88ec23717fce4e50c9dae25",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138165,
+            "alphaOne": 303,
+            "alphaSemi": 8880,
+            "alphaOpaque": 411,
+            "alphaNonzero": 9291,
+            "alpha0BBox": [
+              115,
+              152,
+              250,
+              314
+            ],
+            "alpha16BBox": [
+              129,
+              163,
+              248,
+              292
+            ],
+            "alpha16Height": 129,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.2287679425837439,
+            0.16327751196169515
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            650,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            328,
+            490
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                205,
+                430,
+                290,
+                480
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                234.0,
+                478
+              ],
+              "supportBandX": [
+                212,
+                256
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                370,
+                455,
+                455,
+                510
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                422.5,
+                502
+              ],
+              "supportBandX": [
+                401,
+                444
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "cba12c60fd494e67f014b3d3375533ee9537c36708d5506c8028286316a77bca",
+          "nativeTranslation": [
+            184,
+            278
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-04.png",
+            "sha256": "a982f054e3b1b2aa6647dedcd9b3cce7feed2a518c480948563c3576980baea2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 925881,
+            "alphaOne": 7783,
+            "alphaSemi": 122343,
+            "alphaOpaque": 352,
+            "alphaNonzero": 122695,
+            "alpha0BBox": [
+              185,
+              278,
+              791,
+              882
+            ],
+            "alpha16BBox": [
+              288,
+              318,
+              708,
+              781
+            ],
+            "alpha16Height": 463,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/native1024/idle-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.7432216905901117,
+          "resizedSourceSize": [
+            466,
+            449
+          ],
+          "normalizedTranslation": [
+            268,
+            404
+          ],
+          "normalizedContactPoints": [
+            [
+              441.9138755980861,
+              759.2599681020733
+            ],
+            [
+              582.0111642743223,
+              777.0972886762361
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.03748006379578328,
+            0.17862838915471002
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-04.png",
+            "sha256": "37d5c4b424974d18f6e3ed06b1bd13c7eaa7793e885394ff1e73566f9add950b",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 980934,
+            "alphaOne": 4110,
+            "alphaSemi": 67128,
+            "alphaOpaque": 514,
+            "alphaNonzero": 67642,
+            "alpha0BBox": [
+              269,
+              404,
+              718,
+              853
+            ],
+            "alpha16BBox": [
+              345,
+              434,
+              658,
+              778
+            ],
+            "alpha16Height": 344,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/normalized1024/idle-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-04.png",
+            "sha256": "6eb2b089f5b552e2f18949990af42b97e9f3b5c1831eb7b96cbc3dc11c848bde",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 137914,
+            "alphaOne": 316,
+            "alphaSemi": 9109,
+            "alphaOpaque": 433,
+            "alphaNonzero": 9542,
+            "alpha0BBox": [
+              112,
+              151,
+              251,
+              320
+            ],
+            "alpha16BBox": [
+              129,
+              162,
+              247,
+              292
+            ],
+            "alpha16Height": 130,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/idle/map128h/idle-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.01405502392341873,
+            0.06698564593301626
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.6100478468899837
+      },
+      "visualStatus": "source/contact/helmet and aligned light/dark frames actually reviewed; technical candidate",
+      "visualFinding": "Selected repaired v2. Breathing/closed-eye exhale/recovery readable, all gear contained after ownership cutting."
+    },
+    {
+      "id": "attack",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png.generation.json",
+      "sha256": "7c44796514c6c15aafa045f0c7de9c56873c529d339b73f8ef5c1ce4f5d753a4",
+      "cols": 3,
+      "rows": 2,
+      "rowBoundary": 528,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 226,
+      "helmetMeasurement": [
+        158,
+        142,
+        384,
+        301
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.7964601769911505,
+      "durationsMs": [
+        140,
+        110,
+        100,
+        70,
+        110,
+        170
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.7964601769911505,
+      "uniformScaleActual": 0.796875,
+      "normalizedHelmetWidthPx": 180.09375,
+      "frameCount": 6,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            528
+          ],
+          "sourceCellSize": [
+            512,
+            528
+          ],
+          "groundRootInteger": [
+            276,
+            492
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                155,
+                438,
+                242,
+                491
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                187.0,
+                483
+              ],
+              "supportBandX": [
+                165,
+                209
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                312,
+                456,
+                397,
+                509
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                364.0,
+                502
+              ],
+              "supportBandX": [
+                343,
+                385
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "e597f7351ccdd01e0a2694bde4689b13162067f45275e5b0fda917e61fc5b25e",
+          "nativeTranslation": [
+            236,
+            276
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-01.png",
+            "sha256": "9880da85f65dff1b44cd7a95e4ddb72a2a7b4363d8d11ad697d40f558f86fc00",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 944992,
+            "alphaOne": 6959,
+            "alphaSemi": 103584,
+            "alphaOpaque": 0,
+            "alphaNonzero": 103584,
+            "alpha0BBox": [
+              269,
+              308,
+              746,
+              798
+            ],
+            "alpha16BBox": [
+              302,
+              347,
+              685,
+              779
+            ],
+            "alpha16Height": 432,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.796875,
+          "resizedSourceSize": [
+            408,
+            421
+          ],
+          "normalizedTranslation": [
+            292,
+            376
+          ],
+          "normalizedContactPoints": [
+            [
+              441.015625,
+              760.890625
+            ],
+            [
+              582.0625,
+              776.03125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.4609375,
+            0.4609375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-01.png",
+            "sha256": "e24c0bc8ff778b9e1f820d14a876983cebb345dbc5fcfdd2abf792c3d512a761",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 983301,
+            "alphaOne": 4061,
+            "alphaSemi": 64999,
+            "alphaOpaque": 276,
+            "alphaNonzero": 65275,
+            "alpha0BBox": [
+              318,
+              402,
+              695,
+              792
+            ],
+            "alpha16BBox": [
+              344,
+              432,
+              650,
+              777
+            ],
+            "alpha16Height": 345,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-01.png",
+            "sha256": "78118bdd32b3c68c90c54a9e5182793a549061e9b1a372fbc485dfc8daa9da21",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138251,
+            "alphaOne": 336,
+            "alphaSemi": 8781,
+            "alphaOpaque": 424,
+            "alphaNonzero": 9205,
+            "alpha0BBox": [
+              119,
+              152,
+              254,
+              294
+            ],
+            "alpha16BBox": [
+              129,
+              162,
+              244,
+              292
+            ],
+            "alpha16Height": 130,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.1728515625,
+            0.1728515625
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            528
+          ],
+          "sourceCellSize": [
+            512,
+            528
+          ],
+          "groundRootInteger": [
+            277,
+            492
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                132,
+                440,
+                218,
+                496
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                165.0,
+                488
+              ],
+              "supportBandX": [
+                145,
+                185
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                340,
+                456,
+                420,
+                504
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                389.5,
+                497
+              ],
+              "supportBandX": [
+                367,
+                412
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 110,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "1a55fb497eb7c802ecf0b8a1c76cf6af9cc9ace4637851f71bcf2135a26a768e",
+          "nativeTranslation": [
+            235,
+            276
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-02.png",
+            "sha256": "8b78b3dd00c79457bd4def991db6553ad462e16d1fbe4f8f808da4024c89ef46",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 946512,
+            "alphaOne": 5714,
+            "alphaSemi": 102064,
+            "alphaOpaque": 0,
+            "alphaNonzero": 102064,
+            "alpha0BBox": [
+              236,
+              297,
+              745,
+              796
+            ],
+            "alpha16BBox": [
+              280,
+              360,
+              703,
+              774
+            ],
+            "alpha16Height": 414,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.796875,
+          "resizedSourceSize": [
+            408,
+            421
+          ],
+          "normalizedTranslation": [
+            291,
+            376
+          ],
+          "normalizedContactPoints": [
+            [
+              422.484375,
+              764.875
+            ],
+            [
+              601.3828125,
+              772.046875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.06640625,
+            0.4609375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-02.png",
+            "sha256": "4d8998c90be5bf55a8f086319057980e84849ebf9ae2449a4132202c7b909b60",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 984197,
+            "alphaOne": 3366,
+            "alphaSemi": 64154,
+            "alphaOpaque": 225,
+            "alphaNonzero": 64379,
+            "alpha0BBox": [
+              292,
+              393,
+              696,
+              791
+            ],
+            "alpha16BBox": [
+              327,
+              443,
+              664,
+              773
+            ],
+            "alpha16Height": 330,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-02.png",
+            "sha256": "b3640e76e6b66e0700c3cd5437c356a3489f96d8d48c359a41896ad032e3f2d9",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138318,
+            "alphaOne": 315,
+            "alphaSemi": 8730,
+            "alphaOpaque": 408,
+            "alphaNonzero": 9138,
+            "alpha0BBox": [
+              119,
+              155,
+              251,
+              292
+            ],
+            "alpha16BBox": [
+              122,
+              166,
+              249,
+              290
+            ],
+            "alpha16Height": 124,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.02490234375,
+            0.1728515625
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            528
+          ],
+          "sourceCellSize": [
+            512,
+            528
+          ],
+          "groundRootInteger": [
+            255,
+            498
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                108,
+                446,
+                191,
+                502
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                139.5,
+                491
+              ],
+              "supportBandX": [
+                119,
+                160
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                316,
+                455,
+                402,
+                512
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                370.0,
+                504
+              ],
+              "supportBandX": [
+                349,
+                391
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "d92fa5acdbae47b28bf9198eadab22f1775245ce9d2fb2825eb76255029316de",
+          "nativeTranslation": [
+            257,
+            270
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-03.png",
+            "sha256": "5df3f469831bfa421210bca1ca14beb168d27fa2925e1220a8ec8f247b0830d6",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 938408,
+            "alphaOne": 6377,
+            "alphaSemi": 110168,
+            "alphaOpaque": 0,
+            "alphaNonzero": 110168,
+            "alpha0BBox": [
+              260,
+              279,
+              743,
+              798
+            ],
+            "alpha16BBox": [
+              325,
+              325,
+              701,
+              775
+            ],
+            "alpha16Height": 450,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.796875,
+          "resizedSourceSize": [
+            408,
+            421
+          ],
+          "normalizedTranslation": [
+            309,
+            371
+          ],
+          "normalizedContactPoints": [
+            [
+              420.1640625,
+              762.265625
+            ],
+            [
+              603.84375,
+              772.625
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.00390625,
+            -0.5546875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-03.png",
+            "sha256": "2aa93f0dcaf6c4d3aeeb9456db889eebf3b7e8535d7aba14df57d7ade11ad42e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 979118,
+            "alphaOne": 3688,
+            "alphaSemi": 69274,
+            "alphaOpaque": 184,
+            "alphaNonzero": 69458,
+            "alpha0BBox": [
+              311,
+              378,
+              696,
+              792
+            ],
+            "alpha16BBox": [
+              363,
+              415,
+              663,
+              774
+            ],
+            "alpha16Height": 359,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-03.png",
+            "sha256": "a81d272501182c76c457527c32fe52215188c16580dc36595f121aa80cabad1e",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 137699,
+            "alphaOne": 310,
+            "alphaSemi": 9341,
+            "alphaOpaque": 416,
+            "alphaNonzero": 9757,
+            "alpha0BBox": [
+              134,
+              150,
+              256,
+              296
+            ],
+            "alpha16BBox": [
+              136,
+              155,
+              249,
+              291
+            ],
+            "alpha16Height": 136,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.00146484375,
+            -0.2080078125
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            528,
+            566,
+            1024
+          ],
+          "sourceCellSize": [
+            566,
+            496
+          ],
+          "groundRootInteger": [
+            233,
+            424
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                70,
+                365,
+                155,
+                430
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                106.5,
+                421
+              ],
+              "supportBandX": [
+                86,
+                127
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                295,
+                382,
+                390,
+                439
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                359.0,
+                428
+              ],
+              "supportBandX": [
+                337,
+                381
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 70,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "91b02b5dfe90f7f14cd8f65724d3cb1db8a46111139444de566b33a7248cb1d2",
+          "nativeTranslation": [
+            279,
+            344
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-04.png",
+            "sha256": "6777d12645c588e74feb93312fe5b8317e0204e0caf40d20cc5c30daf64feaa3",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 948492,
+            "alphaOne": 8127,
+            "alphaSemi": 100084,
+            "alphaOpaque": 0,
+            "alphaNonzero": 100084,
+            "alpha0BBox": [
+              304,
+              349,
+              845,
+              840
+            ],
+            "alpha16BBox": [
+              357,
+              364,
+              795,
+              773
+            ],
+            "alpha16Height": 409,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.796875,
+          "resizedSourceSize": [
+            451,
+            395
+          ],
+          "normalizedTranslation": [
+            326,
+            430
+          ],
+          "normalizedContactPoints": [
+            [
+              410.8671875,
+              765.484375
+            ],
+            [
+              612.078125,
+              771.0625
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.52734375,
+            0.2734375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-04.png",
+            "sha256": "ed3788d7cdd74d8cbeda538049da36a31130b8574246074bc27430b6f7b801d2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 985524,
+            "alphaOne": 4934,
+            "alphaSemi": 62801,
+            "alphaOpaque": 251,
+            "alphaNonzero": 63052,
+            "alpha0BBox": [
+              346,
+              434,
+              777,
+              825
+            ],
+            "alpha16BBox": [
+              388,
+              446,
+              737,
+              771
+            ],
+            "alpha16Height": 325,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-04.png",
+            "sha256": "f8a419a29702c1e96a937c682e37df0b57d27cecc55b5b2b01ffed6e7badc74a",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138650,
+            "alphaOne": 410,
+            "alphaSemi": 8383,
+            "alphaOpaque": 423,
+            "alphaNonzero": 8806,
+            "alpha0BBox": [
+              133,
+              165,
+              289,
+              295
+            ],
+            "alpha16BBox": [
+              145,
+              167,
+              277,
+              290
+            ],
+            "alpha16Height": 123,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.19775390625,
+            0.1025390625
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            566,
+            528,
+            1072,
+            1024
+          ],
+          "sourceCellSize": [
+            506,
+            496
+          ],
+          "groundRootInteger": [
+            194,
+            422
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                46,
+                365,
+                133,
+                423
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                77.5,
+                414
+              ],
+              "supportBandX": [
+                56,
+                99
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                248,
+                384,
+                346,
+                442
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                311.0,
+                429
+              ],
+              "supportBandX": [
+                288,
+                334
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 110,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "e3cb9b6e0b3640cb6f8a7b950ace1f230f551b34ded75ad5bb464f350e0fddfe",
+          "nativeTranslation": [
+            318,
+            346
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-05.png",
+            "sha256": "d065a813df745bff1357911fa44054e037962ead14b158ddffea4a01e1c5ccb8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 954809,
+            "alphaOne": 6656,
+            "alphaSemi": 93767,
+            "alphaOpaque": 0,
+            "alphaNonzero": 93767,
+            "alpha0BBox": [
+              319,
+              347,
+              824,
+              812
+            ],
+            "alpha16BBox": [
+              368,
+              406,
+              800,
+              776
+            ],
+            "alpha16Height": 370,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-05.png.derivation.json"
+          },
+          "actionUniformScale": 0.796875,
+          "resizedSourceSize": [
+            403,
+            395
+          ],
+          "normalizedTranslation": [
+            357,
+            432
+          ],
+          "normalizedContactPoints": [
+            [
+              418.7578125,
+              761.90625
+            ],
+            [
+              604.828125,
+              773.859375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.20703125,
+            -0.1171875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-05.png",
+            "sha256": "691c953815124b95c9a7220b6501ecaa252b1a38c980b71b75879d07ae7aed3d",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 989571,
+            "alphaOne": 3864,
+            "alphaSemi": 58809,
+            "alphaOpaque": 196,
+            "alphaNonzero": 59005,
+            "alpha0BBox": [
+              358,
+              433,
+              760,
+              803
+            ],
+            "alpha16BBox": [
+              397,
+              479,
+              741,
+              774
+            ],
+            "alpha16Height": 295,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-05.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-05.png",
+            "sha256": "dc21c266a903dd1c5be425af15172e51f5118446f839808de067cf441e4cea9e",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139124,
+            "alphaOne": 331,
+            "alphaSemi": 7958,
+            "alphaOpaque": 374,
+            "alphaNonzero": 8332,
+            "alpha0BBox": [
+              135,
+              170,
+              284,
+              300
+            ],
+            "alpha16BBox": [
+              148,
+              180,
+              278,
+              291
+            ],
+            "alpha16Height": 111,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-05.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.07763671875,
+            -0.0439453125
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1072,
+            528,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            464,
+            496
+          ],
+          "groundRootInteger": [
+            228,
+            444
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                112,
+                393,
+                197,
+                448
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                140.0,
+                435
+              ],
+              "supportBandX": [
+                118,
+                162
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                272,
+                410,
+                352,
+                465
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                317.0,
+                454
+              ],
+              "supportBandX": [
+                296,
+                338
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 170,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "8d03f46901e706954e2aa457e0f3c873b795a18c5d0670ce3ec758180a32fb78",
+          "nativeTranslation": [
+            284,
+            324
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-06.png",
+            "sha256": "6582d2f3ecb015ae2bb81c14d4eba4351ebe72bf0a89a014bb6ef9722a1d4ec1",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 943765,
+            "alphaOne": 7850,
+            "alphaSemi": 104811,
+            "alphaOpaque": 0,
+            "alphaNonzero": 104811,
+            "alpha0BBox": [
+              285,
+              335,
+              722,
+              796
+            ],
+            "alpha16BBox": [
+              303,
+              349,
+              686,
+              779
+            ],
+            "alpha16Height": 430,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/native1024/attack-06.png.derivation.json"
+          },
+          "actionUniformScale": 0.796875,
+          "resizedSourceSize": [
+            370,
+            395
+          ],
+          "normalizedTranslation": [
+            330,
+            414
+          ],
+          "normalizedContactPoints": [
+            [
+              441.5625,
+              760.640625
+            ],
+            [
+              582.609375,
+              775.78125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.0859375,
+            0.2109375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-06.png",
+            "sha256": "abcd82f710d906570cd3fce3de66ed13ae4bda14594f08dadd6612c488e4e14c",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 982591,
+            "alphaOne": 4663,
+            "alphaSemi": 65713,
+            "alphaOpaque": 272,
+            "alphaNonzero": 65985,
+            "alpha0BBox": [
+              331,
+              423,
+              679,
+              790
+            ],
+            "alpha16BBox": [
+              345,
+              434,
+              650,
+              777
+            ],
+            "alpha16Height": 343,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/normalized1024/attack-06.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-06.png",
+            "sha256": "d11a6465702c7ed20644dfddb0fd957c2805816873df1f790488a9b311c59d7c",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138227,
+            "alphaOne": 387,
+            "alphaSemi": 8818,
+            "alphaOpaque": 411,
+            "alphaNonzero": 9229,
+            "alpha0BBox": [
+              127,
+              160,
+              247,
+              294
+            ],
+            "alpha16BBox": [
+              129,
+              162,
+              244,
+              291
+            ],
+            "alpha16Height": 129,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/attack/map128h/attack-06.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.0322265625,
+            0.0791015625
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.5546875
+      },
+      "visualStatus": "source/contact/helmet and aligned light/dark frames actually reviewed; technical candidate",
+      "visualFinding": "Six phases readable; ring baton remains in right hand, shield in left. Lower-row source boundaries x566/x1072 preserve extended ring weapons. Perspective/head tilt still varies."
+    },
+    {
+      "id": "hurt",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png.generation.json",
+      "sha256": "363d491a2cab621da66e5892b788a37ffe496a03c8fd27b0237e82f428e74a39",
+      "cols": 2,
+      "rows": 2,
+      "rowBoundary": 644,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 307,
+      "helmetMeasurement": [
+        202,
+        170,
+        509,
+        378
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.5863192182410424,
+      "durationsMs": [
+        100,
+        100,
+        140,
+        180
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.5863192182410424,
+      "uniformScaleActual": 0.5869218500797448,
+      "normalizedHelmetWidthPx": 180.18500797448166,
+      "frameCount": 4,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            644
+          ],
+          "sourceCellSize": [
+            627,
+            644
+          ],
+          "groundRootInteger": [
+            355,
+            620
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                197,
+                557,
+                303,
+                619
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                235.0,
+                611
+              ],
+              "supportBandX": [
+                209,
+                261
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                417,
+                580,
+                519,
+                637
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                475.5,
+                630
+              ],
+              "supportBandX": [
+                451,
+                500
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "8326e4f65900046e242a118c60fcd9f62d38445fb8dc1ce6774c218604ad12e7",
+          "nativeTranslation": [
+            157,
+            148
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-01.png",
+            "sha256": "bb33aec637d667e9c0ea4db3576591cd28a3eb6d40d4638f6119dbd208440daf",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 866925,
+            "alphaOne": 18199,
+            "alphaSemi": 181356,
+            "alphaOpaque": 295,
+            "alphaNonzero": 181651,
+            "alpha0BBox": [
+              157,
+              155,
+              784,
+              792
+            ],
+            "alpha16BBox": [
+              242,
+              219,
+              745,
+              779
+            ],
+            "alpha16Height": 560,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.5869218500797448,
+          "resizedSourceSize": [
+            368,
+            378
+          ],
+          "normalizedTranslation": [
+            304,
+            404
+          ],
+          "normalizedContactPoints": [
+            [
+              441.92663476874003,
+              762.609250398724
+            ],
+            [
+              583.0813397129186,
+              773.7607655502393
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.5039872408293604,
+            0.18500797448166395
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-01.png",
+            "sha256": "39818441329a8c9f1d7150e96e85ee4f92c399084e1c8fdd282fa27bfab0acf8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 986229,
+            "alphaOne": 5841,
+            "alphaSemi": 61692,
+            "alphaOpaque": 655,
+            "alphaNonzero": 62347,
+            "alpha0BBox": [
+              304,
+              408,
+              672,
+              782
+            ],
+            "alpha16BBox": [
+              354,
+              446,
+              649,
+              775
+            ],
+            "alpha16Height": 329,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+            "sha256": "9aeee732833727ca8f2d521ba6524ce59c51b0e2b455a166c8bf41c0cabb0423",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138508,
+            "alphaOne": 657,
+            "alphaSemi": 8557,
+            "alphaOpaque": 391,
+            "alphaNonzero": 8948,
+            "alpha0BBox": [
+              114,
+              156,
+              252,
+              293
+            ],
+            "alpha16BBox": [
+              132,
+              167,
+              244,
+              291
+            ],
+            "alpha16Height": 124,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.18899521531101016,
+            0.06937799043062398
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            644
+          ],
+          "sourceCellSize": [
+            627,
+            644
+          ],
+          "groundRootInteger": [
+            366,
+            617
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                208,
+                555,
+                309,
+                630
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                241.0,
+                620
+              ],
+              "supportBandX": [
+                219,
+                263
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                425,
+                555,
+                530,
+                619
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                492.0,
+                614
+              ],
+              "supportBandX": [
+                469,
+                515
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "d7422858a63c3c4f0c8db99640106c87187390f335bdb3561fa930d8cf7300aa",
+          "nativeTranslation": [
+            146,
+            151
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-02.png",
+            "sha256": "bb6474af42c00c0ee63928a290c449c4ce2cb005e61cf3cca6d7cc5e5612379f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 875036,
+            "alphaOne": 11783,
+            "alphaSemi": 173326,
+            "alphaOpaque": 214,
+            "alphaNonzero": 173540,
+            "alpha0BBox": [
+              146,
+              168,
+              755,
+              795
+            ],
+            "alpha16BBox": [
+              232,
+              236,
+              732,
+              772
+            ],
+            "alpha16Height": 536,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.5869218500797448,
+          "resizedSourceSize": [
+            368,
+            378
+          ],
+          "normalizedTranslation": [
+            297,
+            406
+          ],
+          "normalizedContactPoints": [
+            [
+              438.44816586921854,
+              769.8915470494418
+            ],
+            [
+              585.7655502392345,
+              766.3700159489633
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.1068580542264499,
+            0.1307814992026124
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-02.png",
+            "sha256": "8ec3d9b2c75ce5aa844692411a17c3a75f1540b6c682a45192f22d33ad55ce0b",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 988988,
+            "alphaOne": 3736,
+            "alphaSemi": 59036,
+            "alphaOpaque": 552,
+            "alphaNonzero": 59588,
+            "alpha0BBox": [
+              297,
+              420,
+              649,
+              784
+            ],
+            "alpha16BBox": [
+              347,
+              456,
+              641,
+              771
+            ],
+            "alpha16Height": 315,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+            "sha256": "7717e6daffa5d67efd0a433891b4828cd534925e4b529d05615f7ea287e8803d",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138911,
+            "alphaOne": 368,
+            "alphaSemi": 8185,
+            "alphaOpaque": 360,
+            "alphaNonzero": 8545,
+            "alpha0BBox": [
+              112,
+              159,
+              243,
+              294
+            ],
+            "alpha16BBox": [
+              130,
+              171,
+              241,
+              289
+            ],
+            "alpha16Height": 118,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.04007177033491871,
+            0.04904306220097965
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            644,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            610
+          ],
+          "groundRootInteger": [
+            379,
+            541
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                220,
+                480,
+                327,
+                552
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                261.0,
+                543
+              ],
+              "supportBandX": [
+                236,
+                286
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                435,
+                488,
+                545,
+                552
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                497.0,
+                539
+              ],
+              "supportBandX": [
+                474,
+                520
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "4bf818b6c5c79181e288f82c8171e5c8483ff66cbf66bfe839a3a9398471d0e4",
+          "nativeTranslation": [
+            133,
+            227
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-03.png",
+            "sha256": "33c10fe07293b294d3517904273bd060e29bd8e4c1e32b427584b65acbd47015",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 889981,
+            "alphaOne": 15579,
+            "alphaSemi": 158323,
+            "alphaOpaque": 272,
+            "alphaNonzero": 158595,
+            "alpha0BBox": [
+              133,
+              227,
+              760,
+              837
+            ],
+            "alpha16BBox": [
+              228,
+              295,
+              739,
+              771
+            ],
+            "alpha16Height": 476,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.5869218500797448,
+          "resizedSourceSize": [
+            368,
+            358
+          ],
+          "normalizedTranslation": [
+            290,
+            450
+          ],
+          "normalizedContactPoints": [
+            [
+              443.18660287081343,
+              768.6985645933014
+            ],
+            [
+              581.7001594896332,
+              766.3508771929825
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.44338118022324124,
+            -0.4752791068581246
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-03.png",
+            "sha256": "da1f46b0c719a9bab2138950c684abdb5395d13be25c4904ad13f22256104ea2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 994144,
+            "alphaOne": 5027,
+            "alphaSemi": 53905,
+            "alphaOpaque": 527,
+            "alphaNonzero": 54432,
+            "alpha0BBox": [
+              290,
+              450,
+              658,
+              808
+            ],
+            "alpha16BBox": [
+              345,
+              490,
+              646,
+              770
+            ],
+            "alpha16Height": 280,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+            "sha256": "4c83727bbbbc8cc646b4d36bb22c3572e5c1ae52583e9b2f5ba451f31774f70f",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139711,
+            "alphaOne": 495,
+            "alphaSemi": 7403,
+            "alphaOpaque": 342,
+            "alphaNonzero": 7745,
+            "alpha0BBox": [
+              109,
+              169,
+              247,
+              300
+            ],
+            "alpha16BBox": [
+              129,
+              184,
+              242,
+              289
+            ],
+            "alpha16Height": 105,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.16626794258371547,
+            -0.17822966507179672
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            644,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            610
+          ],
+          "groundRootInteger": [
+            350,
+            553
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                492,
+                296,
+                560
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                230.5,
+                546
+              ],
+              "supportBandX": [
+                205,
+                256
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                405,
+                510,
+                513,
+                570
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                470.5,
+                560
+              ],
+              "supportBandX": [
+                446,
+                495
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "8ef39cc0a5e02e4d1ed5e02b0fbcaf47288e360b75efa6e52f842747048d2aba",
+          "nativeTranslation": [
+            162,
+            215
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-04.png",
+            "sha256": "01406a53c67357ed7c2a65a6ad713cc00817ef3ff49d03de1ab2943c05b0e35a",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 874917,
+            "alphaOne": 16389,
+            "alphaSemi": 173335,
+            "alphaOpaque": 324,
+            "alphaNonzero": 173659,
+            "alpha0BBox": [
+              162,
+              215,
+              775,
+              825
+            ],
+            "alpha16BBox": [
+              240,
+              235,
+              737,
+              776
+            ],
+            "alpha16Height": 541,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/native1024/hurt-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.5869218500797448,
+          "resizedSourceSize": [
+            368,
+            358
+          ],
+          "normalizedTranslation": [
+            307,
+            443
+          ],
+          "normalizedContactPoints": [
+            [
+              442.28548644338116,
+              763.4593301435407
+            ],
+            [
+              583.1467304625199,
+              771.6762360446571
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.7161084529504933,
+            -0.4322169059011003
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-04.png",
+            "sha256": "274826977789c48b54b35e525284f20876fdb5c8da642079687321f630ddee6c",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 989044,
+            "alphaOne": 5229,
+            "alphaSemi": 58929,
+            "alphaOpaque": 603,
+            "alphaNonzero": 59532,
+            "alpha0BBox": [
+              307,
+              443,
+              667,
+              801
+            ],
+            "alpha16BBox": [
+              353,
+              454,
+              645,
+              772
+            ],
+            "alpha16Height": 318,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+            "sha256": "eb3cfeede5af6811cb2bfce30c68db8c67c3faa2f638f1ad390ad3949f805a9b",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138902,
+            "alphaOne": 576,
+            "alphaSemi": 8160,
+            "alphaOpaque": 394,
+            "alphaNonzero": 8554,
+            "alpha0BBox": [
+              115,
+              166,
+              249,
+              297
+            ],
+            "alpha16BBox": [
+              132,
+              170,
+              242,
+              290
+            ],
+            "alpha16Height": 120,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/map128h/hurt-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.268540669856435,
+            -0.1620813397129126
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.7161084529504933
+      },
+      "visualStatus": "source/contact/helmet and aligned light/dark frames actually reviewed; technical candidate",
+      "visualFinding": "Recoil, closed eyes, crouch and recovery are distinguishable. No visible equipment swap or clipped body."
+    },
+    {
+      "id": "defeat",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "cols": 3,
+      "rows": 2,
+      "rowBoundary": 590,
+      "gridIsUniform": false,
+      "sourceRectReason": "Complete sheet partition through actual transparent gutters. Attack lower-row boundaries x566/x1072 protect crossing ring staffs. Defeat row boundary y590 retains upper-row feet.",
+      "helmetWidth": 224,
+      "helmetMeasurement": [
+        193,
+        169,
+        417,
+        333
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.8035714285714286,
+      "durationsMs": [
+        120,
+        140,
+        160,
+        180,
+        220,
+        600
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.8035714285714286,
+      "uniformScaleActual": 0.802734375,
+      "normalizedHelmetWidthPx": 179.8125,
+      "frameCount": 6,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            590
+          ],
+          "sourceCellSize": [
+            512,
+            590
+          ],
+          "groundRootInteger": [
+            309,
+            532
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                480,
+                275,
+                534
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                224.0,
+                525
+              ],
+              "supportBandX": [
+                202,
+                246
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                344,
+                492,
+                425,
+                546
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                394.0,
+                539
+              ],
+              "supportBandX": [
+                373,
+                415
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 120,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "e2746600323d4a75fe0ae4b27df13d5b22456f5ea816ae8fa85e781ebe8db90d",
+          "nativeTranslation": [
+            203,
+            236
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-01.png",
+            "sha256": "2268e70060da3c6e464d24cbb00ca8649498bb14976a650946497378f2fc72d6",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 945873,
+            "alphaOne": 7421,
+            "alphaSemi": 102703,
+            "alphaOpaque": 0,
+            "alphaNonzero": 102703,
+            "alpha0BBox": [
+              203,
+              236,
+              715,
+              826
+            ],
+            "alpha16BBox": [
+              316,
+              336,
+              676,
+              776
+            ],
+            "alpha16Height": 440,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.802734375,
+          "resizedSourceSize": [
+            411,
+            474
+          ],
+          "normalizedTranslation": [
+            264,
+            341
+          ],
+          "normalizedContactPoints": [
+            [
+              443.8125,
+              762.435546875
+            ],
+            [
+              580.27734375,
+              773.673828125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.044921875,
+            0.0546875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-01.png",
+            "sha256": "b06c10cb0cac240c47c723849af280e73dcfcb7e16d901a32b7380ec1a151d6d",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 982878,
+            "alphaOne": 4498,
+            "alphaSemi": 65539,
+            "alphaOpaque": 159,
+            "alphaNonzero": 65698,
+            "alpha0BBox": [
+              264,
+              341,
+              675,
+              815
+            ],
+            "alpha16BBox": [
+              355,
+              421,
+              644,
+              775
+            ],
+            "alpha16Height": 354,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+            "sha256": "ebe8966c6bf320c2a2086fe24ce640ffc8209aef741dc5f0260cf913550089d5",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138255,
+            "alphaOne": 325,
+            "alphaSemi": 8840,
+            "alphaOpaque": 361,
+            "alphaNonzero": 9201,
+            "alpha0BBox": [
+              105,
+              156,
+              245,
+              303
+            ],
+            "alpha16BBox": [
+              133,
+              158,
+              242,
+              291
+            ],
+            "alpha16Height": 133,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.016845703125,
+            0.0205078125
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            590
+          ],
+          "sourceCellSize": [
+            512,
+            590
+          ],
+          "groundRootInteger": [
+            268,
+            535
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                160,
+                495,
+                245,
+                545
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                190.0,
+                537
+              ],
+              "supportBandX": [
+                169,
+                211
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                302,
+                495,
+                375,
+                542
+              ],
+              "anatomicalSupport": "boot",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                345.0,
+                533
+              ],
+              "supportBandX": [
+                325,
+                365
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "74608fe6aa1de26f873b2fe33885c36bbfa8f630e5633db77cb3a1317838cf8f",
+          "nativeTranslation": [
+            244,
+            233
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-02.png",
+            "sha256": "1f29dec743e9c23a76c5e2d0655eef6dfbd3b211da79f98c36bf37bc1f2c5794",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 944939,
+            "alphaOne": 5767,
+            "alphaSemi": 103637,
+            "alphaOpaque": 0,
+            "alphaNonzero": 103637,
+            "alpha0BBox": [
+              249,
+              266,
+              738,
+              823
+            ],
+            "alpha16BBox": [
+              314,
+              362,
+              696,
+              771
+            ],
+            "alpha16Height": 409,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.802734375,
+          "resizedSourceSize": [
+            411,
+            474
+          ],
+          "normalizedTranslation": [
+            297,
+            339
+          ],
+          "normalizedContactPoints": [
+            [
+              449.51953125,
+              770.068359375
+            ],
+            [
+              573.943359375,
+              766.857421875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.2685546875,
+            0.462890625
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-02.png",
+            "sha256": "505b93865e8917380dba601f27264329e9da81c9be898d68fd6580a4013fbf7f",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 982216,
+            "alphaOne": 3441,
+            "alphaSemi": 66174,
+            "alphaOpaque": 186,
+            "alphaNonzero": 66360,
+            "alpha0BBox": [
+              301,
+              365,
+              694,
+              813
+            ],
+            "alpha16BBox": [
+              353,
+              442,
+              660,
+              771
+            ],
+            "alpha16Height": 329,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+            "sha256": "387daf3569a9fed560b983f3ba77d248f3c2dc1dc62e413855e2aba3ddf73f49",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138125,
+            "alphaOne": 270,
+            "alphaSemi": 8954,
+            "alphaOpaque": 377,
+            "alphaNonzero": 9331,
+            "alpha0BBox": [
+              130,
+              153,
+              250,
+              305
+            ],
+            "alpha16BBox": [
+              132,
+              166,
+              248,
+              289
+            ],
+            "alpha16Height": 123,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.1007080078125,
+            0.173583984375
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            590
+          ],
+          "sourceCellSize": [
+            512,
+            590
+          ],
+          "groundRootInteger": [
+            266,
+            532
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                193,
+                499,
+                264,
+                541
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                227.5,
+                534
+              ],
+              "supportBandX": [
+                204,
+                251
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                278,
+                499,
+                346,
+                541
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                305.0,
+                530
+              ],
+              "supportBandX": [
+                278,
+                332
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 160,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "ecb109ce16b5db71cf7f3c7d464105b2e9a99c892ac623938d24db30b4ab6f68",
+          "nativeTranslation": [
+            246,
+            236
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-03.png",
+            "sha256": "bcde46cc86cb09eb460c37b18973bac2ab394d409f9edca500846499fd23afd5",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 949687,
+            "alphaOne": 5660,
+            "alphaSemi": 98889,
+            "alphaOpaque": 0,
+            "alphaNonzero": 98889,
+            "alpha0BBox": [
+              257,
+              257,
+              738,
+              812
+            ],
+            "alpha16BBox": [
+              321,
+              403,
+              704,
+              785
+            ],
+            "alpha16Height": 382,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.802734375,
+          "resizedSourceSize": [
+            411,
+            474
+          ],
+          "normalizedTranslation": [
+            298,
+            341
+          ],
+          "normalizedContactPoints": [
+            [
+              480.6220703125,
+              769.66015625
+            ],
+            [
+              542.833984375,
+              766.44921875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.27197265625,
+            0.0546875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-03.png",
+            "sha256": "e3cb89cb896746e22f6e4f06f041d56f6b41cf1e212f6242779c73adc0c1a16e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 985201,
+            "alphaOne": 3382,
+            "alphaSemi": 63221,
+            "alphaOpaque": 154,
+            "alphaNonzero": 63375,
+            "alpha0BBox": [
+              307,
+              358,
+              693,
+              804
+            ],
+            "alpha16BBox": [
+              358,
+              475,
+              665,
+              782
+            ],
+            "alpha16Height": 307,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+            "sha256": "12d28356b81b34c224a1f9ac7492fd250b13028fa2f809f2b4e28b027330da39",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 138542,
+            "alphaOne": 217,
+            "alphaSemi": 8573,
+            "alphaOpaque": 341,
+            "alphaNonzero": 8914,
+            "alpha0BBox": [
+              132,
+              172,
+              252,
+              297
+            ],
+            "alpha16BBox": [
+              134,
+              178,
+              250,
+              294
+            ],
+            "alpha16Height": 116,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.10198974609375,
+            0.0205078125
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            590,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            434
+          ],
+          "groundRootInteger": [
+            308,
+            396
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                231,
+                351,
+                305,
+                401
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                271.0,
+                397
+              ],
+              "supportBandX": [
+                247,
+                295
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                320,
+                351,
+                390,
+                401
+              ],
+              "anatomicalSupport": "knee",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                345.5,
+                395
+              ],
+              "supportBandX": [
+                320,
+                371
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "89de2fa2af19c760a2f89beaa7d6ffabc116133acf9dd8cf7a316845d00fc53f",
+          "nativeTranslation": [
+            204,
+            372
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-04.png",
+            "sha256": "1493ac43ab89ca336add10f5ab5fc30fac64705e8e797b6f393a29525ed2f05e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 956369,
+            "alphaOne": 5212,
+            "alphaSemi": 92207,
+            "alphaOpaque": 0,
+            "alphaNonzero": 92207,
+            "alpha0BBox": [
+              253,
+              372,
+              716,
+              806
+            ],
+            "alpha16BBox": [
+              322,
+              426,
+              705,
+              781
+            ],
+            "alpha16Height": 355,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.802734375,
+          "resizedSourceSize": [
+            411,
+            348
+          ],
+          "normalizedTranslation": [
+            265,
+            450
+          ],
+          "normalizedContactPoints": [
+            [
+              482.541015625,
+              768.685546875
+            ],
+            [
+              542.3447265625,
+              767.080078125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.44287109375,
+            -0.1171875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-04.png",
+            "sha256": "1a0fe03460fc01f4ebccb9f9336cb381c3e38cf9d033d02c6721dbe07c19895d",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 989527,
+            "alphaOne": 3178,
+            "alphaSemi": 58894,
+            "alphaOpaque": 155,
+            "alphaNonzero": 59049,
+            "alpha0BBox": [
+              304,
+              450,
+              676,
+              798
+            ],
+            "alpha16BBox": [
+              359,
+              493,
+              667,
+              778
+            ],
+            "alpha16Height": 285,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+            "sha256": "93f5700301ae54c03ac3ad5a05386d432d12a3d35eb4fc575aa251b15a734f9c",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139155,
+            "alphaOne": 236,
+            "alphaSemi": 8014,
+            "alphaOpaque": 287,
+            "alphaNonzero": 8301,
+            "alpha0BBox": [
+              132,
+              169,
+              253,
+              294
+            ],
+            "alpha16BBox": [
+              135,
+              185,
+              250,
+              292
+            ],
+            "alpha16Height": 107,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.16607666015625,
+            -0.0439453125
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            590,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            434
+          ],
+          "groundRootInteger": [
+            299,
+            392
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                202,
+                355,
+                269,
+                399
+              ],
+              "anatomicalSupport": "extended boot sole",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                239.5,
+                393
+              ],
+              "supportBandX": [
+                223,
+                256
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                330,
+                355,
+                396,
+                399
+              ],
+              "anatomicalSupport": "folded knee/seated support",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                358.5,
+                391
+              ],
+              "supportBandX": [
+                330,
+                387
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 220,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "5b6b68513d7ec5861d9ec0a51de41cc3428d2f51735adc321cd92b3be036c8f5",
+          "nativeTranslation": [
+            213,
+            376
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-05.png",
+            "sha256": "15ed1386d5d31289a49ee03314fa522b4b11255ee1a6aec8688b4b4170fad95d",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 963712,
+            "alphaOne": 6469,
+            "alphaSemi": 84864,
+            "alphaOpaque": 0,
+            "alphaNonzero": 84864,
+            "alpha0BBox": [
+              213,
+              377,
+              725,
+              810
+            ],
+            "alpha16BBox": [
+              288,
+              447,
+              709,
+              770
+            ],
+            "alpha16Height": 323,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-05.png.derivation.json"
+          },
+          "actionUniformScale": 0.802734375,
+          "resizedSourceSize": [
+            411,
+            348
+          ],
+          "normalizedTranslation": [
+            272,
+            453
+          ],
+          "normalizedContactPoints": [
+            [
+              464.2548828125,
+              768.474609375
+            ],
+            [
+              559.7802734375,
+              766.869140625
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.017578125,
+            -0.328125
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-05.png",
+            "sha256": "a4640f094b330b8ff4fbfc5a9facee8a2fcff63bdc8579ab546e62d0a3d836b2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 994272,
+            "alphaOne": 3925,
+            "alphaSemi": 54144,
+            "alphaOpaque": 160,
+            "alphaNonzero": 54304,
+            "alpha0BBox": [
+              272,
+              454,
+              683,
+              801
+            ],
+            "alpha16BBox": [
+              332,
+              510,
+              670,
+              769
+            ],
+            "alpha16Height": 259,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-05.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+            "sha256": "cbafabdc9e1f131209db22928ffff3aaff02af595257db3acbab45075d143ea0",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139854,
+            "alphaOne": 261,
+            "alphaSemi": 7294,
+            "alphaOpaque": 308,
+            "alphaNonzero": 7602,
+            "alpha0BBox": [
+              102,
+              181,
+              254,
+              291
+            ],
+            "alpha16BBox": [
+              124,
+              191,
+              252,
+              289
+            ],
+            "alpha16Height": 98,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-05.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.006591796875,
+            -0.123046875
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            590,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            434
+          ],
+          "groundRootInteger": [
+            266,
+            388
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                229,
+                365,
+                248,
+                388
+              ],
+              "anatomicalSupport": "seated pants/hip support",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                238.0,
+                384
+              ],
+              "supportBandX": [
+                229,
+                247
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                270,
+                356,
+                338,
+                400
+              ],
+              "anatomicalSupport": "front boot sole",
+              "method": "alpha>16 diagnostic inside manually chosen physical boot/knee/seated support ROI; bottom 5px support band midpoint; no pixels modified",
+              "contactPoint": [
+                294.5,
+                392
+              ],
+              "supportBandX": [
+                270,
+                319
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 600,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "277c272fc64c81882690057bd454ea31f50107096f5c1460947231267aaf484b",
+          "nativeTranslation": [
+            246,
+            380
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-06.png",
+            "sha256": "a5aa564f501d473c4ab9532f604c5784ad68a5eeb8076896f2f6a5cb9910f3dc",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 966288,
+            "alphaOne": 4519,
+            "alphaSemi": 82288,
+            "alphaOpaque": 0,
+            "alphaNonzero": 82288,
+            "alpha0BBox": [
+              247,
+              393,
+              726,
+              792
+            ],
+            "alpha16BBox": [
+              351,
+              447,
+              710,
+              775
+            ],
+            "alpha16Height": 328,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/native1024/defeat-06.png.derivation.json"
+          },
+          "actionUniformScale": 0.802734375,
+          "resizedSourceSize": [
+            411,
+            348
+          ],
+          "normalizedTranslation": [
+            298,
+            457
+          ],
+          "normalizedContactPoints": [
+            [
+              489.05078125,
+              765.25
+            ],
+            [
+              534.4052734375,
+              771.671875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.27197265625,
+            0.4609375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-06.png",
+            "sha256": "9c4603bf40ba445d9a61687b988f8f4365154ac98cc27b6449bdb7fc434e1f7a",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 995832,
+            "alphaOne": 2743,
+            "alphaSemi": 52602,
+            "alphaOpaque": 142,
+            "alphaNonzero": 52744,
+            "alpha0BBox": [
+              299,
+              467,
+              683,
+              787
+            ],
+            "alpha16BBox": [
+              383,
+              511,
+              671,
+              774
+            ],
+            "alpha16Height": 263,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-06.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+            "sha256": "f4f73d05b3b516f79586ce979a9cb468f3a19a422718113a0f1e61e1aa0568f6",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139971,
+            "alphaOne": 226,
+            "alphaSemi": 7237,
+            "alphaOpaque": 248,
+            "alphaNonzero": 7485,
+            "alpha0BBox": [
+              119,
+              189,
+              254,
+              293
+            ],
+            "alpha16BBox": [
+              143,
+              191,
+              252,
+              291
+            ],
+            "alpha16Height": 100,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/map128h/defeat-06.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.10198974609375,
+            0.1728515625
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.462890625
+      },
+      "visualStatus": "source/contact/helmet and aligned light/dark frames actually reviewed; technical candidate",
+      "visualFinding": "Standing -> knee support -> kneeling -> seated low hold. Frames5/6 use real visible sole and seated trouser/knee support. Frame6 baton rests beside hand as prompted; tassel is explicitly excluded from ground root."
+    }
+  ],
+  "notProven": [
+    "user visual acceptance",
+    "motion smoothness and timing",
+    "individual foot immobility (stance width and contact-line slope can change)",
+    "consistent generated proportions beyond measured helmet width",
+    "Unity playback/import",
+    "exact128 standing pixels (water master137)",
+    "uniform-grid auto-slicing",
+    "all directions and locomotion"
+  ],
+  "counts": {
+    "generatedNativeSheetsInThisStep": 0,
+    "sourceSheets": 4,
+    "animationFrames": 20,
+    "native1024Png": 20,
+    "normalized1024Png": 20,
+    "map128hPng": 20,
+    "exportPngTotal": 60
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "qaRecord": "records/troop-frames-20261029-r3-water/visual-review.json"
+}

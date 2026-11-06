@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-face-native.png",
+  "sha256": "c660f34cdc1f5f0c9abe1b6ed83ca708aefc333003463f93fa16125e8e4d92f4",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png",
+    "sha256": "700bdfdca876e958baa43a74015343fc7a6b131bc27fa4002380c506d2f45734",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/dong-zhuo-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      220,
+      100,
+      790,
+      650
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

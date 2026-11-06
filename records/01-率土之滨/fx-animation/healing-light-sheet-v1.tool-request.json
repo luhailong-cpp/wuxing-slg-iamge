@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T17:17:34.221Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept\nAsset type: ONE8-frame one-shot healing-light FX animation sprite sheet,4columns x2rows, landscape2:1, real native transparent PNG. Eight successive instants of one small healing pulse, not8independent icons.\nInput roles: Image1 mail and Image2 team UI are PRIMARY Daoist Q/chibi premium HD hand-painted style. Image3 is the existing healing-light visual identity: soft jade/ivory rising energy column, short warm-gold ribbons, jade leaves and gold leaflike motes rising from a small elliptical healing-light ring. Continue the same visual family and camera; no physical ground disk, scene, object, characters or text.\nGeometry: exactly8equal imaginary square cells,4columns x2rows, read top row left-to-right then bottom row left-to-right. Same locked camera, same small elliptical ring plane. The HEAL ACTION ORIGIN is the center of each cell: the ring BASE center stays at that origin in EVERY phase. Top-row action origins at global(12.5%,25%),(37.5%,25%),(62.5%,25%),(87.5%,25%), bottom row same x at global y75%. The base must not rise/fall or shift when the column grows. Compact vertical light extends upward from this fixed base, never translates across the cell.\nContainment: largest full effect including leaves, light and detached motes only about40%cell width and45%height, entire full envelope inside central60%cell. Big clear true-alpha margin in every direction. No halo crosses cell boundaries. No drawn grid, separators, labels or frame numbers. Keep all8frames nonempty; first/last have only very small residual light.\nChronological phases:0 one tiny jade-white seed light at base origin, diameter5%cell;1 two small leaf-shaped lights and a short luminous filament emerge from same base;2 one thin oval ring and a short gentle jade column rise,2small leaves;3 ring and ivory spiral ribbon develop upward with4jade leaves, medium brightness;4 peak same healing pulse, narrow soft jade-white column,2ivory spiral ribbons,6tiny jade/gold leaves, no more45%cell height;5 column shrinks/dims from top down, lower ring fades and leaves disperse inward;6 only a small ring trace with2faint gold-green leaf motes and a short wisp remain near the same base, no new column;7 one tiny weaker jade-white residual mote at the same fixed base, diameter4%cell. Ends in decay, no restart, no loop pose.\nRendering: clean HD hand-painted 2D Daoist chibi game FX with readable leaf shapes and thin soft light. Jade green, ivory-white and restrained warm-gold accents. Partial-alpha glows attached only to the compact effect; no giant sheet-wide bloom, no dark edge, no colored fringe. Camera and ring shape consistent across all phases, visible growth-peak-decay with no duplicated full-size pulse.\nNative transparent alpha background; true empty pixels outside each effect. NO black/white/color background, checkerboard, gradient/vignette, floor, platform, shadow, pedestal, UI, text/letters/numbers/rune writing, labels, grid/border/frame, logo, watermark, signature or other effect families.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/healing-light.png"
+    ],
+    "transparent_background": true
+  },
+  "contract": {
+    "action": "healing-light",
+    "grid": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "frameOrder": "row-major",
+    "nativeAlpha": true,
+    "anchor": "healing base origin, intended same cell center",
+    "durationSeconds": 0.8,
+    "frameSeconds": 0.1,
+    "loop": false,
+    "timingIsDemonstration": true,
+    "noBattleEvents": true
+  }
+}

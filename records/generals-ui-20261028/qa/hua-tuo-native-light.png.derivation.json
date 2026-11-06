@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/hua-tuo-native-light.png",
+  "sha256": "4a5c086f1f7a75e6c1d8dd0484df0e059ebf8789608e16bdde87e9fbb8301405",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1525,
+  "height": 990,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/hua-tuo-face-native.png",
+      "sha256": "1cd5072149ac82cee7229871f66ffc9433c951b0e8df7dd68f253a30cec080be",
+      "record": "exports/01-率土之滨/generals-ui-v1/hua-tuo-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/hua-tuo-bust-native.png",
+      "sha256": "b5b3bff037d5257f8f64adbf1a5a9cfcd5a6cc95f96a42f0e162b4c836eac6eb",
+      "record": "exports/01-率土之滨/generals-ui-v1/hua-tuo-bust-native.png.derivation.json"
+    }
+  ]
+}

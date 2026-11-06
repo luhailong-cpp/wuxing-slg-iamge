@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-27T18:47:52.223682+00:00",
+  "file": "exports/01-率土之滨/hero-ui-v1/unity/WuxingSLGHeroSkillUIPreview-20261027.unitypackage",
+  "sha256": "86b9f91cee815fbc419d9cf537c0fcfcf1109ca9f48ce601acfe1cdd67693e65",
+  "bytes": 17871029,
+  "format": "UnityPackage gzip tar",
+  "art_source": "existing",
+  "operation": "Actual Unity6000.6.0f1 AssetDatabase.ExportPackage followed by fresh independent project ImportPackage completion and45Sprite validation",
+  "actualUnityVersion": "6000.6.0f1",
+  "spriteCount": 45,
+  "heroPreviewCount": 25,
+  "skillIconCount": 20,
+  "animationClipCount": 0,
+  "exportRoot": "Assets/WuxingSLGHeroSkillUIPreview",
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/hero-ui-v1/unity/hero-skill-ui-source-index-20261027.json",
+    "sha256": "3452c92bd1c1a7d25e34f8f0a75ec74473057ea154a3e7ccf69e1bed906b4295"
+  },
+  "sourceImportValidation": {
+    "file": "records/01-率土之滨/hero-skill-ui-source-import-validation-20261027.json",
+    "sha256": "0e2039d06000e87537ac3b6dac910323dd43002118b688b1cde5ea21cc394666"
+  },
+  "freshEmptyProjectRoundtripValidation": {
+    "file": "records/01-率土之滨/hero-skill-ui-roundtrip-validation-20261027.json",
+    "sha256": "10beb247c5805f895e69fb911b1f6a8f3d7835aaffde20878bb714497286ebba"
+  },
+  "archiveNamespaceAudit": {
+    "file": "records/01-率土之滨/hero-skill-ui-package-archive-audit-20261027.json",
+    "sha256": "f31e13063ed107268ba5ed41c750d8756097964a366b1375c91365333ecbf1bf"
+  },
+  "finalReview": {
+    "file": "records/01-率土之滨/hero-skill-ui-final-review-20261027.json",
+    "sha256": "d6329fe6c1f6fefe686ca10c13b2a58abd7373ca02ee818d1ba918d0496a35b9"
+  },
+  "usageGuide": {
+    "file": "exports/01-率土之滨/hero-ui-v1/unity/WuxingSLGHeroSkillUIPreview-20261027.usage.md",
+    "sha256": "9a3b882fb1e0d4deca44b3507b42e3db9a489b44b24f16a6161126d76a9afb50"
+  },
+  "buildVerifier": {
+    "file": "exports/01-率土之滨/hero-ui-v1/unity/Editor/BuildWuxingHeroSkillUIPreview.cs",
+    "sha256": "4c607b56abdb96810329264e3e5026b562ea803dbf525815c409bf9cec968545"
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "sha256": "d3e9652984940f22bfa60a2a5adae065839e048ca6d9539e5db8a581bd9950db",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png.derivation.json",
+      "recordSha256": "d9709920d433e6bc9e5a1867e70b09d67bbf13f18f95216cc23d2b31b2cca59b",
+      "id": "01-metal-face-native",
+      "category": "HeroFaceNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroFaceNative/01-metal-face-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+      "sha256": "57a6c8dc3bed807606e13a2ae150f7e8f521611de105a7c305e25170d41ad5a3",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png.derivation.json",
+      "recordSha256": "e1f3921e621608561e84fed5eb35aeba977a4ef4f92d7b8747cfd680c4d67b35",
+      "id": "01-metal-bust-native",
+      "category": "HeroBustNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroBustNative/01-metal-bust-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "sha256": "66fe30b65b11f21d66b1de9e3bb26d81bae97254854a6aba824a98c5125b025e",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png.derivation.json",
+      "recordSha256": "ccdd705758c58377e43a1add2bd9513827566786437f794bdf2d1e0883240eb7",
+      "id": "01-metal-avatar-128",
+      "category": "HeroAvatar128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar128/01-metal-avatar-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "sha256": "2a8e69d66f1b70f9b30d36c0b80d5208704ba07f7e1cad97039801e6874fd26f",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png.derivation.json",
+      "recordSha256": "fb3ccc894ab0a092af8ed59740c201401febd5c31f128a9b919af8c3f6a0bfb4",
+      "id": "01-metal-avatar-256",
+      "category": "HeroAvatar256",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar256/01-metal-avatar-256.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png",
+      "sha256": "3a35cc99afd85cd4395974319f22244a24d78f40fa3c9660f1bfca7f23979893",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-card-preview.png.derivation.json",
+      "recordSha256": "3e7f9d25a40f307137ab7513c8ff388b2a5268fdc6eb1bda8d896b7024672389",
+      "id": "01-metal-card-preview",
+      "category": "HeroCardPreview",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroCardPreview/01-metal-card-preview.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png",
+      "sha256": "6593beb5cbebfb41b6e48c00b2952a439a19263d5428009f0e384374a7ea7594",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-face-native.png.derivation.json",
+      "recordSha256": "4e1cb4124ddd752f2d2028fc263e68f98a970020c07e4123d19675b607f453d9",
+      "id": "02-wood-face-native",
+      "category": "HeroFaceNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroFaceNative/02-wood-face-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png",
+      "sha256": "f6e4cfad8cdb9e3cbad46d88f7bc5ef8435892d47cf567cbc81a34026e3c7c27",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-bust-native.png.derivation.json",
+      "recordSha256": "d3913400421be0696308662c38a3e5186a0bc792d2fb6b0d63718089c1ab102a",
+      "id": "02-wood-bust-native",
+      "category": "HeroBustNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroBustNative/02-wood-bust-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "sha256": "81e61476bf436725dfdd6719ba049ab976b182b775899629654bbee45ad2a160",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png.derivation.json",
+      "recordSha256": "43ceafbc225703c61a74491e35c1e0c9444a271e0cc613c5b50e18c9acb492cb",
+      "id": "02-wood-avatar-128",
+      "category": "HeroAvatar128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar128/02-wood-avatar-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "sha256": "044373d933ef3c31c95b6c19b509d8decf9fda303e6cd44308245bfd50dabb3d",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png.derivation.json",
+      "recordSha256": "b7c98de1e37626347e9de95127ed98fa33b46ed845952e40daed1ceed28c6689",
+      "id": "02-wood-avatar-256",
+      "category": "HeroAvatar256",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar256/02-wood-avatar-256.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png",
+      "sha256": "e9b646158a52677180f349189b1f90dcf7566dc32cd3f3760a0c87f65c600444",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-card-preview.png.derivation.json",
+      "recordSha256": "6604758fc374c30904f5359728844536ad00bbb4e5747ac769dd64d1e8a38845",
+      "id": "02-wood-card-preview",
+      "category": "HeroCardPreview",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroCardPreview/02-wood-card-preview.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png",
+      "sha256": "8a4dc832af751b11bf96f3cb1f0ef2363d4594251b156a1f694b268bc61f5f24",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-face-native.png.derivation.json",
+      "recordSha256": "0459f1748771272c90fee91314fa1b8e36cc6fb44a236654ce4c7286a0dffce2",
+      "id": "03-water-face-native",
+      "category": "HeroFaceNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroFaceNative/03-water-face-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "sha256": "94c3ad0bc149dadd0374900db1a401a432cec1332ecfab70e09d5cd02b7f5261",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png.derivation.json",
+      "recordSha256": "9a9ed4977aa2c2b4a0abc6e4170271cdc2d63b42b274956248e65feac3c23c15",
+      "id": "03-water-bust-native",
+      "category": "HeroBustNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroBustNative/03-water-bust-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "sha256": "f011ac5773971485aae21cd7906bd138e7e5a2f4770c49ff6c7470484c396e02",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png.derivation.json",
+      "recordSha256": "69034a4e38c7c9b102b7a4e3eac2d8f2faadaf2258e57e642b2a1b26ae00b3f5",
+      "id": "03-water-avatar-128",
+      "category": "HeroAvatar128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar128/03-water-avatar-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "sha256": "4dc00cc8d060cdd3a321be72583b1f698d56a7a40ffccbab657ed21193c24441",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png.derivation.json",
+      "recordSha256": "3295b398c1765a8457a26ffd316e99daa187b5d04711adfa6704d77a0f36b497",
+      "id": "03-water-avatar-256",
+      "category": "HeroAvatar256",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar256/03-water-avatar-256.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "sha256": "ec493212c8cc09cb42ebb993158b3ff536b4e391fefc031c5a66564ee96d7fbc",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png.derivation.json",
+      "recordSha256": "37e4c161d4601de7dfc5a5d39c5bb9537aae4052a3f048d863fd9d1115e2d1bd",
+      "id": "03-water-card-preview",
+      "category": "HeroCardPreview",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroCardPreview/03-water-card-preview.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "sha256": "6564f21e4bc4b82ab8828ffc18defaaa60c869029f5168412d41307e56ad3d1b",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png.derivation.json",
+      "recordSha256": "3fe1c26edfb6b752a7c5f9aa3a7b4a9c07ae8a5129991a94003e5af07444cfad",
+      "id": "04-fire-face-native",
+      "category": "HeroFaceNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroFaceNative/04-fire-face-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "sha256": "c76108bb2704f56179f7655b2b04d989cb7a79eb5aebff433bb93dfd34c30b33",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png.derivation.json",
+      "recordSha256": "1e1c4e21e5960ab476bb42ad29c8ba7b6e3b796a92a4c4b65375b0c322dc3392",
+      "id": "04-fire-bust-native",
+      "category": "HeroBustNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroBustNative/04-fire-bust-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "sha256": "9cf4d1c07b432a1105eb82e20d5f0f6bfc85063bb3864ebd47c58e57a337eb52",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png.derivation.json",
+      "recordSha256": "3532f552815c3b1646e63b493d07342e8f737ff4dec4853176aca13d00a99e0a",
+      "id": "04-fire-avatar-128",
+      "category": "HeroAvatar128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar128/04-fire-avatar-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "sha256": "3de0f2c3fad9fe72ee84932806b5d9cb89df9332d0b79e49c722ea308ceee25d",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png.derivation.json",
+      "recordSha256": "d0e01ad458c0296c4bf19861ec629f0f1b37ae4ea75c98a77117b41e68f11842",
+      "id": "04-fire-avatar-256",
+      "category": "HeroAvatar256",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar256/04-fire-avatar-256.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "sha256": "972fef94efcd1e1cde945b0bf66e2b4d380dba194e58ca4bef95b66194ad8731",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png.derivation.json",
+      "recordSha256": "1cf586b6af10d4bc0294213d1ee1ac32c744ed0d4d8ca7abb414459ec5b805b9",
+      "id": "04-fire-card-preview",
+      "category": "HeroCardPreview",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroCardPreview/04-fire-card-preview.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "sha256": "1d8b5fa18e28c0d909d77ffdd5da1a1da8f1687d05461be728e025a0159e8829",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png.derivation.json",
+      "recordSha256": "57a7447f422b7cd91c6cb46ee454020d0d50b91197ffeaf89d18e8ecc4ee29b2",
+      "id": "05-earth-face-native",
+      "category": "HeroFaceNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroFaceNative/05-earth-face-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "sha256": "fd8c75652373e56da7f1c87171cc4073224f5ab1944b76c62b9d696d7cee7090",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png.derivation.json",
+      "recordSha256": "74df469f5d9b811b109f21c44e0d7faca0338a3730b3138c127ffbb72948c19f",
+      "id": "05-earth-bust-native",
+      "category": "HeroBustNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroBustNative/05-earth-bust-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "sha256": "43b007254aecaa469aebabcec91438cf421e94feaf4a29db363665d3cde0371c",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png.derivation.json",
+      "recordSha256": "40ce01511f2ea472b6c4066132986c491eec4295bf8c51d10bc107292d24a201",
+      "id": "05-earth-avatar-128",
+      "category": "HeroAvatar128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar128/05-earth-avatar-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "sha256": "b4b27eb1dd29342670971e8c916031b2bfd59d005723ab3eb30a059d3daf1ad0",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png.derivation.json",
+      "recordSha256": "50b5af7203632a42eef8beb56fba2c5d2a79f655adb12ae4c4ca3ee92a1c74d2",
+      "id": "05-earth-avatar-256",
+      "category": "HeroAvatar256",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroAvatar256/05-earth-avatar-256.png"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "sha256": "eb715b07d68ef54b3fe5be61f275be41bbf237cfa5ee2edd3889c56e24d4050a",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png.derivation.json",
+      "recordSha256": "6b7f90dc136c5b3de723e8df9a23264831721c425c5fb3131bd5287650d04bb8",
+      "id": "05-earth-card-preview",
+      "category": "HeroCardPreview",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/HeroCardPreview/05-earth-card-preview.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/metal-native.png",
+      "sha256": "3a49ac8e2a08802f223474ed97c5f73c0cdcf8b4b60ef8521d102c85a51a3eeb",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/metal-native.png.derived.json",
+      "recordSha256": "38cb655016779f209bc9249a2f8f6beffb3fa064f672740599d2319c2fb2f3ee",
+      "id": "skill-metal-native",
+      "category": "SkillNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/SkillNative/skill-metal-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/metal-32.png",
+      "sha256": "728ce4c23f7c02a6d0ab6dac7feb1c68a729d08c8df3280557182fbde9b8bf45",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/metal-32.png.derived.json",
+      "recordSha256": "1eec1e3fc1a159e9cedf1fa4ebbe14d240e77bc211f1be65609869bc002c8ac5",
+      "id": "skill-metal-32",
+      "category": "Skill32",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill32/skill-metal-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/metal-64.png",
+      "sha256": "ba2a86dfc0b81eefbedc7148bf42fe2fde66514986c97d9aa1b46348b08d9e1f",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/metal-64.png.derived.json",
+      "recordSha256": "ff3ee6a040cd5a2e7ec7dc13eb10ce9b19ac0af9c0204801d3c062e36da1ea5a",
+      "id": "skill-metal-64",
+      "category": "Skill64",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill64/skill-metal-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/metal-128.png",
+      "sha256": "ca6a7f8e5506347d6864ec1f65bc286f6f1be5d562364e3c24f8c218b2857b77",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/metal-128.png.derived.json",
+      "recordSha256": "cb27e8be170cbb4a7245ef40395644e8d07a10c8d6c918a69f01c168aa683d37",
+      "id": "skill-metal-128",
+      "category": "Skill128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill128/skill-metal-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/wood-native.png",
+      "sha256": "82ab6d09885dbae9a947bd18009cdaad70583566ae9d2795c94118ff521eb739",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/wood-native.png.derived.json",
+      "recordSha256": "7673a04640c68b2f9ee73de27b3ecedfe3c25b373bd2358677bb9068698a1681",
+      "id": "skill-wood-native",
+      "category": "SkillNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/SkillNative/skill-wood-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/wood-32.png",
+      "sha256": "118fb87c8b024d9c68f1ba286261adc88c6ea6d03736ce703188dfdd1ec5f088",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/wood-32.png.derived.json",
+      "recordSha256": "95a8024e4215cd9bcb391db89a42378f6d4f8bdd4f3e630dbc5aa1e4b1408e9c",
+      "id": "skill-wood-32",
+      "category": "Skill32",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill32/skill-wood-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/wood-64.png",
+      "sha256": "c18a221941fea90de2b208fa709f393608a38fe38924fc91333e1802d8a5728c",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/wood-64.png.derived.json",
+      "recordSha256": "6c07c0841fa6bb224bb54321a8d3562a0735236cb8c574cb11122317b6e2a179",
+      "id": "skill-wood-64",
+      "category": "Skill64",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill64/skill-wood-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/wood-128.png",
+      "sha256": "cfe007357f83d0437a6cf4f5ceab9fbe9cbfb3a11c76ad4412dba6add2a7602f",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/wood-128.png.derived.json",
+      "recordSha256": "3f6bda93ac7c04f713a4e47e7d30c665f618abb43ae2f1fbfe8aa912b9a49310",
+      "id": "skill-wood-128",
+      "category": "Skill128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill128/skill-wood-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/water-native.png",
+      "sha256": "2342f6b892c0aa6df036e5811394dd6fbf1cb1046234aa8e6886356f35187c61",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/water-native.png.derived.json",
+      "recordSha256": "a139e6ac728adcdcb8ec0c4d628cc77fbb428064296f0e1fa90987a920ad0a6f",
+      "id": "skill-water-native",
+      "category": "SkillNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/SkillNative/skill-water-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/water-32.png",
+      "sha256": "6c87f8e835697734e07ec09f2643e6574531b65adef405ddd319f05087fbe94a",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/water-32.png.derived.json",
+      "recordSha256": "9c352f0a1de3d890844d41871db8184716154a2ac0838cf5a5eebccbf860bbb0",
+      "id": "skill-water-32",
+      "category": "Skill32",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill32/skill-water-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/water-64.png",
+      "sha256": "33bee90586c21592ebab8aa4c99237bcd0658b8eacf4b5363a32822521a11499",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/water-64.png.derived.json",
+      "recordSha256": "126d71b8266c242fbc3945ca41f393734f1b421b3fdfa1b28ef4cfd114d61df6",
+      "id": "skill-water-64",
+      "category": "Skill64",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill64/skill-water-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/water-128.png",
+      "sha256": "41807e8489a7a2ee2bf78b20366d5ed90304179e6708ca035c0b7aa0d51498a9",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/water-128.png.derived.json",
+      "recordSha256": "dfa579972f58cec0643d104c05aac85673ee5443cef856b31b8a8449c04e0964",
+      "id": "skill-water-128",
+      "category": "Skill128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill128/skill-water-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/fire-native.png",
+      "sha256": "bc43aca44554e0edb273a8260e1149e3784841444aa286f9a4f9d62550575dd9",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/fire-native.png.derived.json",
+      "recordSha256": "34b74a64081d7903dfef76495614b5c8c41d81c67aae8ad4ea1fe0ae62db3c4d",
+      "id": "skill-fire-native",
+      "category": "SkillNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/SkillNative/skill-fire-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/fire-32.png",
+      "sha256": "039e06764283e88a3e81d35007f38b13e4740c812fa713b6612ff15aa949e65f",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/fire-32.png.derived.json",
+      "recordSha256": "4dd91400cf6c9c4edcfd54aa80e48f44895aa12c88c026e75daeac3b9f130cbd",
+      "id": "skill-fire-32",
+      "category": "Skill32",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill32/skill-fire-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/fire-64.png",
+      "sha256": "89a31b0057e6d17fc40669b72e1369fe3e734d225970d5100d2b34ffefa5d24c",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/fire-64.png.derived.json",
+      "recordSha256": "6b97ebfb580468453560a10116eb4606687861fc6b20e0f3abfae4ce16e680dc",
+      "id": "skill-fire-64",
+      "category": "Skill64",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill64/skill-fire-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/fire-128.png",
+      "sha256": "b3e09a1d985d25965828153f55870408efaed4c0948f1c59934b7c21a3fb6d89",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/fire-128.png.derived.json",
+      "recordSha256": "0eac6ce17e6a0ee27a466460b6e0277d25d4d43835131a8fc9a051157c8c5bae",
+      "id": "skill-fire-128",
+      "category": "Skill128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill128/skill-fire-128.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/earth-native.png",
+      "sha256": "e3637252c46de1fe3b0993f5a7db3e4de0bfb440218bcac6cb8e2e7fb64b9cad",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/earth-native.png.derived.json",
+      "recordSha256": "57ec49af84287561145a1d934d88fd035e60ade8bd5dcfe8d52c79984dca5ca2",
+      "id": "skill-earth-native",
+      "category": "SkillNative",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/SkillNative/skill-earth-native.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/earth-32.png",
+      "sha256": "9d70347dcbb31fa0816a6bdb2edfbda8e2066d86d97b718394fa62e99cbede3f",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/earth-32.png.derived.json",
+      "recordSha256": "95481449ff907b041a85bf21398986435bbc4e565985711e586745b346f4f245",
+      "id": "skill-earth-32",
+      "category": "Skill32",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill32/skill-earth-32.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/earth-64.png",
+      "sha256": "c1e73a97f49e6228a3f81bfc21bf6d73738d5b95bc2ff555994fc0a0a83b4f01",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/earth-64.png.derived.json",
+      "recordSha256": "4406535ef13528f3e88f1703a2906bb519bf807804d952358a7e790cc8be676a",
+      "id": "skill-earth-64",
+      "category": "Skill64",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill64/skill-earth-64.png"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/skill-icons/earth-128.png",
+      "sha256": "3880e22866330671210ada4910ba029cd4a381b9664ec487d662af37d7bdd038",
+      "record": "exports/01-率土之滨/five-elements/skill-icons/earth-128.png.derived.json",
+      "recordSha256": "b5b46580cf68ecc7021bd32b1bad592fd138c382b2c59d69e5e27d0c031c8c27",
+      "id": "skill-earth-128",
+      "category": "Skill128",
+      "packageAssetPath": "Assets/WuxingSLGHeroSkillUIPreview/Skill128/skill-earth-128.png"
+    }
+  ],
+  "sourceImport45Passed": true,
+  "freshProjectRoundtrip45Passed": true,
+  "PNGBytesPreserved": true,
+  "sourceAlphaCountsPreserved": true,
+  "sourceRecordBytesPreserved": true,
+  "resampledByUnity": false,
+  "repainted": false,
+  "alphaThresholdCleared": false,
+  "sourceNamespaceAndGUIDsDisjointFromCurrentAndLegacyBaseAndFX": true,
+  "dependencyPolicy": "Standalone embedded45PNGs and theirsource records. No runtime GUID dependency onbase orFX; original masters and style references remain repository provenance.",
+  "heroWarningSummary": {
+    "SOURCE_MASTER_UNAPPROVED": 25,
+    "NATIVE_SOFT_ALPHA_RETAINED": 25,
+    "INTENTIONAL_PORTRAIT_CROP": 20,
+    "RECTANGULAR_PORTRAIT_PROP_FRAGMENT": 15
+  },
+  "skillRawAndMarginWarnings": [
+    {
+      "id": "boundary_band",
+      "status": "warn",
+      "value": 17,
+      "threshold": 0,
+      "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them",
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    },
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 5,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 68154,
+        "detached_components": 9
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    },
+    {
+      "id": "REQUESTED_NATIVE_MARGIN_NOT_MET",
+      "value": 5,
+      "threshold": {
+        "requestedNativeEachSidePx": 96
+      },
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png",
+      "message": "Generated subjects exceed320px silhouettes and requested96px cell margins; source candidates retained."
+    },
+    {
+      "id": "EMPTY_SIXTH_CELL_ALPHA1_RESIDUE",
+      "value": 259,
+      "threshold": 0,
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png",
+      "message": "Empty sixth cell retains259alpha1pixels; no threshold cleaning."
+    }
+  ],
+  "headlessImportOnly": true,
+  "GPUHeroUIRenderVerified": false,
+  "limitations": [
+    "Hero head and bust views are rectangular composition candidates. Same-hero partial implements may remain at side or bottom; no mask or erase was used.",
+    "Preserve full-body card preview when complete implements and silhouette are needed.",
+    "All5 original hero masters and25 derivatives remain unapproved candidates; formal launch roster unconfirmed.",
+    "Skill source boundary/margin and faintalpha WARNs remain; no artistic acceptance inferred from importer success.",
+    "Standalone Assets/WuxingSLGHeroSkillUIPreview namespace embeds PNGs and source records; no runtime dependency on base orFX packages.",
+    "No animation, GPU UI layout validation or actual game-client integration in this package."
+  ],
+  "userApproved": false,
+  "officialLaunchAdopted": false,
+  "clientIntegrated": false,
+  "status": "actual_Unity45Sprite_export_and_fresh_import_passed__source_and_portrait_WARNs_retained__user_and_client_review_pending"
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+  "sha256": "6b1dbce34c73cfd726b1a898c080a511ece5492b1d2f56e3572ce5d3dc74c036",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-02T04:26:38.958Z",
+  "clientDate": "2026-11-01",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "resultId": "exec-4ed654dd-7eed-4951-93bf-c9781039de53",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-01",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Original complete full-body master of 袁术 for 五行问鼎, same established Taoist chibi HD hand-painted art as the attached two authoritative style references. Exactly ONE clearly ADULT historical Three Kingdoms identity, large expressive head, SHORT rounded body, around 2.7 heads tall. True transparent alpha, vertical 2:3. Both references provide brushwork, shading, jade-green/ivory/warm-gold palette and level of finish ONLY. Do not copy reference characters or UI.\nA vain portly middle-aged aristocrat, round full cheeks, narrow slanting brows, curled thin black moustache, very short pointed beard. Elaborate squat golden-jade diadem with bead tassels, ochre and ivory layered silk over muted jade robes, rich brocade cloud patterns. Holds ONE complete small jade seal on a square cloth in one hand, other hand gathering belt. Closed mouth, proud chin, broad short silhouette. No military helmet, no sword.\nThese costume, facial and prop choices are ORIGINAL fictional art direction, not documentary costume claims or commercial card copies. Show the complete headwear, complete held prop, two complete hands and BOTH shoes. Keep entire silhouette INCLUDING props inside CENTRAL 76% width and height, with at least 10% actual TRANSPARENT space on ALL four sides. Full figure modest in frame, not an oversized portrait. No cut-off, no background, no floor/shadow/halo/mist, no card frame, text, nameplate, watermarks, UI or elemental troop badge. Fine clean layered hand-painted fabric, rounded forms, soft shading, distinct identity face and readable small-scale silhouette. NO realistic body proportions, 3D toy/plastic shine or pixel art. Preserve clean native antialiased alpha.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261101-heroes1/yuan-shu-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style reference"
+    }
+  ],
+  "identity": {
+    "personID": "ww-p-5f8f8eab5d51",
+    "entityID": "ww-p-5f8f8eab5d51",
+    "name": "袁术",
+    "canonicalName": "袁术",
+    "category": "普通人物",
+    "status": "queued_official_identity_candidate",
+    "identityStatus": "primary_index_name_confirmed",
+    "cards": [
+      100116,
+      102010,
+      100790,
+      130790
+    ],
+    "publicListCards": [
+      100116,
+      102010,
+      100790
+    ],
+    "source": [
+      {
+        "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "locator": "displayName=袁术; cardIds=100116,102010,100790,130790",
+        "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe"
+      },
+      {
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "locator": "卷6",
+        "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 6
+  },
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-4ed654dd-7eed-4951-93bf-c9781039de53.png",
+    "request": "records/roster-expansion-20261101-heroes1/yuan-shu-master-v1.request.json",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理；未返回可核实型号、质量、服务端时间。",
+  "status": "generated_candidate_not_user_accepted"
+}

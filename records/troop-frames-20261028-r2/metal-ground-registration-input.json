@@ -1,0 +1,464 @@
+{
+  "schema": "wuxing-slg.manual-ground-registration.v1",
+  "createdAt": "2026-10-29T04:38:15.487Z",
+  "coordinateSystem": "top-left source-cell pixels; source ROIs manually selected after viewing native original and coordinate-grid crops",
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "helmetWidthLandmarks": [
+      396,
+      993
+    ],
+    "helmetWidth": 597,
+    "headMeasurement": "outer rigid helmet including ear plates, excluding plume and shoulder armor",
+    "fullAlpha16Height": 1134,
+    "groundContactRois": [
+      [
+        455,
+        1050,
+        630,
+        1132
+      ],
+      [
+        796,
+        1100,
+        951,
+        1201
+      ]
+    ]
+  },
+  "registration": {
+    "nativeCanvas": [
+      1024,
+      1024
+    ],
+    "nativeRoot": [
+      512,
+      768
+    ],
+    "targetHelmetWidth": 180,
+    "normalizedCanvas": [
+      1024,
+      1024
+    ],
+    "normalizedRoot": [
+      512,
+      768
+    ],
+    "measurementAlphaThreshold": 16,
+    "alphaHygiene": "none",
+    "contactRefinement": "within each hand-selected contact ROI: use alpha>16 bounding box, contact x midpoint of solid bottom 5px span, y bottom edge; ground root rounded midpoint of two contact points. Inspect markers before export.",
+    "perFrameScaling": false,
+    "allSourcePixelsMustFit": true
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "source": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+      "rows": 2,
+      "cols": 2,
+      "sourceRecord": "records/troop-frames-20261028-r2/metal-idle-v2.generation.json",
+      "helmetWidthLandmarks": [
+        235,
+        435
+      ],
+      "helmetWidth": 200,
+      "headMeasureFrame": 1,
+      "loop": true,
+      "durationsMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "contactRois": [
+        [
+          [
+            250,
+            432,
+            325,
+            474
+          ],
+          [
+            365,
+            453,
+            430,
+            500
+          ]
+        ],
+        [
+          [
+            255,
+            430,
+            330,
+            474
+          ],
+          [
+            373,
+            450,
+            438,
+            500
+          ]
+        ],
+        [
+          [
+            249,
+            423,
+            328,
+            468
+          ],
+          [
+            368,
+            446,
+            432,
+            494
+          ]
+        ],
+        [
+          [
+            253,
+            422,
+            330,
+            467
+          ],
+          [
+            373,
+            447,
+            437,
+            494
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "attack",
+      "source": "designs/01-率土之滨/troop-frames-20261028-r2/metal-attack-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "sourceRecord": "records/troop-frames-20261028-r2/metal-attack-v1.generation.json",
+      "helmetWidthLandmarks": [
+        182,
+        393
+      ],
+      "helmetWidth": 211,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "contactRois": [
+        [
+          [
+            195,
+            423,
+            270,
+            468
+          ],
+          [
+            339,
+            443,
+            409,
+            491
+          ]
+        ],
+        [
+          [
+            172,
+            420,
+            249,
+            466
+          ],
+          [
+            358,
+            440,
+            432,
+            491
+          ]
+        ],
+        [
+          [
+            201,
+            423,
+            281,
+            468
+          ],
+          [
+            382,
+            440,
+            457,
+            491
+          ]
+        ],
+        [
+          [
+            212,
+            408,
+            288,
+            455
+          ],
+          [
+            397,
+            390,
+            473,
+            438
+          ]
+        ],
+        [
+          [
+            193,
+            405,
+            269,
+            445
+          ],
+          [
+            378,
+            414,
+            458,
+            462
+          ]
+        ],
+        [
+          [
+            206,
+            403,
+            284,
+            445
+          ],
+          [
+            348,
+            419,
+            425,
+            465
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "hurt",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-hurt-se-v1.png",
+      "rows": 2,
+      "cols": 2,
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-hurt-se-v1.png.generation.json",
+      "helmetWidthLandmarks": [
+        200,
+        510
+      ],
+      "helmetWidth": 310,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "contactRois": [
+        [
+          [
+            249,
+            545,
+            360,
+            598
+          ],
+          [
+            445,
+            551,
+            548,
+            614
+          ]
+        ],
+        [
+          [
+            220,
+            549,
+            310,
+            614
+          ],
+          [
+            399,
+            550,
+            515,
+            610
+          ]
+        ],
+        [
+          [
+            253,
+            514,
+            368,
+            568
+          ],
+          [
+            467,
+            532,
+            574,
+            584
+          ]
+        ],
+        [
+          [
+            188,
+            518,
+            301,
+            572
+          ],
+          [
+            393,
+            543,
+            496,
+            599
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "defeat",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-defeat-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261028-r2/metal-defeat-se-v1.png.generation.json",
+      "helmetWidthLandmarks": [
+        169,
+        391
+      ],
+      "helmetWidth": 222,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationsMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "left knee and right boot",
+        "two knees",
+        "two knees",
+        "two knees"
+      ],
+      "contactRois": [
+        [
+          [
+            200,
+            430,
+            263,
+            475
+          ],
+          [
+            323,
+            451,
+            381,
+            502
+          ]
+        ],
+        [
+          [
+            212,
+            441,
+            282,
+            497
+          ],
+          [
+            323,
+            461,
+            383,
+            508
+          ]
+        ],
+        [
+          [
+            239,
+            459,
+            307,
+            507
+          ],
+          [
+            323,
+            464,
+            382,
+            508
+          ]
+        ],
+        [
+          [
+            217,
+            403,
+            289,
+            449
+          ],
+          [
+            292,
+            404,
+            356,
+            447
+          ]
+        ],
+        [
+          [
+            214,
+            401,
+            284,
+            449
+          ],
+          [
+            297,
+            408,
+            359,
+            449
+          ]
+        ],
+        [
+          [
+            222,
+            400,
+            290,
+            449
+          ],
+          [
+            298,
+            408,
+            360,
+            448
+          ]
+        ]
+      ]
+    }
+  ],
+  "status": "manual_contact_markers_viewed_and_accepted_for_candidate_alignment",
+  "userApproved": false,
+  "manualReview": {
+    "at": "2026-10-29T05:08:29.526Z",
+    "all20ContactsViewed": true,
+    "headLandmarksViewed": true,
+    "headWidthUncertaintySourcePx": 4,
+    "approvalScope": "technical candidate registration only, not user or gameplay acceptance"
+  }
+}

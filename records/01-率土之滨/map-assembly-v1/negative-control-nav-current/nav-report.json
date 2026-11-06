@@ -1,0 +1,301 @@
+{
+  "schema": "generate2dmap.nav_report.v1",
+  "status": "fail",
+  "method": "plan Appendix C validity (centre + 8 footprint samples against walk regions, solids, object footprints scaled once, tile collision and material classes) on a grid of cell max(1, round(r/2)) px; 4-neighbour moves open when segmentClear holds between node centres (samples every cell/2, plus the exact thin-gap centre path and one_way direction); BFS from every spawn and portal arrival to every interaction, exit, anchor slot and approach point",
+  "notProven": [
+    "that the collision data matches the painted art",
+    "positions closer than one grid cell to a blocker (the grid samples cell centres)",
+    "runtime movement code: map-runtime.mjs parity is tested during integration",
+    "links to maps not passed with --link"
+  ],
+  "checks": [
+    {
+      "id": "starts_valid",
+      "status": "pass",
+      "value": {
+        "starts": 1,
+        "blocked": []
+      },
+      "threshold": {
+        "blocked": 0
+      }
+    },
+    {
+      "id": "targets_reachable",
+      "status": "fail",
+      "value": {
+        "reachable": 2,
+        "total": 6,
+        "unreachable": [
+          "enemy-camp",
+          "bridge-mid/approach[0]",
+          "bridge-east/approach[0]",
+          "enemy-approach/approach[0]"
+        ]
+      },
+      "threshold": {
+        "unreachable": 0
+      }
+    },
+    {
+      "id": "portals_inside_world",
+      "status": "pass",
+      "value": {
+        "outside": []
+      },
+      "threshold": {
+        "outside": 0
+      }
+    },
+    {
+      "id": "arrivals_outside_triggers",
+      "status": "pass",
+      "value": {
+        "problems": 0
+      },
+      "threshold": {
+        "problems": 0
+      }
+    },
+    {
+      "id": "reciprocal_links",
+      "status": "pass",
+      "value": {
+        "links": [],
+        "notChecked": []
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "id": "thin_gaps",
+      "status": "pass",
+      "value": 0,
+      "threshold": "reported: moves the thin-gap rule closed although every footprint sample was valid"
+    },
+    {
+      "id": "unreachable_walkable_area",
+      "status": "warn",
+      "value": {
+        "pockets": 3,
+        "cells": 10542
+      },
+      "threshold": "reported"
+    },
+    {
+      "id": "blocked_rects_union",
+      "status": "pass",
+      "value": {
+        "rects": 487,
+        "blockedCells": 65419
+      },
+      "threshold": "union == blocked cells"
+    },
+    {
+      "id": "footprints_scaled_once",
+      "status": "pass",
+      "value": {
+        "objectSolids": 2
+      },
+      "threshold": "object footprint x scale, never inflated by the actor radius"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "../negative-control-no-bridge.json",
+      "sha256": "96cf6bc88368d73bb3a43f0856e2050291f32c241f2337b07d2fd61bb0411c2c",
+      "bytes": 8525
+    },
+    {
+      "path": "../../../../exports/01-率土之滨/map-assembly-v1/scene-base.png",
+      "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0",
+      "bytes": 941213
+    },
+    {
+      "path": "../../../../exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "bytes": 262705
+    },
+    {
+      "path": "../../../../exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "bytes": 100896
+    },
+    {
+      "path": "../../../../exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "bytes": 182209
+    }
+  ],
+  "outputs": [
+    {
+      "path": "nav-grid.json",
+      "sha256": "636be822abc6a7f794987ffdc087a3a3a09bc0e412eb66e39981e5c92ce96f07",
+      "bytes": 204010
+    },
+    {
+      "path": "nav-debug.png",
+      "sha256": "1f87bbfc85d09417283af00e4e8d8479e5a268f1b0accd82295770a37bd9e20d",
+      "bytes": 880746
+    }
+  ],
+  "tool": {
+    "name": "map_nav.py",
+    "version": "0.4.0"
+  },
+  "map": "map-assembly-v1-negative-no-bridge",
+  "cell": 4,
+  "starts": [
+    {
+      "kind": "spawn",
+      "id": "city-gate",
+      "point": [
+        750.0,
+        372.0
+      ],
+      "reachable": true,
+      "steps": 0,
+      "node": [
+        750.0,
+        370.0
+      ],
+      "reason": null
+    }
+  ],
+  "targets": [
+    {
+      "kind": "interaction",
+      "id": "city-gate",
+      "point": [
+        726.0,
+        300.0
+      ],
+      "reachable": true,
+      "steps": 0,
+      "node": [
+        742.0,
+        366.0
+      ],
+      "reason": null
+    },
+    {
+      "kind": "interaction",
+      "id": "enemy-camp",
+      "point": [
+        950.0,
+        795.0
+      ],
+      "reachable": false,
+      "steps": null,
+      "node": null,
+      "reason": "no reachable node within reach 115 px"
+    },
+    {
+      "kind": "approach",
+      "id": "bridge-west/approach[0]",
+      "point": [
+        650.0,
+        436.0
+      ],
+      "reachable": true,
+      "steps": 33,
+      "node": [
+        658.0,
+        430.0
+      ],
+      "reason": null
+    },
+    {
+      "kind": "approach",
+      "id": "bridge-mid/approach[0]",
+      "point": [
+        750.0,
+        500.0
+      ],
+      "reachable": false,
+      "steps": null,
+      "node": null,
+      "reason": "the actor cannot stand here (footprint blocked)"
+    },
+    {
+      "kind": "approach",
+      "id": "bridge-east/approach[0]",
+      "point": [
+        850.0,
+        564.0
+      ],
+      "reachable": false,
+      "steps": null,
+      "node": null,
+      "reason": "no reachable node within two cells in a clear straight line"
+    },
+    {
+      "kind": "approach",
+      "id": "enemy-approach/approach[0]",
+      "point": [
+        1030.0,
+        730.0
+      ],
+      "reachable": false,
+      "steps": null,
+      "node": null,
+      "reason": "no reachable node within two cells in a clear straight line"
+    }
+  ],
+  "links": [],
+  "thinGaps": [],
+  "unreachablePockets": [
+    {
+      "cells": 10539,
+      "at": [
+        1050.0,
+        382.0
+      ]
+    },
+    {
+      "cells": 2,
+      "at": [
+        1014.0,
+        766.0
+      ]
+    },
+    {
+      "cells": 1,
+      "at": [
+        1022.0,
+        762.0
+      ]
+    }
+  ],
+  "bundleNav": {
+    "cell": 4,
+    "grid": "nav-grid.json"
+  },
+  "problems": [
+    {
+      "severity": "error",
+      "path": "interaction:enemy-camp",
+      "message": "interaction 'enemy-camp' is unreachable: no reachable node within reach 115 px",
+      "code": "rule"
+    },
+    {
+      "severity": "error",
+      "path": "approach:bridge-mid/approach[0]",
+      "message": "approach 'bridge-mid/approach[0]' is unreachable: the actor cannot stand here (footprint blocked)",
+      "code": "rule"
+    },
+    {
+      "severity": "error",
+      "path": "approach:bridge-east/approach[0]",
+      "message": "approach 'bridge-east/approach[0]' is unreachable: no reachable node within two cells in a clear straight line",
+      "code": "rule"
+    },
+    {
+      "severity": "error",
+      "path": "approach:enemy-approach/approach[0]",
+      "message": "approach 'enemy-approach/approach[0]' is unreachable: no reachable node within two cells in a clear straight line",
+      "code": "rule"
+    }
+  ]
+}

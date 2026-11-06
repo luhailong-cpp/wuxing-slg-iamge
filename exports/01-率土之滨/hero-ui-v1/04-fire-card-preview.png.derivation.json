@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+  "sha256": "972fef94efcd1e1cde945b0bf66e2b4d380dba194e58ca4bef95b66194ad8731",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "04-fire",
+  "element": "fire",
+  "variant": "card-preview",
+  "identityPreservedFromMaster": "red spiky tied hair, gold tie and flowing ribbons; red green ivory robe and paired flame implements in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "record": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "recordSha256": "5587ce0759dcfa73492fa2ed2338bac08ad69bba2916c02e31fcac2b87fa58e4"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "resizeScaleNominal": 0.6875,
+  "actualScaleXY": [
+    0.6875,
+    0.6875
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    768,
+    1152
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    360,
+    305,
+    666,
+    535
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 551592,
+    "alpha1PixelCount": 10630,
+    "alphaSemiPixels": 331411,
+    "alphaOpaquePixels": 1733,
+    "bboxAbove16": [
+      66,
+      108,
+      697,
+      1057
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 10630,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

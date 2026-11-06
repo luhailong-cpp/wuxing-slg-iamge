@@ -1,0 +1,22 @@
+{
+  "recordedAt": "2026-10-29T04:15:30.455Z",
+  "source": "direct user reply in this chat",
+  "verbatim": "不要动作， 动作帧图参照这个 https://github.com/0x0funky/agent-sprite-forge",
+  "executionInterpretation": "Produce direct image-generated action-frame sheets and transparent PNG sequences; do not require image-to-video service for this delivery.",
+  "referenceRepository": "https://github.com/0x0funky/agent-sprite-forge",
+  "observedUpstreamVersion": "README 0.4 on main, read via web and GitHub connector",
+  "upstreamDefault": "one approved master to image-to-video per action",
+  "applicableExplicitException": "skills/generate2dsprite/references/prompt-rules.md: the rare character sheet a user explicitly wants",
+  "appliedLocalTools": [
+    "generate2dsprite",
+    "imagegen",
+    "sheet_qc.py",
+    "make_anchor_layout.py",
+    "plan_guide.py"
+  ],
+  "artSource": "host_image",
+  "videoInvoked": false,
+  "codeDrawnGameArt": false,
+  "layoutGuidesAreCodeDrawn": true,
+  "globalGameArtComplete": false
+}

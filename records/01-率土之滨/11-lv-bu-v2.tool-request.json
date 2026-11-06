@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "executionCellId": "28",
+  "callStartedAt": "2026-10-26T21:06:59.296Z",
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: precise-object-edit\nAsset type: 吕布全身真实透明静态master，安全余边单点修订。\nInput images: 第一张是唯一编辑对象，吕布v1；第二张邮件和第三张组队是首要道家Q版高清手绘风格参考。\nPreserve exactly the FIRST image's character identity, face, pose, red-gold armour, black hair, two long red pheasant feathers, red cape, jade belt accents and complete fangtian halberd. Same Q版 head-body proportions and same hand-painted finish.\nTHE ONLY CHANGE: 修复构图余边。把人物、披风、双羽冠和完整方天画戟整体等比例缩小并居中到画布内部，只占全画布约72%高度和72%宽度，使右侧那根雉尾羽的羽尖重新完整显示，所有羽尖、戟刃、戟杆尾部、头发、披风与鞋子全部距画布边缘至少10%真实透明安全空白。不要改变身份和设计，不增删兵器，不换动作，不改变脸型、表情、装备。\nCanvas: 竖幅约2:3，单一全身角色，完整双手双脚、羽冠与画戟。保持真正透明alpha，无白底、色底、渐变布景、棋盘格、地面、底盘、投影盘、光雾背景。\nNo text, letters, numbers, logo, watermark, signature, UI, card, frame, grid, other characters or pets.\n",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/11-lv-bu-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  },
+  "receiptRecoveryNote": "请求依据已保存的原始prompt及当前任务连续摘要恢复；未再次调用生成。"
+}

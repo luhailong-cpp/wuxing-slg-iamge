@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v3.png",
+  "sha256": "608232939668918bd3921459b878a304b4981d3df404db744328ff2463a6987b",
+  "generatedAt": "2026-10-27T18:55:34Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T18:53:18Z",
+  "width": 1915,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/35-five-elements-recruit-entry-ui-v3.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/root-phase3/35-five-elements-recruit-entry-ui-v3.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/root-phase3/35-five-elements-recruit-entry-ui-v3.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d74-9ca8-7061-8996-5aefcd03a82b/exec-e7c39bdc-f1ac-4e0d-963a-ac9bac18200f.png",
+      "sha256": "608232939668918bd3921459b878a304b4981d3df404db744328ff2463a6987b",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/35-five-elements-recruit-entry-ui-v3.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v2.png",
+      "sha256": "13944b8238b268c757f5ca6b0b878c2959e9a70049ddcd4bc8077c955b70eb7f",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v2.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "五行修士招募入口法器局部修订候选；水环不含金系莲盘；池内容/货币/费用独立演示，非正式玩法合同",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T18:56:10.052160+00:00"
+}

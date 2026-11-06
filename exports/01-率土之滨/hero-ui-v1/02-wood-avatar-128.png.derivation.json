@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+  "sha256": "81e61476bf436725dfdd6719ba049ab976b182b775899629654bbee45ad2a160",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "02-wood",
+  "element": "wood",
+  "variant": "avatar-128",
+  "identityPreservedFromMaster": "brown bun, jade leaf hairpiece and leaves; green ivory robe, leaf staff in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "record": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "recordSha256": "dd3800dfd429174d906029509e7bed4eef1810ec4607c0185e5a082e0bb041f7"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    270,
+    180,
+    900,
+    770
+  ],
+  "resizeTo": [
+    112,
+    105
+  ],
+  "resizeScaleNominal": 0.17777777777777778,
+  "actualScaleXY": [
+    0.17777777777777778,
+    0.17796610169491525
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    128,
+    128
+  ],
+  "pasteOffsetTopLeft": [
+    8,
+    11,
+    120,
+    116
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    402,
+    438,
+    701,
+    700
+  ],
+  "faceRoiOutputApprox": [
+    31.47,
+    56.92,
+    84.62,
+    103.54
+  ],
+  "alphaInspection": {
+    "fullyTransparentPixels": 8793,
+    "alpha1PixelCount": 182,
+    "alphaSemiPixels": 7206,
+    "alphaOpaquePixels": 385,
+    "bboxAbove16": [
+      8,
+      14,
+      118,
+      116
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 182,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        270,
+        180,
+        900,
+        770
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

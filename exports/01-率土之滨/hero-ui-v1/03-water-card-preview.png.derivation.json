@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+  "sha256": "ec493212c8cc09cb42ebb993158b3ff536b4e391fefc031c5a66564ee96d7fbc",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "03-water",
+  "element": "water",
+  "variant": "card-preview",
+  "identityPreservedFromMaster": "blue braided hair including outward braid, crescent waterdrop hairpiece; blue white robe, ring and gourd in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "record": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "recordSha256": "87947f2cf3c1d2f9a7e35de8c1f5c798059808c95a6b9918ebd8787dc2697979"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "resizeScaleNominal": 0.6875,
+  "actualScaleXY": [
+    0.6875,
+    0.6875
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    768,
+    1152
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    245,
+    675,
+    465
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 538375,
+    "alpha1PixelCount": 9330,
+    "alphaSemiPixels": 345246,
+    "alphaOpaquePixels": 1115,
+    "bboxAbove16": [
+      49,
+      108,
+      722,
+      1064
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 9330,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

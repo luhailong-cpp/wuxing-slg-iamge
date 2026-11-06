@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-avatar-256.png",
+  "sha256": "82e4c77afb363f2c63c546e4f75b5ee8a6f9097afb2f3287925866943c985299",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+    "sha256": "18608bcbf1414b7349f7278beb261b32af7d118b365edb8c95384670df596f4b",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      240,
+      80,
+      820,
+      690
+    ],
+    "uniformScale": 0.38688524590163936,
+    "resizedSize": [
+      224,
+      236
+    ],
+    "offset": [
+      16,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

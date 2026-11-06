@@ -1,0 +1,524 @@
+{
+  "schemaVersion": 1,
+  "verifiedAtUtc": "2026-10-27T13:46:42.399311+00:00",
+  "reviewer": "independent_mapfx_exports_agent",
+  "manifest": "exports/01-率土之滨/five-elements/emblems/emblems-manifest.json",
+  "sourceSha256MatchesManifest": true,
+  "sourceSha256MatchesGenerationRecord": true,
+  "verifiedPngCount": 20,
+  "failures": [],
+  "status": "native_and_display_derivative_integrity_pass_with_retained_warnings",
+  "checks": [
+    {
+      "element": "metal",
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-native.png",
+      "native": true,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "pixelIdentityToSourceCrop": true,
+        "cropBoxInSource": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alpha1PixelCount": 2622
+    },
+    {
+      "element": "metal",
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-32.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 25
+    },
+    {
+      "element": "metal",
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-64.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 45
+    },
+    {
+      "element": "metal",
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-128.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 87
+    },
+    {
+      "element": "wood",
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-native.png",
+      "native": true,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "pixelIdentityToSourceCrop": true,
+        "cropBoxInSource": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alpha1PixelCount": 3556
+    },
+    {
+      "element": "wood",
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-32.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 27
+    },
+    {
+      "element": "wood",
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-64.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 67
+    },
+    {
+      "element": "wood",
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-128.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 128
+    },
+    {
+      "element": "water",
+      "file": "exports/01-率土之滨/five-elements/emblems/water-native.png",
+      "native": true,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "pixelIdentityToSourceCrop": true,
+        "cropBoxInSource": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alpha1PixelCount": 2895
+    },
+    {
+      "element": "water",
+      "file": "exports/01-率土之滨/five-elements/emblems/water-32.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 21
+    },
+    {
+      "element": "water",
+      "file": "exports/01-率土之滨/five-elements/emblems/water-64.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 52
+    },
+    {
+      "element": "water",
+      "file": "exports/01-率土之滨/five-elements/emblems/water-128.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 104
+    },
+    {
+      "element": "fire",
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-native.png",
+      "native": true,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "pixelIdentityToSourceCrop": true,
+        "cropBoxInSource": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alpha1PixelCount": 3173
+    },
+    {
+      "element": "fire",
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-32.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 23
+    },
+    {
+      "element": "fire",
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-64.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 40
+    },
+    {
+      "element": "fire",
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-128.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 135
+    },
+    {
+      "element": "earth",
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-native.png",
+      "native": true,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "pixelIdentityToSourceCrop": true,
+        "cropBoxInSource": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alpha1PixelCount": 4273
+    },
+    {
+      "element": "earth",
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-32.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 15
+    },
+    {
+      "element": "earth",
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-64.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 68
+    },
+    {
+      "element": "earth",
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-128.png",
+      "native": false,
+      "checks": {
+        "sha256Matches": true,
+        "dimensionsMatchRecord": true,
+        "sourceHashesMatch": true,
+        "realTransparentPixels": true,
+        "visibleSubjectAlpha": true,
+        "alphaMetricsMatch": true,
+        "noAbove1AlphaOnBorder": true,
+        "requestedSquareDimensions": true,
+        "derivativeExplicitlyResampled": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha1PixelCount": 158
+    }
+  ],
+  "actualSizeVisualReview": {
+    "preview": "records/01-率土之滨/emblems-independent-actual-sizes-20261027.png",
+    "previewSha256": "cf6cee0221da6e858e4186133fe66510b1d919bd5bfed3d751d86bb9fbee6de5",
+    "actuallyViewedAtOriginalResolution": true,
+    "sizes": [
+      32,
+      64,
+      128
+    ],
+    "backgroundsRGB": [
+      [
+        245,
+        241,
+        230
+      ],
+      [
+        28,
+        38,
+        44
+      ]
+    ],
+    "findings": {
+      "metal": "Four-point ivory/gold sigil with green center; distinct outline at32, abstract association still needs runtime 金 label.",
+      "wood": "Two green leaves and stem distinguish it at32.",
+      "water": "Blue drop with white wave interior; drop outline survives32.",
+      "fire": "Red/orange multilobed flame distinct from water drop at32.",
+      "earth": "Low tan/ivory mountain cluster distinct silhouette at32."
+    },
+    "identification": "five shapes visually distinguishable in this static actual-pixel preview; formal player usability/accessibility validation not performed"
+  },
+  "retainedRawSheetWarnings": [
+    {
+      "id": "boundary_band",
+      "status": "warn",
+      "value": 65,
+      "threshold": 0,
+      "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them",
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    },
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 5,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 27805,
+        "detached_components": 0
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    }
+  ],
+  "limitations": [
+    "Original alpha=1 residue is retained; no mathematically cleaned matte is claimed.",
+    "Raw equal-grid generic warnings remain despite intact custom ownership crops.",
+    "Tiny interior decorative details intentionally disappear in32px downscales.",
+    "Metal symbol is abstract and needs an external Chinese label in the client/help.",
+    "Not user-approved or client integrated; no animation created."
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "animations": 0
+}

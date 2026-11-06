@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "status": "drafts_checked_pending_user_review",
+  "reviewMethod": "主制作实际查看两张输出；两个独立子任务分别复核天下大势与武将，均对照项目风格主图。",
+  "assets": [
+    {
+      "file": "designs/01-率土之滨/ui/02-world-trends-ui-v1.png",
+      "status": "draft_with_nonblocking_followups",
+      "checks": {
+        "titleAndChineseReadable": true,
+        "progressValue": "40/60",
+        "currentStage": "汉室衰微，进行中",
+        "currentRewardButton": "达成后领取，灰态",
+        "previousStage": "已领取",
+        "laterStages": "锁定，未开启",
+        "rewards": "玉符×300、铜钱×50000",
+        "styleContinuity": true,
+        "obviousClipping": false
+      },
+      "blockingIssues": [],
+      "followUps": [
+        {
+          "issue": "解锁内容旁的勾号可能让人误以为已解锁",
+          "requiredForFinalImplementation": true,
+          "recommendation": "改锁图标或明确标注达成后解锁",
+          "resolved": false
+        },
+        {
+          "issue": "静态进度条未作精确像素量测",
+          "requiredForFinalImplementation": true,
+          "recommendation": "实现时按40/60数据驱动为66.7%",
+          "resolved": false
+        }
+      ],
+      "userApproved": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/03-generals-ui-v1.png",
+      "status": "draft_checked",
+      "checks": {
+        "chineseLabelsReadable": true,
+        "correctFiveAttributes": [
+          "攻击",
+          "防御",
+          "谋略",
+          "速度",
+          "攻城"
+        ],
+        "costSeparatedFromDefense": true,
+        "threeTacticSlotStates": true,
+        "fullSpearAndFeet": true,
+        "portraitIdentityConsistent": true,
+        "styleContinuity": true,
+        "obviousClipping": false
+      },
+      "blockingIssues": [],
+      "futureImplementationNotes": [
+        "可按实际需求补经验条",
+        "补觉醒条件提示与不可用状态"
+      ],
+      "userApproved": false
+    }
+  ],
+  "clientIntegrated": false
+}

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-bust-native.png",
+  "sha256": "e24864b2b63aecf88d3135a4d8b1f5f00f69159553aa4826a8317942df48c1f9",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png",
+    "sha256": "d2b08ce295b0358f5066c80c281e9a7057a8d5d3484ce5a909ee1ebc310fc8a8",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1050
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

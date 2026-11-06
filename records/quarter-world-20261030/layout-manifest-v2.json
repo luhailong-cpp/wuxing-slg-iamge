@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "game": "五行问鼎",
+  "role": "regional strategic scene composition study",
+  "referenceAreaRatio": 0.25,
+  "referenceExactCellCount": 2250000,
+  "nativeImage": {
+    "file": "designs/01-率土之滨/maps/world-terrain-20261101/regional-environment-v2.png",
+    "sha256": "7b111207f62e7fd0d15469875daec5c8712335520309e410fb5f408b06301678",
+    "width": 1672,
+    "height": 941
+  },
+  "coordinates": "source pixels, top-left origin",
+  "worldScaleToClient": null,
+  "nativeDetailTileCount": 0,
+  "measuredPoiAnchors": [
+    {
+      "id": "capital",
+      "name": "中央争夺城",
+      "x": 850,
+      "y": 520
+    },
+    {
+      "id": "northwest",
+      "name": "西北据点",
+      "x": 350,
+      "y": 249
+    },
+    {
+      "id": "northeast",
+      "name": "东北据点",
+      "x": 1368,
+      "y": 248
+    },
+    {
+      "id": "southwest",
+      "name": "西南据点",
+      "x": 320,
+      "y": 747
+    },
+    {
+      "id": "southeast",
+      "name": "东南据点",
+      "x": 1382,
+      "y": 783
+    }
+  ],
+  "bridges": [
+    {
+      "id": "north",
+      "x": 614,
+      "y": 210
+    },
+    {
+      "id": "upper-west",
+      "x": 601,
+      "y": 388
+    },
+    {
+      "id": "lower-west",
+      "x": 650,
+      "y": 561
+    },
+    {
+      "id": "south",
+      "x": 928,
+      "y": 762
+    }
+  ],
+  "passes": [
+    {
+      "id": "west",
+      "x": 113,
+      "y": 346
+    },
+    {
+      "id": "east",
+      "x": 1560,
+      "y": 340
+    }
+  ],
+  "graphConnectivityStatus": "not_authored_or_verified",
+  "navigationTested": false,
+  "seamlessTiles": false,
+  "visualReview": {
+    "actualImageViewed": true,
+    "findings": [
+      "Five distinct hubs and central larger footprint observed",
+      "River remains left of central city; full continuous painted landscape",
+      "Four bridges observed, not the prompt target of three",
+      "Some roads enter behind walls; exact gate/collider alignment pending",
+      "Edited v2: northeast training yard is empty paved ground; no baked human figures observed on inspected native scene"
+    ],
+    "warnings": [
+      {
+        "id": "LAYOUT_OVERVIEW_NOT_NATIVE_DETAIL_TILES",
+        "value": [
+          1672,
+          941
+        ],
+        "threshold": "full-detail zoom assets not delivered"
+      },
+      {
+        "id": "ROAD_GATE_CONTACT_NOT_VERIFIED",
+        "value": false,
+        "threshold": true
+      }
+    ],
+    "userApproved": false,
+    "clientIntegrated": true,
+    "bakedFiguresRemoval": "visually reviewed, selected v2",
+    "clientIntegrationScope": "exact PNG/RGBA static regional plate and GPU only, not navigation"
+  },
+  "targetNominalCellCount": 562500,
+  "worldScopeContract": "records/quarter-world-20261030/world-scope-contract.json",
+  "notScaleAccurateWholeWorld": true,
+  "sourceEditRecord": "designs/01-率土之滨/maps/world-terrain-20261101/regional-environment-v2.png.generation.json",
+  "bridgeCountContract": {
+    "currentEditPrompt": 4,
+    "observed": 4,
+    "previousV1Prompt": 3,
+    "previousV1MismatchPreservedIn": "records/quarter-world-20261030/layout-manifest.json"
+  }
+}

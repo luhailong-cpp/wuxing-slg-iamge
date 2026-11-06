@@ -1,0 +1,121 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/unit-footpoint-review.png",
+  "sha256": "a926e3eefefbf693144672bbd0c1c4c161badc544d517596aa5a0a9b376e51de",
+  "size": [
+    840,
+    620
+  ],
+  "operation": "qa_montage_of_native_pixel_crops_of_actual_browser_captures",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-spawn.png",
+      "sha256": "38c61451626ef4e9d69a2ec91fba6a5dac8a4dbab1f40d56b3129fa1797799e6"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-west.png",
+      "sha256": "4a9f1b42c4ebab9ddd824273afce78ae0df8114350a160ae10209ba9326f6b06"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-mid.png",
+      "sha256": "88516a6b35e750b7d5ac23760f13ae634b081732b99ff39ccb6ae7a98e9100e8"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-east.png",
+      "sha256": "cd4819ed1af96c841e3bd1b1b7698c12ba20ee0a69ba6cfff368fdd4611dece5"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-approach.png",
+      "sha256": "650374be6db67369640f0496b16053597eaff435c0c1c3278e759183bd545987"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-front.png",
+      "sha256": "1d4d743785a558e91806c9bcf2e8c3adb2a2f042b2bb9be98a0d59f7c83d20c3"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "crops": [
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-spawn.png",
+      "cropBox": [
+        610,
+        192,
+        890,
+        472
+      ],
+      "offset": [
+        0,
+        30
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-west.png",
+      "cropBox": [
+        510,
+        256,
+        790,
+        536
+      ],
+      "offset": [
+        280,
+        30
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-mid.png",
+      "cropBox": [
+        610,
+        320,
+        890,
+        600
+      ],
+      "offset": [
+        560,
+        30
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-east.png",
+      "cropBox": [
+        710,
+        384,
+        990,
+        664
+      ],
+      "offset": [
+        0,
+        340
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-approach.png",
+      "cropBox": [
+        890,
+        550,
+        1170,
+        830
+      ],
+      "offset": [
+        280,
+        340
+      ]
+    },
+    {
+      "source": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-front.png",
+      "cropBox": [
+        810,
+        615,
+        1090,
+        895
+      ],
+      "offset": [
+        560,
+        340
+      ]
+    }
+  ],
+  "resampled": false,
+  "labels": "QA labels only",
+  "productArt": false
+}

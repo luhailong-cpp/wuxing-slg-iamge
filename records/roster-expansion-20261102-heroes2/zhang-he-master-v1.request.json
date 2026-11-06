@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "zhang-he",
+  "name": "张郃",
+  "batch": "roster-expansion-20261102-heroes2",
+  "sourceIdentity": {
+    "personID": "ww-p-b88bff48909d",
+    "entityID": "ww-p-b88bff48909d",
+    "name": "张郃",
+    "canonicalName": "张郃",
+    "category": "普通人物",
+    "status": "queued_official_identity_candidate",
+    "identityStatus": "primary_heading_and_opening_confirmed",
+    "cards": [
+      100083,
+      100123,
+      102013,
+      100593,
+      130083,
+      132013,
+      130593
+    ],
+    "publicListCards": [
+      100123,
+      100593
+    ],
+    "source": [
+      {
+        "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "locator": "displayName=张郃; cardIds=100083,100123,102013,100593,130083,132013,130593",
+        "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe"
+      },
+      {
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B717",
+        "locator": "三国志卷17#張郃",
+        "sha256": "6a72414f8692a80fc3da909eb6add55f718896ecc9770ff991e1fb0ed0ce1561"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 6
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-02",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE ORIGINAL complete full-body character master of 张郃 for 五行问鼎, in the attached authoritative Taoist chibi HD hand-painted style. Exactly ONE clearly ADULT Three Kingdoms historical identity, not an elemental troop. Large expressive adult head and SHORT rounded body, about 2.7 heads tall. Vertical2:3, TRUE transparent alpha. Both attached images are STYLE ONLY: same finely painted cloth, rounded jade/ivory/warm-gold materials, soft shading and polished finish. Do not copy their people, poses, UI or text.\nA mature agile commander with a long handsome face, fine arched brows, narrow confident brown eyes, neat thin black moustache and a narrow short black pointed beard. Compact ivory-and-jade helmet with a low bronze ridge and short jade tassel, layered pale-sage and ivory light armour, muted ochre sash. Holds one COMPLETE short halberd beside him and a fully sheathed straight sword at waist. Poised turned three-quarter stance, calm confident expression, no horse or bow.\nThese face, costume and prop details are original fictional art direction, not documentary historical costume claims or commercial card copies. Whole figure and ALL props must stay inside central76percent of canvas: at least10percent genuinely transparent padding on ALL four sides. Complete helmet/hair, weapon tip and butt, hands, feet, hems and ribbons. Keep long weapons short enough to fit safely; no cut-off. No floor, shadow, background, mist, halo, frame, nameplate, text, watermark or elemental class badge. Native antialiased alpha preserved, no painted checkerboard. Fine clean hand-painted 2D chibi, readable distinct face/build/headwear silhouette; no realistic anatomy, plastic toy shine, 3D render or pixel art.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261102-heroes2/zhang-he-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style reference"
+    }
+  ],
+  "clientDate": "2026-11-02",
+  "preparedAtUtc": "2026-11-02T09:24:41.249Z",
+  "actualModel": null,
+  "actualQuality": null
+}

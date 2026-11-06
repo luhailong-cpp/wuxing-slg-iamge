@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/tai-shi-ci-face-native.png",
+  "sha256": "012175982e32f885671341c9ca6b3f48e2206683134be2482bc04bfeb7e69231",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/tai-shi-ci-master-v1.png",
+    "sha256": "7999aac417304ea6c657ecee9ff13a38237ab1c89f21ff689aac870e454debc9",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/tai-shi-ci-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      320,
+      300,
+      810,
+      780
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

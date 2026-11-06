@@ -1,0 +1,52 @@
+{
+  "requestedAtUtc": "2026-11-06T09:05:34.512397+00:00",
+  "clientDate": "2026-11-06",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes5/huangfu-song-master-v1.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "prompt": "One original full-body portrait for the landscape Three Kingdoms strategy game 五行问鼎, historical identity 皇甫嵩. Use both attached images solely as the approved visual language: polished Daoist chibi design, big expressive head, short legs and full rounded silhouette, illustrated textiles with soft edges, warm brushed metal and restrained jade details. Do not reproduce reference characters, UI or layouts. Veteran Eastern Han commander. White bold sword-shaped brows, short square white beard and purposeful eyes. Dense dark iron lamellar with a muted copper rim and generous shoulder plates, white linen short mantle over one shoulder, brick-red scarf, blue-black boots. An upright short bronze-tipped command pennon with an abstract ember motif and no lettering is the sole hand prop. Sturdy, square silhouette with a distinct tall two-peak military crest. Show three-quarter facing right, entire hat, feet, fabric and prop in frame. Portrait 2:3 native framing, keep main silhouette inside central 75% width and 84% height, every tip has clear margin. Face and headwear isolated from the prop for portrait crops. True transparent alpha, no ground, shadow, halo, text, border, other figures or background. Chinese Han-era fantasy influenced by the historical reference, original character illustration.",
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "huangfu-song",
+    "name": "皇甫嵩",
+    "personID": "ww-p-37bde7eebd21",
+    "cardIDs": [
+      100039,
+      100630
+    ],
+    "source": "https://zh.wikisource.org/wiki/後漢書/卷71",
+    "identityEvidence": "Eastern Han general and campaign at Changshe, Hou Hanshu vol. 71"
+  }
+}

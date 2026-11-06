@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/zang-ba-face-native.png",
+  "sha256": "1984bf8d7a7fdfe397b9e273738acc96d2400bdafa306b481d17f43e7a3fcf29",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zang-ba-master-v1.png",
+    "sha256": "8c6b0769df4831a9c818690710f9624b45a4e5d9973eae64813fd1d7869c0d44",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zang-ba-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      230,
+      190,
+      800,
+      850
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

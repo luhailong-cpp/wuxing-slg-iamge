@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-strategy",
+  "file": "exports/01-率土之滨/runtime-ui/icon-strategy.png",
+  "sha256": "9710eed4fbaad94ec85721359633e42e430e9c211f1dd9c6cf68e00ee221b726",
+  "width": 305,
+  "height": 320,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 31437,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      642,
+      620,
+      947,
+      940
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

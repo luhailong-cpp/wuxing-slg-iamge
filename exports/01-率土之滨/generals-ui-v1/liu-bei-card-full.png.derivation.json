@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-card-full.png",
+  "sha256": "211fa165e96f0160035a70bc6c0dc5dc162f0d196449506a641688e04b055d0f",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "liu-bei",
+  "displayName": "刘备",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "record": "designs/01-率土之滨/characters/02-liu-bei-v2.png.generation.json",
+      "recordSha256": "ff87a3600a7f2e4cdadc6c8fbe4e4eb292dc0d159869c7f3724ead1d68b77f2a"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    415,
+    370,
+    650,
+    555
+  ],
+  "faceRoiOutputApprox": [
+    317.31,
+    302.38,
+    478.88,
+    429.56
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 550938,
+    "alpha1Pixels": 7600,
+    "semiTransparentPixels": 331947,
+    "opaquePixels": 1851,
+    "bboxAbove32": [
+      66,
+      158,
+      708,
+      1018
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      66,
+      158,
+      60,
+      134
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-card-full.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 7600,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-card-full.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

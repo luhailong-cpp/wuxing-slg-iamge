@@ -1,0 +1,3871 @@
+{
+  "schema": "wuxing-slg.grounded-frame-candidates.v1",
+  "status": "technical_registration_candidate_not_user_or_engine_accepted",
+  "game": "五行问鼎",
+  "character": "troop-wood",
+  "direction": "SE",
+  "userApproved": false,
+  "masterUserApproved": false,
+  "sourceRegistration": {
+    "file": "records/troop-frames-20261029-r3-wood/wood-ground-measured.json",
+    "sha256": "5ceab3b8ac48c4ae5dd0c25095e7aeca7a90c5c6cc98f75a4da59f1e8e2f1552"
+  },
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+    "sha256": "94c417d03cdefc8ed2b8a7865d9c221de149968f8bb9f83a376c8d52c4475473",
+    "helmetWidth": 572,
+    "helmetMeasurement": [
+      409,
+      250,
+      981,
+      680
+    ],
+    "groundRootInteger": [
+      709,
+      1138
+    ],
+    "contactMeasurements": [
+      {
+        "roi": [
+          470,
+          1010,
+          635,
+          1110
+        ],
+        "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+        "contactPoint": [
+          529.0,
+          1105
+        ],
+        "supportBandX": [
+          502,
+          556
+        ],
+        "alphaThresholdDiagnosticOnly": 16
+      },
+      {
+        "roi": [
+          800,
+          1080,
+          955,
+          1180
+        ],
+        "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+        "contactPoint": [
+          889.0,
+          1171
+        ],
+        "supportBandX": [
+          859,
+          919
+        ],
+        "alphaThresholdDiagnosticOnly": 16
+      }
+    ],
+    "nativeStats": {
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1095334,
+      "alphaOne": 11592,
+      "alphaSemi": 476310,
+      "alphaOpaque": 872,
+      "alphaNonzero": 477182,
+      "alpha0BBox": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "alpha16BBox": [
+        169,
+        185,
+        1112,
+        1172
+      ],
+      "alpha16Height": 987
+    },
+    "uniformScale": 0.3149920255183413,
+    "qaReference": {
+      "file": "records/troop-frames-20261029-r3-wood/wood-ground-master-scale-reference.png",
+      "sha256": "aaf56ccbc94702ae521bcbe2895d7a0831812b9be52c9ba203baa98850bff362"
+    },
+    "mapReference": {
+      "file": "records/troop-frames-20261029-r3-wood/wood-ground-master-scale-reference-128h.png",
+      "sha256": "031da144b50ec644959553d65f9bfe9a9cbe20e5ead9aae6e32c8160063eac14"
+    },
+    "normalizedStats": {
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaZero": 1000600,
+      "alphaOne": 791,
+      "alphaSemi": 46930,
+      "alphaOpaque": 1046,
+      "alphaNonzero": 47976,
+      "alpha0BBox": [
+        317,
+        410,
+        665,
+        794
+      ],
+      "alpha16BBox": [
+        342,
+        468,
+        640,
+        780
+      ],
+      "alpha16Height": 312
+    },
+    "mapStats": {
+      "size": [
+        384,
+        384
+      ],
+      "alphaZero": 140174,
+      "alphaOne": 206,
+      "alphaSemi": 6891,
+      "alphaOpaque": 391,
+      "alphaNonzero": 7282,
+      "alpha0BBox": [
+        126,
+        154,
+        248,
+        295
+      ],
+      "alpha16BBox": [
+        128,
+        175,
+        240,
+        293
+      ],
+      "alpha16Height": 118
+    }
+  },
+  "contract": {
+    "nativeCanvas": [
+      1024,
+      1024
+    ],
+    "nativeRoot": [
+      512,
+      768
+    ],
+    "nativeOperation": "whole source cell with integer translation only; exact RGBA bytes retained",
+    "sharedHelmetWidthTargetPx": 180,
+    "normalCanvas": [
+      1024,
+      1024
+    ],
+    "normalRoot": [
+      512,
+      768
+    ],
+    "scalePerActionOnly": true,
+    "perFrameFit": false,
+    "resampler": "premultiplied Lanczos; no explicit alpha deletion or cleaning",
+    "alphaCaveat": "Original alpha is bit-for-bit preserved in native1024 frames. Downsampling changes samples/quantizes alpha normally; there is no alpha threshold edit, crop or removed component. The entire resized source rectangle is pasted and checked.",
+    "mapCanvas": [
+      384,
+      384
+    ],
+    "mapRoot": [
+      192,
+      288
+    ],
+    "mapScaleFromNormal": 0.375,
+    "map128hMeaning": "Legacy tier name shared with metal exporter. Wood master measured alpha>16 silhouette is 118 pixels high in 384 canvas; no forced 128px fit. Pose heights remain natural.",
+    "rootMethod": "manual boot/knee contact ROIs -> two contact points -> integer-rounded midpoint; each grounded frame registered separately",
+    "groundRootProofScope": "contact midpoint aligns; foot articulation/stance width are not redrawn",
+    "masterMapMeasuredHeightPx": 118,
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ],
+    "sourceCuts": "Use explicit per-frame sourceRect. Non-uniform row cuts and attack row2 x1062 partition; do not uniform-grid auto-slice native sheets."
+  },
+  "actions": [
+    {
+      "id": "idle",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-idle-se-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-idle-se-v1.png.generation.json",
+      "sha256": "84ab3c81d719a3f0083d70dad1c999bfa7b134019e72a5591a02d9599a59bb20",
+      "cols": 2,
+      "rows": 2,
+      "rowBoundary": 650,
+      "gridIsUniform": false,
+      "sourceRectReason": "Full sheet partition at visible empty gutters. Attack lower-row boundary x1062 keeps frame5 shield intact; equal-grid slicing would cut it.",
+      "helmetWidth": 308,
+      "helmetMeasurement": [
+        217,
+        150,
+        525,
+        372
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.5844155844155844,
+      "durationsMs": [
+        280,
+        280,
+        280,
+        280
+      ],
+      "loop": true,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.5844155844155844,
+      "uniformScaleActual": 0.583732057416268,
+      "normalizedHelmetWidthPx": 179.78947368421055,
+      "frameCount": 4,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            382,
+            614
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                250,
+                550,
+                345,
+                610
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                286.5,
+                601
+              ],
+              "supportBandX": [
+                268,
+                305
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                430,
+                570,
+                515,
+                635
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                478.5,
+                628
+              ],
+              "supportBandX": [
+                458,
+                499
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "eb59879e4eb3cba0e1eea315207b026af86233ac32e93ea55a0818dcffca9794",
+          "nativeTranslation": [
+            130,
+            154
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-01.png",
+            "sha256": "972e64daf5684fd88128fb41fcdb64da7960eb895fd832030114866f02fd667d",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 900102,
+            "alphaOne": 15700,
+            "alphaSemi": 147995,
+            "alphaOpaque": 479,
+            "alphaNonzero": 148474,
+            "alpha0BBox": [
+              130,
+              177,
+              757,
+              804
+            ],
+            "alpha16BBox": [
+              241,
+              268,
+              722,
+              783
+            ],
+            "alpha16Height": 515,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.583732057416268,
+          "resizedSourceSize": [
+            366,
+            379
+          ],
+          "normalizedTranslation": [
+            289,
+            410
+          ],
+          "normalizedContactPoints": [
+            [
+              456.2392344497608,
+              760.8229665071771
+            ],
+            [
+              568.3157894736842,
+              776.5837320574162
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.2775119617224391,
+            0.7033492822965854
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-01.png",
+            "sha256": "6da512ffeea659d37cd445396aa2325851a2fd3f746b4aebbdf3d4e943811aa0",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 998105,
+            "alphaOne": 4988,
+            "alphaSemi": 49699,
+            "alphaOpaque": 772,
+            "alphaNonzero": 50471,
+            "alpha0BBox": [
+              289,
+              423,
+              655,
+              789
+            ],
+            "alpha16BBox": [
+              354,
+              476,
+              635,
+              777
+            ],
+            "alpha16Height": 301,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-01.png",
+            "sha256": "094157bedb54617f3753b2ef81a1b197ca7448c2d2eeda027a4843eb8281baf5",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140185,
+            "alphaOne": 525,
+            "alphaSemi": 6930,
+            "alphaOpaque": 341,
+            "alphaNonzero": 7271,
+            "alpha0BBox": [
+              121,
+              161,
+              246,
+              296
+            ],
+            "alpha16BBox": [
+              132,
+              178,
+              238,
+              292
+            ],
+            "alpha16Height": 114,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.10406698564591466,
+            0.26375598086121954
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            350,
+            618
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                210,
+                550,
+                310,
+                610
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                254.5,
+                601
+              ],
+              "supportBandX": [
+                234,
+                275
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                400,
+                580,
+                485,
+                640
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                445.5,
+                634
+              ],
+              "supportBandX": [
+                426,
+                465
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "22d1172c0737221179dbdb4309878780805f85417e871fa7c855303e5cba3331",
+          "nativeTranslation": [
+            162,
+            150
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-02.png",
+            "sha256": "6ec623fd69664161a7503d429cfd975da8abb6f83c23d44a577802c00b6fb8c1",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 896733,
+            "alphaOne": 14972,
+            "alphaSemi": 151398,
+            "alphaOpaque": 445,
+            "alphaNonzero": 151843,
+            "alpha0BBox": [
+              162,
+              166,
+              773,
+              800
+            ],
+            "alpha16BBox": [
+              232,
+              260,
+              725,
+              785
+            ],
+            "alpha16Height": 525,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.583732057416268,
+          "resizedSourceSize": [
+            366,
+            379
+          ],
+          "normalizedTranslation": [
+            308,
+            407
+          ],
+          "normalizedContactPoints": [
+            [
+              456.5598086124402,
+              757.8229665071771
+            ],
+            [
+              568.0526315789474,
+              777.0861244019138
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.3062200956937886,
+            -0.5454545454545041
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-02.png",
+            "sha256": "dcff395e25aa4ccb526197a54b2137c43b4b9dbe6162301a0405ead616c1e3ad",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 996993,
+            "alphaOne": 4687,
+            "alphaSemi": 50858,
+            "alphaOpaque": 725,
+            "alphaNonzero": 51583,
+            "alpha0BBox": [
+              308,
+              416,
+              662,
+              786
+            ],
+            "alpha16BBox": [
+              349,
+              471,
+              637,
+              777
+            ],
+            "alpha16Height": 306,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-02.png",
+            "sha256": "9e4806e087ee2258b2afa3e65306e2dfed8ab08b5a9ce98ab08f7a87f4f5a47b",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140017,
+            "alphaOne": 484,
+            "alphaSemi": 7082,
+            "alphaOpaque": 357,
+            "alphaNonzero": 7439,
+            "alpha0BBox": [
+              116,
+              157,
+              247,
+              294
+            ],
+            "alpha16BBox": [
+              130,
+              176,
+              239,
+              292
+            ],
+            "alpha16Height": 116,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.11483253588517073,
+            -0.20454545454543904
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            650,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            384,
+            547
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                250,
+                480,
+                345,
+                535
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                289.5,
+                532
+              ],
+              "supportBandX": [
+                270,
+                309
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                430,
+                505,
+                515,
+                570
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                478.0,
+                562
+              ],
+              "supportBandX": [
+                458,
+                498
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "6036c67f6f42dcd2578cf8cd7ae223b750278e0db25c8ccca0b6ca8419bdf88b",
+          "nativeTranslation": [
+            128,
+            221
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-03.png",
+            "sha256": "e73c5a55d457f82f2d023b2cf52e9cb02777d9e93d0d65c2b4e3e338d99ec367",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 888927,
+            "alphaOne": 23275,
+            "alphaSemi": 159144,
+            "alphaOpaque": 505,
+            "alphaNonzero": 159649,
+            "alpha0BBox": [
+              128,
+              221,
+              755,
+              825
+            ],
+            "alpha16BBox": [
+              230,
+              265,
+              727,
+              784
+            ],
+            "alpha16Height": 519,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.583732057416268,
+          "resizedSourceSize": [
+            366,
+            353
+          ],
+          "normalizedTranslation": [
+            288,
+            449
+          ],
+          "normalizedContactPoints": [
+            [
+              456.9904306220096,
+              759.5454545454545
+            ],
+            [
+              567.0239234449762,
+              777.0574162679426
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.007177033492894225,
+            0.3014354066986016
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-03.png",
+            "sha256": "e693e6cd941eb1e36e9fd76c2143986b2d7af20016cc3b993de7c7ba25133be6",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 994230,
+            "alphaOne": 7541,
+            "alphaSemi": 53606,
+            "alphaOpaque": 740,
+            "alphaNonzero": 54346,
+            "alpha0BBox": [
+              288,
+              449,
+              654,
+              802
+            ],
+            "alpha16BBox": [
+              348,
+              475,
+              638,
+              778
+            ],
+            "alpha16Height": 303,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-03.png",
+            "sha256": "fe9971fdb70c57432f29091e9260870f1d4e7d755454c451be3bc1bac3ef228e",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139599,
+            "alphaOne": 896,
+            "alphaSemi": 7492,
+            "alphaOpaque": 365,
+            "alphaNonzero": 7857,
+            "alpha0BBox": [
+              108,
+              168,
+              245,
+              297
+            ],
+            "alpha16BBox": [
+              130,
+              178,
+              240,
+              292
+            ],
+            "alpha16Height": 114,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.0026913875598353343,
+            0.1130382775119756
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            650,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            350,
+            548
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                215,
+                480,
+                310,
+                535
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                256.0,
+                532
+              ],
+              "supportBandX": [
+                236,
+                276
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                400,
+                510,
+                485,
+                570
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                445.0,
+                565
+              ],
+              "supportBandX": [
+                424,
+                466
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 280,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "770329fc88eef9aa0f553706bfd9e5d491d0248a50b5ca164d886854770d3e05",
+          "nativeTranslation": [
+            162,
+            220
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-04.png",
+            "sha256": "b742899dc8640af83b68fb5b65aa56f7448633ce7e4a402b486b1c36ecdbb1b1",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 891576,
+            "alphaOne": 22395,
+            "alphaSemi": 156509,
+            "alphaOpaque": 491,
+            "alphaNonzero": 157000,
+            "alpha0BBox": [
+              162,
+              220,
+              775,
+              824
+            ],
+            "alpha16BBox": [
+              231,
+              273,
+              728,
+              786
+            ],
+            "alpha16Height": 513,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/native1024/idle-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.583732057416268,
+          "resizedSourceSize": [
+            366,
+            353
+          ],
+          "normalizedTranslation": [
+            308,
+            448
+          ],
+          "normalizedContactPoints": [
+            [
+              457.43540669856463,
+              758.5454545454545
+            ],
+            [
+              567.7607655502393,
+              777.8086124401914
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.5980861244020161,
+            0.17703349282294312
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-04.png",
+            "sha256": "44a4f771da0fe8dea8464d286f179871a37b9b61300a7f683a7b6fb27f72e987",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 995179,
+            "alphaOne": 7217,
+            "alphaSemi": 52650,
+            "alphaOpaque": 747,
+            "alphaNonzero": 53397,
+            "alpha0BBox": [
+              308,
+              448,
+              666,
+              801
+            ],
+            "alpha16BBox": [
+              348,
+              479,
+              639,
+              779
+            ],
+            "alpha16Height": 300,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/normalized1024/idle-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-04.png",
+            "sha256": "e97e020fb44e9bf98481900debc86a3748bf6d34a39c561bee51d4de2ed1668d",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139791,
+            "alphaOne": 799,
+            "alphaSemi": 7301,
+            "alphaOpaque": 364,
+            "alphaNonzero": 7665,
+            "alpha0BBox": [
+              115,
+              168,
+              248,
+              295
+            ],
+            "alpha16BBox": [
+              130,
+              179,
+              240,
+              292
+            ],
+            "alpha16Height": 113,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.22428229665075605,
+            0.06638755980860367
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.7033492822965854
+      },
+      "visualStatus": "static light/dark and source contacts actually reviewed; technical candidate",
+      "visualFinding": "Four breathing variations visible; frame4 helmet/head turns slightly compared with frame1. Loop seam and foot stability need playback review."
+    },
+    {
+      "id": "attack",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-attack-se-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-attack-se-v1.png.generation.json",
+      "sha256": "714378fc40a04f5603d633439cf4282a2fafbd372458f8f0c102310ecf28a47e",
+      "cols": 3,
+      "rows": 2,
+      "rowBoundary": 512,
+      "gridIsUniform": false,
+      "sourceRectReason": "Full sheet partition at visible empty gutters. Attack lower-row boundary x1062 keeps frame5 shield intact; equal-grid slicing would cut it.",
+      "helmetWidth": 249,
+      "helmetMeasurement": [
+        150,
+        103,
+        399,
+        283
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.7228915662650602,
+      "durationsMs": [
+        140,
+        110,
+        100,
+        70,
+        110,
+        170
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.7228915662650602,
+      "uniformScaleActual": 0.72265625,
+      "normalizedHelmetWidthPx": 179.94140625,
+      "frameCount": 6,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "groundRootInteger": [
+            289,
+            480
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                170,
+                425,
+                250,
+                475
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                202.0,
+                467
+              ],
+              "supportBandX": [
+                183,
+                221
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                335,
+                440,
+                405,
+                500
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                376.0,
+                492
+              ],
+              "supportBandX": [
+                355,
+                397
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "7a1039ad02f351fdba5b0a5c1713aa738423967dc1775df375d5d229ff6413b5",
+          "nativeTranslation": [
+            223,
+            288
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-01.png",
+            "sha256": "298f773873cf0428c88b57d87116c9ed683af2c56761cba5cf91294b10e324e2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 949250,
+            "alphaOne": 5740,
+            "alphaSemi": 99326,
+            "alphaOpaque": 0,
+            "alphaNonzero": 99326,
+            "alpha0BBox": [
+              223,
+              319,
+              735,
+              793
+            ],
+            "alpha16BBox": [
+              287,
+              355,
+              683,
+              781
+            ],
+            "alpha16Height": 426,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.72265625,
+          "resizedSourceSize": [
+            370,
+            370
+          ],
+          "normalizedTranslation": [
+            303,
+            421
+          ],
+          "normalizedContactPoints": [
+            [
+              448.9765625,
+              758.48046875
+            ],
+            [
+              574.71875,
+              776.546875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.15234375,
+            -0.486328125
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-01.png",
+            "sha256": "47ee1502dd72b5d745282e10846c7f4ebf954f5459cd343dae4bced39aa444e7",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997170,
+            "alphaOne": 2632,
+            "alphaSemi": 50906,
+            "alphaOpaque": 500,
+            "alphaNonzero": 51406,
+            "alpha0BBox": [
+              303,
+              443,
+              673,
+              786
+            ],
+            "alpha16BBox": [
+              349,
+              469,
+              635,
+              777
+            ],
+            "alpha16Height": 308,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-01.png",
+            "sha256": "12db92616d675417be839a3e2f4d2c290d57d26877a883bd46e16f24f6e04b2c",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140067,
+            "alphaOne": 247,
+            "alphaSemi": 7033,
+            "alphaOpaque": 356,
+            "alphaNonzero": 7389,
+            "alpha0BBox": [
+              120,
+              167,
+              245,
+              294
+            ],
+            "alpha16BBox": [
+              131,
+              176,
+              239,
+              292
+            ],
+            "alpha16Height": 116,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.05712890625,
+            -0.182373046875
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "groundRootInteger": [
+            293,
+            484
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                150,
+                425,
+                235,
+                480
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                182.5,
+                475
+              ],
+              "supportBandX": [
+                163,
+                202
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                365,
+                445,
+                438,
+                500
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                403.5,
+                493
+              ],
+              "supportBandX": [
+                382,
+                425
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 110,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "8bb654b94a933e7be14e8f71016a5ce90ebae03dcaf60fc38ae75aee1bacf8c0",
+          "nativeTranslation": [
+            219,
+            284
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-02.png",
+            "sha256": "a9eb731b9e2d758edb669c048945e6f5b439ffc61b25dc53d6720123682a8239",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 955303,
+            "alphaOne": 5204,
+            "alphaSemi": 93273,
+            "alphaOpaque": 0,
+            "alphaNonzero": 93273,
+            "alpha0BBox": [
+              220,
+              333,
+              729,
+              780
+            ],
+            "alpha16BBox": [
+              309,
+              377,
+              683,
+              778
+            ],
+            "alpha16Height": 401,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.72265625,
+          "resizedSourceSize": [
+            370,
+            370
+          ],
+          "normalizedTranslation": [
+            300,
+            418
+          ],
+          "normalizedContactPoints": [
+            [
+              431.884765625,
+              761.26171875
+            ],
+            [
+              591.591796875,
+              774.26953125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.26171875,
+            -0.234375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-02.png",
+            "sha256": "753de55bfffd575697ce4ae65814c5e15062270be6169a0adfb65e658e2e0ea8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1000227,
+            "alphaOne": 2328,
+            "alphaSemi": 47914,
+            "alphaOpaque": 435,
+            "alphaNonzero": 48349,
+            "alpha0BBox": [
+              301,
+              453,
+              669,
+              777
+            ],
+            "alpha16BBox": [
+              365,
+              485,
+              636,
+              775
+            ],
+            "alpha16Height": 290,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-02.png",
+            "sha256": "567799a79580086e006516f92b6180ccc74eac8463d5d9490f9384e126ac8a54",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140455,
+            "alphaOne": 219,
+            "alphaSemi": 6680,
+            "alphaOpaque": 321,
+            "alphaNonzero": 7001,
+            "alpha0BBox": [
+              113,
+              179,
+              241,
+              293
+            ],
+            "alpha16BBox": [
+              136,
+              182,
+              239,
+              291
+            ],
+            "alpha16Height": 109,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.09814453125,
+            -0.087890625
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "groundRootInteger": [
+            262,
+            486
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                120,
+                440,
+                203,
+                487
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                150.5,
+                480
+              ],
+              "supportBandX": [
+                130,
+                171
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                332,
+                445,
+                405,
+                500
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                374.5,
+                492
+              ],
+              "supportBandX": [
+                353,
+                396
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "09c5d9935408c4072b0aa5656e25fb496f2443e8a8bff87ec583d83a3efc00df",
+          "nativeTranslation": [
+            250,
+            282
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-03.png",
+            "sha256": "195eee852f358099ba9cb4817c5f0d56dbaa61b8b0541af34a0c2d4c2ab82f21",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 946649,
+            "alphaOne": 5045,
+            "alphaSemi": 101927,
+            "alphaOpaque": 0,
+            "alphaNonzero": 101927,
+            "alpha0BBox": [
+              250,
+              304,
+              730,
+              791
+            ],
+            "alpha16BBox": [
+              309,
+              318,
+              687,
+              775
+            ],
+            "alpha16Height": 457,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.72265625,
+          "resizedSourceSize": [
+            370,
+            370
+          ],
+          "normalizedTranslation": [
+            323,
+            417
+          ],
+          "normalizedContactPoints": [
+            [
+              431.759765625,
+              763.875
+            ],
+            [
+              593.634765625,
+              772.546875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.697265625,
+            0.2109375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-03.png",
+            "sha256": "9a2949a93a94322974ce5719bf945b61d9d8783809e6a812f23fbfd0c51b5937",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 995825,
+            "alphaOne": 2210,
+            "alphaSemi": 52327,
+            "alphaOpaque": 424,
+            "alphaNonzero": 52751,
+            "alpha0BBox": [
+              323,
+              433,
+              670,
+              785
+            ],
+            "alpha16BBox": [
+              365,
+              443,
+              639,
+              774
+            ],
+            "alpha16Height": 331,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-03.png",
+            "sha256": "67bae748a8f29866f04a2a40d81fcb97c28ee67da27ad277c417d8fd7b17e028",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139848,
+            "alphaOne": 205,
+            "alphaSemi": 7229,
+            "alphaOpaque": 379,
+            "alphaNonzero": 7608,
+            "alpha0BBox": [
+              135,
+              164,
+              245,
+              293
+            ],
+            "alpha16BBox": [
+              137,
+              166,
+              240,
+              290
+            ],
+            "alpha16Height": 124,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.261474609375,
+            0.0791015625
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            512
+          ],
+          "groundRootInteger": [
+            327,
+            445
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                155,
+                405,
+                232,
+                469
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                191.5,
+                463
+              ],
+              "supportBandX": [
+                170,
+                213
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                410,
+                380,
+                500,
+                435
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                463.0,
+                427
+              ],
+              "supportBandX": [
+                438,
+                488
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 70,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "2e0b2477b2a303d5df65cb7b776cf6305b1a86f70dd8042c9d4acbb04163ae65",
+          "nativeTranslation": [
+            185,
+            323
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-04.png",
+            "sha256": "34931438933e10b2034c26d361e3908911ba6877d3bdb0d95482f36c72b8cd82",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 949205,
+            "alphaOne": 4773,
+            "alphaSemi": 99371,
+            "alphaOpaque": 0,
+            "alphaNonzero": 99371,
+            "alpha0BBox": [
+              226,
+              326,
+              697,
+              835
+            ],
+            "alpha16BBox": [
+              256,
+              385,
+              686,
+              787
+            ],
+            "alpha16Height": 402,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.72265625,
+          "resizedSourceSize": [
+            370,
+            370
+          ],
+          "normalizedTranslation": [
+            276,
+            446
+          ],
+          "normalizedContactPoints": [
+            [
+              414.388671875,
+              780.58984375
+            ],
+            [
+              610.58984375,
+              754.57421875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.4892578125,
+            -0.41796875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-04.png",
+            "sha256": "ccf53abf513bc47f1e16efba5174e5924eb4571118bf5619795a3be4264231c2",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997088,
+            "alphaOne": 2099,
+            "alphaSemi": 51072,
+            "alphaOpaque": 416,
+            "alphaNonzero": 51488,
+            "alpha0BBox": [
+              307,
+              448,
+              646,
+              816
+            ],
+            "alpha16BBox": [
+              328,
+              491,
+              638,
+              782
+            ],
+            "alpha16Height": 291,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-04.png",
+            "sha256": "ded118fff9a53a18b44b375ee11c879acbd320052c99baa39b3a7416465e1e5d",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140046,
+            "alphaOne": 182,
+            "alphaSemi": 7048,
+            "alphaOpaque": 362,
+            "alphaNonzero": 7410,
+            "alpha0BBox": [
+              120,
+              170,
+              242,
+              296
+            ],
+            "alpha16BBox": [
+              123,
+              184,
+              240,
+              293
+            ],
+            "alpha16Height": 109,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.1834716796875,
+            -0.15673828125
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            512,
+            1062,
+            1024
+          ],
+          "sourceCellSize": [
+            550,
+            512
+          ],
+          "groundRootInteger": [
+            347,
+            435
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                200,
+                370,
+                277,
+                422
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                228.5,
+                414
+              ],
+              "supportBandX": [
+                210,
+                247
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                425,
+                400,
+                497,
+                460
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                465.5,
+                456
+              ],
+              "supportBandX": [
+                446,
+                485
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 110,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "5b11f2e0c9f0ec60cd19e9b7ab9241d83384ff591705881df61cc8aad24c45f1",
+          "nativeTranslation": [
+            165,
+            333
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-05.png",
+            "sha256": "e45eefe6dea4599b39a02827e2a204a02d47e7b7b29e3bff30bb6101095895a9",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 950400,
+            "alphaOne": 6235,
+            "alphaSemi": 98176,
+            "alphaOpaque": 0,
+            "alphaNonzero": 98176,
+            "alpha0BBox": [
+              172,
+              334,
+              713,
+              819
+            ],
+            "alpha16BBox": [
+              219,
+              392,
+              693,
+              790
+            ],
+            "alpha16Height": 398,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-05.png.derivation.json"
+          },
+          "actionUniformScale": 0.72265625,
+          "resizedSourceSize": [
+            397,
+            370
+          ],
+          "normalizedTranslation": [
+            261,
+            454
+          ],
+          "normalizedContactPoints": [
+            [
+              426.126953125,
+              753.1796875
+            ],
+            [
+              597.396484375,
+              783.53125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.23828125,
+            0.35546875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-05.png",
+            "sha256": "77b5334ace8e7dc7cfb84c467825f27dafa35775c5fbb4975dc58b02bae95a47",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997824,
+            "alphaOne": 2854,
+            "alphaSemi": 50337,
+            "alphaOpaque": 415,
+            "alphaNonzero": 50752,
+            "alpha0BBox": [
+              266,
+              455,
+              657,
+              805
+            ],
+            "alpha16BBox": [
+              300,
+              497,
+              642,
+              784
+            ],
+            "alpha16Height": 287,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-05.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-05.png",
+            "sha256": "eb4b5d6e2fd303763dc44836ca9f5ec2e1c0c994d473b9c43acb5cb81065abd4",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140186,
+            "alphaOne": 232,
+            "alphaSemi": 6914,
+            "alphaOpaque": 356,
+            "alphaNonzero": 7270,
+            "alpha0BBox": [
+              107,
+              175,
+              246,
+              300
+            ],
+            "alpha16BBox": [
+              112,
+              186,
+              241,
+              294
+            ],
+            "alpha16Height": 108,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-05.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.08935546875,
+            0.13330078125
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1062,
+            512,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            474,
+            512
+          ],
+          "groundRootInteger": [
+            250,
+            458
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                137,
+                395,
+                214,
+                452
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                165.5,
+                446
+              ],
+              "supportBandX": [
+                146,
+                185
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                292,
+                415,
+                366,
+                478
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                334.5,
+                471
+              ],
+              "supportBandX": [
+                314,
+                355
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 170,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "ca2577c7fa130b4fed84a900dec9f4abe6848397e8e08c2e3e9da0dd2b5ab8e5",
+          "nativeTranslation": [
+            262,
+            310
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-06.png",
+            "sha256": "ce606587450d168759290b08999b5374b90f55cdf0c105eca9f996e0134ab7dc",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 953632,
+            "alphaOne": 6160,
+            "alphaSemi": 94944,
+            "alphaOpaque": 0,
+            "alphaNonzero": 94944,
+            "alpha0BBox": [
+              263,
+              315,
+              720,
+              790
+            ],
+            "alpha16BBox": [
+              295,
+              369,
+              678,
+              782
+            ],
+            "alpha16Height": 413,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/native1024/attack-06.png.derivation.json"
+          },
+          "actionUniformScale": 0.72265625,
+          "resizedSourceSize": [
+            343,
+            370
+          ],
+          "normalizedTranslation": [
+            331,
+            437
+          ],
+          "normalizedContactPoints": [
+            [
+              450.599609375,
+              759.3046875
+            ],
+            [
+              572.728515625,
+              777.37109375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.3359375,
+            0.337890625
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-06.png",
+            "sha256": "af6a01882682f704bc6532d74be25c00944ae7fc3e40b69b4b460fbe97581822",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 999352,
+            "alphaOne": 2894,
+            "alphaSemi": 48842,
+            "alphaOpaque": 382,
+            "alphaNonzero": 49224,
+            "alpha0BBox": [
+              339,
+              451,
+              661,
+              784
+            ],
+            "alpha16BBox": [
+              355,
+              479,
+              632,
+              778
+            ],
+            "alpha16Height": 299,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/normalized1024/attack-06.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-06.png",
+            "sha256": "e431f0fa78b21aad85d04cc1543d703d805b78cbd2d7d980697401667d97e64d",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140462,
+            "alphaOne": 203,
+            "alphaSemi": 6643,
+            "alphaOpaque": 351,
+            "alphaNonzero": 6994,
+            "alpha0BBox": [
+              129,
+              171,
+              247,
+              294
+            ],
+            "alpha16BBox": [
+              133,
+              180,
+              237,
+              292
+            ],
+            "alpha16Height": 112,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/attack/map128h/attack-06.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.1259765625,
+            0.126708984375
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.697265625
+      },
+      "visualStatus": "static light/dark and source contacts actually reviewed; technical candidate",
+      "visualFinding": "Six wind-up/raised club/strike/follow-through/recovery poses visible. Club and shield stay in original hands. Frame5 shield required non-uniform source ownership boundary x1062."
+    },
+    {
+      "id": "hurt",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-hurt-se-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-hurt-se-v1.png.generation.json",
+      "sha256": "3c1f137666f1ce4ceee7f43ded3b624e61dc37b69298d5b2b8db9696fc8b457e",
+      "cols": 2,
+      "rows": 2,
+      "rowBoundary": 650,
+      "gridIsUniform": false,
+      "sourceRectReason": "Full sheet partition at visible empty gutters. Attack lower-row boundary x1062 keeps frame5 shield intact; equal-grid slicing would cut it.",
+      "helmetWidth": 300,
+      "helmetMeasurement": [
+        226,
+        130,
+        526,
+        351
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.6,
+      "durationsMs": [
+        100,
+        100,
+        140,
+        180
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.6,
+      "uniformScaleActual": 0.5996810207336523,
+      "normalizedHelmetWidthPx": 179.9043062200957,
+      "frameCount": 4,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            627,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            383,
+            594
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                240,
+                525,
+                335,
+                585
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                278.5,
+                578
+              ],
+              "supportBandX": [
+                258,
+                299
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                430,
+                555,
+                528,
+                615
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                487.5,
+                609
+              ],
+              "supportBandX": [
+                465,
+                510
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 0,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "f31ac431fc5e4cec19fbbef383d8ecd489ebfed6f56fe942010271382aaa4ab7",
+          "nativeTranslation": [
+            129,
+            174
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-01.png",
+            "sha256": "9678cff08bcf6403b638e0549f5d20e87c6e312c730e21a15af328d147d6b313",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 908905,
+            "alphaOne": 7110,
+            "alphaSemi": 139057,
+            "alphaOpaque": 614,
+            "alphaNonzero": 139671,
+            "alpha0BBox": [
+              170,
+              201,
+              753,
+              823
+            ],
+            "alpha16BBox": [
+              233,
+              269,
+              725,
+              784
+            ],
+            "alpha16Height": 515,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.5996810207336523,
+          "resizedSourceSize": [
+            376,
+            390
+          ],
+          "normalizedTranslation": [
+            282,
+            412
+          ],
+          "normalizedContactPoints": [
+            [
+              449.01116427432214,
+              758.615629984051
+            ],
+            [
+              574.3444976076555,
+              777.2057416267942
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.32216905901117343,
+            -0.08931419457735501
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-01.png",
+            "sha256": "8d0325fa42eabf08f4b608234ecea237060edb08e8edf867875c2e58dc96b995",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 998439,
+            "alphaOne": 2134,
+            "alphaSemi": 49321,
+            "alphaOpaque": 816,
+            "alphaNonzero": 50137,
+            "alpha0BBox": [
+              307,
+              428,
+              655,
+              797
+            ],
+            "alpha16BBox": [
+              344,
+              469,
+              640,
+              778
+            ],
+            "alpha16Height": 309,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+            "sha256": "c3981e53a926fa162cc7c495cf2e765b04c4b1b11a9730e54dc71c336f0ef468",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140102,
+            "alphaOne": 222,
+            "alphaSemi": 6979,
+            "alphaOpaque": 375,
+            "alphaNonzero": 7354,
+            "alpha0BBox": [
+              117,
+              164,
+              242,
+              294
+            ],
+            "alpha16BBox": [
+              129,
+              176,
+              240,
+              292
+            ],
+            "alpha16Height": 116,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.12081339712919004,
+            -0.03349282296650813
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            650
+          ],
+          "sourceCellSize": [
+            627,
+            650
+          ],
+          "groundRootInteger": [
+            356,
+            582
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                215,
+                535,
+                300,
+                595
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                260.0,
+                586
+              ],
+              "supportBandX": [
+                238,
+                282
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                390,
+                528,
+                490,
+                590
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                452.0,
+                578
+              ],
+              "supportBandX": [
+                427,
+                477
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 100,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "4648eed531daf58343a4ab4bb598b8162223e2d67ec3a8b4cc69ca24553d98e8",
+          "nativeTranslation": [
+            156,
+            186
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-02.png",
+            "sha256": "dcbc7d23ec99ae11da8096b5d4cb111d3c9a9b0c5355f24dd879ef6268188bf0",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 909695,
+            "alphaOne": 7828,
+            "alphaSemi": 138491,
+            "alphaOpaque": 390,
+            "alphaNonzero": 138881,
+            "alpha0BBox": [
+              157,
+              217,
+              763,
+              836
+            ],
+            "alpha16BBox": [
+              226,
+              302,
+              687,
+              773
+            ],
+            "alpha16Height": 471,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.5996810207336523,
+          "resizedSourceSize": [
+            376,
+            390
+          ],
+          "normalizedTranslation": [
+            299,
+            419
+          ],
+          "normalizedContactPoints": [
+            [
+              454.9170653907496,
+              770.4130781499202
+            ],
+            [
+              570.0558213716108,
+              765.615629984051
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.48644338118015185,
+            0.014354066985561076
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-02.png",
+            "sha256": "3a79bb5f6a77404ce2d7bcafcc9d4f15e989954736595309e66e09f404bdf117",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 998759,
+            "alphaOne": 2398,
+            "alphaSemi": 49055,
+            "alphaOpaque": 762,
+            "alphaNonzero": 49817,
+            "alpha0BBox": [
+              300,
+              438,
+              662,
+              809
+            ],
+            "alpha16BBox": [
+              341,
+              489,
+              617,
+              772
+            ],
+            "alpha16Height": 283,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+            "sha256": "4e97ff3eda5135dfeb05b25bc324c2eb526e2d8e2ee2b7ab5822e51593c21d04",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140211,
+            "alphaOne": 215,
+            "alphaSemi": 6867,
+            "alphaOpaque": 378,
+            "alphaNonzero": 7245,
+            "alpha0BBox": [
+              115,
+              165,
+              247,
+              303
+            ],
+            "alpha16BBox": [
+              128,
+              183,
+              232,
+              290
+            ],
+            "alpha16Height": 107,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.18241626794255694,
+            0.0053827751195854034
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            650,
+            627,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            396,
+            519
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                230,
+                465,
+                330,
+                520
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                266.0,
+                516
+              ],
+              "supportBandX": [
+                243,
+                289
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                465,
+                470,
+                565,
+                525
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                525.0,
+                522
+              ],
+              "supportBandX": [
+                503,
+                547
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "640ebaab244df5a021f687fce5dbe5e70eaf08b984120bca62d4fc6de809f26b",
+          "nativeTranslation": [
+            116,
+            249
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-03.png",
+            "sha256": "f11c398c64fcfee8a7b1ffe2d1a1630a746ffbc0e00ee38063a565c88bfef04b",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 918437,
+            "alphaOne": 10425,
+            "alphaSemi": 129689,
+            "alphaOpaque": 450,
+            "alphaNonzero": 130139,
+            "alpha0BBox": [
+              116,
+              249,
+              743,
+              819
+            ],
+            "alpha16BBox": [
+              219,
+              340,
+              714,
+              772
+            ],
+            "alpha16Height": 432,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.5996810207336523,
+          "resizedSourceSize": [
+            376,
+            362
+          ],
+          "normalizedTranslation": [
+            275,
+            457
+          ],
+          "normalizedContactPoints": [
+            [
+              434.5151515151515,
+              766.4354066985645
+            ],
+            [
+              589.8325358851674,
+              770.0334928229665
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.173843700159523,
+            0.23444976076552848
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-03.png",
+            "sha256": "75c1b10a2ba6a27e34d028a6f447996f365cbdfcfc10ab40609739c7fd25d205",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1001912,
+            "alphaOne": 3441,
+            "alphaSemi": 45963,
+            "alphaOpaque": 701,
+            "alphaNonzero": 46664,
+            "alpha0BBox": [
+              275,
+              457,
+              651,
+              795
+            ],
+            "alpha16BBox": [
+              337,
+              511,
+              634,
+              771
+            ],
+            "alpha16Height": 260,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+            "sha256": "fcd0ae88d5a47329757b195e1890c0dcd392046b967380c56edc6653a480bfaa",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140708,
+            "alphaOne": 355,
+            "alphaSemi": 6399,
+            "alphaOpaque": 349,
+            "alphaNonzero": 6748,
+            "alpha0BBox": [
+              113,
+              181,
+              244,
+              291
+            ],
+            "alpha16BBox": [
+              126,
+              191,
+              238,
+              289
+            ],
+            "alpha16Height": 98,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.06519138755982112,
+            0.08791866028707318
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            627,
+            650,
+            1254,
+            1254
+          ],
+          "sourceCellSize": [
+            627,
+            604
+          ],
+          "groundRootInteger": [
+            331,
+            538
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                480,
+                295,
+                535
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                228.5,
+                524
+              ],
+              "supportBandX": [
+                208,
+                249
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                375,
+                500,
+                475,
+                555
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                434.0,
+                553
+              ],
+              "supportBandX": [
+                411,
+                457
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "6605356e89d31787709bff48b08ced82b8051908a238a27747433b5dca035648",
+          "nativeTranslation": [
+            181,
+            230
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-04.png",
+            "sha256": "b0c73ce342d1b23915dda08cf0bbe00be6e5f0770c5bf529ada55ef5cd39cac5",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 905825,
+            "alphaOne": 11151,
+            "alphaSemi": 142163,
+            "alphaOpaque": 588,
+            "alphaNonzero": 142751,
+            "alpha0BBox": [
+              181,
+              230,
+              780,
+              807
+            ],
+            "alpha16BBox": [
+              236,
+              273,
+              727,
+              784
+            ],
+            "alpha16Height": 511,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/native1024/hurt-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.5996810207336523,
+          "resizedSourceSize": [
+            376,
+            362
+          ],
+          "normalizedTranslation": [
+            314,
+            445
+          ],
+          "normalizedContactPoints": [
+            [
+              451.0271132376396,
+              759.2328548644338
+            ],
+            [
+              574.261562998405,
+              776.6236044657097
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.6443381180222332,
+            -0.07177033492826013
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-04.png",
+            "sha256": "622282982be436b607fb74fc63f83e1ae4f97754d20a104d3ae6e3c91c4be513",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997363,
+            "alphaOne": 3627,
+            "alphaSemi": 50437,
+            "alphaOpaque": 776,
+            "alphaNonzero": 51213,
+            "alpha0BBox": [
+              314,
+              445,
+              673,
+              790
+            ],
+            "alpha16BBox": [
+              347,
+              471,
+              642,
+              777
+            ],
+            "alpha16Height": 306,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/normalized1024/hurt-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+            "sha256": "c67afccda7f9ebd632fe2d9b90eb49c99af6adcbbdb01e15a5745b91edbae4e2",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 139981,
+            "alphaOne": 401,
+            "alphaSemi": 7091,
+            "alphaOpaque": 384,
+            "alphaNonzero": 7475,
+            "alpha0BBox": [
+              120,
+              167,
+              250,
+              294
+            ],
+            "alpha16BBox": [
+              130,
+              176,
+              241,
+              292
+            ],
+            "alpha16Height": 116,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/hurt/map128h/hurt-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.24162679425833744,
+            -0.026913875598097547
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.6443381180222332
+      },
+      "visualStatus": "static light/dark and source contacts actually reviewed; technical candidate",
+      "visualFinding": "Recoil, shield raise and crouch are distinguishable; no equipment swap seen. Stance widths and head tilt vary intentionally/through generation."
+    },
+    {
+      "id": "defeat",
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-defeat-se-v1.png",
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-defeat-se-v1.png.generation.json",
+      "sha256": "209e832fa550b042bba5c2e1a69de53b1b4d8c13e42de86409f355981f2d08bb",
+      "cols": 3,
+      "rows": 2,
+      "rowBoundary": 560,
+      "gridIsUniform": false,
+      "sourceRectReason": "Full sheet partition at visible empty gutters. Attack lower-row boundary x1062 keeps frame5 shield intact; equal-grid slicing would cut it.",
+      "helmetWidth": 263,
+      "helmetMeasurement": [
+        159,
+        99,
+        422,
+        284
+      ],
+      "helmetMeasurementFrame": 1,
+      "uniformActionScaleTo180Helmet": 0.6844106463878327,
+      "durationsMs": [
+        120,
+        140,
+        160,
+        180,
+        220,
+        600
+      ],
+      "loop": false,
+      "timingStatus": "suggested only, not playback-accepted",
+      "uniformScaleRequested": 0.6844106463878327,
+      "uniformScaleActual": 0.68359375,
+      "normalizedHelmetWidthPx": 179.78515625,
+      "frameCount": 6,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            512,
+            560
+          ],
+          "sourceCellSize": [
+            512,
+            560
+          ],
+          "groundRootInteger": [
+            302,
+            523
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                195,
+                470,
+                280,
+                523
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                229.0,
+                516
+              ],
+              "supportBandX": [
+                207,
+                251
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                330,
+                490,
+                407,
+                538
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                375.0,
+                530
+              ],
+              "supportBandX": [
+                352,
+                398
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 120,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "56b5797c500fbae6b66a220e491562da63a8881cacff64ac1592ec12403f5a77",
+          "nativeTranslation": [
+            210,
+            245
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-01.png",
+            "sha256": "c5a98f05e21e8e7e67626395061b5fb8e71498f94aa15c8e1204d9ad0eae8256",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 937280,
+            "alphaOne": 8398,
+            "alphaSemi": 111296,
+            "alphaOpaque": 0,
+            "alphaNonzero": 111296,
+            "alpha0BBox": [
+              243,
+              266,
+              722,
+              805
+            ],
+            "alpha16BBox": [
+              290,
+              302,
+              664,
+              776
+            ],
+            "alpha16Height": 474,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-01.png.derivation.json"
+          },
+          "actionUniformScale": 0.68359375,
+          "resizedSourceSize": [
+            350,
+            383
+          ],
+          "normalizedTranslation": [
+            306,
+            410
+          ],
+          "normalizedContactPoints": [
+            [
+              462.54296875,
+              762.734375
+            ],
+            [
+              562.34765625,
+              772.3046875
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.4453125,
+            -0.48046875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-01.png",
+            "sha256": "ae4836a40a4345a2b6d483537a5bef62fc22a351f051753d95438be67ae04672",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 996978,
+            "alphaOne": 3533,
+            "alphaSemi": 51182,
+            "alphaOpaque": 416,
+            "alphaNonzero": 51598,
+            "alpha0BBox": [
+              328,
+              430,
+              656,
+              793
+            ],
+            "alpha16BBox": [
+              360,
+              449,
+              617,
+              773
+            ],
+            "alpha16Height": 324,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-01.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+            "sha256": "290c448e060cb53e44485c3a3c22ae251f003bb2e7460ebed3a5fe9b047983ac",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140050,
+            "alphaOne": 360,
+            "alphaSemi": 7077,
+            "alphaOpaque": 329,
+            "alphaNonzero": 7406,
+            "alpha0BBox": [
+              125,
+              165,
+              234,
+              293
+            ],
+            "alpha16BBox": [
+              135,
+              168,
+              232,
+              290
+            ],
+            "alpha16Height": 122,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-01.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.1669921875,
+            -0.18017578125
+          ]
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            560
+          ],
+          "sourceCellSize": [
+            512,
+            560
+          ],
+          "groundRootInteger": [
+            280,
+            523
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                175,
+                470,
+                260,
+                523
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                209.5,
+                517
+              ],
+              "supportBandX": [
+                188,
+                231
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                310,
+                492,
+                387,
+                539
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                351.0,
+                529
+              ],
+              "supportBandX": [
+                328,
+                374
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 140,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "21811136717049bd3a18173d3d0979ad98195f09ff0b2e4581dd4d59927b271f",
+          "nativeTranslation": [
+            232,
+            245
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-02.png",
+            "sha256": "d58451ab6b323c673652ffffda16aed1e65278b942a843da7414d1b404c81aab",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 939229,
+            "alphaOne": 7334,
+            "alphaSemi": 109347,
+            "alphaOpaque": 0,
+            "alphaNonzero": 109347,
+            "alpha0BBox": [
+              233,
+              264,
+              744,
+              805
+            ],
+            "alpha16BBox": [
+              321,
+              320,
+              665,
+              775
+            ],
+            "alpha16Height": 455,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-02.png.derivation.json"
+          },
+          "actionUniformScale": 0.68359375,
+          "resizedSourceSize": [
+            350,
+            383
+          ],
+          "normalizedTranslation": [
+            321,
+            410
+          ],
+          "normalizedContactPoints": [
+            [
+              464.212890625,
+              763.41796875
+            ],
+            [
+              560.94140625,
+              771.62109375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.5771484375,
+            -0.48046875
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-02.png",
+            "sha256": "f5ee6e8fdf21685d7ce60303d6b1af4dfa176e105eefe812b01015a461ef8042",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 997660,
+            "alphaOne": 3265,
+            "alphaSemi": 50550,
+            "alphaOpaque": 366,
+            "alphaNonzero": 50916,
+            "alpha0BBox": [
+              322,
+              423,
+              671,
+              793
+            ],
+            "alpha16BBox": [
+              381,
+              461,
+              617,
+              772
+            ],
+            "alpha16Height": 311,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-02.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+            "sha256": "586541df8abfbaa8546ee6ca08b24ffa0845354fe101c320441908be0e1f923b",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140243,
+            "alphaOne": 271,
+            "alphaSemi": 6899,
+            "alphaOpaque": 314,
+            "alphaNonzero": 7213,
+            "alpha0BBox": [
+              127,
+              159,
+              247,
+              297
+            ],
+            "alpha16BBox": [
+              143,
+              173,
+              232,
+              290
+            ],
+            "alpha16Height": 117,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-02.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.2164306640625,
+            -0.18017578125
+          ]
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            560
+          ],
+          "sourceCellSize": [
+            512,
+            560
+          ],
+          "groundRootInteger": [
+            286,
+            519
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                205,
+                475,
+                280,
+                514
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                245.5,
+                510
+              ],
+              "supportBandX": [
+                212,
+                279
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                276,
+                490,
+                355,
+                535
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                326.5,
+                528
+              ],
+              "supportBandX": [
+                303,
+                350
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 160,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "b42395454f50896ce4780dd79c42a1fd40593bcfcd046f16410ec669699e9363",
+          "nativeTranslation": [
+            226,
+            249
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-03.png",
+            "sha256": "feabfd9efbad4bd568fcd759220a5474f4e447fc3a4f7892096f741db82c81f9",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 946301,
+            "alphaOne": 6691,
+            "alphaSemi": 102275,
+            "alphaOpaque": 0,
+            "alphaNonzero": 102275,
+            "alpha0BBox": [
+              227,
+              268,
+              718,
+              809
+            ],
+            "alpha16BBox": [
+              291,
+              369,
+              672,
+              778
+            ],
+            "alpha16Height": 409,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-03.png.derivation.json"
+          },
+          "actionUniformScale": 0.68359375,
+          "resizedSourceSize": [
+            350,
+            383
+          ],
+          "normalizedTranslation": [
+            316,
+            413
+          ],
+          "normalizedContactPoints": [
+            [
+              483.822265625,
+              761.6328125
+            ],
+            [
+              539.193359375,
+              773.9375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.4921875,
+            -0.21484375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-03.png",
+            "sha256": "74d14c041e4b910ad56e069c7b9433dc2b2eb99cdf4faf78b3a28424e21a56e6",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1001049,
+            "alphaOne": 2923,
+            "alphaSemi": 47158,
+            "alphaOpaque": 369,
+            "alphaNonzero": 47527,
+            "alpha0BBox": [
+              319,
+              426,
+              651,
+              796
+            ],
+            "alpha16BBox": [
+              360,
+              495,
+              621,
+              775
+            ],
+            "alpha16Height": 280,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-03.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+            "sha256": "95b144c740f5e4408e33b0262b18ecd16b9001c42cce816accdbe126bc317311",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 140679,
+            "alphaOne": 260,
+            "alphaSemi": 6488,
+            "alphaOpaque": 289,
+            "alphaNonzero": 6777,
+            "alpha0BBox": [
+              123,
+              181,
+              243,
+              298
+            ],
+            "alpha16BBox": [
+              135,
+              185,
+              233,
+              291
+            ],
+            "alpha16Height": 106,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-03.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.1845703125,
+            -0.08056640625
+          ]
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            560,
+            512,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            464
+          ],
+          "groundRootInteger": [
+            307,
+            398
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                230,
+                355,
+                300,
+                399
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                268.5,
+                396
+              ],
+              "supportBandX": [
+                248,
+                289
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                310,
+                360,
+                379,
+                403
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                345.5,
+                400
+              ],
+              "supportBandX": [
+                322,
+                369
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 180,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "b7f817c01abb1a45316ffe7a183dfbbe4650ff037c159bc9bea5130020e403ca",
+          "nativeTranslation": [
+            205,
+            370
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-04.png",
+            "sha256": "4ef760f46beb46b01d4f4dfa6001706efc7c7a5a4e10546051b90324007066d9",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 951197,
+            "alphaOne": 10705,
+            "alphaSemi": 97379,
+            "alphaOpaque": 0,
+            "alphaNonzero": 97379,
+            "alpha0BBox": [
+              205,
+              371,
+              717,
+              818
+            ],
+            "alpha16BBox": [
+              289,
+              415,
+              683,
+              783
+            ],
+            "alpha16Height": 368,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-04.png.derivation.json"
+          },
+          "actionUniformScale": 0.68359375,
+          "resizedSourceSize": [
+            350,
+            317
+          ],
+          "normalizedTranslation": [
+            302,
+            496
+          ],
+          "normalizedContactPoints": [
+            [
+              485.544921875,
+              766.703125
+            ],
+            [
+              538.181640625,
+              769.4375
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.13671875,
+            0.0703125
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-04.png",
+            "sha256": "2b2349bf045a516249338eb24a7edc24083b32c9666af51afa52e20193262e41",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1003386,
+            "alphaOne": 4787,
+            "alphaSemi": 44834,
+            "alphaOpaque": 356,
+            "alphaNonzero": 45190,
+            "alpha0BBox": [
+              302,
+              497,
+              652,
+              802
+            ],
+            "alpha16BBox": [
+              359,
+              526,
+              629,
+              778
+            ],
+            "alpha16Height": 252,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-04.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+            "sha256": "37af1095d0288ef26c2a10d6e11d9a6468df879605098a28d0d95cf9936dcdeb",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 141103,
+            "alphaOne": 430,
+            "alphaSemi": 6074,
+            "alphaOpaque": 279,
+            "alphaNonzero": 6353,
+            "alpha0BBox": [
+              120,
+              186,
+              241,
+              294
+            ],
+            "alpha16BBox": [
+              134,
+              197,
+              236,
+              292
+            ],
+            "alpha16Height": 95,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-04.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.05126953125,
+            0.0263671875
+          ]
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            512,
+            560,
+            1024,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            464
+          ],
+          "groundRootInteger": [
+            281,
+            398
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                212,
+                355,
+                283,
+                401
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                246.0,
+                399
+              ],
+              "supportBandX": [
+                225,
+                267
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                283,
+                358,
+                350,
+                404
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                316.0,
+                398
+              ],
+              "supportBandX": [
+                291,
+                341
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 220,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "0e0955b254520e447b7bafd282a59e189aa505ba51ed5e01397e7acc794046e5",
+          "nativeTranslation": [
+            231,
+            370
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-05.png",
+            "sha256": "6c277937e6fd41541a8524cfd999525a242f4b7c4ec2c1683557ec9b60400ace",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 951679,
+            "alphaOne": 10530,
+            "alphaSemi": 96897,
+            "alphaOpaque": 0,
+            "alphaNonzero": 96897,
+            "alpha0BBox": [
+              232,
+              370,
+              743,
+              834
+            ],
+            "alpha16BBox": [
+              303,
+              409,
+              682,
+              784
+            ],
+            "alpha16Height": 375,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-05.png.derivation.json"
+          },
+          "actionUniformScale": 0.68359375,
+          "resizedSourceSize": [
+            350,
+            317
+          ],
+          "normalizedTranslation": [
+            320,
+            496
+          ],
+          "normalizedContactPoints": [
+            [
+              488.1640625,
+              768.75390625
+            ],
+            [
+              536.015625,
+              768.0703125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            0.08984375,
+            0.412109375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-05.png",
+            "sha256": "f87f58389964afe7d1ff003ec28d4dcbd0d754f414b4806cdf6b77bd39151dc8",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1003544,
+            "alphaOne": 4775,
+            "alphaSemi": 44710,
+            "alphaOpaque": 322,
+            "alphaNonzero": 45032,
+            "alpha0BBox": [
+              321,
+              496,
+              670,
+              813
+            ],
+            "alpha16BBox": [
+              369,
+              523,
+              628,
+              779
+            ],
+            "alpha16Height": 256,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-05.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+            "sha256": "9773e4f07143fd7f0fb0510aa1cef043c97120b8492ad1817fcfefcec0022a5c",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 141115,
+            "alphaOne": 463,
+            "alphaSemi": 6083,
+            "alphaOpaque": 258,
+            "alphaNonzero": 6341,
+            "alpha0BBox": [
+              132,
+              186,
+              250,
+              299
+            ],
+            "alpha16BBox": [
+              138,
+              196,
+              236,
+              292
+            ],
+            "alpha16Height": 96,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-05.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            0.03369140625,
+            0.154541015625
+          ]
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            560,
+            1536,
+            1024
+          ],
+          "sourceCellSize": [
+            512,
+            464
+          ],
+          "groundRootInteger": [
+            276,
+            398
+          ],
+          "contactMeasurements": [
+            {
+              "roi": [
+                207,
+                355,
+                280,
+                401
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                241.0,
+                399
+              ],
+              "supportBandX": [
+                219,
+                263
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            },
+            {
+              "roi": [
+                285,
+                355,
+                350,
+                401
+              ],
+              "method": "alpha>16 inside visually chosen boot/knee ROI; bottom 5-pixel support-band horizontal midpoint; alpha used only for measurement, not modified",
+              "contactPoint": [
+                310.0,
+                398
+              ],
+              "supportBandX": [
+                286,
+                334
+              ],
+              "alphaThresholdDiagnosticOnly": 16
+            }
+          ],
+          "durationMs": 600,
+          "sourceCellEdgeAlphaMax": 1,
+          "sourceCellEdgeAlphaAbove16Count": 0,
+          "sourceCropRgbaSha256": "0e5c0f878d9d1218fe5d6067ff7352a04cfa99a1ccac37d7b5704de490210957",
+          "nativeTranslation": [
+            236,
+            370
+          ],
+          "nativeFullSourceRectanglePreserved": true,
+          "nativeExactRgbaMatch": true,
+          "native": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-06.png",
+            "sha256": "ae9ac8efdea2c8c99a251fd9828973d65fabf9de353a270f8ae1546ac15eb522",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 952880,
+            "alphaOne": 8270,
+            "alphaSemi": 95696,
+            "alphaOpaque": 0,
+            "alphaNonzero": 95696,
+            "alpha0BBox": [
+              236,
+              370,
+              722,
+              814
+            ],
+            "alpha16BBox": [
+              308,
+              410,
+              700,
+              784
+            ],
+            "alpha16Height": 374,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/native1024/defeat-06.png.derivation.json"
+          },
+          "actionUniformScale": 0.68359375,
+          "resizedSourceSize": [
+            350,
+            317
+          ],
+          "normalizedTranslation": [
+            323,
+            496
+          ],
+          "normalizedContactPoints": [
+            [
+              487.74609375,
+              768.75390625
+            ],
+            [
+              534.9140625,
+              768.0703125
+            ]
+          ],
+          "normalizedContactMidpointResidualFromRoot": [
+            -0.669921875,
+            0.412109375
+          ],
+          "normalizedFullResizedRectanglePreserved": true,
+          "normalized": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-06.png",
+            "sha256": "eaee58510c26e30c4ccfece1df76606d3ed079591b34ae9eb4ea158b2bd6d23e",
+            "size": [
+              1024,
+              1024
+            ],
+            "alphaZero": 1004156,
+            "alphaOne": 3666,
+            "alphaSemi": 44075,
+            "alphaOpaque": 345,
+            "alphaNonzero": 44420,
+            "alpha0BBox": [
+              323,
+              496,
+              655,
+              798
+            ],
+            "alpha16BBox": [
+              372,
+              523,
+              640,
+              779
+            ],
+            "alpha16Height": 256,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/normalized1024/defeat-06.png.derivation.json"
+          },
+          "map128h": {
+            "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+            "sha256": "77e624d367e97f0c95a2971e295d396d0325d7c764ce23b8f20c7740c3d15131",
+            "size": [
+              384,
+              384
+            ],
+            "alphaZero": 141204,
+            "alphaOne": 287,
+            "alphaSemi": 5990,
+            "alphaOpaque": 262,
+            "alphaNonzero": 6252,
+            "alpha0BBox": [
+              121,
+              186,
+              243,
+              295
+            ],
+            "alpha16BBox": [
+              139,
+              196,
+              240,
+              292
+            ],
+            "alpha16Height": 96,
+            "derivationRecord": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-06.png.derivation.json"
+          },
+          "mapContactMidpointResidualFromRoot": [
+            -0.251220703125,
+            0.154541015625
+          ]
+        }
+      ],
+      "technicalChecks": {
+        "nativeExactRgbaAllFrames": true,
+        "allSourceRectanglesFit": true,
+        "allNormalizedRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maximumRootMidpointErrorPx": 0.669921875
+      },
+      "visualStatus": "static light/dark and source contacts actually reviewed; technical candidate",
+      "visualFinding": "Progressive lowering from standing to one knee and then two-knee slump. Frames5/6 are a settling hold with small differences, not a fully prone death."
+    }
+  ],
+  "notProven": [
+    "user visual acceptance",
+    "motion smoothness and timing",
+    "individual foot immobility (stance width and contact-line slope can change)",
+    "consistent generated proportions beyond measured helmet width",
+    "Unity playback/import",
+    "single standing height exactly 128px (wood master measured 118px)",
+    "uniform-grid auto-slicing of native source sheets",
+    "all eight facing directions or locomotion actions"
+  ],
+  "counts": {
+    "generatedNativeSheetsInThisStep": 0,
+    "sourceSheets": 4,
+    "animationFrames": 20,
+    "native1024Png": 20,
+    "normalized1024Png": 20,
+    "map128hPng": 20,
+    "exportPngTotal": 60
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "qaRecord": "records/troop-frames-20261029-r3-wood/visual-review.json"
+}

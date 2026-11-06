@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/fire/frame-03.png",
+  "sha256": "c5491e95cb3970c1312ede35090dd8ab90e62cd096e31150d003cef67e687138",
+  "createdAtUtc": "2026-10-27T17:27:21.498776+00:00",
+  "width": 1024,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "operation": "native_full_cell_crop_then_integer_translation_on_shared_transparent_canvas",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png",
+      "sha256": "0d3b4cd50fdfb4a66d78f4d23613364e6c58c323ff145126d454c1bf65a57833",
+      "generationRecord": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png.generation.json"
+    }
+  ],
+  "sourceNativeDimensions": [
+    1774,
+    887
+  ],
+  "cropBox": [
+    1331,
+    0,
+    1774,
+    444
+  ],
+  "cropBoxConvention": "left,top,right,bottom exclusive",
+  "cropSize": [
+    443,
+    444
+  ],
+  "offset": [
+    290,
+    138
+  ],
+  "offsetConvention": "top-left paste coordinate of the full crop onto fixed output canvas, no mask",
+  "sourceAnchorPx": [
+    1553,
+    374
+  ],
+  "sourceAnchorMethod": "manual visible effect-origin annotation rounded to native integer; approximate2px visual precision",
+  "anchor_px": [
+    512,
+    512
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "scale": 1.0,
+  "resampled": false,
+  "alphaEdited": false,
+  "rekeyed": false,
+  "repainted": false,
+  "sourceCropPixelsPreserved": true,
+  "gridRounding": "half-up4x2; native443/444px cell difference retained with transparent padding, no resample",
+  "frameIndex": 3,
+  "phase": "near_peak",
+  "durationSeconds": 0.1,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 998404,
+    "alpha1Pixels": 6715,
+    "bboxAbove16": [
+      407,
+      275,
+      619,
+      529
+    ],
+    "edgeMaxAlpha": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "status": "one_shot_frame_candidate_pending_user_and_motion_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

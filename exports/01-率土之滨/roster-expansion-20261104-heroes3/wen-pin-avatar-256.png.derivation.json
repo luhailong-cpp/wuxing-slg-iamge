@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/wen-pin-avatar-256.png",
+  "sha256": "2b0ea01af3f2e19f192e2b6ccdb453f20f9b3f745e00dde0e2b95f4b5110e3f2",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/wen-pin-master-v1.png",
+    "sha256": "d18effc48483ceaa2bd968a5b6ab4240463df713ba16cfcc70a76012e54a87ef",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/wen-pin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      294,
+      344,
+      690,
+      745
+    ],
+    "uniformScale": 0.5885286783042394,
+    "resizedSize": [
+      233,
+      236
+    ],
+    "offset": [
+      11,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

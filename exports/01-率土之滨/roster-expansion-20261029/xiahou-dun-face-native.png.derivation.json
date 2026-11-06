@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/xiahou-dun-face-native.png",
+  "sha256": "e8345b72ac5dc0c755b1323fc00b76893f496fd126548d5bedf539059e11d45f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/xiahou-dun-master-v1.png",
+    "sha256": "1f8df6c2ea7de611da38169a28447bcd97e04ae31b021051a713c17b86954c48",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/xiahou-dun-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      130,
+      875,
+      735
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

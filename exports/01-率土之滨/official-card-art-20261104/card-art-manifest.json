@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "scope": "Original character artwork indexed by archived official card ID",
+  "status": "visually_reviewed_card_art_candidates",
+  "reviewedOn": "2026-11-06",
+  "userFinalAccepted": false,
+  "clientIntegrated": false,
+  "reviewNotes": [
+    "Both card images were compared with their identity masters over light and dark backgrounds.",
+    "Cao Ren SP retains the blue plume, beard and rampart shield; raised shield, spread stance and open palm distinguish it from the base image.",
+    "Cheng Yu XP retains the hat, beard and robe; open bamboo slips and pointing hand distinguish it from the base image.",
+    "Native side margins are narrow (8–9 px on Cao Ren and 15–29 px on Cheng Yu at alpha above 16) and retain faint alpha. Exported figures show complete silhouettes and at least 32 px of transparent padding on every edge."
+  ],
+  "cards": [
+    {
+      "cardid": 100585,
+      "officialName": "曹仁",
+      "variantRaw": {
+        "seasonRaw": "SP",
+        "isSpCardRaw": 1,
+        "isSeasonCardRaw": 0,
+        "baseHeroIdRaw": 100085,
+        "iconHeroIdRaw": 100585
+      },
+      "candidatePersonID": "ww-p-1ad715230157",
+      "identityMaster": {
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png",
+        "sha256": "64086ed938a783c934552b9c94a1246a333b1599495c24ef47736b1c4ac09b33"
+      },
+      "nativeMaster": {
+        "file": "designs/01-率土之滨/characters/official-card-art-20261104/card-100585-master-v1.png",
+        "sha256": "f54685fc07820c04dbcd2d940d40af4fe087492a51d19aaab571bcc12cfeaa0f",
+        "generation": {
+          "file": "designs/01-率土之滨/characters/official-card-art-20261104/card-100585-master-v1.png.generation.json",
+          "sha256": "b5131e94182c7f255d87db85ee133a1afcb4fa2ff1c8c2d8e8c76fd69e36c4ce"
+        }
+      },
+      "nativeAlpha": {
+        "range": [
+          0,
+          254
+        ],
+        "onePixelCount": 12726,
+        "visibleBBoxAbove16": [
+          9,
+          144,
+          1016,
+          1433
+        ],
+        "visibleMarginsLTRB": [
+          9,
+          144,
+          8,
+          103
+        ]
+      },
+      "artwork": {
+        "file": "exports/01-率土之滨/official-card-art-20261104/card-100585-artwork.png",
+        "sha256": "002496b13023eb192d3c26c85fedf0bdfe38dd497650cffc38471a538896167b",
+        "record": {
+          "file": "exports/01-率土之滨/official-card-art-20261104/card-100585-artwork.png.derivation.json",
+          "sha256": "9ef84d545a22a5bc1859c3d23f23ae0a55beed281e887b215e2b7c07da010e7e"
+        },
+        "size": [
+          768,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaBBox": [
+          32,
+          57,
+          736,
+          959
+        ]
+      }
+    },
+    {
+      "cardid": 100787,
+      "officialName": "程昱",
+      "variantRaw": {
+        "seasonRaw": "XP",
+        "isSpCardRaw": 0,
+        "isSeasonCardRaw": 0,
+        "baseHeroIdRaw": 0,
+        "iconHeroIdRaw": 100787
+      },
+      "candidatePersonID": "ww-p-07563508cc4b",
+      "identityMaster": {
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+        "sha256": "c06ad04904a6bee8f45d1a02832202470c33af0d7c62a8b7f0397c391baaa510"
+      },
+      "nativeMaster": {
+        "file": "designs/01-率土之滨/characters/official-card-art-20261104/card-100787-master-v1.png",
+        "sha256": "918d6295108915606db78e4462ee98a4574829a36a4a24bd0f220dcda7da745a",
+        "generation": {
+          "file": "designs/01-率土之滨/characters/official-card-art-20261104/card-100787-master-v1.png.generation.json",
+          "sha256": "6b7d88e4b1be26af2798647062f037f2693e1987fa72cb527ee77addceab760c"
+        }
+      },
+      "nativeAlpha": {
+        "range": [
+          0,
+          254
+        ],
+        "onePixelCount": 30281,
+        "visibleBBoxAbove16": [
+          15,
+          87,
+          995,
+          1480
+        ],
+        "visibleMarginsLTRB": [
+          15,
+          87,
+          29,
+          56
+        ]
+      },
+      "artwork": {
+        "file": "exports/01-率土之滨/official-card-art-20261104/card-100787-artwork.png",
+        "sha256": "aacd01d0f83177fed663daf4504cf1ce91dc897ec4660a4f1f004615ac843ef7",
+        "record": {
+          "file": "exports/01-率土之滨/official-card-art-20261104/card-100787-artwork.png.derivation.json",
+          "sha256": "dbe8229a660fb6c101fac94944fe3bcb4a59c1187495543eb2fbc0748c6f235c"
+        },
+        "size": [
+          768,
+          1024
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaBBox": [
+          44,
+          32,
+          723,
+          992
+        ]
+      }
+    }
+  ],
+  "reviewViews": [
+    {
+      "file": "records/official-card-art-20261104/card-variants-light.png",
+      "sha256": "2504086af4157b3dff51a016506b24c76cbfd7ad30f88e326ccc23f1958a51c3",
+      "sources": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-card-full.png",
+          "sha256": "0dfad5c23420df46fd8e3ba320b7dcd2a4706499ec95f8faf71a8d64cd59fe1a"
+        },
+        {
+          "file": "exports/01-率土之滨/official-card-art-20261104/card-100585-artwork.png",
+          "sha256": "002496b13023eb192d3c26c85fedf0bdfe38dd497650cffc38471a538896167b"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-card-full.png",
+          "sha256": "686e394513e9734113a33414e297a86f0c85ec7c9e32ca3d3655c9e5ef6d2afd"
+        },
+        {
+          "file": "exports/01-率土之滨/official-card-art-20261104/card-100787-artwork.png",
+          "sha256": "aacd01d0f83177fed663daf4504cf1ce91dc897ec4660a4f1f004615ac843ef7"
+        }
+      ],
+      "operation": "Composited base and variant artwork at uniform preview scale on solid background"
+    },
+    {
+      "file": "records/official-card-art-20261104/card-variants-dark.png",
+      "sha256": "ab964202d483ec254e687aedbf3259910d110f03d361f5115da13caca956f75b",
+      "sources": [
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-card-full.png",
+          "sha256": "0dfad5c23420df46fd8e3ba320b7dcd2a4706499ec95f8faf71a8d64cd59fe1a"
+        },
+        {
+          "file": "exports/01-率土之滨/official-card-art-20261104/card-100585-artwork.png",
+          "sha256": "002496b13023eb192d3c26c85fedf0bdfe38dd497650cffc38471a538896167b"
+        },
+        {
+          "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-card-full.png",
+          "sha256": "686e394513e9734113a33414e297a86f0c85ec7c9e32ca3d3655c9e5ef6d2afd"
+        },
+        {
+          "file": "exports/01-率土之滨/official-card-art-20261104/card-100787-artwork.png",
+          "sha256": "aacd01d0f83177fed663daf4504cf1ce91dc897ec4660a4f1f004615ac843ef7"
+        }
+      ],
+      "operation": "Composited base and variant artwork at uniform preview scale on solid background"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/zhang-zhao-bust-native.png",
+  "sha256": "9538cac8bb2170b8903bbd5a02d3a9703ac4a83c9515194c3d32ef4e877d75e4",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhang-zhao-master-v1.png",
+    "sha256": "3da75066597b773828955404328fecdeb99f90472541ec9a914d96ed516d416d",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhang-zhao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

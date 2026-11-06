@@ -1,0 +1,55 @@
+{
+  "testedAt": "2026-10-28T08:29:45.135Z",
+  "browser": "actual installedChrome viaPlaywright",
+  "checks": [
+    {
+      "id": "west",
+      "point": [
+        244,
+        422
+      ],
+      "passed": true
+    },
+    {
+      "id": "middle",
+      "point": [
+        500,
+        447
+      ],
+      "passed": true
+    },
+    {
+      "id": "east",
+      "point": [
+        760,
+        670
+      ],
+      "passed": true
+    },
+    {
+      "id": "front_toggle",
+      "beforeRgbSum": 607924364,
+      "afterRgbSum": 617485570,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      960,
+      600
+    ]
+  ],
+  "horizontalOverflowAt960": false,
+  "staticOnly": true,
+  "animationVerified": false,
+  "clientIntegrated": false,
+  "failedAttempt": {
+    "issue": "malformed option opening tags",
+    "repaired": "replaced closing-tag-with-attribute with valid option open; actual marker/metal selection rechecked"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "checkedAtUtc": "2026-11-04T16:25:50.006193+00:00",
+  "source": "designs/01-率土之滨/maps/world-terrain-20261104-kit/water-v1.png",
+  "sourceSha256": "8fe5738235250cb66dabf0b4b52b73b6cd63e9c9601864b8a2ad92dc14e4f8fc",
+  "generation": "designs/01-率土之滨/maps/world-terrain-20261104-kit/water-v1.png.generation.json",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "checks": {
+    "square": true,
+    "opaque": true,
+    "seamRatioPassed": false
+  },
+  "horizontalRatio": 3.933807871581859,
+  "verticalRatio": 1.744079565693738,
+  "threshold": 2.0,
+  "visualReviewPassed": false,
+  "warnings": [
+    {
+      "id": "NATIVE_SIZE_DIFFERS_FROM_PROMPT",
+      "value": [
+        1254,
+        1254
+      ],
+      "threshold": [
+        1024,
+        1024
+      ],
+      "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/water-v1.png"
+    },
+    {
+      "id": "REPEAT_EDGE_DISCONTINUITY",
+      "value": [
+        3.933807871581859,
+        1.744079565693738
+      ],
+      "threshold": 2.0,
+      "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/water-v1.png"
+    }
+  ],
+  "qa": [
+    {
+      "file": "records/world-terrain-20261104-kit/water-v1-repeat-3x3.png",
+      "sha256": "53916661c95df00fa44b5862ebaeecdb289d67acd419461e2ee24e5e962ee5a5",
+      "operation": "3x3 repeat then downscale for QA"
+    },
+    {
+      "file": "records/world-terrain-20261104-kit/water-v1-junction-native.png",
+      "sha256": "f29d82e8edd79e591b07bc254932b315245b49d513d7cb3a9368a9c6cab6f884",
+      "operation": "exact native RGB repeat junction crop"
+    }
+  ],
+  "visualNotes": "Visible vertical repeat seam in native junction."
+}

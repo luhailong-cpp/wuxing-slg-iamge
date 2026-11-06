@@ -1,0 +1,30 @@
+{
+  "tool": "image_gen.imagegen",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "userOverride": "Direct generated character animation sheets; no image-to-video route. Built-in image_gen explicitly required.",
+  "officialVerificationReused": "Parent actually verified release/model/guide on 2026-10-28; target unchanged. Actual model/quality not disclosed by host.",
+  "submittedParameters": {
+    "prompt": "Create a real transparent-background animation sprite sheet for the SAME ordinary WOOD TROOP in reference image 3. References 1 and 2 are STYLE ONLY: Taoist chibi high-definition hand-painted jade/ivory/warm gold rendering. Do NOT draw any UI, Chinese text, panels, scenery or other characters. Reference 3 is the sole character identity and equipment master. Copy his brown eyes, dark short hair, green bamboo-panel helmet with warm-gold ribs and leaf jade crest, pale green tassel, layered leaf shoulder armor, ivory tunic and trousers, green bindings, brown boots. He is an ordinary soldier, not a historical general, not an elemental hero. Exactly ONE short cylindrical bamboo/wood club in anatomical RIGHT hand (SCREEN-LEFT at rest); exactly ONE round woven wooden shield with leaf boss in anatomical LEFT hand (SCREEN-RIGHT). Never swap, mirror, duplicate, replace or lose gear. No sword, metal armour, bow, horse or magic wand. Preserve the master's three-quarter southeast-facing camera and proportions in every frame.\nReference 4 is an actual derived layout of this same wood master, for COMPOSITION/SCALE only. Follow its sparse figure sizes and large transparent gutters, not its identical poses. Keep the same helmet dimensions across every cell. Do not zoom or fill cells. Each conceptual cell is 512 square, full figure about 320 pixels tall including plume and boots, with at least 55 pixels transparent room above and about 100 below. All bodies and held gear fully inside their cells. Feet/root stay approximately at x256,y390 within each cell unless bending at knees naturally lowers torso. Head size is fixed even when crouching. No shadow, floor, colored backdrop, checkerboard, grids, labels, text, watermarks or FX. Real alpha transparency is required. Empty space should dominate the canvas. Crisp clean silhouette, detailed hand-painted forms, no plastic glare.\n\nLayout: exactly 2 columns and 2 rows, 4 poses, row-major reading order left to right then next row. Requested canvas 1024x1024.\nAction phases: FOUR frames: (1) neutral alert guard; (2) torso recoils backward with knees flexed and brow pinched, left shield lifts slightly, right hand keeps the club; (3) recoil settles to a compact defensive crouch, eyes narrowed; (4) recover toward neutral guard. Feet stay grounded, no jump or airborne body. Clearly different poses, SAME equipment in SAME hands.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3-wood/wood-layout-2x2-reference.png"
+    ],
+    "transparent_background": true
+  },
+  "promptFile": "prompts/01-率土之滨/troop-frames-20261029-r3-wood/wood-hurt-se-v1.prompt.txt"
+}

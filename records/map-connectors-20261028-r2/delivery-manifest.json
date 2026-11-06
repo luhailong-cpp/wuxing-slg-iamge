@@ -1,0 +1,241 @@
+{
+  "schema": "wuxing.map-connectors-r2-delivery.v1",
+  "batch": "map-connectors-20261028-r2",
+  "game": "五行问鼎",
+  "createdAt": "2026-10-29T03:52:54.727Z",
+  "nativeGenerationCalls": 4,
+  "nativeImages": 4,
+  "remoteTool": "image_gen.imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "configTarget": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "scope": "bridgehead ground, stone approach road decal, riverbank extension; max3 native images",
+  "heavyLocalPause": true,
+  "unityRun": false,
+  "ffmpegRun": false,
+  "browserRun": false,
+  "gitChanged": false,
+  "globalIndexChanged": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "navigationTested": false,
+  "seamlessTilesPassed": false,
+  "assets": [
+    {
+      "native": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "export": "exports/01-率土之滨/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5",
+      "width": 1448,
+      "height": 1086,
+      "generation": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png.generation.json",
+      "request": "records/map-connectors-20261028-r2/01-crossing-underlay-v1.request.json",
+      "receipt": "records/map-connectors-20261028-r2/01-crossing-underlay-v1.receipt.json",
+      "qa": "records/map-connectors-20261028-r2/01-crossing-underlay-v1.qa.json",
+      "status": "STATIC_ASSEMBLY_CANDIDATE",
+      "usableAs": "固定位置桥头场景底板候选",
+      "currentSelectionRole": "source/reference candidate, superseded for this continuous crossing by04"
+    },
+    {
+      "native": "designs/01-率土之滨/assets/map-connectors-20261028-r2/02-stone-road-decal-v1.png",
+      "export": "exports/01-率土之滨/map-connectors-20261028-r2/02-stone-road-decal-v1.png",
+      "sha256": "d9033b94f2bc01a30c978fb3e9ec054971fbb317ff3a1e4df69998e230aee438",
+      "width": 1536,
+      "height": 1024,
+      "generation": "designs/01-率土之滨/assets/map-connectors-20261028-r2/02-stone-road-decal-v1.png.generation.json",
+      "request": "records/map-connectors-20261028-r2/02-stone-road-decal-v1.request.json",
+      "receipt": "records/map-connectors-20261028-r2/02-stone-road-decal-v1.receipt.json",
+      "qa": "records/map-connectors-20261028-r2/02-stone-road-decal-v1.qa.json",
+      "status": "DECAL_CANDIDATE_WITH_VISIBLE_JOINT",
+      "usableAs": "单独道路贴片和人工装配候选",
+      "currentSelectionRole": "independent road decal candidate; new plate connection not retested"
+    },
+    {
+      "native": "designs/01-率土之滨/assets/map-connectors-20261028-r2/03-riverbank-extension-v1.png",
+      "export": "exports/01-率土之滨/map-connectors-20261028-r2/03-riverbank-extension-v1.png",
+      "sha256": "e45832db8e3c8a993ca71f2502e78a235e4c62dfd57afbae176e525feac1ba1e",
+      "width": 1586,
+      "height": 992,
+      "generation": "designs/01-率土之滨/assets/map-connectors-20261028-r2/03-riverbank-extension-v1.png.generation.json",
+      "request": "records/map-connectors-20261028-r2/03-riverbank-extension-v1.request.json",
+      "receipt": "records/map-connectors-20261028-r2/03-riverbank-extension-v1.receipt.json",
+      "qa": "records/map-connectors-20261028-r2/03-riverbank-extension-v1.qa.json",
+      "status": "FAIL_CROSSING_SEAM_KEEP_STANDALONE_CANDIDATE",
+      "usableAs": "独立直河段候选；不得采用为已通过的桥头无缝连接",
+      "currentSelectionRole": "source/reference candidate, superseded for this continuous crossing by04"
+    },
+    {
+      "native": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+      "export": "exports/01-率土之滨/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+      "sha256": "a2346e1f3904b60dd60aec1ad4332c3a5b9707b99ae078e3e316fbfdd959e2da",
+      "width": 1665,
+      "height": 944,
+      "generation": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png.generation.json",
+      "request": "records/map-connectors-20261028-r2/04-continuous-crossing-river-v1.request.json",
+      "receipt": "records/map-connectors-20261028-r2/04-continuous-crossing-river-v1.receipt.json",
+      "qa": "records/map-connectors-20261028-r2/04-continuous-crossing-river-v1.qa.json",
+      "status": "VISUALLY_USABLE_CONTINUOUS_SCENE_PLATE",
+      "usableAs": "current selected continuous crossing+NE river plate; separate bridge retained"
+    }
+  ],
+  "connectionContract": "ports-provisional.json",
+  "visualEvidence": [
+    {
+      "file": "records/map-connectors-20261028-r2/01-crossing-underlay-v1-qa-dark.png",
+      "sha256": "96eb5e1fa7a7ecb0098d880331475b9b18a351bf9af59cc66e355bd25eddd3d2"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/01-crossing-underlay-v1-qa-light.png",
+      "sha256": "d4c9a940801e938426fee89073356cd90aa39571c0e4ba575552eefd949ebb7a"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/03-riverbank-extension-v1-qa-dark.png",
+      "sha256": "232e869e379e703d955eed309a5c2148d5097ec0b4cd58f1c28cd728083eb181"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/03-riverbank-extension-v1-qa-light.png",
+      "sha256": "51fca2b24f9e985c86400e1e236bed453a5e40908d3f377cc0c5bef55d6eafb3"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-crossing-port-map.png",
+      "sha256": "3286c31c0d8b7770282dbd73345b8022a29447b9a416dc82265c5d0c9edc3182"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-offset-down-50.png",
+      "sha256": "3a3e86e6bc160e4eb2d98845ae11faef210f68d89733705b4cb5e32f117b87d4"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-planned.png",
+      "sha256": "d67504b2873cca3ad59d75df059d2bb2b81d5347d2139b3a9d0174d5baebaa83"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-river-to-crossing-close.png",
+      "sha256": "6487d476221df859ef32f55cd3a42f224714c3ee6f728cfe417b8f2de50907e9"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-road-to-crossing-close.png",
+      "sha256": "bbcbefa259ed3da6076e789763dddc5a37aa41edfb68b5ff6e69dad107d9be1f"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-road-v1-dark.png",
+      "sha256": "f5d3748326093289e5bb25e64112550e31e64c34f083a56a6abb15c368f54271"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-road-v1-light.png",
+      "sha256": "a43e316bca547a7d10997718ce413e9560ba176788edee8c9896df331f3f3956"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-three-assets-assembly.png",
+      "sha256": "0cda782619f05c6a4a23bf6897e6c2c8c897ddf686432a74b40f502990868671"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-before-join-close-aligned.png",
+      "sha256": "caf66c73c9c5f1e992bbd22874ff877e3eea62ac3677f61786bf96b0613a6cf8"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-bridge-NW-landing-close.png",
+      "sha256": "389fb023e4da34f5567d1967c5e1540fab243573c5cc61c1c674e2da3a4d0dd3"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-bridge-SE-landing-close.png",
+      "sha256": "293a0c946e1081e18a653574180a91faf5b27aeb3f1fc57bf39d6f419fe6fe75"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-fixed-native-dark.png",
+      "sha256": "b887581c59dbc558d05c93b65bff299de00c520d4ce73e084f25d432b04531b8"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-fixed-native-light.png",
+      "sha256": "0de1229a310f8e6312e00891542544823a6b98eeb311fec058361d4b38c74b2b"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-fixed-with-bridge-dark.png",
+      "sha256": "ef5d48079e6b2a5ab62a0d101f460ff999141d17e20c2f1def0ac3ea4d6d37f7"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-fixed-with-bridge-light.png",
+      "sha256": "313c75f2fd517083e8433dd5bf4fb77000b781b22be72ce2a431f88824f3abbd"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/04-repaired-join-close.png",
+      "sha256": "baf46b530906a5f8df6d85df24a91a6cd925c220e5c39320127e74e273ac9f7a"
+    }
+  ],
+  "bridgeAssemblyCandidate": {
+    "groundNativeSize": [
+      1448,
+      1086
+    ],
+    "bridgeSourceCanvas": [
+      1000,
+      1000
+    ],
+    "bridgeDisplayCanvas": [
+      905,
+      905
+    ],
+    "uniformScale": 0.905,
+    "translationOnGround": [
+      272,
+      91
+    ],
+    "originalFailedPlan": [
+      272,
+      41
+    ],
+    "transformStatus": "manual static visual candidate; not automatic alignment",
+    "layerOrder": [
+      "ground",
+      "existing bridge-back",
+      "future actor",
+      "existing bridge-front"
+    ],
+    "actorPass": false
+  },
+  "nextRepair": "Current continuous plate fixes prior internal river seam visually; remaining engine/navigation/actor/static interface checks remain paused. Do not use old separate river join as seamless.",
+  "independentVisualReview": "records/map-connectors-20261028-r2/independent-visual-review.json",
+  "updatedAt": "2026-10-29T05:13:24.864Z",
+  "initialGenerationCalls": 3,
+  "additionalTargetedEditAuthorization": {
+    "cap": 2,
+    "used": 1,
+    "remaining": 1,
+    "stoppedAfter": 1,
+    "reason": "known internal seam repaired and independently reviewed; second edit not needed"
+  },
+  "currentSelectedPlate": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+  "currentConnectionContract": "records/map-connectors-20261028-r2/04-current-connections.json",
+  "currentBridgeAssembly": {
+    "sourceCanvas": [
+      1000,
+      1000
+    ],
+    "bothLayersDisplayCanvas": [
+      603,
+      603
+    ],
+    "translationOnNewPlate": [
+      223,
+      314
+    ],
+    "strictPixelPositionPreserved": false,
+    "mappingRecord": "records/map-connectors-20261028-r2/04-mapping-and-png-qa.json",
+    "onlyStaticVisualPassed": true
+  },
+  "correctedKnownSeam": true,
+  "currentPlateSeamlessTile": false,
+  "previousSeparateRiverSeamStillFailed": true,
+  "currentIndependentVisualReview": "records/map-connectors-20261028-r2/04-independent-visual-review.json"
+}

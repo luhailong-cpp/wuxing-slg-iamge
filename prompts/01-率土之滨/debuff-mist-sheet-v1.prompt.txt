@@ -1,0 +1,17 @@
+Use case: stylized-concept
+Asset type: 同一减益紫雾旋涡debuff-mist的8帧连续one-shot特效sprite sheet，4列×2行，真实透明PNG。
+References: Image1邮件UI与Image2组队UI仅为道家Q版细腻高清手绘画法，绝不复制人物、界面或背景。Image3是唯一特效身份：柔和紫罗兰光、深紫色S形旋涡烟雾、少量紫色小碎片/星点。全部八帧必须是这个同一紫雾一次起势、成长、峰值、消散的连续相位，不是八个不同技能。Image4仅为空间放置模板：只采用4x2格位置与中心，绝不能把白底、黑线、蓝框或虚线画进输出。
+Packing is critical: landscape2:1 canvas, ideally2048×1024, exactly4 equally spaced columns and2 equally spaced rows. Eight cells, no ninth image. 每个特效要很小地放在宽大透明格的正中央；最大峰值连最外紫色微光/碎片只占格中央45%的宽与45%的高，四周至少27%真正透明空白。不要为了展示细节把每一格填满。所有烟雾、微光、碎片严格限制在image4内蓝框内，格与格之间必须有宽阔完全透明的隔离带，无跨格泛光、无相邻格连接。
+Shared motion origin: vortex center fixed exactly at each cell's geometric center(x50%,y50%). Same billboard camera/slight overhead view, same light and same scale system. Grow and disperse around this stationary core, never pan/zoom or reposition by phase.
+Reading-order phases (left to right top row, then left to right bottom row):
+1. A tiny violet seed spark with one small dark-purple curled mist hook, clearly visible and nonempty, only about8% cell width.
+2. The same hook gently curls clockwise and two small pale-violet wisps gather, about15% width.
+3. The same mist expands into a compact S-shaped partial vortex with a central violet glow, about25% width.
+4. The same S vortex gains two continuous smoke arms, three tiny purple fragments circling locally, about35% width.
+5. Maximum phase: the same S-shaped dark-purple swirl and pale-violet smoke arms, a brighter small violet center and a few purple shard sparks, at most45% cell width/height.
+6. The same vortex breaks into thinner two curling arms, brightness decreases and fragments drift slightly outward but remain inside central40%, about32% width.
+7. Two sparse small violet wisps and two faint shards remain near the same center, about18% width.
+8. Only a tiny residual violet curl and two very faint violet points near fixed center, about8% width, visibly nonempty but clearly fading out.
+Style: high-finish hand-painted fantasy FX, soft layered smoke with rounded curling shapes, delicate light and readable silhouette, purple/lilac/deep-violet palette matched toImage3. Not photoreal smoke, no plastic3D, no harsh neon outline, no flat vector icon row, no dense noise. No skulls, faces, monsters or characters.
+Transparency: actual native transparent alpha. All space outside the eight compact effects is fully transparent. No whole-sheet haze, opaque light/dark/white background, fake checkerboard, ground, floor, stone, shadow disc or scene. No words, numbers, labels, grid lines, boxes, arrows, title, watermark or UI.
+Only8 ordered related temporal stages, all nonempty and complete within their own broad transparent cell. Timing0.8s with0.1s perframe is only a demonstration candidate, loop=false, no combat event claim.

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-face-native.png",
+  "sha256": "0a00a72441f8bbbaaeccc48699f55f7d060172d5a8c599d55a9de6792fbf6eb6",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+    "sha256": "8b5b8f8a5e1a293950f914d81d48f1f6fef1c287470916f2506c2ad2c11e6f25",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      240,
+      210,
+      800,
+      760
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

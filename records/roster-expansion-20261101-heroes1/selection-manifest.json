@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "generalCount": 8,
+  "uiDerivatives": 40,
+  "sourceManifest": "exports/01-率土之滨/roster-expansion-20261101-heroes1/generals-ui-manifest.json",
+  "sources": [
+    {
+      "id": "yuan-shu",
+      "name": "袁术",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+      "sha256": "6b1dbce34c73cfd726b1a898c080a511ece5492b1d2f56e3572ce5d3dc74c036",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png.generation.json"
+    },
+    {
+      "id": "zhang-liang",
+      "name": "张梁",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png",
+      "sha256": "8b38493997a3c1b23735e448be1ba3888145270f4bfed3d97013bf8b3589f062",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png.generation.json"
+    },
+    {
+      "id": "chen-gong",
+      "name": "陈宫",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png",
+      "sha256": "d38273cb838e57f446a2e32c5529ac01e1e53192663cf9383c6ef418c5dd953c",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png.generation.json"
+    },
+    {
+      "id": "gao-shun",
+      "name": "高顺",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png",
+      "sha256": "499cc544c1bb0010b4ae0bc970fb85f9126189dd2e41110f8c615387975fc649",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png.generation.json"
+    },
+    {
+      "id": "jia-xu",
+      "name": "贾诩",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png",
+      "sha256": "47a55610502d5c15e02450bf4451d2dbcae6dc6768c829f447844e524ef1d4ef",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png.generation.json"
+    },
+    {
+      "id": "deng-ai",
+      "name": "邓艾",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png",
+      "sha256": "20d088af568e3e19a56fa2bbfbef3742021b84cbabc599979ad1a9c2f571c1c3",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png.generation.json"
+    },
+    {
+      "id": "cai-wen-ji",
+      "name": "蔡文姬",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+      "sha256": "8fdded956c858a7d4a38ca3c56d6f00de9b4f1fea03598041b41cb9ec7e12e69",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png.generation.json"
+    },
+    {
+      "id": "zhang-chun-hua",
+      "name": "张春华",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+      "sha256": "987fd0574dafcb9313fa8efa541da89d8fcbff1b990d5bd3a2e7b38558bf0601",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png.generation.json"
+    }
+  ],
+  "visualReview": {
+    "actualNativeImagesViewed": true,
+    "lightDarkContactSheetsViewed": true,
+    "completeFigureAndPropsObserved": true,
+    "nativeSourcePixelsModified": false,
+    "portraitCorrection": "Cai Wenji face window narrowed to exclude detached pipa tuning-peg fragments",
+    "limitations": [
+      "Source padding under8percent",
+      "Alpha1 and max254 retained",
+      "Zhang Chunhua fan partly open rather than closed prompt; acceptable identity-design variation, not a required user prop"
+    ],
+    "userFinalAccepted": false
+  },
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+      "value": 15866,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+      "value": [
+        0.0712890625,
+        0.08658854166666667,
+        0.05078125,
+        0.091796875
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png",
+      "value": 21090,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png",
+      "value": [
+        0.060546875,
+        0.158203125,
+        0.041015625,
+        0.08072916666666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png",
+      "value": 13071,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png",
+      "value": [
+        0.091796875,
+        0.09309895833333333,
+        0.05859375,
+        0.068359375
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png",
+      "value": 9883,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png",
+      "value": [
+        0.103515625,
+        0.08984375,
+        0.0791015625,
+        0.07877604166666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png",
+      "value": 13637,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png",
+      "value": [
+        0.1376953125,
+        0.06901041666666667,
+        0.037109375,
+        0.068359375
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png",
+      "value": 13382,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png",
+      "value": [
+        0.0673828125,
+        0.08203125,
+        0.0322265625,
+        0.06640625
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+      "value": 18910,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+      "value": [
+        0.07421875,
+        0.10677083333333333,
+        0.0693359375,
+        0.09700520833333333
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+      "value": 23022,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+      "value": [
+        0.1943359375,
+        0.07552083333333333,
+        0.138671875,
+        0.068359375
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "fullGameArtComplete": false
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/07-tutorial-guide-v1.png",
+  "sha256": "ce9d9d34d3cfd53a6c1f81167d2e8e569cb07e4cd95734da5e502954577c57c5",
+  "generatedAt": "2026-10-26T17:03:56.444Z",
+  "generatedAtBasis": "宿主调用完成时记录的UTC时间；工具未另披露独立图像生成时间",
+  "callStartedAt": "2026-10-26T17:02:07.779Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": null,
+  "executionCellId": "15",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg"
+    ],
+    "promptFile": "prompts/01-率土之滨/07-tutorial-guide-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/07-tutorial-guide-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/07-tutorial-guide-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1772a-98d5-7941-8861-130d582ca739/exec-c66bfdf8-73ac-446a-8222-95b74c324b67.png",
+      "sha256": "ce9d9d34d3cfd53a6c1f81167d2e8e569cb07e4cd95734da5e502954577c57c5",
+      "copyHashVerified": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回字段未披露实际模型与画质；当前可读取PNG元数据未提供可核实版本字段，配置目标不能作为实际版本证据。",
+  "prompt": "prompts/01-率土之滨/07-tutorial-guide-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要画风、玉绿米白暖金、圆润道家Q版人物手绘参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要画风与差异化角色完成度参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+      "sha256": "df13d577da8963add78718d93bc5a648b5deeadab2c20a623a37976637b4b56d",
+      "role": "用户截图，仅角色身份、衣装和持物功能参考；不复制写实脸、画风、UI或场景",
+      "actuallyAttached": true
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg",
+      "sha256": "94be818db5b563991c28ebecaa68bc7c7cbcc7d5cb0156f261e35b9443e3dd37",
+      "role": "用户截图，仅角色身份、衣装和持物功能参考；不复制写实脸、画风、UI或场景",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "引导少女完整单角色静态master",
+  "alphaInspection": {
+    "mode": "native_alpha",
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 577870,
+    "semiTransparentPixelCount": 994994,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "thresholdForBounds": 32,
+    "bounds": [
+      24,
+      6,
+      996,
+      1528
+    ],
+    "marginsLTRB": [
+      24,
+      6,
+      28,
+      8
+    ]
+  },
+  "status": "legacy_direction_candidate_not_release",
+  "userApproved": false,
+  "animationGenerated": false,
+  "clientIntegrated": false,
+  "plan": "records/01-率土之滨/full-completion-characters-plan.json",
+  "themeCorrection": {
+    "receivedAt": "2026-10-27",
+    "userDirection": "金木水火土主题；率土之滨仅功能参考",
+    "disposition": "original_guide_pending_wuxing_identity_review",
+    "renameOnlyForbidden": true,
+    "releaseEligible": false
+  },
+  "visualReview": {
+    "file": "records/01-率土之滨/full-completion-characters-review.json",
+    "viewedInHost": true,
+    "observed": "已实际查看静态图；用户方向已纠正，此检查不等于形象验收。",
+    "warnings": [
+      "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+    ]
+  }
+}

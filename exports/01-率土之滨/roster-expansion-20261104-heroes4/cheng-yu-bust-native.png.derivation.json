@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-bust-native.png",
+  "sha256": "ec7234b124ee85db3d92157abc89ce93c81fb59e74e7a183f27dd1a1a7f75ae9",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+    "sha256": "c06ad04904a6bee8f45d1a02832202470c33af0d7c62a8b7f0397c391baaa510",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1050
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

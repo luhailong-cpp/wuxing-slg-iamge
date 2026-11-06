@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/jia-xu-avatar-256.png",
+  "sha256": "3e4d2ea2faa17a42a4e53015946b1aadaf7edcf61c721195809e856ebc122d94",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png",
+    "sha256": "47a55610502d5c15e02450bf4451d2dbcae6dc6768c829f447844e524ef1d4ef",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      230,
+      110,
+      880,
+      800
+    ],
+    "uniformScale": 0.34202898550724636,
+    "resizedSize": [
+      222,
+      236
+    ],
+    "offset": [
+      17,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

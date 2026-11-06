@@ -1,0 +1,591 @@
+{
+  "schemaVersion": 1,
+  "closedAt": "2026-10-27T13:10:45.297900+00:00",
+  "scope": "13位旧方向角色；共15张本批PNG（含刘备/吕布各一张修订前稿）。01原创持枪道将为此前已存在素材，不计入本批。",
+  "currentDirection": "金木水火土五行原创游戏，道家Q版高清手绘；率土之滨只参考功能。",
+  "generationStopped": true,
+  "inFlightCalls": 0,
+  "themeStatus": "historical_candidates_not_release",
+  "userApproved": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主工具无model/quality参数且未披露实际版本；配置目标GPT Image 2.5/max不作为实际已锁定证据。",
+  "images": [
+    {
+      "stem": "02-liu-bei-v2",
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "name": "刘备",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "alphaZeroPixels": 862970,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        49,
+        160,
+        40,
+        126
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "03-cao-cao-v1",
+      "file": "designs/01-率土之滨/characters/03-cao-cao-v1.png",
+      "name": "曹操",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "c0db4bf3c35683b1ada5c2b968692042a9e334381199a7a65b35d3c16cc76bf9",
+      "alphaZeroPixels": 635152,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        31,
+        18,
+        13,
+        19
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "画布角落存在alpha=1微量半透明像素；未处理。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "04-sun-quan-v1",
+      "file": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "name": "孙权",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "e1ee5843358777ce56e8a1b20b6f16424301d0a6ad0e5d2da4087efbdb62c799",
+      "alphaZeroPixels": 634169,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        1,
+        2,
+        1,
+        8
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "05-zhao-yun-v1",
+      "file": "designs/01-率土之滨/characters/05-zhao-yun-v1.png",
+      "name": "赵云",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "f98706781dab1263db6ade684fe4b0939c5f33382ccf6bbc21c67dc0947624cc",
+      "alphaZeroPixels": 722145,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        8,
+        16,
+        6,
+        29
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "06-zhuge-liang-v1",
+      "file": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png",
+      "name": "诸葛亮",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "16d4585e4b68b26687dfb5009024f59379afe78e71453cd60995b649aaa0ea03",
+      "alphaZeroPixels": 618339,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        40,
+        54,
+        19,
+        33
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "画布角落存在alpha=1微量半透明像素；未处理。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "07-tutorial-guide-v1",
+      "file": "designs/01-率土之滨/characters/07-tutorial-guide-v1.png",
+      "name": "引导少女",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "ce9d9d34d3cfd53a6c1f81167d2e8e569cb07e4cd95734da5e502954577c57c5",
+      "alphaZeroPixels": 577870,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        24,
+        6,
+        28,
+        8
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "original_guide_pending_wuxing_identity_review",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "08-guan-yu-v1",
+      "file": "designs/01-率土之滨/characters/08-guan-yu-v1.png",
+      "name": "关羽",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "dc8bce0cb65c49a604683c0eedb5b6c9e5e69af1278b5a7e040044c14ec75284",
+      "alphaZeroPixels": 821231,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        71,
+        127,
+        16,
+        113
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "画布角落存在alpha=1微量半透明像素；未处理。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "09-zhang-fei-v1",
+      "file": "designs/01-率土之滨/characters/09-zhang-fei-v1.png",
+      "name": "张飞",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "783a39018536d3780d3a5591ab4e5beb5dd0bb08cac82475cb9911c3a8b04000",
+      "alphaZeroPixels": 842595,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        60,
+        69,
+        13,
+        88
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "10-zhou-yu-v1",
+      "file": "designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "name": "周瑜",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "3ecc8fe1c952e758bf513fc8756fec0c71dc1666b430e2a8f13110a5570272ed",
+      "alphaZeroPixels": 820856,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        39,
+        121,
+        42,
+        89
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "11-lv-bu-v2",
+      "file": "designs/01-率土之滨/characters/11-lv-bu-v2.png",
+      "name": "吕布",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "a43d22e78c52b5d45f2c397dc01264a64572ba885f1210fea2cb84395bf4da30",
+      "alphaZeroPixels": 895321,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        68,
+        123,
+        18,
+        131
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "完整原tool output_hint与完成时间未跨上下文保存；缺失字段为null，使用源文件路径/哈希/文件时间补证。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": false
+    },
+    {
+      "stem": "12-diao-chan-v1",
+      "file": "designs/01-率土之滨/characters/12-diao-chan-v1.png",
+      "name": "貂蝉",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "e5b261bf63011885b8e11b6bbdac8110cc815e85f9103fc5a7f957d63ee58418",
+      "alphaZeroPixels": 732261,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "alpha32MarginsLTRB": [
+        42,
+        119,
+        18,
+        77
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "画布角落存在alpha=1微量半透明像素；未处理。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "13-hua-tuo-v1",
+      "file": "designs/01-率土之滨/characters/13-hua-tuo-v1.png",
+      "name": "华佗",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "38a949372e8a53a0a9402a8cabfa232f007fded40ec624d1157a24d7343ccbce",
+      "alphaZeroPixels": 820221,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        55,
+        148,
+        35,
+        91
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "14-huang-yue-ying-v1",
+      "file": "designs/01-率土之滨/characters/14-huang-yue-ying-v1.png",
+      "name": "黄月英",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "1ff78ef5ce8b24aed3248465b01612832f552316a5afd7e029556b575d529996",
+      "alphaZeroPixels": 863076,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        40,
+        109,
+        46,
+        78
+      ],
+      "role": "旧方向较完整候选",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "02-liu-bei-v1",
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v1.png",
+      "name": "刘备",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "3738764e74b3baecaf8530ac9107528c597e54f5afc95d8f84df0ee489177029",
+      "alphaZeroPixels": 704349,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        3,
+        71,
+        0,
+        67
+      ],
+      "role": "旧方向修订前稿",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "端点贴边旧候选，已有构图修订；保留溯源，不用于首发。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    },
+    {
+      "stem": "11-lv-bu-v1",
+      "file": "designs/01-率土之滨/characters/11-lv-bu-v1.png",
+      "name": "吕布",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "4acb16c0459e237c9a1a301688d78eb5325aaa85ecc3b7f7cae98ac1898c705c",
+      "alphaZeroPixels": 775769,
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "alpha32MarginsLTRB": [
+        36,
+        84,
+        0,
+        65
+      ],
+      "role": "旧方向修订前稿",
+      "themeDisposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+      "userApproved": false,
+      "releaseEligible": false,
+      "animationGenerated": false,
+      "warnings": [
+        "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+        "画布角落存在alpha=1微量半透明像素；未处理。",
+        "端点贴边旧候选，已有构图修订；保留溯源，不用于首发。"
+      ],
+      "filePromptRequestRefsHashVerified": true,
+      "visualInspectionPerformed": true,
+      "toolReceiptComplete": true
+    }
+  ],
+  "runtimeDiagnostics": {
+    "source": "records/01-率土之滨/full-completion-characters-doctor.json",
+    "warningsAndFailuresVerbatim": [
+      {
+        "id": "python.path",
+        "status": "WARN",
+        "detail": "other python.exe on PATH: ~/AppData/Local/Programs/Python/Python313/python.exe; ~/AppData/Local/Microsoft/WindowsApps/python.exe",
+        "remedy": "PowerShell, cmd and Git Bash may resolve different interpreters; run Forge with the one shown in python.version"
+      },
+      {
+        "id": "deps.scipy",
+        "status": "WARN",
+        "detail": "not installed; needed for faster labelling and keying (forge_core falls back to numpy)",
+        "remedy": "\"C:\\Users\\luyua\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe\" -m pip install \"scipy>=1.11\""
+      },
+      {
+        "id": "encoding.stdout",
+        "status": "WARN",
+        "detail": "stdout=gbk: non-ASCII text can be garbled in pipes",
+        "remedy": "set PYTHONUTF8=1 before running Python (PowerShell: $env:PYTHONUTF8=1; bash: export PYTHONUTF8=1)"
+      },
+      {
+        "id": "encoding.files",
+        "status": "WARN",
+        "detail": "open() and read_text() without encoding= use cp936",
+        "remedy": "pass encoding='utf-8' in your own scripts, or set PYTHONUTF8=1"
+      }
+    ],
+    "staticInspectionRoute": "专用Python+Pillow只读尺寸/alpha/hash，不程序绘图",
+    "optionalMissingCapabilitiesUsed": false
+  },
+  "notCompleted": [
+    "金木水火土原创角色名单与视觉身份设计",
+    "所有历史角色的五行原创重绘",
+    "用户形象验收",
+    "导出余边、alpha角落微量像素清理",
+    "头像与阵营图标接入",
+    "动作与动画",
+    "引擎集成与客户端验收"
+  ],
+  "evidenceGap": [
+    "11-lv-bu-v2已返回且已落盘，源文件哈希已比对；完整原始output_hint、准确完成时间未恢复，均未编造。"
+  ]
+}

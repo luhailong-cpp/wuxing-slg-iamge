@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "14",
+  "startedAt": "2026-10-26T20:20:53.008Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept / isolated game prop sheet\n为同一款道家Q版高清手绘SLG制作可裁切的独立游戏素材母表。实际附图1邮件与附图2组队负责最高优先美术风格：玉绿/青绿、象牙米白、暖金细边、柔和饱满轮廓、清楚细腻手绘明暗、适度玉石和金属材质。附图3主城只供建筑形制与比例参考，不画它的UI、文字或背景。不是整屏UI，不是海报，不画任何标签、文字、数字、图框、网格线、阴影底板、白底或棋盘格。\n所有物件都是真正透明背景RGBA。严格等分网格，逐格按下方顺序排列，每个格子只有一个完整独立物件，中心对齐，每格四周至少15%完全透明空隙；物件、屋檐、树、粒子、光晕与阴影绝不越过本格。格与格之间必须保持干净透明。统一从左上方照明，等距俯视摄像机，朝向一致。可爱、圆润、精致、干净，避免写实战争风、塑料3D、厚黑线、模糊拉伸、密集噪点和密集金饰。\n画布横向4:3，严格4列×3行，共12个独立建筑/设施。每个有很薄自然灰石接地小底面，底面之外透明，建筑之间没有道路相连，没有共享风景、没有人物。单体建筑适合在等距地图上组合摆放，统一相机与光向，屋顶饱满，短粗柱、米白墙、玉绿瓦、少量红门窗与灯笼。\n第一行从左到右：\n1 城主府：一座双层玉瓦大殿与短台阶，小太极匾，无文字。\n2 校场：一小片开放练兵场、木桩、兵器架与小遮棚，独立训练设施，不是大殿。\n3 募兵所：带告示卷轴和招募旗的低层营舍，无文字。\n4 仓库：两座圆形粮仓与木箱堆，一眼可识别为储藏。\n第二行：\n5 民居：两间白墙玉瓦小屋组成的小院，圆润生活气息。\n6 集市：三座整齐商贸摊棚和货篮，暖米色布棚。\n7 作坊：小型水车木工房与工具架，完整可辨。\n8 城墙短段：一段独立笔直的灰石城墙，垛口清楚，无城门。\n第三行：\n9 城门：单独一座灰石城门楼，开放门洞，玉瓦屋顶，米白门墙。\n10 桥：一座独立浅灰单拱石桥，桥面和两端完整，不画河水背景。\n11 敌营：木栅围住的简易帐篷营地，克制朱砂红旗帜，与我方玉绿不同，仍是同画风。\n12 残破仓库：屋顶局部坍塌的木石储藏屋和几只破箱，损毁但不血腥，不画火光或大烟，轮廓完整。\n所有物件处于各自固定网格中心，至少15%透明边距，任何屋檐、旗帜、树枝或阴影不跨格。",
+    "promptFile": "prompts/01-率土之滨/02-buildings-sheet-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/04-main-city-ui-v1.png"
+    ],
+    "transparent_background": true
+  }
+}

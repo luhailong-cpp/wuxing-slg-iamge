@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-avatar-256.png",
+  "sha256": "95f5da4c6e873574bbfecef04544d7bc5772427c4b438d7840d64325808998dc",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+    "sha256": "d1450fcd23f1f24e92661a3601c2d85d4c1111e873dc6a2d97f1666b03304f14",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      246,
+      126,
+      725,
+      737
+    ],
+    "uniformScale": 0.3862520458265139,
+    "resizedSize": [
+      185,
+      236
+    ],
+    "offset": [
+      35,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

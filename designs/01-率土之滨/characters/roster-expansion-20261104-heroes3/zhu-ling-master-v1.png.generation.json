@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/zhu-ling-master-v1.png",
+  "sha256": "c719dad277ca020a8e62dc7d9aaf7f745bb0f4a4592c5913382b4f597ea60c8a",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-04T16:42:00.002Z",
+  "clientDate": "2026-11-04",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "art_source": "host_image",
+  "resultId": "exec-2ff4d744-c127-4c92-bd89-f7e905025765",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE original full-body transparent PNG RGBA character for 五行问鼎. Historical identity 朱灵, 《三国志》卷17; do not reproduce a commercial game design. Attached images 1 and 2 are authoritative visual style reference only: rounded Daoist chibi, large head and short broad body, detailed hand-painted jade, ivory and muted warm gold textures, lively readable expression and soft clean daylight. a seasoned officer with a reddish-brown short full beard, flat bronze and jade helmet, dull pine-green and brown armor, a small command pennant on a short wooden pole held beside his left hip and a sheathed saber; calm vigilant eyes. Standing three-quarter toward screen right. Camera pulled back: the whole silhouette including all equipment is at most 78 percent of canvas height and 75 percent of width, centered on a 2:3 portrait canvas, with generous clear transparent margin on ALL sides. Keep face unoccluded and weapon well away from face. Actual transparent background with alpha, no checkerboard, vignette, cast shadow, floor, frame, text, emblems or FX. One figure, one pose.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261104-heroes3/zhu-ling-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative Taoist chibi style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative Taoist chibi style"
+    }
+  ],
+  "identity": {
+    "id": "zhu-ling",
+    "name": "朱灵",
+    "personID": "ww-p-feee693f26dd",
+    "source": "《三国志》卷17",
+    "cardIDs": [
+      100748
+    ]
+  },
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-2ff4d744-c127-4c92-bd89-f7e905025765.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理，未返回可核实型号、质量或服务端生成时间。",
+  "status": "candidate_pending_asset_checks"
+}

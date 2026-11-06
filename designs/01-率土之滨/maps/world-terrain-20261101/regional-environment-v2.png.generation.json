@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/maps/world-terrain-20261101/regional-environment-v2.png",
+  "sha256": "7b111207f62e7fd0d15469875daec5c8712335520309e410fb5f408b06301678",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-02T05:54:09.310Z",
+  "clientDate": "2026-11-02",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "resultId": "exec-221341a0-c677-44de-bd2f-4213916c3e8a",
+  "actualModel": null,
+  "actualQuality": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-01",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Edit image1, the existing regional strategic scene of 五行问鼎. Images2 and3 are the authoritative Taoist chibi HD hand-painted STYLE references only. Make ONE local correction: remove ALL tiny human, soldier, person-shaped or humanoid figures baked into the upper-right/northeast fortified training yard and anywhere else in this environment. Replace their footprints naturally with the same empty warm stone ground and subtle ordinary paving. No units should be baked into a game map; runtime troops will be added separately. Preserve the EXACT camera, landscape composition, map layout, all FIVE fortified city hubs, their gates, the FOUR existing bridges, TWO side passes, all buildings, curved river, mountains, resource farms, trees, roads, sky-free fully painted scene and warm daytime lighting. Preserve the existing green/ivory/gold hand-painted style and level of detail. Do not redesign architecture or alter positions; no new paths, bridges or landmarks. No UI, labels, figures, animals, dialogue, borders or text. Output the same landscape aspect ratio as image1, opaque environment plate. This is a LOCAL REGIONAL environment, not an entire continent and not a 750x750 grid illustration.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/maps/quarter-world-20261030/world-overview-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/01-率土之滨/world-terrain-20261101/regional-environment-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/01-率土之滨/maps/quarter-world-20261030/world-overview-v1.png",
+      "sha256": "c0534ac4a87ef7c8271a2c2e73f30fbebd8e6aa72872069d80c6ee2c49df3bb9",
+      "role": "edit target"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style"
+    }
+  ],
+  "editOf": "designs/01-率土之滨/maps/quarter-world-20261030/world-overview-v1.png",
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-221341a0-c677-44de-bd2f-4213916c3e8a.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理；工具未披露实际型号、质量和服务端时间。",
+  "status": "regional_environment_candidate"
+}

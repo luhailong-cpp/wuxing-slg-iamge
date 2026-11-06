@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+  "sha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+  "generatedAt": "2026-10-27T13:47:46.052Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T13:47:00.028Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/01-dao-infantry-master-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/01-dao-infantry-master-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/01-dao-infantry-master-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d74-9ca8-7061-8996-5aefcd03a82b/exec-a7d212ec-ce4f-4e8a-ab6b-f96c77ef53d9.png",
+      "sha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/01-dao-infantry-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixelCount": 1221778,
+    "semiTransparentPixelCount": 350492,
+    "opaquePixelCount": 246,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "SE斜俯视道家步兵静态master候选；无动画",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T13:48:34.122950+00:00"
+}

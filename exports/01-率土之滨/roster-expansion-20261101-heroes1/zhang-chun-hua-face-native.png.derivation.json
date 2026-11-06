@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/zhang-chun-hua-face-native.png",
+  "sha256": "b59830a1179ea2987b0375a7a398007701aac1992ac3e2a760e8a39367321152",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+    "sha256": "987fd0574dafcb9313fa8efa541da89d8fcbff1b990d5bd3a2e7b38558bf0601",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      280,
+      100,
+      800,
+      780
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

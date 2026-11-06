@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/zhang-chun-hua-avatar-256.png",
+  "sha256": "f69aa17a046ed10ea09940ab6aae31d6b7967560a320b357751792a9621647d8",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+    "sha256": "987fd0574dafcb9313fa8efa541da89d8fcbff1b990d5bd3a2e7b38558bf0601",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      280,
+      100,
+      800,
+      780
+    ],
+    "uniformScale": 0.34705882352941175,
+    "resizedSize": [
+      180,
+      236
+    ],
+    "offset": [
+      38,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

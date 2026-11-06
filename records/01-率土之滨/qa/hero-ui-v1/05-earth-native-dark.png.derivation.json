@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/05-earth-native-dark.png",
+  "sha256": "a86d3e84b5294915f49b8a01ace94434b8ed942d0396fb3f2b69ebc57bac4220",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 1,
+    "backgroundRGBA": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "width": 1550,
+  "height": 940,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png",
+      "sha256": "1d8b5fa18e28c0d909d77ffdd5da1a1da8f1687d05461be728e025a0159e8829",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png",
+      "sha256": "fd8c75652373e56da7f1c87171cc4073224f5ab1944b76c62b9d696d7cee7090",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-bust-native.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/emblems/fire-native.png",
+  "sha256": "64992af0b9418844b26c7b5da300e45b8fe10a17d94c1a3ed2aa36d055904ffc",
+  "derivedAtUtc": "2026-10-27T13:23:26.839518+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 415,
+  "height": 472,
+  "art_source": "existing",
+  "operation": "crop",
+  "cropBox": [
+    80,
+    528,
+    495,
+    1000
+  ],
+  "resampled": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "sha256": "2e0c66c6b26615ce080cb49ac24de33647baa8d6d3e9ee2f4c98a9037ceea029",
+      "record": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png.generation.json"
+    }
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "zeroPixels": 107177,
+    "opaquePixels": 0,
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bboxAbove16": [
+      30,
+      25,
+      381,
+      439
+    ]
+  },
+  "anchor": {
+    "type": "ui_center",
+    "pixel": [
+      207.5,
+      236.0
+    ]
+  },
+  "status": "candidate_static_icon_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "limitations": [
+    "Native alpha is preserved, including faint alpha=1 source residue.",
+    "Not a 15%-safe-frame master; manual ownership review confirms complete visible silhouette."
+  ]
+}

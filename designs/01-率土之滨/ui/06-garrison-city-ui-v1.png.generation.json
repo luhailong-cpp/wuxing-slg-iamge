@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+  "sha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+  "generatedAt": "2026-10-26T11:18:19.320Z",
+  "generatedAtBasis": "宿主调用完成时记录的UTC时间；工具未另披露图像生成时间",
+  "callStartedAt": "2026-10-26T11:12:30.043Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": "7",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png"
+    ],
+    "promptFile": "prompts/01-率土之滨/06-garrison-city-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/06-garrison-city-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/06-garrison-city-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17713-1e35-7c31-9d6b-0c9e74cc986e/exec-fffa3bfd-ec72-4444-b77d-0d180f4226ee.png",
+      "sha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "copyHashVerified": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回字段未披露实际模型和画质；当前可读取PNG元数据未提供可核实版本字段。配置目标不能作为实际版本证据。",
+  "prompt": "prompts/01-率土之滨/06-garrison-city-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "用户指定邮件UI主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "用户指定组队UI主风格参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "sha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "role": "本项目大地图的环境与HUD连续性参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png",
+      "sha256": "55b777f5b463f9f53fb72d5b9006708fa6f9870a629edc874a6fc6b28536f495",
+      "role": "旧主城仅供建筑造型与材质参考，不迁入旧项目地图合同",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "戍城军事型城池完整横屏功能方向稿",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

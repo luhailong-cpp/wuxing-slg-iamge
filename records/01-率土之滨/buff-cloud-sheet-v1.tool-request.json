@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "startedAt": "2026-10-27T16:22:06.900Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: 道家Q版SLG增益云气buff-cloud的真实八帧连续单次播放特效sprite sheet，4列×2行，原生透明PNG。\nInput images: Image1邮件UI、Image2组队UI仅作统一画风和玉绿/象牙米白/暖金细腻高清手绘依据，不复制UI、人物、背景或文字。Image3是本特效原型：暖金核心与环绕的米白/玉绿如意云气；这是八帧全程唯一特效身份依据，不是八个不同技能。\nCanvas and packing: 宽幅2:1画布，建议2048×1024，严格4个等宽列和2个等高行，正好8个等大的正方形格。阅读顺序左上到右上为前4帧，再左下到右下为后4帧。不要画任何可见格线、边框、分隔条、标签、序号、数字或文字。每格都必须有可见特效，不留空格。\nCamera and root: 同一相机，略俯视的圆润椭圆云环，同一尺度系统；每帧的能量中心固定在各格几何中心(x50%,y50%)。这是同一次增益触发由小到大再消散的相位，不是为了塞满格子把每帧分别拉伸。最大阶段连最外火花只占每格中央60%的宽和60%的高；四周至少20%透明安全余边，任何云气、光晕、火花都不越格、不贴格边、不接触邻格。\nMotion in exact reading order:\n第一格：中央一颗很小的暖金星芽与一缕小玉绿云卷，约格宽10%，可见、清晰、非空；\n第二格：同一核心变亮，一对小米白云卷围绕中心形成细小弧，约20%宽；\n第三格：同一云卷顺时针舒展成半环，玉绿和米白交替，约35%宽，中心仍固定；\n第四格：完整圆润椭圆云环初次合拢，细暖金线与四簇如意云围绕小核心，约55%宽；\n第五格：同一云环轻微顺时针旋转并达到60%宽峰值，中心发出柔和星光，四周云卷结构保持连续；\n第六格：云环亮度下降并断为几段柔和云弧，约45%宽，不能突然换形状；\n第七格：只余两三缕小玉绿/米白云丝与低亮金点，约25%宽；\n第八格：固定中心附近两三颗很小暖金残光和一小段淡云尾，约10%宽，明显弱于首帧以完成消散，但不要完全空白。\nStyle/medium: 细腻高清手绘，温润金玉感，圆润如意云和有机卷边，金色柔光有清楚可控轮廓；轻盈亲和的道家仙气，不是写实烟尘、塑料3D、矢量符号拼贴或粗噪点。每帧细节与Image3连续一致，云环主配色固定玉绿、米白、暖金。\nBackground/alpha: genuine native transparent alpha。除各格独立特效外，全图其余为真正透明，尤其格与格之间大片空白必须透明。柔光限定在每格中央60%内，外围不要跨格泛光，不画雾状全图背景、不画黑底白底棋盘格、地面、底盘、投影盘或环境。\nConstraints: 只画同一种buff-cloud的8个连续时间相位，所有八格非空；没有角色、建筑、道具、UI、文字、额外技能、地形和水印。0.8秒单次播放的美术候选，每帧0.1秒，仅视觉节奏提案，不暗示数值/战斗规则。",
+    "promptFile": "prompts/01-率土之滨/buff-cloud-sheet-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/buff-cloud.png"
+    ],
+    "transparent_background": true
+  },
+  "referenceRoles": [
+    "邮件主画风/材质",
+    "组队主画风/材质",
+    "buff-cloud静态原型，只此特效身份"
+  ]
+}

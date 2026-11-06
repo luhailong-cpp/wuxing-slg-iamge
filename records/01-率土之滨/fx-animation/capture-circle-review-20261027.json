@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "effect": "capture-circle",
+  "manifest": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+  "sourceSha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+  "frames": 8,
+  "uniqueFrameFiles": 8,
+  "canvas": [
+    900,
+    900
+  ],
+  "nativeRGBAAtPasteOffsetMatchesSourceCrop": true,
+  "allCanvasBordersGenuinelyTransparent": true,
+  "allAlphaAbove1ContentWithinCentral60Percent": true,
+  "sourceOwnershipBoundaryAlphaAbove16Counts": 0,
+  "sharedAnchorPxTopLeft": [
+    450,
+    540
+  ],
+  "sourceAnchorsManuallyMeasuredFrom": "isometric oval hole/plane center",
+  "registrationMethod": "manual plane-hole/star-core source registration; native crop then RGBA-preserving paste on transparent canvas; no per-frame bbox normalization",
+  "perFrameBboxNormalization": false,
+  "perFrameScaleChanges": false,
+  "sourceAlphaEdited": false,
+  "phaseOrderReview": "rise, peak atframe04, decline throughframe07; endpoints nonempty, eight distinct images",
+  "lightAndDarkNativeContactSheetsActuallyViewed": true,
+  "continuousPlaybackHumanApproved": false,
+  "status": "candidate_pass_for_registered_phase_preview_with_warnings",
+  "warnings": [
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 7,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 369927,
+        "detached_components": 22
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png"
+    },
+    {
+      "id": "MANUAL_SHARED_ROOT_REGISTRATION",
+      "status": "warn",
+      "value": {
+        "sourceAnchors": [
+          [
+            225,
+            331
+          ],
+          [
+            667,
+            330
+          ],
+          [
+            1104,
+            330
+          ],
+          [
+            1549,
+            332
+          ],
+          [
+            225,
+            719
+          ],
+          [
+            673,
+            720
+          ],
+          [
+            1108,
+            720
+          ],
+          [
+            1550,
+            720
+          ]
+        ],
+        "outputAnchor": [
+          450,
+          540
+        ]
+      },
+      "threshold": "single shared logical anchor; source sheet not perfectly registered",
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+      "note": "Original phases are only translated on transparent padding using measured plane/star core, no alpha-bbox normalization or per-frame scaling. Residual subpixel motion is not formally approved."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "GENERATIVE_CONTOUR_AND_TIMING_CANDIDATE",
+      "status": "warn",
+      "value": "Minor ring/cloud or spark topology differences across phases; eight phases at10fps",
+      "threshold": "Final smoothness, topology and gameplay timing require animation/director review",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+      "note": "No claim of continuous video, gameplay event alignment or final smooth-animation acceptance."
+    }
+  ],
+  "qaPreviews": [
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-0.png",
+      "sha256": "87750c8edd36892577ef00060ce4e3d1ed7e2fb20b0881969685de01f167c9d2",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-1.png",
+      "sha256": "32fa01031855b1dab863f7aa20285eaf9692646ef8664c7eda422b1ad9870252",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-sequence.gif",
+      "sha256": "d977bd6fc2a600f812e80482e1f135b9bd8b6af5bb9247408ff9a69208c3363e",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-sequence.gif.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-0.png",
+      "sha256": "72b42e1dbf2a7b6db9d3fba0f8680223ee2210ada2d79bf1dfcdc7b098ca9ace",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-1.png",
+      "sha256": "c6bd47d16aaaef1156b9f574a0ee6cfc8efe3466939859c46b3955c9801ff7ec",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-sequence.gif",
+      "sha256": "da80a8d0ac7a0f62545433d1e20b7885115fb6561816dceef8088f5f42e6dc40",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-sequence.gif.derivation.json"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "timingDemonstrationOnly": true,
+  "durationSeconds": 0.8,
+  "loop": false,
+  "gameplayEvents": [],
+  "supersededSourceVersion": {
+    "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v1.png",
+    "reason": "Insufficient cell margins and row-level plane-center drift; not used in exported frames. Actual source, prompt and return records preserved."
+  }
+}

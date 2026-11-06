@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-card-full.png",
+  "sha256": "8e9c0c147eb0a6c6eccc074d2a677f83830715dc548b44a6e968fbcc52f1bd39",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png",
+    "sha256": "8b5b8f8a5e1a293950f914d81d48f1f6fef1c287470916f2506c2ad2c11e6f25",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-bao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

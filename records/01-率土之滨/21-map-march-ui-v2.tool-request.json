@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-27T16:24:58.5960798Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "promptFile": "prompts/01-率土之滨/21-map-march-ui-v2.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/21-map-march-ui-v1.png"
+    ],
+    "prompt": "Use case: precise-object-edit\nAsset type: targeted route-clarity repair of a complete Daoist chibi SLG march-map static UI.\nInput images: images1/2 PRIMARY jade/ivory/warm-gold hand-painted UI style; image3 ACTUAL EDIT TARGET: existing march-map screen. Preserve its whole layout, terrain arrangement, city/fort/camp/bridge positions, resource values, army states and text, except the two exact text fixes stated below.\nPrimary request: Make the first army's green march route visibly obey the roads and cross the river ONLY over the STONE BRIDGE DECK. The old arrows near the bridge approach are ambiguous. Remove that old ambiguous green arrow segment and redraw one coherent clean GREEN DASHED route with spaced directional arrowheads from the first army next to “1 行军 00:00:05” on the lower friendly bank, along the existing pale road to the southwest bridge approach, ACROSS the TOP TRAVERSABLE ROAD SURFACE of the visible stone bridge at center-right, then following the pale east-bank road northeast toward the enemy city. The bridge, not the blue river, is the only crossing. The line must be visibly continuous onto the bridge deck, across its full span and off at the far road exit, with at least two small arrowheads ON the bridge deck. Route must not float over open water, bridge arch openings, cliffs, tree canopies or buildings. Do not add a ford or another bridge. You may minimally clarify the bridge's pale road surface to make this crossing readable while keeping its position and architecture.\nAdd a smaller restrained warm-gold dashed RETURN path for the third army from its current upper-left fort-area road near “3 返回 00:00:08”, southward entirely along the existing friendly land road toward 我方主城. It must not cross water or the green first-army route confusingly; use small gold arrowheads and a tiny '3' circular marker at its start. Keep waiting army2 stationary at 平原营地 with NO marching arrows originating from it.\nText changes ONLY: top-left player label “主公” becomes “道友”; enemy map-city label must read exactly “敌方城池” (not 城队). Preserve ALL other resource values, timers, army counts, status rows, controls and Chinese labels.\nInvariants: three original armies only, their locations unchanged; 第一部队 行军中 8000/2000 主城→敌方城池; 第二部队 待命 6000/1000 平原营地; 第三部队 返回中 5000/1500 要塞→主城. Preserve right panel title 行军部队, 查看部队/撤回 buttons, top 返回, resource-strip stone/iron meanings and friendly/enemy territory borders. Complete opaque landscape, native framing, no zoom/crop/extra UI.\nFine high-definition hand-painted Daoist Q/chibi jade/ivory/gold matching PRIMARY references, clear readable arrows, no thick neon glow obscuring bridge, no photoreal/3D, no logos/watermark. This is a static route illustration repair, not proof of actual game navigation.",
+    "quality": null,
+    "transparent_background": false,
+    "model": null
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false
+}

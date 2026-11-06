@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/qa/lu-su-native-dark.png",
+  "sha256": "6c08eae0a1255eedd4aede36dea49e255849923d8bd20b5dd898dac08b0a0efb",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "qaOnly": true,
+  "width": 1480,
+  "height": 1085,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-face-native.png",
+      "sha256": "37b61a99e84dfcd0e1ad3d95bbbccdde8366baddf5521ee85d7d02bd7b0b1612",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-bust-native.png",
+      "sha256": "70f9f0ab7ef867d7a1811357e57b4de89087d33911fc4852348e45c390c1bf89",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-bust-native.png.derivation.json"
+    }
+  ]
+}

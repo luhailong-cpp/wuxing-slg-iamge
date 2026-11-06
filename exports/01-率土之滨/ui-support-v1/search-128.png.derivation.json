@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/search-128.png",
+  "sha256": "055d7291a93cfd9363abec16edd34eece1db6855064a643ac085fd810f72253e",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_crop_then_proportional_downscale_and_transparent_padding",
+  "transform": {
+    "cropBox": [
+      34,
+      48,
+      310,
+      350
+    ],
+    "resampled": true,
+    "scale": 0.3708609271523179,
+    "resizedSize": [
+      102,
+      112
+    ],
+    "padding": {
+      "canvas": [
+        128,
+        128
+      ],
+      "pasteOffset": [
+        13,
+        8
+      ]
+    },
+    "filter": "premultiplied_alpha_LANCZOS"
+  },
+  "manualOwnership": {
+    "id": "search",
+    "label": "搜索",
+    "manualCropBox": [
+      34,
+      48,
+      310,
+      350
+    ],
+    "sourceComponentIdAbove16": 3,
+    "sourceComponentPixelsAbove16": 30808,
+    "nativeSize": [
+      276,
+      302
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 43451,
+      "alpha1Pixels": 6833,
+      "semiTransparentPixels": 39839,
+      "opaquePixels": 62,
+      "pixelsAbove16": 30808,
+      "bboxAbove16": [
+        15,
+        15,
+        263,
+        288
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": false,
+  "alphaCleanupApplied": false,
+  "alphaResampled": true,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 11005,
+    "alpha1Pixels": 692,
+    "semiTransparentPixels": 5161,
+    "opaquePixels": 218,
+    "pixelsAbove16": 4304,
+    "bboxAbove16": [
+      18,
+      13,
+      110,
+      115
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 692,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

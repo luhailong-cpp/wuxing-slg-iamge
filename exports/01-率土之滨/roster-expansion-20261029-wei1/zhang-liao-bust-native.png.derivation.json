@@ -1,0 +1,86 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-bust-native.png",
+  "sha256": "35fc808ab7d37b3b3d6fadf7237c800709d38d3f304ef247702a1fb2ea2e397c",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "zhang-liao",
+  "displayName": "张辽",
+  "variant": "bust-native",
+  "width": 945,
+  "height": 930,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+      "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+      "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+    }
+  ],
+  "operation": "native_rectangle_crop",
+  "cropBox": [
+    55,
+    120,
+    1000,
+    1050
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alphaZero": 344099,
+    "alphaOne": 11882,
+    "alphaSemi": 534751,
+    "alphaOpaque": 0,
+    "bboxAlpha16": [
+      15,
+      0,
+      945,
+      930
+    ],
+    "marginsAlpha16": [
+      15,
+      0,
+      0,
+      0
+    ],
+    "edgeAlpha16Pixels": 1029
+  },
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    490,
+    425,
+    715,
+    605
+  ],
+  "faceRoiOutputApprox": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

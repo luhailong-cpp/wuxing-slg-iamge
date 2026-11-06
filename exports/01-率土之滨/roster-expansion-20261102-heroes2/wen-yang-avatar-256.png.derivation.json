@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/wen-yang-avatar-256.png",
+  "sha256": "eecc466329db5460dbcb5b5cd4c4947da6672e3fd6924a5adb5162663d43a92a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/wen-yang-master-v1.png",
+    "sha256": "9dff4f1a09043eb5d5b7d332163b9e7231383f9c611f84066bde5ae6b2508484",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/wen-yang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      140,
+      730,
+      715
+    ],
+    "uniformScale": 0.41043478260869565,
+    "resizedSize": [
+      189,
+      236
+    ],
+    "offset": [
+      33,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

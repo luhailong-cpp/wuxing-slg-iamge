@@ -1,0 +1,443 @@
+{
+  "schema": "wuxing.map.art-assembly.v1",
+  "file": "exports/01-率土之滨/map-artonly-20261104/pass-supply-road.png",
+  "sha256": "1290dd1306dc22c02253b230bf140fd982a3f6fcd8aadfdb902e519f6b374c4b",
+  "canvasPx": [
+    1254,
+    706
+  ],
+  "pixelFormat": "RGB",
+  "art_source": "existing",
+  "route": "derived_cropped_ground_and_layered_existing_sprites",
+  "operation": "Native opaque ground crop, uniform Lanczos downscale of placed overlays, alpha compositing in recorded order.",
+  "createdAtUtc": "2026-11-04T16:06:53.980084+00:00",
+  "origin": "top-left",
+  "worldContract": "records/quarter-world-20261030/world-scope-contract.json",
+  "scope": "One pass supply road art scene at a landscape review scale.",
+  "newModelImages": 0,
+  "sourcePixelsModifiedOnDisk": false,
+  "derivedFrom": [
+    {
+      "id": "grass",
+      "layer": "ground",
+      "file": "exports/01-率土之滨/world-terrain-20261101/grass-native.png",
+      "sha256": "d0489d129913177a33aeffe5340727ecc45230c0bfeb82be11df33a28e77da78",
+      "derivationRecord": "exports/01-率土之滨/world-terrain-20261101/grass-native.png.derivation.json",
+      "nativeSizePx": [
+        1254,
+        1254
+      ],
+      "cropPx": [
+        0,
+        240,
+        1254,
+        946
+      ],
+      "scale": 1,
+      "sizePx": [
+        1254,
+        706
+      ],
+      "topLeftPx": [
+        0,
+        0
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        0,
+        0,
+        1254,
+        706
+      ]
+    },
+    {
+      "id": "supply-road",
+      "layer": "paving",
+      "file": "exports/01-率土之滨/map-connectors-20261028-r2/02-stone-road-decal-v1.png",
+      "sha256": "d9033b94f2bc01a30c978fb3e9ec054971fbb317ff3a1e4df69998e230aee438",
+      "derivationRecord": "exports/01-率土之滨/map-connectors-20261028-r2/02-stone-road-decal-v1.png.derivation.json",
+      "nativeSizePx": [
+        1536,
+        1024
+      ],
+      "cropPx": null,
+      "scale": 0.58,
+      "sizePx": [
+        891,
+        594
+      ],
+      "topLeftPx": [
+        176,
+        80
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        203,
+        167,
+        1046,
+        640
+      ]
+    },
+    {
+      "id": "north-woods",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "sha256": "189a79e2cffbc60edba98f51ef96f9d1c92690b10bad7ff7ef1b02044e6a9403",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/woodland.png.derivation.json",
+      "nativeSizePx": [
+        331,
+        290
+      ],
+      "cropPx": null,
+      "scale": 0.61,
+      "sizePx": [
+        202,
+        177
+      ],
+      "topLeftPx": [
+        46,
+        22
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        62,
+        44,
+        225,
+        185
+      ]
+    },
+    {
+      "id": "pass-gate",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "sha256": "263f0cb89d1523e48aa600f7acbf630fd06d72625af50546cc03846426834901",
+      "derivationRecord": "exports/01-率土之滨/map-kit/buildings/city-gate.png.derivation.json",
+      "nativeSizePx": [
+        403,
+        375
+      ],
+      "cropPx": null,
+      "scale": 0.68,
+      "sizePx": [
+        274,
+        255
+      ],
+      "topLeftPx": [
+        154,
+        42
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        178,
+        51,
+        416,
+        247
+      ]
+    },
+    {
+      "id": "east-hills",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "sha256": "a4966fe9f473631658837cd93b5ccebccd1fe76af70dbe2b47619d4ce14e27b6",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/mountains.png.derivation.json",
+      "nativeSizePx": [
+        374,
+        290
+      ],
+      "cropPx": null,
+      "scale": 0.72,
+      "sizePx": [
+        269,
+        209
+      ],
+      "topLeftPx": [
+        947,
+        21
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        972,
+        46,
+        1167,
+        208
+      ]
+    },
+    {
+      "id": "quarry",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "sha256": "f42916022ef70daa5e14a1249e5dac47ff1c5318330ddb0aac4479a080b241a1",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/quarry.png.derivation.json",
+      "nativeSizePx": [
+        334,
+        291
+      ],
+      "cropPx": null,
+      "scale": 0.51,
+      "sizePx": [
+        170,
+        148
+      ],
+      "topLeftPx": [
+        789,
+        47
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        800,
+        71,
+        944,
+        180
+      ]
+    },
+    {
+      "id": "north-field",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "sha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "nativeSizePx": [
+        377,
+        291
+      ],
+      "cropPx": null,
+      "scale": 0.58,
+      "sizePx": [
+        219,
+        169
+      ],
+      "topLeftPx": [
+        601,
+        106
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        636,
+        129,
+        802,
+        255
+      ]
+    },
+    {
+      "id": "east-field",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "sha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "nativeSizePx": [
+        377,
+        291
+      ],
+      "cropPx": null,
+      "scale": 0.57,
+      "sizePx": [
+        215,
+        166
+      ],
+      "topLeftPx": [
+        794,
+        174
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        828,
+        197,
+        991,
+        320
+      ]
+    },
+    {
+      "id": "west-woods",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "sha256": "189a79e2cffbc60edba98f51ef96f9d1c92690b10bad7ff7ef1b02044e6a9403",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/woodland.png.derivation.json",
+      "nativeSizePx": [
+        331,
+        290
+      ],
+      "cropPx": null,
+      "scale": 0.72,
+      "sizePx": [
+        238,
+        209
+      ],
+      "topLeftPx": [
+        5,
+        244
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        24,
+        270,
+        216,
+        437
+      ]
+    },
+    {
+      "id": "west-field",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "sha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "nativeSizePx": [
+        377,
+        291
+      ],
+      "cropPx": null,
+      "scale": 0.65,
+      "sizePx": [
+        245,
+        189
+      ],
+      "topLeftPx": [
+        231,
+        328
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        270,
+        354,
+        455,
+        495
+      ]
+    },
+    {
+      "id": "sawmill",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "sha256": "b2828ce790a51a7c6b289e990193a0cd6858fa42710349655abea1c7a43cfce8",
+      "derivationRecord": "exports/01-率土之滨/map-kit/buildings/workshop.png.derivation.json",
+      "nativeSizePx": [
+        344,
+        321
+      ],
+      "cropPx": null,
+      "scale": 0.6,
+      "sizePx": [
+        206,
+        193
+      ],
+      "topLeftPx": [
+        496,
+        384
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        513,
+        396,
+        689,
+        559
+      ]
+    },
+    {
+      "id": "depot",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "sha256": "389a2a8ac2e9fd0f06c608d383aaa6686abc5017842d96213f8667874efe6c4f",
+      "derivationRecord": "exports/01-率土之滨/map-kit/buildings/warehouse.png.derivation.json",
+      "nativeSizePx": [
+        361,
+        355
+      ],
+      "cropPx": null,
+      "scale": 0.72,
+      "sizePx": [
+        260,
+        256
+      ],
+      "topLeftPx": [
+        985,
+        394
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        1008,
+        446,
+        1220,
+        621
+      ]
+    },
+    {
+      "id": "south-woods",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "sha256": "189a79e2cffbc60edba98f51ef96f9d1c92690b10bad7ff7ef1b02044e6a9403",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/woodland.png.derivation.json",
+      "nativeSizePx": [
+        331,
+        290
+      ],
+      "cropPx": null,
+      "scale": 0.77,
+      "sizePx": [
+        255,
+        223
+      ],
+      "topLeftPx": [
+        290,
+        480
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        310,
+        508,
+        516,
+        685
+      ]
+    },
+    {
+      "id": "south-field",
+      "layer": "props",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "sha256": "191bb2a15ff37c8b9fc16daf156348d140cc6b049e12b506b2bd461754c6142e",
+      "derivationRecord": "exports/01-率土之滨/map-kit/terrain/wheat-field.png.derivation.json",
+      "nativeSizePx": [
+        377,
+        291
+      ],
+      "cropPx": null,
+      "scale": 0.7,
+      "sizePx": [
+        264,
+        204
+      ],
+      "topLeftPx": [
+        649,
+        516
+      ],
+      "visibleBoundsAlphaAbove16Px": [
+        691,
+        544,
+        891,
+        696
+      ]
+    }
+  ],
+  "routeGuide": {
+    "id": "pass-gate-to-supply-road-end",
+    "centerlinePx": [
+      [
+        283,
+        207
+      ],
+      [
+        289,
+        227
+      ],
+      [
+        299,
+        241
+      ],
+      [
+        319,
+        249
+      ],
+      [
+        348,
+        253
+      ],
+      [
+        419,
+        283
+      ],
+      [
+        976,
+        595
+      ]
+    ],
+    "gateApronOverlaysRoad": true,
+    "roadPortsSource": "exports/01-率土之滨/map-connectors-20261028-r2/ports-provisional.json",
+    "depotAccess": "Roadside placement. The paved route ends beside the depot. Yard path and collision remain to be authored.",
+    "worldCellAssignment": null
+  },
+  "fullGameMapComplete": false,
+  "userFinalAccepted": false
+}

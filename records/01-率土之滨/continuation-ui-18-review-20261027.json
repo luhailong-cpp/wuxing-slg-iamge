@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T13:18:33.706Z",
+  "file": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png",
+  "replacesForCurrentDirection": "designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png",
+  "status": "original_five_elements_draft_visual_review_pass_pending_user_acceptance",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "checks": [
+    "实际查看原生返回，主角已真正更换为原创短银灰发金系女性，非旧历史图改名",
+    "发色发型、琥珀眼、暖金花饰、象牙白玉绿袍、工具袋、符尺和阵盘与01-metal-envoy-v1母版一致",
+    "人物全身、双鞋与双持法器可见，未遮脸；金系/铸锋使中文可读",
+    "详情/配点/兵种、领兵/内政/列传/外观结构保留；未保护使用开锁造型",
+    "Lv5经验0/500、兵力500/500、体力100/100与属性、学习、未觉醒三技能状态完整",
+    "新技能铸锋符阵为原创金系演示图案，未见历史阵营/人名"
+  ],
+  "limitations": [
+    "这是AI再次绘制的整屏主角预览，尚非程序像素级复用母版头像或运行时组件",
+    "铸锋使称号、金系和技能字段/数值仍候选演示，非玩法或正式首发名单确认",
+    "角色master余边尚需打包处理，UI文字烘焙、动画和客户端尚未完成"
+  ]
+}

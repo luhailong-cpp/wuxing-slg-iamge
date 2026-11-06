@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-28T08:36:59.770798+00:00",
+  "reports": [
+    {
+      "mode": "source",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(212,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(65,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    },
+    {
+      "mode": "roundtrip",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(212,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(65,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    }
+  ],
+  "filter": "C# compiler diagnostics only; raw logs not included in delivery."
+}

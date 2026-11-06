@@ -1,0 +1,36 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T08:40:55.059Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit. Make one complete high-fidelity Chinese SLG game UI, wide landscape about1916x821, opaque. Edit attached image3, retain its layout and every original function except the explicitly listed identity/troop corrections. Images1/2 are authoritative mail/party Daoist chibi hand-painted jade-green, ivory silk, warm-gold cloud-frame STYLE references only. Image4 is ONE derived reference-only six-general identity contact sheet: top row Liu Bei (jade tall crown, small goatee, two swords), Cao Cao (black/gold armor, burgundy cape, moustache), Sun Quan (jade imperial seal); bottom Zhao Yun (silver/green armor, spear, clean-shaven), Zhuge Liang (scholar tall cap, white feather fan), Guan Yu (long beard, green turban, poleblade). Preserve distinct faces/equipment; do not copy the contact-sheet grid or labels into UI. Image5 is five existing emblems: metal four-point ivory/gold, wood leaves, water blue droplet, fire flame, earth mountains. Use them ONLY for troops. Historical generals are not elemental heroes. No金行使/木行使/水行使/火行使/土行使; no步兵/弓兵/骑兵; do not replace战法/谋略/COST with术法/灵力/统御. No new elemental counters, damage bonuses, probabilities, or prototype/technical text. Clear Chinese, no clipped frames, no watermark.\nKeep title\"部队配置\", main-city back, first team layout, three slots大营/中军/前锋, empty前锋, and right four-team list. Replace first anonymous character with actual刘备 from image4 top-left, second with actual赵云 from image4 bottom-left; names刘备/赵云, faces and equipment match sheet (Liu has small beard and double swords; Zhao clean-shaven spear warrior). Replace both portraits in the right first-team list too. Liu card shows small metal emblem\"金兵\"; Zhao shows leaf emblem\"木兵\"—these are currently equipped troops only. Keep illustrative original COST2.0 and2.5, eachLv.5 and500/1000, totalCOST4.5/8, members2/3, troop strength1000, morale100. Keep first-card four stars to match prior Liu page; second-card five stars. No elemental hero names. Retain配置/征兵/互换/阵容录, maintain50/小时,驻守主城,第二部队待配置,第三/第四校场升级后解锁. Keep all data readable and unchanged otherwise.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/15-army-formation-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/15-historical-generals-five-troops-formation-ui-v1.prompt.txt",
+  "contactSheetIsOneReference": true,
+  "contactSourceRecord": "records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png.derived.json"
+}
+

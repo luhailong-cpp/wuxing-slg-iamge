@@ -1,0 +1,65 @@
+{
+  "file": "designs/01-率土之滨/maps/quarter-world-20261030/world-overview-v1.png",
+  "sha256": "c0534ac4a87ef7c8271a2c2e73f30fbebd8e6aa72872069d80c6ee2c49df3bb9",
+  "generatedAt": null,
+  "observedCompletedAt": "2026-10-30T11:19:20.286Z",
+  "width": 1672,
+  "height": 941,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_image",
+  "resultId": "exec-bcf4fcca-e3db-4cd2-b617-b390ba27e7fa",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE original continuous strategic WORLD MAP LAYOUT OVERVIEW for 五行问鼎, a landscape Chinese Three Kingdoms SLG whose explorable world is planned at roughly one-quarter of the reference game world area. This image is the compact complete layout PROPOSAL, not a cropped screenshot or a detailed walkable terrain tile. Wide16:9 native painting. No interface, text or labels.\nREFERENCES: images1/2 are only the approved Taoist chibi HD hand-painted style and jade/ivory/warm-gold craft; do NOT copy the UI, people, night sky or panels. Image3 is the city/architecture kit; image4 is the terrain/resource material kit. Match their rounded bright clean hand-painted miniature forms and warm daylight.\nHigh strategic bird's-eye view with restrained southeast dimetric buildings, consistent scale and camera across the ENTIRE map, not an immersive horizon landscape. Terrain fills all edges continuously. Lush clean green plains, soft rounded grey-cream mountains and dark jade forests mostly near outer boundaries, open fertile basins for the main routes. Four outer basins around a central contested plain, connected as one continuous landmass, no floating islands and no isolated diorama plinths.\nFIVE distinct readable city hubs, each a small hand-painted fortified settlement with jade tile roofs, ivory walls and tiny warm-gold ornaments: NW hub near(18%,25%); NE hub near(80%,22%); SW hub near(20%,76%); SE hub near(81%,75%); largest central capital near(50%,49%), about1.5 times outer hub footprint. Each outer city has a clear gate facing the central routes and ample empty field around it. Do not make all five the identical stamp.\nOne natural turquoise river enters from upper-left/north edge around(35%,0%), bends down along the LEFT side of the central city through(37%,40%) and(41%,64%), then exits lower edge around(62%,100%). It must NOT pass under the central city itself. A short tributary reaches from upper-right boundary to the river north of the capital; banks join naturally.\nCLEAR CONNECTED light warm-grey dirt/stone roads link NW to NE across the northern plain, SW to SE across southern plain, and each outer city gate to central capital gates. Exactly three visible stone bridges carry the main roads across the water at clean right-angle/local-perpendicular crossings. All roads meet bridge decks and gates continuously. Include two small pass forts in the gaps of the outer foothills, with roads continuing through their openings. No road ends at a cliff or runs into water without a bridge.\nSparse tiny farmland, timber groves, quarry stones and iron outcrops distributed outside roads/city footprints, with lots of readable quiet grass. Avoid overfilling the world with houses or decorative noise. Clean bright daytime, soft even light, no dramatic shadow, no fog hiding boundaries. No grid painted into art, no coordinates, labels, names, banners with text, minimap, legend, border, card frame, compass, characters, soldiers, monsters, UI or watermark. Flat continuous strategic overview with high hand-painted finish, no photorealism or plastic 3D.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedLocalPath": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-bcf4fcca-e3db-4cd2-b617-b390ba27e7fa.png",
+    "request": "records/quarter-world-20261030/world-overview-v1.request.json"
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际模型/质量及服务生成时间",
+  "prompt": "prompts/01-率土之滨/quarter-world-20261030/world-overview-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+      "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17"
+    }
+  ],
+  "status": "world_layout_overview_candidate_not_detail_tiles"
+}

@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/yue-jin-card-full.png",
+  "sha256": "675c659de6e2117a4fe33e233bf3cc58c3cc0b30ec1b7b5373dbb858be17ec2e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/yue-jin-master-v1.png",
+    "sha256": "cd364f43e19ee8083266318288149ec58ec68ff1cf93a78cf82f09f896a262eb",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/yue-jin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      125,
+      211,
+      846,
+      1356
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.8384279475982532,
+    "resizedSize": [
+      605,
+      960
+    ],
+    "offset": [
+      81,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/pang-de-bust-native.png",
+  "sha256": "28f4380122eecbacfe6516e3e33be5b0b26983476a9d685f0e6c14042bb27143",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/pang-de-master-v1.png",
+    "sha256": "eed5af245365d2dc26f6457756423897c34dff24fd3272b4b6791dd225df806b",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/pang-de-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1070
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

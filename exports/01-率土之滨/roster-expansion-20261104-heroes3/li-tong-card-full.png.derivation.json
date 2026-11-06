@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/li-tong-card-full.png",
+  "sha256": "d1dd130d76858b83b1f8cb8e456870d875578005de61ced80bbabb611f6edb7f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/li-tong-master-v1.png",
+    "sha256": "da18483c818f783784e34914692060c47c4f4de7f0dd1738ff0f5bf230809e97",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/li-tong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      131,
+      202,
+      815,
+      1371
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.8212147134302823,
+    "resizedSize": [
+      562,
+      960
+    ],
+    "offset": [
+      103,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

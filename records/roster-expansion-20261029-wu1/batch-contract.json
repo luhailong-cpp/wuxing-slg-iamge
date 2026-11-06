@@ -1,0 +1,61 @@
+{
+  "createdAt": "2026-10-29T10:05:52.084Z",
+  "scope": "6 Wu named generals, original portrait masters +30 UI derivatives",
+  "names": [
+    {
+      "id": "sun-jian",
+      "name": "孙坚",
+      "personID": "ww-p-745064a05078"
+    },
+    {
+      "id": "sun-ce",
+      "name": "孙策",
+      "personID": "ww-p-8fa0077b6be6"
+    },
+    {
+      "id": "lu-xun",
+      "name": "陆逊",
+      "personID": "ww-p-91d823d76f0b"
+    },
+    {
+      "id": "lu-su",
+      "name": "鲁肃",
+      "personID": "ww-p-397eac76e115"
+    },
+    {
+      "id": "lv-meng",
+      "name": "吕蒙",
+      "personID": "ww-p-799cddfec017"
+    },
+    {
+      "id": "gan-ning",
+      "name": "甘宁",
+      "personID": "ww-p-f639aded718e"
+    }
+  ],
+  "generationRoute": "host image_gen; project/user route and native-alpha contract override skill CLI/magenta/square defaults",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "officialVersionVerification": "Parent root explicitly rechecked official announcement/model/guide2026-10-28; same ongoing project batch, user explicit model target maintained",
+  "uiContract": "exports/01-率土之滨/generals-ui-v1/generals-ui-manifest.json",
+  "uiVariants": [
+    "face-native",
+    "bust-native",
+    "card-full",
+    "avatar-256",
+    "avatar-128"
+  ],
+  "heavyLocalTasksProhibited": true
+}

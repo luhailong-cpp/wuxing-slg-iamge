@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T15:11:59.788Z",
+  "reviewer": "root",
+  "scope": "Actual visual review of 19 v2,23 v2 and previously open 20–22 native UI drafts",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "items": [
+    {
+      "file": "designs/01-率土之滨/ui/19-metal-envoy-recruit-result-ui-v2.png",
+      "status": "original_identity_draft_visually_confirmed",
+      "findings": [
+        "金系铸锋使已真正替换历史身份，短银发、花饰、符尺/阵盘与母版一致",
+        "四星、Lv1、统御2.0、步兵、攻击距离3、当前数量7/100及三个操作可读",
+        "全身可见但鞋底贴近卡面底信息栏，正式动态卡框须留边"
+      ],
+      "limits": [
+        "7/100、Lv1为本屏独立获得状态演示；与03的5/100、18/23的Lv5不构成同一账户连续流程数据"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/23-metal-envoy-attributes-ui-v2.png",
+      "status": "original_identity_draft_visually_confirmed",
+      "findings": [
+        "原创金系女性身份与18母版一致，五项78/84/74/58/19均显示+0，余点10",
+        "滑杆左端，减号灰态、重置/确认配点灰态；未分配属性点文字与当前状态一致",
+        "灵力取代旧谋略，统御2.0标识一致"
+      ],
+      "limits": [
+        "人物鞋底接近画布底边，UI原生非最终固定分辨率合同",
+        "交互、动态数值和撤销流程未实际实现"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+      "status": "generic_functional_direction_five_elements_npc_review_pending",
+      "findings": [
+        "实际查看物资所0/1、中心建造引导、高亮空地、前往建造/跳过、奖励铜钱1000",
+        "建筑视觉与通用玉绿米白道家风格一致，未见历史人名"
+      ],
+      "limits": [
+        "引导少女仍为旧07匿名候选，未确认正式五行世界身份",
+        "地图建筑只是静态方向，碰撞/点击区域/建造状态和独立分层仍需后续"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/21-map-march-ui-v1.png",
+      "status": "static_route_clarity_and_five_elements_adaptation_pending",
+      "findings": [
+        "实际查看3支部队行军/待命/返回状态与地标对应标签，资源石料/铁矿图标语义正确",
+        "桥、河、主城、要塞、平原营地与敌城可辨"
+      ],
+      "limits": [
+        "跨河路线在桥头附近的箭头/路段衔接不够清楚，需独立路径数据或改稿后复核",
+        "第三部队返回状态有文字，静态画面不足证明完整返回路线",
+        "尚未使用新单位/五系母版头像；主公称呼和部队规则仍待五行世界观统一",
+        "没有碰撞或导航通过结论"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "status": "static_detour_direction_visually_readable_navigation_unverified",
+      "findings": [
+        "实际查看救出百姓0/1、绿色目标节点、红色流寇营地、右侧绕行箭头及前往救援",
+        "视觉路线意图为绕过红区到残破仓库/百姓；未见历史人名"
+      ],
+      "limits": [
+        "需实际地图节点、禁行格、行军数据才能验证可达性；静态箭头不证明导航",
+        "教程头像与小地图单位仍待新五行角色/单位母版统一"
+      ]
+    }
+  ],
+  "fullGameArtComplete": false
+}

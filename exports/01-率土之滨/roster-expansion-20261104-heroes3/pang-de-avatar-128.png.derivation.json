@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/pang-de-avatar-128.png",
+  "sha256": "26d3fc7c17732c1ed823d9729b128414a679f074730975e5dc0bae690eb285b3",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/pang-de-master-v1.png",
+    "sha256": "eed5af245365d2dc26f6457756423897c34dff24fd3272b4b6791dd225df806b",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/pang-de-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      279,
+      163,
+      868,
+      760
+    ],
+    "uniformScale": 0.19765494137353434,
+    "resizedSize": [
+      116,
+      118
+    ],
+    "offset": [
+      6,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

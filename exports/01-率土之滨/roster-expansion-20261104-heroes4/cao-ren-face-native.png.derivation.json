@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-face-native.png",
+  "sha256": "d377f70be92110258b96f77723199cdacc245c6f897eb4ae9f5c93f13a05277e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png",
+    "sha256": "64086ed938a783c934552b9c94a1246a333b1599495c24ef47736b1c4ac09b33",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      140,
+      85,
+      746,
+      650
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

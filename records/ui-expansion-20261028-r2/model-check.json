@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-29T02:41:03.160Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "sources": {
+    "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+    "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+  },
+  "officialFinding": "Official model page currently identifies gpt-image-2.5-sunburst as default and most capable; supported quality list includes max.",
+  "builtinSelectorsAvailable": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "decision": "Use existing built-in route; preserve configured target; no extra API billing route invoked."
+}

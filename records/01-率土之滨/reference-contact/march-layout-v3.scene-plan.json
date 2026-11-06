@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Reference-only authored layout for a baked march UI direction; not a playable map/collision proof",
+  "viewport": [
+    1916,
+    821
+  ],
+  "mapViewport": [
+    0,
+    90,
+    1460,
+    750
+  ],
+  "uiArmyPanel": [
+    1470,
+    100,
+    1900,
+    805
+  ],
+  "riverNoWalkRect": [
+    740,
+    90,
+    880,
+    750
+  ],
+  "onlyBridgeWalkRect": [
+    690,
+    405,
+    930,
+    475
+  ],
+  "landmarks": {
+    "home": [
+      270,
+      620
+    ],
+    "fort": [
+      300,
+      190
+    ],
+    "waitingCamp": [
+      500,
+      290
+    ],
+    "enemyCity": [
+      1200,
+      240
+    ]
+  },
+  "armies": {
+    "march1": [
+      480,
+      570
+    ],
+    "waiting2": [
+      500,
+      330
+    ],
+    "return3": [
+      300,
+      235
+    ]
+  },
+  "march1Route": [
+    [
+      480,
+      570
+    ],
+    [
+      600,
+      520
+    ],
+    [
+      710,
+      445
+    ],
+    [
+      900,
+      445
+    ],
+    [
+      1030,
+      400
+    ],
+    [
+      1190,
+      300
+    ]
+  ],
+  "return3Route": [
+    [
+      300,
+      235
+    ],
+    [
+      230,
+      320
+    ],
+    [
+      220,
+      480
+    ],
+    [
+      270,
+      570
+    ]
+  ],
+  "constraints": [
+    "One river strip separates two connected dry banks; exactly one horizontal bridge joins west and east banks.",
+    "All march route segments within river strip must lie within bridge walk rect.",
+    "Return route stays on the west dry bank; waiting army has no arrows."
+  ],
+  "art_source": "host_image_for_final_scene; guide_only_is_code",
+  "clientIntegrated": false
+}

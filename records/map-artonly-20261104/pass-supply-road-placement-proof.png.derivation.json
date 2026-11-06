@@ -1,0 +1,1437 @@
+{
+  "file": "records/map-artonly-20261104/pass-supply-road-placement-proof.png",
+  "sha256": "419a87adeca7a9ea662736e024eb154292d2fbe777a6171deea393989925c379",
+  "canvasPx": [
+    1254,
+    706
+  ],
+  "art_source": "existing",
+  "operation": "Place two original idle poses at their map foot anchors and annotate the two road terminals for review.",
+  "labelsFont": {
+    "file": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+    "sha256": "d477a2f86ddffb2bf60aabee0319f89fd11b999f486cb1fca8fa7656b3e79002"
+  },
+  "troopOverlays": [
+    {
+      "id": "metal",
+      "file": "exports/01-率土之滨/troop-frames-20261028-r2/metal-grounded-20-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "1e0087cd94f15f3f4673983883185b6ca821305347d0f7eedff716f3ad466914",
+      "manifest": "exports/01-率土之滨/five-troop-frames-20261029/manifest.json",
+      "sourceSizePx": [
+        384,
+        384
+      ],
+      "sourceRootPx": [
+        192,
+        288
+      ],
+      "displayScale": 0.5,
+      "topLeftPx": [
+        398,
+        181
+      ],
+      "footPx": [
+        494,
+        325
+      ]
+    },
+    {
+      "id": "wood",
+      "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-01.png",
+      "sha256": "094157bedb54617f3753b2ef81a1b197ca7448c2d2eeda027a4843eb8281baf5",
+      "manifest": "exports/01-率土之滨/five-troop-frames-20261029/manifest.json",
+      "sourceSizePx": [
+        384,
+        384
+      ],
+      "sourceRootPx": [
+        192,
+        288
+      ],
+      "displayScale": 0.5,
+      "topLeftPx": [
+        598,
+        293
+      ],
+      "footPx": [
+        694,
+        437
+      ]
+    }
+  ],
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-artonly-20261104/pass-supply-road.png",
+      "sha256": "1290dd1306dc22c02253b230bf140fd982a3f6fcd8aadfdb902e519f6b374c4b"
+    }
+  ],
+  "roadCenterlineCheck": {
+    "method": "Sample 7×7 swatches across the authored road centerline. Warm stone-like RGB in at least 25 of 49 pixels, including at the gate apron seam.",
+    "passed": true,
+    "sampleCount": 170,
+    "minPavementLikePixels": 42,
+    "samples": [
+      {
+        "pointPx": [
+          283,
+          207
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          284,
+          211
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          285,
+          215
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          287,
+          219
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          288,
+          223
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          289,
+          227
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          289,
+          227
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          292,
+          230
+        ],
+        "pavementLikePixels": 48,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          294,
+          234
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          296,
+          238
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          299,
+          241
+        ],
+        "pavementLikePixels": 43,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          299,
+          241
+        ],
+        "pavementLikePixels": 43,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          303,
+          243
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          307,
+          244
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          311,
+          246
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          315,
+          247
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          319,
+          249
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          319,
+          249
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          324,
+          250
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          329,
+          250
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          334,
+          251
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          338,
+          252
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          343,
+          252
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          348,
+          253
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          348,
+          253
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          352,
+          255
+        ],
+        "pavementLikePixels": 48,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          357,
+          257
+        ],
+        "pavementLikePixels": 43,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          361,
+          259
+        ],
+        "pavementLikePixels": 47,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          366,
+          260
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          370,
+          262
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          375,
+          264
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          379,
+          266
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          384,
+          268
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          388,
+          270
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          392,
+          272
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          397,
+          274
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          401,
+          276
+        ],
+        "pavementLikePixels": 47,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          406,
+          277
+        ],
+        "pavementLikePixels": 43,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          410,
+          279
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          415,
+          281
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          419,
+          283
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          419,
+          283
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          423,
+          285
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          428,
+          288
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          432,
+          290
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          436,
+          293
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          441,
+          295
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          445,
+          298
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          449,
+          300
+        ],
+        "pavementLikePixels": 43,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          454,
+          302
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          458,
+          305
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          463,
+          307
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          467,
+          310
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          471,
+          312
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          476,
+          315
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          480,
+          317
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          484,
+          320
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          489,
+          322
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          493,
+          324
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          497,
+          327
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          502,
+          329
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          506,
+          332
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          510,
+          334
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          515,
+          337
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          519,
+          339
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          523,
+          342
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          528,
+          344
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          532,
+          346
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          536,
+          349
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          541,
+          351
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          545,
+          354
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          550,
+          356
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          554,
+          359
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          558,
+          361
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          563,
+          363
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          567,
+          366
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          571,
+          368
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          576,
+          371
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          580,
+          373
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          584,
+          376
+        ],
+        "pavementLikePixels": 45,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          589,
+          378
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          593,
+          380
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          597,
+          383
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          602,
+          385
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          606,
+          388
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          610,
+          390
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          615,
+          393
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          619,
+          395
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          624,
+          398
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          628,
+          400
+        ],
+        "pavementLikePixels": 43,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          632,
+          402
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          637,
+          405
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          641,
+          407
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          645,
+          410
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          650,
+          412
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          654,
+          415
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          658,
+          417
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          663,
+          420
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          667,
+          422
+        ],
+        "pavementLikePixels": 45,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          671,
+          424
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          676,
+          427
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          680,
+          429
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          684,
+          432
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          689,
+          434
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          693,
+          437
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          698,
+          439
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          702,
+          441
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          706,
+          444
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          711,
+          446
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          715,
+          449
+        ],
+        "pavementLikePixels": 45,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          719,
+          451
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          724,
+          454
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          728,
+          456
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          732,
+          458
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          737,
+          461
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          741,
+          463
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          745,
+          466
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          750,
+          468
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          754,
+          471
+        ],
+        "pavementLikePixels": 45,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          758,
+          473
+        ],
+        "pavementLikePixels": 42,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          763,
+          476
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          767,
+          478
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          771,
+          480
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          776,
+          483
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          780,
+          485
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          785,
+          488
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          789,
+          490
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          793,
+          493
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          798,
+          495
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          802,
+          498
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          806,
+          500
+        ],
+        "pavementLikePixels": 47,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          811,
+          502
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          815,
+          505
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          819,
+          507
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          824,
+          510
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          828,
+          512
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          832,
+          515
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          837,
+          517
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          841,
+          519
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          845,
+          522
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          850,
+          524
+        ],
+        "pavementLikePixels": 42,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          854,
+          527
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          859,
+          529
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          863,
+          532
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          867,
+          534
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          872,
+          536
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          876,
+          539
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          880,
+          541
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          885,
+          544
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          889,
+          546
+        ],
+        "pavementLikePixels": 48,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          893,
+          549
+        ],
+        "pavementLikePixels": 44,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          898,
+          551
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          902,
+          554
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          906,
+          556
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          911,
+          558
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          915,
+          561
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          919,
+          563
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          924,
+          566
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          928,
+          568
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          932,
+          571
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          937,
+          573
+        ],
+        "pavementLikePixels": 46,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          941,
+          576
+        ],
+        "pavementLikePixels": 45,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          946,
+          578
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          950,
+          580
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          954,
+          583
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          959,
+          585
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          963,
+          588
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          967,
+          590
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          972,
+          593
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      },
+      {
+        "pointPx": [
+          976,
+          595
+        ],
+        "pavementLikePixels": 49,
+        "samplePixels": 49
+      }
+    ],
+    "collisionChecked": false
+  }
+}

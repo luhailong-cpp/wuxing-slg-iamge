@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/qa/sun-jian-native-light.png",
+  "sha256": "e2941782fcc59c228ebd86fac30e646c10121e940d5a79ec46ac7fe06d4fb9cf",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "qaOnly": true,
+  "width": 1490,
+  "height": 1115,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-face-native.png",
+      "sha256": "b6a5d97d37b4f06a5a3ab2687f8ed1fe9df936794ad5cfd768b9b450a11b58f7",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-bust-native.png",
+      "sha256": "afb9f864828cade8c0210724d814697bd796c8e8a7e73f12f6c5be1bbb9628a1",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-bust-native.png.derivation.json"
+    }
+  ]
+}

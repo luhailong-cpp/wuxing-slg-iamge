@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/li-dian-bust-native.png",
+  "sha256": "8fb430ff1b3f4a7ca657778a871ecf3cb6bc3fb49ee2c52f3f2b5d4dd613e9d3",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-dian-master-v1.png",
+    "sha256": "9fc6882423f3cd86f31031d1d23ed5d98e781eb6ac5708274d67cae2fc583f02",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-dian-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

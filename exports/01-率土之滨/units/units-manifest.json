@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "assetCount": 3,
+  "spriteFileCount": 9,
+  "nativeCropCount": 3,
+  "displayDerivativeCount": 6,
+  "facing": "south-east",
+  "camera": "isometric approximately40degree top-down",
+  "static": true,
+  "animationFrameCount": 0,
+  "items": [
+    {
+      "id": "infantry",
+      "sourceMaster": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+      "sourceMasterSha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+      "native": "exports/01-率土之滨/units/infantry-native.png",
+      "nativeRecord": "exports/01-率土之滨/units/infantry-native.png.derivation.json",
+      "sourceAlphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "zeroPixels": 1221778,
+        "alpha1Pixels": 8782,
+        "opaquePixels": 246,
+        "bboxByThreshold": {
+          "1": [
+            239,
+            217,
+            1016,
+            1072
+          ],
+          "16": [
+            241,
+            219,
+            1014,
+            1070
+          ],
+          "127": [
+            242,
+            220,
+            1013,
+            1069
+          ]
+        },
+        "edgePixelsAbove1": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sourceSignificantHeightFraction": 0.6818181818181818,
+      "anchorPxTopLeft": [
+        404.5,
+        871
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.9819616685456595
+      ],
+      "displayVariants": [
+        {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json",
+          "silhouetteHeight": 64,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/units/infantry-128h.png",
+          "record": "exports/01-率土之滨/units/infantry-128h.png.derivation.json",
+          "silhouetteHeight": 128,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        }
+      ],
+      "sourceMarginsPx": [
+        239,
+        217,
+        238,
+        182
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "warnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ]
+    },
+    {
+      "id": "archer",
+      "sourceMaster": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png",
+      "sourceMasterSha256": "e907349d5c3ee1582669aa3e85dad9f2fcaa3b1d2be85133acf011d4352c5e18",
+      "native": "exports/01-率土之滨/units/archer-native.png",
+      "nativeRecord": "exports/01-率土之滨/units/archer-native.png.derivation.json",
+      "sourceAlphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "zeroPixels": 1238980,
+        "alpha1Pixels": 11247,
+        "opaquePixels": 476,
+        "bboxByThreshold": {
+          "1": [
+            322,
+            193,
+            1048,
+            1088
+          ],
+          "16": [
+            324,
+            194,
+            1046,
+            1085
+          ],
+          "127": [
+            325,
+            195,
+            1045,
+            1084
+          ]
+        },
+        "edgePixelsAbove1": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sourceSignificantHeightFraction": 0.7137161084529505,
+      "anchorPxTopLeft": [
+        379.0,
+        911
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.982740021574973
+      ],
+      "displayVariants": [
+        {
+          "file": "exports/01-率土之滨/units/archer-64h.png",
+          "record": "exports/01-率土之滨/units/archer-64h.png.derivation.json",
+          "silhouetteHeight": 64,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/units/archer-128h.png",
+          "record": "exports/01-率土之滨/units/archer-128h.png.derivation.json",
+          "silhouetteHeight": 128,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        }
+      ],
+      "sourceMarginsPx": [
+        322,
+        193,
+        206,
+        166
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "warnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            322,
+            193,
+            206,
+            166
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png"
+        }
+      ]
+    },
+    {
+      "id": "cavalry",
+      "sourceMaster": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png",
+      "sourceMasterSha256": "f5a98a34a33cb3699f8fb12a341f1bc267df1afe2d292aa617d8091b0fa6cf8a",
+      "native": "exports/01-率土之滨/units/cavalry-native.png",
+      "nativeRecord": "exports/01-率土之滨/units/cavalry-native.png.derivation.json",
+      "sourceAlphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "zeroPixels": 1142989,
+        "alpha1Pixels": 11736,
+        "opaquePixels": 344,
+        "bboxByThreshold": {
+          "1": [
+            290,
+            146,
+            1070,
+            1168
+          ],
+          "16": [
+            292,
+            148,
+            1068,
+            1164
+          ],
+          "127": [
+            293,
+            149,
+            1067,
+            1163
+          ]
+        },
+        "edgePixelsAbove1": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "sourceSignificantHeightFraction": 0.8149920255183413,
+      "anchorPxTopLeft": [
+        406.0,
+        1038
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.9848197343453511
+      ],
+      "displayVariants": [
+        {
+          "file": "exports/01-率土之滨/units/cavalry-64h.png",
+          "record": "exports/01-率土之滨/units/cavalry-64h.png.derivation.json",
+          "silhouetteHeight": 64,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/units/cavalry-128h.png",
+          "record": "exports/01-率土之滨/units/cavalry-128h.png.derivation.json",
+          "silhouetteHeight": 128,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        }
+      ],
+      "sourceMarginsPx": [
+        290,
+        146,
+        184,
+        86
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "warnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            290,
+            146,
+            184,
+            86
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png"
+        }
+      ]
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_unit_candidates_with_provisional_map_registration",
+  "limits": [
+    "No animation, additional look directions, timing, collider or physical map scale validation.",
+    "Display height normalizes whole silhouettes as map tokens; cavalry/infantry physical size ratio is not a game contract.",
+    "Raw low-alpha source residue is retained in native crops; only exterior transparent/alpha1 margins are cropped.",
+    "All three sources miss the requested15% margin on at least one side; cavalry has the tightest bottom margin. Visible silhouettes remain complete."
+  ]
+}

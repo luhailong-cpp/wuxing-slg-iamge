@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/li-dian-face-native.png",
+  "sha256": "445f9fc0d045cd01e08c2bea0bfaaf25ae2bbb75486b6a4fb22f70a1bcec734d",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-dian-master-v1.png",
+    "sha256": "9fc6882423f3cd86f31031d1d23ed5d98e781eb6ac5708274d67cae2fc583f02",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-dian-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      90,
+      800,
+      720
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

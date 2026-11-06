@@ -1,0 +1,20 @@
+# This batch records byte hashes of manifests, derivations and the upstream license.
+# Preserve those exact bytes across platforms; do not rewrite earlier deliveries.
+**/roster-expansion-20261102-heroes2/** -text
+**/chinese-font-20261102/** -text
+**/troop-walk-20261102/** -text
+**/world-terrain-20261102-kit/** -text
+exports/**/fonts/wuxing-ui-20261102/** -text
+# Keep the upstream OFL text verbatim, including its existing trailing space.
+exports/**/fonts/**/OFL.txt -whitespace
+**/roster-expansion-20261104-heroes3/** -text
+**/roster-coverage-20261104/** -text
+**/world-terrain-20261104-kit/** -text
+**/ui-artonly-20261104/** -text
+**/map-artonly-20261104/** -text
+**/official-card-art-20261104/** -text
+**/roster-expansion-20261104-heroes4/** -text
+**/roster-expansion-20261106-heroes5/** -text
+**/terrain-mirror-20261104/** -text
+**/user-ui-intake-20261106/** -text
+**/roster-expansion-20261106-heroes6/** -text

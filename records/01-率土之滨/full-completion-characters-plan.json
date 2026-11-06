@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "art_source": "host_image",
+  "route": "builtin_image_gen",
+  "modelTarget": "config/image-generation.json",
+  "finish": "hd",
+  "alphaMode": "native_alpha",
+  "canvasIntent": "2:3 portrait full-body static master with >=9% top/bottom and >=8% side safe margins",
+  "camera": "front-readable three-quarter",
+  "facing": "slight three-quarter toward viewer; face readable",
+  "outputFormat": "PNG RGBA",
+  "actions": [
+    "static_master"
+  ],
+  "animationsGenerated": false,
+  "gameDisplaySize": "待整套接入脚本确定，原生尺寸保留，未缩放",
+  "sharedRoot": "单张静态立绘；暂不定义动作共用根点或碰撞体",
+  "characters": [
+    {
+      "stem": "02-liu-bei-v1",
+      "name": "刘备",
+      "prompt": "prompts/01-率土之滨/02-liu-bei-v1.prompt.txt",
+      "references": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/04-general-detail.jpg",
+        "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg"
+      ],
+      "identityScope": "历史角色的道家Q版原创演绎",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "03-cao-cao-v1",
+      "name": "曹操",
+      "prompt": "prompts/01-率土之滨/03-cao-cao-v1.prompt.txt",
+      "references": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/05-army-formation.jpg"
+      ],
+      "identityScope": "历史角色的道家Q版原创演绎",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/03-cao-cao-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "04-sun-quan-v1",
+      "name": "孙权",
+      "prompt": "prompts/01-率土之滨/04-sun-quan-v1.prompt.txt",
+      "references": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/01-spear-dao-general-v1.png"
+      ],
+      "identityScope": "历史角色的道家Q版原创演绎",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "05-zhao-yun-v1",
+      "name": "赵云",
+      "prompt": "prompts/01-率土之滨/05-zhao-yun-v1.prompt.txt",
+      "references": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/01-spear-dao-general-v1.png"
+      ],
+      "identityScope": "历史角色的道家Q版原创演绎",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/05-zhao-yun-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "06-zhuge-liang-v1",
+      "name": "诸葛亮",
+      "prompt": "prompts/01-率土之滨/06-zhuge-liang-v1.prompt.txt",
+      "references": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/01-spear-dao-general-v1.png"
+      ],
+      "identityScope": "历史角色的道家Q版原创演绎",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "07-tutorial-guide-v1",
+      "name": "引导少女",
+      "prompt": "prompts/01-率土之滨/07-tutorial-guide-v1.prompt.txt",
+      "references": [
+        "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+        "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+        "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+        "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg"
+      ],
+      "identityScope": "原创成年教程助手，截图身份衣装功能参考",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/07-tutorial-guide-v1.png",
+      "fiveElementsRedesignRequired": false,
+      "wuxingIdentityReviewRequired": true
+    }
+  ],
+  "approval": "本批完成静态master并自检，待用户确认形象，不将静态稿冒称动作动画或引擎接入完成",
+  "additionalWorkingBaseline": [
+    {
+      "stem": "08-guan-yu-v1",
+      "name": "关羽",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/08-guan-yu-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "09-zhang-fei-v1",
+      "name": "张飞",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/09-zhang-fei-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "10-zhou-yu-v1",
+      "name": "周瑜",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "11-lv-bu-v1",
+      "name": "吕布",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/11-lv-bu-v2.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "12-diao-chan-v1",
+      "name": "貂蝉",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/12-diao-chan-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "13-hua-tuo-v1",
+      "name": "华佗",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/13-hua-tuo-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    },
+    {
+      "stem": "14-huang-yue-ying-v1",
+      "name": "黄月英",
+      "status": "generated_legacy_direction_candidate_not_release",
+      "lastCandidate": "designs/01-率土之滨/characters/14-huang-yue-ying-v1.png",
+      "fiveElementsRedesignRequired": true,
+      "wuxingIdentityReviewRequired": true
+    }
+  ],
+  "scopeNote": "该13位是已停止的旧方向工作名单；12位历史身份必须重新设计为五行原创，不可仅改名。引导少女需五行身份审查。均为静态候选，不含动画或首发验收。",
+  "themeCorrection": {
+    "date": "2026-10-27",
+    "direction": "用户明确金木水火土；率土之滨仅功能参考",
+    "generationStopped": true,
+    "inFlightCalls": 0,
+    "historicalIdentityCandidatesAreNotRelease": true,
+    "renameOnlyForbidden": true
+  }
+}

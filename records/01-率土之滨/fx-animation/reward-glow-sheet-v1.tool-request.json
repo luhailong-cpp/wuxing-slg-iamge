@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T16:37:45.084Z",
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept.\nCreate ONE transparent production-candidate sprite sheet for a Taoist fantasy REWARD GLOW one-shot animation. EXACTLY EIGHT unique sequential frames in FOUR equal columns and TWO equal rows, left-to-right then top-to-bottom. Overall canvas2:1, target2048x1024 if available. No grid lines, numbers, labels, captions, panels, text, landscape, characters, coins, items or watermark.\nReference1 and2 are only the project's approved HD hand-painted Taoist jade/ivory/warm-gold style and material finish. Reference3 is the identity of this effect: a warm-gold four-point starburst at the center, an elegant slanted elliptical light orbit and a few small ivory/jade leaf-like sparks. Animate THAT effect rather than drawing unrelated rewards.\nFIXED REGISTRATION: same straight-on camera throughout, star core anchored exactly at x50% y50% in every equal cell. Keep the complete phase including every ray/glow/spark within the central60% width and height, with at least20% genuinely transparent gutter on ALL sides. Do not move the star core or reframe each phase's changing bounding box. No spark or glow crosses a cell line.\nEight consecutive one-shot phases at0.1s each:\n1 tiny faint NONEMPTY warm-gold four-point twinkle at the fixed center;\n2 slightly brighter twinkle with a short slanted arc beginning to trace around it;\n3 a small four-point star, a thin half ellipse of gold light and two tiny jade sparks;\n4 bright star expanding along its fixed four axes, orbit nearly complete, a few ivory/jade sparks;\n5 PEAK rich gold/ivory four-point starburst with the complete elegant slanted orbit and sparse jade sparks, all inside the safe envelope;\n6 star contracts, orbit thins and begins breaking into particles;\n7 only a small dim star core and several separated fading light points;\n8 tiny faint NONEMPTY final golden twinkle and one very small jade spark, distinct from frame1.\nSmoothly staged rise/peak/fall of the same visual motif, no rotation of camera, no zoom jumps, no opaque circular backdrop. Keep hand-painted tapered light rays and soft translucent aura, refined warm gold and ivory with a little jade, matching the two style images. This is an eight-phase hand-painted FX preview, no game damage or reward logic.\nOutput actual native RGBA transparency, no fake checkerboard, no black or white background, no chroma key, no rectangular haze. Leave all space outside the effect envelope transparent.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/reward-glow.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null,
+    "promptFile": "prompts/01-率土之滨/fx-animation/reward-glow-sheet-v1.prompt.txt"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  }
+}

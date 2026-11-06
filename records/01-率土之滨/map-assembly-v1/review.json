@@ -1,0 +1,957 @@
+{
+  "schema": "wuxing.map-assembly-review.v1",
+  "reviewedAt": "2026-10-27T19:10:14.829684+00:00",
+  "status": "candidate_usable_for_layout_and_navigation_preview_with_WARN_and_SKIPPED_items",
+  "scope": "independent next-batch candidate; no modification to frozen phase2, README, catalog, Git or existing Unity packages",
+  "artRoute": "existing generated map crops and existing unit derivative only; no new image/video/model/CLI call",
+  "currentFiles": {
+    "bundle": {
+      "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293"
+    },
+    "placements": {
+      "file": "exports/01-率土之滨/map-assembly-v1/placements.json",
+      "sha256": "39c780eb09a8541473c291a043031060b1cb11a2b3d23b986892b20c1c3d5297"
+    },
+    "plan": {
+      "file": "exports/01-率土之滨/map-assembly-v1/layout-plan.json",
+      "sha256": "b7ca3bbf3b30c499905ecb82ad94ccc648862966bdb696139db46da3adb9cbb0"
+    },
+    "preview": {
+      "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview-current.png",
+      "sha256": "a057f1bad139e838a2111e36ef68be43893665c5ac5c5e28a3968fcaea565550"
+    },
+    "playable": {
+      "file": "exports/01-率土之滨/map-assembly-v1/playable-preview.html",
+      "sha256": "9bff1506cf59c887f6858586c527b115f9cdb7ab2bc95fc95598d10705475272"
+    }
+  },
+  "counts": {
+    "availableMapCrops": 33,
+    "mapCropsUsed": 6,
+    "unitPNGsUsed": 1,
+    "terrainInstances": 35,
+    "propInstances": 3,
+    "unitAnimationFrames": 1,
+    "world": [
+      1440,
+      960
+    ]
+  },
+  "bundleValidation": {
+    "status": "pass",
+    "report": {
+      "file": "records/01-率土之滨/map-assembly-v1/bundle-report-current.json",
+      "sha256": "8a594a41a61dc50a41697ff744ff6ddcd33d1dfa870b52a4bc70343f97e7f1a0"
+    }
+  },
+  "navigation": {
+    "status": "warn",
+    "reachableTargets": 6,
+    "totalTargets": 6,
+    "actorRadius": 8,
+    "ySquash": 0.6,
+    "cell": 4,
+    "report": {
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-report.json",
+      "sha256": "92fffe59be90361988938fd47da7a17037108d79f2ab9e5d917e2ba6a819d01a"
+    },
+    "notProven": [
+      "that the collision data matches the painted art",
+      "positions closer than one grid cell to a blocker (the grid samples cell centres)",
+      "runtime movement code: map-runtime.mjs parity is tested during integration",
+      "links to maps not passed with --link"
+    ]
+  },
+  "negativeControl": {
+    "expected": "Removing the only bridge walk union disconnects the river banks.",
+    "status": "fail",
+    "unreachableTargets": [
+      {
+        "kind": "interaction",
+        "id": "enemy-camp",
+        "point": [
+          950.0,
+          795.0
+        ],
+        "reachable": false,
+        "steps": null,
+        "node": null,
+        "reason": "no reachable node within reach 115 px"
+      },
+      {
+        "kind": "approach",
+        "id": "bridge-mid/approach[0]",
+        "point": [
+          750.0,
+          500.0
+        ],
+        "reachable": false,
+        "steps": null,
+        "node": null,
+        "reason": "the actor cannot stand here (footprint blocked)"
+      },
+      {
+        "kind": "approach",
+        "id": "bridge-east/approach[0]",
+        "point": [
+          850.0,
+          564.0
+        ],
+        "reachable": false,
+        "steps": null,
+        "node": null,
+        "reason": "no reachable node within two cells in a clear straight line"
+      },
+      {
+        "kind": "approach",
+        "id": "enemy-approach/approach[0]",
+        "point": [
+          1030.0,
+          730.0
+        ],
+        "reachable": false,
+        "steps": null,
+        "node": null,
+        "reason": "no reachable node within two cells in a clear straight line"
+      }
+    ],
+    "expectedUnreachableCount": 4,
+    "evidence": {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-report.json",
+      "sha256": "a6444a2b47d335ab604124efa035c40e2de2719c038528040db2764d6aaef165"
+    },
+    "interpretedAs": "expected negative control, not accepted-map failure"
+  },
+  "browser": {
+    "actualVersion": "156.0.8078.48",
+    "actualInstalledExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+    "baselineOfficialVerify": "SKIPPED: downloaded playwright Chromium absent; raw report retained",
+    "independentActualChromeRun": {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/verification.json",
+      "sha256": "c9555c902621c7b4c4e8a0ca32ec5e9c59d7ecdc018dc01e9fd7e7d1fc45181f"
+    },
+    "unitPagePassed": true,
+    "allSixRoutes": true,
+    "allRouteMaxStepAtMost": 2.5,
+    "budgetPxPerTick": 2.5,
+    "tickHz": 60,
+    "pageErrors": [],
+    "consoleErrors": [],
+    "externalRequests": [],
+    "assets": {
+      "total": 5,
+      "loaded": 5,
+      "failed": []
+    },
+    "keyboard": [
+      {
+        "key": "ArrowRight",
+        "free": true,
+        "moved": 32.5
+      },
+      {
+        "key": "ArrowLeft",
+        "free": true,
+        "moved": 30
+      },
+      {
+        "key": "ArrowDown",
+        "free": true,
+        "moved": 30
+      },
+      {
+        "key": "ArrowUp",
+        "free": true,
+        "moved": 30
+      }
+    ],
+    "unitFootChecks": [
+      {
+        "name": "spawn",
+        "foot": [
+          750,
+          372
+        ],
+        "valid": true,
+        "metadata": {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "loaded": true,
+          "sourceAnchorPx": [
+            128,
+            224
+          ],
+          "displayScale": 1,
+          "foot": [
+            750,
+            372
+          ],
+          "drawTopLeft": [
+            622,
+            148
+          ],
+          "drawCalls": 64,
+          "actorDrawIndex": 1,
+          "objectIds": [
+            "city",
+            "bridge",
+            "enemy-camp"
+          ],
+          "objectSortY": [
+            308,
+            430,
+            780
+          ],
+          "directionArtwork": "SE static"
+        },
+        "unitVisiblePixelDiff": {
+          "pixels": 2261,
+          "bbox": [
+            720,
+            308,
+            781,
+            373
+          ]
+        },
+        "expectedSourceAlphaBoundsWorld": [
+          720,
+          307,
+          781,
+          373
+        ],
+        "diffInsideActualSpriteBounds": true
+      },
+      {
+        "name": "bridge-west",
+        "foot": [
+          650,
+          436
+        ],
+        "valid": true,
+        "metadata": {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "loaded": true,
+          "sourceAnchorPx": [
+            128,
+            224
+          ],
+          "displayScale": 1,
+          "foot": [
+            650,
+            436
+          ],
+          "drawTopLeft": [
+            522,
+            212
+          ],
+          "drawCalls": 71,
+          "actorDrawIndex": 2,
+          "objectIds": [
+            "city",
+            "bridge",
+            "enemy-camp"
+          ],
+          "objectSortY": [
+            308,
+            430,
+            780
+          ],
+          "directionArtwork": "SE static"
+        },
+        "unitVisiblePixelDiff": {
+          "pixels": 2268,
+          "bbox": [
+            620,
+            371,
+            681,
+            437
+          ]
+        },
+        "expectedSourceAlphaBoundsWorld": [
+          620,
+          371,
+          681,
+          437
+        ],
+        "diffInsideActualSpriteBounds": true
+      },
+      {
+        "name": "bridge-mid",
+        "foot": [
+          750,
+          500
+        ],
+        "valid": true,
+        "metadata": {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "loaded": true,
+          "sourceAnchorPx": [
+            128,
+            224
+          ],
+          "displayScale": 1,
+          "foot": [
+            750,
+            500
+          ],
+          "drawTopLeft": [
+            622,
+            276
+          ],
+          "drawCalls": 80,
+          "actorDrawIndex": 2,
+          "objectIds": [
+            "city",
+            "bridge",
+            "enemy-camp"
+          ],
+          "objectSortY": [
+            308,
+            430,
+            780
+          ],
+          "directionArtwork": "SE static"
+        },
+        "unitVisiblePixelDiff": {
+          "pixels": 2267,
+          "bbox": [
+            720,
+            435,
+            781,
+            501
+          ]
+        },
+        "expectedSourceAlphaBoundsWorld": [
+          720,
+          435,
+          781,
+          501
+        ],
+        "diffInsideActualSpriteBounds": true
+      },
+      {
+        "name": "bridge-east",
+        "foot": [
+          850,
+          564
+        ],
+        "valid": true,
+        "metadata": {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "loaded": true,
+          "sourceAnchorPx": [
+            128,
+            224
+          ],
+          "displayScale": 1,
+          "foot": [
+            850,
+            564
+          ],
+          "drawTopLeft": [
+            722,
+            340
+          ],
+          "drawCalls": 89,
+          "actorDrawIndex": 2,
+          "objectIds": [
+            "city",
+            "bridge",
+            "enemy-camp"
+          ],
+          "objectSortY": [
+            308,
+            430,
+            780
+          ],
+          "directionArtwork": "SE static"
+        },
+        "unitVisiblePixelDiff": {
+          "pixels": 2263,
+          "bbox": [
+            820,
+            499,
+            881,
+            565
+          ]
+        },
+        "expectedSourceAlphaBoundsWorld": [
+          820,
+          499,
+          881,
+          565
+        ],
+        "diffInsideActualSpriteBounds": true
+      },
+      {
+        "name": "enemy-approach",
+        "foot": [
+          1030,
+          730
+        ],
+        "valid": true,
+        "metadata": {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "loaded": true,
+          "sourceAnchorPx": [
+            128,
+            224
+          ],
+          "displayScale": 1,
+          "foot": [
+            1030,
+            730
+          ],
+          "drawTopLeft": [
+            902,
+            506
+          ],
+          "drawCalls": 98,
+          "actorDrawIndex": 2,
+          "objectIds": [
+            "city",
+            "bridge",
+            "enemy-camp"
+          ],
+          "objectSortY": [
+            308,
+            430,
+            780
+          ],
+          "directionArtwork": "SE static"
+        },
+        "unitVisiblePixelDiff": {
+          "pixels": 1825,
+          "bbox": [
+            1001,
+            666,
+            1060,
+            730
+          ]
+        },
+        "expectedSourceAlphaBoundsWorld": [
+          1000,
+          665,
+          1061,
+          731
+        ],
+        "diffInsideActualSpriteBounds": true
+      },
+      {
+        "name": "enemy-front",
+        "foot": [
+          950,
+          795
+        ],
+        "valid": true,
+        "metadata": {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "loaded": true,
+          "sourceAnchorPx": [
+            128,
+            224
+          ],
+          "displayScale": 1,
+          "foot": [
+            950,
+            795
+          ],
+          "drawTopLeft": [
+            822,
+            571
+          ],
+          "drawCalls": 107,
+          "actorDrawIndex": 3,
+          "objectIds": [
+            "city",
+            "bridge",
+            "enemy-camp"
+          ],
+          "objectSortY": [
+            308,
+            430,
+            780
+          ],
+          "directionArtwork": "SE static"
+        },
+        "unitVisiblePixelDiff": {
+          "pixels": 2262,
+          "bbox": [
+            920,
+            730,
+            981,
+            796
+          ]
+        },
+        "expectedSourceAlphaBoundsWorld": [
+          920,
+          730,
+          981,
+          796
+        ],
+        "diffInsideActualSpriteBounds": true
+      }
+    ],
+    "mouseAndEInteractionReport": {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/interaction-check.json",
+      "sha256": "cbb647e11edb35b8682f8db6bc255aeb36202bc972b7b2d1061a8447124e182c"
+    },
+    "mouseAndEChecksPassed": true,
+    "baselineOpaquePixelProbe": {
+      "status": "skipped",
+      "reason": "no object art is opaque where the marker would stand behind it"
+    },
+    "initialCustomVerifierOverallFalseExplanation": "Baseline probe returned status=skipped without an ok field. The custom verifier incorrectly classified undefined ok as failed. Original false report is retained. This review treats it as SKIPPED, never a passing opacity/occlusion test. Representative-unit checks and routes actually passed.",
+    "opacityOcclusionAccepted": false
+  },
+  "manualVisualReview": {
+    "imagesActuallyViewed": [
+      "records/01-率土之滨/map-assembly-v1/assembly-light-dark.png",
+      "records/01-率土之滨/map-assembly-v1/unit-footpoint-review.png",
+      "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-spawn.png",
+      "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-mid.png"
+    ],
+    "findings": [
+      "City→single bridge→enemy camp composition is readable at candidate 64px unit scale.",
+      "Initial camp tower overlapped east bridge approach; current camp moved to [950,780], bridge exit now visible.",
+      "At reviewed bridge west/mid/east points the unit foot aligns to the authored deck plane, with whole bridge drawn below it. Exact front rail occlusion remains absent.",
+      "At enemy approach the unit is partly hidden by camp art as a y-sort candidate; front position is visible. Per-pixel cue is absent.",
+      "Tiled flowers and stone rims repeat; grass/road/river seams, mirrored lighting and bank joins remain visible. Continuous seamless terrain is not accepted.",
+      "Light/dark views show retained soft alpha; no source alpha threshold cleanup was performed."
+    ],
+    "paintedCollisionApproved": false,
+    "clientScaleApproved": false,
+    "seamlessApproved": false
+  },
+  "warningsVerbatim": [
+    {
+      "id": "TERRAIN_SEAMS_UNVERIFIED",
+      "value": "stone-rimmed standalone grass/river/road dioramas repeated at uniform 0.72 scale",
+      "threshold": "seam-compatible shared edge pixels and sockets required for continuous terrain",
+      "status": "WARN"
+    },
+    {
+      "id": "RIVER_MIRRORED_FOR_AXIS",
+      "value": 5,
+      "threshold": "mirror-safe lighting and shore continuity not approved",
+      "status": "WARN"
+    },
+    {
+      "id": "PROVISIONAL_COLLISION_AND_ROADS",
+      "value": "manually authored land unions, bridge corridor, small building-base ellipses and route centreline",
+      "threshold": "painted contact, edge and collision approval required",
+      "status": "WARN"
+    },
+    {
+      "id": "BRIDGE_SINGLE_SPRITE_DEPTH",
+      "value": "whole bridge sorts below player on deck; foreground rail is not split",
+      "threshold": "front rail occluder or approved engine depth solution required",
+      "status": "WARN"
+    },
+    {
+      "id": "REPRESENTATIVE_UNIT_STATIC_SE",
+      "value": "existing infantry-64h PNG, foot [128,224], static slide in any movement direction",
+      "threshold": "directional walk animations are absent",
+      "status": "WARN"
+    },
+    {
+      "id": "SCALE_CONVENTION_PROVISIONAL",
+      "value": "64px silhouette, 8x4.8px foot ellipse, uniform world terrain scale 0.72",
+      "threshold": "client gameplay scale and camera contract not accepted",
+      "status": "WARN"
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": "all source alpha retained; compositing/resampling may accumulate faint alpha",
+      "threshold": "no alpha cleanup or threshold deletion authorized",
+      "status": "WARN"
+    },
+    {
+      "id": "NO_PER_PIXEL_OCCLUSION_CUE",
+      "value": "simple y-sort only; actor-shaped cue behind roofs is not implemented",
+      "threshold": "client depth/occlusion review required",
+      "status": "WARN"
+    }
+  ],
+  "inheritedSourceWarningsVerbatim": [
+    {
+      "status": "WARN",
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2484,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "status": "WARN",
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2862,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "status": "WARN",
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2928,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "status": "WARN",
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4060,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "status": "WARN",
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5117,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "status": "WARN",
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4277,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "status": "WARN",
+      "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+      "value": [
+        239,
+        217,
+        238,
+        182
+      ],
+      "threshold": {
+        "minimumEachSidePx": 188.1
+      },
+      "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+    }
+  ],
+  "qaEnvelopeNonPassVerbatim": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview-qa.json",
+      "id": "browser-verify",
+      "status": "skipped",
+      "value": "chromium did not launch: browserType.launch: Executable doesn't exist at C:\\Users\\luyua\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1234\\chrome-headless-shell-win64\\chrome-headless-shell.exe",
+      "threshold": null
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/bundle-report-initial-schema-failure.json",
+      "id": "schema",
+      "status": "fail",
+      "value": {
+        "errors": 4,
+        "warnings": 0
+      },
+      "threshold": {
+        "errors": 0
+      }
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-report.json",
+      "id": "unreachable_walkable_area",
+      "status": "warn",
+      "value": {
+        "pockets": 2,
+        "cells": 3
+      },
+      "threshold": "reported"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-report.json",
+      "id": "targets_reachable",
+      "status": "fail",
+      "value": {
+        "reachable": 2,
+        "total": 6,
+        "unreachable": [
+          "enemy-camp",
+          "bridge-mid/approach[0]",
+          "bridge-east/approach[0]",
+          "enemy-approach/approach[0]"
+        ]
+      },
+      "threshold": {
+        "unreachable": 0
+      }
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-report.json",
+      "id": "unreachable_walkable_area",
+      "status": "warn",
+      "value": {
+        "pockets": 1,
+        "cells": 10542
+      },
+      "threshold": "reported"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-report.json",
+      "id": "targets_reachable",
+      "status": "fail",
+      "value": {
+        "reachable": 2,
+        "total": 6,
+        "unreachable": [
+          "enemy-camp",
+          "bridge-mid/approach[0]",
+          "bridge-east/approach[0]",
+          "enemy-approach/approach[0]"
+        ]
+      },
+      "threshold": {
+        "unreachable": 0
+      }
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-report.json",
+      "id": "unreachable_walkable_area",
+      "status": "warn",
+      "value": {
+        "pockets": 3,
+        "cells": 10542
+      },
+      "threshold": "reported"
+    }
+  ],
+  "historicalEvidence": {
+    "file": "records/01-率土之滨/map-assembly-v1/historical-input-index.json",
+    "sha256": "8a59dea736eb44e546c377c7866ae351f96d2c839febc4358d992ab6011d1017"
+  },
+  "minimumNewArtNeeds": [
+    {
+      "id": "seam-compatible-ground",
+      "need": "One grass foundation tile family without the current per-tile stone rim, with shared diamond edges/sockets at declared camera; existing grass diorama cannot tile seamlessly."
+    },
+    {
+      "id": "matched-river-bank-crossing",
+      "need": "One straight river tile family in both declared axes with shared water/bank sockets plus matched bridge approaches; current independent diorama ends remain visible."
+    },
+    {
+      "id": "continuous-road-overlay",
+      "need": "Transparent road overlays for two axes and a corner with the same sockets if a continuous painted city-to-camp road is required; current stone-road crop supports only one direction."
+    },
+    {
+      "id": "bridge-depth",
+      "need": "Separate front-rail occluder or a matched bridge deck/front split, keeping approved camera and endpoints, before actor-on-deck depth is final."
+    }
+  ],
+  "acceptance": {
+    "userApproved": false,
+    "clientIntegrated": false,
+    "unityBuiltOrModified": false,
+    "completeGameAccepted": false,
+    "navigationDataVerified": true,
+    "keyboardMousePlayableInActualChrome": true,
+    "staticUnitMovementOnly": true,
+    "allArtNativeSourcesUnchanged": true
+  },
+  "imageTraceability": {
+    "pngCount": 20,
+    "allPNGDecodeAndOutputHashAndDirectSourceHashChecksPassed": true,
+    "images": [
+      {
+        "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview-current.png",
+        "sha256": "a057f1bad139e838a2111e36ef68be43893665c5ac5c5e28a3968fcaea565550",
+        "record": "exports/01-率土之滨/map-assembly-v1/assembled-preview-current.png.derivation.json"
+      },
+      {
+        "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview.png",
+        "sha256": "c8ab834d7a8f80958434926f872e538282980545021a2489174ea208ecc27365",
+        "record": "exports/01-率土之滨/map-assembly-v1/assembled-preview.png.derivation.json"
+      },
+      {
+        "file": "exports/01-率土之滨/map-assembly-v1/scene-base.png",
+        "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0",
+        "record": "exports/01-率土之滨/map-assembly-v1/scene-base.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/assembly-light-dark.png",
+        "sha256": "21b0ae0cff7c6571ef1bbc87f5a0f61478790012ef8f1ae555c7fb7164a04352",
+        "record": "records/01-率土之滨/map-assembly-v1/assembly-light-dark.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/baseline-debug.png",
+        "sha256": "84bd394be7685c2ba4fe3a082360f770dd7f54efb9e4a91c20557b4f8256308c",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/baseline-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/baseline-spawn.png",
+        "sha256": "571598e79260920356f176362412be994c150e069c93b62444cc760a180c3f63",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/baseline-spawn.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-debug.png",
+        "sha256": "dbe14615d97bac09eea7dee0642ec0f144f34fbee8541c8892fb831d59352d83",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-spawn.png",
+        "sha256": "38c61451626ef4e9d69a2ec91fba6a5dac8a4dbab1f40d56b3129fa1797799e6",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/representative-unit-spawn.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-east.png",
+        "sha256": "cd4819ed1af96c841e3bd1b1b7698c12ba20ee0a69ba6cfff368fdd4611dece5",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-east.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-mid.png",
+        "sha256": "88516a6b35e750b7d5ac23760f13ae634b081732b99ff39ccb6ae7a98e9100e8",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-mid.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-west.png",
+        "sha256": "4a9f1b42c4ebab9ddd824273afce78ae0df8114350a160ae10209ba9326f6b06",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-west.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-approach.png",
+        "sha256": "650374be6db67369640f0496b16053597eaff435c0c1c3278e759183bd545987",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-approach.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-front.png",
+        "sha256": "1d4d743785a558e91806c9bcf2e8c3adb2a2f042b2bb9be98a0d59f7c83d20c3",
+        "record": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-enemy-front.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/navigation/nav-debug.png",
+        "sha256": "cc03d5b1dfbecb11a9e3980ebc8bd16c60eb0a954744558834bf788120ffba96",
+        "record": "records/01-率土之滨/map-assembly-v1/navigation/nav-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-debug.png",
+        "sha256": "39b7f493e2da112f25958da7aa3d6eadb8b5c03e784fe7d00fa28148319d28f0",
+        "record": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-debug.png",
+        "sha256": "8e8c52508cc5b16d3376094049715112165b1b90721e5a71584e1f2eac88ef4e",
+        "record": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-debug.png",
+        "sha256": "1f87bbfc85d09417283af00e4e8d8479e5a268f1b0accd82295770a37bd9e20d",
+        "record": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/placement-debug-current.png",
+        "sha256": "8f1729fb24d67132e02674ea7d872a46f07a067151bc0b01760bba5983557c1f",
+        "record": "records/01-率土之滨/map-assembly-v1/placement-debug-current.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/placement-debug.png",
+        "sha256": "66d3c4f341d406270461ad2e1a64a78b85acb34f70237f073eabfae652443eab",
+        "record": "records/01-率土之滨/map-assembly-v1/placement-debug.png.derivation.json"
+      },
+      {
+        "file": "records/01-率土之滨/map-assembly-v1/unit-footpoint-review.png",
+        "sha256": "a926e3eefefbf693144672bbd0c1c4c161badc544d517596aa5a0a9b376e51de",
+        "record": "records/01-率土之滨/map-assembly-v1/unit-footpoint-review.png.derivation.json"
+      }
+    ]
+  },
+  "metadataWarningsVerbatim": [
+    {
+      "id": "HISTORICAL_PRE_REPAIR_INPUT_BYTES_NOT_RETAINED",
+      "status": "WARN",
+      "value": [
+        {
+          "report": "records/01-率土之滨/map-assembly-v1/bundle-report-initial-schema-failure.json",
+          "expectedInputSha256": "66dcf2a2c5b27e12dcc179bf0fd14d19f39bc18abe800341cbddd5b1cffd936c",
+          "reconstructedSha256": "d1ba7892ac10a18254f38680eb050655b0fdac0cd721d2cfab5d8346c8a48bb3",
+          "exactMatch": false,
+          "method": "reconstruct from retained initial JSON snapshot and known author operations; accept only byte hash equality"
+        },
+        {
+          "report": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-report.json",
+          "expectedInputSha256": "d7e59ee059ca515f8c5787ff7103c6edcbd76b9054067e8fbff7d58382996e2c",
+          "reconstructedSha256": "cc29ecfa0c5062c04633da42ab53837f6791f7339c928facac1a2505c6c657dd",
+          "exactMatch": false,
+          "method": "reconstruct from retained initial JSON snapshot and known author operations; accept only byte hash equality"
+        }
+      ],
+      "threshold": "raw input byte snapshot matching each historical report hash; proposed reconstruction was rejected on hash inequality",
+      "file": "records/01-率土之滨/map-assembly-v1/historical-input-index.json",
+      "scope": "initial schema-invalid input and initial negative-control JSON only; current bundle, source PNGs, valid initial layout snapshot and all current checks remain fully hashed"
+    }
+  ],
+  "sourcePNGRecheck": [
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "matchesSavedInput": true
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "matchesSavedInput": true
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "matchesSavedInput": true
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "matchesSavedInput": true
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "matchesSavedInput": true
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "matchesSavedInput": true
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "matchesSavedInput": true
+    }
+  ]
+}

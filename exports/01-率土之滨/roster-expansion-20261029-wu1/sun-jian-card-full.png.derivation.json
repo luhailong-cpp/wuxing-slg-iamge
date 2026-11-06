@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-card-full.png",
+  "sha256": "99a6c5a2172432756fd8c0095326cf158854fdb51c9912d7dee75fe7534f3342",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "sun-jian",
+  "personID": "ww-p-745064a05078",
+  "displayName": "孙坚",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png",
+      "sha256": "afafd07555ff615c7824efb17526c992759bb8cacb36b4fdecefda4e6cb9cc6c",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png.generation.json",
+      "recordSha256": "283013ac28065e16472e1e28e98b97cd6290d0312f93039cf5ae3d431ad57c42"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    235,
+    670,
+    475
+  ],
+  "faceRoiOutputApprox": [
+    313.88,
+    209.56,
+    492.62,
+    374.56
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 458410,
+    "alpha1Pixels": 7383,
+    "semiTransparentPixels": 425173,
+    "opaquePixels": 1153,
+    "bboxAbove32": [
+      49,
+      62,
+      725,
+      1088
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgePixelsAbove0": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      49,
+      62,
+      43,
+      64
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        25,
+        20,
+        16,
+        24
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 7383,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

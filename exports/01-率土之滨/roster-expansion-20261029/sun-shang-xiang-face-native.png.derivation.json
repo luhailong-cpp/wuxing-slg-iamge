@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/sun-shang-xiang-face-native.png",
+  "sha256": "e80d7e5ea1e4486ba55d74780d85bc58278e38a71c6a5604ff9635df5110d821",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/sun-shang-xiang-master-v1.png",
+    "sha256": "969eea7e4b530b124bd12a58ddd61b747351a81b47908169289d709cfde4b243",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/sun-shang-xiang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      310,
+      165,
+      830,
+      705
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

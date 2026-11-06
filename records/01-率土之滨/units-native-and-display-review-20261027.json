@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T13:54:09.487144+00:00",
+  "reviewer": "root",
+  "fileChecks": [
+    {
+      "id": "infantry",
+      "source": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+      "sourceSha256Matches": true,
+      "nativePixelArrayEqualsSourceCrop": true,
+      "sourceSignificantMarginsPx": [
+        239,
+        217,
+        238,
+        182
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "nativeDimensions": [
+        809,
+        887
+      ],
+      "nativeAlphaRange": [
+        0,
+        255
+      ],
+      "nativeVisibleEdgeCrossingsAbove1": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "archer",
+      "source": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png",
+      "sourceSha256Matches": true,
+      "nativePixelArrayEqualsSourceCrop": true,
+      "sourceSignificantMarginsPx": [
+        322,
+        193,
+        206,
+        166
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "nativeDimensions": [
+        758,
+        927
+      ],
+      "nativeAlphaRange": [
+        0,
+        255
+      ],
+      "nativeVisibleEdgeCrossingsAbove1": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "cavalry",
+      "source": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png",
+      "sourceSha256Matches": true,
+      "nativePixelArrayEqualsSourceCrop": true,
+      "sourceSignificantMarginsPx": [
+        290,
+        146,
+        184,
+        86
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "nativeDimensions": [
+        812,
+        1054
+      ],
+      "nativeAlphaRange": [
+        0,
+        255
+      ],
+      "nativeVisibleEdgeCrossingsAbove1": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "visualChecks": [
+    "实际查看3张原生返回、3张米白/深青原生alpha合成，以及64/128高的显示派生。",
+    "步兵盾/短枪、弓兵弓/箭袋、骑兵马/骑手类别清楚，统一斜俯视SE候选。",
+    "骑兵实际可见四蹄、双耳、单尾、缰绳与骑手持杖；主体均无裁切。",
+    "明暗底未见实质背景或可见大光晕，原生低值alpha未抹除。"
+  ],
+  "warnings": [
+    "三张原生余边均未严格达提示15%；底部余边步兵182px/14.5%、弓兵166px/13.2%、骑兵86px/6.9%，不作为严格余边合同通过。",
+    "64/128显示高度统一为地图标识约定，不代表马与人真实物理尺度。",
+    "部分背景低值alpha保留，锚点/PPU/碰撞待目标客户端校准。"
+  ],
+  "static": true,
+  "animationFrameCount": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_candidates_visually_reviewed_pending_user_and_engine_review"
+}

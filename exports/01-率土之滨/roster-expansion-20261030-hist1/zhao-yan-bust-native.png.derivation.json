@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/zhao-yan-bust-native.png",
+  "sha256": "5bd632c3ea15310b187ad15b5a8ff416d83cb0315b3c43154ee557be304c2703",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhao-yan-master-v1.png",
+    "sha256": "9745b59f19ae1dda4a3f6b44f267e829ab1934dcfadddf44398ca2929b83b3f9",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhao-yan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

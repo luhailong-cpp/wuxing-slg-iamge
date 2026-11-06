@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-29T02:41:48.901Z",
+  "method": "forge_doctor --no-exec; no probe-auth, verify-route, generation, ffmpeg, ffprobe or CLI execution",
+  "doctorScript": "C:/Users/luyua/.codex/skills/generate2dmedia/scripts/forge_doctor.py",
+  "doctorScriptSha256": "cbdbb42b92aaa4e9c49535b8f6d39727a36d5958da046b5987c77f09d9848078",
+  "processExitCode": 0,
+  "hostNativeImageToVideoAvailable": "no",
+  "hostRunwayOrHiggsfieldToolAvailable": "no",
+  "hostToolEvidence": "Active callable tool metadata checked; no video generation namespace exposed. Pets tools are not a general image-to-video route.",
+  "apiKeyConfiguredYesNo": {
+    "xai": "no",
+    "byteplus": "no",
+    "fal": "no"
+  },
+  "localGrokNativeExecutableFound": "no",
+  "localGrokToolExposureVerified": "no",
+  "localGrokAuthVerified": "no",
+  "paidGenerationAuthorizedForThisTask": "no",
+  "networkGenerationCalled": "no",
+  "credentialsPrintedOrSaved": "no",
+  "mediaSubprocessExecuted": "no",
+  "usableAuthorizedVideoGenerationEntryVerified": "no",
+  "runwayConnectionVerified": "no",
+  "doctorPassedForEncoding": "no",
+  "encodingNote": "No codec/FFmpeg probes or alpha round trip executed. This report is not an encoding-readiness certification.",
+  "limits": [
+    "Key presence is configuration evidence only, not credit, model access or authorization.",
+    "No paid route may run under this assignment even if configured.",
+    "Absence means not exposed/found in this check, not a global statement that provider services do not exist.",
+    "No route_media resolve/video was executed because auto would prefer paid API routes when configured."
+  ]
+}

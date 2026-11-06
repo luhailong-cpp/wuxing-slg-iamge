@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+  "sha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+  "generatedAt": "2026-10-29T03:56:36.457Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-29T03:55:26.996Z",
+  "width": 1536,
+  "height": 1024,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "project_config_read_at_finalization; request did not include configSnapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1771a-2076-7f21-94c3-d0fbda0da0db/exec-ae9b4540-088c-4d4e-a7ac-966fae068af3.png",
+      "sha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png",
+      "sha256": "41277b6203efc91954dc6c685f1b4c734f62047305bbfa06bc35a791ea8e1627",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 740514,
+    "semiTransparentPixelCount": 832350,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "Transparent reusable UI state sprite sheet; labels remain client text; candidate only",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-29T03:57:46.545280+00:00"
+}

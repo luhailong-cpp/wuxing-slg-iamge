@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/04-fire-native-dark.png",
+  "sha256": "3b93fb5de8ed878919a666066e679732c1916b2684b6c973a5d1a55f1e4d7441",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 1,
+    "backgroundRGBA": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "width": 1635,
+  "height": 1005,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png",
+      "sha256": "6564f21e4bc4b82ab8828ffc18defaaa60c869029f5168412d41307e56ad3d1b",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "sha256": "c76108bb2704f56179f7655b2b04d989cb7a79eb5aebff433bb93dfd34c30b33",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

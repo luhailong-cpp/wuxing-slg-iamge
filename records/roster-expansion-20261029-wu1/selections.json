@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T11:19:13.341Z",
+  "batch": "roster-expansion-20261029-wu1",
+  "status": "SELECTED_STATIC_CANDIDATES_NOT_FINAL_USER_ACCEPTANCE",
+  "masterCount": 6,
+  "uiAssetCount": 30,
+  "manifest": "exports/01-率土之滨/roster-expansion-20261029-wu1/generals-ui-manifest.json",
+  "manifestSha256": "4d90813fb6d5c392ec60954caacd080a93a9ee57b68a2d4bdca65fa8309eb7bb",
+  "visualQA": "records/roster-expansion-20261029-wu1/visual-qa.json",
+  "visualQASha256": "b33a78ee797ed69c4a0100d8399dddd2c8255a075e8326f651a76ff67dc1a40d",
+  "pixelValidation": "records/roster-expansion-20261029-wu1/pixel-validation.json",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "UnityRun": false,
+  "selections": [
+    {
+      "name": "孙坚",
+      "id": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "selectedMaster": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png",
+      "sha256": "afafd07555ff615c7824efb17526c992759bb8cacb36b4fdecefda4e6cb9cc6c",
+      "generationRecord": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png.generation.json",
+      "generationRecordSha256": "283013ac28065e16472e1e28e98b97cd6290d0312f93039cf5ae3d431ad57c42",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 668459,
+        "alpha1Pixels": 18197,
+        "semiTransparentPixels": 904405,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          25,
+          20,
+          1008,
+          1512
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          116,
+          0,
+          0,
+          11
+        ],
+        "marginsAbove32": [
+          25,
+          20,
+          16,
+          24
+        ]
+      },
+      "status": "selected_static_art_candidate_visual_QA_pass_with_limitations",
+      "actualModel": null,
+      "actualQuality": null,
+      "ui": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-face-native.png",
+          "sha256": "b6a5d97d37b4f06a5a3ab2687f8ed1fe9df936794ad5cfd768b9b450a11b58f7",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-face-native.png.derivation.json",
+          "recordSha256": "b48d52cf0e8b21914dd0eb44da513b1917b2db8a658d8759f8e9e2836ed92044",
+          "size": [
+            440,
+            520
+          ]
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-bust-native.png",
+          "sha256": "afb9f864828cade8c0210724d814697bd796c8e8a7e73f12f6c5be1bbb9628a1",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-bust-native.png.derivation.json",
+          "recordSha256": "c20913f358cd01341cf82e60f16c0cb3a80bcba110c9651f6f8ff22e978026d2",
+          "size": [
+            990,
+            1045
+          ]
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-128.png",
+          "sha256": "7fa8bfed19eaa23a36420900810a533af3b5b55a7ceb69b4942db3c7bc7792d2",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-128.png.derivation.json",
+          "recordSha256": "18982c9576880c2a08e472868ddac4a64dbc18e9c836125de777e769b044c016",
+          "size": [
+            128,
+            128
+          ]
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-256.png",
+          "sha256": "94513d32ace1f78317421db242ad6881e7b7cbd2188173f984c84fb5e762e226",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-256.png.derivation.json",
+          "recordSha256": "ecb9f1b5ed6c4d9374ffab687f5809f6db963ccd17955f39054c863c94549d6a",
+          "size": [
+            256,
+            256
+          ]
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-card-full.png",
+          "sha256": "99a6c5a2172432756fd8c0095326cf158854fdb51c9912d7dee75fe7534f3342",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-card-full.png.derivation.json",
+          "recordSha256": "22c63d09524a4509dec59fa99079b512d6e8a5ad4083c50255f803434ea8f689",
+          "size": [
+            768,
+            1152
+          ]
+        }
+      ],
+      "qaImages": [
+        "records/roster-expansion-20261029-wu1/qa/sun-jian-native-light.png",
+        "records/roster-expansion-20261029-wu1/qa/sun-jian-native-dark.png"
+      ]
+    },
+    {
+      "name": "孙策",
+      "id": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "selectedMaster": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png",
+      "sha256": "7cce405788136b7e78c1f1c2700f7f7133f4674d1649ef9dbe647cbeb72cc2c5",
+      "generationRecord": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png.generation.json",
+      "generationRecordSha256": "6bad4a632bcb6743a0b9547a1b2255acf8dd79dcb4de9412a92656294c215c04",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 656356,
+        "alpha1Pixels": 26078,
+        "semiTransparentPixels": 916508,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          15,
+          44,
+          1008,
+          1498
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          2,
+          0,
+          0,
+          20
+        ],
+        "marginsAbove32": [
+          15,
+          44,
+          16,
+          38
+        ]
+      },
+      "status": "selected_static_art_candidate_visual_QA_pass_with_limitations",
+      "actualModel": null,
+      "actualQuality": null,
+      "ui": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-face-native.png",
+          "sha256": "bbfdf84f70cc9d2c309eabf331e21722c53c7b6a94792ff510d598cd64b61088",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-face-native.png.derivation.json",
+          "recordSha256": "4089e48563af7a55d67628ea9db400da6051f3c0529249f13726da7b8a1feb23",
+          "size": [
+            500,
+            525
+          ]
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png",
+          "sha256": "a78316380e35b6a8424e099af3c5f903383047f0f1f139d062fc5fb1b28eccb3",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png.derivation.json",
+          "recordSha256": "3f71b8f25f92abd75067ddc785352e6b51dd2e8673a2d146fc7f258d260388e6",
+          "size": [
+            1005,
+            1035
+          ]
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-128.png",
+          "sha256": "8fd654c0555707b64234d1606b26dbb3823a972d9ace7abce590f069c3298156",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-128.png.derivation.json",
+          "recordSha256": "e8a5b27d64a4875ef2da4267a1bfb08b76201dd709be5031511948c154f8be0e",
+          "size": [
+            128,
+            128
+          ]
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-256.png",
+          "sha256": "94588af40b21bb846ed9039d3a87222cd80afa517acc25e914829e4942df83a3",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-256.png.derivation.json",
+          "recordSha256": "251ed67224261a2630f1b729088f8ddf74e741e5666ce0bcb427c0617ff828fc",
+          "size": [
+            256,
+            256
+          ]
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-card-full.png",
+          "sha256": "bb948773a227deec29581e897d302c45192a86fb142d3b1ea9dfc32fd3e292f3",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-card-full.png.derivation.json",
+          "recordSha256": "366c073f91042796696ba4390b1d0e9ddc0b56eaaebef90baa8d57b65a912d20",
+          "size": [
+            768,
+            1152
+          ]
+        }
+      ],
+      "qaImages": [
+        "records/roster-expansion-20261029-wu1/qa/sun-ce-native-light.png",
+        "records/roster-expansion-20261029-wu1/qa/sun-ce-native-dark.png"
+      ]
+    },
+    {
+      "name": "陆逊",
+      "id": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "selectedMaster": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png",
+      "sha256": "bac25ce9f9eda35f22f1eade3cd341aca10d180f19e51c3497cada279a3d3457",
+      "generationRecord": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png.generation.json",
+      "generationRecordSha256": "08c72c6917bea7d03eabc61fb35700cf4f05738e9680d7ecb7f5de39ab4910b8",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 718304,
+        "alpha1Pixels": 17721,
+        "semiTransparentPixels": 854560,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          50,
+          62,
+          981,
+          1502
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          50,
+          62,
+          43,
+          34
+        ]
+      },
+      "status": "selected_static_art_candidate_visual_QA_pass_with_limitations",
+      "actualModel": null,
+      "actualQuality": null,
+      "ui": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-face-native.png",
+          "sha256": "1189db2fb9025577a740ddf1d8cbfa27c00cf22853d73e19e77329a0e7a7885d",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-face-native.png.derivation.json",
+          "recordSha256": "7e562c09156ef8bcb0a78e22afbba53cfa97196b4da524c0e774d2791169d441",
+          "size": [
+            425,
+            530
+          ]
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-bust-native.png",
+          "sha256": "8ab689a3855fd2d99ec467e77c72a0e9353855b3d0848b8212658912203a5863",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-bust-native.png.derivation.json",
+          "recordSha256": "3968f855a858fcb2064983674c5ac53c0bc9eef572dbf12a533f570f706e0caf",
+          "size": [
+            975,
+            1005
+          ]
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-128.png",
+          "sha256": "6eef8c59d8cf51020716ecb13dc33eb3833845f5a4b7ee7fe4e4b67072c7c816",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-128.png.derivation.json",
+          "recordSha256": "7623ffa09cf7e31cddcceb465d280f2d3f7a2b0bb76a1eedb111a2f4db4fcf98",
+          "size": [
+            128,
+            128
+          ]
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-256.png",
+          "sha256": "6c7cf9766c844a6ec25cd1ffad016e2cb20523bb530099936cccf85c1fd947c8",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-256.png.derivation.json",
+          "recordSha256": "ed3e4c41e19ae88388fd5843feeaf88bd31b05cf1045b598640b0fd42a6abc88",
+          "size": [
+            256,
+            256
+          ]
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-card-full.png",
+          "sha256": "c0556a8a02926a271ecde13ecb9bf109f79a03b299095978dfd2fcba543e8037",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-card-full.png.derivation.json",
+          "recordSha256": "de43448581b21aee42e3850de3628adee69eba7e74bb8c71b7244bc6428bc125",
+          "size": [
+            768,
+            1152
+          ]
+        }
+      ],
+      "qaImages": [
+        "records/roster-expansion-20261029-wu1/qa/lu-xun-native-light.png",
+        "records/roster-expansion-20261029-wu1/qa/lu-xun-native-dark.png"
+      ]
+    },
+    {
+      "name": "鲁肃",
+      "id": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "selectedMaster": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-su-master-v1.png",
+      "sha256": "9a190bafe22cddf6ec492fba418db3e341e8868b6687459a7a151f8640e06ae8",
+      "generationRecord": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-su-master-v1.png.generation.json",
+      "generationRecordSha256": "3277857a65c1e304e888584abb7ea92d9c1d248933f85b63d1839f2c27cf81ca",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 683485,
+        "alpha1Pixels": 15697,
+        "semiTransparentPixels": 889379,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          26,
+          64,
+          1009,
+          1489
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          31,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          26,
+          64,
+          15,
+          47
+        ]
+      },
+      "status": "selected_static_art_candidate_visual_QA_pass_with_limitations",
+      "actualModel": null,
+      "actualQuality": null,
+      "ui": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-face-native.png",
+          "sha256": "37b61a99e84dfcd0e1ad3d95bbbccdde8366baddf5521ee85d7d02bd7b0b1612",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-face-native.png.derivation.json",
+          "recordSha256": "c657dd2f5c67bbf2bcac53ecf1a269870cde05310a1923cec56acbf28e580bfe",
+          "size": [
+            425,
+            530
+          ]
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-bust-native.png",
+          "sha256": "70f9f0ab7ef867d7a1811357e57b4de89087d33911fc4852348e45c390c1bf89",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-bust-native.png.derivation.json",
+          "recordSha256": "0040b4ed887ee239c41763a6d5e170f3cd923ebbcf54393422f5427da29c5267",
+          "size": [
+            995,
+            1015
+          ]
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-128.png",
+          "sha256": "d45d3f2d324f4abf97b516f1b37cdf34439f5a63bd07aa183a42c78506e1e053",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-128.png.derivation.json",
+          "recordSha256": "8025c1a4f63cf2103d2ed09d16152b85106f51e9c768eda207cd7a3c35fd5ff1",
+          "size": [
+            128,
+            128
+          ]
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-256.png",
+          "sha256": "08f9c7d8058e38360984fbfb4276571d36c67a23752c9cb877c81485aa59055d",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-256.png.derivation.json",
+          "recordSha256": "422d45fabf3dc3710cd1c1c022ce64e8cb7ba397ca71e464f18998b7db12c751",
+          "size": [
+            256,
+            256
+          ]
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-card-full.png",
+          "sha256": "e9a0418c3cafc1518fa619804b293c011097da9dbd2ae0a5d3dffc01b88478c8",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-card-full.png.derivation.json",
+          "recordSha256": "19c42010890b0e1fad0253b45a5c532e6f144a32b57ca7e9363d05caeb8dd929",
+          "size": [
+            768,
+            1152
+          ]
+        }
+      ],
+      "qaImages": [
+        "records/roster-expansion-20261029-wu1/qa/lu-su-native-light.png",
+        "records/roster-expansion-20261029-wu1/qa/lu-su-native-dark.png"
+      ]
+    },
+    {
+      "name": "吕蒙",
+      "id": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "selectedMaster": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png",
+      "sha256": "69a69e2c2c8f26331fe18cc39cd1d019c385de6df872e0faf2522371ec67f97b",
+      "generationRecord": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png.generation.json",
+      "generationRecordSha256": "570b504a57aa1b25e7c8d06ab53feaaaa03e895435c537203e5136e8a5350f22",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 752400,
+        "alpha1Pixels": 12923,
+        "semiTransparentPixels": 820464,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          21,
+          112,
+          998,
+          1467
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          36,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          21,
+          112,
+          26,
+          69
+        ]
+      },
+      "status": "selected_static_art_candidate_visual_QA_pass_with_limitations",
+      "actualModel": null,
+      "actualQuality": null,
+      "ui": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-face-native.png",
+          "sha256": "c7e621687ad7974bc64566d23c00c1f1ee4380d9ac5dffdbc5b30a6463415390",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-face-native.png.derivation.json",
+          "recordSha256": "ea5e2f5c8a7db50f7149058872bcc1dd2b88cc0036ab10cf9509ebf0a65819b3",
+          "size": [
+            450,
+            505
+          ]
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-bust-native.png",
+          "sha256": "6c5ac71f2379edd51c558461a230df1c100e7c8e0ccdc9fda1a87fa2d89cd604",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-bust-native.png.derivation.json",
+          "recordSha256": "72e5cf3084f3784dba27fe55bf358488efbf441badd19947679783f386567b08",
+          "size": [
+            995,
+            965
+          ]
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-128.png",
+          "sha256": "87e83f944498702917f8804a2cd146b145705f641700728578b91eda419cb132",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-128.png.derivation.json",
+          "recordSha256": "ccf3555b42730d7a9fd14cb17d3929730b004557c9fe8d22cc60154efffd69a0",
+          "size": [
+            128,
+            128
+          ]
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-256.png",
+          "sha256": "7446531b1cb7258e3f5a850afa9128e31f1eb6f5a0fbe6509a9bf4ac389f5d2b",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-256.png.derivation.json",
+          "recordSha256": "ab4ad2f3a8a5cd31fd77d833e1e9c2463f7d28350b7f80c34dee4af0412d9b2c",
+          "size": [
+            256,
+            256
+          ]
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-card-full.png",
+          "sha256": "d24ab646962319e8706599bfdd2f52e117ad86f083b29b3ed017d55972ab032d",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-card-full.png.derivation.json",
+          "recordSha256": "8fef6b5198f705173d6c70e05c620203af3900ff8814c997a0f50623e830632f",
+          "size": [
+            768,
+            1152
+          ]
+        }
+      ],
+      "qaImages": [
+        "records/roster-expansion-20261029-wu1/qa/lv-meng-native-light.png",
+        "records/roster-expansion-20261029-wu1/qa/lv-meng-native-dark.png"
+      ]
+    },
+    {
+      "name": "甘宁",
+      "id": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "selectedMaster": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png",
+      "sha256": "0db774f29ec7053ba001f7842465f6d4035b48b71cabf8836586440ed76057b1",
+      "generationRecord": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png.generation.json",
+      "generationRecordSha256": "c69566d560aa4330ecedf32fce7cde2725505e9ce48c205ebd19e1207f72279c",
+      "nativeDimensions": [
+        1024,
+        1536
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 694829,
+        "alpha1Pixels": 29792,
+        "semiTransparentPixels": 878035,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          25,
+          11,
+          994,
+          1511
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          58,
+          7,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          25,
+          11,
+          30,
+          25
+        ]
+      },
+      "status": "selected_static_art_candidate_visual_QA_pass_with_limitations",
+      "actualModel": null,
+      "actualQuality": null,
+      "ui": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png",
+          "sha256": "c2fb5d4d3ff4c47b2da5a7467faac5cb3fa005dc7e6b3f0fc06b446b8ff3c36f",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png.derivation.json",
+          "recordSha256": "39c96b40ed354229b0b16842e3083f2ccd7cdbe5c481ff6c2c1fb01fb2ee0b9e",
+          "size": [
+            500,
+            545
+          ]
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-bust-native.png",
+          "sha256": "20c33e090412c7d5f37f9845b1729bd14a49fb225e27a5fd1deb7e9475600844",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-bust-native.png.derivation.json",
+          "recordSha256": "a6308c2d684115dd800a8e2b869621b70a91f86945798dab85cea1edf3b9293d",
+          "size": [
+            990,
+            1060
+          ]
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-128.png",
+          "sha256": "38089e776d16c3ab1e1f58f39884d5d2b8a829cb9e2370dc0e5fd18076563edb",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-128.png.derivation.json",
+          "recordSha256": "4d568bd0004e9ff0aab10382bf767e19295da641a57d6165fd640f4ccf97d4fa",
+          "size": [
+            128,
+            128
+          ]
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-256.png",
+          "sha256": "5dd9afc4173148327c1844e20da70ee54bf5b313253189fc972b7c17f88af448",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-256.png.derivation.json",
+          "recordSha256": "97056cd81f0670f4ad8ae836e9dc3d2d40236c43071faeb16ebfb05284f22174",
+          "size": [
+            256,
+            256
+          ]
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-card-full.png",
+          "sha256": "2d74f48d1e3a1aa0fcecccc6d1f9c1a2a19f9edd81a9a611cf4577d7f199e0c6",
+          "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-card-full.png.derivation.json",
+          "recordSha256": "bd03144c219007061fd852ff520f019bbc2614271ac75170f1ae33cdfe582730",
+          "size": [
+            768,
+            1152
+          ]
+        }
+      ],
+      "qaImages": [
+        "records/roster-expansion-20261029-wu1/qa/gan-ning-native-light.png",
+        "records/roster-expansion-20261029-wu1/qa/gan-ning-native-dark.png"
+      ]
+    }
+  ],
+  "overview": {
+    "light": "records/roster-expansion-20261029-wu1/qa/cards-light.png",
+    "dark": "records/roster-expansion-20261029-wu1/qa/cards-dark.png",
+    "avatarsLight": "records/roster-expansion-20261029-wu1/qa/avatars-light.png",
+    "avatarsDark": "records/roster-expansion-20261029-wu1/qa/avatars-dark.png"
+  }
+}

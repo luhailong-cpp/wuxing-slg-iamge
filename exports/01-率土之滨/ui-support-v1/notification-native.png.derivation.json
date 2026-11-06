@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/notification-native.png",
+  "sha256": "24e8f217369fda5a0e5e84cb3af65d832319f1c15804be7d39b5e870e82c8c2e",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 145,
+  "height": 147,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "transform": {
+    "cropBox": [
+      1025,
+      1019,
+      1170,
+      1166
+    ],
+    "resampled": false,
+    "scale": 1,
+    "padding": null
+  },
+  "manualOwnership": {
+    "id": "notification",
+    "label": "通知红点",
+    "manualCropBox": [
+      1025,
+      1019,
+      1170,
+      1166
+    ],
+    "sourceComponentIdAbove16": 16,
+    "sourceComponentPixelsAbove16": 10452,
+    "nativeSize": [
+      145,
+      147
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 9014,
+      "alpha1Pixels": 1191,
+      "semiTransparentPixels": 12275,
+      "opaquePixels": 26,
+      "pixelsAbove16": 10452,
+      "bboxAbove16": [
+        15,
+        13,
+        130,
+        129
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": true,
+  "alphaCleanupApplied": false,
+  "alphaResampled": false,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 9014,
+    "alpha1Pixels": 1191,
+    "semiTransparentPixels": 12275,
+    "opaquePixels": 26,
+    "pixelsAbove16": 10452,
+    "bboxAbove16": [
+      15,
+      13,
+      130,
+      129
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 1191,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

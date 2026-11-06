@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/emblems/wood-32.png",
+  "sha256": "18b23d93661f91d971e201c45bfc820b65e5c59e1c3865e7e948d170896cff90",
+  "derivedAtUtc": "2026-10-27T13:23:26.839518+00:00",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "premultiplied_alpha_lanczos_downscale_and_center_on_transparent_canvas",
+  "resampled": true,
+  "nativeDetailClaim": false,
+  "sourceScale": 0.05885057471264368,
+  "resizedDimensions": [
+    28,
+    27
+  ],
+  "pasteOffset": [
+    2,
+    2
+  ],
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-native.png",
+      "sha256": "d30dee826b248af79557b5e3d51bc1298ec31634e421364c20919d48cfb9aba6",
+      "record": "exports/01-率土之滨/five-elements/emblems/wood-native.png.derived.json"
+    }
+  ],
+  "anchor": {
+    "type": "ui_center",
+    "pixel": [
+      16.0,
+      16.0
+    ]
+  },
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 643,
+    "opaquePixels": 54,
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bboxAbove16": [
+      3,
+      4,
+      29,
+      28
+    ]
+  },
+  "art_source": "existing",
+  "status": "display_derivative_pending_client_validation",
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T13:13:44.521Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept\nAsset type: 五行原创道家Q版SLG木系单角色完整全身静态master候选v1，真实透明PNG。\nInput images: 附图1邮件界面、附图2组队界面是首要已确认画风参考，只学习圆润大头短身比例、精细高清手绘、玉绿米白暖金材质、温和明亮神情；不复制其中人物面孔、服装、UI、场景和文字，不复制任何历史人物。\nPrimary request: 全新原创木系角色“青蘅使”候选，不在画面写名字或木字。二十多岁青年男性，圆润略宽的脸、浅笑、明亮深棕眼睛，无胡须、无高冠，清楚成年青年身份。棕色中短发半束，头顶小叶形玉簪，鬓边两缕短发。约2.7至3头身，不要拉长成人身材。玉绿和嫩青的层叠短披肩，象牙米白交领内袍，竹节式腰带、小种子囊、深青短裤/绑腿、两只轻便短靴。衣缘是简洁的嫩芽枝叶形，不要密集花纹。整体为亲和自然的道家木系行者，与工匠金系或历史医者明显不同。\nPose and objects: 单人完整全身站姿，轻微三分之二朝观者。右手握一根实体竹节法杖，约人物肩高或稍高、木质与少量玉箍、杖头两片新叶和圆形青玉芽结，不能画成老者拐杖。法杖竖直在身侧并与人物站姿收拢，不挡脸；左手自然扶腰间种子囊。两只手、全部法杖、双腿和两只鞋完整清楚，手指与持物关系自然。法杖顶部、底端与叶尖完整在画布安全范围内。\nComposition: 竖幅约2:3，一个完整人物居中。请使用远一点取景，人物加全部法器整体只占画布65%高度和65%宽度，上下至少17%真正透明余白，左右至少15%透明余白。大头短身，双足完整，任何发饰、法杖、衣角都不能靠近或跨越边缘。\nStyle/medium: 两张参考中同系列高完成度道家Q版高清手绘，细腻干净明暗，温润玉器、木与布料材质，柔和中性日光，清楚干净轮廓；主要玉绿/嫩青、象牙米白、克制暖金。不要写实皮肤、厚重塑料3D玩具、高噪点、密集刺眼高光、粗糙拼贴或廉价粗线。\nBackground: 真实native transparent alpha，干净真正透明背景，人物与衣物内部应保持实心不透明。无白底、色底、渐变背景、棋盘格、地面、底盘、投影盘、彩色背光雾、环境和漂浮粒子。只要干净透明角色cutout，不要舞台效果。\nAvoid: 三国或汉魏蜀吴身份、华佗长白胡/老医者、诸葛羽扇、帝王高冠、历史人物换装、文字、字母、数字、姓名、logo、水印、签名、UI、边框、卡牌、网格、其他人物、宠物或大范围技能特效。只生成这一张静态完整master，不是动画或动作表。",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T18:47:14Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Redesign attached image3 (old awakening interface) into an original five-elements Daoist chibi SLG character-awakening screen. One complete opaque landscape Chinese game screen about1916x821 native. Primary art style references are images1(mail) and2(team): jade, ivory paper, warm gold filigree/cloud motifs, soft polished HD hand painting, clear readable Chinese. Keep the sensible two-column function of image3 while genuinely replacing its old anonymous spear warrior.\n\nImage4 is the exact identity master for 金行使: a young chibi girl with short silver bob swept to one side, amber eyes, round gold flower hair clasp, green jade earring, ivory/jade/gold short layered robe, ivory boots, ruler-like golden rune weapon in one hand and an open lotus-shaped array compass in the other, pouch at waist. Preserve this specific face, hair, costume and tools; do not draw a spear, sword, long ponytail or historical general. Show her complete full body including both boots within the left panel with generous clear space and nothing cropped by the bottom button. Image5 is our new skill-icon sheet, for icon appearance only: use the top-left metal rune-ruler-and-compass skill icon as one existing ability symbol. Not the entire sheet.\n\nScreen copy and states:\nTitle 修士养成.\nUpper-right two tabs 进阶 (unselected ivory) and 觉醒 (selected jade).\nLeft character name 金行使, five gold stars, Lv.20, status 未觉醒; no official game logo.\nRight section 觉醒条件:\nrow1 修士等级 20 / 20, green check, badge 已达成.\nrow2 觉醒玉 1 / 2, small jade awakening-token illustration, red text 还差1.\nSecond section 觉醒效果预览:\nleft panel 当前：未开放 with two occupied ability slots and a grey LOCKED third slot;\nright panel 觉醒后：开放 with the same first two ability icons in the same positions and third slot an EMPTY jade plus sign, not a new pre-equipped ability.\nUse a single clear arrow between these panels.\nFootnote 开放第三术法位.\nBottom primary button is genuinely disabled grey with lock and text 材料不足.\nNext to it ivory action 获取材料.\nBottom helper 集齐2个觉醒玉后可觉醒.\nBottom-left navigation 返回修士.\n\nKeep all Chinese correct, conditions and red deficit consistent, disabled main action clear. No UI debug/candidate/implementation labels. All values represent this screen's independent demonstration. Avoid ornaments overlapping numbers, card slots, tooltips or character boots.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/34-general-awakening-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "8",
+  "startedAt": "2026-10-26T18:20:13.823Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: ui-mockup\n制作一张完整横屏约21:9的道家Q版高清手绘SLG游戏界面静态方向稿。实际附图1是邮件主参考，附图2是组队主参考，两图是最高优先美术依据。保持同系列精细完成度：玉绿青绿标题与主按钮，象牙米白纸绢面板，暖金细边，圆润饱满框板，云纹与如意卷边，玉珠与少量红穗，柔和手绘明暗；中文深玉绿清楚可读。不要写实战争风、暗黑皮肤、塑料3D、厚黑边、模糊字、噪点、密集金色雕花。元素在安全边距内，层级清楚、留白自然、对齐准确。没有设备模型、展示台、海报广告、水印、尚未确认的正式游戏名。只生成本页，不做拼图。示例人名、日期、数值不抄主参考；所有角色是同画法的原创Q版差异化头像。\n本页是完整「聊天」窗口。顶部中央玉绿标题「聊天」，右上圆形关闭按钮。标题下横向频道页签「世界」「同盟」「私聊」，当前世界选中。左侧约22%窄栏标题「频道」，三项「世界频道」「同盟频道」「最近联系」，当前世界有玉绿选中背景；下面一个小搜索框，只有放大镜和占位文字「搜索玩家」。\n右侧约74%为清楚舒展的聊天消息区，象牙底，金色细分隔，不画长段文字。仅四条示例消息，头像彼此不同：第一条左侧男道童头像，昵称「云川」，米白气泡「新来的道友，欢迎加入！」；第二条左侧女道修头像，昵称「清禾」，米白气泡「有没有人一起探索资源地？」；第三条右侧本人黑发道将头像，昵称「我」，浅玉绿气泡「我来，稍后在城门集合。」；第四条左侧年长策士头像，昵称「松岚」，米白气泡「记得先补充兵力。」。每条旁边克制小时间「12:30」等，无悬浮错位，不把头像画成同一张脸。\n底部输入条是一条完整米白金边长框，占位文字「输入聊天内容」，右侧小表情按钮与玉绿「发送」按钮。输入框上方小字「文明交流，友善同行」。右上靠近频道栏有米白小按钮「屏蔽设置」，用简洁盾牌图标。气泡边缘圆润，字与头像不重叠；发送按钮和输入条在安全区域内。",
+    "promptFile": "prompts/01-率土之滨/28-chat-ui-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

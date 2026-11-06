@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png",
+  "sha256": "02506dd2901967558d129891e19bf11321edd27fd55266e3b21494c8ff61b9d4",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+    "sha256": "db25ce0390d3168d449a5f4bd00cc5a7cf4acb73f5560adcc49c05c743c709b3",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png.generation.json"
+  },
+  "cropBox": [
+    887,
+    444,
+    1330,
+    887
+  ],
+  "sourceAnchorPxGlobal": [
+    1108,
+    648
+  ],
+  "sourceAnchorPxWithinCrop": [
+    221,
+    204
+  ],
+  "pasteOffset": [
+    229,
+    246
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      250
+    ],
+    "zeroPixels": 739229,
+    "alpha1Pixels": 24229,
+    "semiTransparentPixels": 70771,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      305,
+      335,
+      596,
+      576
+    ],
+    "bboxAbove16": [
+      323,
+      348,
+      579,
+      560
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 250
+  },
+  "phase": "small core and scattered points",
+  "timing": {
+    "startSeconds": 0.6,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

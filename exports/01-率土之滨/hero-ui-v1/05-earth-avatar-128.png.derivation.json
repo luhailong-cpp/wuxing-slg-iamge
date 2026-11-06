@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+  "sha256": "43b007254aecaa469aebabcec91438cf421e94feaf4a29db363665d3cde0371c",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "05-earth",
+  "element": "earth",
+  "variant": "avatar-128",
+  "identityPreservedFromMaster": "brown side-swept bun, jade bead tassel hairpiece; ochre ivory green robe, mountain seal and jade shield in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "record": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "recordSha256": "cf6f24dba60acb7667f1a48373fbe171967bc473f5bc4d070ff902933432dd02"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    280,
+    150,
+    820,
+    600
+  ],
+  "resizeTo": [
+    112,
+    93
+  ],
+  "resizeScaleNominal": 0.2074074074074074,
+  "actualScaleXY": [
+    0.2074074074074074,
+    0.20666666666666667
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    128,
+    128
+  ],
+  "pasteOffsetTopLeft": [
+    8,
+    17,
+    120,
+    110
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    370,
+    310,
+    680,
+    545
+  ],
+  "faceRoiOutputApprox": [
+    26.67,
+    50.07,
+    90.96,
+    98.63
+  ],
+  "alphaInspection": {
+    "fullyTransparentPixels": 9063,
+    "alpha1PixelCount": 107,
+    "alphaSemiPixels": 7038,
+    "alphaOpaquePixels": 283,
+    "bboxAbove16": [
+      8,
+      22,
+      120,
+      110
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 107,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        280,
+        150,
+        820,
+        600
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

@@ -1,0 +1,23 @@
+Use case: ui-mockup
+Asset type: One complete landscape city-construction queue interface, approximately21:9.
+Primary request: “建设管理” showing facilities, two queue slots (one running and one empty), another building blocked by insufficient stone, and a pending cancellation confirmation. Coherent original demo UI.
+Images1/2 PRIMARY jade/ivory/warm-gold Daoist Q/chibi hand-painted UI. Image3 our main city for facility identities/materials: 城主府 ornate central hall, 校场 open training yard, 仓库 modest storage huts/crates. Use clean miniature building icons, not screenshot crops.
+Layout: whole ornate ivory parchment management window with jade title “建设管理”, back arrow upper-left, X upper-right, slim bright jade-roof town background edges. Two main columns, left48% facilities/selected upgrade, right48% construction queue and confirmation. Clear spacing, safe margins, no overlapping text.
+Top resource strip exact “木材 5000” “石料 1500” “铁矿 3000”.
+LEFT upper section header “设施列表”. Three compact wide rows:
+“城主府 Lv.5” with hall thumbnail and ivory “查看”.
+“校场 Lv.1 → Lv.2” with drill-ground thumbnail and blue status “建设中”.
+“仓库 Lv.2 → Lv.3” with storage thumbnail and red status “石料不足”; this row selected jade border.
+LEFT lower section header “仓库升级”.
+Two cost rows:
+“木材 需要2000 / 持有5000” green check.
+“石料 需要3000 / 持有1500” red with “不足1500”.
+Time row “建造时间 00:10:00”.
+Large disabled gray-beige button with lock “石料不足”. It MUST NOT look green/enabled. No warehouse currently in queue.
+RIGHT upper section header “建设队列 1 / 2”.
+Queue card1: small label “队列一”; drill-ground thumbnail; text “校场 Lv.1 → Lv.2”, “建设中”, hourglass “剩余 00:12:30”. Modest progress bar without a numeric percent. At its right jade “加速” button and ivory “取消” button. It remains running pending confirmation.
+Queue card2: label “队列二”, large plus sign, “空闲”, short “可添加建设任务”. This is not locked.
+RIGHT lower section: a clearly distinct raised ivory confirmation card with gold outline and soft shadow, small title “取消建造”, tiny amber “待确认”. It is open after pressing queue1's取消, but place it entirely BELOW the queue cards so they stay visible. Exact question “确定取消校场升级？” followed by “当前建设仍在进行中。”
+Two buttons: jade safe-default “继续建造” and ivory with restrained red text “确认取消”. Do not show a canceled/success state yet; no invented refund promise or amount. This confirmation concerns ONLY the校场, never仓库.
+Bottom-left secondary “返回主城”. Numbers and construction states must remain coherent:1 used slot/2 total,校场running,仓库notstarted with insufficient stone, queue2empty.
+Style: fine Daoist Q/chibi hand-painted, jade-green key controls, ivory silk-paper surfaces, warm-gold thin outlines, rounded soft building icons and cloud corners, readable dark green Chinese, restrained cinnabar warning text. No black-gray realistic HUD, neon, plastic, dense tiny paragraphs, official game logo, clipped panels or blur. Opaque complete landscape screen.

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-shu1/qa/xu-shu-native-crops-light.png",
+  "sha256": "f02b9ba58b9a6bf306acecee9e77975616e4d64d948b636695c701805dc80f54",
+  "qaOnly": true,
+  "width": 1350,
+  "height": 990,
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "operation": {
+    "type": "native_portrait_windows_1to1",
+    "displayScale": 1
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-face-native.png",
+      "sha256": "465b32204c465fa955ddabce28b9801e1749b6b80ded218607bb1b5893345f28",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-bust-native.png",
+      "sha256": "040933e417636f7ec31b0a0e3738c2bcc6ccc444bada3172d6271a3c31469acf",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-bust-native.png.derivation.json"
+    }
+  ]
+}

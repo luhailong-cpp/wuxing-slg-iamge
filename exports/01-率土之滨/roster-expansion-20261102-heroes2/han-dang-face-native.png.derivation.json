@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/han-dang-face-native.png",
+  "sha256": "ce68965bd572a2115f698c46eb99a7850eaf794b3371bb4de0b199bb5c26401a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/han-dang-master-v1.png",
+    "sha256": "aec42b7d7ecded797413f48c5f914677bc7f6d843c8058dc4eb1fd53aac8847f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/han-dang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      180,
+      820,
+      740
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

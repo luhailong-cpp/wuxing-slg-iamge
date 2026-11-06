@@ -1,0 +1,98 @@
+{
+  "fire": {
+    "master": "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png",
+    "masterHelmetWidth": 554,
+    "masterHelmetX": [
+      424,
+      978
+    ],
+    "masterRoot": [
+      704,
+      1158
+    ],
+    "actions": {
+      "idle": {
+        "y": 640,
+        "x": [
+          0,
+          627,
+          1254
+        ]
+      },
+      "attack": {
+        "y": 520,
+        "x": [
+          0,
+          535,
+          1040,
+          1536
+        ]
+      },
+      "hurt": {
+        "y": 640,
+        "x": [
+          0,
+          660,
+          1254
+        ]
+      },
+      "defeat": {
+        "y": 560,
+        "x": [
+          0,
+          535,
+          1024,
+          1536
+        ]
+      }
+    }
+  },
+  "earth": {
+    "master": "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png",
+    "masterHelmetWidth": 523,
+    "masterHelmetX": [
+      443,
+      966
+    ],
+    "masterRoot": [
+      706,
+      1130
+    ],
+    "actions": {
+      "idle": {
+        "y": 650,
+        "x": [
+          0,
+          650,
+          1254
+        ]
+      },
+      "attack": {
+        "y": 520,
+        "x": [
+          0,
+          553,
+          1040,
+          1536
+        ]
+      },
+      "hurt": {
+        "y": 640,
+        "x": [
+          0,
+          662,
+          1254
+        ]
+      },
+      "defeat": {
+        "y": 565,
+        "x": [
+          0,
+          525,
+          1024,
+          1536
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-default.png",
+  "sha256": "b4e1f8a80f149765b234c1491d4ada7f89a7825d7e12e41ff0498ef754709b26",
+  "derivedAtUtc": "2026-10-29T04:02:55.072007+00:00",
+  "width": 512,
+  "height": 224,
+  "mode": "RGBA",
+  "operation": "axis_aligned_rectangular_crop_only",
+  "cropBoxSourceXYXY": [
+    0,
+    384,
+    512,
+    608
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "record": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png.generation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "nativeSingleAsset": false,
+  "pixelValueIdentity": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alpha0": 49559,
+    "alpha1": 3256,
+    "alpha2to8": 3248,
+    "alpha255": 0,
+    "bboxAbove8": [
+      31,
+      34,
+      499,
+      183
+    ],
+    "edgePixelsAbove8": 0
+  },
+  "nineSlice": {
+    "defaultImportMode": "Simple",
+    "validatedInRuntime": false,
+    "suggestedBorderPxLTRB": [
+      140,
+      88,
+      140,
+      88
+    ],
+    "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+    "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

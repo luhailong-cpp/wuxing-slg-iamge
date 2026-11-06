@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-card-full.png",
+  "sha256": "abed4d86b63b31912c655422e7343945d5c616753cf98d5b486624dd27890d17",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "xu-shu",
+  "displayName": "徐庶",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/xu-shu-master-v1.png",
+      "sha256": "e48e45533bce8c8d83873cbf0cec16d0db1dfdf4cfe4b38a38789af7da80bdd1",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/xu-shu-master-v1.png.generation.json",
+      "recordSha256": "9d2ef94c914035390868dced8773c96b57bf4951695f153bbe0853626484ea44"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    430,
+    315,
+    670,
+    520
+  ],
+  "faceRoiOutputApprox": [
+    327.62,
+    264.56,
+    492.62,
+    405.5
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 527337,
+    "alpha1Pixels": 5885,
+    "opaquePixels": 1001,
+    "bboxAbove32": [
+      105,
+      114,
+      687,
+      1065
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      105,
+      114,
+      81,
+      87
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": false,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 15349,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        106,
+        97,
+        71,
+        57
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

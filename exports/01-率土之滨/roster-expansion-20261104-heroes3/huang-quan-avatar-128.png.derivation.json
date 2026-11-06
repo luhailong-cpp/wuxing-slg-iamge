@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/huang-quan-avatar-128.png",
+  "sha256": "bfe05c3c4b75d60b4841d40692f930207d1915be90877277fe8d840e27de584a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/huang-quan-master-v1.png",
+    "sha256": "4fad4297e2cdd327d1a26d96094fb7e114c1afb11da33b5c677c388c29613692",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/huang-quan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      194,
+      60,
+      710,
+      625
+    ],
+    "uniformScale": 0.2088495575221239,
+    "resizedSize": [
+      108,
+      118
+    ],
+    "offset": [
+      10,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

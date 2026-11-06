@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/jia-xu-face-native.png",
+  "sha256": "03ad63a8a0f26740f5ed77b799135be6d237d5abf206332bb892d949493e9f6b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png",
+    "sha256": "47a55610502d5c15e02450bf4451d2dbcae6dc6768c829f447844e524ef1d4ef",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/jia-xu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      230,
+      110,
+      880,
+      800
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

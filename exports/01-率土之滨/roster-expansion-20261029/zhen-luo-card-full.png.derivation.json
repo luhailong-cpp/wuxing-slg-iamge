@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/zhen-luo-card-full.png",
+  "sha256": "378d1c324fae63b8848d637f8e827ddf20dccfc02c075a45862558eac9d6fada",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/zhen-luo-master-v1.png",
+    "sha256": "d39b555c7c3c69b6571fba6030902942e85fe23663cbd7fb14b8e1c1c523d104",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/zhen-luo-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

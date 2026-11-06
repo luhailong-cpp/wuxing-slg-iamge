@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/emblems/metal-32.png",
+  "sha256": "e21b7b9fb0702780dfac60ad90e47735040a1a79eb267ede6d0ed5f2964e7cb8",
+  "derivedAtUtc": "2026-10-27T13:23:26.839518+00:00",
+  "width": 32,
+  "height": 32,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "premultiplied_alpha_lanczos_downscale_and_center_on_transparent_canvas",
+  "resampled": true,
+  "nativeDetailClaim": false,
+  "sourceScale": 0.06066350710900474,
+  "resizedDimensions": [
+    29,
+    29
+  ],
+  "pasteOffset": [
+    1,
+    1
+  ],
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-native.png",
+      "sha256": "a8c7e43078fcaa3e3a13fedf856700cc0f12e9c6113bf109859a59864174a958",
+      "record": "exports/01-率土之滨/five-elements/emblems/metal-native.png.derived.json"
+    }
+  ],
+  "anchor": {
+    "type": "ui_center",
+    "pixel": [
+      16.0,
+      16.0
+    ]
+  },
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 648,
+    "opaquePixels": 40,
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bboxAbove16": [
+      3,
+      3,
+      29,
+      28
+    ]
+  },
+  "art_source": "existing",
+  "status": "display_derivative_pending_client_validation",
+  "userApproved": false,
+  "clientIntegrated": false
+}

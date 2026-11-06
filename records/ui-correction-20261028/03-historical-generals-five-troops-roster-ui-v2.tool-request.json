@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T10:03:29.688Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Precise localized edit to image3, the already corrected wide landscape武将roster. Keep ALL six historical characters, names, portrait identities, six tabs, Liu Bei4stars, every number, layout, style and text unchanged. Images1/2 are confirmed jade/ivory/gold hand-painted Daoist-chibi style only. Image4 is the metal/wood/water/fire/earth emblem sheet. Image5 is the already corrected Liu Bei detail screen and provides consistent metal badge and义勇军tactic icon.\nChange ONLY: (1) replace BOTH plain yellow diamond金兵icons (top troop filter and right detail header) with the ivory/gold FOUR-POINT emblem with GREEN JADE CENTER from image4 top-left. Keep recognizable scalloped four-point silhouette, not a plain diamond; small but clear. (2) replace the golden arrow artwork beside\"义勇军 Lv.1\" with the GREEN ROUND banner-and-troop-silhouette义勇军icon from image5 bottom-left slot. Keep the name andLv.1. No other visual or data changes. Preserve Liu Bei four stars including selected card; preserve Han-general identities and gold troop status. No extra footnote, game title, new rule or popup. Whole opaque landscape page.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v2.prompt.txt",
+  "revisionOf": "troop-correction-20261028/03-historical-generals-five-troops-roster-ui-v1.png"
+}
+

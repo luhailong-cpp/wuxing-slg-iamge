@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+  "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alphaMinMax": [
+    0,
+    254
+  ],
+  "alphaZero": 782499,
+  "alphaOne": 18741,
+  "semiTransparent": 790365,
+  "alphaOpaque": 0,
+  "bboxAlpha16": [
+    62,
+    91,
+    962,
+    1459
+  ],
+  "marginsAlpha16": [
+    62,
+    91,
+    62,
+    77
+  ],
+  "bboxAlpha1": [
+    60,
+    88,
+    964,
+    1461
+  ],
+  "edgeAlpha16Pixels": 0,
+  "sourcePixelsModified": false,
+  "alphaHygiene": "none",
+  "qaViews": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/xiahou-yuan-master-v2-light.png",
+      "sha256": "e9f1fa2a6ec140f16a530370834e85d8bd8d7ccd7fb49bc9befbfbd486e8792b",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        245,
+        239,
+        222,
+        255
+      ],
+      "qaOnly": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xiahou-yuan-master-v2-dark.png",
+      "sha256": "d5dd96cbdcbe4873a187ae72d97d01a46c1ff8ec01f821cbd6b16516d03aeaa4",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        28,
+        43,
+        48,
+        255
+      ],
+      "qaOnly": true
+    }
+  ]
+}

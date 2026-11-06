@@ -1,0 +1,15 @@
+{
+  "schema": "wuxing.data-derivation.v1",
+  "file": "exports/01-率土之滨/map-assembly-v1/unity/fixed-route.json",
+  "sha256": "cd20ee98635c750d71b1836f9221db49ae99f658a4121cce3428e9b3cd128c80",
+  "operation": "canonical_navigation_path_query_and_verified_line_of_sight_shortcuts",
+  "sourceBundle": {
+    "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+    "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293"
+  },
+  "canonicalRuntimeVersion": "1.1.2",
+  "canonicalRuntimeSha256": "25c9d06322d6d98c76092aebe228227b526685e9309675285622e9d574df0c5b",
+  "packageAsset": "Assets/WuxingSLGMapAssemblyPreview/Data/fixed-route.json",
+  "allSegmentsVerified": true,
+  "fixedPreviewOnly": true
+}

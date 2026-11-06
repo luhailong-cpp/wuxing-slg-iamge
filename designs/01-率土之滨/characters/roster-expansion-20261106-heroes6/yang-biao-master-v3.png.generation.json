@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+  "sha256": "d1450fcd23f1f24e92661a3601c2d85d4c1111e873dc6a2d97f1666b03304f14",
+  "generatedAt": "2026-11-06T11:13:01.062852+00:00",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-06T11:12:11.613Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-b3d1fb50-95a8-45af-a9ae-a3016176262a",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-master-v3.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. No actual model or quality returned. The public release does not identify the model or quality of this specific result.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261106-heroes6/yang-biao-master-v3.request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261106-heroes6/yang-biao-master-v3.response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1b089-1f97-7013-b0c7-59a96b923658/exec-b3d1fb50-95a8-45af-a9ae-a3016176262a.png",
+      "sha256": "d1450fcd23f1f24e92661a3601c2d85d4c1111e873dc6a2d97f1666b03304f14",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-master-v3.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 992491,
+    "semiTransparentPixelCount": 580373,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-11-06T11:17:03.318201+00:00",
+  "identity": {
+    "id": "yang-biao",
+    "name": "杨彪",
+    "personID": "ww-p-519c65e8dfdd",
+    "cardIDs": [
+      100747
+    ],
+    "source": "https://zh.wikisource.org/wiki/後漢書/卷54",
+    "identityEvidence": "Eastern Han court official Wenxian and remonstrance, Hou Hanshu vol. 54"
+  }
+}

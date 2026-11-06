@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png",
+  "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23",
+  "generatedAt": null,
+  "receivedAt": "2026-10-28T08:43:46.327Z",
+  "generatedAtBasis": "Service timestamp not disclosed; tool receipt observed after completion",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit, isometric game terrain.\nReference1 is the existing grassland asset. References2/3 specify the user-approved Daoist chibi HD hand-painted style and palette only, not UI content.\nCreate ONE new reusable grass foundation terrain tile with real transparent surroundings. Wide canvas target2048x1024. The entire painted top surface is an exact 2:1 isometric diamond, centered, corners near (96,512),(1024,48),(1952,512),(1024,976). Keep all four diagonal edges straight and compatible with adjacent identical grass tiles; tile top has no perspective vanishing point.\nReplace the existing flower-and-stone-edged miniature island with flat uninterrupted meadow turf: fresh jade/yellow-green grass, refined soft hand-painted short blades and tiny low-contrast patches. UNIFORM value and texture across the whole tile, no center spotlight, no edge darkening, no bevel or raised soil thickness. Each boundary must look like grass continuing into adjacent grass, never a separate island perimeter.\nAbsolutely NO rocks, stone rim, cobbles, flowers, weeds forming a border, thick outline, bushes, paths, tree, building, river, labels, grid, cast shadow or visible side walls. Keep all meaningful texture away from the exact edge to aid contiguous repetition. The intended test is a3x3 isometric repetition: neighboring top surfaces should read as a single lawn, without a decorated rim or patterned flower rows. Crisp clean opaque interior, 1-2pixel antialiased diamond boundary and genuinely transparent outside. Not a complete scene or floating island.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "evidence": "records/terrain-continuity-20261028/grass-foundation-v1.tool-response.json",
+  "prompt": "prompts/01-率土之滨/terrain-continuity-20261028/grass-foundation-v1.prompt.txt",
+  "references": [
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "role": "Existing material/camera reference; remove rim and flower border",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "Approved Daoist chibi style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "Approved Daoist chibi style only",
+      "actuallyAttached": true
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

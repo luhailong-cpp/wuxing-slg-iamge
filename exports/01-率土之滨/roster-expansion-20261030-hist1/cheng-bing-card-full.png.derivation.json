@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/cheng-bing-card-full.png",
+  "sha256": "9869a8088c9d410947603e24c2ef768131f57b06ae5d4ff21597f3fad8aa9b29",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/cheng-bing-master-v2.png",
+    "sha256": "90936b4244e01c019929bdaa0f956a95fc5e5b12ef925d054371802981554983",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/cheng-bing-master-v2.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

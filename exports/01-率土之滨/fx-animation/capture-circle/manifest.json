@@ -1,0 +1,851 @@
+{
+  "schemaVersion": 1,
+  "assetId": "capture-circle",
+  "createdAtUtc": "2026-10-27T16:50:26.577016+00:00",
+  "source": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+  "sourceSha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+  "sourceGenerationRecord": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png.generation.json",
+  "art_source": "host_image",
+  "sourceRoute": "builtin image_gen",
+  "actualModel": null,
+  "actualQuality": null,
+  "frameCount": 8,
+  "uniqueFrameCount": 8,
+  "canvas": [
+    900,
+    900
+  ],
+  "grid": {
+    "rows": 2,
+    "columns": 4,
+    "order": "row-major"
+  },
+  "camera": "fixed isometric oval plane, approximately35degree downward",
+  "anchorPxTopLeft": [
+    450,
+    540
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.6
+  ],
+  "registrationMethod": "manual plane-hole/star-core source registration; native crop then RGBA-preserving paste on transparent canvas; no per-frame bbox normalization",
+  "durationSeconds": 0.8,
+  "secondsPerFrame": 0.1,
+  "fps": 10,
+  "loop": false,
+  "timingDemonstrationOnly": true,
+  "gameplayEvents": [],
+  "nonemptyEndpoints": true,
+  "sourceAlphaEdited": false,
+  "resampled": false,
+  "frames": [
+    {
+      "index": 0,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-00.png.derivation.json",
+      "sha256": "da748c63dd681ab1530b77c56d16e399beb1fb1ce553408c047800b3927f198d",
+      "width": 900,
+      "height": 900,
+      "phase": "faint ring seed",
+      "timeSeconds": 0.0,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        225,
+        331
+      ],
+      "sourceAnchorPxWithinCrop": [
+        225,
+        331
+      ],
+      "pasteOffset": [
+        225,
+        209
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          251
+        ],
+        "zeroPixels": 727509,
+        "alpha1Pixels": 47192,
+        "semiTransparentPixels": 82491,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          264,
+          353,
+          667,
+          630
+        ],
+        "bboxAbove16": [
+          303,
+          461,
+          595,
+          620
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 0
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 1,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png.derivation.json",
+      "sha256": "2d730b384eef8e09c61af34071bfef50c5e35e14774f83edcb9aa762075b033a",
+      "width": 900,
+      "height": 900,
+      "phase": "gold arc tracing",
+      "timeSeconds": 0.1,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        667,
+        330
+      ],
+      "sourceAnchorPxWithinCrop": [
+        223,
+        330
+      ],
+      "pasteOffset": [
+        227,
+        210
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          252
+        ],
+        "zeroPixels": 720296,
+        "alpha1Pixels": 46469,
+        "semiTransparentPixels": 89704,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          227,
+          300,
+          636,
+          646
+        ],
+        "bboxAbove16": [
+          296,
+          447,
+          604,
+          628
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 0
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 2,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-02.png.derivation.json",
+      "sha256": "1440c384e92f1d44f4ba61dabc87355c9fe341a8b9f4825bf2b0a845600fb24b",
+      "width": 900,
+      "height": 900,
+      "phase": "ring complete and short pillars",
+      "timeSeconds": 0.2,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        1104,
+        330
+      ],
+      "sourceAnchorPxWithinCrop": [
+        217,
+        330
+      ],
+      "pasteOffset": [
+        233,
+        210
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 707887,
+        "alpha1Pixels": 39986,
+        "semiTransparentPixels": 102113,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          259,
+          298,
+          650,
+          645
+        ],
+        "bboxAbove16": [
+          266,
+          436,
+          628,
+          637
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 0
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 3,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-03.png.derivation.json",
+      "sha256": "41def6f0302a9efa8ab8d496eb9e6821d44ebbddf4a12851aab122e4d5cafc2d",
+      "width": 900,
+      "height": 900,
+      "phase": "rising pillars",
+      "timeSeconds": 0.3,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        1549,
+        332
+      ],
+      "sourceAnchorPxWithinCrop": [
+        219,
+        332
+      ],
+      "pasteOffset": [
+        231,
+        208
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "zeroPixels": 703405,
+        "alpha1Pixels": 35004,
+        "semiTransparentPixels": 106595,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          253,
+          352,
+          637,
+          647
+        ],
+        "bboxAbove16": [
+          262,
+          383,
+          627,
+          639
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 0
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 4,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png.derivation.json",
+      "sha256": "e011974e7e38c2f3b9d00dd2e686f637e67ed36d1e21858ac27fcf8d2840468e",
+      "width": 900,
+      "height": 900,
+      "phase": "four-pillar peak",
+      "timeSeconds": 0.4,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        225,
+        719
+      ],
+      "sourceAnchorPxWithinCrop": [
+        225,
+        275
+      ],
+      "pasteOffset": [
+        225,
+        265
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "zeroPixels": 697186,
+        "alpha1Pixels": 32706,
+        "semiTransparentPixels": 112814,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          250,
+          326,
+          669,
+          658
+        ],
+        "bboxAbove16": [
+          258,
+          362,
+          630,
+          643
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 1
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 5,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png.derivation.json",
+      "sha256": "2926b4a7dcc8243411df38ea3f73c3ffc1263a8aee875a3f355c1ec86c878ad1",
+      "width": 900,
+      "height": 900,
+      "phase": "shortening pillars",
+      "timeSeconds": 0.5,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        673,
+        720
+      ],
+      "sourceAnchorPxWithinCrop": [
+        229,
+        276
+      ],
+      "pasteOffset": [
+        221,
+        264
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 703059,
+        "alpha1Pixels": 40459,
+        "semiTransparentPixels": 106941,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          221,
+          323,
+          634,
+          667
+        ],
+        "bboxAbove16": [
+          261,
+          407,
+          626,
+          637
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 0
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 6,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png.derivation.json",
+      "sha256": "ab32972e9b3d5a2b4c7ad7c1d04e816918ceed930fcab2eeca15a4432f44a57a",
+      "width": 900,
+      "height": 900,
+      "phase": "broken fading ring",
+      "timeSeconds": 0.6,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        1108,
+        720
+      ],
+      "sourceAnchorPxWithinCrop": [
+        221,
+        276
+      ],
+      "pasteOffset": [
+        229,
+        264
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 708430,
+        "alpha1Pixels": 44438,
+        "semiTransparentPixels": 101570,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          262,
+          379,
+          672,
+          657
+        ],
+        "bboxAbove16": [
+          270,
+          434,
+          623,
+          639
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 1
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 7,
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png.derivation.json",
+      "sha256": "940c9122847fc3bd54095f03ed63c0d11d2fae916cacda71d04884a6e8543fd5",
+      "width": 900,
+      "height": 900,
+      "phase": "faint nonempty residue",
+      "timeSeconds": 0.7,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        1550,
+        720
+      ],
+      "sourceAnchorPxWithinCrop": [
+        220,
+        276
+      ],
+      "pasteOffset": [
+        230,
+        264
+      ],
+      "anchorPxTopLeft": [
+        450,
+        540
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.6
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          252
+        ],
+        "zeroPixels": 731039,
+        "alpha1Pixels": 46621,
+        "semiTransparentPixels": 78961,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          230,
+          314,
+          610,
+          624
+        ],
+        "bboxAbove16": [
+          321,
+          467,
+          584,
+          614
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 0
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    }
+  ],
+  "warnings": [
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 7,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 369927,
+        "detached_components": 22
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png"
+    },
+    {
+      "id": "MANUAL_SHARED_ROOT_REGISTRATION",
+      "status": "warn",
+      "value": {
+        "sourceAnchors": [
+          [
+            225,
+            331
+          ],
+          [
+            667,
+            330
+          ],
+          [
+            1104,
+            330
+          ],
+          [
+            1549,
+            332
+          ],
+          [
+            225,
+            719
+          ],
+          [
+            673,
+            720
+          ],
+          [
+            1108,
+            720
+          ],
+          [
+            1550,
+            720
+          ]
+        ],
+        "outputAnchor": [
+          450,
+          540
+        ]
+      },
+      "threshold": "single shared logical anchor; source sheet not perfectly registered",
+      "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+      "note": "Original phases are only translated on transparent padding using measured plane/star core, no alpha-bbox normalization or per-frame scaling. Residual subpixel motion is not formally approved."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        0,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "GENERATIVE_CONTOUR_AND_TIMING_CANDIDATE",
+      "status": "warn",
+      "value": "Minor ring/cloud or spark topology differences across phases; eight phases at10fps",
+      "threshold": "Final smoothness, topology and gameplay timing require animation/director review",
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+      "note": "No claim of continuous video, gameplay event alignment or final smooth-animation acceptance."
+    }
+  ],
+  "visualReview": "actual_native_fixed_window_contact_sheets_reviewed_in_sequence_on_light_and_dark; candidate_with_warnings",
+  "status": "registered_eight_phase_one_shot_candidate_with_warnings",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "qaPreviews": [
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-0.png",
+      "sha256": "87750c8edd36892577ef00060ce4e3d1ed7e2fb20b0881969685de01f167c9d2",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-1.png",
+      "sha256": "32fa01031855b1dab863f7aa20285eaf9692646ef8664c7eda422b1ad9870252",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-sequence.gif",
+      "sha256": "d977bd6fc2a600f812e80482e1f135b9bd8b6af5bb9247408ff9a69208c3363e",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-sequence.gif.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-0.png",
+      "sha256": "72b42e1dbf2a7b6db9d3fba0f8680223ee2210ada2d79bf1dfcdc7b098ca9ace",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-1.png",
+      "sha256": "c6bd47d16aaaef1156b9f574a0ee6cfc8efe3466939859c46b3955c9801ff7ec",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-sequence.gif",
+      "sha256": "da80a8d0ac7a0f62545433d1e20b7885115fb6561816dceef8088f5f42e6dc40",
+      "record": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-light-sequence.gif.derivation.json"
+    }
+  ]
+}

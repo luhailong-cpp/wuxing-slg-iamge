@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-bust-native.png",
+  "sha256": "b6992a683210138713ad85862d270355a582185b81a4dc83c61250779f22d754",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png",
+    "sha256": "739ce359afc3d07d27207feb72f157ec482dc7dbcea2a07048cfce3309d55c3f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      247,
+      25,
+      777,
+      903
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

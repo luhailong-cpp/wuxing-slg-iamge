@@ -1,0 +1,56 @@
+{
+  "screenId": 35,
+  "title": "招募入口",
+  "file": "designs/01-率土之滨/ui/troop-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.png",
+  "sha256": "7af390204fc5aa050f7ed83589af6d65795664d48894f057753ebf470a4740fe",
+  "actualVisualInspection": true,
+  "status": "selected_corrected_direction_candidate",
+  "selected": true,
+  "observedSize": [
+    1916,
+    821
+  ],
+  "verifiedText": [
+    "武将招募",
+    "铜钱5000",
+    "玉符680",
+    "铜钱招募",
+    "玉符招募",
+    "刘备",
+    "曹操",
+    "赵云",
+    "诸葛亮",
+    "预览武将",
+    "下次免费00:15:00",
+    "单次招募",
+    "五次招募",
+    "300",
+    "1500",
+    "200",
+    "1000",
+    "玉符不足，还差320"
+  ],
+  "checks": {
+    "historicalGeneralPreview": "PASS_LiuBei_CaoCao_ZhaoYun_ZhugeLiang",
+    "masterIdentityConsistency": "PASS_visual",
+    "noFiveElementHeroSummon": "PASS",
+    "twoCurrencyColumns": "PASS",
+    "currencyArithmetic": "PASS_1000minus680equals320",
+    "jadeFiveRecruitDisabled": "PASS",
+    "coinsOnlyForCopperCurrency": "PASS",
+    "noForcedElementRecruitCategories": "PASS"
+  },
+  "limits": [
+    "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+    "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+    "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+    "User approval and full state coverage remain false",
+    "Displayed historical generals are preview examples; actual pool eligibility and rarity/odds are not validated"
+  ],
+  "correctionRounds": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullStateCoverage": false,
+  "reviewedAt": "2026-10-28T12:06:46.650Z",
+  "qaRecord": "records/ui-correction-extra-20261028/35-historical-generals-recruit-entry-ui-v1.visual-qa.json"
+}

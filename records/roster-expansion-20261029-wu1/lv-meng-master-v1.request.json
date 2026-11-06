@@ -1,0 +1,92 @@
+{
+  "status": "RETURNED_SAVED",
+  "personID": "ww-p-799cddfec017",
+  "name": "吕蒙",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create exactly ONE portrait 2:3 full-body character master, approximately 1024x1536 native. Original character artwork for 五行问鼎, a horizontal Three Kingdoms SLG. Premium high-definition Daoist chibi hand-painted 2D illustration in the same series as attached references. Big expressive head and short sturdy body, about 3 heads tall, round and friendly but clearly an adult when specified. Fine controlled brush shading, ivory silk, jade/teal enamel, restrained warm gold engraved cloud curves, crisp soft-edged rendering, no photorealism, no plastic 3D look. The first and second attached images are PRIMARY STYLE references only: use their finish, warm jade-gold-ivory visual language, not their UI or background. Subsequent attached characters are PEER STYLE/PROPORTION references only: never copy their face, exact pose, crown, costume or identity. Historical named general, not an elemental hero; metal/wood/water/fire/earth classify ordinary troops only. One standing full figure in calm 3/4 front view looking toward viewer, face and hands readable, no action blur. Keep all hair, headgear, sleeves, footwear, weapon tips and tassels inside the canvas with at least 8% transparent margin on every side. Fully drawn opaque character interior with natural anti-aliased contour, genuine alpha background, no painted backdrop, no gradient halo, no scenery, no floor or cast shadow, no particle aura. No text, letters, Chinese writing, numbers, card, frame, UI, title, watermark or logo. All designs are original stylizations rather than copies of any official game's portraits.\n\nLU MENG 吕蒙, a seasoned disciplined martial commander who also studies. Around late 30s, solid stocky athletic body, angular broad cheekbones, deep-set focused brown eyes, straight thick brows, closely trimmed moustache and short box beard, composed firm mouth. Short neat black hair, plain compact green soldier headwrap beneath small bronze brow guard; no royal headdress. Dark jade and charcoal practical lamellar armour, ivory underlayers, restrained gilt cloud details, square shoulder plates, short teal cloak with a narrow dull red lining. One hand holds a tightly closed bamboo book against the ribs, the other rests on the hilt of a sheathed short straight dao. Closed book has plain bamboo slats and no writing. Strong upright grounded stance. Armour and practical square silhouette should contrast with Lu Su's flowing robes and Lu Xun's slim scholar silhouette. No elemental aura.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/09-zhang-fei-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "references": [
+    {
+      "key": "mail",
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actualViewed": true,
+      "role": "primary_style"
+    },
+    {
+      "key": "team",
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actualViewed": true,
+      "role": "primary_style"
+    },
+    {
+      "key": "zhouyu",
+      "file": "designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "sha256": "3ecc8fe1c952e758bf513fc8756fec0c71dc1666b430e2a8f13110a5570272ed",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    },
+    {
+      "key": "sunquan",
+      "file": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "sha256": "e1ee5843358777ce56e8a1b20b6f16424301d0a6ad0e5d2da4087efbdb62c799",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    },
+    {
+      "key": "zhangfei",
+      "file": "designs/01-率土之滨/characters/09-zhang-fei-v1.png",
+      "sha256": "783a39018536d3780d3a5591ab4e5beb5dd0bb08cac82475cb9911c3a8b04000",
+      "actualViewed": true,
+      "role": "peer_series_style_and_proportion_not_identity_copy"
+    }
+  ],
+  "generatedAt": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "observedStartedUTC": {
+    "current_time": "2026-10-29 10:30:37 UTC"
+  },
+  "selectedSource": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png",
+  "sha256": "69a69e2c2c8f26331fe18cc39cd1d019c385de6df872e0faf2522371ec67f97b",
+  "observedCompletedUTC": {
+    "current_time": "2026-10-29 10:35:08 UTC"
+  },
+  "exactToolParameters": {
+    "prompt": "Create exactly ONE portrait 2:3 full-body character master, approximately 1024x1536 native. Original character artwork for 五行问鼎, a horizontal Three Kingdoms SLG. Premium high-definition Daoist chibi hand-painted 2D illustration in the same series as attached references. Big expressive head and short sturdy body, about 3 heads tall, round and friendly but clearly an adult when specified. Fine controlled brush shading, ivory silk, jade/teal enamel, restrained warm gold engraved cloud curves, crisp soft-edged rendering, no photorealism, no plastic 3D look. The first and second attached images are PRIMARY STYLE references only: use their finish, warm jade-gold-ivory visual language, not their UI or background. Subsequent attached characters are PEER STYLE/PROPORTION references only: never copy their face, exact pose, crown, costume or identity. Historical named general, not an elemental hero; metal/wood/water/fire/earth classify ordinary troops only. One standing full figure in calm 3/4 front view looking toward viewer, face and hands readable, no action blur. Keep all hair, headgear, sleeves, footwear, weapon tips and tassels inside the canvas with at least 8% transparent margin on every side. Fully drawn opaque character interior with natural anti-aliased contour, genuine alpha background, no painted backdrop, no gradient halo, no scenery, no floor or cast shadow, no particle aura. No text, letters, Chinese writing, numbers, card, frame, UI, title, watermark or logo. All designs are original stylizations rather than copies of any official game's portraits.\n\nLU MENG 吕蒙, a seasoned disciplined martial commander who also studies. Around late 30s, solid stocky athletic body, angular broad cheekbones, deep-set focused brown eyes, straight thick brows, closely trimmed moustache and short box beard, composed firm mouth. Short neat black hair, plain compact green soldier headwrap beneath small bronze brow guard; no royal headdress. Dark jade and charcoal practical lamellar armour, ivory underlayers, restrained gilt cloud details, square shoulder plates, short teal cloak with a narrow dull red lining. One hand holds a tightly closed bamboo book against the ribs, the other rests on the hilt of a sheathed short straight dao. Closed book has plain bamboo slats and no writing. Strong upright grounded stance. Armour and practical square silhouette should contrast with Lu Su's flowing robes and Lu Xun's slim scholar silhouette. No elemental aura.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/09-zhang-fei-v1.png"
+    ],
+    "transparent_background": true
+  },
+  "submissionEvidenceNote": "Only prompt, referenced_image_paths and transparent_background were passed to image_gen.imagegen. Null model/quality metadata denote unavailable selectors, not submitted tool arguments."
+}

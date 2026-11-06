@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png",
+  "sha256": "2aa75743bc4e24d81b919bcfb3cd1405317bd669b91c21cd0988d07de6dc0c1a",
+  "generatedAt": "2026-10-27T17:09:27.406Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T17:08:24.477Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/strategy-array.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/fx-animation/strategy-array-sheet-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主仅返回image_url/output_hint，型号与质量未披露；原生PNG承载图像数据。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/fx-animation/strategy-array-sheet-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/strategy-array-sheet-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-f08e-7500-b96a-7cf0bcdf73d9/exec-f588e92c-5fd8-4023-b85d-93251e26d232.png",
+      "sha256": "2aa75743bc4e24d81b919bcfb3cd1405317bd669b91c21cd0988d07de6dc0c1a",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/fx-animation/strategy-array-sheet-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v1.png",
+      "sha256": "19d2564b3633af3d10d63a0b4138dc4810f36fa9eefc8ea5c76d11465f6425c5",
+      "role": "符阵sheet v1实际AI编辑对象",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要邮件风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要组队风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "sha256": "8387d21e6f90b06cb0437b274212f3e9dd795eb488ba144d02c5ddfea04359da",
+      "role": "既有符阵静态FX视觉身份",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 1100264,
+    "semiTransparentPixelCount": 473274,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "符阵8相位one-shot生成式sheet候选，AI修可见跨格v2",
+  "status": "selected_generated_eight_phase_source_candidate_pending_user_and_runtime_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T17:11:42.149105+00:00",
+  "exportManifest": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+  "qaReview": "records/01-率土之滨/fx-animation/strategy-array-review-20261027.json",
+  "candidateExportFrameCount": 8,
+  "candidateAnimations": 1,
+  "smoothAnimationFinallyApproved": false,
+  "nominalGridFailureResolvedByManualOwnership": false
+}

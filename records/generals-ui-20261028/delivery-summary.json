@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "finalizedAtUtc": "2026-10-28T08:22:54.437092+00:00",
+  "status": "static_candidate_pack_exported_and_fresh_project_roundtrip_verified_with_art_warnings",
+  "counts": {
+    "generals": 12,
+    "nativeFace": 12,
+    "nativeBust": 12,
+    "avatar128": 12,
+    "avatar256": 12,
+    "fullCard": 12,
+    "rgbaPng": 60,
+    "perPngDerivationRecords": 60,
+    "qaComposites": 28,
+    "unityPackages": 1,
+    "newArtworkGenerated": 0,
+    "animationClips": 0
+  },
+  "variantCounts": {
+    "face-native": 12,
+    "bust-native": 12,
+    "avatar-128": 12,
+    "avatar-256": 12,
+    "card-full": 12
+  },
+  "ids": [
+    {
+      "id": "liu-bei",
+      "displayName": "刘备"
+    },
+    {
+      "id": "cao-cao",
+      "displayName": "曹操"
+    },
+    {
+      "id": "sun-quan",
+      "displayName": "孙权"
+    },
+    {
+      "id": "zhao-yun",
+      "displayName": "赵云"
+    },
+    {
+      "id": "zhuge-liang",
+      "displayName": "诸葛亮"
+    },
+    {
+      "id": "guan-yu",
+      "displayName": "关羽"
+    },
+    {
+      "id": "zhang-fei",
+      "displayName": "张飞"
+    },
+    {
+      "id": "zhou-yu",
+      "displayName": "周瑜"
+    },
+    {
+      "id": "lv-bu",
+      "displayName": "吕布"
+    },
+    {
+      "id": "diao-chan",
+      "displayName": "貂蝉"
+    },
+    {
+      "id": "hua-tuo",
+      "displayName": "华佗"
+    },
+    {
+      "id": "huang-yue-ying",
+      "displayName": "黄月英"
+    }
+  ],
+  "package": {
+    "schemaVersion": 1,
+    "recordedAtUtc": "2026-10-28T08:22:54.437092+00:00",
+    "artifactType": "Unity package containing existing-source UI derivatives",
+    "file": "exports/01-率土之滨/generals-ui-v1/unity/WuxingSLGGeneralsUIV1-20261028.unitypackage",
+    "sha256": "082b2d918712f105e7610068bb765665f4d9d361379fe93809045cde46b5f7b1",
+    "bytes": 39753408,
+    "generatedNewArtwork": false,
+    "sourceIndex": {
+      "file": "exports/01-率土之滨/generals-ui-v1/unity/source-index.json",
+      "sha256": "4fe3f35a310c675fb87d4a6c5bb911a3e5ababe3583aff2f6f016af143f46153"
+    },
+    "sourceManifest": {
+      "file": "exports/01-率土之滨/generals-ui-v1/generals-ui-manifest.json",
+      "sha256": "e32b7bd5992f47aa1df65b6e3213a95d3eabd885cfe1c7db4ae350e24c35a34f"
+    },
+    "generalCount": 12,
+    "pngCount": 60,
+    "originalMastersChanged": false,
+    "exportRoot": "Assets/WuxingSLGGeneralsUIV1",
+    "importVerification": [
+      {
+        "file": "records/generals-ui-20261028/unity-source-validation.json",
+        "sha256": "3b3fe1915d3e9a323d1c6a3aaadb02008b02f687768efcc50cb4fbac7f9842a9",
+        "passed": true,
+        "sprites": 60
+      },
+      {
+        "file": "records/generals-ui-20261028/unity-roundtrip-validation.json",
+        "sha256": "1d08d4c6796a5c177d7f3ae236bdbe0da25fc059f87495d4e49e8b8140df8901",
+        "passed": true,
+        "sprites": 60
+      }
+    ],
+    "archiveVerification": {
+      "file": "records/generals-ui-20261028/unity-package-archive-audit.json",
+      "sha256": "805c5b29b0549fe2ac6625113119f1bc77fbf55be52deb542afbc58824791d92"
+    },
+    "finalVisualReview": {
+      "file": "records/generals-ui-20261028/final-visual-review.json",
+      "sha256": "4d19808afb8a585bb781aebaa860da03469aff286358fe3aa064c1127772f68d"
+    },
+    "userApproved": false,
+    "clientIntegrated": false,
+    "officialLaunchAdopted": false
+  },
+  "sourceImportPassed": true,
+  "freshProjectRoundtripPassed": true,
+  "packageArchivePassed": true,
+  "otherExistingPackageConflictCount": 0,
+  "comparedExistingPackageCount": 6,
+  "sourceMasterHashesUnchanged": 12,
+  "sourceRecordHashesUnchanged": 12,
+  "derivedPngHashesMatched": 60,
+  "derivedRecordHashesMatched": 60,
+  "all24NativeCropsPixelExact": true,
+  "lightDarkQaActuallyViewed": 28,
+  "warnings": {
+    "ARTIST_CANDIDATE_NOT_USER_ACCEPTED": 60,
+    "SOURCE_SOFT_ALPHA_RETAINED": 60,
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP": 48,
+    "TIGHT_SOURCE_MASTER_MARGIN": 10,
+    "HISTORICAL_TOOL_RECEIPT_INCOMPLETE": 5
+  },
+  "compilerDiagnostics": [
+    {
+      "mode": "source",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingGeneralsUI.cs(204,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingGeneralsUI.cs(64,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    },
+    {
+      "mode": "roundtrip",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingGeneralsUI.cs(204,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingGeneralsUI.cs(64,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

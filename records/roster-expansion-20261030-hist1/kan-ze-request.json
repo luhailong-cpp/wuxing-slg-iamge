@@ -1,0 +1,67 @@
+{
+  "startedAt": "2026-10-30T05:04:20.187Z",
+  "personId": "kan-ze",
+  "chineseName": "阚泽",
+  "personID": "ww-p-69bc0f05eaf8",
+  "identityEvidence": [
+    {
+      "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+      "locator": "卷53：阚泽",
+      "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+    },
+    {
+      "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B753",
+      "locator": "三国志卷53#闞澤",
+      "sha256": "93c460bdf5d7bbf67ee5523e8597dcd0257055297a3fc214ba2380b6e49294be"
+    }
+  ],
+  "officialCardIds": [
+    100219
+  ],
+  "designChoicesNotHistoricalFacts": true,
+  "frameRoute": "static_master",
+  "promptFile": "prompts/01-率土之滨/roster-expansion-20261030-hist1/kan-ze-master-v1.prompt.txt",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style or series finish only; not identity"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style or series finish only; not identity"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png",
+      "sha256": "16d4585e4b68b26687dfb5009024f59379afe78e71453cd60995b649aaa0ea03",
+      "role": "authoritative style or series finish only; not identity"
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original complete standalone character master of 阚泽 for 五行问鼎, a historical Three Kingdoms identity in the established Taoist chibi HD hand-painted style. Exactly ONE person on true transparent alpha, vertical2:3. Images1/2 are authoritative style, image3 is peer finish ONLY; do not copy face, costume, prop or personality. Jade-green, ivory cloth and restrained warm-gold cloud/ruiyi details, finely painted rounded forms, soft shading, rich fabric and clear linework.\nA mature practical scholar, broad friendly square face, sun-warmed skin, modest short moustache, focused round brown eyes. Dark blue-green cloth headscarf rather than ornate crown. Plain layered cream and muted brown-green linen robe with restrained gold cloud cuffs, knotted rope belt and small jade pendant. Holds a thick complete rolled bamboo manuscript under one arm, other hand gesturing calmly. Sturdy cloth shoes, grounded modest stance.\nThese are original fictional visual design choices, not documentary claims or copies of commercial card art. Clearly adult historical identity with a distinct face, adult hair/beard, compact short body and large head about2.7 heads tall. Complete hands, two boots, all sleeves and complete weapon/book/hat in canvas. Use ONLY about78 percent of height and width: at least10 percent actual transparent clearance EVERY side. Keep all extremities well away from edges. Friendly fine hand-painted Taoist chibi finish matching refs, no plastic sheen, no realism, no pixel style. No scene, background haze, ground, shadow, halo, card frame, text, nameplate, watermarks or UI. No elemental class emblem; five elements classify ordinary troops only.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/06-zhuge-liang-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "output": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/kan-ze-master-v1.png"
+}

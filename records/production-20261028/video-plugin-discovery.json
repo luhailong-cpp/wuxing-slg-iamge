@@ -1,0 +1,30 @@
+{
+  "checkedAtUtc": "2026-10-28T11:13:36.898Z",
+  "availableNativeVideoTools": [],
+  "pluginDiscovery": [
+    {
+      "name": "Runway",
+      "id": "plugin_asdk_app_6a05e3b201788191be12b590b43e6ce3",
+      "installed": false,
+      "capability": "animate images into video",
+      "suggested": true
+    },
+    {
+      "name": "Higgsfield",
+      "id": "plugin_asdk_app_6a3293e129088191abf0875820e839da",
+      "installed": false,
+      "capability": "video generation from reference images",
+      "suggested": false
+    }
+  ],
+  "state": "connection_not_confirmed; tool namespace removed after Unknown tool auth error; no video generated",
+  "generatedVideoCount": 0,
+  "paidActionExecuted": false,
+  "updatedAtUtc": "2026-10-28T12:30:15.852Z",
+  "connectionCheck": {
+    "tool": "runway.whoami",
+    "isError": true,
+    "error": "Mcp error -32001: Unknown tool runway.whoami"
+  },
+  "toolNamespaceRemovedAfterFailedAuthCheck": true
+}

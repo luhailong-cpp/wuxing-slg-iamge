@@ -1,0 +1,25 @@
+{
+  "file": "records/map-depth-20261028/unity-gpu/east-dark.png",
+  "sha256": "56625d34d5c5aa6d4821b4308cab9b54b1e4dd5953858ac4bbc6ce20252d66f5",
+  "width": 1000,
+  "height": 1000,
+  "format": "PNG",
+  "operation": "actual_Unity_D3D11_static_Camera_Render",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-back.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-front.png.derivation.json"
+    }
+  ],
+  "newArtwork": false,
+  "diagnosticOnly": true,
+  "clientIntegrated": false,
+  "createdAt": "2026-10-28T08:37:54.637Z",
+  "runtimeEvidence": "records/map-depth-20261028/unity-source-report.json"
+}

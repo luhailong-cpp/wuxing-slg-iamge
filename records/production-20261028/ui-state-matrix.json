@@ -1,0 +1,1876 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-28T08:38:24.760Z",
+  "contract": "records/production-20261028/current-requirements.json",
+  "purpose": "required_state_inventory_not_completion_evidence",
+  "stateCount": 224,
+  "screens": [
+    {
+      "screenId": 1,
+      "title": "大地图",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "land_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "friendly_troop_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy_troop_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "marching",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "returning",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "network_error",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 2,
+      "title": "天下大势",
+      "states": [
+        {
+          "state": "unstarted",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "active",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "completed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward_available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward_claimed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "locked",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 3,
+      "title": "武将卡册",
+      "states": [
+        {
+          "state": "populated",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "search_results",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "filter_metal",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "filter_wood",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "filter_water",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "filter_fire",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "filter_earth",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "locked_general",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 4,
+      "title": "主城",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "building_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "upgrading",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "resources_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "queue_full",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "upgrade_complete",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 5,
+      "title": "分城",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "building_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "upgrading",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "resources_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "queue_full",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 6,
+      "title": "戍城",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "garrisoned",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty_garrison",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "capacity_full",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy_siege",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 7,
+      "title": "要塞",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "building",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "garrisoned",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "demolish_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 8,
+      "title": "军营",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "recruiting",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "resources_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "recruit_complete",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 9,
+      "title": "县城",
+      "states": [
+        {
+          "state": "neutral",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "friendly",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "siege",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "occupied",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 10,
+      "title": "郡城",
+      "states": [
+        {
+          "state": "neutral",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "friendly",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "siege",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "occupied",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 11,
+      "title": "州府",
+      "states": [
+        {
+          "state": "neutral",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "friendly",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "siege",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "occupied",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 12,
+      "title": "国都",
+      "states": [
+        {
+          "state": "neutral",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "friendly",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "siege",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "occupied",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 13,
+      "title": "战法库",
+      "states": [
+        {
+          "state": "populated",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "search",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "filtered",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "dismantle_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 14,
+      "title": "战法详情",
+      "states": [
+        {
+          "state": "owned",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "not_owned",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "learn_available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "already_learned",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "capacity_full",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "upgrade_available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "exp_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 15,
+      "title": "部队配置",
+      "states": [
+        {
+          "state": "filled",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty_slot",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "general_selection",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "swap",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "cost_exceeded",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "locked_formation",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "troop_selection",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 16,
+      "title": "征兵",
+      "states": [
+        {
+          "state": "idle",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "amount_changed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "resources_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "recruiting",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "cancel_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "complete",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 17,
+      "title": "战报",
+      "states": [
+        {
+          "state": "victory",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "defeat",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "draw",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "detail",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "unread",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "read",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 18,
+      "title": "刘备详情",
+      "states": [
+        {
+          "state": "default",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "locked",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "unlocked",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "stamina_empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "level_up",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "troop_metal",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "troop_wood",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "troop_water",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "troop_fire",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "troop_earth",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 19,
+      "title": "刘备招募结果",
+      "states": [
+        {
+          "state": "new_general",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "duplicate_general",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "locked_result",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "continue",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "capacity_full",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 20,
+      "title": "建造引导",
+      "states": [
+        {
+          "state": "step_focus",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "dialogue",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "await_build",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward_available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward_claimed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "skip_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 21,
+      "title": "行军",
+      "states": [
+        {
+          "state": "target_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "marching",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "arrived",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "returning",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "route_unavailable",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 22,
+      "title": "救援引导",
+      "states": [
+        {
+          "state": "dialogue",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "target_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy_defeated",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward_available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "complete",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 23,
+      "title": "刘备配点",
+      "states": [
+        {
+          "state": "points_available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "points_spent",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "confirm_pending",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reset_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "no_points",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 24,
+      "title": "刘备兵种",
+      "states": [
+        {
+          "state": "metal",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "wood",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "water",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "fire",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "earth",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "selected_not_equipped",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "equipped",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "locked",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 25,
+      "title": "登录选服",
+      "states": [
+        {
+          "state": "loading",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "server_list",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "selected_server",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "maintenance",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "queue",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "login_failure",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "announcement",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 26,
+      "title": "同盟",
+      "states": [
+        {
+          "state": "not_joined",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "overview",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "members",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "application_pending",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "officer_actions",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 27,
+      "title": "邮件",
+      "states": [
+        {
+          "state": "unread",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "read",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "with_attachment",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "claimable",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "claimed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "expired",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "claim_failed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "delete_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 28,
+      "title": "聊天",
+      "states": [
+        {
+          "state": "channel_selected",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "sending",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "sent",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "send_failed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "muted",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "emoji_panel",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 29,
+      "title": "任务",
+      "states": [
+        {
+          "state": "incomplete",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "completed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "claimable",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "claimed",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 30,
+      "title": "设置帮助",
+      "states": [
+        {
+          "state": "settings",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "help",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "toggle_on",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "toggle_off",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "confirm_reset",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "network_error",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 31,
+      "title": "土地详情",
+      "states": [
+        {
+          "state": "neutral",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "own",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "ally",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "enemy",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "in_range",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "out_of_range",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "occupied",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "abandon_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 32,
+      "title": "背包",
+      "states": [
+        {
+          "state": "populated",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "selected_item",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "use_quantity",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "use_success",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "quantity_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward_received",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 33,
+      "title": "战斗结算",
+      "states": [
+        {
+          "state": "victory",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "defeat",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "draw",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "reward",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "losses",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "close",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 34,
+      "title": "武将觉醒",
+      "states": [
+        {
+          "state": "available",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "level_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "material_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "success",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 35,
+      "title": "招募入口",
+      "states": [
+        {
+          "state": "single",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "multiple",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "resources_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "recruiting",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "result",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "pool_details",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    },
+    {
+      "screenId": 36,
+      "title": "建设队列",
+      "states": [
+        {
+          "state": "empty",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "building",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "upgrading",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "complete",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "queue_full",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "cancel_confirm",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        },
+        {
+          "state": "resources_insufficient",
+          "visualAssetStatus": "unverified",
+          "runtimeStatus": "not_integrated",
+          "directionFile": null,
+          "userApproved": false
+        }
+      ],
+      "dynamicText": true,
+      "fiveElementsApplyOnlyToTroopType": true
+    }
+  ],
+  "outOfCurrent36": [
+    "排行榜",
+    "同盟集结/标记详细页",
+    "市场/资源交易",
+    "战法学习对象与拆解子窗口",
+    "独立武将选择弹窗",
+    "国家事务/驻军管理细分",
+    "公告/断线重连/通用确认",
+    "首发活动/签到（若启用）"
+  ],
+  "fullGameArtComplete": false
+}

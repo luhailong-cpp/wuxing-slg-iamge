@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/21-map-march-ui-v2.png",
+  "sha256": "15586f1fbcebcbc4f753ea3d87a66fb5d6ebb2c08164d163c19c7fa26ec81ce9",
+  "generatedAt": "2026-10-27T16:26:48.141Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T16:25:34.255Z",
+  "width": 1915,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/21-map-march-ui-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/21-map-march-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/21-map-march-ui-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/21-map-march-ui-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d74-9ca8-7061-8996-5aefcd03a82b/exec-aeeb7021-ce95-4da8-b890-a121a12562a9.png",
+      "sha256": "15586f1fbcebcbc4f753ea3d87a66fb5d6ebb2c08164d163c19c7fa26ec81ce9",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/21-map-march-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/21-map-march-ui-v1.png",
+      "sha256": "55176c04f8b2d85f48a289b71f912a3d49c921466456d94af33d81e446838bb7",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/21-map-march-ui-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "行军路线AI修改v2未通过，跨河衔接及箭头方向待重设计",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T16:41:44.601746+00:00"
+}

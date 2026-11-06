@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/01-metal-native-light.png",
+  "sha256": "54a061e027cf5d55031c54743faa2e81a62ffe01827c67343d820bb78a380ce6",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 1,
+    "backgroundRGBA": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "width": 1615,
+  "height": 995,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "sha256": "d3e9652984940f22bfa60a2a5adae065839e048ca6d9539e5db8a581bd9950db",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png",
+      "sha256": "57a6c8dc3bed807606e13a2ae150f7e8f521611de105a7c305e25170d41ad5a3",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-bust-native.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

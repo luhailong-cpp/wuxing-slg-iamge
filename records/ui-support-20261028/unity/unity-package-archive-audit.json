@@ -1,0 +1,555 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-28T08:55:16.426222+00:00",
+  "package": "exports/01-率土之滨/ui-support-v1/unity/WuxingSLGUISupportV1-20261028.unitypackage",
+  "sha256": "59448583002dcdb6f98f8512ae8f199f790e390b2a4b9d30089eb9a85035296d",
+  "bytes": 1379013,
+  "exportRoot": "Assets/WuxingSLGUISupportV1",
+  "archiveEntryCount": 90,
+  "pngCount": 32,
+  "byteVerifiedPngCount": 32,
+  "byteVerifiedDerivationCount": 32,
+  "originalMasterGenerationRecordHashMatched": true,
+  "packageContainsOnlyItsExportRoot": true,
+  "otherPackageComparisons": [
+    {
+      "package": "exports/01-率土之滨/core-art-v3-20261028/WuxingSLGCoreArtV3-20261028.unitypackage",
+      "sha256": "98557a0b424018d68bc0208839098f868dc8130b49c4851ca5b754e9f690fac9",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/five-element-troops-v1/unity/WuxingSLGFiveElementTroopsV1-20261028.unitypackage",
+      "sha256": "7b8bca0bd2f8651058e508a1fc1bb8d8fd2d63b237658a4e62070d873f9f7cfb",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/fx-gpu-playback-v1/WuxingSLGFXGpuPlaybackDemo-20261027.unitypackage",
+      "sha256": "a211d36227f0bdb1b3c0770f4e06e3cbfc6f0cebbdbf4c5e22213744c97b71aa",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/generals-ui-v1/unity/WuxingSLGGeneralsUIV1-20261028.unitypackage",
+      "sha256": "082b2d918712f105e7610068bb765665f4d9d361379fe93809045cde46b5f7b1",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/hero-ui-v1/unity/WuxingSLGHeroSkillUIPreview-20261027.unitypackage",
+      "sha256": "86b9f91cee815fbc419d9cf537c0fcfcf1109ca9f48ce601acfe1cdd67693e65",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+      "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/map-depth-20261028/unity/WuxingSLGBridgeDepth-20261028.unitypackage",
+      "sha256": "0ed82dec8c6562e8c3198ecd4b11444e28be34efe461ce92ea39dcfc0e2732e7",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/terrain-continuity-20261028/unity/WuxingSLGContinuousGrass-20261028.unitypackage",
+      "sha256": "1c7c8540bbf0e4271a9ddc1c41cff6c9fc8d5f013484087479c2d9e11516ad66",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGArtPreview-20261027.unitypackage",
+      "sha256": "c7d20bb4a089da76dea0f412e7cb07e36fe77888b76ac222e265186396df411c",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGArtPreviewV2-20261027.unitypackage",
+      "sha256": "b0d8ce3ddd8d6077db01353a611853f6b6e2545264cd0a27b24f9d1d5ac27ed5",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    }
+  ],
+  "checks": [
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/search/search-native.png",
+      "guid": "9eed8728faa993047835dd81fb16e50a",
+      "kind": "png",
+      "sha256": "f963672708af787d902534f6900f518e2cdac940c13e3352d73a2e9f3a8b90f1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/search-native.json",
+      "guid": "6f184942993e2ac40bf6ae8f2387aaba",
+      "kind": "derivation",
+      "sha256": "5ccdb3a03bfd80da4927b7637c9567ec9248478c9a1268c529227ea17dfc7d41",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/search/search-128.png",
+      "guid": "39e65089106f6504e81bd6d0fc825a8b",
+      "kind": "png",
+      "sha256": "055d7291a93cfd9363abec16edd34eece1db6855064a643ac085fd810f72253e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/search-128.json",
+      "guid": "a3b8330166aba084a925b869d48031af",
+      "kind": "derivation",
+      "sha256": "889e8bd0f006e640f77ead40fa3fe7d07dc84236fbc3e0d6165eb132594e769d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/close/close-native.png",
+      "guid": "c8fbfd3185a0cf14daed2540a6c48270",
+      "kind": "png",
+      "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/close-native.json",
+      "guid": "4d936446ce3a7d047b3962bfbbb6dba9",
+      "kind": "derivation",
+      "sha256": "5c44c236af424ebef15e5a99711b59dc634f3551fd93b588f258c34f63edd9af",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/close/close-128.png",
+      "guid": "c4caa17fbacbb034d9a6896a148028a8",
+      "kind": "png",
+      "sha256": "7bd76edfdbf1ecc3ff466760aa5d41337ab9250806c01202c369a0dd8bdb8376",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/close-128.json",
+      "guid": "47d61ba66e385884a834dd82c34bd2c2",
+      "kind": "derivation",
+      "sha256": "5a55256b179d80d7bfa1962c5ca5cca3540827ff325eb57692f283a0a2006d91",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/back/back-native.png",
+      "guid": "3bb4e46a752de6e4588e34f13c43824a",
+      "kind": "png",
+      "sha256": "68c5a82d169e3f068beb12fc886e08e089caaeb530b39ccbf96524d08246c804",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/back-native.json",
+      "guid": "01b83a8b443ccb04f823ca405ecb2f4d",
+      "kind": "derivation",
+      "sha256": "d101934e815ae70c9ea74c567059ad7b5f9e6311903168635fcb3677fd1bbc77",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/back/back-128.png",
+      "guid": "169ebe61e5515f645b6b246f798ccc44",
+      "kind": "png",
+      "sha256": "8a4183b0c74bb5287b34d5ed03e8d2b5677f8ce34cf51fc5eedfd846d110ccf9",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/back-128.json",
+      "guid": "9a695f7cde3189441ae65de8fd02a72d",
+      "kind": "derivation",
+      "sha256": "ee10ed8989b538ea20d50e3a8777f37aedb65b9c7d0a2a50ca3ae9bd3ba5f215",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/settings/settings-native.png",
+      "guid": "0754c4694946fae439d703a0748f39fe",
+      "kind": "png",
+      "sha256": "c7a1a87b6901cc315850835186272867c53501b33d9950fc89a91f19649ff00f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/settings-native.json",
+      "guid": "1fe5c3ab5ef9a8c49abaabe66832282e",
+      "kind": "derivation",
+      "sha256": "24854fc3e708dd8333c509e392d8e24123525aeeb38748eb7bc07ec522370710",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/settings/settings-128.png",
+      "guid": "c21d11a2283817e49aeb86ea6edf1b93",
+      "kind": "png",
+      "sha256": "a13bdec0d36a6730607036a9a6b12c632d73d6f04becedfb556b38eeb6034438",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/settings-128.json",
+      "guid": "decca8030eb3b574791d2282b2f83ff4",
+      "kind": "derivation",
+      "sha256": "1c0178d7339db26b584e24b683081fa05742eb5a94b4acbe12ccc54897484c93",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/checkbox-checked/checkbox-checked-native.png",
+      "guid": "55491a2fa7ac08a4d858f0fb138e1ece",
+      "kind": "png",
+      "sha256": "674495c5b5ff67ee07d501643aea00481f2af7dbcb93d1335404b3cf25c7b15c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/checkbox-checked-native.json",
+      "guid": "d535fe5102947444eafde16d33bedf19",
+      "kind": "derivation",
+      "sha256": "16816070c7a25d1caa268539608c5b78422b77e885f4198d05fbf41324c35249",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/checkbox-checked/checkbox-checked-128.png",
+      "guid": "d9752a2841497c9489b5dea74d1d3f2c",
+      "kind": "png",
+      "sha256": "3c7214de9b48e5209320f2895cd9fdedcbc8815b71ae554c4deb5d4d5c128620",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/checkbox-checked-128.json",
+      "guid": "d1fbdf2f513175a49b3b6eec3f70bf66",
+      "kind": "derivation",
+      "sha256": "0cac4026059c868f937b328b7469af3f5461f93b746df35205cfe65c96758956",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/checkbox-unchecked/checkbox-unchecked-native.png",
+      "guid": "7bf76624f163b834a82033fd4cf4ac6b",
+      "kind": "png",
+      "sha256": "e25b223825063d2f9139e24c4942ded48cf817ee5cf143686cc438a0f5f8902b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/checkbox-unchecked-native.json",
+      "guid": "aa6b16267deb4e94f8d1a97bf4aecd2f",
+      "kind": "derivation",
+      "sha256": "ca999e18c387939d15ca1a85de42f64cb9111e3b8f25537caf51d9c164c1a12a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/checkbox-unchecked/checkbox-unchecked-128.png",
+      "guid": "6cbeb455bade0e040b344e64e59a6b50",
+      "kind": "png",
+      "sha256": "02f180b16de769a595b38cafc969b4736c26b5e480176660f38126298a49b07d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/checkbox-unchecked-128.json",
+      "guid": "c0fc2c161d4a40d44b2a694e239119a0",
+      "kind": "derivation",
+      "sha256": "ec9cb7bb0597ca0c999c8dfa839964988f79a084c07b274097dac345a5601632",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/toggle-on/toggle-on-native.png",
+      "guid": "1e4d963a721284b46a953eeb0cb354a2",
+      "kind": "png",
+      "sha256": "786d4d9cb1724d0e8ac65a4c520e5daac4a4994a189a90d215e3bd6f80bc7898",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/toggle-on-native.json",
+      "guid": "f6f0550503f95bc4e9efb248e6d09dff",
+      "kind": "derivation",
+      "sha256": "6a43b8f38a59b65115df2002357bca07b6a63a3317da64dfd96dc6a0d6ddd750",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/toggle-on/toggle-on-128.png",
+      "guid": "4a78f555d50cc6546b9d70a21a539d4f",
+      "kind": "png",
+      "sha256": "ae8f91564e2b8bb84ed2ba9c778318f04752c0848ddac5b54ee40dae48726ffd",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/toggle-on-128.json",
+      "guid": "4110ba9ff5654514ea1a8a66df4afe78",
+      "kind": "derivation",
+      "sha256": "1ee6d330aa9aba666bc8e06aa4c668fbb48722ed616b6051fbc552fa847eb4dd",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/toggle-off/toggle-off-native.png",
+      "guid": "112b5f434a5908a4bb5a0a2d74eeece4",
+      "kind": "png",
+      "sha256": "99c90bc8285cd271e8e6e024210f260c05ba6e7a92197f9057ca66ebcd828b83",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/toggle-off-native.json",
+      "guid": "85348986342f5334da3cc95187d393a6",
+      "kind": "derivation",
+      "sha256": "1c10e98e8b2d096c2fcc61d34a8681d93fc3924d49e5a68c727ec1ca399446d2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/toggle-off/toggle-off-128.png",
+      "guid": "1f8852b014b67a549bc463784e976706",
+      "kind": "png",
+      "sha256": "1756486a2f050d4b5eeb4fed65bf4ca758a8654201ab3af0d10ed817bc50605e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/toggle-off-128.json",
+      "guid": "b9b6c31b4bd856f45a6e272310a3d03e",
+      "kind": "derivation",
+      "sha256": "e2a77bd51c5e854d8a25b47598f89d94935beb1ae5baed93ce9efa05021cfb15",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/scrollbar-thumb/scrollbar-thumb-native.png",
+      "guid": "5b46ac506bc524b43aa247a45114ebb9",
+      "kind": "png",
+      "sha256": "ca6d3f1b6d891aba4c71641ad8db89d017b985d4a31d6b7d56336233be806957",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/scrollbar-thumb-native.json",
+      "guid": "3422035ba0d8cca4fba5559d101126b6",
+      "kind": "derivation",
+      "sha256": "8d10e25081b115300a4317233d66c3ed0febbcb5857e15d7ffee39cfc542ac9f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/scrollbar-thumb/scrollbar-thumb-128.png",
+      "guid": "f87e5761bc0c7284eb64c24f272ffff9",
+      "kind": "png",
+      "sha256": "8ff570456edcb629859bdc3c5cd3240421a0bd691a6c05ddd7235645ec562e38",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/scrollbar-thumb-128.json",
+      "guid": "9c59265e0880fda4ba71882e0e09a535",
+      "kind": "derivation",
+      "sha256": "8aa9d4682a6a015db3213a8465964c60a63ee94092c7397803f77a42c18ac637",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/scrollbar-track/scrollbar-track-native.png",
+      "guid": "798efcd33bac98045888c64d02aaafff",
+      "kind": "png",
+      "sha256": "5dad5efa83f1d14a28afed346a03f06a46be41ad894688424bbd698d6ee1e2a6",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/scrollbar-track-native.json",
+      "guid": "4cead2e241d14d24cb32e3c765f6d3a3",
+      "kind": "derivation",
+      "sha256": "07713653eb3686f84a3e488aff62cde5540cc570eef53f966bb80213d886ad86",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/scrollbar-track/scrollbar-track-128.png",
+      "guid": "5b91b41b90701a148a296252e4f1cb4f",
+      "kind": "png",
+      "sha256": "1af89dd36e3e5950f01ae799ad4e781d712152deffe049862dc0e0b4d80c214f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/scrollbar-track-128.json",
+      "guid": "c7a8fd3a2463df64084403328ff9a878",
+      "kind": "derivation",
+      "sha256": "f6e503bcd9ad7cc98ccf4e8fcdd8bb6130539faf4480f35254b0b09ef1916ca4",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/progress-frame/progress-frame-native.png",
+      "guid": "f11edf0f51e95024aacbf6e2e5754b17",
+      "kind": "png",
+      "sha256": "a55e696d1e49916227442f8de0c4ba79c776c7d6bfac0a0d1fdeb14ac8cfe1b2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/progress-frame-native.json",
+      "guid": "c35d74d639b07044a9be303d3b4dbd74",
+      "kind": "derivation",
+      "sha256": "5d5f2a28dba5f7ea1a46b7bd438e17c7297cd31c28411857a4a1450dc8751b3d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/progress-frame/progress-frame-128.png",
+      "guid": "4dfbb777d22b08046ba1f6de0e822cab",
+      "kind": "png",
+      "sha256": "3e6ce1668a9d4361927255d35881c1328476c7e2f51c9667f0dd3787aee087ee",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/progress-frame-128.json",
+      "guid": "341ec9adddebfcc43a510fb3a0a1d4e2",
+      "kind": "derivation",
+      "sha256": "9b32df2e7e8149aa4e351a8cf29f3f8c7d3c3725909ed7cca704e24273ce5c4e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/progress-fill/progress-fill-native.png",
+      "guid": "83b9ec160dcca974aa926cb8481a64dc",
+      "kind": "png",
+      "sha256": "427b792d3a76c69aa4b5bb86d506da565e15ddb77b37c5c4a1b688a328b3ac69",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/progress-fill-native.json",
+      "guid": "21ebb0c9d7411ca40a05d912c6427ed7",
+      "kind": "derivation",
+      "sha256": "9e401a7fce86b69244a123511e6c2a483411bd8ae230a7e9e4604a454a8c6b00",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/progress-fill/progress-fill-128.png",
+      "guid": "3f488d4a53b572a4b9a7f52cbf4c56a1",
+      "kind": "png",
+      "sha256": "9ba88dabc9aae36fb8ef220a326ca008c8b718969312713ac33a6b243fca2f4e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/progress-fill-128.json",
+      "guid": "29eca190481a26f47ab858bdf4c7b7ab",
+      "kind": "derivation",
+      "sha256": "6756a81588e0fc518a86aca458f96bff9a28e00cb09b4a61338c79601813243b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/tutorial-hand/tutorial-hand-native.png",
+      "guid": "cf43829dc164d2241adefd29573f8e82",
+      "kind": "png",
+      "sha256": "e334753b1de2337d76a1edf81b1de76f70ca01f3ac62e9973deec04152b87ce1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/tutorial-hand-native.json",
+      "guid": "da9815c4b9cb02d41a476ac2e7857a63",
+      "kind": "derivation",
+      "sha256": "fb502c4478cd3b112148a75eec98f40adb352e5a36936f175dbcfd7f2aa91cde",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/tutorial-hand/tutorial-hand-128.png",
+      "guid": "a421495d7c7116f4d9156998ec2cb7b0",
+      "kind": "png",
+      "sha256": "8c3d2719714d96c98f59b5155ff3cbc71b91633df6f8d7c66677b31c8aaa94c3",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/tutorial-hand-128.json",
+      "guid": "8a3e3f04452112a4fb5171c9115dea21",
+      "kind": "derivation",
+      "sha256": "b35218ffff1b0d040dc695e469d937c01edd24c66eb832e478a12b08fb906475",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/warning/warning-native.png",
+      "guid": "9f809a3890ad21a4b9fec2e912bc634f",
+      "kind": "png",
+      "sha256": "0bb8b6c84637b7dfe2e1760e990dab40a9050c6da3ae49a1af324656614716a0",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/warning-native.json",
+      "guid": "41f5d724a5d8a9644ab1038193e848b4",
+      "kind": "derivation",
+      "sha256": "a62d1937ea1db8b8770d55238de7204fe1ce9f4d43e20f02a31d906abde94067",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/warning/warning-128.png",
+      "guid": "d785120eb57602f4fb7b16440945957a",
+      "kind": "png",
+      "sha256": "c08531e0b4e5cae36c374ef79f877c06f5a3375a13232bb15b9b21346daa4cfe",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/warning-128.json",
+      "guid": "dd47adde5c6ef8a40bc05da3e5bdb0b3",
+      "kind": "derivation",
+      "sha256": "4bee2c8550bd7a7415e9e58ec51ec72b97aa3a024a91a71bdb5e9462fadef37a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/mail/mail-native.png",
+      "guid": "211ec7a1d7105c84e9114cd523563ee1",
+      "kind": "png",
+      "sha256": "4f9935d0c53aca571f1e2a008a69f885a1951c4609e6da7d2d186d8dfdea8fa8",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/mail-native.json",
+      "guid": "b91b1fa39df5c4443b381b3f1aedc64c",
+      "kind": "derivation",
+      "sha256": "f88c5f3ef0e0161e416ac6e4c62ec474fb1f06ab2ac07c0476671cff6292b48c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/mail/mail-128.png",
+      "guid": "fa064b1225043d44fbc559ad920c8145",
+      "kind": "png",
+      "sha256": "e2367c21a63d86fd9d7e969c57399f4be53949a288473583bf0135c98ca5760c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/mail-128.json",
+      "guid": "a633de715125c91449558d15556f591a",
+      "kind": "derivation",
+      "sha256": "6877b9df5c51acb79af91b08b32c70223ebb30491dce299cda1286342d87e9c9",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/notification/notification-native.png",
+      "guid": "12b9960910b4e6840b251f6014362205",
+      "kind": "png",
+      "sha256": "24e8f217369fda5a0e5e84cb3af65d832319f1c15804be7d39b5e870e82c8c2e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/notification-native.json",
+      "guid": "36f79826e1f243b4fa3665ee295b9c2b",
+      "kind": "derivation",
+      "sha256": "10f55a44231c0f6f3cbf0b6c3864a28201366a18a85bd71b8ca1e10e649706aa",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Sprites/notification/notification-128.png",
+      "guid": "8de892083eda45342866bade0970ae6d",
+      "kind": "png",
+      "sha256": "9fa3c8fcda21afad81917cc66f1cdee0a116e726985d28a44e36aae1abbc04b7",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGUISupportV1/Provenance/Derivations/notification-128.json",
+      "guid": "3c53903043703d74096f40162c6792a1",
+      "kind": "derivation",
+      "sha256": "52b4bd73aef10d03b86dd71de7342a663bff4f54901e1376a40c00d3b6a7ed1a",
+      "matchesSource": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/units/archer-native.png",
+  "sha256": "264a45f0999607493e40952da2ef62f9af064791fadbead2eaab2ffa77de2180",
+  "derivedAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "width": 758,
+  "height": 927,
+  "mode": "RGBA",
+  "format": "PNG",
+  "operation": "crop",
+  "cropBox": [
+    306,
+    177,
+    1064,
+    1104
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png",
+      "sha256": "e907349d5c3ee1582669aa3e85dad9f2fcaa3b1d2be85133acf011d4352c5e18",
+      "record": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png.generation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "art_source": "existing",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 370980,
+    "alpha1Pixels": 9397,
+    "opaquePixels": 476,
+    "bboxByThreshold": {
+      "1": [
+        16,
+        16,
+        742,
+        911
+      ],
+      "16": [
+        18,
+        17,
+        740,
+        908
+      ],
+      "127": [
+        19,
+        18,
+        739,
+        907
+      ]
+    },
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "anchorPxTopLeft": [
+    379.0,
+    911
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.982740021574973
+  ],
+  "anchorStatus": "provisional bottom-center of alpha>1 footprint; no collider/physical scale contract",
+  "static": true,
+  "animationFrameCount": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_unit_native_crop_candidate"
+}

@@ -1,0 +1,909 @@
+{
+  "schemaVersion": 1,
+  "finalizedAtUtc": "2026-10-28T08:36:59.770798+00:00",
+  "status": "current_correct_contract_core_candidate_package_actual_unity_export_and_roundtrip_complete",
+  "counts": {
+    "ui": 36,
+    "map": 33,
+    "nativeTroopEmblems": 5,
+    "rgbaPng": 74,
+    "directSourceRecords": 74,
+    "uniqueUpstreamRecords": 22,
+    "uniqueSourceRecordsTotal": 96,
+    "unityPackages": 1,
+    "nineSliceControlCandidates": 16,
+    "animationFrames": 0,
+    "animationClips": 0,
+    "newArtworkGenerated": 0
+  },
+  "package": {
+    "file": "exports/01-率土之滨/core-art-v3-20261028/WuxingSLGCoreArtV3-20261028.unitypackage",
+    "sha256": "98557a0b424018d68bc0208839098f868dc8130b49c4851ca5b754e9f690fac9",
+    "bytes": 12911932,
+    "exportRoot": "Assets/WuxingSLGCoreArtV3"
+  },
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/core-art-v3-20261028/source-index.json",
+    "sha256": "a59b304f13588b46d77b236b6e0d5417eab0d79ca86387600585eb9a12475dd2"
+  },
+  "sourceManifests": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/runtime-ui-manifest.json",
+      "sha256": "54acde6613bcff0798370aca57fefa73bd99f134a4ca658148da9d1e58babf09"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/map-kit-manifest.json",
+      "sha256": "a13a7549a11e4e286ee1150342179bc3f485797639447aa978381a87a071e580"
+    },
+    {
+      "file": "exports/01-率土之滨/five-elements/emblems/emblems-manifest.json",
+      "sha256": "bd70dab0449052e1986472e82e9d1ea06f10758fa55fbd1991fc1772f62fa422"
+    }
+  ],
+  "unityVersion": "6000.6.0f1",
+  "sourceImportPassed": true,
+  "freshProjectRoundtripPassed": true,
+  "sourceImportedPixelHashesMatched": 74,
+  "freshProjectImportedPixelHashesMatched": 74,
+  "pixelHashMeaning": "Complete RGBA8 including hiddenRGB matched bottom-row-first to sourcePNG",
+  "sourcePngAndRecordHashesUnchanged": 74,
+  "sourceChainRecordHashesUnchanged": 96,
+  "sourceImageParentHashesUnchanged": 22,
+  "sourceManifestHashesUnchanged": 3,
+  "originalPivotsMatched": 74,
+  "originalBordersMatched": 74,
+  "actualAlphaCountsMatched": 74,
+  "otherExistingPackageConflictCount": 0,
+  "comparedExistingPackageCount": 9,
+  "onlyRequested74Pngs": true,
+  "excludedCategories": [
+    "old Units",
+    "five-element hero Characters",
+    "five-element skill icons",
+    "StaticFX",
+    "emblem resampled size variants"
+  ],
+  "usageConstraints": {
+    "schemaVersion": 1,
+    "scope": "Current-contract foundational candidate only: UI36/map33/native troop emblems5",
+    "nineSliceDecision": {
+      "candidateBorderPx": {
+        "left": 128,
+        "bottom": 90,
+        "right": 128,
+        "top": 90
+      },
+      "generalTwoAxisResizingAccepted": false,
+      "native500x204": "Viewed complete contours, no visible clip or neighboring fragment",
+      "horizontal900x204": "Fixed corners and gold frame preserved in actual isolated render; paper/cloud center stretch visible; horizontal-only candidate evidence atheight204",
+      "vertical500x300": "Rejected for primary/secondary/tab ornament deformation; cardrow4 paper/edge textures visibly stretch and remain unaccepted",
+      "verticalRejectedAssetIds": [
+        "button-primary-normal",
+        "button-primary-pressed",
+        "button-primary-disabled",
+        "button-primary-hover",
+        "button-secondary-normal",
+        "button-secondary-pressed",
+        "button-secondary-disabled",
+        "button-secondary-hover",
+        "tab-selected",
+        "tab-normal",
+        "tab-locked",
+        "tab-notification"
+      ],
+      "cardRowUnacceptedIds": [
+        "card-row-normal",
+        "card-row-selected",
+        "card-row-disabled",
+        "card-row-empty"
+      ],
+      "usageConstraint": "Keep these16 control candidates at native204px height unless separately redesigned or validated. Width500 and900 were tested; continuous range andotherdimensions not certified. Separating ornaments from stretchable center would be a future art/layout change.",
+      "nineSliceVerifiedInClient": false
+    },
+    "previousEvidence": {
+      "file": "records/01-率土之滨/runtime-ui-v2-unity-final-review-20261027.json",
+      "sha256": "f03197baa9a9cc658566c623fc0bc194c4c26f1ec291ab5799539b8de3a6dcfe"
+    },
+    "sourcePngAndBorderIdentityToThatEvidencePreserved": true,
+    "newGpuValidationPerformed": false,
+    "iconsAndPanelsHaveZeroSliceBorders": true,
+    "mapLimits": {
+      "seamlessTilingVerified": false,
+      "collisionVerified": false,
+      "navigationVerified": false,
+      "originalReceiptGaps": "v2 native images were recovered; original complete tool response and precise call completion time are unavailable. See unchanged generation records."
+    },
+    "emblemLimits": [
+      "Native five-element emblems classify troops only; no general affiliation is assigned.",
+      "Native alpha1 remains and source safe-frame limitations remain."
+    ],
+    "clientIntegrated": false,
+    "userApproved": false
+  },
+  "warningCounts": {
+    "NATIVE_ALPHA1_RETAINED": 36,
+    "NARROW_VISIBLE_GUTTER": 13,
+    "NINE_SLICE_VERTICAL_ORNAMENT_DISTORTION": 1,
+    "NATIVE_ALPHA1_GUTTER_RETAINED": 33,
+    "NARROW_NATIVE_GUTTER": 4,
+    "EMBLEM_ALPHA1_AND_SAFE_FRAME_LIMIT_RETAINED": 5
+  },
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3053,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 2929,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-pressed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4527,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5848,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-hover.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 2452,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3516,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-pressed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4979,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4206,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-hover.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3909,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4153,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5218,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-locked.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4168,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-notification.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3813,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3835,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4626,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3053,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3809,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        22,
+        17,
+        13
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3491,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        12,
+        18,
+        16,
+        17
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3418,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        13,
+        22,
+        24,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4462,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        11,
+        21,
+        33,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4033,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4989,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        19,
+        15,
+        18,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6330,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        14,
+        20,
+        20,
+        20
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4064,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-reserve.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 9356,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        21,
+        20,
+        3
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3151,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        17,
+        19,
+        18,
+        6
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6919,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        16,
+        21,
+        2
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7195,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5259,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        4,
+        14,
+        15
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4000,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        8,
+        14,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4122,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        2,
+        20,
+        20
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4277,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-lock.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 8456,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        20,
+        12,
+        14,
+        22
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6900,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7829,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5668,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NINE_SLICE_VERTICAL_ORNAMENT_DISTORTION",
+      "value": 12,
+      "threshold": 0,
+      "assetIds": [
+        "button-primary-normal",
+        "button-primary-pressed",
+        "button-primary-disabled",
+        "button-primary-hover",
+        "button-secondary-normal",
+        "button-secondary-pressed",
+        "button-secondary-disabled",
+        "button-secondary-hover",
+        "tab-selected",
+        "tab-normal",
+        "tab-locked",
+        "tab-notification"
+      ],
+      "testSize": [
+        500,
+        300
+      ],
+      "message": "Actual light/dark GPU review: side-center jade or scroll ornaments elongate into vertical pills in primary, secondary and tab states. Reject this border for general vertical resizing."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4060,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4537,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4195,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4600,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4229,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3825,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5357,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4420,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 10,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5471,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 9,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 6539,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 7062,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5699,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5468,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 6005,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 13,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5712,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5157,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4619,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5423,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NARROW_NATIVE_GUTTER",
+      "value": 9,
+      "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5117,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4277,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4738,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2484,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2862,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3137,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2594,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3231,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2948,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2917,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3240,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2928,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3960,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 3673,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2451,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "EMBLEM_ALPHA1_AND_SAFE_FRAME_LIMIT_RETAINED",
+      "file": "exports/01-率土之滨/five-elements/emblems/metal-native.png",
+      "value": 2622,
+      "threshold": 0,
+      "message": "Source limitations and alpha1 pixels retained; no source cleaning or repackaging claims of new art."
+    },
+    {
+      "id": "EMBLEM_ALPHA1_AND_SAFE_FRAME_LIMIT_RETAINED",
+      "file": "exports/01-率土之滨/five-elements/emblems/wood-native.png",
+      "value": 3556,
+      "threshold": 0,
+      "message": "Source limitations and alpha1 pixels retained; no source cleaning or repackaging claims of new art."
+    },
+    {
+      "id": "EMBLEM_ALPHA1_AND_SAFE_FRAME_LIMIT_RETAINED",
+      "file": "exports/01-率土之滨/five-elements/emblems/water-native.png",
+      "value": 2895,
+      "threshold": 0,
+      "message": "Source limitations and alpha1 pixels retained; no source cleaning or repackaging claims of new art."
+    },
+    {
+      "id": "EMBLEM_ALPHA1_AND_SAFE_FRAME_LIMIT_RETAINED",
+      "file": "exports/01-率土之滨/five-elements/emblems/fire-native.png",
+      "value": 3173,
+      "threshold": 0,
+      "message": "Source limitations and alpha1 pixels retained; no source cleaning or repackaging claims of new art."
+    },
+    {
+      "id": "EMBLEM_ALPHA1_AND_SAFE_FRAME_LIMIT_RETAINED",
+      "file": "exports/01-率土之滨/five-elements/emblems/earth-native.png",
+      "value": 4273,
+      "threshold": 0,
+      "message": "Source limitations and alpha1 pixels retained; no source cleaning or repackaging claims of new art."
+    }
+  ],
+  "compilerDiagnostics": [
+    {
+      "mode": "source",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(212,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(65,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    },
+    {
+      "mode": "roundtrip",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(212,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingCoreArtV3.cs(65,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "fullGameArtComplete": false
+}

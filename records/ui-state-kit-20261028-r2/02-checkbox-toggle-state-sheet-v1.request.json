@@ -1,0 +1,34 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-29T03:28:34.594Z",
+  "parentOfficialReverification": "2026-10-28 /root independently checked official release/model/generation guide; existing configuration retained",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup. Asset type: production candidate UI sprite sheet, NOT a screenshot. Reference images1/2 are the authoritative mail/team Daoist Q-version high-definition hand-painted jade-green, ivory silk, warm-gold cloud-edge style. Image3 shows existing corresponding controls for design continuity only. Generate isolated complete front-facing flat UI elements on a REAL TRANSPARENT RGBA BACKGROUND. Keep gold modest, softly hand-painted shading, small cloud corners, smooth jade or ivory central field. No environmental scene, background color, checkerboard, grid lines, labels, words, digits, letters, Chinese text, fake data, watermark, drop-shadow cloud or outer glow. Transparent gaps between independent assets; no edge contamination or disconnected specks. Every asset wholly inside its own cell with at least 28px clear alpha margins. Grid and cell coordinates are compositional instructions, NEVER drawn. All future labels are client text.\nCanvas target1536x768; precise4columns×2rows grid. EXACTLY EIGHT independent controls. Cell384×384, centers x192,576,960,1344 and y192,576. Top row CHECKBOXES, about190×190, same square rounded gold/ivory frame silhouette: col1 unchecked ivory center; col2 checked jadegreen center with one clear thick ivory checkmark; col3 disabled unchecked desaturated cool-gray center and dullgray rim; col4 disabled checked same mutedgray with palegray checkmark still visible. No other symbols. Bottom row TOGGLE SWITCHES, about280×150, same pill silhouette and same round ivory jade-stone thumb diameter110: col1 OFF warm-ivory track thumb at LEFT; col2 ON jadegreen track thumb at RIGHT; col3 disabled OFF gray track and gray thumb at LEFT; col4 disabled ON gray-sage track and gray thumb at RIGHT. Disabled ON/OFF must be distinguishable by thumb position even without color. ALL checkbox4 outerframes match one another; ALL toggle4 outerframes match one another. Thumb and track are together as baked state sprites, no detached spare knobs. No tassels, letters, labels, glow, ghosting or extra assets. Exactly8 controls, broad transparent margins/gutters.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.prompt.txt",
+  "plannedGrid": {
+    "columns": 4,
+    "rows": 2,
+    "order": "row-major-top-left",
+    "assetIds": [
+      "checkbox-off",
+      "checkbox-on",
+      "checkbox-disabled-off",
+      "checkbox-disabled-on",
+      "toggle-off",
+      "toggle-on",
+      "toggle-disabled-off",
+      "toggle-disabled-on"
+    ]
+  },
+  "maximumNativeImagesForBatch": 3
+}

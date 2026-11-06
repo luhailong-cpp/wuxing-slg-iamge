@@ -1,0 +1,353 @@
+{
+  "schema": "wuxing.map-bridge-depth.v1",
+  "createdAt": "2026-10-28T08:14:06.203468+00:00",
+  "art_source": "host_image",
+  "generatedNativeSize": [
+    1774,
+    887
+  ],
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "commonPivotPx": [
+    500,
+    900
+  ],
+  "renderOrder": [
+    "back",
+    "actor",
+    "front"
+  ],
+  "layers": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+      "createdAt": "2026-10-28T08:14:06.203468+00:00",
+      "width": 1000,
+      "height": 1000,
+      "format": "PNG",
+      "mode": "RGBA",
+      "operation": "native_crop_and_integer_translation_on_transparent_canvas",
+      "details": {
+        "cropBox": [
+          0,
+          0,
+          1000,
+          887
+        ],
+        "translation": [
+          0,
+          64
+        ],
+        "canvas": [
+          1000,
+          1000
+        ]
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png",
+          "sha256": "79daaff88d5ba10bc0524969d69c24f22eab8c5ce004aefedeb03a96fdc28b92",
+          "record": "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png.generation.json"
+        }
+      ],
+      "resampled": false,
+      "alphaEdited": false
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+      "createdAt": "2026-10-28T08:14:06.203468+00:00",
+      "width": 1000,
+      "height": 1000,
+      "format": "PNG",
+      "mode": "RGBA",
+      "operation": "native_crop_and_integer_translation_on_transparent_canvas",
+      "details": {
+        "cropBox": [
+          1000,
+          0,
+          1774,
+          887
+        ],
+        "translation": [
+          55,
+          39
+        ],
+        "canvas": [
+          1000,
+          1000
+        ],
+        "relativeTranslationAgainstBack": [
+          55,
+          -25
+        ],
+        "registration": "manual measured placement; generated sheet not equal-cell registered"
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png",
+          "sha256": "79daaff88d5ba10bc0524969d69c24f22eab8c5ce004aefedeb03a96fdc28b92",
+          "record": "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png.generation.json"
+        }
+      ],
+      "resampled": false,
+      "alphaEdited": false
+    }
+  ],
+  "registration": {
+    "method": "manual_integer_translation_using_native_crops",
+    "splitX": 1000,
+    "backOffset": [
+      0,
+      64
+    ],
+    "frontOffset": [
+      55,
+      39
+    ],
+    "independentNaturalAlignmentClaimed": false,
+    "originalBridgePixelMatchClaimed": false
+  },
+  "camera": "isometric, original bridge topology NW-SE; both layers share one mother sheet",
+  "probeFootpoints": {
+    "west": [
+      244,
+      422
+    ],
+    "middle": [
+      500,
+      447
+    ],
+    "east": [
+      760,
+      670
+    ]
+  },
+  "metrics": {
+    "back": {
+      "size": [
+        1000,
+        1000
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 708493,
+      "opaquePixels": 175,
+      "softPixels": 291332,
+      "alpha1Pixels": 11251,
+      "edgeAlphaAbove16": 0,
+      "bboxAlphaAbove16": [
+        40,
+        211,
+        916,
+        826
+      ]
+    },
+    "front": {
+      "size": [
+        1000,
+        1000
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "transparentPixels": 930240,
+      "opaquePixels": 234,
+      "softPixels": 69526,
+      "alpha1Pixels": 4286,
+      "edgeAlphaAbove16": 0,
+      "bboxAlphaAbove16": [
+        152,
+        298,
+        770,
+        695
+      ]
+    }
+  },
+  "diagnostics": [
+    {
+      "point": "west",
+      "background": "light",
+      "footpoint": [
+        244,
+        422
+      ],
+      "markerCoveredPixels": 1390,
+      "markerUncoveredPixels": 8072
+    },
+    {
+      "point": "middle",
+      "background": "light",
+      "footpoint": [
+        500,
+        447
+      ],
+      "markerCoveredPixels": 1723,
+      "markerUncoveredPixels": 7739
+    },
+    {
+      "point": "east",
+      "background": "light",
+      "footpoint": [
+        760,
+        670
+      ],
+      "markerCoveredPixels": 2222,
+      "markerUncoveredPixels": 7240
+    },
+    {
+      "point": "west",
+      "background": "dark",
+      "footpoint": [
+        244,
+        422
+      ],
+      "markerCoveredPixels": 1390,
+      "markerUncoveredPixels": 8072
+    },
+    {
+      "point": "middle",
+      "background": "dark",
+      "footpoint": [
+        500,
+        447
+      ],
+      "markerCoveredPixels": 1723,
+      "markerUncoveredPixels": 7739
+    },
+    {
+      "point": "east",
+      "background": "dark",
+      "footpoint": [
+        760,
+        670
+      ],
+      "markerCoveredPixels": 2222,
+      "markerUncoveredPixels": 7240
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "independent_layer_pair_exported_GPU_rendered_and_fresh_project_import_verified_candidate",
+  "warnings": [
+    {
+      "id": "ORIGINAL_MASTER_REDESIGNED",
+      "status": "WARN",
+      "value": "Native generated bridge retains old identity/topology but differs in geometry/detail",
+      "threshold": "Do not reuse old map placement/collision without measurement",
+      "files": [
+        "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png"
+      ]
+    },
+    {
+      "id": "GENERATED_GRID_MANUALLY_REGISTERED",
+      "status": "WARN",
+      "value": {
+        "native": [
+          1774,
+          887
+        ],
+        "splitX": 1000,
+        "backOffset": [
+          0,
+          64
+        ],
+        "frontOffset": [
+          55,
+          39
+        ]
+      },
+      "threshold": "Do not assume equal-cell or naturally aligned layer sheet",
+      "files": [
+        "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+        "exports/01-率土之滨/map-depth-20261028/bridge-front.png"
+      ]
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "status": "WARN",
+      "value": {
+        "backAlpha1": 11251,
+        "frontAlpha1": 4286,
+        "edgeAlphaAbove16": 0
+      },
+      "threshold": "No threshold erasure performed; use source alpha and inspect backgrounds",
+      "files": [
+        "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+        "exports/01-率土之滨/map-depth-20261028/bridge-front.png"
+      ]
+    },
+    {
+      "id": "FINAL_MAP_NAVIGATION_NOT_VERIFIED",
+      "status": "WARN",
+      "value": "Only three local probe points; old map untouched",
+      "threshold": "Full bridge span, sockets, collision and occlusion region require final map integration",
+      "files": [
+        "exports/01-率土之滨/map-depth-20261028/bridge-depth-manifest.json"
+      ]
+    },
+    {
+      "id": "STATIC_DIAGNOSTICS_ONLY",
+      "status": "WARN",
+      "value": "Metal troop is one resized static image; UnityCamera.Render is static editor GPU rendering",
+      "threshold": "No walking animation, PlayMode gameplay or real client approval",
+      "files": [
+        "records/map-depth-20261028/metal-static-diagnostic-review.json",
+        "records/map-depth-20261028/unity-source-report.json"
+      ]
+    },
+    {
+      "id": "UNITY_STARTUP_ROUTE_FAILURES_PRESERVED",
+      "status": "WARN",
+      "value": "Node-launched normalUnity UPM IPC failed; noUpm exported/rendered; standard cmd.exe-launched Python fresh import passed",
+      "threshold": "Actual standard package reimport requires UPM; noUpm cannot import package",
+      "files": [
+        "records/map-depth-20261028/unity-startup-attempts.json",
+        "records/map-depth-20261028/unity-roundtrip-attempt3-failed.json",
+        "records/map-depth-20261028/unity-roundtrip-process-attempt5.json"
+      ]
+    },
+    {
+      "id": "EDITOR_API_DEPRECATION",
+      "status": "WARN",
+      "value": [
+        "AssetDatabase.ImportPackage(string, bool) is obsolete; Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.",
+        "AssetDatabase.ExportPackage(string, string, ExportPackageOptions) is obsolete; Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead."
+      ],
+      "threshold": "Editor verification code uses working deprecated API, runtime assets contain no scripts",
+      "files": [
+        "work/map-depth-20261028/BuildBridgeDepth.cs"
+      ]
+    }
+  ],
+  "initialDiagnosticFootpointsRejected": {
+    "points": {
+      "west": [
+        244,
+        422
+      ],
+      "middle": [
+        463,
+        506
+      ],
+      "east": [
+        721,
+        688
+      ]
+    },
+    "reason": "middle footpoint lay too near front fascia and 105px marker was too short for bridge scale"
+  },
+  "diagnosticMarker": {
+    "height": 180,
+    "width": 56,
+    "purpose": "neutral capsule; not final troop scale"
+  },
+  "qaMontage": "records/map-depth-20261028/bridge-depth-light-dark-qa-v2.png",
+  "reviewRecord": "records/map-depth-20261028/final-review.json",
+  "actualUnityFreshImportPassed": true
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/fx-animation-guides/layout-4x2-50pct.png",
+  "sha256": "5b12b48d53b9825d35c6053425be32ac410ac9ebcc9ffa7620ad73695420e67c",
+  "createdAtUtc": "2026-10-27T16:29:17.371Z",
+  "art_source": "code",
+  "purpose": "Geometric packing guide only, no FX artwork; skill make_layout_guide.py reference template",
+  "operation": "skill make_layout_guide.py --rows 2 --cols 4 --cell-width 512 --cell-height 512 --safe-margin-x 128 --safe-margin-y 128; byte copy from work guide",
+  "width": 2048,
+  "height": 1024,
+  "frameGrid": {
+    "cols": 4,
+    "rows": 2
+  },
+  "safeBoxPerCell": [
+    128,
+    128,
+    384,
+    384
+  ],
+  "noGamePixelsClaimed": true
+}

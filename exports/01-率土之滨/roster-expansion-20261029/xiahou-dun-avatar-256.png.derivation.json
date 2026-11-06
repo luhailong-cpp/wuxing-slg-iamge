@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/xiahou-dun-avatar-256.png",
+  "sha256": "873e83f94b0f2822fffbd0ade5465ec6277d56b55c62920a9807f778a367fb4b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/xiahou-dun-master-v1.png",
+    "sha256": "1f8df6c2ea7de611da38169a28447bcd97e04ae31b021051a713c17b86954c48",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/xiahou-dun-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      130,
+      875,
+      735
+    ],
+    "uniformScale": 0.39008264462809916,
+    "resizedSize": [
+      236,
+      236
+    ],
+    "offset": [
+      10,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

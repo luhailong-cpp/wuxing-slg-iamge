@@ -1,0 +1,33 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-debug.png",
+  "sha256": "1f87bbfc85d09417283af00e4e8d8479e5a268f1b0accd82295770a37bd9e20d",
+  "size": [
+    1440,
+    960
+  ],
+  "operation": "qa_navigation_and_collision_overlay",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-no-bridge.json",
+      "sha256": "96cf6bc88368d73bb3a43f0856e2050291f32c241f2337b07d2fd61bb0411c2c"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-grid.json",
+      "sha256": "636be822abc6a7f794987ffdc087a3a3a09bc0e412eb66e39981e5c92ce96f07"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/negative-control-nav-current/nav-report.json",
+      "sha256": "a6444a2b47d335ab604124efa035c40e2de2719c038528040db2764d6aaef165"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/scene-base.png",
+      "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "diagnosticGeometry": true,
+  "productArt": false,
+  "expectedNegativeControl": true
+}

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/pei-qian-face-native.png",
+  "sha256": "79c9aa187ccb9fd88f824ee2b71ec274987a6a26a6e6d1837f43200869c0f07f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/pei-qian-master-v1.png",
+    "sha256": "8b8f5ce76039d1dbe55e248cc66ccd25a7c433c7cb0e21888982ef01be3d7a51",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/pei-qian-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      250,
+      90,
+      850,
+      730
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/emblems/earth-native.png",
+  "sha256": "7bea3aab160c1234132f9ea3a2bcb4c0485355d4e75a5a412d5f4dfbf169a29e",
+  "derivedAtUtc": "2026-10-27T13:23:26.839518+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 532,
+  "height": 400,
+  "art_source": "existing",
+  "operation": "crop",
+  "cropBox": [
+    528,
+    574,
+    1060,
+    974
+  ],
+  "resampled": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "sha256": "2e0c66c6b26615ce080cb49ac24de33647baa8d6d3e9ee2f4c98a9037ceea029",
+      "record": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png.generation.json"
+    }
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "zeroPixels": 115856,
+    "opaquePixels": 0,
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "bboxAbove16": [
+      26,
+      31,
+      491,
+      369
+    ]
+  },
+  "anchor": {
+    "type": "ui_center",
+    "pixel": [
+      266.0,
+      200.0
+    ]
+  },
+  "status": "candidate_static_icon_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "limitations": [
+    "Native alpha is preserved, including faint alpha=1 source residue.",
+    "Not a 15%-safe-frame master; manual ownership review confirms complete visible silhouette."
+  ]
+}

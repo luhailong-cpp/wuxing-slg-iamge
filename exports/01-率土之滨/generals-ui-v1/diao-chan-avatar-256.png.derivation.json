@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-avatar-256.png",
+  "sha256": "b09db1b33da72a71a4a4d5b7561a6482ffa91783f5902255d41a2883832eb6e1",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "diao-chan",
+  "displayName": "貂蝉",
+  "variant": "avatar-256",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/12-diao-chan-v1.png",
+      "sha256": "e5b261bf63011885b8e11b6bbdac8110cc815e85f9103fc5a7f957d63ee58418",
+      "record": "designs/01-率土之滨/characters/12-diao-chan-v1.png.generation.json",
+      "recordSha256": "8cbe515ab7a7813f2de161aefc35fb8382a9bb0d817b72806b44db1e4dd0a666"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    180,
+    95,
+    850,
+    685
+  ],
+  "resizeTo": [
+    224,
+    197
+  ],
+  "pasteOffsetTopLeft": [
+    16,
+    29,
+    240,
+    226
+  ],
+  "canvas": [
+    256,
+    256
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    415,
+    320,
+    690,
+    555
+  ],
+  "faceRoiOutputApprox": [
+    94.57,
+    104.13,
+    186.51,
+    182.59
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 35178,
+    "alpha1Pixels": 374,
+    "semiTransparentPixels": 29926,
+    "opaquePixels": 432,
+    "bboxAbove32": [
+      21,
+      37,
+      240,
+      226
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      21,
+      37,
+      16,
+      30
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-avatar-256.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 374,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-avatar-256.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        180,
+        95,
+        850,
+        685
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/diao-chan-avatar-256.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

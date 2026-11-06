@@ -1,0 +1,132 @@
+{
+  "schema": "wuxing.unity-map-assembly-preview-manifest.v1",
+  "status": "candidate_actual_export_roundtrip_PlayMode_GPU_verified_with_WARN",
+  "package": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+    "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+    "bytes": 1000922
+  },
+  "unityVersion": "6000.6.0f1",
+  "assetRoot": "Assets/WuxingSLGMapAssemblyPreview",
+  "scene": "Assets/WuxingSLGMapAssemblyPreview/Scenes/MapAssemblyPreview.unity",
+  "spriteFiles": 7,
+  "instances": 39,
+  "fixedRoutePoints": 8,
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/source-index.json",
+    "sha256": "7e2b5144ebd3da488effa402c8ec7191863c37f0ecfc177e45635acaf5abf583"
+  },
+  "fixedRoute": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/fixed-route.json",
+    "sha256": "cd20ee98635c750d71b1836f9221db49ae99f658a4121cce3428e9b3cd128c80"
+  },
+  "runtimeSource": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/Runtime/WuxingMapAssemblyRouteDemo.cs",
+    "sha256": "fe3c0783aeaa1e0d426c9d12be472fb61a985230dbfb51734206a1389a42f0b6"
+  },
+  "verification": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/verification.json",
+    "sha256": "bb2a6688191df25220217f95584c3410c105a4e2c80e2fba646e91793f7758a3"
+  },
+  "USAGE": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/USAGE.txt",
+    "sha256": "337cfa41b28468dd2688e6dbea26177400d8b299af0ed7f50009f08c769f35bd"
+  },
+  "actualGPUFramesObserved": 275,
+  "actualGPUCaptures": 10,
+  "warningsVerbatim": [
+    {
+      "id": "TERRAIN_SEAMS_UNVERIFIED",
+      "value": "stone-rimmed standalone grass/river/road dioramas repeated at uniform 0.72 scale",
+      "threshold": "seam-compatible shared edge pixels and sockets required for continuous terrain",
+      "status": "WARN"
+    },
+    {
+      "id": "RIVER_MIRRORED_FOR_AXIS",
+      "value": 5,
+      "threshold": "mirror-safe lighting and shore continuity not approved",
+      "status": "WARN"
+    },
+    {
+      "id": "PROVISIONAL_COLLISION_AND_ROADS",
+      "value": "manually authored land unions, bridge corridor, small building-base ellipses and route centreline",
+      "threshold": "painted contact, edge and collision approval required",
+      "status": "WARN"
+    },
+    {
+      "id": "BRIDGE_SINGLE_SPRITE_DEPTH",
+      "value": "whole bridge sorts below player on deck; foreground rail is not split",
+      "threshold": "front rail occluder or approved engine depth solution required",
+      "status": "WARN"
+    },
+    {
+      "id": "REPRESENTATIVE_UNIT_STATIC_SE",
+      "value": "existing infantry-64h PNG, foot [128,224], static slide in any movement direction",
+      "threshold": "directional walk animations are absent",
+      "status": "WARN"
+    },
+    {
+      "id": "SCALE_CONVENTION_PROVISIONAL",
+      "value": "64px silhouette, 8x4.8px foot ellipse, uniform world terrain scale 0.72",
+      "threshold": "client gameplay scale and camera contract not accepted",
+      "status": "WARN"
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": "all source alpha retained; compositing/resampling may accumulate faint alpha",
+      "threshold": "no alpha cleanup or threshold deletion authorized",
+      "status": "WARN"
+    },
+    {
+      "id": "NO_PER_PIXEL_OCCLUSION_CUE",
+      "value": "simple y-sort only; actor-shaped cue behind roofs is not implemented",
+      "threshold": "client depth/occlusion review required",
+      "status": "WARN"
+    }
+  ],
+  "additionalWarningsVerbatim": [
+    {
+      "id": "NATIVE_UNITY_SAMPLING_DIFFERS_FROM_PIL_MOSAIC",
+      "status": "WARN",
+      "value": "native Sprite uniform scaling with GPU bilinear vs rounded PIL LANCZOS composite",
+      "threshold": "not pixel-identical or seamless"
+    },
+    {
+      "id": "GAMEVIEW_ASPECT_DEPENDENT",
+      "status": "WARN",
+      "value": {
+        "freshSceneAspectBeforeProbe": 1.3333333730697632,
+        "projectionProbeAndGPUAspect": 1.5,
+        "target": [
+          1440,
+          960
+        ]
+      },
+      "threshold": "use3:2 or1440x960 for matched framing; arbitrary aspect/mobile coverage unverified"
+    },
+    {
+      "id": "FIXED_ROUTE_NOT_UNITY_PATHFINDER",
+      "status": "WARN",
+      "value": "fixed8-point route; six-target positive/four-target negative canonical evidence is reused; Unity also checks275 actual nine-sample foot positions and no-bridge midpoint",
+      "threshold": "no dynamic pathfinder, physics controller, or production-navigation acceptance"
+    },
+    {
+      "id": "UNITY_KEYBOARD_NOT_INJECTED",
+      "status": "WARN",
+      "value": "pause/restart public component methods tested in PlayMode; native Space/R injection not exercised",
+      "threshold": "legacy input mapping is supplied conditionally; keyboard runtime interaction needs user/device check"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "nativePNGsModified": false,
+  "newAIImageOrVideoCalls": 0,
+  "editorToolCompilerWarningsVerbatim": [
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/yue-jin-face-native.png",
+  "sha256": "ab1ce6a78111bc0b17376ccbc262b0977259057a0cc18be26abf5d00ec8408a3",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/yue-jin-master-v1.png",
+    "sha256": "cd364f43e19ee8083266318288149ec58ec68ff1cf93a78cf82f09f896a262eb",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/yue-jin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      165,
+      230,
+      710,
+      752
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/xiao-qiao-card-full.png",
+  "sha256": "33210178a8828dbf3a42b870120f7d5b7c9e7e7ce1d8fce779afdd5ff2dcc908",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/xiao-qiao-master-v1.png",
+    "sha256": "b91b91b0d6d3ac306d53ace6525927a4870d09a19ac41b21c275c0e2525ee44e",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/xiao-qiao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

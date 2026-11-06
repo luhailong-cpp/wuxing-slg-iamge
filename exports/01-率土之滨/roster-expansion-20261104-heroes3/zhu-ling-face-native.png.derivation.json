@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/zhu-ling-face-native.png",
+  "sha256": "1bf0bc6fa86653af52d0473fe33aac91b3a4cee54c532771262aeedda5cf9ab5",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/zhu-ling-master-v1.png",
+    "sha256": "c719dad277ca020a8e62dc7d9aaf7f745bb0f4a4592c5913382b4f597ea60c8a",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/zhu-ling-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      201,
+      283,
+      690,
+      734
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

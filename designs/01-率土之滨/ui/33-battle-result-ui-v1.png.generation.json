@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/33-battle-result-ui-v1.png",
+  "sha256": "7d13477c32af07e4c2ce40eff92883f006b0b76c44d2e145eefa7a5cd652fde1",
+  "generatedAt": "2026-10-26T19:41:13.217Z",
+  "generatedAtBasis": "宿主调用完成时记录的UTC时间；工具未另披露图像生成时间",
+  "callStartedAt": "2026-10-26T19:39:14.662Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "executionCellIdReason": "调用直接完成，宿主未返回可见cell ID",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/17-battle-report-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/15-army-formation-ui-v1.png"
+    ],
+    "promptFile": "prompts/01-率土之滨/33-battle-result-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/33-battle-result-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/33-battle-result-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17713-1e35-7c31-9d6b-0c9e74cc986e/exec-bc588ea4-63bb-478a-be90-429fa95d31ed.png",
+      "sha256": "7d13477c32af07e4c2ce40eff92883f006b0b76c44d2e145eefa7a5cd652fde1",
+      "copyHashVerified": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回字段未披露实际模型和画质；当前可读取PNG元数据未提供可核实版本字段。配置目标不能作为实际版本证据。",
+  "prompt": "prompts/01-率土之滨/33-battle-result-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件UI主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队UI主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/17-battle-report-ui-v2.png",
+      "sha256": "4fa0aed671307a64a45bf49270ca40f305f024757b4b679fb17df95bc58da1b1",
+      "role": "本项目战报v2：青竹原野战斗数据与结果连续性",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/15-army-formation-ui-v1.png",
+      "sha256": "ea6aaaa095f7fe7b8b32667caa6a075a029e2c1eeb052877e53ed3f7d8317178",
+      "role": "本项目部队配置：云游策士及灵符法师身份造型",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "胜利战斗结算完整静态功能方向稿",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "runtimeGeometryProvided": false,
+  "art_source": "host_image",
+  "scene_mode": "baked_screen_mode"
+}

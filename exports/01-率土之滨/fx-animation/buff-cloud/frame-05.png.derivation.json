@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-05.png",
+  "sha256": "b1beb193e824769ab438c98b85ac2c97957f64d8f2fa453fbe65d086f4e85bdb",
+  "createdAtUtc": "2026-10-27T16:59:57.240164+00:00",
+  "width": 640,
+  "height": 640,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "operation": "native_full_cell_crop_then_integer_translation_on_shared_transparent_canvas",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png",
+      "sha256": "fb0c951d786f5aa4d5079293f546c0d501a78db0ebf5a5247631d0461b7300b0",
+      "generationRecord": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png.generation.json"
+    }
+  ],
+  "sourceNativeDimensions": [
+    1774,
+    887
+  ],
+  "cropBox": [
+    444,
+    444,
+    887,
+    887
+  ],
+  "cropBoxConvention": "left,top,right,bottom exclusive",
+  "cropSize": [
+    443,
+    443
+  ],
+  "offset": [
+    85,
+    108
+  ],
+  "offsetConvention": "top-left paste position of the complete source crop on640x640; no mask",
+  "sourceAnchorPx": [
+    679,
+    656
+  ],
+  "sourceAnchorMethod": "manual annotation of visible golden energy core, rounded to native integer; about2px visual precision",
+  "anchor_px": [
+    320,
+    320
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "scale": 1.0,
+  "resampled": false,
+  "alphaEdited": false,
+  "rekeyed": false,
+  "repainted": false,
+  "sourceCropPixelsPreserved": true,
+  "gridRounding": "half-up source4x2 grid; 443/444px cells retain all native pixels; size difference only becomes transparent padding",
+  "frameIndex": 5,
+  "phase": "breaking_fade",
+  "durationSeconds": 0.1,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 352809,
+    "alpha1Pixels": 12039,
+    "bboxAbove16": [
+      196,
+      213,
+      436,
+      437
+    ],
+    "edgeMaxAlpha": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    }
+  },
+  "status": "one_shot_frame_candidate_pending_user_and_motion_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

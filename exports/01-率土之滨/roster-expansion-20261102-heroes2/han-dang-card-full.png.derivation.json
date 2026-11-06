@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/han-dang-card-full.png",
+  "sha256": "19d1e67426116d775527b8bf694f0b6f218409cddb72205df5e712826085280e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/han-dang-master-v1.png",
+    "sha256": "aec42b7d7ecded797413f48c5f914677bc7f6d843c8058dc4eb1fd53aac8847f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/han-dang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

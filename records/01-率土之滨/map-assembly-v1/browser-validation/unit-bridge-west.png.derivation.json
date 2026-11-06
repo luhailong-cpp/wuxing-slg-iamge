@@ -1,0 +1,37 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/browser-validation/unit-bridge-west.png",
+  "sha256": "4a9f1b42c4ebab9ddd824273afce78ae0df8114350a160ae10209ba9326f6b06",
+  "size": [
+    1440,
+    960
+  ],
+  "operation": "actual_headless_chrome_canvas_capture",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/playable-preview.html",
+      "sha256": "9bff1506cf59c887f6858586c527b115f9cdb7ab2bc95fc95598d10705475272"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/browser-validation/verification.json",
+      "sha256": "c9555c902621c7b4c4e8a0ca32ec5e9c59d7ecdc018dc01e9fd7e7d1fc45181f"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "browser": "156.0.8078.48",
+  "canvasState": {
+    "actorFootWorldPx": [
+      650,
+      436
+    ],
+    "debug": false,
+    "sourceAnchorPx": [
+      128,
+      224
+    ],
+    "actorDrawIndex": 2
+  },
+  "diagnosticMarker": false,
+  "productArt": false
+}

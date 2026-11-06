@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/du-xi-face-native.png",
+  "sha256": "0605de99fb17297ae2c462de4ae6796f7b181f5636fa8f0827a8728c8cfb9f26",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/du-xi-master-v1.png",
+    "sha256": "fe889c4300fd067d7f212cb637b2e51053faa1ae4a40c71b28c790588ffd9e3e",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/du-xi-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      240,
+      100,
+      800,
+      730
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

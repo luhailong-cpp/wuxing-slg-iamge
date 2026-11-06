@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T18:51:02Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Recreate attached image3's recruitment entrance function as a genuinely redesigned original FIVE-ELEMENTS Daoist CHIBI SLG recruitment interface. One complete opaque landscape Chinese screen about1916x821 native. Image1(mail) and image2(team) are the primary art style: jade green headers, ivory silk-paper panels, warm fine gold, soft cloud/ruyi framing, polished hand-painted detail, friendly rounded characters, elegant readable Chinese. Use image3 only for functional two-method recruitment layout, not its old people. Image4 is a documented identity contact sheet of the FIVE new original heroes, not a sheet to display verbatim.\n\nGenuinely replace ALL old portraits: top-left of contact sheet is METAL silver-short-bob girl, amber eyes, gold flower hair clasp, ivory/jade/gold robe, rune ruler and lotus array compass; top-middle WOOD brown-haired bamboo-staff boy; top-right WATER navy-twin-braid girl with blue ring/gourd; bottom-left FIRE red-haired boy with paired flame tablets; bottom-middle EARTH low-dark-bun woman with mountain seal and broad ochre/jade shield. Preserve these faces, hair, costume and tools. No long-ponytail spear general, historical people, old guide girl or arbitrary strangers.\n\nInterface:\nMain title 修士招募.\nTop currency counters 铜钱 5000 and 玉符 680, each with matching coin or jade-token icon and a small plus button.\nTwo large balanced recruitment panels side by side. Left header 铜钱招募, with WOOD and EARTH as clearly distinct waist-up friendly character artwork, enough space around their faces and signature tools. Right header 玉符招募, with METAL, WATER and FIRE as clearly distinct waist-up artwork, preserve identities and keep each face unobscured. Five unique heroes in all, no duplicate clone or blended faces. These are preview illustrations; do not add exclusivity claims, probabilities, pity counters or rarity claims.\nEach panel has a small ivory button 预览修士.\nLeft panel under artwork: hourglass and 下次免费 00:15:00.\nLeft bottom: primary jade button 单次招募 with coin cost300; next jade button 五次招募 with coin cost1500.\nRight bottom: primary jade button 单次招募 with jade-token cost200; next disabled grey locked button 五次招募 with jade-token cost1000.\nUnder right disabled button show red 玉符不足，还差320.\nKeep costs consistent with680 available and1000 required. No red warning under the affordable left buttons. These are independent demonstration values, not official rules.\nBack button top-left, close top-right. No official game name/logo. Do not include debugging/candidate/implementation text. Portrait art should never overlap text/buttons. Keep generous horizontal spacing and polished painterly framing.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/35-recruit-entry-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/reference-contact/five-elements-masters-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "operation": "FFmpeg H264 encode of60 consecutive actual PlayMode GPU capture PNGs; no synthetic inbetweens or frame reassignment",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    }
+  ],
+  "effect": "slash-arc",
+  "background": "dark",
+  "ffmpegVersion": "9.0.2-essentials_build-www.gyan.dev",
+  "commandArguments": [
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-y",
+    "-framerate",
+    "60",
+    "-start_number",
+    "0",
+    "-i",
+    "D:\\work\\wuxing-slg-iamge\\work\\unity-fx-gpu-playback-v1-20261027\\CaptureRaw\\slash-arc\\dark\\frame-%04d.png",
+    "-frames:v",
+    "60",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "<this MP4>"
+  ],
+  "fps": 60,
+  "frameCount": 60,
+  "durationSeconds": 1.0,
+  "probe": {
+    "width": 512,
+    "height": 512,
+    "r_frame_rate": "60/1",
+    "duration": "1.000000",
+    "nb_frames": "60"
+  },
+  "sourceGameTimeRangeSeconds": [
+    0.01666666753590107,
+    1.0000000008692342
+  ],
+  "videoTimestampZeroMapsToSourceGameSeconds": 0.01666666753590107,
+  "captureClockIsPerformanceTest": false,
+  "localRawInputsPublished": false,
+  "localRawInputPattern": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/dark/frame-%04d.png",
+  "sourceCaptureHashes": [
+    {
+      "ordinal": 0,
+      "sha256": "ef3c9c609e1ef9af3b7a489351964aca785ee5760a485eb762618b1c9e3f2573",
+      "gameElapsedSeconds": 0.01666666753590107,
+      "animatorClipTimeSeconds": 0.016666667411724734,
+      "observedFrameIndex": 0,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 1,
+      "sha256": "ef3c9c609e1ef9af3b7a489351964aca785ee5760a485eb762618b1c9e3f2573",
+      "gameElapsedSeconds": 0.03333333420256773,
+      "animatorClipTimeSeconds": 0.03333333482344947,
+      "observedFrameIndex": 0,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 2,
+      "sha256": "ef3c9c609e1ef9af3b7a489351964aca785ee5760a485eb762618b1c9e3f2573",
+      "gameElapsedSeconds": 0.0500000008692344,
+      "animatorClipTimeSeconds": 0.05000000074505806,
+      "observedFrameIndex": 0,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 3,
+      "sha256": "ef3c9c609e1ef9af3b7a489351964aca785ee5760a485eb762618b1c9e3f2573",
+      "gameElapsedSeconds": 0.06666666753590106,
+      "animatorClipTimeSeconds": 0.06666666964689894,
+      "observedFrameIndex": 0,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 4,
+      "sha256": "ef3c9c609e1ef9af3b7a489351964aca785ee5760a485eb762618b1c9e3f2573",
+      "gameElapsedSeconds": 0.08333333420256772,
+      "animatorClipTimeSeconds": 0.08333333854873981,
+      "observedFrameIndex": 0,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 5,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.10000000086923441,
+      "animatorClipTimeSeconds": 0.10000000149011612,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 6,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.11666666753590108,
+      "animatorClipTimeSeconds": 0.11666666443149243,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 7,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.13333333420256774,
+      "animatorClipTimeSeconds": 0.13333332737286874,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 8,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.1500000008692344,
+      "animatorClipTimeSeconds": 0.14999999031424505,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 9,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.16666666753590106,
+      "animatorClipTimeSeconds": 0.16666665325562136,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 10,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.18333333420256773,
+      "animatorClipTimeSeconds": 0.18333331619699766,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 11,
+      "sha256": "fc062ddadbc463e90b3041dd35afb20b8b6cde826e55b9c40a0a675df88dc51b",
+      "gameElapsedSeconds": 0.2000000008692344,
+      "animatorClipTimeSeconds": 0.19999997913837397,
+      "observedFrameIndex": 1,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 12,
+      "sha256": "ecd101a867db6b60e8500e2d8c3ee6b73db419251544bd0ad257fb3c6c4e3a86",
+      "gameElapsedSeconds": 0.21666666753590108,
+      "animatorClipTimeSeconds": 0.21666665400067942,
+      "observedFrameIndex": 2,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 13,
+      "sha256": "ecd101a867db6b60e8500e2d8c3ee6b73db419251544bd0ad257fb3c6c4e3a86",
+      "gameElapsedSeconds": 0.23333333420256774,
+      "animatorClipTimeSeconds": 0.23333332886298486,
+      "observedFrameIndex": 2,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 14,
+      "sha256": "ecd101a867db6b60e8500e2d8c3ee6b73db419251544bd0ad257fb3c6c4e3a86",
+      "gameElapsedSeconds": 0.2500000008692344,
+      "animatorClipTimeSeconds": 0.2500000037252903,
+      "observedFrameIndex": 2,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 15,
+      "sha256": "ecd101a867db6b60e8500e2d8c3ee6b73db419251544bd0ad257fb3c6c4e3a86",
+      "gameElapsedSeconds": 0.26666666753590107,
+      "animatorClipTimeSeconds": 0.26666667858759574,
+      "observedFrameIndex": 2,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 16,
+      "sha256": "ecd101a867db6b60e8500e2d8c3ee6b73db419251544bd0ad257fb3c6c4e3a86",
+      "gameElapsedSeconds": 0.28333333420256773,
+      "animatorClipTimeSeconds": 0.2833333534499012,
+      "observedFrameIndex": 2,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 17,
+      "sha256": "217ab6641d71083b8146dfbda7bd961fa4ba8ff584eb7641f17e8e7e4d467a91",
+      "gameElapsedSeconds": 0.3000000008692344,
+      "animatorClipTimeSeconds": 0.3000000283122066,
+      "observedFrameIndex": 3,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 18,
+      "sha256": "217ab6641d71083b8146dfbda7bd961fa4ba8ff584eb7641f17e8e7e4d467a91",
+      "gameElapsedSeconds": 0.31666666753590106,
+      "animatorClipTimeSeconds": 0.31666670317451207,
+      "observedFrameIndex": 3,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 19,
+      "sha256": "217ab6641d71083b8146dfbda7bd961fa4ba8ff584eb7641f17e8e7e4d467a91",
+      "gameElapsedSeconds": 0.3333333342025677,
+      "animatorClipTimeSeconds": 0.3333333780368175,
+      "observedFrameIndex": 3,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 20,
+      "sha256": "217ab6641d71083b8146dfbda7bd961fa4ba8ff584eb7641f17e8e7e4d467a91",
+      "gameElapsedSeconds": 0.3500000008692344,
+      "animatorClipTimeSeconds": 0.35000005289912295,
+      "observedFrameIndex": 3,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 21,
+      "sha256": "217ab6641d71083b8146dfbda7bd961fa4ba8ff584eb7641f17e8e7e4d467a91",
+      "gameElapsedSeconds": 0.36666666753590105,
+      "animatorClipTimeSeconds": 0.3666667277614284,
+      "observedFrameIndex": 3,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 22,
+      "sha256": "217ab6641d71083b8146dfbda7bd961fa4ba8ff584eb7641f17e8e7e4d467a91",
+      "gameElapsedSeconds": 0.3833333342025677,
+      "animatorClipTimeSeconds": 0.38333340262373383,
+      "observedFrameIndex": 3,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 23,
+      "sha256": "e51908cc4e7f6f7a52ca9e964e1bdffb7db56032bc0b00670f5c2b87ef247087",
+      "gameElapsedSeconds": 0.4000000008692344,
+      "animatorClipTimeSeconds": 0.400000053644181,
+      "observedFrameIndex": 4,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 24,
+      "sha256": "e51908cc4e7f6f7a52ca9e964e1bdffb7db56032bc0b00670f5c2b87ef247087",
+      "gameElapsedSeconds": 0.41666666753590104,
+      "animatorClipTimeSeconds": 0.4166667046646282,
+      "observedFrameIndex": 4,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 25,
+      "sha256": "e51908cc4e7f6f7a52ca9e964e1bdffb7db56032bc0b00670f5c2b87ef247087",
+      "gameElapsedSeconds": 0.4333333342025677,
+      "animatorClipTimeSeconds": 0.43333335568507536,
+      "observedFrameIndex": 4,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 26,
+      "sha256": "e51908cc4e7f6f7a52ca9e964e1bdffb7db56032bc0b00670f5c2b87ef247087",
+      "gameElapsedSeconds": 0.4500000008692344,
+      "animatorClipTimeSeconds": 0.45000000670552254,
+      "observedFrameIndex": 4,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 27,
+      "sha256": "e51908cc4e7f6f7a52ca9e964e1bdffb7db56032bc0b00670f5c2b87ef247087",
+      "gameElapsedSeconds": 0.4666666675359011,
+      "animatorClipTimeSeconds": 0.4666666577259697,
+      "observedFrameIndex": 4,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 28,
+      "sha256": "e51908cc4e7f6f7a52ca9e964e1bdffb7db56032bc0b00670f5c2b87ef247087",
+      "gameElapsedSeconds": 0.48333333420256774,
+      "animatorClipTimeSeconds": 0.4833333087464169,
+      "observedFrameIndex": 4,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 29,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.5000000008692344,
+      "animatorClipTimeSeconds": 0.49999995976686407,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 30,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.5166666675359011,
+      "animatorClipTimeSeconds": 0.5166666107873112,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 31,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.5333333342025677,
+      "animatorClipTimeSeconds": 0.5333332618077584,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 32,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.5500000008692344,
+      "animatorClipTimeSeconds": 0.5499999128282056,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 33,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.566666667535901,
+      "animatorClipTimeSeconds": 0.5666665638486528,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 34,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.5833333342025677,
+      "animatorClipTimeSeconds": 0.5833332148691,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 35,
+      "sha256": "c6c27fbb3e30097f88d90be379ca5973645dbbb1e34d93a059469dbdc439f172",
+      "gameElapsedSeconds": 0.6000000008692344,
+      "animatorClipTimeSeconds": 0.5999998658895471,
+      "observedFrameIndex": 5,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 36,
+      "sha256": "06dbda72917eea96c568ab0bf232ecaf90c2d2024427e4f49125735e031a51f2",
+      "gameElapsedSeconds": 0.616666667535901,
+      "animatorClipTimeSeconds": 0.6166665169099943,
+      "observedFrameIndex": 6,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 37,
+      "sha256": "06dbda72917eea96c568ab0bf232ecaf90c2d2024427e4f49125735e031a51f2",
+      "gameElapsedSeconds": 0.6333333342025678,
+      "animatorClipTimeSeconds": 0.6333331679304415,
+      "observedFrameIndex": 6,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 38,
+      "sha256": "06dbda72917eea96c568ab0bf232ecaf90c2d2024427e4f49125735e031a51f2",
+      "gameElapsedSeconds": 0.6500000008692344,
+      "animatorClipTimeSeconds": 0.6499998189508887,
+      "observedFrameIndex": 6,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 39,
+      "sha256": "06dbda72917eea96c568ab0bf232ecaf90c2d2024427e4f49125735e031a51f2",
+      "gameElapsedSeconds": 0.6666666675359011,
+      "animatorClipTimeSeconds": 0.6666664699713358,
+      "observedFrameIndex": 6,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 40,
+      "sha256": "06dbda72917eea96c568ab0bf232ecaf90c2d2024427e4f49125735e031a51f2",
+      "gameElapsedSeconds": 0.6833333342025677,
+      "animatorClipTimeSeconds": 0.683333120991783,
+      "observedFrameIndex": 6,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 41,
+      "sha256": "06dbda72917eea96c568ab0bf232ecaf90c2d2024427e4f49125735e031a51f2",
+      "gameElapsedSeconds": 0.7000000008692344,
+      "animatorClipTimeSeconds": 0.6999997720122302,
+      "observedFrameIndex": 6,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 42,
+      "sha256": "ea4e393aeaab315314bd621453c8bdbee249e2d51ef87ba6cc6d80f9554611ac",
+      "gameElapsedSeconds": 0.716666667535901,
+      "animatorClipTimeSeconds": 0.7166664230326774,
+      "observedFrameIndex": 7,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 43,
+      "sha256": "ea4e393aeaab315314bd621453c8bdbee249e2d51ef87ba6cc6d80f9554611ac",
+      "gameElapsedSeconds": 0.7333333342025677,
+      "animatorClipTimeSeconds": 0.7333330740531245,
+      "observedFrameIndex": 7,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 44,
+      "sha256": "ea4e393aeaab315314bd621453c8bdbee249e2d51ef87ba6cc6d80f9554611ac",
+      "gameElapsedSeconds": 0.7500000008692344,
+      "animatorClipTimeSeconds": 0.7499997250735717,
+      "observedFrameIndex": 7,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 45,
+      "sha256": "ea4e393aeaab315314bd621453c8bdbee249e2d51ef87ba6cc6d80f9554611ac",
+      "gameElapsedSeconds": 0.7666666675359011,
+      "animatorClipTimeSeconds": 0.7666663760940189,
+      "observedFrameIndex": 7,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 46,
+      "sha256": "ea4e393aeaab315314bd621453c8bdbee249e2d51ef87ba6cc6d80f9554611ac",
+      "gameElapsedSeconds": 0.7833333342025677,
+      "animatorClipTimeSeconds": 0.7833330271144661,
+      "observedFrameIndex": 7,
+      "callerCleared": false
+    },
+    {
+      "ordinal": 47,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.8000000008692344,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 48,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.816666667535901,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 49,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.8333333342025677,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 50,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.8500000008692343,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 51,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.866666667535901,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 52,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.8833333342025677,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 53,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.9000000008692344,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 54,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.9166666675359011,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 55,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.9333333342025677,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 56,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.9500000008692344,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 57,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.966666667535901,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 58,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 0.9833333342025677,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    },
+    {
+      "ordinal": 59,
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "gameElapsedSeconds": 1.0000000008692342,
+      "animatorClipTimeSeconds": 0.7999996781349132,
+      "observedFrameIndex": -1,
+      "callerCleared": true
+    }
+  ],
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/video/slash-arc-dark.mp4",
+  "sha256": "f0c36704ebf6a33df96fceabb0c7a9359bbe2f30a910d5fef6c6ec2e4c359658",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

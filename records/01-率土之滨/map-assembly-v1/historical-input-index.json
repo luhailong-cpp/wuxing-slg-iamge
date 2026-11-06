@@ -1,0 +1,30 @@
+{
+  "schema": "wuxing.historical-input-index.v1",
+  "note": "Reports keep original paths and bytes. Historical hashes resolve to these snapshots rather than current revised files. Initial schema omission fixed; initial camp placement moved after visual review. Negative-control FAIL is expected.",
+  "entries": [
+    {
+      "report": "records/01-率土之滨/map-assembly-v1/bundle-report-initial-schema-failure.json",
+      "expectedInputSha256": "66dcf2a2c5b27e12dcc179bf0fd14d19f39bc18abe800341cbddd5b1cffd936c",
+      "reconstructedSha256": "d1ba7892ac10a18254f38680eb050655b0fdac0cd721d2cfab5d8346c8a48bb3",
+      "exactMatch": false,
+      "method": "reconstruct from retained initial JSON snapshot and known author operations; accept only byte hash equality"
+    },
+    {
+      "report": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-report.json",
+      "expectedInputSha256": "d7e59ee059ca515f8c5787ff7103c6edcbd76b9054067e8fbff7d58382996e2c",
+      "reconstructedSha256": "cc29ecfa0c5062c04633da42ab53837f6791f7339c928facac1a2505c6c657dd",
+      "exactMatch": false,
+      "method": "reconstruct from retained initial JSON snapshot and known author operations; accept only byte hash equality"
+    },
+    {
+      "report": "records/01-率土之滨/map-assembly-v1/navigation/nav-report.json",
+      "snapshot": "records/01-率土之滨/map-assembly-v1/initial-layout-map-bundle.json",
+      "exactMatch": true
+    },
+    {
+      "report": "records/01-率土之滨/map-assembly-v1/placement-audit.json",
+      "snapshot": "records/01-率土之滨/map-assembly-v1/initial-layout-placements.json",
+      "exactMatch": true
+    }
+  ]
+}

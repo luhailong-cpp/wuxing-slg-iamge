@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/wang-ping-avatar-128.png",
+  "sha256": "c5299035ec55783b2fd9453a64580f1533f4943a2a7a4ec8ad0c21ef7a0596ca",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/wang-ping-master-v1.png",
+    "sha256": "43c1889250d8d0d8ad54e12ada4846d02b2eabfec22e581d3b94dce46940c132",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/wang-ping-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      240,
+      840,
+      800
+    ],
+    "uniformScale": 0.20701754385964913,
+    "resizedSize": [
+      118,
+      116
+    ],
+    "offset": [
+      5,
+      6
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

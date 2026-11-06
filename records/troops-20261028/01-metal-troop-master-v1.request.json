@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-28T08:08:40.679Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept. Asset type: game-ready single ordinary troop master, native transparent PNG.\nCreate the METAL troop (金兵), one generic rank-and-file soldier for a landscape SLG with five troop types metal/wood/water/fire/earth. This is NOT a named hero, not an elemental envoy, not a realistic military person. Adapt the style of input images 1 and 2 only: refined Taoist chibi hand-painted game artwork, jade green / ivory / warm gold, soft rounded clouds and ruyi motifs, painted volumes, crisp readable silhouette, premium detail without plastic shine.\nA single compact chibi soldier, very large round head, body about 2.5 heads total, stout short limbs, friendly but disciplined neutral face. Facing southeast (screen lower-right), fixed elevated three-quarter isometric game view, about 35 degrees looking down, feet visible. Metal troop identity: broad rounded ivory-silver lamellar helmet with small warm-gold ridge and jade knot, short silver-metal shoulder plates, jade green under-tunic, ivory trousers, muted gold forearm guards; ONE compact rounded cloud-pattern metal shield held close in the near hand and ONE short straight single-edged saber in the other hand. Tool/weapon size modest, all within silhouette. Distinct ordinary soldier uniform, no robe train, no huge hero headdress, no horse, no bow, no spear.\nSquare canvas. Whole soldier including both shoes, saber tip, helmet and shield completely visible, centered in the central 58 percent of canvas. Generous truly transparent empty margin at least 18 percent on all sides. Standing at rest, both feet planted with visible soles, neither foot cut off. Hand-painted light from upper left, shallow soft self-shadow, NO ground tile/base/cast shadow, NO aura, NO particles, NO other objects, NO text, NO labels, NO UI, NO border, NO background, NO checkerboard. Preserve true alpha. Do not copy characters, names, text, banners, buildings, or pets from the references.",
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  }
+}

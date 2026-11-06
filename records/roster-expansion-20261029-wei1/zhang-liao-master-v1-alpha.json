@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+  "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alphaMinMax": [
+    0,
+    254
+  ],
+  "alphaZero": 775084,
+  "alphaOne": 20141,
+  "semiTransparent": 797780,
+  "alphaOpaque": 0,
+  "bboxAlpha16": [
+    68,
+    20,
+    1008,
+    1496
+  ],
+  "marginsAlpha16": [
+    68,
+    20,
+    16,
+    40
+  ],
+  "bboxAlpha1": [
+    65,
+    18,
+    1010,
+    1502
+  ],
+  "edgeAlpha16Pixels": 0,
+  "sourcePixelsModified": false,
+  "alphaHygiene": "none",
+  "qaViews": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/zhang-liao-master-v1-light.png",
+      "sha256": "292e71e661e74f993b2fa1a781ed04d95e96b6bbffa6883b41196df6af04a63b",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        245,
+        239,
+        222,
+        255
+      ],
+      "qaOnly": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/zhang-liao-master-v1-dark.png",
+      "sha256": "be152b4f5c51892591d74f6e9406921223f58bd102286d48f1fdeac14e13f322",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        28,
+        43,
+        48,
+        255
+      ],
+      "qaOnly": true
+    }
+  ]
+}

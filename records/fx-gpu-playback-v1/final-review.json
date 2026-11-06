@@ -1,0 +1,816 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T19:14:24.780040+00:00",
+  "scope": "ActualUnityPlayModeGPU continuous playback of existing8 FX clips on2 backgrounds; no sourceart edits",
+  "sourcePackage": {
+    "file": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+    "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018"
+  },
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/unity/unity-fx-animation-source-index-20261027.json",
+    "sha256": "3dd7aa451b98ed8632f70e9d86b685104e1fc84ab5377d8f3f51dcc4456c397e"
+  },
+  "actualPlaymodeCapture": {
+    "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+    "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+  },
+  "actualImportPlayExport": {
+    "file": "records/fx-gpu-playback-v1/actual-import-play-export.json",
+    "sha256": "010457de1241c7625ca4705b52482f88e6cbd5ca417d8ea15dbbafc75773c37f"
+  },
+  "evidenceManifest": {
+    "file": "records/fx-gpu-playback-v1/evidence-manifest.json",
+    "sha256": "1fbb44b345d711bc7cacc73900e40bcf0229fe88420bf2027ff01075b4aa6a1d"
+  },
+  "timingAnalysis": {
+    "file": "records/fx-gpu-playback-v1/timing-analysis.json",
+    "sha256": "3b18635d0ba6a2ef7f45428e68d1c7d216dccd396cdeaa02db6507b135b0fb78"
+  },
+  "actualGPU": {
+    "unityVersion": "6000.6.0f1",
+    "deviceType": "Direct3D11",
+    "deviceName": "NVIDIA GeForce RTX 3070 Ti",
+    "deviceVersion": "Direct3D 11.0 [level 11.1]",
+    "colorSpace": "Gamma",
+    "playMode": true,
+    "nographicsUsed": false,
+    "captureFramerate": 60,
+    "captureWidthHeight": [
+      512,
+      512
+    ],
+    "gameTimeWindowSeconds": [
+      0.01666666753590107,
+      1.0000000008692342
+    ],
+    "lastRealtimeElapsedSeconds": 9.119757400000001,
+    "performanceBenchmark": false
+  },
+  "technicalPlaybackResults": {
+    "all8ActuallyObserved00To07": true,
+    "all8LastVisiblePhase07Nonempty": true,
+    "worldAnchorFixed": [
+      0,
+      0,
+      0
+    ],
+    "localScaleFixed": [
+      1,
+      1,
+      1
+    ],
+    "projectedAnchorFixedPixels": [
+      256,
+      256
+    ],
+    "sameCameraAcrossAllEffectsAndFrames": true,
+    "cameraOrthographicSize": 6.4,
+    "allActualSpritePivotsAndRectsFixed": [
+      {
+        "effect": "slash-arc",
+        "actualSpritePivot": {
+          "x": 450.0,
+          "y": 450.0
+        },
+        "actualSpriteRectSize": {
+          "x": 900.0,
+          "y": 900.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "strategy-array",
+        "actualSpritePivot": {
+          "x": 450.0,
+          "y": 450.0
+        },
+        "actualSpriteRectSize": {
+          "x": 900.0,
+          "y": 900.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "healing-light",
+        "actualSpritePivot": {
+          "x": 450.0,
+          "y": 450.0
+        },
+        "actualSpriteRectSize": {
+          "x": 900.0,
+          "y": 900.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "buff-cloud",
+        "actualSpritePivot": {
+          "x": 320.0,
+          "y": 320.0
+        },
+        "actualSpriteRectSize": {
+          "x": 640.0,
+          "y": 640.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "debuff-mist",
+        "actualSpritePivot": {
+          "x": 384.0,
+          "y": 384.0
+        },
+        "actualSpriteRectSize": {
+          "x": 768.0,
+          "y": 768.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "fire",
+        "actualSpritePivot": {
+          "x": 512.0,
+          "y": 512.0
+        },
+        "actualSpriteRectSize": {
+          "x": 1024.0,
+          "y": 1024.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "capture-circle",
+        "actualSpritePivot": {
+          "x": 450.0,
+          "y": 360.0
+        },
+        "actualSpriteRectSize": {
+          "x": 900.0,
+          "y": 900.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      },
+      {
+        "effect": "reward-glow",
+        "actualSpritePivot": {
+          "x": 450.0,
+          "y": 450.0
+        },
+        "actualSpriteRectSize": {
+          "x": 900.0,
+          "y": 900.0
+        },
+        "sameAcrossEveryVisiblePhaseAndBothBackgrounds": true
+      }
+    ],
+    "GPUViewportEdgeDifferentFromBaselineCounts": 0,
+    "callerClearGameSeconds": 0.8000000008692344,
+    "callerAction": "renderer.enabled=false; animator.enabled=false; renderer.sprite=null",
+    "afterClearCapturesPerBackgroundPerEffect": 13,
+    "all208ClearedGPUSamplesPixelEqualEmptyBackground": true,
+    "sourceClipAutomaticallyClears": false,
+    "all64SourcePNGsAnd8ManifestsUnchangedHashVerified": true
+  },
+  "manualVisualReview": {
+    "all16ActualGPUPhaseClearMontagesViewed": true,
+    "finding": "Stages grow and recede around a fixed logical origin, no viewport crop visible. Source endphase remains visibly nonempty, especially capturecircle ring. Caller-clear panels are empty on both backgrounds. Source contour/topology differences persist; no final smoothness approval.",
+    "MP4Meaning": "Continuous actualGPU capture sequence encoded at60Hz; no synthetic inbetweens, only8 original drawings. Firstvideo timestamp maps to game1/60second."
+  },
+  "publicEvidence": {
+    "nativeGPUCaptures": 50,
+    "phaseClearMontages": 16,
+    "actualGPUEncodedMP4s": 18,
+    "raw960Published": false,
+    "rawLocalPolicy": {
+      "fileRoot": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw",
+      "captureCount": 960,
+      "baselineCount": 2,
+      "published": false,
+      "reason": "LocalQA only; raw inputhashes and capture clocks in trace. Public evidence uses actualGPU MP4s,10sample phase/clear montages andselected nativephase03/07/clear PNGs."
+    },
+    "snapshotBeforeFinalFiles": {
+      "fileCount": 173,
+      "bytes": 4146274
+    }
+  },
+  "newDemoPackage": {
+    "package": {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/WuxingSLGFXGpuPlaybackDemo-20261027.unitypackage",
+      "sha256": "a211d36227f0bdb1b3c0770f4e06e3cbfc6f0cebbdbf4c5e22213744c97b71aa"
+    },
+    "bytes": 11073,
+    "dependency": {
+      "file": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018"
+    },
+    "newAssetRoot": "Assets/WuxingSLGFXGpuPlaybackDemo",
+    "archiveEntryCount": 13,
+    "sharedAssetPathsWithDependency": 0,
+    "sharedGUIDsWithDependency": 0,
+    "sourceFXAssetsIncludedAgain": false,
+    "actualFreshProjectDependencyThenDemoImport": {
+      "file": "records/fx-gpu-playback-v1/demo-fresh-project-dependency-import.json",
+      "sha256": "9b81113414bc86896e5d48c2cbdd5d0f0d6686a8befda502ae2aa11b59856cd6"
+    },
+    "resolvedCases": 8,
+    "resolvedClips": 8,
+    "resolvedControllers": 8,
+    "resolvedSprites": 64,
+    "archiveAudit": {
+      "file": "records/fx-gpu-playback-v1/demo-package-archive-audit.json",
+      "sha256": "16e661e2d1400d0585154688de9eee3ef9b78de5ac77f5e73eb1ab2abf16ec88"
+    },
+    "assetPathAndGUIDDisjointFromFXBaseV2LegacyBaseAndHeroSkill": true
+  },
+  "playbackWarnings": [
+    {
+      "id": "EPSILON_PHASE_BOUNDARY_DIAGNOSTIC",
+      "value": 48,
+      "threshold": 0,
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "message": "Raw epsilon expected-phase flags differ at float boundaries, up to0.228microseconds below nominal key. All actual references remain in-order and within1microsecond interval tolerance."
+    },
+    {
+      "id": "CAPTURE_PHASE_HOLD_COUNTS_VARY",
+      "value": [
+        5,
+        7,
+        5,
+        6,
+        6,
+        7,
+        6,
+        5
+      ],
+      "threshold": "not required to equal6 captures per phase at float boundaries",
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "message": "Sampling starts at1/60second; fixed60Hz capture and float boundaries yield5..7samples per authored0.1s phase. Do not infer final smoothness or deviceperformance."
+    }
+  ],
+  "retainedSourceWarningEnvelopes": [
+    {
+      "effect": "slash-arc",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/slash-arc/manifest.json",
+        "sha256": "65f0084449bb2ee6b6543ad98532e2d928ff388315cb222ae22fb4e9dd17a687"
+      },
+      "sourceFile": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png",
+      "warningsVerbatim": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 127930,
+            "detached_components": 4
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ]
+    },
+    {
+      "effect": "strategy-array",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+        "sha256": "76cb7033ec051ce2d2f82f1f8062cee572f840f18170d5b2235c4af975628abe"
+      },
+      "sourceFile": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png",
+      "warningsVerbatim": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 96502,
+            "detached_components": 2
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ]
+    },
+    {
+      "effect": "healing-light",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/healing-light/manifest.json",
+        "sha256": "b0332b5fc9f97ded72536ff27bf839c39c6b710b6c48be3f05e9b7fdfb7d5720"
+      },
+      "sourceFile": "designs/01-率土之滨/assets/fx-animation/healing-light-sheet-v1.png",
+      "warningsVerbatim": [
+        {
+          "id": "cross_cell_visible",
+          "status": "fail",
+          "value": 1,
+          "threshold": 0,
+          "note": "the same test on the visible edge (alpha > 16)"
+        },
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 146546,
+            "detached_components": 27
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ]
+    },
+    {
+      "effect": "buff-cloud",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/buff-cloud/manifest.json",
+        "sha256": "4aa22ecff24db84eebcfc96b5b8793d727730dd33ae2805956d4b687d02eba18"
+      },
+      "sourceFile": {
+        "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png",
+        "sha256": "fb0c951d786f5aa4d5079293f546c0d501a78db0ebf5a5247631d0461b7300b0",
+        "record": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png.generation.json",
+        "grid": {
+          "columns": 4,
+          "rows": 2,
+          "order": "left_to_right_top_to_bottom"
+        }
+      },
+      "warningsVerbatim": [
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 92932,
+            "detached_components": 2
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ]
+    },
+    {
+      "effect": "debuff-mist",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/debuff-mist/manifest.json",
+        "sha256": "3514ae91f9dc410acd5f8c46035bb11e85e7e490a340eb75c69151419f38729a"
+      },
+      "sourceFile": {
+        "file": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png",
+        "sha256": "56658e737b1f417f001a4022dbf62a471481af50508bda8faaaf658a243c9188",
+        "record": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png.generation.json",
+        "grid": {
+          "columns": 4,
+          "rows": 2,
+          "order": "left_to_right_top_to_bottom"
+        }
+      },
+      "warningsVerbatim": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 3,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 180779,
+            "detached_components": 67
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ]
+    },
+    {
+      "effect": "fire",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/fire/manifest.json",
+        "sha256": "0ec9e473bb06d5f97ed7a5dc610a3a27f70a2753a4ea336cdd721984953b61a6"
+      },
+      "sourceFile": {
+        "file": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png",
+        "sha256": "0d3b4cd50fdfb4a66d78f4d23613364e6c58c323ff145126d454c1bf65a57833",
+        "record": "designs/01-率土之滨/assets/fx-animation/fire-sheet-v1.png.generation.json",
+        "grid": {
+          "columns": 4,
+          "rows": 2,
+          "order": "left_to_right_top_to_bottom"
+        }
+      },
+      "warningsVerbatim": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 4,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 95863,
+            "detached_components": 3
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+        }
+      ]
+    },
+    {
+      "effect": "capture-circle",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+        "sha256": "60938d71f4ef3eea2998051ce9fa82f241ba9a6241bdd14e6098b7d4945bfaf7"
+      },
+      "sourceFile": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+      "warningsVerbatim": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 7,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+          "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 369927,
+            "detached_components": 22
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+          "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png"
+        },
+        {
+          "id": "MANUAL_SHARED_ROOT_REGISTRATION",
+          "status": "warn",
+          "value": {
+            "sourceAnchors": [
+              [
+                225,
+                331
+              ],
+              [
+                667,
+                330
+              ],
+              [
+                1104,
+                330
+              ],
+              [
+                1549,
+                332
+              ],
+              [
+                225,
+                719
+              ],
+              [
+                673,
+                720
+              ],
+              [
+                1108,
+                720
+              ],
+              [
+                1550,
+                720
+              ]
+            ],
+            "outputAnchor": [
+              450,
+              540
+            ]
+          },
+          "threshold": "single shared logical anchor; source sheet not perfectly registered",
+          "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+          "note": "Original phases are only translated on transparent padding using measured plane/star core, no alpha-bbox normalization or per-frame scaling. Residual subpixel motion is not formally approved."
+        },
+        {
+          "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+          "status": "warn",
+          "value": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+          "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-01.png",
+          "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+        },
+        {
+          "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+          "status": "warn",
+          "value": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+          "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+          "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+        },
+        {
+          "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+          "status": "warn",
+          "value": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+          "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png",
+          "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+        },
+        {
+          "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+          "status": "warn",
+          "value": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+          "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png",
+          "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+        },
+        {
+          "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+          "status": "warn",
+          "value": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+          "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png",
+          "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+        },
+        {
+          "id": "GENERATIVE_CONTOUR_AND_TIMING_CANDIDATE",
+          "status": "warn",
+          "value": "Minor ring/cloud or spark topology differences across phases; eight phases at10fps",
+          "threshold": "Final smoothness, topology and gameplay timing require animation/director review",
+          "file": "exports/01-率土之滨/fx-animation/capture-circle/manifest.json",
+          "note": "No claim of continuous video, gameplay event alignment or final smooth-animation acceptance."
+        }
+      ]
+    },
+    {
+      "effect": "reward-glow",
+      "manifest": {
+        "file": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+        "sha256": "7dfe736af4ef54ffd26d467421ae80604012d5792d312dc2b3dcdc63d83054a1"
+      },
+      "sourceFile": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+      "warningsVerbatim": [
+        {
+          "id": "safe_frame",
+          "status": "warn",
+          "value": 2,
+          "threshold": 0,
+          "cells": [
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+          "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png"
+        },
+        {
+          "id": "faint_specks",
+          "status": "warn",
+          "value": {
+            "floor_px": 264111,
+            "detached_components": 100
+          },
+          "threshold": 0,
+          "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+          "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png"
+        },
+        {
+          "id": "MANUAL_SHARED_ROOT_REGISTRATION",
+          "status": "warn",
+          "value": {
+            "sourceAnchors": [
+              [
+                225,
+                248
+              ],
+              [
+                667,
+                248
+              ],
+              [
+                1108,
+                248
+              ],
+              [
+                1550,
+                249
+              ],
+              [
+                225,
+                648
+              ],
+              [
+                670,
+                647
+              ],
+              [
+                1108,
+                648
+              ],
+              [
+                1552,
+                648
+              ]
+            ],
+            "outputAnchor": [
+              450,
+              450
+            ]
+          },
+          "threshold": "single shared logical anchor; source sheet not perfectly registered",
+          "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+          "note": "Original phases are only translated on transparent padding using measured plane/star core, no alpha-bbox normalization or per-frame scaling. Residual subpixel motion is not formally approved."
+        },
+        {
+          "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+          "status": "warn",
+          "value": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+          "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png",
+          "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+        },
+        {
+          "id": "GENERATIVE_CONTOUR_AND_TIMING_CANDIDATE",
+          "status": "warn",
+          "value": "Minor ring/cloud or spark topology differences across phases; eight phases at10fps",
+          "threshold": "Final smoothness, topology and gameplay timing require animation/director review",
+          "file": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+          "note": "No claim of continuous video, gameplay event alignment or final smooth-animation acceptance."
+        }
+      ]
+    }
+  ],
+  "officialAPIReferences": [
+    "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Time-captureDeltaTime.html",
+    "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/AnimatorUpdateMode.html",
+    "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.Render.html"
+  ],
+  "limitations": [
+    "Deterministic capture clock is not real-time60FPS deviceperformance.",
+    "Caller clear is an explicit demo lifecycle action at0.8s, not an automatic behavior of originalclip.",
+    "Only a built-in SpriteRenderer/Animator preview scene tested; no game-client integration, combat event binding or platformmatrix.",
+    "Original8phase contours, softalpha/margins and topology warnings remain; order/root correctness does not approve smoothness."
+  ],
+  "status": "actual_D3D11_PlayMode8clip2background_playback_and_caller_cleanup_verified_with_retained_source_and_clock_WARNs",
+  "userApproved": false,
+  "finalSmoothnessApproved": false,
+  "clientIntegrated": false
+}

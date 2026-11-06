@@ -1,0 +1,84 @@
+{
+  "createdAt": "2026-10-29T04:00:11.186Z",
+  "cwd": "D:/work/wuxing-slg-iamge",
+  "python": "D:/luyuan/image-skills/runtime/agent-sprite-forge/.venv/Scripts/python.exe",
+  "toolRoot": "C:/Users/luyua/.codex/skills/generate2dsprite/scripts",
+  "localHeavyTasksRun": false,
+  "FFmpegRun": false,
+  "UnityRun": false,
+  "operations": [
+    {
+      "tool": "sheet_qc.py spill",
+      "source": "metal-idle-se-v2.png",
+      "rows": 2,
+      "cols": 2,
+      "key": "none",
+      "expect": 4,
+      "status": "warn",
+      "failed": [],
+      "warnings": [
+        "faint_specks"
+      ],
+      "metadata": "records/troop-frames-20261028-r2/metal-idle-v2-spill/sheet-qc.json"
+    },
+    {
+      "tool": "sheet_qc.py spill",
+      "source": "metal-attack-se-v1.png",
+      "rows": 2,
+      "cols": 3,
+      "key": "none",
+      "expect": 6,
+      "status": "warn",
+      "failed": [],
+      "warnings": [
+        "safe_frame",
+        "faint_specks"
+      ],
+      "metadata": "records/troop-frames-20261028-r2/metal-attack-v1-spill/sheet-qc.json"
+    },
+    {
+      "tool": "generate2dsprite.py process",
+      "actions": [
+        "idle-v2",
+        "attack-v1"
+      ],
+      "strictQc": true,
+      "geometry": "registered scale1 offset0 preserving source coordinate cells",
+      "alphaHygiene": "none",
+      "componentMode": "all",
+      "exitCode": 0,
+      "outputs": [
+        "metal-idle-v2-native-frames",
+        "metal-attack-v1-native-frames"
+      ],
+      "status": "technical_pass_not_animation_acceptance"
+    },
+    {
+      "tool": "scale_frames.py",
+      "actions": [
+        "idle-v2",
+        "attack-v1"
+      ],
+      "sharedScale": 0.84,
+      "canvas": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        420
+      ],
+      "anchorSource": "stance from neutral0",
+      "rootLock": "none",
+      "resampler": "lanczos",
+      "key": "none",
+      "exitCode": 1,
+      "publishedOutput": false,
+      "stderr": [
+        "error: frame(s) [0, 1, 2, 3] leave the 512x512 canvas by left 81 px, bottom 20 px; frames are never clamped: grow it with --action-padding 81,0,0,20 or use a smaller scale.",
+        "error: frame(s) [0, 1, 2, 3, 4, 5] leave the 512x512 canvas by left 59 px; frames are never clamped: grow it with --action-padding 59,0,0,0 or use a smaller scale."
+      ],
+      "status": "failed_preserved_without_gate_relaxation"
+    }
+  ]
+}

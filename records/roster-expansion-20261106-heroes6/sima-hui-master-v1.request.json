@@ -1,0 +1,53 @@
+{
+  "startedAt": "2026-11-06T11:18:47.325Z",
+  "clientDate": "2026-11-06",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "tool": "image_gen.imagegen",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original full-body character master for the historical Three Kingdoms strategy game 五行问鼎. The two attached images guide Daoist chibi proportions and polished hand-painted materials only. Depict the Eastern Han scholar 司马徽, 司马德操, Water Mirror. Elderly oval face, observant crescent eyes, silver swept brows, fine forked silver beard, gray hair in a low wrapped knot. Soft rounded shoulders, plain oatmeal linen crossed robe, misty celadon overwrap, bamboo-green cloth tie and a small jade bead. One hand cradles a compact shallow bronze hand mirror with muted teal patina, the other rests in his sleeve. Plain scholar silhouette with soft upright sleeves. No feather fan, tall hat, armor or magical effects. One person in balanced three-quarter standing pose. Oversized expressive head, compact limbs, soft painted fabric, restrained gold and jade, readable face at icon size. Entire body, feet, hair and props fit within central 75% width and 82% height, clear margins on all sides. Portrait 2:3, genuine transparent alpha outside the silhouette. No backdrop, floor, shadow, glow, border, writing or UI.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "sima-hui",
+    "name": "司马徽",
+    "personID": "ww-p-a6b659948cdc",
+    "cardIDs": [
+      100354,
+      100811
+    ],
+    "source": "https://zh.wikisource.org/zh-hans/三國志/卷37",
+    "identityEvidence": "Records of the Three Kingdoms vol. 37, Pei Songzhi commentary citing Xiangyang Ji: Sima Decao and his recognition of Pang Tong."
+  }
+}

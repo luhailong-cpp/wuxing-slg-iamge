@@ -1,0 +1,46 @@
+{
+  "startedAt": "2026-10-29T02:41:50.012Z",
+  "promptFile": "prompts/01-率土之滨/ui-expansion-20261028-r2/37-ranking-v1.prompt.txt",
+  "references": [
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative_style"
+    },
+    {
+      "path": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "sha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b",
+      "role": "same_game_alliance_hierarchy"
+    }
+  ],
+  "submittedParameters": {
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "ruleFilesRead": [
+    "AGENTS.md",
+    "config/image-generation.json",
+    "docs/IMAGE_MODEL_POLICY.md",
+    "docs/UI_STYLE_GUIDE.md"
+  ]
+}

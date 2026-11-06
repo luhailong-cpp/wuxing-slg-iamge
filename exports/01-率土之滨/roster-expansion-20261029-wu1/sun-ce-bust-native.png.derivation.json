@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png",
+  "sha256": "a78316380e35b6a8424e099af3c5f903383047f0f1f139d062fc5fb1b28eccb3",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 1005,
+  "height": 1035,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "sun-ce",
+  "personID": "ww-p-8fa0077b6be6",
+  "displayName": "孙策",
+  "variant": "bust-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png",
+      "sha256": "7cce405788136b7e78c1f1c2700f7f7133f4674d1649ef9dbe647cbeb72cc2c5",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png.generation.json",
+      "recordSha256": "6bad4a632bcb6743a0b9547a1b2255acf8dd79dcb4de9412a92656294c215c04"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    10,
+    35,
+    1015,
+    1070
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    1005,
+    1035
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    445,
+    310,
+    735,
+    520
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 374738,
+    "alpha1Pixels": 18862,
+    "semiTransparentPixels": 665437,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      5,
+      9,
+      998,
+      1035
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      910
+    ],
+    "edgePixelsAbove0": [
+      0,
+      0,
+      0,
+      914
+    ],
+    "marginsAbove32": [
+      5,
+      9,
+      7,
+      0
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        15,
+        44,
+        16,
+        38
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 18862,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "crop": [
+        10,
+        35,
+        1015,
+        1070
+      ],
+      "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

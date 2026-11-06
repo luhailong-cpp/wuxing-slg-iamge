@@ -1,0 +1,128 @@
+{
+  "schema": "wuxing.fixed-preview-route.v1",
+  "sourceBundleSha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+  "canonicalRuntimeVersion": "1.1.2",
+  "canonicalRuntimeSha256": "25c9d06322d6d98c76092aebe228227b526685e9309675285622e9d574df0c5b",
+  "speedPixelsPerSecond": 150,
+  "loop": false,
+  "fixedSEStaticUnit": true,
+  "route": [
+    [
+      750,
+      372
+    ],
+    [
+      650,
+      436
+    ],
+    [
+      750,
+      500
+    ],
+    [
+      850,
+      564
+    ],
+    [
+      866,
+      754
+    ],
+    [
+      894,
+      770
+    ],
+    [
+      938,
+      778
+    ],
+    [
+      950,
+      795
+    ]
+  ],
+  "legs": [
+    {
+      "from": [
+        750,
+        372
+      ],
+      "to": [
+        650,
+        436
+      ],
+      "points": [
+        [
+          650,
+          436
+        ]
+      ],
+      "canonicalSegmentsValid": true,
+      "lineOfSightShortcut": true
+    },
+    {
+      "from": [
+        650,
+        436
+      ],
+      "to": [
+        750,
+        500
+      ],
+      "points": [
+        [
+          750,
+          500
+        ]
+      ],
+      "canonicalSegmentsValid": true,
+      "lineOfSightShortcut": true
+    },
+    {
+      "from": [
+        750,
+        500
+      ],
+      "to": [
+        850,
+        564
+      ],
+      "points": [
+        [
+          850,
+          564
+        ]
+      ],
+      "canonicalSegmentsValid": true,
+      "lineOfSightShortcut": true
+    },
+    {
+      "from": [
+        850,
+        564
+      ],
+      "to": [
+        950,
+        795
+      ],
+      "points": [
+        [
+          866,
+          754
+        ],
+        [
+          894,
+          770
+        ],
+        [
+          938,
+          778
+        ],
+        [
+          950,
+          795
+        ]
+      ],
+      "canonicalSegmentsValid": true
+    }
+  ]
+}

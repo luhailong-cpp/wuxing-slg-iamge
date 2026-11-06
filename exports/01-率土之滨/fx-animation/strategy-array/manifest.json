@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "assetId": "strategy-array",
+  "assetType": "generated_eight_phase_one_shot_candidate",
+  "status": "registered_candidate_pending_motion_and_user_review",
+  "artSource": "host_image",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png",
+  "sourceSha256": "2aa75743bc4e24d81b919bcfb3cd1405317bd669b91c21cd0988d07de6dc0c1a",
+  "sourceRecord": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png.generation.json",
+  "nativeSheetSize": [
+    1774,
+    887
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "order": "row-major",
+    "ownershipBoxes": [
+      [
+        0,
+        0,
+        444,
+        444
+      ],
+      [
+        444,
+        0,
+        887,
+        444
+      ],
+      [
+        887,
+        0,
+        1331,
+        444
+      ],
+      [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      [
+        0,
+        444,
+        444,
+        887
+      ],
+      [
+        444,
+        444,
+        887,
+        887
+      ],
+      [
+        887,
+        444,
+        1331,
+        887
+      ],
+      [
+        1331,
+        444,
+        1774,
+        887
+      ]
+    ],
+    "nominalGridAdjusted": false
+  },
+  "frames": [
+    {
+      "index": 0,
+      "phase": "seed",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png",
+      "sha256": "62fd7cdfbc75a1a971e97708c73992400bb8dd758d722bdf2d4dcfe2328c81d1",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        232,
+        275
+      ],
+      "cropBox": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "pasteOffsetPx": [
+        218,
+        175
+      ]
+    },
+    {
+      "index": 1,
+      "phase": "inner-ring",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png",
+      "sha256": "3851757119075d897f0c20eeabf6f9e0afba76ca98465b1373a9d3ae0b7641cb",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        671,
+        270
+      ],
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "pasteOffsetPx": [
+        223,
+        180
+      ]
+    },
+    {
+      "index": 2,
+      "phase": "ring-growth",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png",
+      "sha256": "98e308e82994fe5694594482fb27e41e81c7674d2a2a8f518beac3fe2d04f14b",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1102,
+        272
+      ],
+      "cropBox": [
+        887,
+        0,
+        1331,
+        444
+      ],
+      "pasteOffsetPx": [
+        235,
+        178
+      ]
+    },
+    {
+      "index": 3,
+      "phase": "formed-array",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png",
+      "sha256": "d1b151f379878a94f7e71b37209ea21589a732b72c5a5d32369252f6b9006cdc",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1547,
+        270
+      ],
+      "cropBox": [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      "pasteOffsetPx": [
+        234,
+        180
+      ]
+    },
+    {
+      "index": 4,
+      "phase": "peak",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png",
+      "sha256": "e4a05f4ffb34b72b6b9a62065b9b79c697826dd5a9ee6ff70e10a618a35bf671",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        236,
+        658
+      ],
+      "cropBox": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "pasteOffsetPx": [
+        214,
+        236
+      ]
+    },
+    {
+      "index": 5,
+      "phase": "decay",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png",
+      "sha256": "68a1d742aaf893dc1d3927b15131cea585752396b7f3ba9fd140937b0ae98dd0",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        678,
+        658
+      ],
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "pasteOffsetPx": [
+        216,
+        236
+      ]
+    },
+    {
+      "index": 6,
+      "phase": "ring-remnants",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png",
+      "sha256": "81397590b1fcc43bd6e2ad731c495a67b47ffc8d6f955ff743240d37e2c5d1bb",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1109,
+        658
+      ],
+      "cropBox": [
+        887,
+        444,
+        1331,
+        887
+      ],
+      "pasteOffsetPx": [
+        228,
+        236
+      ]
+    },
+    {
+      "index": 7,
+      "phase": "last-mote",
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png",
+      "sha256": "860c9f1725fb7a2e501f4b93f985b4f5bd41f2798acd3c663cc87a1b93af480b",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1550,
+        662
+      ],
+      "cropBox": [
+        1331,
+        444,
+        1774,
+        887
+      ],
+      "pasteOffsetPx": [
+        231,
+        232
+      ]
+    }
+  ],
+  "frameCount": 8,
+  "animations": 1,
+  "animation": {
+    "id": "strategy-array",
+    "durationSeconds": 0.8,
+    "frameDurationSeconds": 0.1,
+    "loop": false,
+    "events": [],
+    "timingStatus": "demonstration, not bound to combat events"
+  },
+  "durationSeconds": 0.8,
+  "frameDurationSeconds": 0.1,
+  "loop": false,
+  "fixedCanvasSize": [
+    900,
+    900
+  ],
+  "anchorPx": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "registration": {
+    "method": "manual semantic FX origin; exact native crop then integer translation and transparent padding",
+    "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+    "allSourceAnchorsMappedToTargetPx": [
+      450,
+      450
+    ],
+    "transformResidualPx": 0,
+    "visualOriginUncertaintyPx": 3,
+    "perFrameBboxNormalization": false,
+    "resampled": false,
+    "alphaEdited": false
+  },
+  "qa": {
+    "manualReview": "records/01-率土之滨/fx-animation/strategy-array-review-20261027.json",
+    "skillSpillReport": "records/01-率土之滨/fx-animation/strategy-array-sheet-v2.spill-qc.json",
+    "publishedWarningsAndFailures": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 96502,
+          "detached_components": 2
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "nominalGridVisibleCrossingResolvedByManualOwnership": false,
+    "customOwnershipNoVisibleClippingOrNeighborIntrusion": true,
+    "lightDarkReviewed": true,
+    "registeredPreviewReviewed": true,
+    "smoothAnimationFinallyApproved": false,
+    "sourceRawReportRelativeNamesBasis": "original tool work directory, see manual review",
+    "finalSourceCropVisibleEdgePixelCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourcePixelsPreservedVerified": true
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "battleEventsImplemented": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "createdAtUtc": "2026-10-27T17:28:31.845937+00:00"
+}

@@ -1,0 +1,86 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/dian-wei-face-native.png",
+  "sha256": "132a5d6d0bdc07a8a834fb3d7bf87ed7ab8c55cc16b2af01a9180ae5a8a7d8ff",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "dian-wei",
+  "displayName": "典韦",
+  "variant": "face-native",
+  "width": 350,
+  "height": 425,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+      "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png.generation.json",
+      "recordSha256": "a5959594bfceab08439fab387bacd7c1f87d5624485fbeae65bdad6c501ef514"
+    }
+  ],
+  "operation": "native_rectangle_crop",
+  "cropBox": [
+    340,
+    190,
+    690,
+    615
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alphaZero": 37394,
+    "alphaOne": 2449,
+    "alphaSemi": 111356,
+    "alphaOpaque": 0,
+    "bboxAlpha16": [
+      0,
+      12,
+      350,
+      425
+    ],
+    "marginsAlpha16": [
+      0,
+      12,
+      0,
+      0
+    ],
+    "edgeAlpha16Pixels": 715
+  },
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    402,
+    360,
+    637,
+    555
+  ],
+  "faceRoiOutputApprox": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

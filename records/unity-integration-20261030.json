@@ -1,0 +1,49 @@
+{
+  "updatedAtUtc": "2026-10-30T13:46:35.795Z",
+  "engineVersion": "6000.6.0f1",
+  "baselinePng": 253,
+  "newPng": 326,
+  "totalPng": 579,
+  "totalClips": 28,
+  "totalPrefabs": 7,
+  "newPixelChecks": {
+    "pngExact": true,
+    "allRgbaExact": true,
+    "alphaExact": true,
+    "pivotMatch": true
+  },
+  "newClipCount": 20,
+  "all100FrameIntervalsSampledCorrectly": true,
+  "baselineSourceFileAndGuidCount": 592,
+  "separatelyVerifiedNewInventory": 326,
+  "unexpectedPng": 0,
+  "baselineInvisibleRgbWarnings": [
+    {
+      "path": "Assets/WuxingSLGBridgeDepth20261028/bridge-front.png",
+      "rawRgbaExact": false,
+      "pixelIntegrityExact": true
+    },
+    {
+      "path": "Assets/WuxingSLGBridgeDepth20261028/bridge-back.png",
+      "rawRgbaExact": false,
+      "pixelIntegrityExact": true
+    },
+    {
+      "path": "Assets/WuxingSLGContinuousGrass20261028/continuous-grass-plate-native.png",
+      "rawRgbaExact": false,
+      "pixelIntegrityExact": true
+    }
+  ],
+  "gpuCaptures": 8,
+  "gpuDevice": "Direct3D11 / NVIDIA GeForce RTX 3070 Ti",
+  "gpuContactSheetsActuallyViewed": true,
+  "runtimePlayModeTested": false,
+  "fullGameArtComplete": false,
+  "repository": "https://github.com/luhailong-cpp/wuxing-slg-unity",
+  "privateUnitySnapshotPrepared": "ba6fd27989338dc579cf55266cfc1adb398fdfdb",
+  "privateUnitySnapshotPublication": "published_and_verified",
+  "privateUnityCommit": "ba6fd27989338dc579cf55266cfc1adb398fdfdb",
+  "privateUnityTree": "b90d9fde924e33e282f9de1fc9e718652ca802d7",
+  "privateUnityRemoteFiles": 2171,
+  "privateUnityVerifiedAtUtc": "2026-10-30T13:54:55.299296+00:00"
+}

@@ -1,0 +1,160 @@
+{
+  "nativeSize": [
+    1774,
+    887
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "fullyTransparentPixels": 906753,
+  "alpha1Pixels": 14245,
+  "candidateVectors": {
+    "u": [
+      806,
+      397
+    ],
+    "v": [
+      -806,
+      397
+    ]
+  },
+  "candidateVertices": [
+    [
+      885,
+      50
+    ],
+    [
+      1692,
+      444
+    ],
+    [
+      885,
+      841
+    ],
+    [
+      80,
+      444
+    ]
+  ],
+  "instances": [
+    {
+      "i": 0,
+      "j": 0,
+      "offset": [
+        1612,
+        0
+      ]
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "offset": [
+        806,
+        397
+      ]
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "offset": [
+        0,
+        794
+      ]
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "offset": [
+        2418,
+        397
+      ]
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "offset": [
+        1612,
+        794
+      ]
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "offset": [
+        806,
+        1191
+      ]
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "offset": [
+        3224,
+        794
+      ]
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "offset": [
+        2418,
+        1191
+      ]
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "offset": [
+        1612,
+        1588
+      ]
+    }
+  ],
+  "interiorPixelCount": 5610091,
+  "interiorPixelsAlphaAtMost16": 1440,
+  "interiorPixelsAlphaBelow128": 8181,
+  "edgeColorComparisons": [
+    {
+      "oppositeEdges": [
+        0,
+        2
+      ],
+      "meanAbsoluteRGB": 19.891344383057092,
+      "maxChannelDifference": 109,
+      "exactlyMatchingSamples": 0,
+      "sampleCount": 181
+    },
+    {
+      "oppositeEdges": [
+        1,
+        3
+      ],
+      "meanAbsoluteRGB": 18.661141804788215,
+      "maxChannelDifference": 105,
+      "exactlyMatchingSamples": 0,
+      "sampleCount": 181
+    }
+  ],
+  "edgeCompareThreshold": {
+    "exactMatchForSeamless": 0
+  },
+  "mathematicallySeamless": false,
+  "seamlessTilingVerified": false,
+  "status": "FAIL_as_exact_seamless_tile; reusable_as_one_continuous_plate_candidate",
+  "source": {
+    "file": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png",
+    "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23",
+    "record": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png.generation.json"
+  },
+  "visualInspection": {
+    "observed": true,
+    "result": "FAIL",
+    "findings": [
+      "Visible dark diagonal lines at repeated diamond joins on dark background",
+      "No stone/flower boundary remains in individual source",
+      "A single native plate has no internal repetition joins"
+    ]
+  },
+  "edgeColorDiagnosticCaveat": "Samples are eight pixels inward, not a mathematical continuity proof by themselves. The failure is also directly visible in the 3x3 composite and supported by internal-alpha holes."
+}

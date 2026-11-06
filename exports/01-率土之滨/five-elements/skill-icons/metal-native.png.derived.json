@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/skill-icons/metal-native.png",
+  "sha256": "3a49ac8e2a08802f223474ed97c5f73c0cdcf8b4b60ef8521d102c85a51a3eeb",
+  "derivedAtUtc": "2026-10-27T18:42:18.314162+00:00",
+  "width": 512,
+  "height": 496,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "manual_ownership_rectangle_crop",
+  "cropBox": [
+    0,
+    0,
+    512,
+    496
+  ],
+  "resampled": false,
+  "alphaModified": false,
+  "art_source": "existing",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png",
+      "sha256": "9b22889d597cb673c4cb1f423a2bbeb0d6974a916bb19453efebf4370edbeae9",
+      "record": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png.generation.json"
+    }
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "faintAlpha1Pixels": 13432,
+    "edgeAbove1": 0,
+    "edgeAbove16": 0,
+    "bboxAbove16": [
+      57,
+      51,
+      470,
+      476
+    ],
+    "marginAbove16": 20
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "candidate_skill_icon_pending_user_review"
+}

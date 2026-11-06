@@ -1,0 +1,1073 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "exports/01-率土之滨/map-assembly-v1/scene-base.png",
+  "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0",
+  "size": [
+    1440,
+    960
+  ],
+  "operation": "composite_existing_rgba_assets",
+  "art_source": "existing",
+  "alphaEdited": false,
+  "resampled": true,
+  "resampling": "uniform scale 0.72, Pillow RGBA premultiplied LANCZOS; source PNG bytes unchanged",
+  "background": "transparent",
+  "layoutSource": "authored data, no painted replacement terrain",
+  "placements": [
+    {
+      "id": "ground-0-0",
+      "asset": "grassland",
+      "grid": [
+        0,
+        0
+      ],
+      "position": [
+        650,
+        180
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        503,
+        58
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-0-1",
+      "asset": "grassland",
+      "grid": [
+        0,
+        1
+      ],
+      "position": [
+        550,
+        244
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        403,
+        122
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-0-2",
+      "asset": "grassland",
+      "grid": [
+        0,
+        2
+      ],
+      "position": [
+        450,
+        308
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        303,
+        186
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-0-3",
+      "asset": "grassland",
+      "grid": [
+        0,
+        3
+      ],
+      "position": [
+        350,
+        372
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        203,
+        250
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-0-4",
+      "asset": "grassland",
+      "grid": [
+        0,
+        4
+      ],
+      "position": [
+        250,
+        436
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        103,
+        314
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-1-0",
+      "asset": "grassland",
+      "grid": [
+        1,
+        0
+      ],
+      "position": [
+        750,
+        244
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        603,
+        122
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-1-1",
+      "asset": "grassland",
+      "grid": [
+        1,
+        1
+      ],
+      "position": [
+        650,
+        308
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        503,
+        186
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-1-2",
+      "asset": "grassland",
+      "grid": [
+        1,
+        2
+      ],
+      "position": [
+        550,
+        372
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        403,
+        250
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-1-3",
+      "asset": "grassland",
+      "grid": [
+        1,
+        3
+      ],
+      "position": [
+        450,
+        436
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        303,
+        314
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-1-4",
+      "asset": "grassland",
+      "grid": [
+        1,
+        4
+      ],
+      "position": [
+        350,
+        500
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        203,
+        378
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-2-0",
+      "asset": "grassland",
+      "grid": [
+        2,
+        0
+      ],
+      "position": [
+        850,
+        308
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        703,
+        186
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-2-1",
+      "asset": "grassland",
+      "grid": [
+        2,
+        1
+      ],
+      "position": [
+        750,
+        372
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        603,
+        250
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-2-2",
+      "asset": "stone-road",
+      "grid": [
+        2,
+        2
+      ],
+      "position": [
+        650,
+        436
+      ],
+      "sourceAnchorPx": [
+        177,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        264,
+        209
+      ],
+      "pasteOffsetPx": [
+        523,
+        314
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sourceSha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json"
+    },
+    {
+      "id": "ground-2-3",
+      "asset": "grassland",
+      "grid": [
+        2,
+        3
+      ],
+      "position": [
+        550,
+        500
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        403,
+        378
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-2-4",
+      "asset": "grassland",
+      "grid": [
+        2,
+        4
+      ],
+      "position": [
+        450,
+        564
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        303,
+        442
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-3-0",
+      "asset": "river-straight",
+      "grid": [
+        3,
+        0
+      ],
+      "position": [
+        950,
+        372
+      ],
+      "sourceAnchorPx": [
+        205,
+        158
+      ],
+      "scale": 0.72,
+      "flipX": true,
+      "resampledSizePx": [
+        271,
+        226
+      ],
+      "pasteOffsetPx": [
+        826,
+        258
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "id": "ground-3-1",
+      "asset": "river-straight",
+      "grid": [
+        3,
+        1
+      ],
+      "position": [
+        850,
+        436
+      ],
+      "sourceAnchorPx": [
+        205,
+        158
+      ],
+      "scale": 0.72,
+      "flipX": true,
+      "resampledSizePx": [
+        271,
+        226
+      ],
+      "pasteOffsetPx": [
+        726,
+        322
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "id": "ground-3-2",
+      "asset": "river-straight",
+      "grid": [
+        3,
+        2
+      ],
+      "position": [
+        750,
+        500
+      ],
+      "sourceAnchorPx": [
+        205,
+        158
+      ],
+      "scale": 0.72,
+      "flipX": true,
+      "resampledSizePx": [
+        271,
+        226
+      ],
+      "pasteOffsetPx": [
+        626,
+        386
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "id": "ground-3-3",
+      "asset": "river-straight",
+      "grid": [
+        3,
+        3
+      ],
+      "position": [
+        650,
+        564
+      ],
+      "sourceAnchorPx": [
+        205,
+        158
+      ],
+      "scale": 0.72,
+      "flipX": true,
+      "resampledSizePx": [
+        271,
+        226
+      ],
+      "pasteOffsetPx": [
+        526,
+        450
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "id": "ground-3-4",
+      "asset": "river-straight",
+      "grid": [
+        3,
+        4
+      ],
+      "position": [
+        550,
+        628
+      ],
+      "sourceAnchorPx": [
+        205,
+        158
+      ],
+      "scale": 0.72,
+      "flipX": true,
+      "resampledSizePx": [
+        271,
+        226
+      ],
+      "pasteOffsetPx": [
+        426,
+        514
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "id": "ground-4-0",
+      "asset": "grassland",
+      "grid": [
+        4,
+        0
+      ],
+      "position": [
+        1050,
+        436
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        903,
+        314
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-4-1",
+      "asset": "grassland",
+      "grid": [
+        4,
+        1
+      ],
+      "position": [
+        950,
+        500
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        803,
+        378
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-4-2",
+      "asset": "stone-road",
+      "grid": [
+        4,
+        2
+      ],
+      "position": [
+        850,
+        564
+      ],
+      "sourceAnchorPx": [
+        177,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        264,
+        209
+      ],
+      "pasteOffsetPx": [
+        723,
+        442
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sourceSha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json"
+    },
+    {
+      "id": "ground-4-3",
+      "asset": "grassland",
+      "grid": [
+        4,
+        3
+      ],
+      "position": [
+        750,
+        628
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        603,
+        506
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-4-4",
+      "asset": "grassland",
+      "grid": [
+        4,
+        4
+      ],
+      "position": [
+        650,
+        692
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        503,
+        570
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-5-0",
+      "asset": "grassland",
+      "grid": [
+        5,
+        0
+      ],
+      "position": [
+        1150,
+        500
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        1003,
+        378
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-5-1",
+      "asset": "grassland",
+      "grid": [
+        5,
+        1
+      ],
+      "position": [
+        1050,
+        564
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        903,
+        442
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-5-2",
+      "asset": "stone-road",
+      "grid": [
+        5,
+        2
+      ],
+      "position": [
+        950,
+        628
+      ],
+      "sourceAnchorPx": [
+        177,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        264,
+        209
+      ],
+      "pasteOffsetPx": [
+        823,
+        506
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sourceSha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json"
+    },
+    {
+      "id": "ground-5-3",
+      "asset": "grassland",
+      "grid": [
+        5,
+        3
+      ],
+      "position": [
+        850,
+        692
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        703,
+        570
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-5-4",
+      "asset": "grassland",
+      "grid": [
+        5,
+        4
+      ],
+      "position": [
+        750,
+        756
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        603,
+        634
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-6-0",
+      "asset": "grassland",
+      "grid": [
+        6,
+        0
+      ],
+      "position": [
+        1250,
+        564
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        1103,
+        442
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-6-1",
+      "asset": "grassland",
+      "grid": [
+        6,
+        1
+      ],
+      "position": [
+        1150,
+        628
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        1003,
+        506
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-6-2",
+      "asset": "grassland",
+      "grid": [
+        6,
+        2
+      ],
+      "position": [
+        1050,
+        692
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        903,
+        570
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-6-3",
+      "asset": "grassland",
+      "grid": [
+        6,
+        3
+      ],
+      "position": [
+        950,
+        756
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        803,
+        634
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "id": "ground-6-4",
+      "asset": "grassland",
+      "grid": [
+        6,
+        4
+      ],
+      "position": [
+        850,
+        820
+      ],
+      "sourceAnchorPx": [
+        204,
+        169
+      ],
+      "scale": 0.72,
+      "flipX": false,
+      "resampledSizePx": [
+        271,
+        209
+      ],
+      "pasteOffsetPx": [
+        703,
+        698
+      ],
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "sourceRecord": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    }
+  ],
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "record": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "record": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "TERRAIN_SEAMS_UNVERIFIED",
+      "value": "stone-rimmed standalone grass/river/road dioramas repeated at uniform 0.72 scale",
+      "threshold": "seam-compatible shared edge pixels and sockets required for continuous terrain",
+      "status": "WARN"
+    },
+    {
+      "id": "RIVER_MIRRORED_FOR_AXIS",
+      "value": 5,
+      "threshold": "mirror-safe lighting and shore continuity not approved",
+      "status": "WARN"
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": "all source alpha retained; compositing/resampling may accumulate faint alpha",
+      "threshold": "no alpha cleanup or threshold deletion authorized",
+      "status": "WARN"
+    }
+  ],
+  "sourceAlphaEdited": false,
+  "compositeAlphaCalculated": true,
+  "alphaPolicy": "No source cleanup/keying/thresholding. Output alpha is calculated by declared RGBA resampling and over compositing."
+}

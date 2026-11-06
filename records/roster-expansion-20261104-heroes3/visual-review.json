@@ -1,0 +1,32 @@
+{
+  "checkedAtUtc": "2026-11-04T16:54:12.323935+00:00",
+  "passed": true,
+  "ids": [
+    "xu-huang",
+    "yu-jin",
+    "pang-de",
+    "huang-quan",
+    "yue-jin",
+    "zhu-ling",
+    "wen-pin",
+    "li-tong"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261104-heroes3/eight-generals-ui-light.png",
+      "sha256": "2c2f01a6925398e2f4156666b0833f120c24ca55ffe38bc59216e292ebbba4b0"
+    },
+    {
+      "file": "records/roster-expansion-20261104-heroes3/eight-generals-ui-dark.png",
+      "sha256": "bf90e69d2ede38f8909a4b37066ec47e679f1f3579b8cba736657e00a8019cda"
+    }
+  ],
+  "approvedScope": "eight reviewed identity masters and UI derivatives",
+  "notes": [
+    "Full costumes and equipment checked on light/dark.",
+    "Full cards normalize the transparent canvas by visible bounds plus 24px. Native masters stay exact.",
+    "Huang Quan avatar crop excludes loose paper tip. Some other headwear and straps extend intentionally beyond portrait crops.",
+    "Native alpha1, maximum 254 and tight source-margin warnings recorded in export manifest."
+  ],
+  "userFinalAcceptance": false
+}

@@ -1,0 +1,79 @@
+{
+  "reviewedAtUtc": "2026-11-04T15:50:06.048608+00:00",
+  "method": "Pillow compositing and FreeType text rasterization. Opened and visually inspected all six final PNG files.",
+  "stateMatrixScreenId": 16,
+  "uniqueSourceArtFilesHashMatched": 19,
+  "previewStateCount": 6,
+  "sourceHashMatched": true,
+  "visualReviewPassed": true,
+  "checks": [
+    "six distinct states match the existing state matrix",
+    "labels and sample numbers remain legible",
+    "warning copy and disabled CTA agree",
+    "confirmation dialog layers over dimmed recruiting state",
+    "completed per-slot addition matches summary",
+    "source dimensions and image hashes verified"
+  ],
+  "limits": [
+    "single 1280 × 720 viewport proof",
+    "sample resource amounts and times",
+    "small increment/decrement controls are visual proposals",
+    "reserves, runtime hit areas and real business behavior still await design or validation"
+  ],
+  "states": [
+    {
+      "state": "idle",
+      "preview": "exports/01-率土之滨/ui-artonly-20261104/idle.png",
+      "sha256": "91e062551494d91952f7c26594873e90584c1a31a6ac46bc6e523e707e259937",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "state": "amount_changed",
+      "preview": "exports/01-率土之滨/ui-artonly-20261104/amount-changed.png",
+      "sha256": "1089bae13081c46149601755d120049d9570e1f37e5d1470cec407c6cd5fbbe8",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "state": "resources_insufficient",
+      "preview": "exports/01-率土之滨/ui-artonly-20261104/resources-insufficient.png",
+      "sha256": "0c3b4151de71eb0e26e452442d42c7a2d7368e74f30ded26d2398a5e7d962154",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "state": "recruiting",
+      "preview": "exports/01-率土之滨/ui-artonly-20261104/recruiting.png",
+      "sha256": "0fdacdcd129839dfc88c09f0563143ad1a2761e6cb90930f9ead7b66b7f418e8",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "state": "cancel_confirm",
+      "preview": "exports/01-率土之滨/ui-artonly-20261104/cancel-confirm.png",
+      "sha256": "5f692ef6dcbf07ffd1dc6bbc46d64432a7943ff74196b20d111f8f9e9cebc2de",
+      "size": [
+        1280,
+        720
+      ]
+    },
+    {
+      "state": "complete",
+      "preview": "exports/01-率土之滨/ui-artonly-20261104/complete.png",
+      "sha256": "5fa78a4d31ee42d8211266dc02766ebf1ba43e6b5d19741197611ddaf89f8d6f",
+      "size": [
+        1280,
+        720
+      ]
+    }
+  ]
+}

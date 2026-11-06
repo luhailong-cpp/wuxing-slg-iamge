@@ -1,0 +1,21 @@
+{
+  "file": "records/troop-frames-20261029-r3-water/water-ground-idle-map128h-aligned.png",
+  "sha256": "35222217624374469661a78e295373fc30e37b24384271aaba652f4e9d125a8a",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "sha256": "5cb7cbe8f3dc8bfe4fa35e75e808e2cd5b2bfb05cab3e4de75b19c09305d8c09",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "QA-only contact/helmet/grid/grounding preview",
+    "notRuntimeAsset": true,
+    "registrationInput": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "scripts": [
+      "work/troop-frames-20261029-r3-water/measure.py",
+      "work/troop-frames-20261029-r3-water/review_sources.py",
+      "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py"
+    ]
+  }
+}

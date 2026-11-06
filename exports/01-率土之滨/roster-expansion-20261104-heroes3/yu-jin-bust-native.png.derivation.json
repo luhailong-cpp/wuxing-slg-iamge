@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/yu-jin-bust-native.png",
+  "sha256": "8ac2e15b89f757fd44fe83e5cf1f370488f115fb380b68a3a2042611b4a3f3b5",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/yu-jin-master-v1.png",
+    "sha256": "7194385cf4cdf7d90e370c9c7b852e8eabf31df47260d377fa2ab97d2fa1a228",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/yu-jin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1070
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

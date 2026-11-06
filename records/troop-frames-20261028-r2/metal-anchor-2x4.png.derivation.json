@@ -1,0 +1,11 @@
+{
+  "file": "records/troop-frames-20261028-r2/metal-anchor-2x4.png",
+  "sha256": "6594e158fd8dd7499ee77239b34e59af43c23ec4e4fc8fd554b55b4d9a2500a4",
+  "derivedFrom": {
+    "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+    "role": "exact_identity_master"
+  },
+  "operation": "make_anchor_layout.py: repeat master 2x4, 512px cells, subject height/width ratio0.64, feet ratio0.82, lanczos, native alpha; geometry guide only, not new poses",
+  "isAnimation": false
+}

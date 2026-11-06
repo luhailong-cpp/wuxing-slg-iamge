@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/huang-yue-ying-avatar-128.png",
+  "sha256": "1ad887f255d916a307e44efe21d6fb192fde6fcdf5bf9007cdb795382cf1beff",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "huang-yue-ying",
+  "displayName": "黄月英",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/14-huang-yue-ying-v1.png",
+      "sha256": "1ff78ef5ce8b24aed3248465b01612832f552316a5afd7e029556b575d529996",
+      "record": "designs/01-率土之滨/characters/14-huang-yue-ying-v1.png.generation.json",
+      "recordSha256": "1c435d15099e53c9bb2a7614353554ff94f2559637d510f6a380570c4c6aeab9"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    285,
+    90,
+    865,
+    715
+  ],
+  "resizeTo": [
+    104,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    12,
+    8,
+    116,
+    120
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    405,
+    330,
+    680,
+    550
+  ],
+  "faceRoiOutputApprox": [
+    33.52,
+    51.01,
+    82.83,
+    90.43
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 7890,
+    "alpha1Pixels": 183,
+    "semiTransparentPixels": 8142,
+    "opaquePixels": 352,
+    "bboxAbove32": [
+      12,
+      11,
+      116,
+      120
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      12,
+      11,
+      12,
+      8
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/huang-yue-ying-avatar-128.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 183,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/huang-yue-ying-avatar-128.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        285,
+        90,
+        865,
+        715
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/huang-yue-ying-avatar-128.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

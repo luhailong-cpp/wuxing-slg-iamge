@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T16:32:22.400Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit\nAsset type: repair of ONE existing8-phase slash FX animation sheet, native transparent PNG, 4columns x2rows, 2:1.\nInput roles: FIRST image is the exact edit target, existing slash-arc-sheet-v1 with useful chronological phases but oversized peak frames. SECOND mail and THIRD team are primary Daoist chibi HD hand-painted style. FOURTH slash still is effect identity only. Preserve FIRST image's eight phases, warm ivory/gold crescent, restrained jade curls, same chronological one-shot growth-peak-decay and small spark first/last. No characters, weapons or new effect family.\nTHE ONLY CHANGE: Repair each cell's containment and spacing. Keep the 4x2 imaginary cell grid exactly. Independently reduce ALL drawing and halo belonging to EACH of the8 cells to roughly60% of its current linear size, centered about that cell's own exact center, NOT shrink the whole sheet into one small picture. Recenter every phase on its own cell center. Restore the complete tip and halo of bottom-left peak phase4 that currently runs beyond its cell/canvas. Every phase including largest frames3/4 must fit entirely within the middle50% of its cell, leaving at least25% completely clear transparent padding on all4sides. First/last tiny spark may be smaller. Nothing touches, crosses, or nearly approaches any imaginary cell boundary. The whole top row must remain4 phases, whole bottom row4 phases. Preserve8 nonempty frames, no missing or blank frame.\nKeep frame0 tiny ignition,1short curve,2quarter arc,3expanding crescent,4peak/followthrough crescent,5breaking thinning arc,6two weak wisps,7tiny residual spark. This must remain ONE energy action, not8new icon designs.\nPreserve native true alpha. No black/white/color background, no checkerboard, floor or shadow. Remove no effect phase. No text/numbers/letters/labels/runes/logo/watermark/signature/UI/grid/separators/borders. Do not increase any frame to fill its cell. All strokes, sparks, detached flecks and glow must remain inside its ownership cell with wide alpha gaps.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/slash-arc.png"
+    ],
+    "transparent_background": true
+  },
+  "operation": "AI containment edit of v1, not programmatic scaling",
+  "contract": {
+    "action": "slash-arc",
+    "grid": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "frameOrder": "row-major",
+    "nativeAlpha": true,
+    "anchor": "same cell center",
+    "durationSeconds": 0.8,
+    "frameSeconds": 0.1,
+    "loop": false,
+    "timingIsDemonstration": true,
+    "noBattleEvents": true
+  }
+}

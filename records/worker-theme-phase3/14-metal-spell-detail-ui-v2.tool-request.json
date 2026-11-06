@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T18:48:39.386Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create a polished full landscape Daoist chibi HD hand-painted game UI candidate, wide 1916:821 composition matching reference 3. References 1 mail and 2 team control style: jade green, ivory silk/paper, warm gold fine rounded cloud borders, Chinese readable dark ink. Reference 3 is ONLY old skill-detail functional layout, no old skill identity or old lore. Reference 4 is five original element skill physical motifs, reference 5 is the new five-elements library for exact METAL skill name and selected icon continuity. No people, game logo, historic names or text from old skill.\n\nCenter top title 五行术法详情, jade circular back arrow upper left, X upper right. Left third: large complete painted METAL icon, silver rune ruler crossed behind gold/jade array compass and one contained ivory crescent, within warm round gold frame; small gold diamond badge 金. Below icon large name 铸锋符阵 and ivory pill 可学习 3 / 3. No letter grade badge.\n\nRight two-thirds top jade brush title strip: 铸锋符阵 Lv.1, small 攻击 tag; ivory button 满级效果 upper right. Clear two-column field block: left 术法品阶 待定, 术法类型 主动, 有效距离 4; right 兵种类型 with distinct small infantry shield/archer bow/cavalry horse icon and labels 步兵 弓兵 骑兵, 发动率 45%, 目标类型 敌军单体. All are visual demonstration fields, not formal rules. Keep 45% green and underlined like an info link.\n\nMiddle bordered description block title 术法描述; on right 简 selected jade and 详 ivory toggle. Main readable sentence 对敌军单体施放金系术法。 Second small muted sentence 当前为演示配置，数值与规则待确认。 No detailed numerical damage coefficients or new official mechanics.\n\nBottom right-wide 学习状态 section: empty circular plus slot, text 暂无已学习角色 and second line 请选择角色学习. Large jade 学习 button and ivory 返回术法库 button aligned at bottom. All text legible with comfortable spacing, no collision with borders/buttons. Scenic outer backdrop restrained traditional mountain pavilions, soft flowers, matched reference finish. Do not print development labels or reference descriptions inside scene except the requested demonstration note. Entire complete static UI painting, native wide output no enlargement.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/14-tactic-detail-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "demoValuesAreGameplayContract": false,
+  "staticDirectionOnly": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

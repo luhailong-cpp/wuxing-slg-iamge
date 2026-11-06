@@ -1,0 +1,175 @@
+{
+  "schema": "wuxing.map-assembly-manifest.v1",
+  "status": "provisional_existing_art_candidate",
+  "createdAt": "2026-10-27T19:10:14.829684+00:00",
+  "art_source": "existing",
+  "newGenerationCalls": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "files": [
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/layout-plan.json",
+      "sha256": "b7ca3bbf3b30c499905ecb82ad94ccc648862966bdb696139db46da3adb9cbb0"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/placements.json",
+      "sha256": "39c780eb09a8541473c291a043031060b1cb11a2b3d23b986892b20c1c3d5297"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/scene-base.png",
+      "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview-current.png",
+      "sha256": "a057f1bad139e838a2111e36ef68be43893665c5ac5c5e28a3968fcaea565550"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/playable-preview.html",
+      "sha256": "9bff1506cf59c887f6858586c527b115f9cdb7ab2bc95fc95598d10705475272"
+    }
+  ],
+  "sourceInputs": {
+    "file": "records/01-率土之滨/map-assembly-v1/source-inputs.json",
+    "sha256": "151fd7ed279ad6988efb0d1810d17e8db192895a5b13e50caf1c10b57d2db04a"
+  },
+  "qaReview": {
+    "file": "records/01-率土之滨/map-assembly-v1/review.json",
+    "sha256": "c4d4de59510f6d4133c228b9c2e99f10b3075d6ed51214c49286cddbc476681b"
+  },
+  "qaLightDark": {
+    "file": "records/01-率土之滨/map-assembly-v1/assembly-light-dark.png",
+    "sha256": "21b0ae0cff7c6571ef1bbc87f5a0f61478790012ef8f1ae555c7fb7164a04352"
+  },
+  "qaFootpoints": {
+    "file": "records/01-率土之滨/map-assembly-v1/unit-footpoint-review.png",
+    "sha256": "a926e3eefefbf693144672bbd0c1c4c161badc544d517596aa5a0a9b376e51de"
+  },
+  "navigation": {
+    "status": "warn",
+    "reachableTargets": 6,
+    "totalTargets": 6,
+    "actorRadius": 8,
+    "ySquash": 0.6,
+    "cell": 4,
+    "report": {
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-report.json",
+      "sha256": "92fffe59be90361988938fd47da7a17037108d79f2ab9e5d917e2ba6a819d01a"
+    },
+    "notProven": [
+      "that the collision data matches the painted art",
+      "positions closer than one grid cell to a blocker (the grid samples cell centres)",
+      "runtime movement code: map-runtime.mjs parity is tested during integration",
+      "links to maps not passed with --link"
+    ]
+  },
+  "htmlMovement": "keyboard/click canonical map-runtime movement, existing static SE infantry image, E only records demo interaction; no combat events",
+  "collisionAndRoadsSource": "authored provisional data independent of art; no full-screen painting was treated as navigable geometry",
+  "warningCount": 23,
+  "warningsVerbatim": [
+    {
+      "id": "TERRAIN_SEAMS_UNVERIFIED",
+      "value": "stone-rimmed standalone grass/river/road dioramas repeated at uniform 0.72 scale",
+      "threshold": "seam-compatible shared edge pixels and sockets required for continuous terrain",
+      "status": "WARN"
+    },
+    {
+      "id": "RIVER_MIRRORED_FOR_AXIS",
+      "value": 5,
+      "threshold": "mirror-safe lighting and shore continuity not approved",
+      "status": "WARN"
+    },
+    {
+      "id": "PROVISIONAL_COLLISION_AND_ROADS",
+      "value": "manually authored land unions, bridge corridor, small building-base ellipses and route centreline",
+      "threshold": "painted contact, edge and collision approval required",
+      "status": "WARN"
+    },
+    {
+      "id": "BRIDGE_SINGLE_SPRITE_DEPTH",
+      "value": "whole bridge sorts below player on deck; foreground rail is not split",
+      "threshold": "front rail occluder or approved engine depth solution required",
+      "status": "WARN"
+    },
+    {
+      "id": "REPRESENTATIVE_UNIT_STATIC_SE",
+      "value": "existing infantry-64h PNG, foot [128,224], static slide in any movement direction",
+      "threshold": "directional walk animations are absent",
+      "status": "WARN"
+    },
+    {
+      "id": "SCALE_CONVENTION_PROVISIONAL",
+      "value": "64px silhouette, 8x4.8px foot ellipse, uniform world terrain scale 0.72",
+      "threshold": "client gameplay scale and camera contract not accepted",
+      "status": "WARN"
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": "all source alpha retained; compositing/resampling may accumulate faint alpha",
+      "threshold": "no alpha cleanup or threshold deletion authorized",
+      "status": "WARN"
+    },
+    {
+      "id": "NO_PER_PIXEL_OCCLUSION_CUE",
+      "value": "simple y-sort only; actor-shaped cue behind roofs is not implemented",
+      "threshold": "client depth/occlusion review required",
+      "status": "WARN"
+    }
+  ],
+  "minimumNewArtNeeds": [
+    {
+      "id": "seam-compatible-ground",
+      "need": "One grass foundation tile family without the current per-tile stone rim, with shared diamond edges/sockets at declared camera; existing grass diorama cannot tile seamlessly."
+    },
+    {
+      "id": "matched-river-bank-crossing",
+      "need": "One straight river tile family in both declared axes with shared water/bank sockets plus matched bridge approaches; current independent diorama ends remain visible."
+    },
+    {
+      "id": "continuous-road-overlay",
+      "need": "Transparent road overlays for two axes and a corner with the same sockets if a continuous painted city-to-camp road is required; current stone-road crop supports only one direction."
+    },
+    {
+      "id": "bridge-depth",
+      "need": "Separate front-rail occluder or a matched bridge deck/front split, keeping approved camera and endpoints, before actor-on-deck depth is final."
+    }
+  ],
+  "notAccepted": [
+    "terrain seams",
+    "front bridge rail depth",
+    "per-pixel roof occlusion cue",
+    "painted collision agreement",
+    "final gameplay scale",
+    "directional unit animation",
+    "mobile/touch performance",
+    "Unity/client integration"
+  ],
+  "metadataWarningsVerbatim": [
+    {
+      "id": "HISTORICAL_PRE_REPAIR_INPUT_BYTES_NOT_RETAINED",
+      "status": "WARN",
+      "value": [
+        {
+          "report": "records/01-率土之滨/map-assembly-v1/bundle-report-initial-schema-failure.json",
+          "expectedInputSha256": "66dcf2a2c5b27e12dcc179bf0fd14d19f39bc18abe800341cbddd5b1cffd936c",
+          "reconstructedSha256": "d1ba7892ac10a18254f38680eb050655b0fdac0cd721d2cfab5d8346c8a48bb3",
+          "exactMatch": false,
+          "method": "reconstruct from retained initial JSON snapshot and known author operations; accept only byte hash equality"
+        },
+        {
+          "report": "records/01-率土之滨/map-assembly-v1/negative-control-nav/nav-report.json",
+          "expectedInputSha256": "d7e59ee059ca515f8c5787ff7103c6edcbd76b9054067e8fbff7d58382996e2c",
+          "reconstructedSha256": "cc29ecfa0c5062c04633da42ab53837f6791f7339c928facac1a2505c6c657dd",
+          "exactMatch": false,
+          "method": "reconstruct from retained initial JSON snapshot and known author operations; accept only byte hash equality"
+        }
+      ],
+      "threshold": "raw input byte snapshot matching each historical report hash; proposed reconstruction was rejected on hash inequality",
+      "file": "records/01-率土之滨/map-assembly-v1/historical-input-index.json",
+      "scope": "initial schema-invalid input and initial negative-control JSON only; current bundle, source PNGs, valid initial layout snapshot and all current checks remain fully hashed"
+    }
+  ]
+}

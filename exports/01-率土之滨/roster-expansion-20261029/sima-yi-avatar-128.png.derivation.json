@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/sima-yi-avatar-128.png",
+  "sha256": "e2d44f56e0eefc3778e0c8d95cf609b29113b2b6fff47a5d346832eb2c9cfb8b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/sima-yi-master-v1.png",
+    "sha256": "9cb2ea299d6d1916f60750646ed6f1498a45c8b1e85fc74768cffe10b33f96bc",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/sima-yi-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      280,
+      180,
+      800,
+      660
+    ],
+    "uniformScale": 0.22692307692307692,
+    "resizedSize": [
+      118,
+      109
+    ],
+    "offset": [
+      5,
+      9
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

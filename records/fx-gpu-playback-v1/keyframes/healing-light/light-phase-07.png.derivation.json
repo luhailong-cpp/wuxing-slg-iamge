@@ -1,0 +1,85 @@
+{
+  "operation": "byte-copy actual PlayMode GPU Camera.Render capture, no crop/resize/pixel edit",
+  "width": 512,
+  "height": 512,
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png",
+      "sha256": "f2b67586ed45083f739cd0907a1a73d473fd6be6f359252709c54a3e78a2f6c8",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png.derivation.json"
+    }
+  ],
+  "capture": {
+    "effect": "healing-light",
+    "background": "light",
+    "localRawCapture": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/light/frame-0042.png",
+    "sha256": "0746548ba3213edac4e2dcd9c97e1ffb77e284f7e03ea452681688b1fe4ec5fb",
+    "observedSpritePath": "Assets/WuxingSLGFXAnimationPreview/Frames/healing-light/frame-07.png",
+    "captureOrdinal": 42,
+    "unityFrameCount": 44,
+    "observedFrameIndex": 7,
+    "expectedFrameIndex": 7,
+    "pixelsDifferentFromBackground": 3438,
+    "gameElapsedSeconds": 0.716666667535901,
+    "realtimeElapsedSeconds": 6.6025086,
+    "animatorClipTimeSeconds": 0.7166664230326774,
+    "unityDeltaTime": 0.01666666753590107,
+    "animatorNormalizedTime": 0.8958330154418945,
+    "rendererEnabled": true,
+    "animatorEnabled": true,
+    "callerCleared": false,
+    "transformAndScaleFixed": true,
+    "matchesClockExpectedFrame": true,
+    "position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "localScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "projectedAnchorPixel": {
+      "x": 256.0,
+      "y": 256.0
+    },
+    "spritePivot": {
+      "x": 450.0,
+      "y": 450.0
+    },
+    "spriteRectSize": {
+      "x": 900.0,
+      "y": 900.0
+    }
+  },
+  "localRawInput": {
+    "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/light/frame-0042.png",
+    "sha256": "0746548ba3213edac4e2dcd9c97e1ffb77e284f7e03ea452681688b1fe4ec5fb",
+    "published": false
+  },
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "newArt": false,
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/keyframes/healing-light/light-phase-07.png",
+  "sha256": "0746548ba3213edac4e2dcd9c97e1ffb77e284f7e03ea452681688b1fe4ec5fb",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

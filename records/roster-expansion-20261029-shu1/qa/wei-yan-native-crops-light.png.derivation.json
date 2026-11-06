@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-shu1/qa/wei-yan-native-crops-light.png",
+  "sha256": "271ca70992db7b2d18d0ab0901fa56de7e7db6a1a12c49a429c9963c6e007c5b",
+  "qaOnly": true,
+  "width": 1355,
+  "height": 1010,
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "operation": {
+    "type": "native_portrait_windows_1to1",
+    "displayScale": 1
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-face-native.png",
+      "sha256": "54e18ed4cf76467fcbeeb9e05934e0918d4c391a02ed7befb7107e874775693c",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-bust-native.png",
+      "sha256": "043d2979ef8d3c7bd6dd3d18d0a1fc3d209edd6d4de02131bad7cc84fe3f45f5",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-bust-native.png.derivation.json"
+    }
+  ]
+}

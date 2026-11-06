@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png",
+  "sha256": "ccef391fe59e65eadbc472b2c80fa29d004bed46b1ed413e02bb01cb3264fc4d",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-05T03:44:16.127Z",
+  "clientDate": "2026-11-04",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "resultId": "exec-fb03e3dc-5298-4ae5-8f16-1038c061747a",
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-fb03e3dc-5298-4ae5-8f16-1038c061747a.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际型号、质量或服务端时间。",
+  "requestedAtUtc": "2026-11-05T03:43:08.166Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-master-v1.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "prompt": "One original full-body character master for the landscape Three Kingdoms game 五行问鼎. Historical identity 张鲁, attested in Records of the Three Kingdoms volume 08. Images 1 and 2 define the approved Taoist chibi style, not composition. Rounded large head and short body, warm hand-painted gold, jade and ivory details, believable cloth and lacquer, expressive face. Art direction: a dignified Hanzhong Daoist community leader with a black moustache and short divided beard, warm ivory flowing robe over muted plum and teal layers, rounded dark ritual cap and jade knot, a simple sealed wooden tally in one hand and a small cloth rice pouch at belt. Calm approachable gaze. No magical glow. Standing, three-quarter toward screen right. All cloth, feet and props fully visible, clear alpha around the entire silhouette. Keep visible silhouette within 80 percent of image height and 76 percent of width. Portrait 2:3 PNG. Truly transparent background, no floor or cast shadow, no text, UI, frame, signature or floating props. Face unobstructed for separate portrait crops. Original artwork.",
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "zhang-lu",
+    "name": "张鲁",
+    "personID": "ww-p-a51d2678b15c",
+    "source": "https://zh.wikisource.org/wiki/三國志/卷08",
+    "cardIDs": [
+      100487
+    ],
+    "identityEvidence": "primary biography opening and archived official card records"
+  }
+}

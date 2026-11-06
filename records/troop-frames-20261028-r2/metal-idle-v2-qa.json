@@ -1,0 +1,184 @@
+{
+  "file": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+  "sha256": "13005f21f1a5b4b77d57195e045fb64455ec5f9e2f37f19756ee6b2d518949c6",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "format": "PNG",
+  "alpha": {
+    "zero": 1293002,
+    "one": 18261,
+    "semi": 278848,
+    "opaque": 666,
+    "min": 0,
+    "max": 255
+  },
+  "grid": {
+    "columns": 2,
+    "rows": 2,
+    "requestedCell": [
+      512,
+      512
+    ],
+    "actualExactCell": [
+      627,
+      627
+    ],
+    "rounding": "nearest grid edge"
+  },
+  "cells": [
+    {
+      "index": 1,
+      "box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          35,
+          627,
+          617
+        ],
+        "1": [
+          162,
+          112,
+          472,
+          496
+        ],
+        "16": [
+          162,
+          115,
+          470,
+          494
+        ]
+      },
+      "alpha16HeightRatio": 0.6044657097288676,
+      "alpha16BottomRatio": 0.7878787878787878,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "423855c5a88256b7ec72f89ab09830c1ffacd73867883965350ff70d1c50a8f8"
+    },
+    {
+      "index": 2,
+      "box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          39,
+          591,
+          625
+        ],
+        "1": [
+          169,
+          112,
+          482,
+          496
+        ],
+        "16": [
+          170,
+          114,
+          479,
+          494
+        ]
+      },
+      "alpha16HeightRatio": 0.6060606060606061,
+      "alpha16BottomRatio": 0.7878787878787878,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "2b7a3a77d8550db3a129ddcd194b799f4067cdd11f94d2d30762eefe66af620b"
+    },
+    {
+      "index": 3,
+      "box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          11,
+          627,
+          627
+        ],
+        "1": [
+          162,
+          100,
+          480,
+          491
+        ],
+        "16": [
+          162,
+          103,
+          476,
+          488
+        ]
+      },
+      "alpha16HeightRatio": 0.6140350877192983,
+      "alpha16BottomRatio": 0.7783094098883573,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "69ace498e0d2201386bcc166268e372f1f0d4e7d06b03a5d8ad021b09746e937"
+    },
+    {
+      "index": 4,
+      "box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "localBboxByAlphaThreshold": {
+        "0": [
+          0,
+          7,
+          599,
+          627
+        ],
+        "1": [
+          164,
+          100,
+          481,
+          490
+        ],
+        "16": [
+          167,
+          104,
+          478,
+          488
+        ]
+      },
+      "alpha16HeightRatio": 0.6124401913875598,
+      "alpha16BottomRatio": 0.7783094098883573,
+      "alpha16EdgePixelsWithCornerDoubleCount": 0,
+      "rgbaCropSha256": "304eea95d58da29843293a6c8a516da532ccd7d7d16a7880f82875bff35efdcf"
+    }
+  ],
+  "nativeUnmodified": true,
+  "rootPivot": "not manually accepted",
+  "formalAnimationApproved": false,
+  "visualReview": {
+    "viewed": [
+      "tool native original",
+      "full light composite",
+      "full dark composite",
+      "256px frame grid with shared proposed root marker"
+    ],
+    "identity": "Metal troop identity and screen-left sword / screen-right shield retained; no visible severed weapon or plume",
+    "distinctPoses": "Four breathing-like poses with shoulder/shield/plume changes; not identical duplicate frames",
+    "geometry": "Native body height60.4–61.4%, bottom77.8–78.8%; requested64%/82% is approximate WARN. Native1254 canvas is not requested1024.",
+    "poseWarnings": [
+      "Rows differ by about6 source pixels at lowest foot plane, and small horizontal drift remains",
+      "Shield tilts and head outlines vary subtly; temporal loop smoothness not accepted from still inspection"
+    ],
+    "status": "candidate_selected_for_native_frame_review_not_formal_accepted"
+  }
+}

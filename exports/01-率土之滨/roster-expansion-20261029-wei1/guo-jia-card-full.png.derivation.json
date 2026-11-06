@@ -1,0 +1,96 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-card-full.png",
+  "sha256": "c24e614d78e0ff41d8755bb696ef6c366e777de3ed1623e82e536c5739e42db0",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "guo-jia",
+  "displayName": "郭嘉",
+  "variant": "card-full",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+      "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+      "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 515823,
+    "alphaOne": 7516,
+    "alphaSemi": 367762,
+    "alphaOpaque": 1151,
+    "bboxAlpha16": [
+      70,
+      133,
+      707,
+      1056
+    ],
+    "marginsAlpha16": [
+      70,
+      133,
+      61,
+      96
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    475,
+    320,
+    737,
+    530
+  ],
+  "faceRoiOutputApprox": [
+    358.562,
+    268.0,
+    538.688,
+    412.375
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

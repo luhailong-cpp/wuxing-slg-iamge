@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+  "sha256": "94c3ad0bc149dadd0374900db1a401a432cec1332ecfab70e09d5cd02b7f5261",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 1015,
+  "height": 960,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "03-water",
+  "element": "water",
+  "variant": "bust-native",
+  "identityPreservedFromMaster": "blue braided hair including outward braid, crescent waterdrop hairpiece; blue white robe, ring and gourd in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "record": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "recordSha256": "87947f2cf3c1d2f9a7e35de8c1f5c798059808c95a6b9918ebd8787dc2697979"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    5,
+    60,
+    1020,
+    1020
+  ],
+  "resizeTo": null,
+  "resizeScaleNominal": null,
+  "actualScaleXY": null,
+  "resizeMethod": null,
+  "paddingCanvas": null,
+  "pasteOffsetTopLeft": null,
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    245,
+    675,
+    465
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 407514,
+    "alpha1PixelCount": 16551,
+    "alphaSemiPixels": 566886,
+    "alphaOpaquePixels": 0,
+    "bboxAbove16": [
+      20,
+      27,
+      999,
+      960
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      693,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 16551,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        5,
+        60,
+        1020,
+        1020
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

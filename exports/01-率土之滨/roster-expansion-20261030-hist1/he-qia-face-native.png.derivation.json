@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/he-qia-face-native.png",
+  "sha256": "6bd5c177a713117690fdfc2bdfdc1385a1c0dde25b3cb196e3909b3f916756df",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/he-qia-master-v1.png",
+    "sha256": "49b57c1d569f5fcd092351abcb679e35809dd688b666b7feaf7641e8f53cca96",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/he-qia-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      230,
+      80,
+      800,
+      690
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-bust-native.png",
+  "sha256": "6bf621084e5971fb78cce81d2f012157007c55c55daa7b459522eed1806750f2",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png",
+    "sha256": "ccef391fe59e65eadbc472b2c80fa29d004bed46b1ed413e02bb01cb3264fc4d",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1050
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,36 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/assembly-light-dark.png",
+  "sha256": "21b0ae0cff7c6571ef1bbc87f5a0f61478790012ef8f1ae555c7fb7164a04352",
+  "size": [
+    1440,
+    510
+  ],
+  "operation": "qa_composite_over_light_dark_flat_backgrounds_and_uniform_half_size",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview-current.png",
+      "sha256": "a057f1bad139e838a2111e36ef68be43893665c5ac5c5e28a3968fcaea565550"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "backgroundsRGBA": [
+    [
+      245,
+      240,
+      222,
+      255
+    ],
+    [
+      19,
+      29,
+      37,
+      255
+    ]
+  ],
+  "productArt": false,
+  "resampled": true,
+  "uniformScale": 0.5,
+  "labels": "QA labels only"
+}

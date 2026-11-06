@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T13:15:04.369Z",
+  "reviewer": "root_continuation_agent",
+  "status": "visual_draft_review_pass_pending_user_acceptance",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "artStillIncomplete": true,
+  "items": [
+    {
+      "file": "designs/01-率土之滨/ui/36-construction-queue-ui-v2.png",
+      "supersedesForCurrentDraft": "designs/01-率土之滨/ui/36-construction-queue-ui-v1.png",
+      "checks": [
+        "实际查看原生返回；顶部石料为浅色石块，铁矿为深蓝灰矿石",
+        "仓库升级石料行与顶部石料统一",
+        "木材5000/石料1500/铁矿3000文字数值保持；石料需要3000、持有1500、不足1500一致",
+        "队列1/2、校场建设中、队列二空闲、仓库石料不足禁用状态均可见",
+        "取消校场升级仍待确认，继续建造/确认取消操作保持"
+      ],
+      "limitations": [
+        "原生宽1915高821，旧稿1916高821；未重采样，不承诺像素级不变",
+        "仅资源图标修复；不构成整页完整五行玩法适配或客户端验收"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/02-world-trends-ui-v2.png",
+      "supersedesForCurrentDraft": "designs/01-率土之滨/ui/02-world-trends-ui-v1.png",
+      "checks": [
+        "实际查看原生返回；旧汉室阶段和历史中心图已重新设计",
+        "五域金木水火土场景与五阶段灵脉初醒/五域共鸣/灵阵连结/地脉归一/五行和合可辨",
+        "前序已领取、当前进行中、后三阶段未开启语义清楚",
+        "当前条件40/60，灰态达成后领取；锁图标及达成后解锁：灵阵协作表示尚未解锁",
+        "当前奖励玉符300/铜钱50000，倒计时1天12:30:00可读"
+      ],
+      "limitations": [
+        "阶段/灵阵协作名称、条件、奖励及时间都是原创演示，非已确认玩法合同",
+        "五阶段为赛季进程，并非五行相生或相克关系图",
+        "静态方向稿，动态文字与精确数据绘制未拆分"
+      ]
+    }
+  ]
+}

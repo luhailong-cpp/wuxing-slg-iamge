@@ -1,0 +1,60 @@
+{
+  "schema": "wuxing.map-connector-visual-qa.v1",
+  "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+  "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5",
+  "nativeSize": [
+    1448,
+    1086
+  ],
+  "reviewedAt": "2026-10-29T03:52:54.636Z",
+  "review": "actual visual inspection of native output, light/dark alpha composites and assembled seam closeups",
+  "status": "STATIC_ASSEMBLY_CANDIDATE",
+  "visualPass": [
+    "同画风草地、玉青河水、双岸石路，图中未烧入桥或UI",
+    "浅深背景检查，外部真实alpha；无阈值擦除",
+    "原桥显示905×905置于本图[272,91]后桥洞露水、东南台阶接路可见"
+  ],
+  "notPassed": [
+    "不是无缝tile；草地外围与其他底板未通过拼接验收",
+    "NW入口被原桥栏柱和灌木部分遮挡，未做单位通行验证",
+    "生成地形未精确遵守布局引导，旧计划[272,41]会露出桥洞下铺石",
+    "多数有色像素alpha小于255；保留原生alpha，未做客户端导入"
+  ],
+  "usableAs": "固定位置桥头场景底板候选",
+  "png": {
+    "file": "D:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\assets\\map-connectors-20261028-r2\\01-crossing-underlay-v1.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "alphaZero": 1000055,
+    "alphaOne": 17891,
+    "alphaSemi": 572358,
+    "alphaOpaque": 115,
+    "alphaAtLeast240": 533449,
+    "alphaBoundsAny": [
+      0,
+      21,
+      1432,
+      1086
+    ],
+    "alphaBounds128": [
+      35,
+      227,
+      1419,
+      984
+    ],
+    "alphaMax": 255,
+    "alphaEdited": false,
+    "cornerAlphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "navigationTested": false,
+  "heavyToolsRun": false
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/36-construction-queue-ui-v1.png",
+  "sha256": "6c4711ec64233e3d37515f9c20d1c1cf979c460ad63b27ba4254522657c4eb31",
+  "generatedAt": "2026-10-26T21:03:30.043Z",
+  "generatedAtBasis": "宿主调用完成时记录的UTC时间；工具未另披露图像生成时间",
+  "callStartedAt": "2026-10-26T21:01:14.994Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": "56",
+  "executionCellIdReason": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/04-main-city-ui-v1.png"
+    ],
+    "promptFile": "prompts/01-率土之滨/36-construction-queue-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/36-construction-queue-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/36-construction-queue-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17713-1e35-7c31-9d6b-0c9e74cc986e/exec-6d684205-9ae2-4c88-b0f6-2c470f8bd7c1.png",
+      "sha256": "6c4711ec64233e3d37515f9c20d1c1cf979c460ad63b27ba4254522657c4eb31",
+      "copyHashVerified": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回字段未披露实际模型和画质；当前可读取PNG元数据未提供可核实版本字段。配置目标不能作为实际版本证据。",
+  "prompt": "prompts/01-率土之滨/36-construction-queue-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件UI主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队UI主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+      "sha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+      "role": "本项目主城：城主府、校场、仓库建筑功能形象",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "建设队列、资源不足与取消确认完整静态功能方向稿",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "runtimeGeometryProvided": false,
+  "art_source": "host_image",
+  "scene_mode": "baked_screen_mode"
+}

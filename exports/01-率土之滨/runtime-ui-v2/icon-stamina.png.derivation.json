@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+  "sha256": "7806d8577b4378bbad2f5738b1375140eb51b51a25c948eb826889cb2cbd32e4",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 298,
+  "height": 322,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-stamina.png",
+      "sha256": "7806d8577b4378bbad2f5738b1375140eb51b51a25c948eb826889cb2cbd32e4",
+      "record": "exports/01-率土之滨/runtime-ui/icon-stamina.png.derivation.json"
+    }
+  ],
+  "operation": "byte_for_byte_copy_of_previous_export",
+  "cropBox": null,
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": true,
+  "previousExport": "exports/01-率土之滨/runtime-ui/icon-stamina.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/icon-stamina.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 35076,
+    "alpha1PixelCount": 4000,
+    "bboxAbove16": [
+      15,
+      8,
+      284,
+      306
+    ],
+    "visibleMarginsAbove16": [
+      15,
+      8,
+      14,
+      16
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "sourceCropEdgePixelsAbove16": null
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4000,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        8,
+        14,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

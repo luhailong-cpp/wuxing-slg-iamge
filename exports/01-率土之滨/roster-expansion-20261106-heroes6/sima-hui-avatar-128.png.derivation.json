@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-avatar-128.png",
+  "sha256": "98f6d197ddd81ff01fe518774b83c1434171045a27fa1eebbfb2e742cc3b24b7",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+    "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      213,
+      117,
+      741,
+      680
+    ],
+    "uniformScale": 0.20959147424511546,
+    "resizedSize": [
+      111,
+      118
+    ],
+    "offset": [
+      8,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

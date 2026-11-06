@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/fx-animation/capture-circle-registered-qa-20261027/qa-dark-1.png",
+  "sha256": "32fa01031855b1dab863f7aa20285eaf9692646ef8664c7eda422b1ad9870252",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "purpose": "QA_only_not_runtime_art",
+  "operation": "common_registered_window_crop_then_alpha_composite_on_constant_background_2x2_contact_sheet_with_external_labels",
+  "resampled": false,
+  "commonWindow": [
+    150,
+    240,
+    750,
+    840
+  ],
+  "backgroundRGB": [
+    28,
+    38,
+    44
+  ],
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png",
+      "sha256": "e011974e7e38c2f3b9d00dd2e686f637e67ed36d1e21858ac27fcf8d2840468e",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-04.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png",
+      "sha256": "2926b4a7dcc8243411df38ea3f73c3ffc1263a8aee875a3f355c1ec86c878ad1",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-05.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png",
+      "sha256": "ab32972e9b3d5a2b4c7ad7c1d04e816918ceed930fcab2eeca15a4432f44a57a",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-06.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png",
+      "sha256": "940c9122847fc3bd54095f03ed63c0d11d2fae916cacda71d04884a6e8543fd5",
+      "record": "exports/01-率土之滨/fx-animation/capture-circle/frame-07.png.derivation.json"
+    }
+  ],
+  "contactSheetActuallyViewed": true,
+  "runtimeSourcePixelsChanged": false
+}

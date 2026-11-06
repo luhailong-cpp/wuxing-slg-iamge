@@ -1,0 +1,53 @@
+{
+  "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/defeat/normalized1024/defeat-05.png",
+  "sha256": "a4640f094b330b8ff4fbfc5a9facee8a2fcff63bdc8579ab546e62d0a3d836b2",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "derived_animation_frame",
+    "tier": "normalized",
+    "sourceRectXYXYExclusive": [
+      512,
+      590,
+      1024,
+      1024
+    ],
+    "originalAlphaDeleted": false,
+    "nativeRGBAExact": false,
+    "nativeTranslation": [
+      213,
+      376
+    ],
+    "actionUniformScale": 0.802734375,
+    "normalizedTranslation": [
+      272,
+      453
+    ],
+    "mapScale": null,
+    "resampler": "premultiplied Lanczos",
+    "root": [
+      512,
+      768
+    ],
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ]
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "sha256": "b89d6b9d11c190fa559adfbba16fa7833e5a166eba63d2e1519781d31bd47f7c"
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "notNativeGeneration": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

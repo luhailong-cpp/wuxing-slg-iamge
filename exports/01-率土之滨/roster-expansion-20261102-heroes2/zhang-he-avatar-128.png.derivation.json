@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/zhang-he-avatar-128.png",
+  "sha256": "ba85333d6c14fd2588410cbba83152ac4e855cfdae5a43c56f1f874c14e3000b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhang-he-master-v1.png",
+    "sha256": "1097fb2932efa68f1415f4048cf1996fe722cef6567e5c3e5f94525f366e051b",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhang-he-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      320,
+      135,
+      820,
+      760
+    ],
+    "uniformScale": 0.1888,
+    "resizedSize": [
+      94,
+      118
+    ],
+    "offset": [
+      17,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

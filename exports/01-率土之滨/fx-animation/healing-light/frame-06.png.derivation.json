@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/healing-light/frame-06.png",
+  "sha256": "26d76bb22a500069c053f4dce74c9307a1a2ce08249f98a4318e437ec2d7249a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/healing-light-sheet-v1.png",
+    "sha256": "5f3d1fef0b1e490baf36b09e1faca4f7022e4ab86745318fc73577a8704b1b41",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/healing-light-sheet-v1.png.generation.json"
+  },
+  "operation": "native_crop_then_integer_translate_paste_on_transparent_fixed_canvas",
+  "cropBox": [
+    887,
+    444,
+    1331,
+    887
+  ],
+  "cropBoxConvention": "left,top,right-exclusive,bottom-exclusive",
+  "ownershipMethod": "manual ownership: frame00 bottom y400 and frame04 top y400; original frame04 visible halo extends16px above nominal y444 but is separated from frame00 by alpha<=2 gap y394..408; no visible crop or neighbor intrusion",
+  "sourceNativeSize": [
+    1774,
+    887
+  ],
+  "sourceCropSize": [
+    444,
+    443
+  ],
+  "sourceAnchorPx": [
+    1103,
+    778
+  ],
+  "sourceAnchorLocalPx": [
+    216,
+    334
+  ],
+  "sourceAnchorMethod": "人工逐格查看治疗环/光柱与环底的接触中心；以底环作用点注册，保留光柱向上生长，不能按总bbox中点对齐。",
+  "sourceAnchorUncertainty": "human visual estimate; approximately +/-3px, candidate only",
+  "pasteOffsetPx": [
+    234,
+    116
+  ],
+  "offsetPx": [
+    234,
+    116
+  ],
+  "targetAnchorPx": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "exportSize": [
+    900,
+    900
+  ],
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "alphaHygiene": "none",
+  "pixelIdentityAgainstSourceCrop": true,
+  "perFrameBboxNormalization": false,
+  "sourceAnchorMappedToTargetResidualPx": [
+    0,
+    0
+  ],
+  "previousExport": null,
+  "createdAtUtc": "2026-10-27T17:28:32.307574+00:00"
+}

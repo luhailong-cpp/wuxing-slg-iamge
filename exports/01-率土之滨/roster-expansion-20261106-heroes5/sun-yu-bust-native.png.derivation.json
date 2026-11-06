@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes5/sun-yu-bust-native.png",
+  "sha256": "70785ccc9059ee61aa71b29d94018fc119e36d57c6c17f501606676c104b6bd1",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/sun-yu-master-v1.png",
+    "sha256": "bafaba64a421147d7b6ef1e827a0eb89f40cc3d5e0d03ec6dd5288a48b2bcc02",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/sun-yu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      80,
+      28,
+      938,
+      968
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

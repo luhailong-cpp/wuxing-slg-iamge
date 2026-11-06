@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced/card-row-empty-900x204.png",
+  "sha256": "0b423e1d807bbb3b6b1b3e81f09d1b9b765cb7ae6271569ca3e162d5b3de42e7",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png",
+      "sha256": "f0392af2988a136709b08cedd0784b0a7613c8a6b7445f8d89b53c3889a34722",
+      "record": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png.derivation.json"
+    }
+  ],
+  "operation": "Actual Unity SpriteRenderer.drawMode=Sliced, size in pixels/100PPU, offscreen Camera.Render into ARGB32 RenderTexture, RGBA32 ReadPixels and EncodeToPNG",
+  "tool": "Unity Editor6000.6.0f1",
+  "route": "local_unity_batchmode_with_graphics",
+  "actualGraphicsDeviceType": "Direct3D11",
+  "actualGraphicsDeviceName": "NVIDIA GeForce RTX 3070 Ti",
+  "colorSpace": "Gamma",
+  "sourceDimensions": [
+    500,
+    204
+  ],
+  "outputDimensions": [
+    900,
+    204
+  ],
+  "borderPxLeftBottomRightTop": [
+    128,
+    90,
+    128,
+    90
+  ],
+  "pixelsPerUnit": 100,
+  "camera": "orthographic, noHDR/MSAA, pixel-aligned target, transparent clear",
+  "sourcePNGModified": false,
+  "outputIsRenderedQAOnly": true,
+  "gameDeliverable": false,
+  "clientVerified": false,
+  "actualRenderReport": "records/01-率土之滨/unity-ui-v2-sliced-render-20261027.json"
+}

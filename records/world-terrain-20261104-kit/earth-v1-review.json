@@ -1,0 +1,55 @@
+{
+  "checkedAtUtc": "2026-11-04T16:25:49.231315+00:00",
+  "source": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png",
+  "sourceSha256": "1b2d0a5c118519e667ddda055660f5ac3d0609c648985bf47758b72a7697aeee",
+  "generation": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png.generation.json",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "checks": {
+    "square": true,
+    "opaque": true,
+    "seamRatioPassed": false
+  },
+  "horizontalRatio": 2.6611446241873136,
+  "verticalRatio": 1.8425018461886693,
+  "threshold": 2.0,
+  "visualReviewPassed": false,
+  "warnings": [
+    {
+      "id": "NATIVE_SIZE_DIFFERS_FROM_PROMPT",
+      "value": [
+        1254,
+        1254
+      ],
+      "threshold": [
+        1024,
+        1024
+      ],
+      "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png"
+    },
+    {
+      "id": "REPEAT_EDGE_DISCONTINUITY",
+      "value": [
+        2.6611446241873136,
+        1.8425018461886693
+      ],
+      "threshold": 2.0,
+      "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png"
+    }
+  ],
+  "qa": [
+    {
+      "file": "records/world-terrain-20261104-kit/earth-v1-repeat-3x3.png",
+      "sha256": "146c2fc66a4519fb1ad1bddd04c89fe5ac5665194d810e2ed3a3d1a54c9791c3",
+      "operation": "3x3 repeat then downscale for QA"
+    },
+    {
+      "file": "records/world-terrain-20261104-kit/earth-v1-junction-native.png",
+      "sha256": "c82fc40917ebee01e8ba22575fb86df7d3219ea6997083d3168601f8daf9b501",
+      "operation": "exact native RGB repeat junction crop"
+    }
+  ],
+  "visualNotes": "Visible thin vertical repeat seam in native junction."
+}

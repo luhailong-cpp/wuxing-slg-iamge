@@ -1,0 +1,33 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-debug.png",
+  "sha256": "39b7f493e2da112f25958da7aa3d6eadb8b5c03e784fe7d00fa28148319d28f0",
+  "size": [
+    1440,
+    960
+  ],
+  "operation": "qa_navigation_and_collision_overlay",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/map-bundle.json",
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-grid.json",
+      "sha256": "d9d16ceae0b6614377efc0364a107a9dc36c4d9aaf3f023dc0e958112711728b"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-report.json",
+      "sha256": "92fffe59be90361988938fd47da7a17037108d79f2ab9e5d917e2ba6a819d01a"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/scene-base.png",
+      "sha256": "6f91822b6ee4354e0b909ad3431af5f9b283abfb51aded830c920c2d1d2698a0"
+    }
+  ],
+  "sourcePNGBytesModified": false,
+  "qaOnly": true,
+  "diagnosticGeometry": true,
+  "productArt": false,
+  "expectedNegativeControl": false
+}

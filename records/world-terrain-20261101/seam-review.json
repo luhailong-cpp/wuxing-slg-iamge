@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "source": "designs/01-率土之滨/maps/world-terrain-20261101/grass-seamless-v1.png",
+  "sha256": "d0489d129913177a33aeffe5340727ecc45230c0bfeb82be11df33a28e77da78",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "horizontal": {
+    "edgeMeanAbsRgb": 13.921318054199219,
+    "interiorMeanAbsRgb": 10.14947509765625,
+    "ratio": 1.371629362134597
+  },
+  "vertical": {
+    "edgeMeanAbsRgb": 14.557948112487793,
+    "interiorMeanAbsRgb": 10.260316848754883,
+    "ratio": 1.418859507662713
+  },
+  "thresholdRatio": 2.0,
+  "numericSeamPassed": true,
+  "visualReviewPassed": true,
+  "nativeSourcePixelsModified": false,
+  "warning": [
+    {
+      "id": "NATIVE_SIZE_DIFFERS_FROM_PROMPT",
+      "value": [
+        1254,
+        1254
+      ],
+      "threshold": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "id": "LARGE_AREA_REPEAT_PATTERN_VISIBLE",
+      "value": true,
+      "threshold": "final world should mix terrain overlays and variants"
+    }
+  ],
+  "qaDerivations": [
+    {
+      "file": "records/world-terrain-20261101/repeat-join-native.png",
+      "operation": "512x512 exact pixel crop across the horizontal/vertical repeat junction"
+    },
+    {
+      "file": "records/world-terrain-20261101/repeat-3x3-overview.png",
+      "operation": "QA repeat overview downscale only; not native detail"
+    }
+  ],
+  "visualReview": {
+    "repeat3x3ActualViewed": true,
+    "obviousHardBoundaryObserved": false,
+    "largeAreaRepeatPatternVisible": true,
+    "terrainArtComplete": false,
+    "worldMapComplete": false
+  }
+}

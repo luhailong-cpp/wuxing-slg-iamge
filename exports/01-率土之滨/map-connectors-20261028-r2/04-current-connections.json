@@ -1,0 +1,103 @@
+{
+  "schema": "wuxing.continuous-plate.connections.v1",
+  "plate": "designs/01-率土之滨/assets/map-connectors-20261028-r2/04-continuous-crossing-river-v1.png",
+  "sha256": "a2346e1f3904b60dd60aec1ad4332c3a5b9707b99ae078e3e316fbfdd959e2da",
+  "canvas": [
+    1665,
+    944
+  ],
+  "origin": "top-left",
+  "units": "native pixels",
+  "measurement": "manual visual estimates, approx8px tolerance; not collision data",
+  "ports": {
+    "roadNW": [
+      [
+        247,
+        560
+      ],
+      [
+        317,
+        521
+      ]
+    ],
+    "roadSE": [
+      [
+        738,
+        797
+      ],
+      [
+        809,
+        761
+      ]
+    ],
+    "riverNE": [
+      [
+        1522,
+        77
+      ],
+      [
+        1628,
+        139
+      ]
+    ],
+    "riverSW": [
+      [
+        244,
+        766
+      ],
+      [
+        371,
+        824
+      ]
+    ]
+  },
+  "bridge": {
+    "back": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+    "front": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+    "sourceCanvas": [
+      1000,
+      1000
+    ],
+    "bothLayersDisplayCanvas": [
+      603,
+      603
+    ],
+    "bothLayersTranslation": [
+      223,
+      314
+    ],
+    "commonScale": 0.603,
+    "sourcePivot": [
+      500,
+      900
+    ],
+    "displayPivot": [
+      524.5,
+      856.7
+    ],
+    "order": [
+      "ground",
+      "bridge-back",
+      "future unit",
+      "bridge-front"
+    ],
+    "onlyStaticVisualChecked": true
+  },
+  "mapsFromEditReference": {
+    "scale": 0.6658317097315446,
+    "translation": [
+      -290.55779747776967,
+      -13.409615844799646
+    ],
+    "fitMethod": "uniform scale plus translation fit to4 manually visually estimated terrain diamond vertices; no pixel registration guarantee",
+    "residualPixels": [
+      0.7073477147300051,
+      1.6951534897614686,
+      3.2962790535836057,
+      3.7644369246213154
+    ]
+  },
+  "seamless": false,
+  "navigationTested": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "8",
+  "startedAt": "2026-10-26T18:18:50.360Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: ui-mockup\n制作一张完整横屏约21:9的道家Q版高清手绘SLG游戏界面静态方向稿。实际附图1是邮件主参考，附图2是组队主参考，两图是最高优先美术依据。保持同系列精细完成度：玉绿青绿标题与主按钮，象牙米白纸绢面板，暖金细边，圆润饱满框板，云纹与如意卷边，玉珠与少量红穗，柔和手绘明暗；中文深玉绿清楚可读。不要写实战争风、暗黑皮肤、塑料3D、厚黑边、模糊字、噪点、密集金色雕花。元素在安全边距内，层级清楚、留白自然、对齐准确。没有设备模型、展示台、海报广告、水印、尚未确认的正式游戏名。只生成本页，不做拼图。示例人名、日期、数值不抄主参考；所有角色是同画法的原创Q版差异化头像。\n本页是新游戏「邮件」列表与详情。承接附图1纸绢框、信封图标、玉绿标题和主按钮，但不照抄原中秋活动、仙笺文字和奖励数据。顶部中央标题「邮件」，右上圆形关闭按钮。上部页签「全部」「系统」「同盟」「奖励」，选中全部。\n左侧约33%为四封邮件列表。第一行选中浅玉绿底「首战告捷」，状态「待领取」并有小礼物图标；第二行「同盟集结通知」，红点与「未读」；第三行「城建奖励」，灰金勾与「已领取」；第四行「维护公告」，红点与「未读」。每行信封、短标题、状态，日期统一短写「10-26」。左下一个玉绿按钮「一键领取」，旁边米白「清理已读」。\n右侧约63%显示选中邮件。标题「首战告捷」，一行小字「寄件人：系统  10-26 12:00」。中间一条精细无大文字的庆功小横幅：Q版道将与玉瓦城池旗帜，明亮日景，不能遮正文。正文三行短句「主公首战告捷，军威初振。」「备下薄礼，助力下一段征程。」「请及时领取随信奖励。」下面金色细分隔与标题「附件奖励」，两枚清晰奖励格，铜钱图标「铜钱 ×10000」，粮草图标「粮草 ×5000」。底部左侧沙漏「剩余 7天」，右侧大玉绿按钮「领取附件」，旁边米白按钮「删除」。选中邮件待领取，附件未显示领取勾，领取按钮可用，已领取仅在第三封列表里出现。面板干净、短中文清楚，保持所有按钮完整。",
+    "promptFile": "prompts/01-率土之滨/27-mail-ui-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

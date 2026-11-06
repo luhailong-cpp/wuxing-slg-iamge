@@ -1,0 +1,20 @@
+{
+  "file": "records/troop-frames-20261029-r3-water/water-ground-master-scale-reference.png",
+  "sha256": "14237c9efb5e807028dfda8fc8ab4af32e97cd2c819e958f9e080dbcf3c64578",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+      "sha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c"
+    }
+  ],
+  "operation": {
+    "type": "QA-only contact/helmet/grid/grounding preview",
+    "notRuntimeAsset": true,
+    "registrationInput": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "scripts": [
+      "work/troop-frames-20261029-r3-water/measure.py",
+      "work/troop-frames-20261029-r3-water/review_sources.py",
+      "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py"
+    ]
+  }
+}

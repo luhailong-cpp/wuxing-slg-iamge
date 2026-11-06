@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png",
+  "sha256": "c2fb5d4d3ff4c47b2da5a7467faac5cb3fa005dc7e6b3f0fc06b446b8ff3c36f",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 500,
+  "height": 545,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "gan-ning",
+  "personID": "ww-p-f639aded718e",
+  "displayName": "甘宁",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png",
+      "sha256": "0db774f29ec7053ba001f7842465f6d4035b48b71cabf8836586440ed76057b1",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png.generation.json",
+      "recordSha256": "c69566d560aa4330ecedf32fce7cde2725505e9ce48c205ebd19e1207f72279c"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    325,
+    10,
+    825,
+    555
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    500,
+    545
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    425,
+    290,
+    720,
+    505
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 60058,
+    "alpha1Pixels": 8553,
+    "semiTransparentPixels": 212442,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      1,
+      493,
+      545
+    ],
+    "edgePixelsAbove32": [
+      231,
+      0,
+      0,
+      448
+    ],
+    "edgePixelsAbove0": [
+      289,
+      26,
+      0,
+      456
+    ],
+    "marginsAbove32": [
+      0,
+      1,
+      7,
+      0
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        25,
+        11,
+        30,
+        25
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 8553,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "crop": [
+        325,
+        10,
+        825,
+        555
+      ],
+      "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

@@ -1,0 +1,50 @@
+{
+  "requestedAtUtc": "2026-11-04T15:51:29.304Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE original full-body transparent character master for 五行问鼎, portrait 2:3 requested, native PNG RGBA. Historical Three Kingdoms identity 徐晃, reference identity from 《三国志》卷17; original costume and silhouette, no copying existing game character or card design. Actual attached images 1 and 2 are approved style references only: high-detail hand-painted Taoist Chinese chibi, rounded warm face, large head about 40 percent of body, short stout body, jade green and warm ivory paper-cloth, gold and lacquer details, soft clean shading, no plastic sheen. Character design: a broad-shouldered veteran with calm square eyes, trimmed black beard, pale cream wrapped headcloth under an antique bronze crest, deep teal lamellar over parchment cloth; a single massive long-handled crescent battle axe standing upright clearly separate from his face; composed stance. Three-quarter view facing slightly right, entire silhouette centered. Leave 10 percent transparent clearance around every limb, weapon tip and hem. Face around the upper third, every prop below the face or separated by clear empty space so the face crop is usable. Feet flat visible together. Full figure with separately readable silhouette, expression and clothing identity. Transparent background with genuine alpha only, no background fill, no checkerboard, no floor/shadow, text, badge, interface, border, companions or decorative floating FX. One character, one pose.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative Taoist chibi style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative Taoist chibi style"
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261104-heroes3/xu-huang-master-v1.prompt.txt",
+  "identity": {
+    "id": "xu-huang",
+    "name": "徐晃",
+    "personID": "ww-p-a803ace56a5c",
+    "source": "《三国志》卷17",
+    "cardIDs": [
+      100421,
+      100645
+    ]
+  }
+}

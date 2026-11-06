@@ -1,0 +1,45 @@
+{
+  "assetId": "tab-locked",
+  "file": "exports/01-率土之滨/runtime-ui/tab-locked.png",
+  "sha256": "2d5323ba7fc389f8e98b00c0558751415944e891a326589a83e04f30ca4efb96",
+  "width": 443,
+  "height": 221,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 49150,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "tab",
+  "state": "locked",
+  "nineSliceCandidate": {
+    "left": 100,
+    "top": 70,
+    "right": 100,
+    "bottom": 75,
+    "basis": "Provisional native crop pixels; do not stretch until rendered review"
+  },
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+    "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      887,
+      444,
+      1330,
+      665
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xu-chu-master-v1.png",
+  "sha256": "e1cc86bc41bc0bd37e712de31fe7e5346e3212131e9f3ef43a33fdd4f1b98a47",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alphaMinMax": [
+    0,
+    254
+  ],
+  "alphaZero": 736156,
+  "alphaOne": 15729,
+  "semiTransparent": 836708,
+  "alphaOpaque": 0,
+  "bboxAlpha16": [
+    12,
+    174,
+    1014,
+    1436
+  ],
+  "marginsAlpha16": [
+    12,
+    174,
+    10,
+    100
+  ],
+  "bboxAlpha1": [
+    10,
+    174,
+    1017,
+    1440
+  ],
+  "edgeAlpha16Pixels": 0,
+  "sourcePixelsModified": false,
+  "alphaHygiene": "none",
+  "qaViews": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/xu-chu-master-v1-light.png",
+      "sha256": "16e64b9bcb54bed0a142ef4c83935c8eff12723c891667620e9d0d184ef40407",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        245,
+        239,
+        222,
+        255
+      ],
+      "qaOnly": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xu-chu-master-v1-dark.png",
+      "sha256": "0945d944090c64eb174f76062d46625ddae9e0162cd5f4a45e525e7b0cff2799",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        28,
+        43,
+        48,
+        255
+      ],
+      "qaOnly": true
+    }
+  ]
+}

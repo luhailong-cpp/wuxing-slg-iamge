@@ -1,0 +1,74 @@
+{
+  "startedAt": "2026-10-29T07:23:42.854Z",
+  "preparedPlan": "records/troop-frames-20261029-r3/water/water-defeat-sheet-v1.planned-request.json",
+  "promptFile": "prompts/01-率土之滨/troop-frames-20261029-r3/water/water-defeat-sheet-v1.submittedprompt.txt",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE native 3:2 landscape action-frame sheet with exactly6 poses arranged3 columns × 2 rows.\nExact same ordinary WATER troop as reference3: Daoist chibi boy with large brown eyes, blue-teal rounded helmet, gold trim, blue-white swirling plume, blue teardrop jewel, white wave scroll ornaments, blue scale cuirass, ivory padded sleeves/trousers, gold-trim blue boots. Right-screen arm holds the same oval blue wave-pattern shield with gold rim and center spiral. Other hand holds the same short navy baton with OPEN GOLD RING at its outer tip, turquoise bead and blue tassel; no spear or sword replacement. Same SE/three-quarter right facing, no left-facing mirrors, no named elemental hero.\nUse refs1/2 solely for approved Daoist Q-version HD hand-painted style; ref3 is exact identity. Transparent native RGBA sheet, no text, numbers, grid, separators, ground, cast shadows, FX, water trails, new weapons or additional figures. Equal cells read left-to-right top row first. Entire character including plume and weapon must remain inside each cell with15% clear margins. Neutral standing total silhouette targets60-68% of each cell height; one constant anatomy/helmet scale across all frames, never enlarge crouched/defeated poses to match standing bbox. Common root centered near80% cell height; keep grounded boot/knee contacts coherent with the2:1 dimetric ground camera. Clear visible pose phases, no duplicate/copied poses or discarded components.\nACTION defeat; one-shot candidate.\n1. weakened standing ready\n2. knees soften and body begins lowering\n3. one knee contacts ground, shield still held\n4. both knees contact ground and torso droops\n5. low seated/kneeling slump, ring baton resting beside hand\n6. stable low defeated hold, eyes shut, no gore\nReference4 shows selected idle rendering; only use identity, do not copy identical poses. Reference5 is a strict small-size layout guide. Match reference5 character scale and roomy spacing: full standing figure height about58% of each cell, all props inside a15% safe region. Body height becomes naturally shorter in crouch or defeat, never fit the silhouette per frame. No outer edge clipping, no cross-cell weapon or boots.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3/water/water-six-anchor.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "references": [
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary approved style"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary approved style"
+    },
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+      "sha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c",
+      "role": "exact water troop identity"
+    },
+    {
+      "path": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "sha256": "5cb7cbe8f3dc8bfe4fa35e75e808e2cd5b2bfb05cab3e4de75b19c09305d8c09",
+      "role": "selected_idle_identity_and_rendering"
+    },
+    {
+      "path": "records/troop-frames-20261029-r3/water/water-six-anchor.png",
+      "sha256": "29bc229792f94ea05775d601f6d9e90a4e5c5d65dc3200cbe2b95e8d43c9c40f",
+      "role": "layout_only"
+    }
+  ],
+  "grid": {
+    "rows": 2,
+    "cols": 3
+  },
+  "framePhases": [
+    "weakened standing ready",
+    "knees soften and body begins lowering",
+    "one knee contacts ground, shield still held",
+    "both knees contact ground and torso droops",
+    "low seated/kneeling slump, ring baton resting beside hand",
+    "stable low defeated hold, eyes shut, no gore"
+  ],
+  "masterApprovalStatus": "production_candidate_not_user_final_approved",
+  "userOverride": "direct frame images per user; no video",
+  "output": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png"
+}

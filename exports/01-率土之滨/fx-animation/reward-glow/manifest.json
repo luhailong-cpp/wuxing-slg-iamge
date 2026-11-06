@@ -1,0 +1,779 @@
+{
+  "schemaVersion": 1,
+  "assetId": "reward-glow",
+  "createdAtUtc": "2026-10-27T16:50:26.577016+00:00",
+  "source": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+  "sourceSha256": "db25ce0390d3168d449a5f4bd00cc5a7cf4acb73f5560adcc49c05c743c709b3",
+  "sourceGenerationRecord": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png.generation.json",
+  "art_source": "host_image",
+  "sourceRoute": "builtin image_gen",
+  "actualModel": null,
+  "actualQuality": null,
+  "frameCount": 8,
+  "uniqueFrameCount": 8,
+  "canvas": [
+    900,
+    900
+  ],
+  "grid": {
+    "rows": 2,
+    "columns": 4,
+    "order": "row-major"
+  },
+  "camera": "fixed straight-on centered starburst",
+  "anchorPxTopLeft": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "registrationMethod": "manual plane-hole/star-core source registration; native crop then RGBA-preserving paste on transparent canvas; no per-frame bbox normalization",
+  "durationSeconds": 0.8,
+  "secondsPerFrame": 0.1,
+  "fps": 10,
+  "loop": false,
+  "timingDemonstrationOnly": true,
+  "gameplayEvents": [],
+  "nonemptyEndpoints": true,
+  "sourceAlphaEdited": false,
+  "resampled": false,
+  "frames": [
+    {
+      "index": 0,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-00.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-00.png.derivation.json",
+      "sha256": "1af63eff2d4bf7a58984f78c5da69756145bfc548adcbcd6b816e7b773947e75",
+      "width": 900,
+      "height": 900,
+      "phase": "faint star seed",
+      "timeSeconds": 0.0,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        0,
+        0,
+        444,
+        380
+      ],
+      "sourceAnchorPxGlobal": [
+        225,
+        248
+      ],
+      "sourceAnchorPxWithinCrop": [
+        225,
+        248
+      ],
+      "pasteOffset": [
+        225,
+        202
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          252
+        ],
+        "zeroPixels": 772688,
+        "alpha1Pixels": 18464,
+        "semiTransparentPixels": 37312,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          353,
+          292,
+          572,
+          555
+        ],
+        "bboxAbove16": [
+          371,
+          375,
+          529,
+          524
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 252
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 1,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-01.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-01.png.derivation.json",
+      "sha256": "8375b948372a902f857253b1cc803a30415b0794d7750ffd45a0edc66e72aab8",
+      "width": 900,
+      "height": 900,
+      "phase": "short arc grows",
+      "timeSeconds": 0.1,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        667,
+        248
+      ],
+      "sourceAnchorPxWithinCrop": [
+        223,
+        248
+      ],
+      "pasteOffset": [
+        227,
+        202
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 737691,
+        "alpha1Pixels": 31722,
+        "semiTransparentPixels": 72309,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          302,
+          325,
+          600,
+          575
+        ],
+        "bboxAbove16": [
+          321,
+          347,
+          581,
+          556
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 252
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 2,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-02.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-02.png.derivation.json",
+      "sha256": "fe66f0872d9b651b57b4e198c23c9d272ba4d03325eb058b13bd5786acb84914",
+      "width": 900,
+      "height": 900,
+      "phase": "star and orbital arc",
+      "timeSeconds": 0.2,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        1108,
+        248
+      ],
+      "sourceAnchorPxWithinCrop": [
+        221,
+        248
+      ],
+      "pasteOffset": [
+        229,
+        202
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 714433,
+        "alpha1Pixels": 22877,
+        "semiTransparentPixels": 95567,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          292,
+          302,
+          619,
+          600
+        ],
+        "bboxAbove16": [
+          310,
+          321,
+          604,
+          575
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 253
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 3,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-03.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-03.png.derivation.json",
+      "sha256": "beb813c2c818f4c1769efafe7697cd3adbf53dc6eb193d46bf3b407ae6b994b9",
+      "width": 900,
+      "height": 900,
+      "phase": "growing star and orbit",
+      "timeSeconds": 0.3,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "sourceAnchorPxGlobal": [
+        1550,
+        249
+      ],
+      "sourceAnchorPxWithinCrop": [
+        220,
+        249
+      ],
+      "pasteOffset": [
+        230,
+        201
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 703607,
+        "alpha1Pixels": 16178,
+        "semiTransparentPixels": 106393,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          264,
+          287,
+          628,
+          622
+        ],
+        "bboxAbove16": [
+          284,
+          305,
+          613,
+          604
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 253
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 4,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png.derivation.json",
+      "sha256": "a02310cddfdff8ec55b23bfbbed556beb261f4e268537a0b71cf93f30ca2bf56",
+      "width": 900,
+      "height": 900,
+      "phase": "starburst peak",
+      "timeSeconds": 0.4,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        0,
+        380,
+        480,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        225,
+        648
+      ],
+      "sourceAnchorPxWithinCrop": [
+        225,
+        268
+      ],
+      "pasteOffset": [
+        225,
+        182
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 638023,
+        "alpha1Pixels": 35321,
+        "semiTransparentPixels": 171977,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          225,
+          222,
+          677,
+          671
+        ],
+        "bboxAbove16": [
+          254,
+          260,
+          657,
+          640
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 253
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 5,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png.derivation.json",
+      "sha256": "399769806818a22b4d2f7c64c7313b4bad31b816401e22c4bc5d4f2a732c3a73",
+      "width": 900,
+      "height": 900,
+      "phase": "contracting star and thinning orbit",
+      "timeSeconds": 0.5,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        480,
+        444,
+        887,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        670,
+        647
+      ],
+      "sourceAnchorPxWithinCrop": [
+        190,
+        203
+      ],
+      "pasteOffset": [
+        260,
+        247
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          253
+        ],
+        "zeroPixels": 706983,
+        "alpha1Pixels": 23881,
+        "semiTransparentPixels": 103017,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          279,
+          286,
+          630,
+          593
+        ],
+        "bboxAbove16": [
+          299,
+          312,
+          611,
+          571
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 253
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 6,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-06.png.derivation.json",
+      "sha256": "02506dd2901967558d129891e19bf11321edd27fd55266e3b21494c8ff61b9d4",
+      "width": 900,
+      "height": 900,
+      "phase": "small core and scattered points",
+      "timeSeconds": 0.6,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        1108,
+        648
+      ],
+      "sourceAnchorPxWithinCrop": [
+        221,
+        204
+      ],
+      "pasteOffset": [
+        229,
+        246
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          250
+        ],
+        "zeroPixels": 739229,
+        "alpha1Pixels": 24229,
+        "semiTransparentPixels": 70771,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          305,
+          335,
+          596,
+          576
+        ],
+        "bboxAbove16": [
+          323,
+          348,
+          579,
+          560
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 250
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    },
+    {
+      "index": 7,
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-07.png",
+      "record": "exports/01-率土之滨/fx-animation/reward-glow/frame-07.png.derivation.json",
+      "sha256": "2456c358d7879123c9b30fc640991f3a553716e8a28162f2e603fb215d28ef53",
+      "width": 900,
+      "height": 900,
+      "phase": "tiny nonempty residue",
+      "timeSeconds": 0.7,
+      "durationSeconds": 0.1,
+      "cropBox": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "sourceAnchorPxGlobal": [
+        1552,
+        648
+      ],
+      "sourceAnchorPxWithinCrop": [
+        222,
+        204
+      ],
+      "pasteOffset": [
+        228,
+        246
+      ],
+      "anchorPxTopLeft": [
+        450,
+        450
+      ],
+      "anchorNormalizedTopLeft": [
+        0.5,
+        0.5
+      ],
+      "alphaInspection": {
+        "range": [
+          0,
+          249
+        ],
+        "zeroPixels": 776301,
+        "alpha1Pixels": 18671,
+        "semiTransparentPixels": 33699,
+        "opaquePixels": 0,
+        "bboxAbove1": [
+          389,
+          363,
+          553,
+          514
+        ],
+        "bboxAbove16": [
+          405,
+          382,
+          534,
+          494
+        ],
+        "sourceCropEdgeMaxAlpha": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "sourceCropEdgeAbove16": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "registeredCanvasEdgeAlphaMax": 0,
+        "alphaAtSharedAnchor": 249
+      },
+      "sourcePixelsExactlyPreserved": true,
+      "resampled": false
+    }
+  ],
+  "warnings": [
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 2,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+      "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 264111,
+        "detached_components": 100
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+      "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png"
+    },
+    {
+      "id": "MANUAL_SHARED_ROOT_REGISTRATION",
+      "status": "warn",
+      "value": {
+        "sourceAnchors": [
+          [
+            225,
+            248
+          ],
+          [
+            667,
+            248
+          ],
+          [
+            1108,
+            248
+          ],
+          [
+            1550,
+            249
+          ],
+          [
+            225,
+            648
+          ],
+          [
+            670,
+            647
+          ],
+          [
+            1108,
+            648
+          ],
+          [
+            1552,
+            648
+          ]
+        ],
+        "outputAnchor": [
+          450,
+          450
+        ]
+      },
+      "threshold": "single shared logical anchor; source sheet not perfectly registered",
+      "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+      "note": "Original phases are only translated on transparent padding using measured plane/star core, no alpha-bbox normalization or per-frame scaling. Residual subpixel motion is not formally approved."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "GENERATIVE_CONTOUR_AND_TIMING_CANDIDATE",
+      "status": "warn",
+      "value": "Minor ring/cloud or spark topology differences across phases; eight phases at10fps",
+      "threshold": "Final smoothness, topology and gameplay timing require animation/director review",
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+      "note": "No claim of continuous video, gameplay event alignment or final smooth-animation acceptance."
+    }
+  ],
+  "visualReview": "actual_native_fixed_window_contact_sheets_reviewed_in_sequence_on_light_and_dark; candidate_with_warnings",
+  "status": "registered_eight_phase_one_shot_candidate_with_warnings",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "qaPreviews": [
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-0.png",
+      "sha256": "9941d73931e4d5e2c0fa9b902a4e640b3c73a109497c5f17e3846049c0c1bc96",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-1.png",
+      "sha256": "defd0765cb715e7848ff82a3f7d3dcb63a2fd5bf57546999e91a1628f45f8092",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-sequence.gif",
+      "sha256": "9f3ab5a6a3cbbdbc1607539398cdb9870e154574541d7f3463d5aa010464d070",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-sequence.gif.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-0.png",
+      "sha256": "169db750a2398c3a5e87d454e2f0c3cbcc54d7bd255c1d8c5e32a0a6c18143f4",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-1.png",
+      "sha256": "e00e8f6d04fb3e56051805da171cad462f97c9ba13aa15ea9d1d6a3ec9c30d2e",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-sequence.gif",
+      "sha256": "a2e411c7615504fdec1eb397eed705e5017d958110aaeb7bba039e8ef535736e",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-sequence.gif.derivation.json"
+    }
+  ]
+}

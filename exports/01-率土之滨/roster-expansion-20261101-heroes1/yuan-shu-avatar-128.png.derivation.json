@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/yuan-shu-avatar-128.png",
+  "sha256": "7ff1705bb60de1d3afc40daaade984786d58c0d38d1fd76d55f6fa6c0f5ff67c",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+    "sha256": "6b1dbce34c73cfd726b1a898c080a511ece5492b1d2f56e3572ce5d3dc74c036",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      285,
+      180,
+      835,
+      790
+    ],
+    "uniformScale": 0.19344262295081968,
+    "resizedSize": [
+      106,
+      118
+    ],
+    "offset": [
+      11,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

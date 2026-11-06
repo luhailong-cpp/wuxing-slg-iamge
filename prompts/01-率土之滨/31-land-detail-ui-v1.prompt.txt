@@ -1,0 +1,23 @@
+Use case: ui-mockup
+Asset type: One complete landscape SLG land-detail screen, approximately21:9.
+Primary request: “土地详情” showing one selected resource tile and an actionable information panel, Daoist Q/chibi style.
+References1/2 are the authoritative jade/ivory/warm-gold hand-painted UI. Reference3 is our existing world map for terrain, buildings, flags and HUD continuity. Reference4 external map march screenshot is FUNCTION context only (selectable map locations and armies), never its gray realistic war style or exact map rules.
+Composition: left65% a bright detailed isometric hand-painted terrain map with a clearly outlined selected timber-resource parcel near a path and stream. Thick readable jade-green selection border, a small white pin. The selected tile contains rounded green trees, a compact timber stockpile and small rustic shed; no big castle. Adjacent grassy tiles and hill/stream/stone bridge scenery. Roads remain visibly connected. Two tiny friendly helmeted chibi sentries near the selected tile show guardians.
+Right33% tall ivory parchment info panel with rounded fine gold border. Top centered jade title “土地详情”, small back arrow top-left and X top-right. No giant scene title obstructing selection.
+Panel exact short hierarchy:
+Header “林地 Lv.3”
+Small label “地块示例”
+Rows “资源类型 木材” / “归属 未占领” / “距离 8格”
+Resource row “木材产量 +300 / 小时”
+Section “守军信息”
+One helmeted chibi guard portrait with “野外守军”, “兵力 900”, small ivory button “查看守军”.
+Thin divider.
+Section “可用操作”
+large green active button “出征” with crossed spears.
+Under it two smaller buttons, BOTH visibly disabled pale gray-beige and padlock:
+“驻守” with short helper “占领后开放”
+“扫荡” with short helper “占领后开放”.
+Keep these lock explanations readable and unambiguous; selected tile is unowned, so do not show friendly troop garrisoned already.
+Small bottom note “选择部队后出征”.
+No invented real city coordinates or official game logo. This is an original prototype with sample level/production/distance/guardian values; don't assert official universal rules. Clean legible Chinese and strong separation between active and locked states.
+Style: high-detail Daoist Q/chibi hand-painted, jade forests and roofs, natural light gray stone, ivory paper, fine warm gold, rounded friendly forms, sparse red tassels, soft daylight. No realistic warfare, no dark metallic HUD, no plastic sheen, no screenshot collage, no clipped panel or tiny text. Opaque full screen.

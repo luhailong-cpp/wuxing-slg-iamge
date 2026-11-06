@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "inspectedAtUtc": "2026-10-28T08:22:54.437092+00:00",
+  "package": "exports/01-率土之滨/generals-ui-v1/unity/WuxingSLGGeneralsUIV1-20261028.unitypackage",
+  "packageSha256": "082b2d918712f105e7610068bb765665f4d9d361379fe93809045cde46b5f7b1",
+  "packageBytes": 39753408,
+  "exportRoot": "Assets/WuxingSLGGeneralsUIV1",
+  "archiveEntryCount": 154,
+  "pngCount": 60,
+  "byteVerifiedPngCount": 60,
+  "byteVerifiedDerivationCount": 60,
+  "packageContainsOnlyItsExportRoot": true,
+  "otherPackageComparisons": [
+    {
+      "package": "exports/01-率土之滨/fx-gpu-playback-v1/WuxingSLGFXGpuPlaybackDemo-20261027.unitypackage",
+      "sha256": "a211d36227f0bdb1b3c0770f4e06e3cbfc6f0cebbdbf4c5e22213744c97b71aa",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/hero-ui-v1/unity/WuxingSLGHeroSkillUIPreview-20261027.unitypackage",
+      "sha256": "86b9f91cee815fbc419d9cf537c0fcfcf1109ca9f48ce601acfe1cdd67693e65",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+      "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGArtPreview-20261027.unitypackage",
+      "sha256": "c7d20bb4a089da76dea0f412e7cb07e36fe77888b76ac222e265186396df411c",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGArtPreviewV2-20261027.unitypackage",
+      "sha256": "b0d8ce3ddd8d6077db01353a611853f6b6e2545264cd0a27b24f9d1d5ac27ed5",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    },
+    {
+      "package": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018",
+      "pathCollisionCount": 0,
+      "guidCollisionCount": 0,
+      "pathCollisions": [],
+      "guidCollisions": []
+    }
+  ],
+  "checks": [
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/liu-bei/liu-bei-face-native.png",
+      "kind": "png",
+      "sha256": "4356e5fe8c07c12500f452943111d6d79605e53df0e34127b7740b16ef6b0489",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/liu-bei-face-native.json",
+      "kind": "derivation",
+      "sha256": "622b5b33a12c6c605c9762e23bff1d4a74c19cfc827e27e52ef1b26d297dcfee",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/liu-bei/liu-bei-bust-native.png",
+      "kind": "png",
+      "sha256": "b1d18c63649e84b81021012b8e0200b9d1a257c74e68b02e51cad8d5835110a5",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/liu-bei-bust-native.json",
+      "kind": "derivation",
+      "sha256": "57cdc9554bb7158a9c75caffa78d9c4319ea77f5abca2a80eb099556425b103c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/liu-bei/liu-bei-avatar-128.png",
+      "kind": "png",
+      "sha256": "8aec1bddc159fa30850f4767424d2eff558f1f332555b1e22c2eaa5562734f90",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/liu-bei-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "ea6ae75c68f4516d355b0b23438f3151f8a4e9f50e44f4a990c267a548caff5b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/liu-bei/liu-bei-avatar-256.png",
+      "kind": "png",
+      "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/liu-bei-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "a35d980a79a3e97a30ad1119824abf5f3c248be445657e3422b7fd33e6c7677c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/liu-bei/liu-bei-card-full.png",
+      "kind": "png",
+      "sha256": "211fa165e96f0160035a70bc6c0dc5dc162f0d196449506a641688e04b055d0f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/liu-bei-card-full.json",
+      "kind": "derivation",
+      "sha256": "50de5365d602af824e9c9b2f8ac94f7e0eb06095c81afdcb7955ba8175396ba5",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/cao-cao/cao-cao-face-native.png",
+      "kind": "png",
+      "sha256": "7c282273842f3b72d3eaf634399f506d67cc71969f1b089c497e0703bc264be3",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/cao-cao-face-native.json",
+      "kind": "derivation",
+      "sha256": "672c9e3d01cae4a1a2eba47488cebdf5e36659d285c213447d9c8ee8be1229d8",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/cao-cao/cao-cao-bust-native.png",
+      "kind": "png",
+      "sha256": "5527ce05eed0c2f0794b2f53982adb35cb4238b8bf819eeda08b39b857aab61b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/cao-cao-bust-native.json",
+      "kind": "derivation",
+      "sha256": "42678a4b40dba5025e83cfae846922ce53c7e22a0df0e437f9def23a51420fce",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/cao-cao/cao-cao-avatar-128.png",
+      "kind": "png",
+      "sha256": "7b4eb3d08935a0d37661318f5f81f5ca26f721d22b2e3d9d8411e57c204382fa",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/cao-cao-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "53391f7e52fab12e7ad0b284f948ac418dce42d0f6c873ea1245bc2c77aaf9e5",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/cao-cao/cao-cao-avatar-256.png",
+      "kind": "png",
+      "sha256": "6bb80544faf31f1c0d548c02657a42ecbdde0795e75b987ff7968873aace4f38",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/cao-cao-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "419c52df40544419abdca947f71ab737349d602552f63d87cf794fbbe4daaaa8",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/cao-cao/cao-cao-card-full.png",
+      "kind": "png",
+      "sha256": "56cfb4abbdbd9f330c7ca35f903c2eb59b818d3f1c3c86c39bbb2d5fc1c0075b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/cao-cao-card-full.json",
+      "kind": "derivation",
+      "sha256": "dde20cf7fb321b6068d8b09470e278b4a1573b83b80ca1a904eddb8ef970b960",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/sun-quan/sun-quan-face-native.png",
+      "kind": "png",
+      "sha256": "5f835fa1cb608831422621dabeabe620fed81ed4b79a270bd87f5af571148b75",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/sun-quan-face-native.json",
+      "kind": "derivation",
+      "sha256": "566fd68aebe842947ec172e5cb5b62bb39038fecf260497553f27cf70cd3466c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/sun-quan/sun-quan-bust-native.png",
+      "kind": "png",
+      "sha256": "7286b859d1e449f3903acf8c01d65b28201d1cdc17480903cd8d75d8d09c1c71",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/sun-quan-bust-native.json",
+      "kind": "derivation",
+      "sha256": "dbf2a8ed40e7041853f0d16abb009e76a0fbe1bf3ca7699f8f59fc6693b92714",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/sun-quan/sun-quan-avatar-128.png",
+      "kind": "png",
+      "sha256": "689f2d06a4ad0ac6fd8cb82bb274a822bbf64341c3c4fb96d77198dd075725ad",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/sun-quan-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "1ba2d48973d2a33f1ef5a3f6d42939089775cd67dc310a4fa0a3e61d49caf66f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/sun-quan/sun-quan-avatar-256.png",
+      "kind": "png",
+      "sha256": "de2dba3ce5282c210018ebac91baa2b53c58175264547f1cca40ebde049489a2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/sun-quan-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "0269b304717b8b2787c0f16b5977810126eb4759685841f21a806ab092938534",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/sun-quan/sun-quan-card-full.png",
+      "kind": "png",
+      "sha256": "41b36cda28c80cf112610b65bdd39883a4dafbee3a6bc3832988658169ef8fd8",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/sun-quan-card-full.json",
+      "kind": "derivation",
+      "sha256": "af7fb0133c9c1cc5dfec31bc6eb226acab743a7670234972e0593f304ad090f9",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhao-yun/zhao-yun-face-native.png",
+      "kind": "png",
+      "sha256": "f282b54acfd35653a6bd8153af72244a04cbf4b22558111795c0aef9f21b72fa",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhao-yun-face-native.json",
+      "kind": "derivation",
+      "sha256": "05c67ed2e2bffa92b72d7ebff3f772e813cf6bc603f00efd8dfa134aec04b2a6",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhao-yun/zhao-yun-bust-native.png",
+      "kind": "png",
+      "sha256": "e6cfb9bd3519257a06afa83ea4ff02880f67485f77eb6f05aa5b9c8a61c2395a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhao-yun-bust-native.json",
+      "kind": "derivation",
+      "sha256": "fe035e64c1b8b1a8302938e21987fb0e5953cf72d136b2b8c5fd6e0c3c0f66f9",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhao-yun/zhao-yun-avatar-128.png",
+      "kind": "png",
+      "sha256": "d5a9d7fac6cbe87f70e768eee25cd77a64a89cbde10e7924ab1dfa6136b5c1eb",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhao-yun-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "a44a3d049eab7ac05929ca7e0b6ce7eccfc18e24cbaa805c97b2a4a2667b90e7",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhao-yun/zhao-yun-avatar-256.png",
+      "kind": "png",
+      "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhao-yun-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "951bb119fe9f59e6609dbb5253338a9a7a2b3d92cc5dc7b3204853316b49b482",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhao-yun/zhao-yun-card-full.png",
+      "kind": "png",
+      "sha256": "6f7f3d1d106a5f63a6c400ec6b76c4432da1a9e1bfd0813bade64ca70853cdda",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhao-yun-card-full.json",
+      "kind": "derivation",
+      "sha256": "75931947c0fc6b7fb1268f25ac67ddcb9b7883e8fb7a11cea82deeafe8c603a1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhuge-liang/zhuge-liang-face-native.png",
+      "kind": "png",
+      "sha256": "c8684e5e45a70b44254cbc95dbe42b4e733b78d297c0e14eaaa8b25d2462950a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhuge-liang-face-native.json",
+      "kind": "derivation",
+      "sha256": "0e85a547e4cee5cb9f859723f835e686ae22e1b4e13a87795cf9dc9da9fd8016",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhuge-liang/zhuge-liang-bust-native.png",
+      "kind": "png",
+      "sha256": "8c5ed6a27f2761ebfa58cf70b6c92853d16acb70c2928c38a2c7a3accd11fd82",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhuge-liang-bust-native.json",
+      "kind": "derivation",
+      "sha256": "0cd62bfb93356d781c939d2c73b9bfd9697664f1db0357d05021d60a48f2cb68",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhuge-liang/zhuge-liang-avatar-128.png",
+      "kind": "png",
+      "sha256": "06fb924648d7da32357cb92ec9a791f4f5a7ed7351012c37cc866e91d7e47717",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhuge-liang-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "3f7fb788147f67b7b6796a19616da3c2a32a97be3b7e4b38295f7e53feb2fb6c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhuge-liang/zhuge-liang-avatar-256.png",
+      "kind": "png",
+      "sha256": "318d5649e6e7b6f769b6db4082b66f24f6ca9d35251c24ba9fc8450aa6057bae",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhuge-liang-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "47ee08eb0c2bf5f2385f9942797e9fbf25f3376b5b966e447cc5580a0564dda8",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhuge-liang/zhuge-liang-card-full.png",
+      "kind": "png",
+      "sha256": "b27db45e8a3fbf64dfc11bad9bc1fc6e9f68eb83001955309b4e1253e5859a6b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhuge-liang-card-full.json",
+      "kind": "derivation",
+      "sha256": "b80d7108c6ec76d7dbd820a19a1b4b345953ede2c1b1117486af1fff6b085c07",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/guan-yu/guan-yu-face-native.png",
+      "kind": "png",
+      "sha256": "857cca6fc814abe6ea259fc507861fffcc31269b5d5f42936c5b7e01ced8ecde",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/guan-yu-face-native.json",
+      "kind": "derivation",
+      "sha256": "875ceca824cbb3b240f0f7fe692c8b74339fc9689718ef85ad3aa3ea3e624208",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/guan-yu/guan-yu-bust-native.png",
+      "kind": "png",
+      "sha256": "6536631e71e8ff54153d05d612713658a1588583030f9882513230b5b5503abe",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/guan-yu-bust-native.json",
+      "kind": "derivation",
+      "sha256": "1b268e86e7c80af0ff53e936cc433bf448f4cde643ee4378936f0d3accccbae5",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/guan-yu/guan-yu-avatar-128.png",
+      "kind": "png",
+      "sha256": "d67064a293135d62ad8db733c9e48c25b74dd73d90d2cbcaec7ce410ddd4a6d9",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/guan-yu-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "4c95ea7263ae2f8f491e09879e6f640da18b1243aa02a5e300d8fc1969658930",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/guan-yu/guan-yu-avatar-256.png",
+      "kind": "png",
+      "sha256": "afed0c114df70a9303d4e7f990c95701b5fb25b9d47cb7190e1df68b690eb443",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/guan-yu-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "a5cc4976dbd18a5de107e4ec2296e7e0c6c8e9cdb391bdfd4c735e5a2a6be093",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/guan-yu/guan-yu-card-full.png",
+      "kind": "png",
+      "sha256": "ef94d5e056e0f78c8d43a295c8327df197665cdc2cd6acc3aeb038376794b58b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/guan-yu-card-full.json",
+      "kind": "derivation",
+      "sha256": "566334df12b284b2abb26d58ede680499c294ce694f8ab94fa7b609a19ab7a7c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhang-fei/zhang-fei-face-native.png",
+      "kind": "png",
+      "sha256": "3c74814bb52effda783752004467065b28faf23513d2deb51748327021fb3788",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhang-fei-face-native.json",
+      "kind": "derivation",
+      "sha256": "e00022396e0eb54e5af1f373c7ad46f81a92dc33ecc3e4d7a0edaa583008fe04",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhang-fei/zhang-fei-bust-native.png",
+      "kind": "png",
+      "sha256": "9198c964391e5d7261855a1353a23aba37cd8132985cb14fcde0421a849bb6f1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhang-fei-bust-native.json",
+      "kind": "derivation",
+      "sha256": "32bb3c5e26533fec12c311b7895c424dcc9df87c00289b286d9fda6f3469fd43",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhang-fei/zhang-fei-avatar-128.png",
+      "kind": "png",
+      "sha256": "8077d41bb7bfd69b099e618c5b3a76e4d1f828abb6282f1a1a1942322a81d495",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhang-fei-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "9f952793beff0d18ab5d0a602893dbb9ea69d837a79ecab748caeddf5fd9608f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhang-fei/zhang-fei-avatar-256.png",
+      "kind": "png",
+      "sha256": "174c5abf3865019cdb8746ee47d4285a1861e536a696311881d0059996db900f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhang-fei-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "0e451157a50978d3ac30e43b95afd346f4bff09c479d03cc1a8e5c873d426fff",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhang-fei/zhang-fei-card-full.png",
+      "kind": "png",
+      "sha256": "74040cca03774d6162150bbc6975401ab4740ee24a4c191a55a7f51d65a6724d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhang-fei-card-full.json",
+      "kind": "derivation",
+      "sha256": "e9f29bf9b1f194e2afd8b24dabb6d7a2ff2d6ec9315fe6b8edd381a0486e5c2c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhou-yu/zhou-yu-face-native.png",
+      "kind": "png",
+      "sha256": "acb92a0b9cd5088608ed6d0233c02da709fe4e18881bced9bada63fb03cfefcc",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhou-yu-face-native.json",
+      "kind": "derivation",
+      "sha256": "5d7d15019a8bf90b29e3b89d1a6cdc3a86150f141f1474d13ccb76335b273c99",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhou-yu/zhou-yu-bust-native.png",
+      "kind": "png",
+      "sha256": "38199bcaa9fc977e4fa9f2405e0f3b14b412adf0e861b51aca02d843102f245d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhou-yu-bust-native.json",
+      "kind": "derivation",
+      "sha256": "6175e257dbee490cf3bea1345b30e361a947b0d84bc8e542830f17077498d68e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhou-yu/zhou-yu-avatar-128.png",
+      "kind": "png",
+      "sha256": "8e391513592917afe3c48a745e8952a3881281bf7f0e325b4aa9b1564430b990",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhou-yu-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "9a925e7d85365e0d90e60ea64e752133df664f70f23e10412a2f84b626a261de",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhou-yu/zhou-yu-avatar-256.png",
+      "kind": "png",
+      "sha256": "2e6488525972d2cb22d4b349d70f26313b009978980f763acedc75c69942c676",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhou-yu-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "305dbd26644f3edd158850767bf0dd6450990a2af0d9c1ecfd36549c5f199cf1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/zhou-yu/zhou-yu-card-full.png",
+      "kind": "png",
+      "sha256": "63070b84fffe481233ebd67ef8af309abc751388607678947f0692d6b2e0774d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/zhou-yu-card-full.json",
+      "kind": "derivation",
+      "sha256": "cc0ffbc2a055777f33acbcd2e98a110fd5ebcc15d0f990de96c8c64c56cd6425",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/lv-bu/lv-bu-face-native.png",
+      "kind": "png",
+      "sha256": "1b524f030f500e55b92f72ec1895586771e40b2c0c6e445ba4cd147f18d29c99",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/lv-bu-face-native.json",
+      "kind": "derivation",
+      "sha256": "4e76b2129650dcaaa24b1ae4c6ff8a67ae6a19974c4e9785063ba2a407f16f89",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/lv-bu/lv-bu-bust-native.png",
+      "kind": "png",
+      "sha256": "508538b86e5efa037df6c884f17cde117f533fa8a5bc538664ae6a450787cf0f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/lv-bu-bust-native.json",
+      "kind": "derivation",
+      "sha256": "8ad85f7e6b89770e2a5045a445e815d7f477320893d564218041c7f77a46f5bc",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/lv-bu/lv-bu-avatar-128.png",
+      "kind": "png",
+      "sha256": "5d92795e1126a4ddc0304db04a5c95965044c1b0b1e9cfa9b7b0d727c48d208d",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/lv-bu-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "f53b248c1f2ea0a5b414c006656c67579c184eea718b3d41d18dae62d1229363",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/lv-bu/lv-bu-avatar-256.png",
+      "kind": "png",
+      "sha256": "e1147852858b4458aef5c0d49b53c302dfda1cd43869eb2019c5a420b6d8df66",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/lv-bu-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "ca0b567edfcff3b18ddaa73b0c631877724171fde7c60d21360401450a8b082f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/lv-bu/lv-bu-card-full.png",
+      "kind": "png",
+      "sha256": "75ebcabeb9f7b7df33e215e0a2c1cda3aa9a3b2f74a47e4b8e9fb3111aa8a120",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/lv-bu-card-full.json",
+      "kind": "derivation",
+      "sha256": "d81d6949b1efb6b1efaba3cd71d4babd2ea6907c8634ff9ef9e6608a012cacbb",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/diao-chan/diao-chan-face-native.png",
+      "kind": "png",
+      "sha256": "bf62de7a7dd7ce6182696dbed07cf72c6a30002954a175f2e92a2a39655bf5ea",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/diao-chan-face-native.json",
+      "kind": "derivation",
+      "sha256": "63eb232e8a9f117982f6dcbf5a06f4a5399cb0d1973706e0e04f346520fea49a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/diao-chan/diao-chan-bust-native.png",
+      "kind": "png",
+      "sha256": "fec7ef391bdd82467a52d176454102d86576d8eaeada20c24a7d2101bb79dcc0",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/diao-chan-bust-native.json",
+      "kind": "derivation",
+      "sha256": "604cc889bb5485a478e65d3e9975e27275a49c618cc8adf01e21bac9d55a392f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/diao-chan/diao-chan-avatar-128.png",
+      "kind": "png",
+      "sha256": "4ce309946b9a59e692e0c98b6c1fa958c30d2f4779af83453040dd04696de2e8",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/diao-chan-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "bc5aaee17932fcf016d071dc8a592f2ab938691de3b561592a8b85c4245d25c7",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/diao-chan/diao-chan-avatar-256.png",
+      "kind": "png",
+      "sha256": "b09db1b33da72a71a4a4d5b7561a6482ffa91783f5902255d41a2883832eb6e1",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/diao-chan-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "13d899c52527f5730ba7b613efde798a4aa327b5071bbe35f6b3acfd6174881f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/diao-chan/diao-chan-card-full.png",
+      "kind": "png",
+      "sha256": "ee0751f622aecdc07adb49862b7464d19c385494baa62e423b762746c53b89ee",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/diao-chan-card-full.json",
+      "kind": "derivation",
+      "sha256": "76581666c0dc02082aab2289a3712c419cf27fbc8733a2896640abe922e7e408",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/hua-tuo/hua-tuo-face-native.png",
+      "kind": "png",
+      "sha256": "1cd5072149ac82cee7229871f66ffc9433c951b0e8df7dd68f253a30cec080be",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/hua-tuo-face-native.json",
+      "kind": "derivation",
+      "sha256": "8663e64f3b66b5fba1f59bec780b6e4502f2773d925157ddea2e8fc14be16732",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/hua-tuo/hua-tuo-bust-native.png",
+      "kind": "png",
+      "sha256": "b5b3bff037d5257f8f64adbf1a5a9cfcd5a6cc95f96a42f0e162b4c836eac6eb",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/hua-tuo-bust-native.json",
+      "kind": "derivation",
+      "sha256": "d5dedd31c0ea90edda11cc1b66bf3912f0406093f495fdb5717817794049f7d2",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/hua-tuo/hua-tuo-avatar-128.png",
+      "kind": "png",
+      "sha256": "54a35fcab025db7d91d3a881f46f655f6151a22413f309034010bf858868875b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/hua-tuo-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "e6299f030a3938da78a30be05a8e3f5c3f24b45ec04f3cea149a3a3f7db0abc0",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/hua-tuo/hua-tuo-avatar-256.png",
+      "kind": "png",
+      "sha256": "52141847733905abdcb7c42450550c4f7ab47de0fcf4dde09a2484fb4049aa7a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/hua-tuo-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "0d0d7368b1d833d9b012358531ef005eccc40c22f007e42c0ec4b98b6a565b9b",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/hua-tuo/hua-tuo-card-full.png",
+      "kind": "png",
+      "sha256": "426f2768dbb41b3c7742879c5100ba332847c1eefd314be73756202ac10eecca",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/hua-tuo-card-full.json",
+      "kind": "derivation",
+      "sha256": "b1edb0beaee60c8303c46ff1ba2b77e8d1ff2890a7e1ba89eb41fedb278a8013",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/huang-yue-ying/huang-yue-ying-face-native.png",
+      "kind": "png",
+      "sha256": "e99f3f1b31c82f345e3d386f1ffad0dcea8aba4afba5bd8cb73facff6682ea51",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/huang-yue-ying-face-native.json",
+      "kind": "derivation",
+      "sha256": "c8bb142748f876d5005fa2704dcbe5b87ed03a60183077eddfc2926baa2bcd9e",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/huang-yue-ying/huang-yue-ying-bust-native.png",
+      "kind": "png",
+      "sha256": "6c309beba273b3b792313e38be7d33ebbc12e5833ae5c8f88b1b8e3f83be4f0f",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/huang-yue-ying-bust-native.json",
+      "kind": "derivation",
+      "sha256": "1240e4400f70eadfb23c2cbb5c8e64f10079cb748cb09032fa7ce0199045d540",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/huang-yue-ying/huang-yue-ying-avatar-128.png",
+      "kind": "png",
+      "sha256": "1ad887f255d916a307e44efe21d6fb192fde6fcdf5bf9007cdb795382cf1beff",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/huang-yue-ying-avatar-128.json",
+      "kind": "derivation",
+      "sha256": "6e3b9330899ee0c55cf614b545542a4c3ffdb3d0aba39da6973bd25f60a1492c",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/huang-yue-ying/huang-yue-ying-avatar-256.png",
+      "kind": "png",
+      "sha256": "e438f8d6019e5dd7bcc73cc7792543f37a6c69a990d94ce18e61e236be133c16",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/huang-yue-ying-avatar-256.json",
+      "kind": "derivation",
+      "sha256": "989e781f1a593d8b4e9e7ed54015767e87be10a165b38b0c2aad08040ca92500",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Sprites/huang-yue-ying/huang-yue-ying-card-full.png",
+      "kind": "png",
+      "sha256": "27d25f6c6b8639fddc2d72f26fc8f02859f83993e74c660e017839b45e98800a",
+      "matchesSource": true
+    },
+    {
+      "path": "Assets/WuxingSLGGeneralsUIV1/Provenance/Derivations/huang-yue-ying-card-full.json",
+      "kind": "derivation",
+      "sha256": "41375ec0936f7784d63ab731e3a6360c58ec6ef78e42a3b25e04702e710c2574",
+      "matchesSource": true
+    }
+  ],
+  "passed": true
+}

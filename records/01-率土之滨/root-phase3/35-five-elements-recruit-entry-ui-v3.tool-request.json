@@ -1,0 +1,29 @@
+{
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T18:53:18Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Targeted edit of image3, our five-elements recruitment UI. Images1(mail) and2(team) define the unchanged jade/ivory/gold hand-painted Daoist chibi style. Image4 is the METAL girl's identity master; image5 is the WATER girl's master. Preserve the whole target screen composition, all5 faces, costumes, all Chinese labels, costs, counters5000/680, timer, panels, buttons and background as closely as possible.\n\nCorrect ONLY the overlapping/mixed props between the silver-haired metal girl and blue-haired water girl in the RIGHT portrait banner. In the current target, a gold lotus compass sits inside the blue water ring and makes the girls appear to share one fused magical device. Remove that gold lotus/compass completely from the banner. Keep the metal girl visibly holding ONLY her rune ruler near her own chest on the left; her other hand may be out of frame, her array compass need not be shown in a waist-up recruitment portrait. Give the water girl her own simple distinct BLUE-JADE WATER RING from image5: an EMPTY circular opening with no gold lotus or compass inside, held by her own clearly separate hand just in front of her left shoulder, below her face. Keep a small visible gap between the metal girl's body and the water ring. The water ring has blue/ivory wave ornament and a small dangling blue ornament; it must not become a golden wheel. Preserve the red-haired fire boy's separate flame tablets to the right. No shared hands, no fused props, no extra fingers, no duplicate ring or new equipment. All five hero faces must remain clearly visible.\n\nKeep these exact visible UI values: 铜钱5000, 玉符680, 单次招募300 / 五次招募1500 on left; 单次招募200 and disabled 五次招募1000 on right; 玉符不足，还差320. Keep every other part unchanged as much as possible. Complete landscape opaque screen about1916x821.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/35-five-elements-recruit-entry-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png"
+    ],
+    "transparent_background": false
+  }
+}

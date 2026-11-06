@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "startedAt": "2026-10-27T13:16:05.610Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: 五行SLG原创土系单人完整全身静态master候选，真实透明PNG。\nPrimary request: 全新塑造土系“玄垣使”，稳重的成年女性，有独立的年龄感、宽圆脸、体态、服装与法器。不是历史人物，不是帝王或统帅套装换色。\nInput images: 附图1邮件UI与附图2组队UI只作为本系列已确认画法和材质主参考。学习圆润大头短身、柔和亲和表情、细腻高清手绘、玉绿米白暖金和云纹；不复制参考UI、背景、任何人物脸型或文字。\nSubject: 成年女性，宽圆脸，柔和下颌、自然浓眉、深棕色清楚眼睛，稳重可靠的轻微微笑。黑发、整洁低发髻位于后脑偏低，几束自然侧刘海，简洁玉绿发簪，没有高发冠、帝王冠或复杂头饰。约2.7—3头身，身形厚实而柔和，圆肩、有分量的稳定站姿，成人女性而非少女换装。\nClothes: 暖赭色与象牙米白的宽袖短外套，玉绿领口、内衬与腰带，低饱和暖金细边，衣缘简洁的山形和方形几何纹。外套在膝上收住，厚实柔软布料，米白收口长裤、两只赭色圆头短靴完整可见。以暖赭/米白和玉绿构成土系身份，不穿黑金统帅袍、紫色帝王袍或厚重金属战甲。\nProps and pose: 三分之二微侧朝观者的自然稳健完整站姿。右手托住一件掌心大小的方形石印，浅暖灰石材、有小型山峦形印钮，印面与外侧只有简单几何线，没有文字；另一手握着一件小型护阵盾形法器，暖赭玉石与米白石材、玉绿护边、简洁方形山纹，盾身约上身一半大，竖直收在身体侧面，不遮脸也不遮双鞋。双手和手指持物关系正确，两个法器都是实体，完整纳入画布。\nComposition: 单人单一全身站姿，竖幅约2:3，不是卡牌、肖像或多视图。画布中央放一个较小的完整人物，让最高发梢到最低鞋底不超过画布70%高度，头顶与脚下分别留下15%真正透明空白，双袖/盾牌与左右边各留至少12%透明空白。全身轮廓、低发髻、石印、盾牌、双鞋均完整、不碰画布边。脚掌分开清楚，不放在地面或底盘上。\nStyle/medium: 道家Q版高清手绘，延续两张实际附图的完成度，克制细腻笔触、柔和明亮中性日光、温润金玉与布料层次、清楚轮廓。不要写实人物、塑料3D、粗糙拼贴、密集纹样噪点。\nBackground: 真实native transparent alpha。只保留人物和随身法器，无山景、土堆、石块环境、地面、投影盘、背景、白底、渐变布景、气场、尘雾或伪棋盘格。\nText: 无文字、字母、数字、姓名、logo、水印、签名、UI和卡框。\nAvoid: 孙权紫髯帝王冠、曹操黑金统帅袍、历史人物脸型、长髯、长兵器、宠物、额外人物、漂浮石块、巨大技能特效。只有一张原创静态候选，不是动画。",
+    "promptFile": "prompts/01-率土之滨/05-earth-envoy-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

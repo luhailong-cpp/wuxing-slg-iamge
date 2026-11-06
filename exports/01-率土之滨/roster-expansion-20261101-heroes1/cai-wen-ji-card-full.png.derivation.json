@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/cai-wen-ji-card-full.png",
+  "sha256": "b18dd8ac91f682167b52ff4e461fdfd29006a09a0a85431a7f5a1cbb4ab99aa7",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+    "sha256": "8fdded956c858a7d4a38ca3c56d6f00de9b4f1fea03598041b41cb9ec7e12e69",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

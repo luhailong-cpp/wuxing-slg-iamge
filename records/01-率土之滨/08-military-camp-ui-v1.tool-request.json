@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callPreparedAt": "2026-10-26T11:33:43.196Z",
+  "promptFile": "prompts/01-率土之滨/08-military-camp-ui-v1.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: One complete landscape game UI concept, approximately 21:9, native high-detail raster.\nPrimary request: Create a complete FIELD MILITARY CAMP screen titled exactly “军营”. The camp must be clearly outdoors in wilderness, based on canvas tents and timber, not a city barracks or stone fortress.\nReference hierarchy: Image 1 mail UI and Image 2 team UI are the primary style references for exquisite jade-green/ivory/warm-gold Daoist chibi hand-painted panels, characters, surfaces and visual quality. Image 3 world-map UI provides consistent terrain and strategic HUD language. Image 4 old city is used ONLY for material palette, friendly proportions and Daoist accents; do not import stone city walls, palaces or big tiled-roof buildings from it. Create one new full screen, no collage.\nScene and function: Left/middle roughly 70% of the canvas is a bright daytime field army camp viewed from an elevated isometric three-quarter angle. A central LARGE JADE-GREEN AND IVORY CANVAS COMMAND TENT, four smaller cloth sleeping tents set around a modest open practice area, a simple wooden watch platform, low wooden palisades and open timber entry gate. Tent fabric is visibly folded and tied with ropes to pegs; NO tiled roofs. A supply zone has covered crates, sacks, water barrels and a compact horse tethering rail. Three or four different friendly chibi recruits practice with wooden spears beside targets, two guards at the open gate. A clean gray gravel trail leads from the open gate through the camp to the command tent and sleeping tents; roads must remain connected and free of trees. Grassy perimeter, wooded hills and distant light misty Daoist mountains. A few small warm red lanterns and a tai chi banner on the command tent keep continuity. No stone perimeter walls, no fortress tower, no city gates, no civic palace, no market or agricultural district. The camp reads temporary, organized, military and welcoming.\nUI composition: One full landscape scene; slim ivory resource strip across upper-left. Centered jade and gold rounded plaque reading “军营”. Right ~25% parchment-white military detail panel with thin warm-gold edging, generous spacing and crisp dark-green Chinese. Small round close control at top right. Bottom left ivory “返回大地图” button. All controls fully visible inside safe margins. Do not label tents directly.\nRight panel exact short text:\nheader “野外营地”\nrow “补给” with “充足”\nrow “驻军” with “2 / 3”\ntwo distinct chibi portrait rows:\n“第一部队” with “待命”\n“第二部队” with “征兵中”\nUse a short subtle progress bar only in second row, with “60%” beside it.\nThird empty slot row plus icon and “空闲席位”\nBelow troops a divider and two horizontal buttons: green primary “征兵”, ivory secondary “调动”.\nLower subsection “营地设施”\nthree small illustrated cards labeled “营帐” “练兵区” “补给”.\nUpper resource strip only “木材 12.8万” “铁矿 10.6万” “粮草 15.2万”.\nNo formal game title/logo, no official capacity or level assertions; these are original illustrative sample values, not a faithful current-game reconstruction.\nStyle: Daoist Q/chibi HD hand-painted, established user references 1 and 2 authoritative. Jade green and warm cream canvas, rounded friendly woodwork, natural light gray gravel and stone, fine warm gold UI borders. Soft rich painted shading, clear warm daylight, small cinnabar tassels; crisp detailed silhouettes without noisy texture. Big-headed short-bodied characters with diverse friendly faces. Avoid photorealistic military history, dark wartime skin, shiny toy plastic, muddy blur, dense foliage covering routes, collage, watermark. Full opaque background.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png"
+    ],
+    "transparent_background": false
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "modelTarget": "gpt-image-2.5-sunburst",
+  "qualityTarget": "max"
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T17:13:18.544Z",
+  "currentCandidate": "designs/01-率土之滨/ui/21-map-march-ui-v4.png",
+  "selectedForDirection": true,
+  "actualModel": null,
+  "actualQuality": null,
+  "attempts": [
+    {
+      "file": "designs/01-率土之滨/ui/21-map-march-ui-v2.png",
+      "status": "not_selected_route_geometry_failed",
+      "issues": [
+        "既有多支河流和桥的岸线结构保留后，路线仍从水面接桥，桥面出现双向箭头",
+        "金返回线未真正连到主城，不应视为修复通过"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/21-map-march-ui-v3.png",
+      "status": "actual_edit_source_for_v4_not_current",
+      "issues": [
+        "新两岸单桥场景使绿行军路线正确跨桥，但金返回线继续越过主城朝第一部队延长"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/21-map-march-ui-v4.png",
+      "status": "static_route_visual_review_pass_pending_user_and_gameplay_acceptance",
+      "checks": [
+        "实际查看原生返回：河流分隔两岸，唯一石桥完整接通左右陆路",
+        "绿色路线从第一部队沿干路过桥顶面再沿东岸路进入敌城，桥顶方向一致，无可见踩水段",
+        "金返回路线由要塞南行至主城北侧入口，朝第一部队方向的多余金尾段已移除",
+        "第二部队待命且无起始路线；三行8000/2000、6000/1000、5000/1500与行军/待命/返回示例保持",
+        "顶端道友/敌方城池中文已修，铁矿深灰、石料浅石资源语义保持"
+      ]
+    }
+  ],
+  "guide": {
+    "file": "records/01-率土之滨/reference-contact/march-layout-v3.guide.png",
+    "source": "records/01-率土之滨/reference-contact/march-layout-v3.scene-plan.json",
+    "role": "参考专用几何指引，非程序绘制游戏成品图；最终完整画面均image_gen生成",
+    "registrationLimit": "生成画面沿用两岸/单桥连通拓扑，实际位置并未逐像素吻合guide坐标；不能把guide坐标直接作为最终碰撞/导航数据"
+  },
+  "limitations": [
+    "静态路线视觉检查不证明游戏导航或碰撞通过；没有真实游戏地块/寻路系统",
+    "非标准固定客户端尺寸，v4原生1915x821未重采样",
+    "小队头像仍通用道家匿名角色，跨屏像素级母版复用和五系归属仍需实际组件接入"
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

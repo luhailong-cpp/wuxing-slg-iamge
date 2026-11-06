@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/mapfx-crop-qa-20261027/terrain-row-2-native-light-dark.png",
+  "sha256": "6fbc79edc5718ffe94ed1c9475e790d7163e80b81c86992138d153846b35dc9e",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "purpose": "visual_QA_only_not_runtime_art",
+  "operation": "crop_then_alpha_composite_on_two_constant_QA_backgrounds",
+  "resampled": false,
+  "alphaBackgroundsRGB": [
+    [
+      245,
+      241,
+      230
+    ],
+    [
+      28,
+      38,
+      44
+    ]
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+      "cropBox": [
+        0,
+        400,
+        377,
+        691
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+      "cropBox": [
+        377,
+        400,
+        743,
+        691
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+      "cropBox": [
+        743,
+        400,
+        1077,
+        691
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+      "cropBox": [
+        1077,
+        400,
+        1448,
+        691
+      ]
+    }
+  ],
+  "sourcePixelsUnchangedInRuntimeExports": true,
+  "note": null
+}

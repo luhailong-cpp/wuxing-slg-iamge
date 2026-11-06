@@ -1,0 +1,135 @@
+{
+  "sourceSnapshot": "2026-10-29",
+  "sourceFiles": [
+    {
+      "file": "records/roster-20261029/OFFICIAL_ROSTER_FACTS_20261029.json",
+      "sha256": "ff43cde8aa3ac82caced8b0551bf4478df3d2eec8220b2747575aaf19dc14942"
+    },
+    {
+      "file": "records/roster-20261029/PRODUCTION_IDENTITY_RECONCILIATION_20261029.json",
+      "sha256": "47e24c3113e297f7df64ec6571ced808cec110b210f0bbd4b595cd4167bcca44"
+    },
+    {
+      "file": "records/roster-20261029/CORPUS_COVERAGE_LEDGER_20261029.json",
+      "sha256": "0e4970841e4d8aa975257e9ce32ba687d66b44c1a672a4ed078e0b88c1e43a1c"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/generals-manifest.json",
+      "sha256": "02fbbd7fd455a50f3236c36edef44be4f5721cf019a07a870319e24948b5ce26"
+    },
+    {
+      "file": "exports/01-率土之滨/official-card-art-20261104/card-art-manifest.json",
+      "sha256": "94f627d0b8f16e7325619eb8a5c2abfb199bf168d56606b011255e027a3eab26"
+    }
+  ],
+  "officialConfigSource": {
+    "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+    "finalUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+    "status": 200,
+    "contentType": "application/json",
+    "bytes": 418426,
+    "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+    "observedAt": "2026-10-29T08:12:49.582Z",
+    "elapsedMs": 10996,
+    "role": "Official factual config data"
+  },
+  "officialPublicListPredicate": "name !== \"侍卫\" && is_season_card !== 1 && is_release === 1",
+  "coverage": {
+    "publicList": {
+      "cards": 430,
+      "distinctOfficialDisplayNames": 309,
+      "linkedToCandidateEntity": 430,
+      "linkedToCurrentMaster": 141,
+      "individualMasterIdentitiesRepresented": 75,
+      "cardIdSpecificArtRecords": 2,
+      "nextActions": {
+        "review_or_produce_card_specific_variant": 139,
+        "produce_identity_master_then_review_card_variant": 217,
+        "resolve_card_identity": 26,
+        "define_collective_card_art": 9,
+        "define_generic_unit_card_art": 32,
+        "review_special_card_scope": 3,
+        "resolve_homonym_with_card_specific_evidence": 2,
+        "review_card_specific_art_in_client": 2
+      }
+    },
+    "releaseMarked": {
+      "cards": 642,
+      "distinctOfficialDisplayNames": 314,
+      "linkedToCandidateEntity": 642,
+      "linkedToCurrentMaster": 231,
+      "individualMasterIdentitiesRepresented": 75,
+      "cardIdSpecificArtRecords": 2,
+      "nextActions": {
+        "review_or_produce_card_specific_variant": 229,
+        "produce_identity_master_then_review_card_variant": 284,
+        "resolve_card_identity": 40,
+        "define_collective_card_art": 13,
+        "define_generic_unit_card_art": 68,
+        "review_special_card_scope": 4,
+        "resolve_homonym_with_card_specific_evidence": 2,
+        "review_card_specific_art_in_client": 2
+      }
+    },
+    "unreleased": {
+      "cards": 333,
+      "distinctOfficialDisplayNames": 229,
+      "linkedToCandidateEntity": 194,
+      "linkedToCurrentMaster": 61,
+      "individualMasterIdentitiesRepresented": 38,
+      "cardIdSpecificArtRecords": 0,
+      "nextActions": {
+        "review_or_produce_card_specific_variant": 61,
+        "resolve_card_identity": 5,
+        "unassigned_in_frozen_reconciliation": 139,
+        "produce_identity_master_then_review_card_variant": 126,
+        "define_collective_card_art": 1,
+        "resolve_homonym_with_card_specific_evidence": 1
+      }
+    },
+    "allConfigRecords": {
+      "cards": 975,
+      "distinctOfficialDisplayNames": 431,
+      "linkedToCandidateEntity": 836,
+      "linkedToCurrentMaster": 292,
+      "individualMasterIdentitiesRepresented": 84,
+      "cardIdSpecificArtRecords": 2,
+      "nextActions": {
+        "review_or_produce_card_specific_variant": 290,
+        "produce_identity_master_then_review_card_variant": 410,
+        "resolve_card_identity": 45,
+        "define_collective_card_art": 14,
+        "unassigned_in_frozen_reconciliation": 139,
+        "define_generic_unit_card_art": 68,
+        "resolve_homonym_with_card_specific_evidence": 3,
+        "review_special_card_scope": 4,
+        "review_card_specific_art_in_client": 2
+      }
+    }
+  },
+  "verifiedCurrentMasters": 90,
+  "verifiedCurrentUi": 450,
+  "reconciliationEntities": 560,
+  "reconciliationPersonCandidateKeys": 545,
+  "originalNameCollisionGroups": {
+    "张恭": [
+      "ww-p-a83e61c22534",
+      "ww-p-b48283f7c143",
+      "ww-p-896abbacdf1c"
+    ]
+  },
+  "crossNameIconReferences": 8,
+  "historicalCorpus": {
+    "totalVolumes": 65,
+    "indexEntriesRead": 65,
+    "bodyCensusComplete": 0
+  },
+  "novelCorpus": {
+    "totalChapters": 120,
+    "indexLinksRead": 120,
+    "bodyCensusComplete": 0
+  },
+  "fullRosterComplete": false,
+  "liveRosterCoverageConfirmed": false,
+  "artAcceptanceComplete": false
+}

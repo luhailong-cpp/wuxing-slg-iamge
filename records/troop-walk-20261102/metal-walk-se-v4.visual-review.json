@@ -1,0 +1,23 @@
+{
+  "source": "designs/01-率土之滨/assets/troop-walk-20261102/metal-walk-se-v4.png",
+  "sourceViewed": true,
+  "frameCount": 6,
+  "acceptedForRuntime": false,
+  "passed": [
+    "six complete visibly different cells",
+    "same broad metal identity and equipment handedness"
+  ],
+  "issues": [
+    {
+      "id": "NEAR_FAR_LEAD_NOT_RELIABLY_ALTERNATING",
+      "value": "Frame1 and4 contacts remain substantially similar; lower row does not clearly reverse which hip/leg leads",
+      "threshold": "opposite depth lead between frames1/4,2/5,3/6"
+    },
+    {
+      "id": "SOURCE_SAFE_PADDING_UNDER_PROMPT",
+      "value": "Figure fills more than70percent cell height in several cells",
+      "threshold": "at most70percent;15percent padding all sides"
+    }
+  ],
+  "decision": "one targeted lower-row correction next; no runtime export or walk completion claim"
+}

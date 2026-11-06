@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/deng-ai-bust-native.png",
+  "sha256": "15c34378b0be777db8ca764575491113a1e7fdf133ecc7f858d30968d36e9f7e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png",
+    "sha256": "20d088af568e3e19a56fa2bbfbef3742021b84cbabc599979ad1a9c2f571c1c3",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

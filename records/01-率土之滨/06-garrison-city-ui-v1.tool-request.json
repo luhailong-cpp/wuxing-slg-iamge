@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callPreparedAt": "2026-10-26T11:00:52.897Z",
+  "promptFile": "prompts/01-率土之滨/06-garrison-city-ui-v1.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: One complete landscape game UI direction image, approximately 21:9, native high-detail raster generation.\nPrimary request: Create the military garrison-city management screen titled exactly “戍城” for our original Daoist chibi SLG visual redesign. This is a new single complete screen.\nInput references: Image 1 mail UI and Image 2 team UI are the PRIMARY style authorities: jade green, ivory parchment, fine warm gold, rounded hand-painted panels and character faces. Image 3 is our current strategic world map, for coherent scenery and HUD visual language. Image 4 is architecture/material reference only: curved jade roofs, rounded stone and Daoist ornaments. Do not reproduce their text, screenshots or layouts.\nScene: Bright clean daytime. A medium-large fortified military city fills the left and middle 70% of the canvas in an elevated isometric three-quarter view. Complete continuous gray-blue stone curtain walls, four squat watchtowers, one visible open gate connected to the internal stone road network and the external approach. Inside: spacious drill courtyard, a modest command hall behind the training ground, distinct barracks, armory racks, and a compact horse stable. This is a military garrison city, so organize it around training and defense, not markets, farms or palatial civil administration. Green banners, a few red festival lanterns, tai chi medallion on the command hall, trees placed against walls. A few small friendly chibi soldiers train in pairs. Soft distant mountains and a river outside the walls. Natural light-gray/blue-gray stone ground, rounded clear silhouettes, polished fine hand-painted details. Avoid overcrowding and vegetation on roads.\nComposition: One whole widescreen screen. Slim ivory resource strip at the top. Centered jade-and-gold title plaque reading “戍城”, small decorative tai chi crest. Main illustrated city unobscured. Right 25% ivory parchment panel with thin gold borders, generous spacing and readable dark-green Chinese. Bottom left “返回大地图” secondary button. Small upper-right round close button. Do not put a second title inside the scene.\nRight panel exact short labels and sample text:\n“军事城池”\n“城防”  “稳固”\n“驻军”  “2 / 3”\ntwo compact rows with DIFFERENT chibi portraits:\n“第一部队”  “待命”\n“第二部队”  “训练中”\nOne subtle empty slot text “空闲席位”\nA thin divider then two horizontally aligned controls: primary green “调动” and ivory “征兵”.\nBelow, heading “军事设施”, three compact illustrated small cards labeled “校场” “兵营” “城墙”.\nResource strip only three readable groups: “木材 12.8万” “铁矿 10.6万” “粮草 15.2万”.\nDesign intent: No official game logo or title beyond “戍城”, no assertion of specific official levels. Numbers and text are demo content. Distinct typography hierarchy with legible simple Chinese, crisp silhouettes and thoughtful whitespace.\nStyle: Match the exquisite Daoist Q/chibi hand-painted craft of reference images 1 and 2. Jade green, teal, ivory and restrained warm gold, small cinnabar tassels. Rounded saturated shapes with soft painted shading and moderate metal/jade highlights. Buildings proportionally chunky and approachable, characters large-headed and short-bodied. Clear daylight, no realistic grim warfare, no glossy plastic, no black metallic historic-game skin, no blur, no pasted collage, no dense noisy texture. Full screen edges intact, all UI inside safe margins. Opaque background.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "D:/work/image/qdao_chibi_game_pack_v4/main-city_2560x1080.png"
+    ],
+    "transparent_background": false
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "modelTarget": "gpt-image-2.5-sunburst",
+  "qualityTarget": "max"
+}

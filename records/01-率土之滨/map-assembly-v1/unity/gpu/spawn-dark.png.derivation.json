@@ -1,0 +1,111 @@
+{
+  "schema": "wuxing.image-derivation.v1",
+  "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-dark.png",
+  "sha256": "8d69f8f34ef5302e726b2d68c468aadb4b2ec4383c6f7eac8d44081dba3e5815",
+  "size": [
+    1440,
+    960
+  ],
+  "operation": "actual_Unity_Camera_Render_to_RenderTexture_and_ReadPixels_in_PlayMode",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+      "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92"
+    },
+    {
+      "file": "exports/01-率土之滨/map-assembly-v1/unity/source-index.json",
+      "sha256": "7e2b5144ebd3da488effa402c8ec7191863c37f0ecfc177e45635acaf5abf583"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/actual-playmode-gpu-report.json",
+      "sha256": "82a26c7d81c86f2c8babb83f0687c0344c7f452827d027bb05d5b0b07673746c"
+    }
+  ],
+  "sourcePNGs": [
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "record": "exports/01-率土之滨/map-kit/terrain/grassland.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "record": "exports/01-率土之滨/map-kit/terrain/stone-road.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "record": "exports/01-率土之滨/map-kit/terrain/river-straight.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "record": "exports/01-率土之滨/map-kit/cities/main-city.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "record": "exports/01-率土之滨/map-kit/buildings/bridge.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "record": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "productArt": false,
+  "sourcePNGBytesModified": false,
+  "alphaRange": [
+    255,
+    255
+  ],
+  "background": "dark",
+  "capture": {
+    "checkpoint": "spawn",
+    "background": "dark",
+    "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-dark.png",
+    "sha256": "8d69f8f34ef5302e726b2d68c468aadb4b2ec4383c6f7eac8d44081dba3e5815",
+    "nominalFoot": {
+      "x": 750.0,
+      "y": 372.0
+    },
+    "actualFoot": {
+      "x": 750.0,
+      "y": 372.0
+    },
+    "projectedFoot": {
+      "x": 750.0000610351562,
+      "y": 372.0
+    },
+    "checkpointDistance": 0.0,
+    "unityFrame": 2,
+    "changedPixels": 2263,
+    "changedBBoxTopLeft": [
+      720,
+      307,
+      781,
+      373
+    ],
+    "pivotProjectsToFoot": true,
+    "spriteVisible": true
+  },
+  "unityVersion": "6000.6.0f1",
+  "graphicsDeviceType": "Direct3D11",
+  "graphicsDeviceName": "NVIDIA GeForce RTX 3070 Ti",
+  "camera": {
+    "orthographicSize": 4.8,
+    "target": [
+      1440,
+      960
+    ],
+    "aspect": 1.5,
+    "PPU": 100
+  },
+  "clock": "actual runtime LateUpdate diagnostic callback, Time.captureFramerate60; observer did not set actor Sprite/transform"
+}

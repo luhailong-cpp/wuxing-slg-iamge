@@ -1,0 +1,111 @@
+{
+  "operation": "QA montage of10 actual GPU captures, 8 observed phases + caller clear + late clear; no source sprite rendering or hand frame assignment",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+      "sha256": "76cb7033ec051ce2d2f82f1f8062cee572f840f18170d5b2235c4af975628abe"
+    }
+  ],
+  "displayScale": 0.5,
+  "resizeMethod": "LANCZOS of opaque GPU captures only",
+  "labels": "Actual source game elapsed, not invented phase key times",
+  "localRawInputs": [
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0000.png",
+      "sha256": "33b273e1212992dcd7d284cb63db1c43e47df2bcdc24c1b8b9357c8a42bce653",
+      "published": false,
+      "captureOrdinal": 0,
+      "observedFrameIndex": 0,
+      "gameElapsedSeconds": 0.01666666753590107
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0005.png",
+      "sha256": "7e941238af6548203434aaed002c7a84f2299756712affc5aaebe9c33bffe8ae",
+      "published": false,
+      "captureOrdinal": 5,
+      "observedFrameIndex": 1,
+      "gameElapsedSeconds": 0.10000000086923441
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0012.png",
+      "sha256": "89ac7262901253ab581e5ae7d7cf6cf543a7012ab9043f23798981c01ade0ca5",
+      "published": false,
+      "captureOrdinal": 12,
+      "observedFrameIndex": 2,
+      "gameElapsedSeconds": 0.21666666753590108
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0017.png",
+      "sha256": "3fd9ae6d08a0f90145d7fe359e71ea2232ae4e474c086849e7044fc0879bba3e",
+      "published": false,
+      "captureOrdinal": 17,
+      "observedFrameIndex": 3,
+      "gameElapsedSeconds": 0.3000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0023.png",
+      "sha256": "a72391b1df10f538b8c9a0842c9f1ab0917359e61c918b33ef336770e2dcae7a",
+      "published": false,
+      "captureOrdinal": 23,
+      "observedFrameIndex": 4,
+      "gameElapsedSeconds": 0.4000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0029.png",
+      "sha256": "9119263fef05c950ec5602f5e5b70d80546ccbf3b2d2afa753d2404d240a0dbe",
+      "published": false,
+      "captureOrdinal": 29,
+      "observedFrameIndex": 5,
+      "gameElapsedSeconds": 0.5000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0036.png",
+      "sha256": "40bffd54c5756c1591699fe9f9b0645b72a7e745b3d6ebcb52cc1c50fa295842",
+      "published": false,
+      "captureOrdinal": 36,
+      "observedFrameIndex": 6,
+      "gameElapsedSeconds": 0.616666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0042.png",
+      "sha256": "7361a8075d3a3a65f6eb4ca0cfce9f3a279b4594a6e52a676a1461d51356fa76",
+      "published": false,
+      "captureOrdinal": 42,
+      "observedFrameIndex": 7,
+      "gameElapsedSeconds": 0.716666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0047.png",
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "published": false,
+      "captureOrdinal": 47,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 0.8000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/strategy-array/dark/frame-0059.png",
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "published": false,
+      "captureOrdinal": 59,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 1.0000000008692342
+    }
+  ],
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/montages/strategy-array-dark.png",
+  "sha256": "5076f63287814475bb28da859433c503d96a71f63828eb830a7fc49ab814a1e4",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/cheng-pu-card-full.png",
+  "sha256": "6ccc09f42e4551e8d7a3490c457ed0c35c90e4c9ab760c944f676c9fc4b196ac",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/cheng-pu-master-v1.png",
+    "sha256": "a4bdfb67e6ca3ec082cced1576efa8ae275afc33af242f81dbc3d5757d5140f8",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/cheng-pu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

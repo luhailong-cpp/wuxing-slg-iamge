@@ -1,0 +1,6233 @@
+{
+  "schema": "wuxing-slg.grounded-frame-candidates.v2",
+  "status": "technical_registration_candidate_not_user_or_engine_accepted",
+  "game": "五行问鼎",
+  "character": "troop-earth",
+  "direction": "SE",
+  "userApproved": false,
+  "masterUserApproved": false,
+  "registration": {
+    "file": "records/troop-frames-20261029-r3/earth-registration-measured.json",
+    "sha256": "40a1571fa2c0e75e40e5389d40abb24ecc194dc48fbc3dfa730c096e432b1b91"
+  },
+  "ownershipEvidence": {
+    "file": "records/troop-frames-20261029-r3/fire-earth-registration-ownership-report.json",
+    "sha256": "1a490751410b943a9c84cac48e25cd7e6961d79ee7ffca1bc5dc8afbada1fdd0"
+  },
+  "exporter": {
+    "file": "records/troop-frames-20261029-r3/fire-earth-registration-export.py",
+    "sha256": "9076cf161325d57239ad2e4aef7b8d21bb4923c634225ff101752bc5e3bb3c97"
+  },
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png",
+    "helmetWidth": 523,
+    "helmetX": [
+      443,
+      966
+    ],
+    "groundRoot": [
+      706,
+      1130
+    ],
+    "sha256": "d074b408413ce436484eee21e82ea76da291ff60b78c34600ccddd10dfa971da",
+    "nativeStats": {
+      "size": [
+        1254,
+        1254
+      ],
+      "alphaZero": 1101439,
+      "alphaOne": 7465,
+      "alphaSemi": 470003,
+      "alphaOpaque": 1074,
+      "alphaNonzero": 471077,
+      "alpha0BBox": [
+        0,
+        39,
+        1234,
+        1254
+      ],
+      "alpha16BBox": [
+        170,
+        163,
+        1109,
+        1165
+      ],
+      "alpha16Height": 1002
+    },
+    "normalizedScale": 0.3444976076555024,
+    "normalizedStats": {
+      "size": [
+        1024,
+        1024
+      ],
+      "alphaZero": 991774,
+      "alphaOne": 682,
+      "alphaSemi": 55599,
+      "alphaOpaque": 1203,
+      "alphaNonzero": 56802,
+      "alpha0BBox": [
+        325,
+        433,
+        675,
+        811
+      ],
+      "alpha16BBox": [
+        327,
+        435,
+        651,
+        781
+      ],
+      "alpha16Height": 346
+    },
+    "normalizedReference": {
+      "file": "records/troop-frames-20261029-r3/earth-registration-master-normalized-reference.png",
+      "sha256": "404deb7da0eda97b2ea714c7f75b5798a5cdd78cbf088a0752ff3d275d5f4a16"
+    },
+    "mapStats": {
+      "size": [
+        384,
+        384
+      ],
+      "alphaZero": 139115,
+      "alphaOne": 163,
+      "alphaSemi": 7891,
+      "alphaOpaque": 450,
+      "alphaNonzero": 8341,
+      "alpha0BBox": [
+        121,
+        162,
+        246,
+        304
+      ],
+      "alpha16BBox": [
+        123,
+        164,
+        244,
+        293
+      ],
+      "alpha16Height": 129
+    },
+    "mapReference": {
+      "file": "records/troop-frames-20261029-r3/earth-registration-master-map-reference.png",
+      "sha256": "7aefca2ec113edc0043f57bd0ef63816e17827b1f1af4f69831528b5882dd13d"
+    }
+  },
+  "contract": {
+    "nativeCanvas": [
+      1024,
+      1024
+    ],
+    "nativeRoot": [
+      512,
+      768
+    ],
+    "normalizedCanvas": [
+      1024,
+      1024
+    ],
+    "normalizedRoot": [
+      512,
+      768
+    ],
+    "mapCanvas": [
+      384,
+      384
+    ],
+    "mapRoot": [
+      192,
+      288
+    ],
+    "unityPivot": [
+      0.5,
+      0.25
+    ],
+    "sourcePadding": "owned rectangle padded at 0,0 to one shared square per action; original RGBA preserved",
+    "nativeOperation": "integer translation only, no resizing, no alpha edits",
+    "normalizedOperation": "one uniform scale per action based on neutral rigid helmet width, then integer root translation",
+    "helmetTargetPx": 180,
+    "mapFactorCommonToUnit": 0.3708139277001552,
+    "mapTargetMeaning": "master standing silhouette approximately 128px; poses never individually fitted",
+    "mapOperation": "single premultiplied resize from padded original using actual normalized action scale times common unit map factor; integer root translation",
+    "alphaHygiene": "none",
+    "perFrameFit": false,
+    "resampler": "premultiplied Lanczos",
+    "rootMethod": "manually reviewed boot/knee ROIs; bottom support within each ROI; midpoint rounded to integer; contact slope/stance preserved",
+    "alphaCaveat": "Native contains every original RGBA byte. Downsampling changes samples and quantizes alpha normally; no alpha-floor deletion, component removal, keying or trimming."
+  },
+  "actions": [
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-idle-se-v1.png",
+      "sha256": "078ad81111d12db0456f67ac38fb6859ca760ed186dcffd1c249ec3a00f97b8a",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCanvas": [
+        650,
+        650
+      ],
+      "cuts": {
+        "x": [
+          0,
+          650,
+          1254
+        ],
+        "y": [
+          0,
+          650,
+          1254
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 650,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 650,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "id": "idle",
+      "helmetWidthLandmarks": [
+        230,
+        522
+      ],
+      "helmetWidth": 292,
+      "headMeasureFrame": 1,
+      "loop": true,
+      "durationMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-idle-se-v1.png.generation.json",
+      "sourceRecordSha256": "5064e811ee2da675d67b44fd916171478e575f873ae73e5ad2fc1d62341abb89",
+      "frameCount": 4,
+      "uniformScaleActual": 0.6169230769230769,
+      "normalizedHelmetWidthPx": 180.14153846153846,
+      "mapScaleActual": 0.22923076923076924,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            650,
+            650
+          ],
+          "ownedSize": [
+            650,
+            650
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            83,
+            81,
+            603,
+            624
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                235,
+                537,
+                335,
+                605
+              ],
+              "effectiveRoi": [
+                235,
+                537,
+                335,
+                605
+              ],
+              "point": [
+                272,
+                591
+              ],
+              "bottomClearance": 14
+            },
+            {
+              "manualRoi": [
+                421,
+                567,
+                520,
+                635
+              ],
+              "effectiveRoi": [
+                421,
+                567,
+                520,
+                635
+              ],
+              "point": [
+                477.5,
+                624
+              ],
+              "bottomClearance": 11
+            }
+          ],
+          "groundRootExact": [
+            374.75,
+            607.5
+          ],
+          "groundRootInteger": [
+            375,
+            608
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "2f478740d320b69fac588161bec1ed5b4da1dcbb5faa66bae602359a99c9a727",
+          "sourceCropStats": {
+            "size": [
+              650,
+              650
+            ],
+            "alphaZero": 246374,
+            "alphaOne": 30081,
+            "alphaSemi": 175666,
+            "alphaOpaque": 460,
+            "alphaNonzero": 176126,
+            "alpha0BBox": [
+              0,
+              9,
+              650,
+              650
+            ],
+            "alpha16BBox": [
+              83,
+              81,
+              603,
+              624
+            ],
+            "alpha16Height": 543
+          },
+          "sourcePaddingSize": [
+            650,
+            650
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                650,
+                650
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                137,
+                160,
+                787,
+                810
+              ],
+              "contactPoints": [
+                [
+                  409,
+                  751
+                ],
+                [
+                  614.5,
+                  784
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                401,
+                401
+              ],
+              "scale": 0.6169230769230769,
+              "integerTranslation": [
+                281,
+                393,
+                682,
+                794
+              ],
+              "contactPoints": [
+                [
+                  448.8030769230769,
+                  757.6015384615384
+                ],
+                [
+                  575.5807692307692,
+                  777.96
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                149,
+                149
+              ],
+              "scale": 0.22923076923076924,
+              "integerTranslation": [
+                106,
+                149,
+                255,
+                298
+              ],
+              "contactPoints": [
+                [
+                  168.35076923076923,
+                  284.47538461538466
+                ],
+                [
+                  215.4576923076923,
+                  292.03999999999996
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.25,
+              -0.5
+            ],
+            "normalized1024": [
+              0.1919230769231035,
+              -0.21923076923076223
+            ],
+            "map128h": [
+              -0.09576923076923549,
+              0.25769230769230944
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-01.png",
+              "sha256": "5a86e0704de93e1fe24f302425ac6775d716fe475cf0466e24a87756f0bb1314",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 872450,
+              "alphaOne": 30081,
+              "alphaSemi": 175666,
+              "alphaOpaque": 460,
+              "alphaNonzero": 176126,
+              "alpha0BBox": [
+                137,
+                169,
+                787,
+                810
+              ],
+              "alpha16BBox": [
+                220,
+                241,
+                740,
+                784
+              ],
+              "alpha16Height": 543
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-01.png",
+              "sha256": "2ddb9f1174c2ea31d6b22445f83322c2a015bae423e9edff4b12421ca3c94f8f",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 981745,
+              "alphaOne": 11168,
+              "alphaSemi": 66030,
+              "alphaOpaque": 801,
+              "alphaNonzero": 66831,
+              "alpha0BBox": [
+                281,
+                399,
+                682,
+                794
+              ],
+              "alpha16BBox": [
+                332,
+                443,
+                653,
+                778
+              ],
+              "alpha16Height": 335
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-01.png",
+              "sha256": "4ae9fec91ea43afb071b1b780c4f3d71541cee63f1483b2a2caf061e384e1e1a",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138212,
+              "alphaOne": 1248,
+              "alphaSemi": 8810,
+              "alphaOpaque": 434,
+              "alphaNonzero": 9244,
+              "alpha0BBox": [
+                114,
+                152,
+                255,
+                298
+              ],
+              "alpha16BBox": [
+                125,
+                167,
+                245,
+                292
+              ],
+              "alpha16Height": 125
+            }
+          }
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            650,
+            0,
+            1254,
+            650
+          ],
+          "ownedSize": [
+            604,
+            650
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            48,
+            81,
+            559,
+            624
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                179,
+                536,
+                281,
+                606
+              ],
+              "effectiveRoi": [
+                179,
+                536,
+                281,
+                606
+              ],
+              "point": [
+                223,
+                591
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                379,
+                567,
+                481,
+                635
+              ],
+              "effectiveRoi": [
+                379,
+                567,
+                481,
+                635
+              ],
+              "point": [
+                428,
+                624
+              ],
+              "bottomClearance": 11
+            }
+          ],
+          "groundRootExact": [
+            325.5,
+            607.5
+          ],
+          "groundRootInteger": [
+            326,
+            608
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "1aa4473eb5e91efc168fa442b83b9ea32a214d7a7cffde98764a32e8365662a0",
+          "sourceCropStats": {
+            "size": [
+              604,
+              650
+            ],
+            "alphaZero": 219102,
+            "alphaOne": 27311,
+            "alphaSemi": 173013,
+            "alphaOpaque": 485,
+            "alphaNonzero": 173498,
+            "alpha0BBox": [
+              0,
+              3,
+              588,
+              650
+            ],
+            "alpha16BBox": [
+              48,
+              81,
+              559,
+              624
+            ],
+            "alpha16Height": 543
+          },
+          "sourcePaddingSize": [
+            650,
+            650
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                650,
+                650
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                186,
+                160,
+                836,
+                810
+              ],
+              "contactPoints": [
+                [
+                  409,
+                  751
+                ],
+                [
+                  614,
+                  784
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                401,
+                401
+              ],
+              "scale": 0.6169230769230769,
+              "integerTranslation": [
+                311,
+                393,
+                712,
+                794
+              ],
+              "contactPoints": [
+                [
+                  448.57384615384615,
+                  757.6015384615384
+                ],
+                [
+                  575.0430769230769,
+                  777.96
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                149,
+                149
+              ],
+              "scale": 0.22923076923076924,
+              "integerTranslation": [
+                117,
+                149,
+                266,
+                298
+              ],
+              "contactPoints": [
+                [
+                  168.11846153846153,
+                  284.47538461538466
+                ],
+                [
+                  215.11076923076922,
+                  292.03999999999996
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.5,
+              -0.5
+            ],
+            "normalized1024": [
+              -0.19153846153847098,
+              -0.21923076923076223
+            ],
+            "map128h": [
+              -0.38538461538462343,
+              0.25769230769230944
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-02.png",
+              "sha256": "e221b37d73333a4b8a09c39c61f61260c3726edc36575a638070440cc9a68a38",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 875078,
+              "alphaOne": 27311,
+              "alphaSemi": 173013,
+              "alphaOpaque": 485,
+              "alphaNonzero": 173498,
+              "alpha0BBox": [
+                186,
+                163,
+                774,
+                810
+              ],
+              "alpha16BBox": [
+                234,
+                241,
+                745,
+                784
+              ],
+              "alpha16Height": 543
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-02.png",
+              "sha256": "3ec534e489de9c1781bc2cb16597b09b71489b1ee893c4c49ee14d47de297545",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 982692,
+              "alphaOne": 10131,
+              "alphaSemi": 65145,
+              "alphaOpaque": 739,
+              "alphaNonzero": 65884,
+              "alpha0BBox": [
+                311,
+                402,
+                674,
+                794
+              ],
+              "alpha16BBox": [
+                340,
+                443,
+                656,
+                778
+              ],
+              "alpha16Height": 335
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-02.png",
+              "sha256": "fa81e5ed11bf0444208b6e71f53003f6f994649ea7049c6653678f8a7699aed9",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138276,
+              "alphaOne": 1146,
+              "alphaSemi": 8762,
+              "alphaOpaque": 418,
+              "alphaNonzero": 9180,
+              "alpha0BBox": [
+                117,
+                153,
+                249,
+                298
+              ],
+              "alpha16BBox": [
+                128,
+                167,
+                246,
+                292
+              ],
+              "alpha16Height": 125
+            }
+          }
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            650,
+            650,
+            1254
+          ],
+          "ownedSize": [
+            650,
+            604
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            86,
+            36,
+            598,
+            569
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                232,
+                486,
+                337,
+                550
+              ],
+              "effectiveRoi": [
+                232,
+                486,
+                337,
+                550
+              ],
+              "point": [
+                273,
+                536
+              ],
+              "bottomClearance": 14
+            },
+            {
+              "manualRoi": [
+                419,
+                513,
+                519,
+                577
+              ],
+              "effectiveRoi": [
+                419,
+                513,
+                519,
+                577
+              ],
+              "point": [
+                477,
+                569
+              ],
+              "bottomClearance": 8
+            }
+          ],
+          "groundRootExact": [
+            375,
+            552.5
+          ],
+          "groundRootInteger": [
+            375,
+            553
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "56339ae3a74cdce63545b67e45e3ce3f4cd69ab8631ac1ac04570627e11eff55",
+          "sourceCropStats": {
+            "size": [
+              650,
+              604
+            ],
+            "alphaZero": 217689,
+            "alphaOne": 33400,
+            "alphaSemi": 174402,
+            "alphaOpaque": 509,
+            "alphaNonzero": 174911,
+            "alpha0BBox": [
+              0,
+              0,
+              650,
+              604
+            ],
+            "alpha16BBox": [
+              86,
+              36,
+              598,
+              569
+            ],
+            "alpha16Height": 533
+          },
+          "sourcePaddingSize": [
+            650,
+            650
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                650,
+                650
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                137,
+                215,
+                787,
+                865
+              ],
+              "contactPoints": [
+                [
+                  410,
+                  751
+                ],
+                [
+                  614,
+                  784
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                401,
+                401
+              ],
+              "scale": 0.6169230769230769,
+              "integerTranslation": [
+                281,
+                427,
+                682,
+                828
+              ],
+              "contactPoints": [
+                [
+                  449.41999999999996,
+                  757.6707692307692
+                ],
+                [
+                  575.2723076923077,
+                  778.0292307692307
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                149,
+                149
+              ],
+              "scale": 0.22923076923076924,
+              "integerTranslation": [
+                106,
+                161,
+                255,
+                310
+              ],
+              "contactPoints": [
+                [
+                  168.58,
+                  283.8676923076923
+                ],
+                [
+                  215.34307692307692,
+                  291.4323076923077
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0,
+              -0.5
+            ],
+            "normalized1024": [
+              0.3461538461538112,
+              -0.15000000000009095
+            ],
+            "map128h": [
+              -0.03846153846154721,
+              -0.35000000000002274
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-03.png",
+              "sha256": "fb080d4dddc9eb10d354b2fb03723b5646fb98595617e34ac6cf51ad7a4bd2f4",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 873665,
+              "alphaOne": 33400,
+              "alphaSemi": 174402,
+              "alphaOpaque": 509,
+              "alphaNonzero": 174911,
+              "alpha0BBox": [
+                137,
+                215,
+                787,
+                819
+              ],
+              "alpha16BBox": [
+                223,
+                251,
+                735,
+                784
+              ],
+              "alpha16Height": 533
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-03.png",
+              "sha256": "5384e1a56877e6a49446780923942f3ea5835b400c0f4541447bdf74c246100d",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 982090,
+              "alphaOne": 12516,
+              "alphaSemi": 65716,
+              "alphaOpaque": 770,
+              "alphaNonzero": 66486,
+              "alpha0BBox": [
+                281,
+                427,
+                682,
+                800
+              ],
+              "alpha16BBox": [
+                334,
+                449,
+                650,
+                778
+              ],
+              "alpha16Height": 329
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-03.png",
+              "sha256": "a346ac3c7b6e351cea17364b2d3191ba4b0da31ad1e9637580da28a6fda5e604",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138159,
+              "alphaOne": 1521,
+              "alphaSemi": 8880,
+              "alphaOpaque": 417,
+              "alphaNonzero": 9297,
+              "alpha0BBox": [
+                111,
+                161,
+                255,
+                295
+              ],
+              "alpha16BBox": [
+                125,
+                169,
+                244,
+                292
+              ],
+              "alpha16Height": 123
+            }
+          }
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            650,
+            650,
+            1254,
+            1254
+          ],
+          "ownedSize": [
+            604,
+            604
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            40,
+            40,
+            556,
+            573
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                179,
+                486,
+                282,
+                552
+              ],
+              "effectiveRoi": [
+                179,
+                486,
+                282,
+                552
+              ],
+              "point": [
+                224.5,
+                541
+              ],
+              "bottomClearance": 11
+            },
+            {
+              "manualRoi": [
+                379,
+                519,
+                481,
+                581
+              ],
+              "effectiveRoi": [
+                379,
+                519,
+                481,
+                581
+              ],
+              "point": [
+                429,
+                573
+              ],
+              "bottomClearance": 8
+            }
+          ],
+          "groundRootExact": [
+            326.75,
+            557
+          ],
+          "groundRootInteger": [
+            327,
+            557
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250,
+          "sourceCropRgbaSha256": "21548326d55c2e97397dafe1e820b811acade4f1becab4b3e84fd26c58d420a1",
+          "sourceCropStats": {
+            "size": [
+              604,
+              604
+            ],
+            "alphaZero": 188850,
+            "alphaOne": 32277,
+            "alphaSemi": 175481,
+            "alphaOpaque": 485,
+            "alphaNonzero": 175966,
+            "alpha0BBox": [
+              0,
+              0,
+              598,
+              604
+            ],
+            "alpha16BBox": [
+              40,
+              40,
+              556,
+              573
+            ],
+            "alpha16Height": 533
+          },
+          "sourcePaddingSize": [
+            650,
+            650
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                650,
+                650
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                185,
+                211,
+                835,
+                861
+              ],
+              "contactPoints": [
+                [
+                  409.5,
+                  752
+                ],
+                [
+                  614,
+                  784
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                401,
+                401
+              ],
+              "scale": 0.6169230769230769,
+              "integerTranslation": [
+                310,
+                424,
+                711,
+                825
+              ],
+              "contactPoints": [
+                [
+                  448.49923076923073,
+                  757.7553846153846
+                ],
+                [
+                  574.66,
+                  777.496923076923
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                650,
+                650
+              ],
+              "resizedSize": [
+                149,
+                149
+              ],
+              "scale": 0.22923076923076924,
+              "integerTranslation": [
+                117,
+                160,
+                266,
+                309
+              ],
+              "contactPoints": [
+                [
+                  168.4623076923077,
+                  284.01384615384615
+                ],
+                [
+                  215.34,
+                  291.34923076923076
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.25,
+              0
+            ],
+            "normalized1024": [
+              -0.42038461538464844,
+              -0.3738461538462161
+            ],
+            "map128h": [
+              -0.09884615384615358,
+              -0.3184615384615199
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/native1024/idle-04.png",
+              "sha256": "5e7a4703090f5119a93e24470a7cf3fd8add19ede34e8807209259e439414c87",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 872610,
+              "alphaOne": 32277,
+              "alphaSemi": 175481,
+              "alphaOpaque": 485,
+              "alphaNonzero": 175966,
+              "alpha0BBox": [
+                185,
+                211,
+                783,
+                815
+              ],
+              "alpha16BBox": [
+                225,
+                251,
+                741,
+                784
+              ],
+              "alpha16Height": 533
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/normalized1024/idle-04.png",
+              "sha256": "12496ad5cdc709f573197c1bd4b13a41b6626ae9e8646e16ccb7d652aba0e2d7",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 981737,
+              "alphaOne": 12010,
+              "alphaSemi": 66043,
+              "alphaOpaque": 796,
+              "alphaNonzero": 66839,
+              "alpha0BBox": [
+                310,
+                424,
+                679,
+                797
+              ],
+              "alpha16BBox": [
+                334,
+                448,
+                653,
+                778
+              ],
+              "alpha16Height": 330
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/idle/map128h/idle-04.png",
+              "sha256": "414a6e98c31e1afc916b77a320de291344aae9ecaddbc595cf6c8741fe687426",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138083,
+              "alphaOne": 1485,
+              "alphaSemi": 8957,
+              "alphaOpaque": 416,
+              "alphaNonzero": 9373,
+              "alpha0BBox": [
+                117,
+                160,
+                250,
+                294
+              ],
+              "alpha16BBox": [
+                126,
+                169,
+                245,
+                292
+              ],
+              "alpha16Height": 123
+            }
+          }
+        }
+      ],
+      "technicalChecks": {
+        "sourceReconstructionExactRGBA": true,
+        "sourceOwnershipExactlyOnce": true,
+        "allNativeExactRGBA": true,
+        "allSourceRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maxNormalizedRootErrorPx": 0.42038461538464844
+      },
+      "visualStatus": "reviewed_registration_candidate",
+      "visualConclusion": "Ownership and grounded midpoint accepted as technical candidate; original stance/proportion changes retained."
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-attack-se-v1.png",
+      "sha256": "cd0da5d4697cf7ea4ba3a1ee313c4cd824005095bc2035f184cf5080f7318dfe",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceCanvas": [
+        553,
+        553
+      ],
+      "cuts": {
+        "x": [
+          0,
+          553,
+          1040,
+          1536
+        ],
+        "y": [
+          0,
+          520,
+          1024
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 520,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 553,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 1040,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "id": "attack",
+      "helmetWidthLandmarks": [
+        188,
+        421
+      ],
+      "helmetWidth": 233,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-attack-se-v1.png.generation.json",
+      "sourceRecordSha256": "8f4c86717c70bf1afc6a0f049542aa1e69462fc94a7b439b6ba65fc0a6fbc03f",
+      "frameCount": 6,
+      "uniformScaleActual": 0.7721518987341772,
+      "normalizedHelmetWidthPx": 179.91139240506328,
+      "mapScaleActual": 0.2857142857142857,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            553,
+            520
+          ],
+          "ownedSize": [
+            553,
+            520
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            67,
+            63,
+            487,
+            505
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                184,
+                437,
+                265,
+                492
+              ],
+              "effectiveRoi": [
+                184,
+                437,
+                265,
+                492
+              ],
+              "point": [
+                213,
+                479
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                344,
+                459,
+                426,
+                517
+              ],
+              "effectiveRoi": [
+                344,
+                459,
+                426,
+                517
+              ],
+              "point": [
+                391.5,
+                505
+              ],
+              "bottomClearance": 12
+            }
+          ],
+          "groundRootExact": [
+            302.25,
+            492
+          ],
+          "groundRootInteger": [
+            302,
+            492
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "8b4196bd14495fbafa299f8891eed6b74f1f60a1801cddbd561eb624b471f4d5",
+          "sourceCropStats": {
+            "size": [
+              553,
+              520
+            ],
+            "alphaZero": 175145,
+            "alphaOne": 13811,
+            "alphaSemi": 112415,
+            "alphaOpaque": 0,
+            "alphaNonzero": 112415,
+            "alpha0BBox": [
+              0,
+              8,
+              552,
+              520
+            ],
+            "alpha16BBox": [
+              67,
+              63,
+              487,
+              505
+            ],
+            "alpha16Height": 442
+          },
+          "sourcePaddingSize": [
+            553,
+            553
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                553,
+                553
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                210,
+                276,
+                763,
+                829
+              ],
+              "contactPoints": [
+                [
+                  423,
+                  755
+                ],
+                [
+                  601.5,
+                  781
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                427,
+                427
+              ],
+              "scale": 0.7721518987341772,
+              "integerTranslation": [
+                279,
+                388,
+                706,
+                815
+              ],
+              "contactPoints": [
+                [
+                  443.46835443037975,
+                  757.8607594936709
+                ],
+                [
+                  581.2974683544304,
+                  777.9367088607595
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                158,
+                158
+              ],
+              "scale": 0.2857142857142857,
+              "integerTranslation": [
+                106,
+                147,
+                264,
+                305
+              ],
+              "contactPoints": [
+                [
+                  166.85714285714286,
+                  283.8571428571429
+                ],
+                [
+                  217.85714285714283,
+                  291.2857142857143
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              0
+            ],
+            "normalized1024": [
+              0.3829113924050489,
+              -0.1012658227848533
+            ],
+            "map128h": [
+              0.3571428571428328,
+              -0.4285714285714448
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-01.png",
+              "sha256": "7d707f1416bd765f6d36b8cb67a3b59cde1e45e5eb85c017936e227f5891ee3b",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 936161,
+              "alphaOne": 13811,
+              "alphaSemi": 112415,
+              "alphaOpaque": 0,
+              "alphaNonzero": 112415,
+              "alpha0BBox": [
+                210,
+                284,
+                762,
+                796
+              ],
+              "alpha16BBox": [
+                277,
+                339,
+                697,
+                781
+              ],
+              "alpha16Height": 442
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-01.png",
+              "sha256": "bf3e9087636fb28cc10cc28e023bd4ccab46f8f0a72efa5813bbcf8cbfe0bb79",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 981758,
+              "alphaOne": 8131,
+              "alphaSemi": 66443,
+              "alphaOpaque": 375,
+              "alphaNonzero": 66818,
+              "alpha0BBox": [
+                279,
+                394,
+                705,
+                790
+              ],
+              "alpha16BBox": [
+                331,
+                437,
+                655,
+                778
+              ],
+              "alpha16Height": 341
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-01.png",
+              "sha256": "0ab7e5b5d3dbbb7674b02966978220dc973a559d5588b9c3cf8f0de804b09032",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138360,
+              "alphaOne": 757,
+              "alphaSemi": 8687,
+              "alphaOpaque": 409,
+              "alphaNonzero": 9096,
+              "alpha0BBox": [
+                106,
+                154,
+                263,
+                296
+              ],
+              "alpha16BBox": [
+                125,
+                165,
+                245,
+                292
+              ],
+              "alpha16Height": 127
+            }
+          }
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            553,
+            0,
+            1040,
+            520
+          ],
+          "ownedSize": [
+            487,
+            520
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            30,
+            44,
+            430,
+            506
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                114,
+                440,
+                199,
+                500
+              ],
+              "effectiveRoi": [
+                114,
+                440,
+                199,
+                500
+              ],
+              "point": [
+                144,
+                485
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                296,
+                459,
+                378,
+                517
+              ],
+              "effectiveRoi": [
+                296,
+                459,
+                378,
+                517
+              ],
+              "point": [
+                342,
+                506
+              ],
+              "bottomClearance": 11
+            }
+          ],
+          "groundRootExact": [
+            243,
+            495.5
+          ],
+          "groundRootInteger": [
+            243,
+            496
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "5c5d47acdb1e90f3bcd2011e003f3dd73256b87b3d211448670f96f74db12520",
+          "sourceCropStats": {
+            "size": [
+              487,
+              520
+            ],
+            "alphaZero": 141985,
+            "alphaOne": 10082,
+            "alphaSemi": 111255,
+            "alphaOpaque": 0,
+            "alphaNonzero": 111255,
+            "alpha0BBox": [
+              0,
+              9,
+              487,
+              520
+            ],
+            "alpha16BBox": [
+              30,
+              44,
+              430,
+              506
+            ],
+            "alpha16Height": 462
+          },
+          "sourcePaddingSize": [
+            553,
+            553
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                553,
+                553
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                269,
+                272,
+                822,
+                825
+              ],
+              "contactPoints": [
+                [
+                  413,
+                  757
+                ],
+                [
+                  611,
+                  778
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                427,
+                427
+              ],
+              "scale": 0.7721518987341772,
+              "integerTranslation": [
+                324,
+                385,
+                751,
+                812
+              ],
+              "contactPoints": [
+                [
+                  435.1898734177215,
+                  759.493670886076
+                ],
+                [
+                  588.0759493670886,
+                  775.7088607594937
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                158,
+                158
+              ],
+              "scale": 0.2857142857142857,
+              "integerTranslation": [
+                123,
+                146,
+                281,
+                304
+              ],
+              "contactPoints": [
+                [
+                  164.14285714285714,
+                  284.57142857142856
+                ],
+                [
+                  220.71428571428572,
+                  290.57142857142856
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0,
+              -0.5
+            ],
+            "normalized1024": [
+              -0.3670886075949511,
+              -0.3987341772151467
+            ],
+            "map128h": [
+              0.4285714285714448,
+              -0.4285714285714448
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-02.png",
+              "sha256": "5be6f0c88d443875c74f023f12bef94114743d280dd17b9e2890a5f98a4099c4",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 937321,
+              "alphaOne": 10082,
+              "alphaSemi": 111255,
+              "alphaOpaque": 0,
+              "alphaNonzero": 111255,
+              "alpha0BBox": [
+                269,
+                281,
+                756,
+                792
+              ],
+              "alpha16BBox": [
+                299,
+                316,
+                699,
+                778
+              ],
+              "alpha16Height": 462
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-02.png",
+              "sha256": "6bd132a6794f1de66903f7e6dbc3bb31ead6f5f1f36b12d19592b7c264620a3c",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 982586,
+              "alphaOne": 5746,
+              "alphaSemi": 65676,
+              "alphaOpaque": 314,
+              "alphaNonzero": 65990,
+              "alpha0BBox": [
+                324,
+                392,
+                700,
+                787
+              ],
+              "alpha16BBox": [
+                347,
+                419,
+                656,
+                776
+              ],
+              "alpha16Height": 357
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-02.png",
+              "sha256": "8dc14655daf0df935a544be3088b24b4b15ab13713e4463adcb0eecc57881c03",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138361,
+              "alphaOne": 504,
+              "alphaSemi": 8691,
+              "alphaOpaque": 404,
+              "alphaNonzero": 9095,
+              "alpha0BBox": [
+                123,
+                151,
+                262,
+                295
+              ],
+              "alpha16BBox": [
+                131,
+                158,
+                246,
+                291
+              ],
+              "alpha16Height": 133
+            }
+          }
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1040,
+            0,
+            1536,
+            520
+          ],
+          "ownedSize": [
+            496,
+            520
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            2,
+            76,
+            472,
+            506
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                130,
+                440,
+                218,
+                500
+              ],
+              "effectiveRoi": [
+                130,
+                440,
+                218,
+                500
+              ],
+              "point": [
+                160.5,
+                487
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                348,
+                459,
+                425,
+                518
+              ],
+              "effectiveRoi": [
+                348,
+                459,
+                425,
+                518
+              ],
+              "point": [
+                388,
+                506
+              ],
+              "bottomClearance": 12
+            }
+          ],
+          "groundRootExact": [
+            274.25,
+            496.5
+          ],
+          "groundRootInteger": [
+            274,
+            497
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "7785a3b41771b250130dedc4fbf2cb4c4cd2f3816ae6e7ef373864be5d63a5e3",
+          "sourceCropStats": {
+            "size": [
+              496,
+              520
+            ],
+            "alphaZero": 138909,
+            "alphaOne": 12717,
+            "alphaSemi": 119011,
+            "alphaOpaque": 0,
+            "alphaNonzero": 119011,
+            "alpha0BBox": [
+              0,
+              13,
+              482,
+              520
+            ],
+            "alpha16BBox": [
+              2,
+              76,
+              472,
+              506
+            ],
+            "alpha16Height": 430
+          },
+          "sourcePaddingSize": [
+            553,
+            553
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                553,
+                553
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                238,
+                271,
+                791,
+                824
+              ],
+              "contactPoints": [
+                [
+                  398.5,
+                  758
+                ],
+                [
+                  626,
+                  777
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                427,
+                427
+              ],
+              "scale": 0.7721518987341772,
+              "integerTranslation": [
+                300,
+                384,
+                727,
+                811
+              ],
+              "contactPoints": [
+                [
+                  423.93037974683546,
+                  760.0379746835442
+                ],
+                [
+                  599.5949367088608,
+                  774.7088607594937
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                158,
+                158
+              ],
+              "scale": 0.2857142857142857,
+              "integerTranslation": [
+                114,
+                146,
+                272,
+                304
+              ],
+              "contactPoints": [
+                [
+                  159.85714285714286,
+                  285.1428571428571
+                ],
+                [
+                  224.85714285714283,
+                  290.57142857142856
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              -0.5
+            ],
+            "normalized1024": [
+              -0.23734177215186492,
+              -0.6265822784810098
+            ],
+            "map128h": [
+              0.3571428571428328,
+              -0.14285714285716722
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-03.png",
+              "sha256": "17523f1134cfb2aa6e4ed540c3c42cf3f2bb950fb17bc726f225841d03f24637",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 929565,
+              "alphaOne": 12717,
+              "alphaSemi": 119011,
+              "alphaOpaque": 0,
+              "alphaNonzero": 119011,
+              "alpha0BBox": [
+                238,
+                284,
+                720,
+                791
+              ],
+              "alpha16BBox": [
+                240,
+                347,
+                710,
+                777
+              ],
+              "alpha16Height": 430
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-03.png",
+              "sha256": "56b3276fdb9cd1980f8585fd78cdfb99bd4f95c790e03bd7f8a63fdb87da276f",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 977918,
+              "alphaOne": 7416,
+              "alphaSemi": 70331,
+              "alphaOpaque": 327,
+              "alphaNonzero": 70658,
+              "alpha0BBox": [
+                300,
+                394,
+                672,
+                786
+              ],
+              "alpha16BBox": [
+                301,
+                443,
+                664,
+                775
+              ],
+              "alpha16Height": 332
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-03.png",
+              "sha256": "b59826b618184b5e75f58d9c6406dd55265e365a7b3ba9fb016be4d3075f1317",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 137774,
+              "alphaOne": 720,
+              "alphaSemi": 9270,
+              "alphaOpaque": 412,
+              "alphaNonzero": 9682,
+              "alpha0BBox": [
+                114,
+                150,
+                251,
+                295
+              ],
+              "alpha16BBox": [
+                114,
+                167,
+                249,
+                291
+              ],
+              "alpha16Height": 124
+            }
+          }
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            520,
+            553,
+            1024
+          ],
+          "ownedSize": [
+            553,
+            504
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            41,
+            31,
+            547,
+            443
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                158,
+                395,
+                247,
+                455
+              ],
+              "effectiveRoi": [
+                158,
+                395,
+                247,
+                455
+              ],
+              "point": [
+                191.5,
+                443
+              ],
+              "bottomClearance": 12
+            },
+            {
+              "manualRoi": [
+                443,
+                384,
+                531,
+                443
+              ],
+              "effectiveRoi": [
+                443,
+                384,
+                531,
+                443
+              ],
+              "point": [
+                495,
+                436
+              ],
+              "bottomClearance": 7
+            }
+          ],
+          "groundRootExact": [
+            343.25,
+            439.5
+          ],
+          "groundRootInteger": [
+            343,
+            440
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 70,
+          "sourceCropRgbaSha256": "a3e259ed468edd91e813cb797d1289ef30a350700574eb735b06f53f80784544",
+          "sourceCropStats": {
+            "size": [
+              553,
+              504
+            ],
+            "alphaZero": 151955,
+            "alphaOne": 13925,
+            "alphaSemi": 126757,
+            "alphaOpaque": 0,
+            "alphaNonzero": 126757,
+            "alpha0BBox": [
+              0,
+              0,
+              553,
+              488
+            ],
+            "alpha16BBox": [
+              41,
+              31,
+              547,
+              443
+            ],
+            "alpha16Height": 412
+          },
+          "sourcePaddingSize": [
+            553,
+            553
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                553,
+                553
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                169,
+                328,
+                722,
+                881
+              ],
+              "contactPoints": [
+                [
+                  360.5,
+                  771
+                ],
+                [
+                  664,
+                  764
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                427,
+                427
+              ],
+              "scale": 0.7721518987341772,
+              "integerTranslation": [
+                247,
+                428,
+                674,
+                855
+              ],
+              "contactPoints": [
+                [
+                  394.86708860759495,
+                  770.0632911392405
+                ],
+                [
+                  629.2151898734178,
+                  764.6582278481012
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                158,
+                158
+              ],
+              "scale": 0.2857142857142857,
+              "integerTranslation": [
+                94,
+                162,
+                252,
+                320
+              ],
+              "contactPoints": [
+                [
+                  148.71428571428572,
+                  288.57142857142856
+                ],
+                [
+                  235.42857142857142,
+                  286.57142857142856
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              -0.5
+            ],
+            "normalized1024": [
+              0.04113924050636797,
+              -0.639240506329088
+            ],
+            "map128h": [
+              0.07142857142855519,
+              -0.4285714285714448
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-04.png",
+              "sha256": "8a2b5de9701b67a186cdbd0e94671efa56f1930607345613d1bd57080675f735",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 921819,
+              "alphaOne": 13925,
+              "alphaSemi": 126757,
+              "alphaOpaque": 0,
+              "alphaNonzero": 126757,
+              "alpha0BBox": [
+                169,
+                328,
+                722,
+                816
+              ],
+              "alpha16BBox": [
+                210,
+                359,
+                716,
+                771
+              ],
+              "alpha16Height": 412
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-04.png",
+              "sha256": "24719bddcce6ed16ecb7c2cc669b874428f9997bbcc0921caf4c8436ae7788c3",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 973376,
+              "alphaOne": 8099,
+              "alphaSemi": 74843,
+              "alphaOpaque": 357,
+              "alphaNonzero": 75200,
+              "alpha0BBox": [
+                247,
+                428,
+                674,
+                805
+              ],
+              "alpha16BBox": [
+                278,
+                452,
+                670,
+                770
+              ],
+              "alpha16Height": 318
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-04.png",
+              "sha256": "5ecfe04feda29955270c92b9bde80e6ecc264998b83c6ee8108cc66f9d1252b5",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 137147,
+              "alphaOne": 810,
+              "alphaSemi": 9880,
+              "alphaOpaque": 429,
+              "alphaNonzero": 10309,
+              "alpha0BBox": [
+                94,
+                162,
+                252,
+                291
+              ],
+              "alpha16BBox": [
+                105,
+                171,
+                251,
+                289
+              ],
+              "alpha16Height": 118
+            }
+          }
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            553,
+            520,
+            1040,
+            1024
+          ],
+          "ownedSize": [
+            487,
+            504
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            6,
+            62,
+            473,
+            458
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                139,
+                376,
+                234,
+                439
+              ],
+              "effectiveRoi": [
+                139,
+                376,
+                234,
+                439
+              ],
+              "point": [
+                175,
+                435
+              ],
+              "bottomClearance": 4
+            },
+            {
+              "manualRoi": [
+                379,
+                391,
+                465,
+                455
+              ],
+              "effectiveRoi": [
+                379,
+                391,
+                465,
+                455
+              ],
+              "point": [
+                424,
+                445
+              ],
+              "bottomClearance": 10
+            }
+          ],
+          "groundRootExact": [
+            299.5,
+            440
+          ],
+          "groundRootInteger": [
+            300,
+            440
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "0904248734b104520752d2e27e905f7fd91c4494a0f2419fd0bc874ff776289b",
+          "sourceCropStats": {
+            "size": [
+              487,
+              504
+            ],
+            "alphaZero": 134732,
+            "alphaOne": 11161,
+            "alphaSemi": 110716,
+            "alphaOpaque": 0,
+            "alphaNonzero": 110716,
+            "alpha0BBox": [
+              0,
+              0,
+              487,
+              504
+            ],
+            "alpha16BBox": [
+              6,
+              62,
+              473,
+              458
+            ],
+            "alpha16Height": 396
+          },
+          "sourcePaddingSize": [
+            553,
+            553
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                553,
+                553
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                212,
+                328,
+                765,
+                881
+              ],
+              "contactPoints": [
+                [
+                  387,
+                  763
+                ],
+                [
+                  636,
+                  773
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                427,
+                427
+              ],
+              "scale": 0.7721518987341772,
+              "integerTranslation": [
+                280,
+                428,
+                707,
+                855
+              ],
+              "contactPoints": [
+                [
+                  415.126582278481,
+                  763.8860759493671
+                ],
+                [
+                  607.3924050632911,
+                  771.6075949367089
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                158,
+                158
+              ],
+              "scale": 0.2857142857142857,
+              "integerTranslation": [
+                106,
+                162,
+                264,
+                320
+              ],
+              "contactPoints": [
+                [
+                  156,
+                  286.2857142857143
+                ],
+                [
+                  227.14285714285714,
+                  289.1428571428571
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.5,
+              0
+            ],
+            "normalized1024": [
+              -0.7405063291139413,
+              -0.25316455696201956
+            ],
+            "map128h": [
+              -0.4285714285714448,
+              -0.28571428571433444
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-05.png",
+              "sha256": "4393f43ffcddf3b628157a2c8f6060fb08fb07f23b7ced4436c86516e227ecb5",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 937860,
+              "alphaOne": 11161,
+              "alphaSemi": 110716,
+              "alphaOpaque": 0,
+              "alphaNonzero": 110716,
+              "alpha0BBox": [
+                212,
+                328,
+                699,
+                832
+              ],
+              "alpha16BBox": [
+                218,
+                390,
+                685,
+                786
+              ],
+              "alpha16Height": 396
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-05.png",
+              "sha256": "ae7e6ec7fa3fdd5dc8fd72320ef793462261f3ffb41436017345c8371a664d11",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 982850,
+              "alphaOne": 6407,
+              "alphaSemi": 65376,
+              "alphaOpaque": 350,
+              "alphaNonzero": 65726,
+              "alpha0BBox": [
+                280,
+                428,
+                656,
+                817
+              ],
+              "alpha16BBox": [
+                284,
+                476,
+                645,
+                782
+              ],
+              "alpha16Height": 306
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-05.png",
+              "sha256": "be130c9d3c14f845706baa20e5d9946279ce40d9ad567080a8a5ecbdd3f5b79f",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138331,
+              "alphaOne": 673,
+              "alphaSemi": 8763,
+              "alphaOpaque": 362,
+              "alphaNonzero": 9125,
+              "alpha0BBox": [
+                106,
+                162,
+                244,
+                298
+              ],
+              "alpha16BBox": [
+                107,
+                179,
+                241,
+                293
+              ],
+              "alpha16Height": 114
+            }
+          }
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1040,
+            520,
+            1536,
+            1024
+          ],
+          "ownedSize": [
+            496,
+            504
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            15,
+            15,
+            433,
+            459
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                129,
+                385,
+                221,
+                446
+              ],
+              "effectiveRoi": [
+                129,
+                385,
+                221,
+                446
+              ],
+              "point": [
+                161,
+                433
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                294,
+                407,
+                378,
+                471
+              ],
+              "effectiveRoi": [
+                294,
+                407,
+                378,
+                471
+              ],
+              "point": [
+                339.5,
+                459
+              ],
+              "bottomClearance": 12
+            }
+          ],
+          "groundRootExact": [
+            250.25,
+            446
+          ],
+          "groundRootInteger": [
+            250,
+            446
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 160,
+          "sourceCropRgbaSha256": "a4de04033bfff347ae62e91300e3d7976ccd9bc429fd3008b8750f8625af8072",
+          "sourceCropStats": {
+            "size": [
+              496,
+              504
+            ],
+            "alphaZero": 139116,
+            "alphaOne": 11376,
+            "alphaSemi": 110868,
+            "alphaOpaque": 0,
+            "alphaNonzero": 110868,
+            "alpha0BBox": [
+              0,
+              0,
+              482,
+              504
+            ],
+            "alpha16BBox": [
+              15,
+              15,
+              433,
+              459
+            ],
+            "alpha16Height": 444
+          },
+          "sourcePaddingSize": [
+            553,
+            553
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                553,
+                553
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                262,
+                322,
+                815,
+                875
+              ],
+              "contactPoints": [
+                [
+                  423,
+                  755
+                ],
+                [
+                  601.5,
+                  781
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                427,
+                427
+              ],
+              "scale": 0.7721518987341772,
+              "integerTranslation": [
+                319,
+                424,
+                746,
+                851
+              ],
+              "contactPoints": [
+                [
+                  443.3164556962025,
+                  758.3417721518988
+                ],
+                [
+                  581.1455696202531,
+                  778.4177215189873
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                553,
+                553
+              ],
+              "resizedSize": [
+                158,
+                158
+              ],
+              "scale": 0.2857142857142857,
+              "integerTranslation": [
+                121,
+                161,
+                279,
+                319
+              ],
+              "contactPoints": [
+                [
+                  167,
+                  284.7142857142857
+                ],
+                [
+                  218,
+                  292.1428571428571
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              0
+            ],
+            "normalized1024": [
+              0.23101265822788264,
+              0.37974683544302934
+            ],
+            "map128h": [
+              0.5,
+              0.4285714285714448
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/native1024/attack-06.png",
+              "sha256": "c89cd4d4da0bf083a153cee121893eba38bbbfa60d3dd24219f5eff15d8e9d02",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 937708,
+              "alphaOne": 11376,
+              "alphaSemi": 110868,
+              "alphaOpaque": 0,
+              "alphaNonzero": 110868,
+              "alpha0BBox": [
+                262,
+                322,
+                744,
+                826
+              ],
+              "alpha16BBox": [
+                277,
+                337,
+                695,
+                781
+              ],
+              "alpha16Height": 444
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/normalized1024/attack-06.png",
+              "sha256": "adb498051eb8a698314e14b63e889537ce3f8cca17283aa4ab45397fb4a98b15",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 982786,
+              "alphaOne": 6567,
+              "alphaSemi": 65427,
+              "alphaOpaque": 363,
+              "alphaNonzero": 65790,
+              "alpha0BBox": [
+                319,
+                424,
+                691,
+                813
+              ],
+              "alpha16BBox": [
+                331,
+                435,
+                654,
+                779
+              ],
+              "alpha16Height": 344
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/attack/map128h/attack-06.png",
+              "sha256": "69282a7f0eba4985c1227720195f35932d9ef01435699bf813dd06fe9a59999b",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138510,
+              "alphaOne": 560,
+              "alphaSemi": 8544,
+              "alphaOpaque": 402,
+              "alphaNonzero": 8946,
+              "alpha0BBox": [
+                121,
+                161,
+                257,
+                295
+              ],
+              "alpha16BBox": [
+                125,
+                165,
+                245,
+                293
+              ],
+              "alpha16Height": 128
+            }
+          }
+        }
+      ],
+      "technicalChecks": {
+        "sourceReconstructionExactRGBA": true,
+        "sourceOwnershipExactlyOnce": true,
+        "allNativeExactRGBA": true,
+        "allSourceRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maxNormalizedRootErrorPx": 0.7405063291139413
+      },
+      "visualStatus": "reviewed_registration_candidate",
+      "visualConclusion": "Ownership and grounded midpoint accepted as technical candidate; original stance/proportion changes retained."
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-hurt-se-v1.png",
+      "sha256": "84a21339df10b48f52cef5a8e73c6469118ddfc72d2612b15dcfafc5c9d61587",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCanvas": [
+        662,
+        662
+      ],
+      "cuts": {
+        "x": [
+          0,
+          662,
+          1254
+        ],
+        "y": [
+          0,
+          640,
+          1254
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 640,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 662,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "id": "hurt",
+      "helmetWidthLandmarks": [
+        224,
+        543
+      ],
+      "helmetWidth": 319,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-hurt-se-v1.png.generation.json",
+      "sourceRecordSha256": "70d36f58088495ff7a70093ce2f045ff82b03efb25a10b9bf59e249126aeed8d",
+      "frameCount": 4,
+      "uniformScaleActual": 0.5649546827794562,
+      "normalizedHelmetWidthPx": 180.2205438066465,
+      "mapScaleActual": 0.20996978851963746,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            662,
+            640
+          ],
+          "ownedSize": [
+            662,
+            640
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            77,
+            80,
+            647,
+            622
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                248,
+                553,
+                355,
+                619
+              ],
+              "effectiveRoi": [
+                248,
+                553,
+                355,
+                619
+              ],
+              "point": [
+                288,
+                610
+              ],
+              "bottomClearance": 9
+            },
+            {
+              "manualRoi": [
+                453,
+                567,
+                555,
+                636
+              ],
+              "effectiveRoi": [
+                453,
+                567,
+                555,
+                636
+              ],
+              "point": [
+                513,
+                622
+              ],
+              "bottomClearance": 14
+            }
+          ],
+          "groundRootExact": [
+            400.5,
+            616
+          ],
+          "groundRootInteger": [
+            401,
+            616
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "fe84af7df5edd3f38a72619e360c1d6799a5011fec93272b5afbbd11f990461a",
+          "sourceCropStats": {
+            "size": [
+              662,
+              640
+            ],
+            "alphaZero": 250763,
+            "alphaOne": 7052,
+            "alphaSemi": 172510,
+            "alphaOpaque": 407,
+            "alphaNonzero": 172917,
+            "alpha0BBox": [
+              0,
+              0,
+              659,
+              640
+            ],
+            "alpha16BBox": [
+              77,
+              80,
+              647,
+              622
+            ],
+            "alpha16Height": 542
+          },
+          "sourcePaddingSize": [
+            662,
+            662
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                662,
+                662
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                111,
+                152,
+                773,
+                814
+              ],
+              "contactPoints": [
+                [
+                  399,
+                  762
+                ],
+                [
+                  624,
+                  774
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                374,
+                374
+              ],
+              "scale": 0.5649546827794562,
+              "integerTranslation": [
+                285,
+                420,
+                659,
+                794
+              ],
+              "contactPoints": [
+                [
+                  447.70694864048335,
+                  764.6223564954682
+                ],
+                [
+                  574.821752265861,
+                  771.4018126888218
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                139,
+                139
+              ],
+              "scale": 0.20996978851963746,
+              "integerTranslation": [
+                108,
+                159,
+                247,
+                298
+              ],
+              "contactPoints": [
+                [
+                  168.4712990936556,
+                  287.0815709969788
+                ],
+                [
+                  215.71450151057402,
+                  289.6012084592145
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.5,
+              0
+            ],
+            "normalized1024": [
+              -0.7356495468278013,
+              0.01208459214501545
+            ],
+            "map128h": [
+              0.09290030211479916,
+              0.341389728096658
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-01.png",
+              "sha256": "a5cd6810a0b12b7b810563682662c8be2999c88318a54bd9d598c71ef4925cad",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 875659,
+              "alphaOne": 7052,
+              "alphaSemi": 172510,
+              "alphaOpaque": 407,
+              "alphaNonzero": 172917,
+              "alpha0BBox": [
+                111,
+                152,
+                770,
+                792
+              ],
+              "alpha16BBox": [
+                188,
+                232,
+                758,
+                774
+              ],
+              "alpha16Height": 542
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-01.png",
+              "sha256": "7172b80a5256a3fb3316844fdfba84520ce9791a92ec1a5e4502a01229e5fe01",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 993471,
+              "alphaOne": 1907,
+              "alphaSemi": 54292,
+              "alphaOpaque": 813,
+              "alphaNonzero": 55105,
+              "alpha0BBox": [
+                285,
+                420,
+                657,
+                782
+              ],
+              "alpha16BBox": [
+                328,
+                465,
+                651,
+                771
+              ],
+              "alpha16Height": 306
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-01.png",
+              "sha256": "f51c9b2a3d10f8c0fd87b42074eddcfd6ee035637bccd016791adb66085b325a",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139539,
+              "alphaOne": 213,
+              "alphaSemi": 7521,
+              "alphaOpaque": 396,
+              "alphaNonzero": 7917,
+              "alpha0BBox": [
+                122,
+                163,
+                246,
+                292
+              ],
+              "alpha16BBox": [
+                124,
+                176,
+                244,
+                290
+              ],
+              "alpha16Height": 114
+            }
+          }
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            662,
+            0,
+            1254,
+            640
+          ],
+          "ownedSize": [
+            592,
+            640
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            15,
+            80,
+            552,
+            611
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                195,
+                556,
+                285,
+                621
+              ],
+              "effectiveRoi": [
+                195,
+                556,
+                285,
+                621
+              ],
+              "point": [
+                232.5,
+                610
+              ],
+              "bottomClearance": 11
+            },
+            {
+              "manualRoi": [
+                382,
+                554,
+                491,
+                621
+              ],
+              "effectiveRoi": [
+                382,
+                554,
+                491,
+                621
+              ],
+              "point": [
+                446,
+                611
+              ],
+              "bottomClearance": 10
+            }
+          ],
+          "groundRootExact": [
+            339.25,
+            610.5
+          ],
+          "groundRootInteger": [
+            339,
+            611
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100,
+          "sourceCropRgbaSha256": "ef841ac322b34dc4b371027e0949e237e17c81247ea1f1cf0b14a67ff293233e",
+          "sourceCropStats": {
+            "size": [
+              592,
+              640
+            ],
+            "alphaZero": 205541,
+            "alphaOne": 7893,
+            "alphaSemi": 172973,
+            "alphaOpaque": 366,
+            "alphaNonzero": 173339,
+            "alpha0BBox": [
+              0,
+              9,
+              578,
+              640
+            ],
+            "alpha16BBox": [
+              15,
+              80,
+              552,
+              611
+            ],
+            "alpha16Height": 531
+          },
+          "sourcePaddingSize": [
+            662,
+            662
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                662,
+                662
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                173,
+                157,
+                835,
+                819
+              ],
+              "contactPoints": [
+                [
+                  405.5,
+                  767
+                ],
+                [
+                  619,
+                  768
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                374,
+                374
+              ],
+              "scale": 0.5649546827794562,
+              "integerTranslation": [
+                320,
+                423,
+                694,
+                797
+              ],
+              "contactPoints": [
+                [
+                  451.35196374622353,
+                  767.6223564954682
+                ],
+                [
+                  571.9697885196374,
+                  768.1873111782477
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                139,
+                139
+              ],
+              "scale": 0.20996978851963746,
+              "integerTranslation": [
+                121,
+                160,
+                260,
+                299
+              ],
+              "contactPoints": [
+                [
+                  169.81797583081573,
+                  288.0815709969788
+                ],
+                [
+                  214.64652567975833,
+                  288.29154078549846
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              -0.5
+            ],
+            "normalized1024": [
+              -0.33912386706953157,
+              -0.0951661631420393
+            ],
+            "map128h": [
+              0.23225075528702632,
+              0.18655589123864047
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-02.png",
+              "sha256": "6273ea59e46de6aea80d245146ea4b6be057b5a17d28e71bc34b3524a3441cb3",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 875237,
+              "alphaOne": 7893,
+              "alphaSemi": 172973,
+              "alphaOpaque": 366,
+              "alphaNonzero": 173339,
+              "alpha0BBox": [
+                173,
+                166,
+                751,
+                797
+              ],
+              "alpha16BBox": [
+                188,
+                237,
+                725,
+                768
+              ],
+              "alpha16Height": 531
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-02.png",
+              "sha256": "b6acd7680ad481b8b4ff12a7b90efe005ff510c39ea24ebe48350963a80e8a23",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 993363,
+              "alphaOne": 2134,
+              "alphaSemi": 54478,
+              "alphaOpaque": 735,
+              "alphaNonzero": 55213,
+              "alpha0BBox": [
+                320,
+                428,
+                646,
+                784
+              ],
+              "alpha16BBox": [
+                328,
+                468,
+                632,
+                768
+              ],
+              "alpha16Height": 300
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-02.png",
+              "sha256": "65c0df5363ae97e45bb644afd822faf880a4e87beaa3684bab3049061e98b47b",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139543,
+              "alphaOne": 229,
+              "alphaSemi": 7546,
+              "alphaOpaque": 367,
+              "alphaNonzero": 7913,
+              "alpha0BBox": [
+                122,
+                164,
+                240,
+                291
+              ],
+              "alpha16BBox": [
+                124,
+                176,
+                237,
+                289
+              ],
+              "alpha16Height": 113
+            }
+          }
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            640,
+            662,
+            1254
+          ],
+          "ownedSize": [
+            662,
+            614
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            74,
+            16,
+            642,
+            574
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                246,
+                506,
+                354,
+                568
+              ],
+              "effectiveRoi": [
+                246,
+                506,
+                354,
+                568
+              ],
+              "point": [
+                282,
+                553
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                457,
+                526,
+                569,
+                590
+              ],
+              "effectiveRoi": [
+                457,
+                526,
+                569,
+                590
+              ],
+              "point": [
+                522,
+                574
+              ],
+              "bottomClearance": 16
+            }
+          ],
+          "groundRootExact": [
+            402,
+            563.5
+          ],
+          "groundRootInteger": [
+            402,
+            564
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "d0cc698b4805a0a6bb88f1e8ab7e916c6e984bcf0cc73c4918f5ce3da283745d",
+          "sourceCropStats": {
+            "size": [
+              662,
+              614
+            ],
+            "alphaZero": 223981,
+            "alphaOne": 15529,
+            "alphaSemi": 182013,
+            "alphaOpaque": 474,
+            "alphaNonzero": 182487,
+            "alpha0BBox": [
+              0,
+              0,
+              662,
+              614
+            ],
+            "alpha16BBox": [
+              74,
+              16,
+              642,
+              574
+            ],
+            "alpha16Height": 558
+          },
+          "sourcePaddingSize": [
+            662,
+            662
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                662,
+                662
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                110,
+                204,
+                772,
+                866
+              ],
+              "contactPoints": [
+                [
+                  392,
+                  757
+                ],
+                [
+                  632,
+                  778
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                374,
+                374
+              ],
+              "scale": 0.5649546827794562,
+              "integerTranslation": [
+                285,
+                449,
+                659,
+                823
+              ],
+              "contactPoints": [
+                [
+                  444.3172205438066,
+                  761.4199395770393
+                ],
+                [
+                  579.906344410876,
+                  773.2839879154078
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                139,
+                139
+              ],
+              "scale": 0.20996978851963746,
+              "integerTranslation": [
+                108,
+                170,
+                247,
+                309
+              ],
+              "contactPoints": [
+                [
+                  167.21148036253777,
+                  286.1132930513595
+                ],
+                [
+                  217.60422960725077,
+                  290.5226586102719
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0,
+              -0.5
+            ],
+            "normalized1024": [
+              0.11178247734130764,
+              -0.6480362537764677
+            ],
+            "map128h": [
+              0.4078549848942714,
+              0.3179758308157261
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-03.png",
+              "sha256": "4948a8992640f277ea864fb902d5b0202df85ab0c2cfb496bf4bc136f16b66b8",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 866089,
+              "alphaOne": 15529,
+              "alphaSemi": 182013,
+              "alphaOpaque": 474,
+              "alphaNonzero": 182487,
+              "alpha0BBox": [
+                110,
+                204,
+                772,
+                818
+              ],
+              "alpha16BBox": [
+                184,
+                220,
+                752,
+                778
+              ],
+              "alpha16Height": 558
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-03.png",
+              "sha256": "23b1ac4628bb0b1287034279857bef7604580af530f8c1b5b3105f4239f84a9b",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 990444,
+              "alphaOne": 4584,
+              "alphaSemi": 57258,
+              "alphaOpaque": 874,
+              "alphaNonzero": 58132,
+              "alpha0BBox": [
+                285,
+                449,
+                659,
+                796
+              ],
+              "alpha16BBox": [
+                327,
+                458,
+                648,
+                773
+              ],
+              "alpha16Height": 315
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-03.png",
+              "sha256": "e65deb1ca2bf429ffd12c8cd64d288489ee4e43277f8e6da2348a03b77c8d924",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139158,
+              "alphaOne": 553,
+              "alphaSemi": 7887,
+              "alphaOpaque": 411,
+              "alphaNonzero": 8298,
+              "alpha0BBox": [
+                108,
+                170,
+                247,
+                293
+              ],
+              "alpha16BBox": [
+                123,
+                173,
+                243,
+                291
+              ],
+              "alpha16Height": 118
+            }
+          }
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            662,
+            640,
+            1254,
+            1254
+          ],
+          "ownedSize": [
+            592,
+            614
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            15,
+            20,
+            563,
+            585
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                169,
+                510,
+                275,
+                575
+              ],
+              "effectiveRoi": [
+                169,
+                510,
+                275,
+                575
+              ],
+              "point": [
+                205.5,
+                559
+              ],
+              "bottomClearance": 16
+            },
+            {
+              "manualRoi": [
+                375,
+                538,
+                479,
+                598
+              ],
+              "effectiveRoi": [
+                375,
+                538,
+                479,
+                598
+              ],
+              "point": [
+                434.5,
+                585
+              ],
+              "bottomClearance": 13
+            }
+          ],
+          "groundRootExact": [
+            320,
+            572
+          ],
+          "groundRootInteger": [
+            320,
+            572
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 180,
+          "sourceCropRgbaSha256": "4dc7ccee7f4e2bf78273250f06c0b86a4a20971b9195d31e70231c95fcc8c886",
+          "sourceCropStats": {
+            "size": [
+              592,
+              614
+            ],
+            "alphaZero": 182572,
+            "alphaOne": 13782,
+            "alphaSemi": 180455,
+            "alphaOpaque": 461,
+            "alphaNonzero": 180916,
+            "alpha0BBox": [
+              0,
+              0,
+              584,
+              614
+            ],
+            "alpha16BBox": [
+              15,
+              20,
+              563,
+              585
+            ],
+            "alpha16Height": 565
+          },
+          "sourcePaddingSize": [
+            662,
+            662
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                662,
+                662
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                192,
+                196,
+                854,
+                858
+              ],
+              "contactPoints": [
+                [
+                  397.5,
+                  755
+                ],
+                [
+                  626.5,
+                  781
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                374,
+                374
+              ],
+              "scale": 0.5649546827794562,
+              "integerTranslation": [
+                331,
+                445,
+                705,
+                819
+              ],
+              "contactPoints": [
+                [
+                  447.0981873111782,
+                  760.8096676737159
+                ],
+                [
+                  576.4728096676737,
+                  775.4984894259819
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                662,
+                662
+              ],
+              "resizedSize": [
+                139,
+                139
+              ],
+              "scale": 0.20996978851963746,
+              "integerTranslation": [
+                125,
+                168,
+                264,
+                307
+              ],
+              "contactPoints": [
+                [
+                  168.1487915407855,
+                  285.37311178247734
+                ],
+                [
+                  216.23187311178248,
+                  290.8323262839879
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0,
+              0
+            ],
+            "normalized1024": [
+              -0.21450151057405265,
+              0.15407854984891856
+            ],
+            "map128h": [
+              0.19033232628399332,
+              0.10271903323263132
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/native1024/hurt-04.png",
+              "sha256": "08c04e0fdda0e1d190ccdda9f13772b9f5b984699affa52dc097f164258723bb",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 867660,
+              "alphaOne": 13782,
+              "alphaSemi": 180455,
+              "alphaOpaque": 461,
+              "alphaNonzero": 180916,
+              "alpha0BBox": [
+                192,
+                196,
+                776,
+                810
+              ],
+              "alpha16BBox": [
+                207,
+                216,
+                755,
+                781
+              ],
+              "alpha16Height": 565
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/normalized1024/hurt-04.png",
+              "sha256": "d0b69dedb56f546a730a73b71806132066e8aaea5221dbf4294c99128b3681e2",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 990940,
+              "alphaOne": 4061,
+              "alphaSemi": 56810,
+              "alphaOpaque": 826,
+              "alphaNonzero": 57636,
+              "alpha0BBox": [
+                331,
+                445,
+                661,
+                792
+              ],
+              "alpha16BBox": [
+                339,
+                456,
+                649,
+                776
+              ],
+              "alpha16Height": 320
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/hurt/map128h/hurt-04.png",
+              "sha256": "4151cea702df196bd0f5c8006dfe6265a9d91cacb9e039865a0032769d365b42",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139175,
+              "alphaOne": 516,
+              "alphaSemi": 7862,
+              "alphaOpaque": 419,
+              "alphaNonzero": 8281,
+              "alpha0BBox": [
+                125,
+                168,
+                247,
+                293
+              ],
+              "alpha16BBox": [
+                128,
+                172,
+                243,
+                291
+              ],
+              "alpha16Height": 119
+            }
+          }
+        }
+      ],
+      "technicalChecks": {
+        "sourceReconstructionExactRGBA": true,
+        "sourceOwnershipExactlyOnce": true,
+        "allNativeExactRGBA": true,
+        "allSourceRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maxNormalizedRootErrorPx": 0.7356495468278013
+      },
+      "visualStatus": "reviewed_registration_candidate",
+      "visualConclusion": "Ownership and grounded midpoint accepted as technical candidate; original stance/proportion changes retained."
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-defeat-se-v1.png",
+      "sha256": "f2ccf16f70119832b204755b852f99ff50bb31818cba68ffbbba633326c0d9c5",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceCanvas": [
+        565,
+        565
+      ],
+      "cuts": {
+        "x": [
+          0,
+          525,
+          1024,
+          1536
+        ],
+        "y": [
+          0,
+          565,
+          1024
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 565,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 525,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 1024,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "id": "defeat",
+      "helmetWidthLandmarks": [
+        163,
+        400
+      ],
+      "helmetWidth": 237,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "left knee and right boot",
+        "two knees",
+        "two knees",
+        "two knees"
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-defeat-se-v1.png.generation.json",
+      "sourceRecordSha256": "f287bf992aaea38bdaa3d2b99a7c9c38ba7fd836a44ce68d35dd69e40920978b",
+      "frameCount": 6,
+      "uniformScaleActual": 0.7592920353982301,
+      "normalizedHelmetWidthPx": 179.95221238938052,
+      "mapScaleActual": 0.2814159292035398,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            525,
+            565
+          ],
+          "ownedSize": [
+            525,
+            565
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            57,
+            77,
+            463,
+            526
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                183,
+                475,
+                262,
+                520
+              ],
+              "effectiveRoi": [
+                183,
+                475,
+                262,
+                520
+              ],
+              "point": [
+                211.5,
+                507
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                333,
+                493,
+                412,
+                540
+              ],
+              "effectiveRoi": [
+                333,
+                493,
+                412,
+                540
+              ],
+              "point": [
+                377,
+                526
+              ],
+              "bottomClearance": 14
+            }
+          ],
+          "groundRootExact": [
+            294.25,
+            516.5
+          ],
+          "groundRootInteger": [
+            294,
+            517
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "e77c6fd0bba71efcfa64826d432c0ff78c11a450d25533621657fe6e4cb96ee8",
+          "sourceCropStats": {
+            "size": [
+              525,
+              565
+            ],
+            "alphaZero": 173692,
+            "alphaOne": 21715,
+            "alphaSemi": 122933,
+            "alphaOpaque": 0,
+            "alphaNonzero": 122933,
+            "alpha0BBox": [
+              0,
+              15,
+              525,
+              565
+            ],
+            "alpha16BBox": [
+              57,
+              77,
+              463,
+              526
+            ],
+            "alpha16Height": 449
+          },
+          "sourcePaddingSize": [
+            565,
+            565
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                565,
+                565
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                218,
+                251,
+                783,
+                816
+              ],
+              "contactPoints": [
+                [
+                  429.5,
+                  758
+                ],
+                [
+                  595,
+                  777
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                429,
+                429
+              ],
+              "scale": 0.7592920353982301,
+              "integerTranslation": [
+                289,
+                375,
+                718,
+                804
+              ],
+              "contactPoints": [
+                [
+                  449.5902654867257,
+                  759.9610619469026
+                ],
+                [
+                  575.2530973451328,
+                  774.387610619469
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                159,
+                159
+              ],
+              "scale": 0.2814159292035398,
+              "integerTranslation": [
+                109,
+                143,
+                268,
+                302
+              ],
+              "contactPoints": [
+                [
+                  168.51946902654868,
+                  285.6778761061947
+                ],
+                [
+                  215.0938053097345,
+                  291.02477876106195
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              -0.5
+            ],
+            "normalized1024": [
+              0.4216814159292426,
+              -0.8256637168142333
+            ],
+            "map128h": [
+              -0.1933628318583942,
+              0.3513274336282848
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-01.png",
+              "sha256": "8570ab4085f3523bbff99e62e958cb76aceee5cefd135fb24b0a3e40440ce0c2",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 925643,
+              "alphaOne": 21715,
+              "alphaSemi": 122933,
+              "alphaOpaque": 0,
+              "alphaNonzero": 122933,
+              "alpha0BBox": [
+                218,
+                266,
+                743,
+                816
+              ],
+              "alpha16BBox": [
+                275,
+                328,
+                681,
+                777
+              ],
+              "alpha16Height": 449
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-01.png",
+              "sha256": "a8c76a782f5fe921328a40b2526e0dc5df008aed41a266f967d458b67bf9d703",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 978022,
+              "alphaOne": 12311,
+              "alphaSemi": 70245,
+              "alphaOpaque": 309,
+              "alphaNonzero": 70554,
+              "alpha0BBox": [
+                289,
+                386,
+                688,
+                804
+              ],
+              "alpha16BBox": [
+                332,
+                434,
+                640,
+                775
+              ],
+              "alpha16Height": 341
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-01.png",
+              "sha256": "a083d6419aa68c598889d4f28aa4c635acb311250aca86f7b092aa17acf69e14",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 137849,
+              "alphaOne": 1310,
+              "alphaSemi": 9200,
+              "alphaOpaque": 407,
+              "alphaNonzero": 9607,
+              "alpha0BBox": [
+                109,
+                148,
+                254,
+                302
+              ],
+              "alpha16BBox": [
+                125,
+                164,
+                239,
+                291
+              ],
+              "alpha16Height": 127
+            }
+          }
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            525,
+            0,
+            1024,
+            565
+          ],
+          "ownedSize": [
+            499,
+            565
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            34,
+            106,
+            459,
+            527
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                176,
+                482,
+                262,
+                529
+              ],
+              "effectiveRoi": [
+                176,
+                482,
+                262,
+                529
+              ],
+              "point": [
+                205.5,
+                513
+              ],
+              "bottomClearance": 16
+            },
+            {
+              "manualRoi": [
+                313,
+                497,
+                382,
+                541
+              ],
+              "effectiveRoi": [
+                313,
+                497,
+                382,
+                541
+              ],
+              "point": [
+                348,
+                527
+              ],
+              "bottomClearance": 14
+            }
+          ],
+          "groundRootExact": [
+            276.75,
+            520
+          ],
+          "groundRootInteger": [
+            277,
+            520
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120,
+          "sourceCropRgbaSha256": "7cc7b9f65d36555ae91c7b86a222fcbd38547a5d7aca7187d2d3e3a031ced336",
+          "sourceCropStats": {
+            "size": [
+              499,
+              565
+            ],
+            "alphaZero": 162096,
+            "alphaOne": 20700,
+            "alphaSemi": 119839,
+            "alphaOpaque": 0,
+            "alphaNonzero": 119839,
+            "alpha0BBox": [
+              0,
+              17,
+              499,
+              565
+            ],
+            "alpha16BBox": [
+              34,
+              106,
+              459,
+              527
+            ],
+            "alpha16Height": 421
+          },
+          "sourcePaddingSize": [
+            565,
+            565
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                565,
+                565
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                235,
+                248,
+                800,
+                813
+              ],
+              "contactPoints": [
+                [
+                  440.5,
+                  761
+                ],
+                [
+                  583,
+                  775
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                429,
+                429
+              ],
+              "scale": 0.7592920353982301,
+              "integerTranslation": [
+                302,
+                373,
+                731,
+                802
+              ],
+              "contactPoints": [
+                [
+                  458.0345132743363,
+                  762.516814159292
+                ],
+                [
+                  566.2336283185841,
+                  773.1469026548673
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                159,
+                159
+              ],
+              "scale": 0.2814159292035398,
+              "integerTranslation": [
+                114,
+                142,
+                273,
+                301
+              ],
+              "contactPoints": [
+                [
+                  171.83097345132742,
+                  286.3663716814159
+                ],
+                [
+                  211.93274336283184,
+                  290.30619469026544
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.25,
+              0
+            ],
+            "normalized1024": [
+              0.13407079646026432,
+              -0.1681415929203922
+            ],
+            "map128h": [
+              -0.11814159292038084,
+              0.33628318584067074
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-02.png",
+              "sha256": "41ef418711575b839ae4b69ecb368082a124ff9a08db33c00b8757aad5d8ce39",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 928737,
+              "alphaOne": 20700,
+              "alphaSemi": 119839,
+              "alphaOpaque": 0,
+              "alphaNonzero": 119839,
+              "alpha0BBox": [
+                235,
+                265,
+                734,
+                813
+              ],
+              "alpha16BBox": [
+                269,
+                354,
+                694,
+                775
+              ],
+              "alpha16Height": 421
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-02.png",
+              "sha256": "3cdc52c8c1ede041bb0d4e0a1d3a4ef026986599cc55ae0962e46ab720dd7487",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 979703,
+              "alphaOne": 11837,
+              "alphaSemi": 68599,
+              "alphaOpaque": 274,
+              "alphaNonzero": 68873,
+              "alpha0BBox": [
+                302,
+                386,
+                681,
+                802
+              ],
+              "alpha16BBox": [
+                327,
+                453,
+                650,
+                773
+              ],
+              "alpha16Height": 320
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-02.png",
+              "sha256": "2f49d0dd70870c25fb2a10b065e8bed360dd2891f8d711066630c0bc1ffccb04",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 138079,
+              "alphaOne": 1291,
+              "alphaSemi": 8988,
+              "alphaOpaque": 389,
+              "alphaNonzero": 9377,
+              "alpha0BBox": [
+                114,
+                148,
+                254,
+                301
+              ],
+              "alpha16BBox": [
+                123,
+                171,
+                243,
+                291
+              ],
+              "alpha16Height": 120
+            }
+          }
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            565
+          ],
+          "ownedSize": [
+            512,
+            565
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            43,
+            145,
+            475,
+            531
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                214,
+                465,
+                297,
+                521
+              ],
+              "effectiveRoi": [
+                214,
+                465,
+                297,
+                521
+              ],
+              "point": [
+                254.5,
+                513
+              ],
+              "bottomClearance": 8
+            },
+            {
+              "manualRoi": [
+                344,
+                486,
+                410,
+                535
+              ],
+              "effectiveRoi": [
+                344,
+                486,
+                410,
+                535
+              ],
+              "point": [
+                378.5,
+                519
+              ],
+              "bottomClearance": 16
+            }
+          ],
+          "groundRootExact": [
+            316.5,
+            516
+          ],
+          "groundRootInteger": [
+            317,
+            516
+          ],
+          "contactKind": "left knee and right boot",
+          "durationMs": 160,
+          "sourceCropRgbaSha256": "ca900bca3b83aafdc215a7ceac88d7b2b113e6e26ac238205b09337688f3c3a0",
+          "sourceCropStats": {
+            "size": [
+              512,
+              565
+            ],
+            "alphaZero": 164426,
+            "alphaOne": 32486,
+            "alphaSemi": 124854,
+            "alphaOpaque": 0,
+            "alphaNonzero": 124854,
+            "alpha0BBox": [
+              0,
+              0,
+              500,
+              565
+            ],
+            "alpha16BBox": [
+              43,
+              145,
+              475,
+              531
+            ],
+            "alpha16Height": 386
+          },
+          "sourcePaddingSize": [
+            565,
+            565
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                565,
+                565
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                195,
+                252,
+                760,
+                817
+              ],
+              "contactPoints": [
+                [
+                  449.5,
+                  765
+                ],
+                [
+                  573.5,
+                  771
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                429,
+                429
+              ],
+              "scale": 0.7592920353982301,
+              "integerTranslation": [
+                271,
+                376,
+                700,
+                805
+              ],
+              "contactPoints": [
+                [
+                  464.23982300884956,
+                  765.516814159292
+                ],
+                [
+                  558.3920353982301,
+                  770.0725663716814
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                159,
+                159
+              ],
+              "scale": 0.2814159292035398,
+              "integerTranslation": [
+                103,
+                143,
+                262,
+                302
+              ],
+              "contactPoints": [
+                [
+                  174.62035398230088,
+                  287.3663716814159
+                ],
+                [
+                  209.51592920353983,
+                  289.0548672566372
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.5,
+              0
+            ],
+            "normalized1024": [
+              -0.6840707964602188,
+              -0.20530973451332102
+            ],
+            "map128h": [
+              0.06814159292036948,
+              0.21061946902653972
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-03.png",
+              "sha256": "3b7290d556e64ed338e7863df884b5ebd7ecbf960e28072e7abd8031ff832f81",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 923722,
+              "alphaOne": 32486,
+              "alphaSemi": 124854,
+              "alphaOpaque": 0,
+              "alphaNonzero": 124854,
+              "alpha0BBox": [
+                195,
+                252,
+                695,
+                817
+              ],
+              "alpha16BBox": [
+                238,
+                397,
+                670,
+                783
+              ],
+              "alpha16Height": 386
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-03.png",
+              "sha256": "07c07d69c1d6b94d9a030331f9dc68b4d01bbe5f0d4a3de5e64dcb96673c9ad2",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 976777,
+              "alphaOne": 18647,
+              "alphaSemi": 71564,
+              "alphaOpaque": 235,
+              "alphaNonzero": 71799,
+              "alpha0BBox": [
+                271,
+                377,
+                651,
+                805
+              ],
+              "alpha16BBox": [
+                304,
+                486,
+                632,
+                779
+              ],
+              "alpha16Height": 293
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+              "sha256": "82ab6c228079da25a22d7b756cac0b745e21ac78c82fd7e3c01f8a5bcbacbc1b",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 137706,
+              "alphaOne": 2209,
+              "alphaSemi": 9392,
+              "alphaOpaque": 358,
+              "alphaNonzero": 9750,
+              "alpha0BBox": [
+                103,
+                144,
+                242,
+                299
+              ],
+              "alpha16BBox": [
+                115,
+                183,
+                237,
+                293
+              ],
+              "alpha16Height": 110
+            }
+          }
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            565,
+            525,
+            1024
+          ],
+          "ownedSize": [
+            525,
+            459
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            58,
+            41,
+            496,
+            385
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                243,
+                340,
+                320,
+                389
+              ],
+              "effectiveRoi": [
+                243,
+                340,
+                320,
+                389
+              ],
+              "point": [
+                283.5,
+                372
+              ],
+              "bottomClearance": 17
+            },
+            {
+              "manualRoi": [
+                344,
+                342,
+                399,
+                378
+              ],
+              "effectiveRoi": [
+                344,
+                342,
+                399,
+                378
+              ],
+              "point": [
+                377.5,
+                372
+              ],
+              "bottomClearance": 6
+            }
+          ],
+          "groundRootExact": [
+            330.5,
+            372
+          ],
+          "groundRootInteger": [
+            331,
+            372
+          ],
+          "contactKind": "two knees",
+          "durationMs": 200,
+          "sourceCropRgbaSha256": "c0905aab277746f655898358d3ccb9d475316cb07512f9069df5c6d238c0a570",
+          "sourceCropStats": {
+            "size": [
+              525,
+              459
+            ],
+            "alphaZero": 140414,
+            "alphaOne": 16365,
+            "alphaSemi": 100561,
+            "alphaOpaque": 0,
+            "alphaNonzero": 100561,
+            "alpha0BBox": [
+              0,
+              0,
+              525,
+              459
+            ],
+            "alpha16BBox": [
+              58,
+              41,
+              496,
+              385
+            ],
+            "alpha16Height": 344
+          },
+          "sourcePaddingSize": [
+            565,
+            565
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                565,
+                565
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                181,
+                396,
+                746,
+                961
+              ],
+              "contactPoints": [
+                [
+                  464.5,
+                  768
+                ],
+                [
+                  558.5,
+                  768
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                429,
+                429
+              ],
+              "scale": 0.7592920353982301,
+              "integerTranslation": [
+                261,
+                486,
+                690,
+                915
+              ],
+              "contactPoints": [
+                [
+                  476.25929203539823,
+                  768.4566371681416
+                ],
+                [
+                  547.6327433628319,
+                  768.4566371681416
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                159,
+                159
+              ],
+              "scale": 0.2814159292035398,
+              "integerTranslation": [
+                99,
+                183,
+                258,
+                342
+              ],
+              "contactPoints": [
+                [
+                  178.78141592920355,
+                  287.6867256637168
+                ],
+                [
+                  205.23451327433628,
+                  287.6867256637168
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              -0.5,
+              0
+            ],
+            "normalized1024": [
+              -0.053982300884968026,
+              0.45663716814158306
+            ],
+            "map128h": [
+              0.007964601769913315,
+              -0.3132743362832002
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-04.png",
+              "sha256": "859c4583ce290baebe1e78753f8cf89d3789b6d2b57468fc3fda3f046cd04d01",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 948015,
+              "alphaOne": 16365,
+              "alphaSemi": 100561,
+              "alphaOpaque": 0,
+              "alphaNonzero": 100561,
+              "alpha0BBox": [
+                181,
+                396,
+                706,
+                855
+              ],
+              "alpha16BBox": [
+                239,
+                437,
+                677,
+                781
+              ],
+              "alpha16Height": 344
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-04.png",
+              "sha256": "8a12ead85b1b0ede210592a29dd4092fd9fa7eef388a373946681244a42f9b44",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 990735,
+              "alphaOne": 9388,
+              "alphaSemi": 57613,
+              "alphaOpaque": 228,
+              "alphaNonzero": 57841,
+              "alpha0BBox": [
+                261,
+                486,
+                660,
+                835
+              ],
+              "alpha16BBox": [
+                305,
+                517,
+                638,
+                779
+              ],
+              "alpha16Height": 262
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-04.png",
+              "sha256": "529188e5b503a0266dbef5fdbcc91b01cd91cfc24b59a56ed8176e95a2b5e298",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139613,
+              "alphaOne": 932,
+              "alphaSemi": 7520,
+              "alphaOpaque": 323,
+              "alphaNonzero": 7843,
+              "alpha0BBox": [
+                99,
+                183,
+                247,
+                301
+              ],
+              "alpha16BBox": [
+                115,
+                194,
+                239,
+                292
+              ],
+              "alpha16Height": 98
+            }
+          }
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            525,
+            565,
+            1024,
+            1024
+          ],
+          "ownedSize": [
+            499,
+            459
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            32,
+            56,
+            454,
+            391
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                204,
+                337,
+                282,
+                385
+              ],
+              "effectiveRoi": [
+                204,
+                337,
+                282,
+                385
+              ],
+              "point": [
+                248,
+                370
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                307,
+                341,
+                380,
+                387
+              ],
+              "effectiveRoi": [
+                307,
+                341,
+                380,
+                387
+              ],
+              "point": [
+                338,
+                369
+              ],
+              "bottomClearance": 18
+            }
+          ],
+          "groundRootExact": [
+            293,
+            369.5
+          ],
+          "groundRootInteger": [
+            293,
+            370
+          ],
+          "contactKind": "two knees",
+          "durationMs": 200,
+          "sourceCropRgbaSha256": "40b13f3b133e2bbcdb288e071246fba3ce35f9d772de23266aaf0be83ab4441a",
+          "sourceCropStats": {
+            "size": [
+              499,
+              459
+            ],
+            "alphaZero": 126840,
+            "alphaOne": 20427,
+            "alphaSemi": 102201,
+            "alphaOpaque": 0,
+            "alphaNonzero": 102201,
+            "alpha0BBox": [
+              0,
+              0,
+              499,
+              459
+            ],
+            "alpha16BBox": [
+              32,
+              56,
+              454,
+              391
+            ],
+            "alpha16Height": 335
+          },
+          "sourcePaddingSize": [
+            565,
+            565
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                565,
+                565
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                219,
+                398,
+                784,
+                963
+              ],
+              "contactPoints": [
+                [
+                  467,
+                  768
+                ],
+                [
+                  557,
+                  767
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                429,
+                429
+              ],
+              "scale": 0.7592920353982301,
+              "integerTranslation": [
+                290,
+                487,
+                719,
+                916
+              ],
+              "contactPoints": [
+                [
+                  478.3044247787611,
+                  767.9380530973451
+                ],
+                [
+                  546.6407079646017,
+                  767.178761061947
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                159,
+                159
+              ],
+              "scale": 0.2814159292035398,
+              "integerTranslation": [
+                110,
+                184,
+                269,
+                343
+              ],
+              "contactPoints": [
+                [
+                  179.79115044247789,
+                  288.12389380530976
+                ],
+                [
+                  205.11858407079646,
+                  287.84247787610616
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0,
+              -0.5
+            ],
+            "normalized1024": [
+              0.4725663716814097,
+              -0.441592920353969
+            ],
+            "map128h": [
+              0.4548672566371579,
+              -0.01681415929203922
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-05.png",
+              "sha256": "b7f35ffddabd4b605bb9ff73b20d722da26b890983e0ccd4e5434810317481fd",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 946375,
+              "alphaOne": 20427,
+              "alphaSemi": 102201,
+              "alphaOpaque": 0,
+              "alphaNonzero": 102201,
+              "alpha0BBox": [
+                219,
+                398,
+                718,
+                857
+              ],
+              "alpha16BBox": [
+                251,
+                454,
+                673,
+                789
+              ],
+              "alpha16Height": 335
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-05.png",
+              "sha256": "a7b6c7328b0028237d2051e017158a9b45a40b4541c592739c49ed8998f142ba",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 989786,
+              "alphaOne": 11723,
+              "alphaSemi": 58611,
+              "alphaOpaque": 179,
+              "alphaNonzero": 58790,
+              "alpha0BBox": [
+                290,
+                487,
+                669,
+                836
+              ],
+              "alpha16BBox": [
+                315,
+                529,
+                635,
+                784
+              ],
+              "alpha16Height": 255
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-05.png",
+              "sha256": "3a63b78a98d5db8d84d1cafe0f3864b7fde1791016ecd6108a852c1e5befab00",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139473,
+              "alphaOne": 1276,
+              "alphaSemi": 7690,
+              "alphaOpaque": 293,
+              "alphaNonzero": 7983,
+              "alpha0BBox": [
+                110,
+                184,
+                250,
+                306
+              ],
+              "alpha16BBox": [
+                119,
+                199,
+                238,
+                294
+              ],
+              "alpha16Height": 95
+            }
+          }
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            565,
+            1536,
+            1024
+          ],
+          "ownedSize": [
+            512,
+            459
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            53,
+            54,
+            464,
+            391
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                223,
+                343,
+                299,
+                390
+              ],
+              "effectiveRoi": [
+                223,
+                343,
+                299,
+                390
+              ],
+              "point": [
+                272,
+                379
+              ],
+              "bottomClearance": 11
+            },
+            {
+              "manualRoi": [
+                327,
+                347,
+                386,
+                388
+              ],
+              "effectiveRoi": [
+                327,
+                347,
+                386,
+                388
+              ],
+              "point": [
+                356.5,
+                380
+              ],
+              "bottomClearance": 8
+            }
+          ],
+          "groundRootExact": [
+            314.25,
+            379.5
+          ],
+          "groundRootInteger": [
+            314,
+            380
+          ],
+          "contactKind": "two knees",
+          "durationMs": 600,
+          "sourceCropRgbaSha256": "596a4aa256de14d585e34e54f2bc9e1e8e0e03a45eb0300a1933110ff9c6d656",
+          "sourceCropStats": {
+            "size": [
+              512,
+              459
+            ],
+            "alphaZero": 136534,
+            "alphaOne": 19335,
+            "alphaSemi": 98474,
+            "alphaOpaque": 0,
+            "alphaNonzero": 98474,
+            "alpha0BBox": [
+              0,
+              0,
+              498,
+              459
+            ],
+            "alpha16BBox": [
+              53,
+              54,
+              464,
+              391
+            ],
+            "alpha16Height": 337
+          },
+          "sourcePaddingSize": [
+            565,
+            565
+          ],
+          "nativeExactRgbaMatch": true,
+          "placement": {
+            "native1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                565,
+                565
+              ],
+              "scale": 1,
+              "integerTranslation": [
+                198,
+                388,
+                763,
+                953
+              ],
+              "contactPoints": [
+                [
+                  470,
+                  767
+                ],
+                [
+                  554.5,
+                  768
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "normalized1024": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                429,
+                429
+              ],
+              "scale": 0.7592920353982301,
+              "integerTranslation": [
+                274,
+                479,
+                703,
+                908
+              ],
+              "contactPoints": [
+                [
+                  480.5274336283186,
+                  766.7716814159292
+                ],
+                [
+                  544.6876106194691,
+                  767.5309734513274
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            },
+            "map128h": {
+              "sourceSize": [
+                565,
+                565
+              ],
+              "resizedSize": [
+                159,
+                159
+              ],
+              "scale": 0.2814159292035398,
+              "integerTranslation": [
+                104,
+                181,
+                263,
+                340
+              ],
+              "contactPoints": [
+                [
+                  180.54513274336284,
+                  287.6566371681416
+                ],
+                [
+                  204.32477876106194,
+                  287.9380530973451
+                ]
+              ],
+              "wholeResizedRectanglePreserved": true
+            }
+          },
+          "contactMidpointResidual": {
+            "native1024": [
+              0.25,
+              -0.5
+            ],
+            "normalized1024": [
+              0.6075221238938866,
+              -0.8486725663717607
+            ],
+            "map128h": [
+              0.4349557522123746,
+              -0.20265486725668325
+            ]
+          },
+          "outputs": {
+            "native1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/native1024/defeat-06.png",
+              "sha256": "15667d3ef8917d66f61f61afdbe186059b345890bc81c1a1fecfbe414069e0ff",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 950102,
+              "alphaOne": 19335,
+              "alphaSemi": 98474,
+              "alphaOpaque": 0,
+              "alphaNonzero": 98474,
+              "alpha0BBox": [
+                198,
+                388,
+                696,
+                847
+              ],
+              "alpha16BBox": [
+                251,
+                442,
+                662,
+                779
+              ],
+              "alpha16Height": 337
+            },
+            "normalized1024": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/normalized1024/defeat-06.png",
+              "sha256": "5f07fbad7b66a8fc468778ec73dfc12d7fbb1539f14a43e8d5fac207f8412ec6",
+              "size": [
+                1024,
+                1024
+              ],
+              "alphaZero": 992002,
+              "alphaOne": 10998,
+              "alphaSemi": 56351,
+              "alphaOpaque": 223,
+              "alphaNonzero": 56574,
+              "alpha0BBox": [
+                274,
+                479,
+                652,
+                828
+              ],
+              "alpha16BBox": [
+                314,
+                520,
+                627,
+                776
+              ],
+              "alpha16Height": 256
+            },
+            "map128h": {
+              "file": "exports/01-率土之滨/troop-frames-20261029-r3/earth-grounded-candidate-v1/defeat/map128h/defeat-06.png",
+              "sha256": "ead0fc8048328b7201bf0972c4e7f6ed2136a992e549bcf2a12b17c26f776994",
+              "size": [
+                384,
+                384
+              ],
+              "alphaZero": 139706,
+              "alphaOne": 1236,
+              "alphaSemi": 7450,
+              "alphaOpaque": 300,
+              "alphaNonzero": 7750,
+              "alpha0BBox": [
+                104,
+                181,
+                243,
+                305
+              ],
+              "alpha16BBox": [
+                119,
+                196,
+                235,
+                291
+              ],
+              "alpha16Height": 95
+            }
+          }
+        }
+      ],
+      "technicalChecks": {
+        "sourceReconstructionExactRGBA": true,
+        "sourceOwnershipExactlyOnce": true,
+        "allNativeExactRGBA": true,
+        "allSourceRectanglesFit": true,
+        "noOutputAlphaEdgeContact": true,
+        "maxNormalizedRootErrorPx": 0.8486725663717607
+      },
+      "visualStatus": "reviewed_registration_candidate",
+      "visualConclusion": "Ownership and grounded midpoint accepted as technical candidate; original stance/proportion changes retained."
+    }
+  ],
+  "notProven": [
+    "user approval of identity or final visual",
+    "motion smoothness and timing",
+    "individual feet do not slide",
+    "all generated proportions identical beyond measured neutral helmet width",
+    "Unity import or playback"
+  ],
+  "warnings": [
+    "Faint original alpha haze retained in native; resized alpha can quantize.",
+    "SE direction only; walk excluded.",
+    "Manual helmet/contact interpretation has artistic measurement uncertainty.",
+    "map128h is approximate: measured master alpha>16 height 129 px."
+  ],
+  "counts": {
+    "sourceSheets": 4,
+    "animationFrames": 20,
+    "native1024PNG": 20,
+    "normalized1024PNG": 20,
+    "map128hPNG": 20,
+    "exportPNG": 60,
+    "generatedNewSheetsThisStep": 0
+  },
+  "visualReview": {
+    "status": "reviewed_technical_candidate",
+    "actuallyViewedEvidence": [
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-all-actions-map-light.png",
+        "sha256": "b7b3b30df81a164eed449877ad47465326527eda981034f6c6573ef391fe87e7"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-all-actions-map-dark.png",
+        "sha256": "4fbd1a69646b7bd26e3706f4543f2520e48704266f7756e64ed9ab3532ea42ca"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-idle-contact-review.png",
+        "sha256": "85df60424de1653709d298045ce064bd112bfa88631068acd59dae1530f78e30"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-idle-helmet-review.png",
+        "sha256": "7f74d68643b54bfe1b9bed21fa1609de3d12d3d3dcc0d304e40fb58009eb6e61"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-idle-light-aligned.png",
+        "sha256": "4409b3c3978f7176408d20a41e42e8a35f4ff5308fb66beff38b5dbf0b418b27"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-attack-contact-review.png",
+        "sha256": "c33e91f503aa46f4f7d2b6052ad5c3a2ced57924713253f549e8c4e9cddb5b68"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-attack-helmet-review.png",
+        "sha256": "1d1ec76015fea2dcc2ee75f65567ab92c733a1ba179606f605f4cdb754cd512b"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-attack-light-aligned.png",
+        "sha256": "28e432786882e03638c19a2a799d4d474f18225f72badbeb2b5bbc45ddb53d3f"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-hurt-contact-review.png",
+        "sha256": "59ee6fd3ea5d3ba0d3ca8fe79244e26324238f563bf09f52d80daa5862a81541"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-hurt-helmet-review.png",
+        "sha256": "8649af38106c11413500f5d82e8ae145eb257e12692fb57f66bb901ab9b3699e"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-hurt-light-aligned.png",
+        "sha256": "757600d71db10a27c14bf3c71f1de4ba9608ade00c0f93dc8cc1b977841ae0d7"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-defeat-contact-review.png",
+        "sha256": "4ce17a62e16b08cfeb327d97a10658519e4f6c28355273737bc38b47de80421a"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-defeat-helmet-review.png",
+        "sha256": "a939e7aaad39255c9e1cf749d4ec712fdc72cebbe818d7cd132bd4577cbabb83"
+      },
+      {
+        "file": "records/troop-frames-20261029-r3/earth-registration-defeat-dark-aligned.png",
+        "sha256": "1e7157eef19fc405382db85d753f53a287f22f3e6663c357da14ab539a5f0028"
+      }
+    ],
+    "sourceOriginalsActuallyViewed": true,
+    "limitations": [
+      "No playback smoothness check.",
+      "Contact points are manual artistic estimates; numerical residual is alignment error only.",
+      "Source proportions and individual feet move with generated poses."
+    ]
+  },
+  "finalIntegrity": {
+    "exportPNGHashChecks": 60,
+    "sourceSheetAndRecordHashesMatch": true,
+    "sourcePixelsUnchanged": true
+  }
+}

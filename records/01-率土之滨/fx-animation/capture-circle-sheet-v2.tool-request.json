@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T16:32:33.315Z",
+  "submittedParameters": {
+    "prompt": "Edit the FOURTH attached image, the existing eight-frame 4-column by 2-row capture-circle animation sheet. Keep its Taoist jade/gold effect identity, eight ordered phase designs, hand-painted art and actual transparent alpha. The first two attached images are style only; the third is identity only.\nMake this exact framing and registration correction: REDUCE EVERY EFFECT to about 65% of its current size using one visually consistent scale factor across the entire sequence. Each full effect including glow must now occupy no more than the CENTRAL 60% of its own equal cell. Leave at least20% completely clear transparent margin on every side in all eight cells, including the peak bottom-left cell. No glow crosses a cell line.\nMost importantly ALIGN THE WORLD-PLANE ELLIPSE CENTER, not each changing bounding box: the oval hole/ground-circle center is at x50%, y60% in EVERY cell, top row and bottom row alike. The lower row in the source is too high relative to its cells: reposition it so all oval centers share that exact local registration. Preserve the fixed isometric camera and four pillar attachment points. Do not recenter tall beams or normalize each frame by its bounding box.\nRetain ordered one-shot phases: faint ring seed; arc tracing; ring completion with short pillars; growing pillars; brightest four-pillar peak; shortening pillars; fading broken ring; tiny NONEMPTY residue. Eight distinct images, same ring camera. Keep both endpoints nonempty, inner holes transparent. No captions, digits, grid lines, UI, card frames, background, checkerboard, text or watermark.\nTransparent native PNG, 2:1 overall aspect, exactly4 equal columns2 equal rows. Keep crisp hand-painted shapes and soft alpha glows; do not replace them with code-like geometric diagrams.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/capture-circle.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null,
+    "promptFile": "prompts/01-率土之滨/fx-animation/capture-circle-sheet-v2.prompt.txt"
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  }
+}

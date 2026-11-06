@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callPreparedAt": "2026-10-26T18:50:02.200Z",
+  "promptFile": "prompts/01-率土之滨/31-land-detail-ui-v1.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: One complete landscape SLG land-detail screen, approximately21:9.\nPrimary request: “土地详情” showing one selected resource tile and an actionable information panel, Daoist Q/chibi style.\nReferences1/2 are the authoritative jade/ivory/warm-gold hand-painted UI. Reference3 is our existing world map for terrain, buildings, flags and HUD continuity. Reference4 external map march screenshot is FUNCTION context only (selectable map locations and armies), never its gray realistic war style or exact map rules.\nComposition: left65% a bright detailed isometric hand-painted terrain map with a clearly outlined selected timber-resource parcel near a path and stream. Thick readable jade-green selection border, a small white pin. The selected tile contains rounded green trees, a compact timber stockpile and small rustic shed; no big castle. Adjacent grassy tiles and hill/stream/stone bridge scenery. Roads remain visibly connected. Two tiny friendly helmeted chibi sentries near the selected tile show guardians.\nRight33% tall ivory parchment info panel with rounded fine gold border. Top centered jade title “土地详情”, small back arrow top-left and X top-right. No giant scene title obstructing selection.\nPanel exact short hierarchy:\nHeader “林地 Lv.3”\nSmall label “地块示例”\nRows “资源类型 木材” / “归属 未占领” / “距离 8格”\nResource row “木材产量 +300 / 小时”\nSection “守军信息”\nOne helmeted chibi guard portrait with “野外守军”, “兵力 900”, small ivory button “查看守军”.\nThin divider.\nSection “可用操作”\nlarge green active button “出征” with crossed spears.\nUnder it two smaller buttons, BOTH visibly disabled pale gray-beige and padlock:\n“驻守” with short helper “占领后开放”\n“扫荡” with short helper “占领后开放”.\nKeep these lock explanations readable and unambiguous; selected tile is unowned, so do not show friendly troop garrisoned already.\nSmall bottom note “选择部队后出征”.\nNo invented real city coordinates or official game logo. This is an original prototype with sample level/production/distance/guardian values; don't assert official universal rules. Clean legible Chinese and strong separation between active and locked states.\nStyle: high-detail Daoist Q/chibi hand-painted, jade forests and roofs, natural light gray stone, ivory paper, fine warm gold, rounded friendly forms, sparse red tassels, soft daylight. No realistic warfare, no dark metallic HUD, no plastic sheen, no screenshot collage, no clipped panel or tiny text. Opaque full screen.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/06-map-march.jpg"
+    ],
+    "transparent_background": false
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "modelTarget": "gpt-image-2.5-sunburst",
+  "qualityTarget": "max"
+}

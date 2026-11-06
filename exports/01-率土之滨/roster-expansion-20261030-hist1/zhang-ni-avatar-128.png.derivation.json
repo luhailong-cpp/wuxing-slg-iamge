@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/zhang-ni-avatar-128.png",
+  "sha256": "464eca46d32cfd8b7f79f0a2635f0f7212ff5165a46b458bce881904f7b4d56e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhang-ni-master-v1.png",
+    "sha256": "3c4dec8eefaed3987958f151898694a75d444d22b8801b5accec8b83c841fedf",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhang-ni-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      220,
+      180,
+      810,
+      800
+    ],
+    "uniformScale": 0.19032258064516128,
+    "resizedSize": [
+      112,
+      118
+    ],
+    "offset": [
+      8,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

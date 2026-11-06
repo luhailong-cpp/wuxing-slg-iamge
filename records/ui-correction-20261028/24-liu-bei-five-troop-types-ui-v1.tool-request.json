@@ -1,0 +1,34 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T08:07:48.578Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit\nAsset type: high-fidelity landscape Chinese SLG game UI direction image.\nEdit the third attached image, the existing Liu Bei troop-type page. Preserve its approximately 1916x821 wide horizontal composition, original Liu Bei identity, detailed hand-painted Daoist chibi art, ivory paper/silk panels, jade-green and warm-gold rounded cloud borders, and scenic pavilion background. No portrait layout.\nInput image roles in attached order:\n1. Confirmed mail UI: authoritative style/material/control treatment only; do not copy its text.\n2. Confirmed party UI: authoritative style/readability/rounded hand painting only; do not copy its characters or text.\n3. EDIT TARGET: existing Liu Bei troop page. Preserve left Liu Bei portrait, name, four stars, tabs, right content hierarchy and bottom navigation, except changes listed below.\n4. Liu Bei v2 character master: identity reference. He remains the same male Liu Bei, long brown hair, small goatee, tall jade crown, green/ivory gold-trimmed robes and two swords. Do not turn him into a newly named elemental hero or a female character.\n5. Five existing elemental emblems sheet: use the five emblems as TROOP TYPE symbols only: metal four-point ivory/gold emblem, wood green leaves, water blue droplet, fire red flame, earth ochre mountains. Preserve their distinct recognizable silhouettes. They are not characters or new skills.\nRequired change: replace the old three infantry/archer/cavalry cards with FIVE evenly spaced readable cards in a single row in the right panel. Their exact left-to-right titles are \"金兵\", \"木兵\", \"水兵\", \"火兵\", \"土兵\". Each card shows only its corresponding large emblem, title, and state; no person. Do not use spear/shield, bow/quiver or horse illustrations as troop symbols. Metal card is selected with jade background and gold edge, state \"当前\". Other four cards are ivory secondary cards with state \"可切换\".\nKeep the three top tabs exactly \"详情\", \"配点\", \"兵种\"; select \"兵种\".\nKeep the left name exactly \"刘备\" and four stars.\nReplace the summary row with metal emblem and exact text \"当前兵种  金兵\", preserve \"攻击距离  3\" and \"配置成本  COST2.0\". Gold troop choice is the current displayed choice; no elemental affiliation is assigned to Liu Bei himself.\nKeep the lower row \"兵种特性\", \"基础兵种\", \"进阶未解锁\", \"进阶条件待解锁\", using the metal emblem for the basic troop icon and a lock for locked advancement.\nBottom disabled wide button reads exactly \"已使用金兵\". The secondary button reads \"返回详情\".\nNo visible \"步兵\", \"弓兵\", \"骑兵\" anywhere. No \"金行使\", \"木行使\", elemental hero names, elemental skill names, invented probabilities, damage, counters or new game rules. Do not add explanatory prototype/developer/candidate footnotes to the product UI.\nMaintain full panel/control edges, legible Chinese text, consistent spacing and the original high-resolution hand-painted finish. Do not crop any of the five emblems. No watermark, no product title, no extra controls. Opaque complete screen, not transparent.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/24-general-troop-types-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/24-liu-bei-five-troop-types-ui-v1.prompt.txt"
+}
+

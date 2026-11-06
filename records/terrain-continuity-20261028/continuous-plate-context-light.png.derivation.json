@@ -1,0 +1,61 @@
+{
+  "file": "records/terrain-continuity-20261028/continuous-plate-context-light.png",
+  "sha256": "1aa629dfacc2cffe404bf21a995c9f7d28098ea6bde68f246b1a46bd83e7357f",
+  "sourceNativeSize": [
+    1774,
+    887
+  ],
+  "exportSize": [
+    1774,
+    887
+  ],
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png",
+      "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23",
+      "record": "designs/01-率土之滨/assets/terrain-continuity-20261028/grass-foundation-v1.png.generation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "offset": [
+        462,
+        -4
+      ],
+      "scale": 1,
+      "anchor": [
+        228.0,
+        364
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "exportSize": [
+        100,
+        100
+      ],
+      "scale": 0.07974481658692185,
+      "offset": [
+        833,
+        355
+      ],
+      "footpoint": [
+        890,
+        450
+      ]
+    }
+  ],
+  "operations": [
+    "Alpha-composite native grass and native city pixels over specified flat diagnostic background",
+    "Premultiplied-alpha resize metal master from1254x1254 to100x100 for static scale diagnostic"
+  ],
+  "newArtwork": false,
+  "diagnosticOnly": true,
+  "sourceAlphaEdited": false
+}

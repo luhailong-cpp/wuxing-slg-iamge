@@ -1,0 +1,52 @@
+{
+  "startedAt": "2026-11-06T11:21:32.532Z",
+  "clientDate": "2026-11-06",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "tool": "image_gen.imagegen",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original full-body character master for the historical Three Kingdoms strategy game 五行问鼎. Use both attached images for Daoist chibi proportions and polished hand-painted materials only. Depict 曹丕, young adult Cao Wei ruler and literary swordsman. Slender sculpted jaw, narrow steady dark eyes, neat clean-shaven face, black hair gathered in a low-profile black lacquer court crown with one slender pale jade clasp. Straight dark indigo silk court robe, pale ivory inner collar, muted plum sash, minimal thin brushed-gold stitching. Calm upright court stance, one hand cradles a closed bamboo-slip volume at mid-chest; one fully sheathed slender straight sword tucked close at the hip, tip well inside silhouette. No red cloak, gilded armor, broad shoulder plates, beard, or drawn sword. One person in balanced three-quarter standing pose. Oversized expressive head, compact limbs, soft painted fabric, restrained jade, readable face at icon size. The full character including footwear and props fits within the central 75% width and 82% height, with clear margins on every side. Portrait 2:3 and genuine transparent alpha outside the silhouette. No background, floor, shadow, glow, border, writing or UI.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "cao-pi",
+    "name": "曹丕",
+    "personID": "ww-p-6c4732d6c6ee",
+    "cardIDs": [
+      100025
+    ],
+    "source": "https://zh.wikisource.org/zh-hant/三國志/卷02",
+    "identityEvidence": "Records of the Three Kingdoms vol. 2, Annals of Emperor Wen: Cao Pi, styled Zihuan."
+  }
+}

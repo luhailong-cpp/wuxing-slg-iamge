@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/zhong-hui-bust-native.png",
+  "sha256": "6e9ec512ff52dbed17ed758f9b1ebb41a6cde94d43dd6894da0f96d0266f5015",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhong-hui-master-v1.png",
+    "sha256": "cb6436fba8ffe161131c759b5d0c5cd8837c20e20a43df267ca2948659c38964",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhong-hui-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      22,
+      19,
+      1064,
+      1018
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}
