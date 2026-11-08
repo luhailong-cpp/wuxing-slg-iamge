@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/da-qiao-bust-native.png",
+  "sha256": "619f2d5d8f5f9addd5176050c74f25eac56c43a204671cd250791dd33208cbbd",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/da-qiao-master-v1.png",
+    "sha256": "3558c905b5e1c6f97b4249920bb8408e4570044a4192637e4b14d7f5907670e2",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/da-qiao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

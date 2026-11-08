@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-27T17:07:40.8847887Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "promptFile": "prompts/01-率土之滨/21-map-march-ui-v4.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/21-map-march-ui-v3.png"
+    ],
+    "transparent_background": false,
+    "quality": null,
+    "prompt": "Use case: precise-object-edit\nInput1/2 PRIMARY Daoist jade/ivory/warm-gold hand-painted style. Input3 ACTUAL EDIT TARGET: the new two-bank march map. Targeted tiny route repair only.\nChange ONLY the warm-GOLD third-army RETURN route in image3 so it TERMINATES at the northern/west-bank approach to friendly 我方主城. It currently continues too far east along the road past the main-city gate toward army1. REMOVE all gold/ochre dashed lines and gold arrowheads on the lower road between friendly main city and the first army group, including any gold arrows pointing EAST away from home. Restore the underlying pale road cleanly where this extra gold tail is removed.\nKeep the gold return route from the upper-left fort, through the third-army group and SOUTH down the west-bank road, but END it at the main city's northern approach just below the LAST existing downward gold arrow near the 我方主城 label. Its final small arrow points INTO/TOWARD friendly main city (southwest/left), never toward army1 or the bridge. End the route there; no loop, overshoot, extra city icon or new label.\nPreserve EVERY OTHER PIXEL REGION as closely as possible: entire new geography, one vertical river and one stone bridge, GREEN first-army march route correctly crossing the TOP BRIDGE ROAD DECK from west to east, all green arrows, all three army groups/locations, waiting camp with no path, all city/fort/camp buildings, all Chinese labels/numbers/timers, topHUD resources, jade territory flags, right army panel/avatars/status/buttons, chatstrip, outer framing and rendering style.\nDo NOT redraw or reroute the green path. Do NOT add a second bridge, water shortcut or new army. No crop/zoom, UI movement, text edits, label additions, glow growth or changed character identities. Complete opaque landscape same aspect. Only erase the overlong GOLD return-route tail and point its final arrow toward friendly home.",
+    "model": null
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false
+}

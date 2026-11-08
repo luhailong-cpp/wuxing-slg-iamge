@@ -1,0 +1,2045 @@
+{
+  "unit": "earth",
+  "character": "troop-earth",
+  "status": "manual_contact_rois_and_helmet_landmarks_reviewed",
+  "userApproved": false,
+  "master": {
+    "file": "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png",
+    "helmetWidth": 523,
+    "helmetX": [
+      443,
+      966
+    ],
+    "groundRoot": [
+      706,
+      1130
+    ],
+    "sha256": "d074b408413ce436484eee21e82ea76da291ff60b78c34600ccddd10dfa971da"
+  },
+  "ownershipReport": "records/troop-frames-20261029-r3/fire-earth-registration-ownership-report.json",
+  "actions": [
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-idle-se-v1.png",
+      "sha256": "078ad81111d12db0456f67ac38fb6859ca760ed186dcffd1c249ec3a00f97b8a",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCanvas": [
+        650,
+        650
+      ],
+      "cuts": {
+        "x": [
+          0,
+          650,
+          1254
+        ],
+        "y": [
+          0,
+          650,
+          1254
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 650,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 650,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            650,
+            650
+          ],
+          "ownedSize": [
+            650,
+            650
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            83,
+            81,
+            603,
+            624
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                235,
+                537,
+                335,
+                605
+              ],
+              "effectiveRoi": [
+                235,
+                537,
+                335,
+                605
+              ],
+              "point": [
+                272,
+                591
+              ],
+              "bottomClearance": 14
+            },
+            {
+              "manualRoi": [
+                421,
+                567,
+                520,
+                635
+              ],
+              "effectiveRoi": [
+                421,
+                567,
+                520,
+                635
+              ],
+              "point": [
+                477.5,
+                624
+              ],
+              "bottomClearance": 11
+            }
+          ],
+          "groundRootExact": [
+            374.75,
+            607.5
+          ],
+          "groundRootInteger": [
+            375,
+            608
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            650,
+            0,
+            1254,
+            650
+          ],
+          "ownedSize": [
+            604,
+            650
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            48,
+            81,
+            559,
+            624
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                179,
+                536,
+                281,
+                606
+              ],
+              "effectiveRoi": [
+                179,
+                536,
+                281,
+                606
+              ],
+              "point": [
+                223,
+                591
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                379,
+                567,
+                481,
+                635
+              ],
+              "effectiveRoi": [
+                379,
+                567,
+                481,
+                635
+              ],
+              "point": [
+                428,
+                624
+              ],
+              "bottomClearance": 11
+            }
+          ],
+          "groundRootExact": [
+            325.5,
+            607.5
+          ],
+          "groundRootInteger": [
+            326,
+            608
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            650,
+            650,
+            1254
+          ],
+          "ownedSize": [
+            650,
+            604
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            86,
+            36,
+            598,
+            569
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                232,
+                486,
+                337,
+                550
+              ],
+              "effectiveRoi": [
+                232,
+                486,
+                337,
+                550
+              ],
+              "point": [
+                273,
+                536
+              ],
+              "bottomClearance": 14
+            },
+            {
+              "manualRoi": [
+                419,
+                513,
+                519,
+                577
+              ],
+              "effectiveRoi": [
+                419,
+                513,
+                519,
+                577
+              ],
+              "point": [
+                477,
+                569
+              ],
+              "bottomClearance": 8
+            }
+          ],
+          "groundRootExact": [
+            375,
+            552.5
+          ],
+          "groundRootInteger": [
+            375,
+            553
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            650,
+            650,
+            1254,
+            1254
+          ],
+          "ownedSize": [
+            604,
+            604
+          ],
+          "sourceCanvas": [
+            650,
+            650
+          ],
+          "alpha16Bbox": [
+            40,
+            40,
+            556,
+            573
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                179,
+                486,
+                282,
+                552
+              ],
+              "effectiveRoi": [
+                179,
+                486,
+                282,
+                552
+              ],
+              "point": [
+                224.5,
+                541
+              ],
+              "bottomClearance": 11
+            },
+            {
+              "manualRoi": [
+                379,
+                519,
+                481,
+                581
+              ],
+              "effectiveRoi": [
+                379,
+                519,
+                481,
+                581
+              ],
+              "point": [
+                429,
+                573
+              ],
+              "bottomClearance": 8
+            }
+          ],
+          "groundRootExact": [
+            326.75,
+            557
+          ],
+          "groundRootInteger": [
+            327,
+            557
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 250
+        }
+      ],
+      "id": "idle",
+      "helmetWidthLandmarks": [
+        230,
+        522
+      ],
+      "helmetWidth": 292,
+      "headMeasureFrame": 1,
+      "loop": true,
+      "durationMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "manualContactRois": [
+        [
+          [
+            235,
+            537,
+            335,
+            605
+          ],
+          [
+            421,
+            567,
+            520,
+            635
+          ]
+        ],
+        [
+          [
+            179,
+            536,
+            281,
+            606
+          ],
+          [
+            379,
+            567,
+            481,
+            635
+          ]
+        ],
+        [
+          [
+            232,
+            486,
+            337,
+            550
+          ],
+          [
+            419,
+            513,
+            519,
+            577
+          ]
+        ],
+        [
+          [
+            179,
+            486,
+            282,
+            552
+          ],
+          [
+            379,
+            519,
+            481,
+            581
+          ]
+        ]
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-idle-se-v1.png.generation.json",
+      "sourceRecordSha256": "5064e811ee2da675d67b44fd916171478e575f873ae73e5ad2fc1d62341abb89"
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-attack-se-v1.png",
+      "sha256": "cd0da5d4697cf7ea4ba3a1ee313c4cd824005095bc2035f184cf5080f7318dfe",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceCanvas": [
+        553,
+        553
+      ],
+      "cuts": {
+        "x": [
+          0,
+          553,
+          1040,
+          1536
+        ],
+        "y": [
+          0,
+          520,
+          1024
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 520,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 553,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 1040,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            553,
+            520
+          ],
+          "ownedSize": [
+            553,
+            520
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            67,
+            63,
+            487,
+            505
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                184,
+                437,
+                265,
+                492
+              ],
+              "effectiveRoi": [
+                184,
+                437,
+                265,
+                492
+              ],
+              "point": [
+                213,
+                479
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                344,
+                459,
+                426,
+                517
+              ],
+              "effectiveRoi": [
+                344,
+                459,
+                426,
+                517
+              ],
+              "point": [
+                391.5,
+                505
+              ],
+              "bottomClearance": 12
+            }
+          ],
+          "groundRootExact": [
+            302.25,
+            492
+          ],
+          "groundRootInteger": [
+            302,
+            492
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            553,
+            0,
+            1040,
+            520
+          ],
+          "ownedSize": [
+            487,
+            520
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            30,
+            44,
+            430,
+            506
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                114,
+                440,
+                199,
+                500
+              ],
+              "effectiveRoi": [
+                114,
+                440,
+                199,
+                500
+              ],
+              "point": [
+                144,
+                485
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                296,
+                459,
+                378,
+                517
+              ],
+              "effectiveRoi": [
+                296,
+                459,
+                378,
+                517
+              ],
+              "point": [
+                342,
+                506
+              ],
+              "bottomClearance": 11
+            }
+          ],
+          "groundRootExact": [
+            243,
+            495.5
+          ],
+          "groundRootInteger": [
+            243,
+            496
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1040,
+            0,
+            1536,
+            520
+          ],
+          "ownedSize": [
+            496,
+            520
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            2,
+            76,
+            472,
+            506
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                130,
+                440,
+                218,
+                500
+              ],
+              "effectiveRoi": [
+                130,
+                440,
+                218,
+                500
+              ],
+              "point": [
+                160.5,
+                487
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                348,
+                459,
+                425,
+                518
+              ],
+              "effectiveRoi": [
+                348,
+                459,
+                425,
+                518
+              ],
+              "point": [
+                388,
+                506
+              ],
+              "bottomClearance": 12
+            }
+          ],
+          "groundRootExact": [
+            274.25,
+            496.5
+          ],
+          "groundRootInteger": [
+            274,
+            497
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            520,
+            553,
+            1024
+          ],
+          "ownedSize": [
+            553,
+            504
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            41,
+            31,
+            547,
+            443
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                158,
+                395,
+                247,
+                455
+              ],
+              "effectiveRoi": [
+                158,
+                395,
+                247,
+                455
+              ],
+              "point": [
+                191.5,
+                443
+              ],
+              "bottomClearance": 12
+            },
+            {
+              "manualRoi": [
+                443,
+                384,
+                531,
+                443
+              ],
+              "effectiveRoi": [
+                443,
+                384,
+                531,
+                443
+              ],
+              "point": [
+                495,
+                436
+              ],
+              "bottomClearance": 7
+            }
+          ],
+          "groundRootExact": [
+            343.25,
+            439.5
+          ],
+          "groundRootInteger": [
+            343,
+            440
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 70
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            553,
+            520,
+            1040,
+            1024
+          ],
+          "ownedSize": [
+            487,
+            504
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            6,
+            62,
+            473,
+            458
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                139,
+                376,
+                234,
+                439
+              ],
+              "effectiveRoi": [
+                139,
+                376,
+                234,
+                439
+              ],
+              "point": [
+                175,
+                435
+              ],
+              "bottomClearance": 4
+            },
+            {
+              "manualRoi": [
+                379,
+                391,
+                465,
+                455
+              ],
+              "effectiveRoi": [
+                379,
+                391,
+                465,
+                455
+              ],
+              "point": [
+                424,
+                445
+              ],
+              "bottomClearance": 10
+            }
+          ],
+          "groundRootExact": [
+            299.5,
+            440
+          ],
+          "groundRootInteger": [
+            300,
+            440
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1040,
+            520,
+            1536,
+            1024
+          ],
+          "ownedSize": [
+            496,
+            504
+          ],
+          "sourceCanvas": [
+            553,
+            553
+          ],
+          "alpha16Bbox": [
+            15,
+            15,
+            433,
+            459
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                129,
+                385,
+                221,
+                446
+              ],
+              "effectiveRoi": [
+                129,
+                385,
+                221,
+                446
+              ],
+              "point": [
+                161,
+                433
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                294,
+                407,
+                378,
+                471
+              ],
+              "effectiveRoi": [
+                294,
+                407,
+                378,
+                471
+              ],
+              "point": [
+                339.5,
+                459
+              ],
+              "bottomClearance": 12
+            }
+          ],
+          "groundRootExact": [
+            250.25,
+            446
+          ],
+          "groundRootInteger": [
+            250,
+            446
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 160
+        }
+      ],
+      "id": "attack",
+      "helmetWidthLandmarks": [
+        188,
+        421
+      ],
+      "helmetWidth": 233,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "manualContactRois": [
+        [
+          [
+            184,
+            437,
+            265,
+            492
+          ],
+          [
+            344,
+            459,
+            426,
+            517
+          ]
+        ],
+        [
+          [
+            114,
+            440,
+            199,
+            500
+          ],
+          [
+            296,
+            459,
+            378,
+            517
+          ]
+        ],
+        [
+          [
+            130,
+            440,
+            218,
+            500
+          ],
+          [
+            348,
+            459,
+            425,
+            518
+          ]
+        ],
+        [
+          [
+            158,
+            395,
+            247,
+            455
+          ],
+          [
+            443,
+            384,
+            531,
+            443
+          ]
+        ],
+        [
+          [
+            139,
+            376,
+            234,
+            439
+          ],
+          [
+            379,
+            391,
+            465,
+            455
+          ]
+        ],
+        [
+          [
+            129,
+            385,
+            221,
+            446
+          ],
+          [
+            294,
+            407,
+            378,
+            471
+          ]
+        ]
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-attack-se-v1.png.generation.json",
+      "sourceRecordSha256": "8f4c86717c70bf1afc6a0f049542aa1e69462fc94a7b439b6ba65fc0a6fbc03f"
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-hurt-se-v1.png",
+      "sha256": "84a21339df10b48f52cef5a8e73c6469118ddfc72d2612b15dcfafc5c9d61587",
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "sourceCanvas": [
+        662,
+        662
+      ],
+      "cuts": {
+        "x": [
+          0,
+          662,
+          1254
+        ],
+        "y": [
+          0,
+          640,
+          1254
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 640,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 662,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            662,
+            640
+          ],
+          "ownedSize": [
+            662,
+            640
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            77,
+            80,
+            647,
+            622
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                248,
+                553,
+                355,
+                619
+              ],
+              "effectiveRoi": [
+                248,
+                553,
+                355,
+                619
+              ],
+              "point": [
+                288,
+                610
+              ],
+              "bottomClearance": 9
+            },
+            {
+              "manualRoi": [
+                453,
+                567,
+                555,
+                636
+              ],
+              "effectiveRoi": [
+                453,
+                567,
+                555,
+                636
+              ],
+              "point": [
+                513,
+                622
+              ],
+              "bottomClearance": 14
+            }
+          ],
+          "groundRootExact": [
+            400.5,
+            616
+          ],
+          "groundRootInteger": [
+            401,
+            616
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            662,
+            0,
+            1254,
+            640
+          ],
+          "ownedSize": [
+            592,
+            640
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            15,
+            80,
+            552,
+            611
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                195,
+                556,
+                285,
+                621
+              ],
+              "effectiveRoi": [
+                195,
+                556,
+                285,
+                621
+              ],
+              "point": [
+                232.5,
+                610
+              ],
+              "bottomClearance": 11
+            },
+            {
+              "manualRoi": [
+                382,
+                554,
+                491,
+                621
+              ],
+              "effectiveRoi": [
+                382,
+                554,
+                491,
+                621
+              ],
+              "point": [
+                446,
+                611
+              ],
+              "bottomClearance": 10
+            }
+          ],
+          "groundRootExact": [
+            339.25,
+            610.5
+          ],
+          "groundRootInteger": [
+            339,
+            611
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 100
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            0,
+            640,
+            662,
+            1254
+          ],
+          "ownedSize": [
+            662,
+            614
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            74,
+            16,
+            642,
+            574
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                246,
+                506,
+                354,
+                568
+              ],
+              "effectiveRoi": [
+                246,
+                506,
+                354,
+                568
+              ],
+              "point": [
+                282,
+                553
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                457,
+                526,
+                569,
+                590
+              ],
+              "effectiveRoi": [
+                457,
+                526,
+                569,
+                590
+              ],
+              "point": [
+                522,
+                574
+              ],
+              "bottomClearance": 16
+            }
+          ],
+          "groundRootExact": [
+            402,
+            563.5
+          ],
+          "groundRootInteger": [
+            402,
+            564
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            662,
+            640,
+            1254,
+            1254
+          ],
+          "ownedSize": [
+            592,
+            614
+          ],
+          "sourceCanvas": [
+            662,
+            662
+          ],
+          "alpha16Bbox": [
+            15,
+            20,
+            563,
+            585
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                169,
+                510,
+                275,
+                575
+              ],
+              "effectiveRoi": [
+                169,
+                510,
+                275,
+                575
+              ],
+              "point": [
+                205.5,
+                559
+              ],
+              "bottomClearance": 16
+            },
+            {
+              "manualRoi": [
+                375,
+                538,
+                479,
+                598
+              ],
+              "effectiveRoi": [
+                375,
+                538,
+                479,
+                598
+              ],
+              "point": [
+                434.5,
+                585
+              ],
+              "bottomClearance": 13
+            }
+          ],
+          "groundRootExact": [
+            320,
+            572
+          ],
+          "groundRootInteger": [
+            320,
+            572
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 180
+        }
+      ],
+      "id": "hurt",
+      "helmetWidthLandmarks": [
+        224,
+        543
+      ],
+      "helmetWidth": 319,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "two boot soles",
+        "two boot soles"
+      ],
+      "manualContactRois": [
+        [
+          [
+            248,
+            553,
+            355,
+            619
+          ],
+          [
+            453,
+            567,
+            555,
+            636
+          ]
+        ],
+        [
+          [
+            195,
+            556,
+            285,
+            621
+          ],
+          [
+            382,
+            554,
+            491,
+            621
+          ]
+        ],
+        [
+          [
+            246,
+            506,
+            354,
+            568
+          ],
+          [
+            457,
+            526,
+            569,
+            590
+          ]
+        ],
+        [
+          [
+            169,
+            510,
+            275,
+            575
+          ],
+          [
+            375,
+            538,
+            479,
+            598
+          ]
+        ]
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-hurt-se-v1.png.generation.json",
+      "sourceRecordSha256": "70d36f58088495ff7a70093ce2f045ff82b03efb25a10b9bf59e249126aeed8d"
+    },
+    {
+      "source": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-defeat-se-v1.png",
+      "sha256": "f2ccf16f70119832b204755b852f99ff50bb31818cba68ffbbba633326c0d9c5",
+      "sourceSize": [
+        1536,
+        1024
+      ],
+      "sourceCanvas": [
+        565,
+        565
+      ],
+      "cuts": {
+        "x": [
+          0,
+          525,
+          1024,
+          1536
+        ],
+        "y": [
+          0,
+          565,
+          1024
+        ]
+      },
+      "crossingChecks": [
+        {
+          "axis": "y",
+          "line": 565,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 525,
+          "alpha16In2pxBand": 0
+        },
+        {
+          "axis": "x",
+          "line": 1024,
+          "alpha16In2pxBand": 0
+        }
+      ],
+      "exactSourcePartition": true,
+      "frames": [
+        {
+          "index": 1,
+          "sourceRect": [
+            0,
+            0,
+            525,
+            565
+          ],
+          "ownedSize": [
+            525,
+            565
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            57,
+            77,
+            463,
+            526
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                183,
+                475,
+                262,
+                520
+              ],
+              "effectiveRoi": [
+                183,
+                475,
+                262,
+                520
+              ],
+              "point": [
+                211.5,
+                507
+              ],
+              "bottomClearance": 13
+            },
+            {
+              "manualRoi": [
+                333,
+                493,
+                412,
+                540
+              ],
+              "effectiveRoi": [
+                333,
+                493,
+                412,
+                540
+              ],
+              "point": [
+                377,
+                526
+              ],
+              "bottomClearance": 14
+            }
+          ],
+          "groundRootExact": [
+            294.25,
+            516.5
+          ],
+          "groundRootInteger": [
+            294,
+            517
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120
+        },
+        {
+          "index": 2,
+          "sourceRect": [
+            525,
+            0,
+            1024,
+            565
+          ],
+          "ownedSize": [
+            499,
+            565
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            34,
+            106,
+            459,
+            527
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                176,
+                482,
+                262,
+                529
+              ],
+              "effectiveRoi": [
+                176,
+                482,
+                262,
+                529
+              ],
+              "point": [
+                205.5,
+                513
+              ],
+              "bottomClearance": 16
+            },
+            {
+              "manualRoi": [
+                313,
+                497,
+                382,
+                541
+              ],
+              "effectiveRoi": [
+                313,
+                497,
+                382,
+                541
+              ],
+              "point": [
+                348,
+                527
+              ],
+              "bottomClearance": 14
+            }
+          ],
+          "groundRootExact": [
+            276.75,
+            520
+          ],
+          "groundRootInteger": [
+            277,
+            520
+          ],
+          "contactKind": "two boot soles",
+          "durationMs": 120
+        },
+        {
+          "index": 3,
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            565
+          ],
+          "ownedSize": [
+            512,
+            565
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            43,
+            145,
+            475,
+            531
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                214,
+                465,
+                297,
+                521
+              ],
+              "effectiveRoi": [
+                214,
+                465,
+                297,
+                521
+              ],
+              "point": [
+                254.5,
+                513
+              ],
+              "bottomClearance": 8
+            },
+            {
+              "manualRoi": [
+                344,
+                486,
+                410,
+                535
+              ],
+              "effectiveRoi": [
+                344,
+                486,
+                410,
+                535
+              ],
+              "point": [
+                378.5,
+                519
+              ],
+              "bottomClearance": 16
+            }
+          ],
+          "groundRootExact": [
+            316.5,
+            516
+          ],
+          "groundRootInteger": [
+            317,
+            516
+          ],
+          "contactKind": "left knee and right boot",
+          "durationMs": 160
+        },
+        {
+          "index": 4,
+          "sourceRect": [
+            0,
+            565,
+            525,
+            1024
+          ],
+          "ownedSize": [
+            525,
+            459
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            58,
+            41,
+            496,
+            385
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                243,
+                340,
+                320,
+                389
+              ],
+              "effectiveRoi": [
+                243,
+                340,
+                320,
+                389
+              ],
+              "point": [
+                283.5,
+                372
+              ],
+              "bottomClearance": 17
+            },
+            {
+              "manualRoi": [
+                344,
+                342,
+                399,
+                378
+              ],
+              "effectiveRoi": [
+                344,
+                342,
+                399,
+                378
+              ],
+              "point": [
+                377.5,
+                372
+              ],
+              "bottomClearance": 6
+            }
+          ],
+          "groundRootExact": [
+            330.5,
+            372
+          ],
+          "groundRootInteger": [
+            331,
+            372
+          ],
+          "contactKind": "two knees",
+          "durationMs": 200
+        },
+        {
+          "index": 5,
+          "sourceRect": [
+            525,
+            565,
+            1024,
+            1024
+          ],
+          "ownedSize": [
+            499,
+            459
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            32,
+            56,
+            454,
+            391
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                204,
+                337,
+                282,
+                385
+              ],
+              "effectiveRoi": [
+                204,
+                337,
+                282,
+                385
+              ],
+              "point": [
+                248,
+                370
+              ],
+              "bottomClearance": 15
+            },
+            {
+              "manualRoi": [
+                307,
+                341,
+                380,
+                387
+              ],
+              "effectiveRoi": [
+                307,
+                341,
+                380,
+                387
+              ],
+              "point": [
+                338,
+                369
+              ],
+              "bottomClearance": 18
+            }
+          ],
+          "groundRootExact": [
+            293,
+            369.5
+          ],
+          "groundRootInteger": [
+            293,
+            370
+          ],
+          "contactKind": "two knees",
+          "durationMs": 200
+        },
+        {
+          "index": 6,
+          "sourceRect": [
+            1024,
+            565,
+            1536,
+            1024
+          ],
+          "ownedSize": [
+            512,
+            459
+          ],
+          "sourceCanvas": [
+            565,
+            565
+          ],
+          "alpha16Bbox": [
+            53,
+            54,
+            464,
+            391
+          ],
+          "contacts": [
+            {
+              "manualRoi": [
+                223,
+                343,
+                299,
+                390
+              ],
+              "effectiveRoi": [
+                223,
+                343,
+                299,
+                390
+              ],
+              "point": [
+                272,
+                379
+              ],
+              "bottomClearance": 11
+            },
+            {
+              "manualRoi": [
+                327,
+                347,
+                386,
+                388
+              ],
+              "effectiveRoi": [
+                327,
+                347,
+                386,
+                388
+              ],
+              "point": [
+                356.5,
+                380
+              ],
+              "bottomClearance": 8
+            }
+          ],
+          "groundRootExact": [
+            314.25,
+            379.5
+          ],
+          "groundRootInteger": [
+            314,
+            380
+          ],
+          "contactKind": "two knees",
+          "durationMs": 600
+        }
+      ],
+      "id": "defeat",
+      "helmetWidthLandmarks": [
+        163,
+        400
+      ],
+      "helmetWidth": 237,
+      "headMeasureFrame": 1,
+      "loop": false,
+      "durationMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "contactKind": [
+        "two boot soles",
+        "two boot soles",
+        "left knee and right boot",
+        "two knees",
+        "two knees",
+        "two knees"
+      ],
+      "manualContactRois": [
+        [
+          [
+            183,
+            475,
+            262,
+            520
+          ],
+          [
+            333,
+            493,
+            412,
+            540
+          ]
+        ],
+        [
+          [
+            176,
+            482,
+            262,
+            529
+          ],
+          [
+            313,
+            497,
+            382,
+            541
+          ]
+        ],
+        [
+          [
+            214,
+            465,
+            297,
+            521
+          ],
+          [
+            344,
+            486,
+            410,
+            535
+          ]
+        ],
+        [
+          [
+            243,
+            340,
+            320,
+            389
+          ],
+          [
+            344,
+            342,
+            399,
+            378
+          ]
+        ],
+        [
+          [
+            204,
+            337,
+            282,
+            385
+          ],
+          [
+            307,
+            341,
+            380,
+            387
+          ]
+        ],
+        [
+          [
+            223,
+            343,
+            299,
+            390
+          ],
+          [
+            327,
+            347,
+            386,
+            388
+          ]
+        ]
+      ],
+      "sourceRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/earth-defeat-se-v1.png.generation.json",
+      "sourceRecordSha256": "f287bf992aaea38bdaa3d2b99a7c9c38ba7fd836a44ce68d35dd69e40920978b"
+    }
+  ],
+  "inputSha256": "b27e4331403a36e6a8accd90f35d055a6adf24870e4e4e690a48189e7394cdf9",
+  "manualReview": {
+    "reviewer": "audit_characters",
+    "contactMarkersActuallyViewed": true,
+    "helmetLandmarksActuallyViewed": true,
+    "contactInterpretation": "boot/knee lower support midpoint; not individual foot pinning",
+    "corrections": [
+      "Defeat frame4 right ROI narrowed to exclude shield; root331,372.",
+      "Defeat frame6 right ROI narrowed to exclude shield; root314,380."
+    ]
+  }
+}

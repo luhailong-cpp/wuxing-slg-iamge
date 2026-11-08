@@ -1,0 +1,45 @@
+{
+  "assetId": "button-primary-hover",
+  "file": "exports/01-率土之滨/runtime-ui/button-primary-hover.png",
+  "sha256": "936f14f1bd3b705385bda12f74aa52db5417bd76be360ea201a8d4f45c445f45",
+  "width": 444,
+  "height": 222,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 36472,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "button-primary",
+  "state": "hover",
+  "nineSliceCandidate": {
+    "left": 100,
+    "top": 105,
+    "right": 100,
+    "bottom": 75,
+    "basis": "Provisional native crop pixels; do not stretch until rendered review"
+  },
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+    "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      1330,
+      0,
+      1774,
+      222
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

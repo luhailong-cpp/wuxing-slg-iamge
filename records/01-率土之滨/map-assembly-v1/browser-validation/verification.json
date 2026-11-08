@@ -1,0 +1,1047 @@
+{
+  "schema": "wuxing.map-assembly-browser-verification.v1",
+  "createdAt": "2026-10-27T19:02:46.039Z",
+  "browserExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "pages": [
+    {
+      "id": "baseline",
+      "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview.html",
+      "sha256": "7207849b8b765baeb208d29be77d16db2bf8d9c857f98959287c853d3acdf669",
+      "pageErrors": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "checks": [
+        {
+          "id": "all_routes",
+          "ok": true,
+          "value": {
+            "ok": true,
+            "speed": 150,
+            "budget": 2.5,
+            "tickHz": 60,
+            "cell": 4,
+            "spawns": [
+              {
+                "id": "city-gate",
+                "valid": true,
+                "reachableCells": 21400
+              }
+            ],
+            "results": [
+              {
+                "target": "city-gate",
+                "kind": "interaction",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 4,
+                "distance": 10,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  742,
+                  366
+                ]
+              },
+              {
+                "target": "enemy-camp",
+                "kind": "interaction",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 163,
+                "distance": 405.694,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  878,
+                  706
+                ]
+              },
+              {
+                "target": "bridge-west.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 48,
+                "distance": 118.727,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  650,
+                  436
+                ]
+              },
+              {
+                "target": "bridge-mid.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 58,
+                "distance": 144.221,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  750,
+                  500
+                ]
+              },
+              {
+                "target": "bridge-east.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 106,
+                "distance": 262.861,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  850,
+                  564
+                ]
+              },
+              {
+                "target": "enemy-approach.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 226,
+                "distance": 564.894,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  1030,
+                  730
+                ]
+              }
+            ],
+            "portals": []
+          }
+        },
+        {
+          "id": "baseline_marker_pixel_ysort",
+          "ok": false,
+          "value": {
+            "status": "skipped",
+            "reason": "no object art is opaque where the marker would stand behind it"
+          }
+        },
+        {
+          "id": "assets_loaded",
+          "ok": true
+        },
+        {
+          "id": "keyboard_moves_when_free",
+          "ok": true
+        },
+        {
+          "id": "no_errors_or_external_requests",
+          "ok": true
+        }
+      ],
+      "error": null,
+      "assets": {
+        "total": 4,
+        "loaded": 4,
+        "failed": []
+      },
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "free": true,
+          "moved": 32.5
+        },
+        {
+          "key": "ArrowLeft",
+          "free": true,
+          "moved": 30
+        },
+        {
+          "key": "ArrowDown",
+          "free": true,
+          "moved": 30
+        },
+        {
+          "key": "ArrowUp",
+          "free": true,
+          "moved": 30
+        }
+      ],
+      "routes": {
+        "ok": true,
+        "speed": 150,
+        "budget": 2.5,
+        "tickHz": 60,
+        "cell": 4,
+        "spawns": [
+          {
+            "id": "city-gate",
+            "valid": true,
+            "reachableCells": 21400
+          }
+        ],
+        "results": [
+          {
+            "target": "city-gate",
+            "kind": "interaction",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 4,
+            "distance": 10,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              742,
+              366
+            ]
+          },
+          {
+            "target": "enemy-camp",
+            "kind": "interaction",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 163,
+            "distance": 405.694,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              878,
+              706
+            ]
+          },
+          {
+            "target": "bridge-west.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 48,
+            "distance": 118.727,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              650,
+              436
+            ]
+          },
+          {
+            "target": "bridge-mid.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 58,
+            "distance": 144.221,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              750,
+              500
+            ]
+          },
+          {
+            "target": "bridge-east.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 106,
+            "distance": 262.861,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              850,
+              564
+            ]
+          },
+          {
+            "target": "enemy-approach.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 226,
+            "distance": 564.894,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              1030,
+              730
+            ]
+          }
+        ],
+        "portals": []
+      },
+      "ysort": {
+        "status": "skipped",
+        "reason": "no object art is opaque where the marker would stand behind it"
+      },
+      "ok": false
+    },
+    {
+      "id": "representative-unit",
+      "file": "exports/01-率土之滨/map-assembly-v1/playable-preview.html",
+      "sha256": "9bff1506cf59c887f6858586c527b115f9cdb7ab2bc95fc95598d10705475272",
+      "pageErrors": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "checks": [
+        {
+          "id": "all_routes",
+          "ok": true,
+          "value": {
+            "ok": true,
+            "speed": 150,
+            "budget": 2.5,
+            "tickHz": 60,
+            "cell": 4,
+            "spawns": [
+              {
+                "id": "city-gate",
+                "valid": true,
+                "reachableCells": 21400
+              }
+            ],
+            "results": [
+              {
+                "target": "city-gate",
+                "kind": "interaction",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 4,
+                "distance": 10,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  742,
+                  366
+                ]
+              },
+              {
+                "target": "enemy-camp",
+                "kind": "interaction",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 163,
+                "distance": 405.694,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  878,
+                  706
+                ]
+              },
+              {
+                "target": "bridge-west.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 48,
+                "distance": 118.727,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  650,
+                  436
+                ]
+              },
+              {
+                "target": "bridge-mid.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 58,
+                "distance": 144.221,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  750,
+                  500
+                ]
+              },
+              {
+                "target": "bridge-east.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 106,
+                "distance": 262.861,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  850,
+                  564
+                ]
+              },
+              {
+                "target": "enemy-approach.approach[0]",
+                "kind": "approach",
+                "from": "city-gate",
+                "ok": true,
+                "reachable": true,
+                "reason": null,
+                "ticks": 226,
+                "distance": 564.894,
+                "maxStep": 2.5,
+                "zeroMotionTicks": 0,
+                "blocked": false,
+                "firedEnRoute": [],
+                "end": [
+                  1030,
+                  730
+                ]
+              }
+            ],
+            "portals": []
+          }
+        },
+        {
+          "id": "source_sprite_loaded_native",
+          "ok": true
+        },
+        {
+          "id": "foot_projection_and_visible_sprite",
+          "ok": true
+        },
+        {
+          "id": "bridge_actor_after_bridge",
+          "ok": true
+        },
+        {
+          "id": "assets_loaded",
+          "ok": true
+        },
+        {
+          "id": "keyboard_moves_when_free",
+          "ok": true
+        },
+        {
+          "id": "no_errors_or_external_requests",
+          "ok": true
+        }
+      ],
+      "error": null,
+      "assets": {
+        "total": 5,
+        "loaded": 5,
+        "failed": []
+      },
+      "keyboard": [
+        {
+          "key": "ArrowRight",
+          "free": true,
+          "moved": 32.5
+        },
+        {
+          "key": "ArrowLeft",
+          "free": true,
+          "moved": 30
+        },
+        {
+          "key": "ArrowDown",
+          "free": true,
+          "moved": 30
+        },
+        {
+          "key": "ArrowUp",
+          "free": true,
+          "moved": 30
+        }
+      ],
+      "routes": {
+        "ok": true,
+        "speed": 150,
+        "budget": 2.5,
+        "tickHz": 60,
+        "cell": 4,
+        "spawns": [
+          {
+            "id": "city-gate",
+            "valid": true,
+            "reachableCells": 21400
+          }
+        ],
+        "results": [
+          {
+            "target": "city-gate",
+            "kind": "interaction",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 4,
+            "distance": 10,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              742,
+              366
+            ]
+          },
+          {
+            "target": "enemy-camp",
+            "kind": "interaction",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 163,
+            "distance": 405.694,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              878,
+              706
+            ]
+          },
+          {
+            "target": "bridge-west.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 48,
+            "distance": 118.727,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              650,
+              436
+            ]
+          },
+          {
+            "target": "bridge-mid.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 58,
+            "distance": 144.221,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              750,
+              500
+            ]
+          },
+          {
+            "target": "bridge-east.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 106,
+            "distance": 262.861,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              850,
+              564
+            ]
+          },
+          {
+            "target": "enemy-approach.approach[0]",
+            "kind": "approach",
+            "from": "city-gate",
+            "ok": true,
+            "reachable": true,
+            "reason": null,
+            "ticks": 226,
+            "distance": 564.894,
+            "maxStep": 2.5,
+            "zeroMotionTicks": 0,
+            "blocked": false,
+            "firedEnRoute": [],
+            "end": [
+              1030,
+              730
+            ]
+          }
+        ],
+        "portals": []
+      },
+      "unit": {
+        "file": "exports/01-率土之滨/units/infantry-64h.png",
+        "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+        "sourceSize": [
+          256,
+          256
+        ],
+        "loaded": true,
+        "sourceAnchorPx": [
+          128,
+          224
+        ],
+        "displayScale": 1,
+        "foot": [
+          750,
+          372
+        ],
+        "drawTopLeft": [
+          622,
+          148
+        ],
+        "drawCalls": 61,
+        "actorDrawIndex": 1,
+        "objectIds": [
+          "city",
+          "bridge",
+          "enemy-camp"
+        ],
+        "objectSortY": [
+          308,
+          430,
+          780
+        ],
+        "directionArtwork": "SE static"
+      },
+      "sourceAlpha": {
+        "bbox": [
+          98,
+          159,
+          159,
+          225
+        ],
+        "nonzeroPixels": 2292
+      },
+      "phaseLocations": [
+        {
+          "name": "spawn",
+          "foot": [
+            750,
+            372
+          ],
+          "valid": true,
+          "metadata": {
+            "file": "exports/01-率土之滨/units/infantry-64h.png",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "loaded": true,
+            "sourceAnchorPx": [
+              128,
+              224
+            ],
+            "displayScale": 1,
+            "foot": [
+              750,
+              372
+            ],
+            "drawTopLeft": [
+              622,
+              148
+            ],
+            "drawCalls": 64,
+            "actorDrawIndex": 1,
+            "objectIds": [
+              "city",
+              "bridge",
+              "enemy-camp"
+            ],
+            "objectSortY": [
+              308,
+              430,
+              780
+            ],
+            "directionArtwork": "SE static"
+          },
+          "unitVisiblePixelDiff": {
+            "pixels": 2261,
+            "bbox": [
+              720,
+              308,
+              781,
+              373
+            ]
+          },
+          "expectedSourceAlphaBoundsWorld": [
+            720,
+            307,
+            781,
+            373
+          ],
+          "diffInsideActualSpriteBounds": true
+        },
+        {
+          "name": "bridge-west",
+          "foot": [
+            650,
+            436
+          ],
+          "valid": true,
+          "metadata": {
+            "file": "exports/01-率土之滨/units/infantry-64h.png",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "loaded": true,
+            "sourceAnchorPx": [
+              128,
+              224
+            ],
+            "displayScale": 1,
+            "foot": [
+              650,
+              436
+            ],
+            "drawTopLeft": [
+              522,
+              212
+            ],
+            "drawCalls": 71,
+            "actorDrawIndex": 2,
+            "objectIds": [
+              "city",
+              "bridge",
+              "enemy-camp"
+            ],
+            "objectSortY": [
+              308,
+              430,
+              780
+            ],
+            "directionArtwork": "SE static"
+          },
+          "unitVisiblePixelDiff": {
+            "pixels": 2268,
+            "bbox": [
+              620,
+              371,
+              681,
+              437
+            ]
+          },
+          "expectedSourceAlphaBoundsWorld": [
+            620,
+            371,
+            681,
+            437
+          ],
+          "diffInsideActualSpriteBounds": true
+        },
+        {
+          "name": "bridge-mid",
+          "foot": [
+            750,
+            500
+          ],
+          "valid": true,
+          "metadata": {
+            "file": "exports/01-率土之滨/units/infantry-64h.png",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "loaded": true,
+            "sourceAnchorPx": [
+              128,
+              224
+            ],
+            "displayScale": 1,
+            "foot": [
+              750,
+              500
+            ],
+            "drawTopLeft": [
+              622,
+              276
+            ],
+            "drawCalls": 80,
+            "actorDrawIndex": 2,
+            "objectIds": [
+              "city",
+              "bridge",
+              "enemy-camp"
+            ],
+            "objectSortY": [
+              308,
+              430,
+              780
+            ],
+            "directionArtwork": "SE static"
+          },
+          "unitVisiblePixelDiff": {
+            "pixels": 2267,
+            "bbox": [
+              720,
+              435,
+              781,
+              501
+            ]
+          },
+          "expectedSourceAlphaBoundsWorld": [
+            720,
+            435,
+            781,
+            501
+          ],
+          "diffInsideActualSpriteBounds": true
+        },
+        {
+          "name": "bridge-east",
+          "foot": [
+            850,
+            564
+          ],
+          "valid": true,
+          "metadata": {
+            "file": "exports/01-率土之滨/units/infantry-64h.png",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "loaded": true,
+            "sourceAnchorPx": [
+              128,
+              224
+            ],
+            "displayScale": 1,
+            "foot": [
+              850,
+              564
+            ],
+            "drawTopLeft": [
+              722,
+              340
+            ],
+            "drawCalls": 89,
+            "actorDrawIndex": 2,
+            "objectIds": [
+              "city",
+              "bridge",
+              "enemy-camp"
+            ],
+            "objectSortY": [
+              308,
+              430,
+              780
+            ],
+            "directionArtwork": "SE static"
+          },
+          "unitVisiblePixelDiff": {
+            "pixels": 2263,
+            "bbox": [
+              820,
+              499,
+              881,
+              565
+            ]
+          },
+          "expectedSourceAlphaBoundsWorld": [
+            820,
+            499,
+            881,
+            565
+          ],
+          "diffInsideActualSpriteBounds": true
+        },
+        {
+          "name": "enemy-approach",
+          "foot": [
+            1030,
+            730
+          ],
+          "valid": true,
+          "metadata": {
+            "file": "exports/01-率土之滨/units/infantry-64h.png",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "loaded": true,
+            "sourceAnchorPx": [
+              128,
+              224
+            ],
+            "displayScale": 1,
+            "foot": [
+              1030,
+              730
+            ],
+            "drawTopLeft": [
+              902,
+              506
+            ],
+            "drawCalls": 98,
+            "actorDrawIndex": 2,
+            "objectIds": [
+              "city",
+              "bridge",
+              "enemy-camp"
+            ],
+            "objectSortY": [
+              308,
+              430,
+              780
+            ],
+            "directionArtwork": "SE static"
+          },
+          "unitVisiblePixelDiff": {
+            "pixels": 1825,
+            "bbox": [
+              1001,
+              666,
+              1060,
+              730
+            ]
+          },
+          "expectedSourceAlphaBoundsWorld": [
+            1000,
+            665,
+            1061,
+            731
+          ],
+          "diffInsideActualSpriteBounds": true
+        },
+        {
+          "name": "enemy-front",
+          "foot": [
+            950,
+            795
+          ],
+          "valid": true,
+          "metadata": {
+            "file": "exports/01-率土之滨/units/infantry-64h.png",
+            "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+            "sourceSize": [
+              256,
+              256
+            ],
+            "loaded": true,
+            "sourceAnchorPx": [
+              128,
+              224
+            ],
+            "displayScale": 1,
+            "foot": [
+              950,
+              795
+            ],
+            "drawTopLeft": [
+              822,
+              571
+            ],
+            "drawCalls": 107,
+            "actorDrawIndex": 3,
+            "objectIds": [
+              "city",
+              "bridge",
+              "enemy-camp"
+            ],
+            "objectSortY": [
+              308,
+              430,
+              780
+            ],
+            "directionArtwork": "SE static"
+          },
+          "unitVisiblePixelDiff": {
+            "pixels": 2262,
+            "bbox": [
+              920,
+              730,
+              981,
+              796
+            ]
+          },
+          "expectedSourceAlphaBoundsWorld": [
+            920,
+            730,
+            981,
+            796
+          ],
+          "diffInsideActualSpriteBounds": true
+        }
+      ],
+      "ok": true
+    }
+  ],
+  "warnings": [
+    "Official skill --verify skipped because its downloaded Chromium executable was absent. This independent run uses installed Chrome via playwright executablePath.",
+    "Actual unit is one static SE-facing PNG. No walk animation, split front rail or per-pixel actor cue is claimed."
+  ],
+  "browserVersion": "156.0.8078.48",
+  "ok": false
+}

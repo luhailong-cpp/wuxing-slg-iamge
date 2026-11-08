@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/tutorial-hand-128.png",
+  "sha256": "8c3d2719714d96c98f59b5155ff3cbc71b91633df6f8d7c66677b31c8aaa94c3",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_crop_then_proportional_downscale_and_transparent_padding",
+  "transform": {
+    "cropBox": [
+      50,
+      944,
+      278,
+      1236
+    ],
+    "resampled": true,
+    "scale": 0.3835616438356164,
+    "resizedSize": [
+      87,
+      112
+    ],
+    "padding": {
+      "canvas": [
+        128,
+        128
+      ],
+      "pasteOffset": [
+        20,
+        8
+      ]
+    },
+    "filter": "premultiplied_alpha_LANCZOS"
+  },
+  "manualOwnership": {
+    "id": "tutorial-hand",
+    "label": "教程手势",
+    "manualCropBox": [
+      50,
+      944,
+      278,
+      1236
+    ],
+    "sourceComponentIdAbove16": 13,
+    "sourceComponentPixelsAbove16": 31071,
+    "nativeSize": [
+      228,
+      292
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 28453,
+      "alpha1Pixels": 5466,
+      "semiTransparentPixels": 38036,
+      "opaquePixels": 87,
+      "pixelsAbove16": 31071,
+      "bboxAbove16": [
+        14,
+        15,
+        213,
+        278
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": false,
+  "alphaCleanupApplied": false,
+  "alphaResampled": true,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 10790,
+    "alpha1Pixels": 695,
+    "semiTransparentPixels": 5415,
+    "opaquePixels": 179,
+    "pixelsAbove16": 4616,
+    "bboxAbove16": [
+      25,
+      13,
+      102,
+      115
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 695,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

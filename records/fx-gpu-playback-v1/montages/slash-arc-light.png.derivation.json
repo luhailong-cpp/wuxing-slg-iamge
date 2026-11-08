@@ -1,0 +1,111 @@
+{
+  "operation": "QA montage of10 actual GPU captures, 8 observed phases + caller clear + late clear; no source sprite rendering or hand frame assignment",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/manifest.json",
+      "sha256": "65f0084449bb2ee6b6543ad98532e2d928ff388315cb222ae22fb4e9dd17a687"
+    }
+  ],
+  "displayScale": 0.5,
+  "resizeMethod": "LANCZOS of opaque GPU captures only",
+  "labels": "Actual source game elapsed, not invented phase key times",
+  "localRawInputs": [
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0000.png",
+      "sha256": "57cff2332f598e618bc84c09273ae65c1a0485528f96a45bc4266b4c1cd8d63d",
+      "published": false,
+      "captureOrdinal": 0,
+      "observedFrameIndex": 0,
+      "gameElapsedSeconds": 0.01666666753590107
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0005.png",
+      "sha256": "0806bf4c391be6101b4b8d47771b45e52924b6279cc3b7f9e37806b5f4444c26",
+      "published": false,
+      "captureOrdinal": 5,
+      "observedFrameIndex": 1,
+      "gameElapsedSeconds": 0.10000000086923441
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0012.png",
+      "sha256": "a932e048b9e8d3cab070570f312cd59a0b18f97ae027e0fab90006c921b8a22f",
+      "published": false,
+      "captureOrdinal": 12,
+      "observedFrameIndex": 2,
+      "gameElapsedSeconds": 0.21666666753590108
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0017.png",
+      "sha256": "6424ead77069382fd1f533e9ecdf1c1adc83f9c5ae4b887a1a1017926dfdcc54",
+      "published": false,
+      "captureOrdinal": 17,
+      "observedFrameIndex": 3,
+      "gameElapsedSeconds": 0.3000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0023.png",
+      "sha256": "53d475a8df2d2b2c45438d564458ed8e4f767259681ca328cff820db28401b8b",
+      "published": false,
+      "captureOrdinal": 23,
+      "observedFrameIndex": 4,
+      "gameElapsedSeconds": 0.4000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0029.png",
+      "sha256": "f4e9b506ee4a6c709cc46d36351e215024f61eaa70b3115e2d851a443eb2fa1d",
+      "published": false,
+      "captureOrdinal": 29,
+      "observedFrameIndex": 5,
+      "gameElapsedSeconds": 0.5000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0036.png",
+      "sha256": "8c6545a8c056a7beaa5e607f2ab67a53cc98ac06581bc4c6d7bcc8a9ce940938",
+      "published": false,
+      "captureOrdinal": 36,
+      "observedFrameIndex": 6,
+      "gameElapsedSeconds": 0.616666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0042.png",
+      "sha256": "19df97c087a03c6313cd78664dedd5a5364612d0f5a46a3e756641fae5d2cfd0",
+      "published": false,
+      "captureOrdinal": 42,
+      "observedFrameIndex": 7,
+      "gameElapsedSeconds": 0.716666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0047.png",
+      "sha256": "f41959200aa799dc0ac7c8bdecc259888f4fb30171f25f3a11114e75af1f2b59",
+      "published": false,
+      "captureOrdinal": 47,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 0.8000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/slash-arc/light/frame-0059.png",
+      "sha256": "f41959200aa799dc0ac7c8bdecc259888f4fb30171f25f3a11114e75af1f2b59",
+      "published": false,
+      "captureOrdinal": 59,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 1.0000000008692342
+    }
+  ],
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/montages/slash-arc-light.png",
+  "sha256": "4fb6f37c30e438265105632720c77de6bee1704ce25c253f82e0a07f385e2c47",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

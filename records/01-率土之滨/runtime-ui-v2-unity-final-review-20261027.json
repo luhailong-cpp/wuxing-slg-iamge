@@ -1,0 +1,1472 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T18:09:49.817782+00:00",
+  "scope": "Corrected36 static UI candidates and independent111Sprite UnityPreviewV2",
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/runtime-ui-v2/runtime-ui-manifest.json",
+    "sha256": "54acde6613bcff0798370aca57fefa73bd99f134a4ca658148da9d1e58babf09"
+  },
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/unity/unity-preview-v2-source-index-20261027.json",
+    "sha256": "68efc027434c7b84c03ce0ed9e4a09a5f4107dc24bc446ee15fff8ace018918a"
+  },
+  "preGpuCropReview": {
+    "file": "records/01-率土之滨/runtime-ui-v2-crop-review-20261027.json",
+    "sha256": "18390f2995c0601e40b1a8ebbd48d16216e7d7818d3848f71c5372180f034726"
+  },
+  "sourceProcessing": {
+    "nativeRecrops": 21,
+    "byteCopies": 15,
+    "commonControlCanvas": [
+      500,
+      204
+    ],
+    "commonArtworkFrameCenter": [
+      250,
+      102
+    ],
+    "integerColumnRegistrationErrorMaxAbsPx": 0.5,
+    "resampling": false,
+    "repaint": false,
+    "alphaEdited": false,
+    "pixelComparisons": [
+      {
+        "assetId": "button-primary-normal",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-primary-pressed",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-primary-disabled",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-primary-hover",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-secondary-normal",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-secondary-pressed",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-secondary-disabled",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "button-secondary-hover",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "tab-selected",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "tab-normal",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "tab-locked",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "tab-notification",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "card-row-normal",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "card-row-selected",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "card-row-disabled",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "card-row-empty",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-wood",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-iron",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-stone",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-grain",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-coin",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-jade",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-tactic-exp",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-reserve",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-attack",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-defense",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-strategy",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-speed",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-siege",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-stamina",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-timer",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "icon-lock",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "panel-main",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "panel-confirm",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "panel-dialogue",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "assetId": "panel-detail",
+        "sourceOperationPixelExact": true,
+        "alphaAbove16EdgeCounts": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "runtimeCropReview": {
+    "all36SourceOperationsPixelExact": true,
+    "all36AlphaAbove16OutputEdgesZero": true,
+    "all21AlphaAbove16RecropSourceEdgesZero": true,
+    "actualLightDarkMontagesViewed": true,
+    "finding": "Complete primaryhover glow; secondaryhover upper-row tail excluded; corrected5 icon ownership excludes visible neighboring fragments. Native alpha1 residue and narrow gutters remain."
+  },
+  "unityImport": {
+    "unityVersion": "6000.6.0f1",
+    "sourceImportReport": {
+      "file": "records/01-率土之滨/unity-ui-v2-source-import-validation-20261027.json",
+      "sha256": "d25099902e40da3ae6c207d2ed96da08b923cee47bb870a8ef8bcd03911e8ae1"
+    },
+    "freshEmptyProjectRoundtripReport": {
+      "file": "records/01-率土之滨/unity-ui-v2-roundtrip-validation-20261027.json",
+      "sha256": "b7ae4d5ea708d92f6a19b41df7a8b7b4a2f7c7a600e94c8c28fddf2e31e9622b"
+    },
+    "source111Passed": true,
+    "roundtrip111Passed": true,
+    "sourcePNGBytesDimensionsAlphaCountsPivotsBordersAndRecordHashesPreserved": true,
+    "replacedUI": 36,
+    "unchangedOtherSprites": 75,
+    "sourceIndexHashChecks": [
+      {
+        "assetId": "button-primary-normal",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-primary-pressed",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-primary-disabled",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-primary-hover",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-secondary-normal",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-secondary-pressed",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-secondary-disabled",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "button-secondary-hover",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "tab-selected",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "tab-normal",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "tab-locked",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "tab-notification",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "card-row-normal",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "card-row-selected",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "card-row-disabled",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "card-row-empty",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-wood",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-iron",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-stone",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-grain",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-coin",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-jade",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-tactic-exp",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-reserve",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-attack",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-defense",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-strategy",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-speed",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-siege",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-stamina",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-timer",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "icon-lock",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "panel-main",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "panel-confirm",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "panel-dialogue",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "panel-detail",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "main-city",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "branch-city",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "garrison-city",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "fortress",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "military-camp",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "county-city",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "commandery-city",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "provincial-capital",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "capital-city",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "city-hall",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "training-ground",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "recruitment-hall",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "warehouse",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "residence",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "market",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "workshop",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "wall-segment",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "city-gate",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "bridge",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "enemy-camp",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "damaged-warehouse",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "grassland",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "stone-road",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "woodland",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "mountains",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "wheat-field",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "iron-mine",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "quarry",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "river-bend",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "river-straight",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "river-bank",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "ferry",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "building-plot",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "slash-arc",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "strategy-array",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "healing-light",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "buff-cloud",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "debuff-mist",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "fire",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "capture-circle",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "reward-glow",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "metal-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "metal-32",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "metal-64",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "metal-128",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "wood-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "wood-32",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "wood-64",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "wood-128",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "water-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "water-32",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "water-64",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "water-128",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "fire-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "fire-32",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "fire-64",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "fire-128",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "earth-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "earth-32",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "earth-64",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "earth-128",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "01-metal-envoy-v1",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "02-wood-envoy-v1",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "03-water-envoy-v1",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "04-fire-envoy-v1",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "05-earth-envoy-v1",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "infantry-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "infantry-64h",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "infantry-128h",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "archer-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "archer-64h",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "archer-128h",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "cavalry-native",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "cavalry-64h",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      },
+      {
+        "assetId": "cavalry-128h",
+        "sourceSha256AndRecordSha256MatchIndex": true
+      }
+    ],
+    "package": {
+      "file": "exports/01-率土之滨/unity/WuxingSLGArtPreviewV2-20261027.unitypackage",
+      "sha256": "b0d8ce3ddd8d6077db01353a611853f6b6e2545264cd0a27b24f9d1d5ac27ed5"
+    },
+    "packageBytes": 30714578
+  },
+  "actualGpuSlicedRender": {
+    "report": {
+      "file": "records/01-率土之滨/unity-ui-v2-sliced-render-20261027.json",
+      "sha256": "633843d6d6df66552528936ef6427ec2350771638474da8588471aeae43f9f04"
+    },
+    "imageCount": 48,
+    "sizes": [
+      [
+        500,
+        204
+      ],
+      [
+        900,
+        204
+      ],
+      [
+        500,
+        300
+      ]
+    ],
+    "actualLightDarkMontagesViewed": true,
+    "graphicsDeviceType": "Direct3D11",
+    "graphicsDeviceName": "NVIDIA GeForce RTX 3070 Ti",
+    "graphicsDeviceVersion": "Direct3D 11.0 [level 11.1]",
+    "colorSpace": "Gamma",
+    "commandLineUsedNographics": false,
+    "all48Nonempty": true,
+    "renderReportPassedMeaning": "GPU render production and nonempty PNG validation only; does not mean aesthetic acceptance",
+    "cornerComparison": {
+      "file": "records/01-率土之滨/runtime-ui-v2-sliced-corner-metrics-20261027.json",
+      "sha256": "183a48963ca8cc5bb28b72baeaf73df1415abadd858a8723dc312c2996935051"
+    },
+    "cornerMetricResult": "All4 fixed128x90 corners are pixel-identical to500x204 render for32 enlarged target comparisons; metric excludes deforming side-center ornaments."
+  },
+  "nineSliceVisualDecision": {
+    "candidateBorderPx": {
+      "left": 128,
+      "bottom": 90,
+      "right": 128,
+      "top": 90
+    },
+    "generalTwoAxisResizingAccepted": false,
+    "native500x204": "Viewed complete contours, no visible clip or neighboring fragment",
+    "horizontal900x204": "Fixed corners and gold frame preserved in actual isolated render; paper/cloud center stretch visible; horizontal-only candidate evidence atheight204",
+    "vertical500x300": "Rejected for primary/secondary/tab ornament deformation; cardrow4 paper/edge textures visibly stretch and remain unaccepted",
+    "verticalRejectedAssetIds": [
+      "button-primary-normal",
+      "button-primary-pressed",
+      "button-primary-disabled",
+      "button-primary-hover",
+      "button-secondary-normal",
+      "button-secondary-pressed",
+      "button-secondary-disabled",
+      "button-secondary-hover",
+      "tab-selected",
+      "tab-normal",
+      "tab-locked",
+      "tab-notification"
+    ],
+    "cardRowUnacceptedIds": [
+      "card-row-normal",
+      "card-row-selected",
+      "card-row-disabled",
+      "card-row-empty"
+    ],
+    "usageConstraint": "Keep these16 control candidates at native204px height unless separately redesigned or validated. Width500 and900 were tested; continuous range andotherdimensions not certified. Separating ornaments from stretchable center would be a future art/layout change.",
+    "nineSliceVerifiedInClient": false
+  },
+  "qaMontages": [
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-controls-dark.png",
+      "sha256": "6d4578d3c9e44fb586c3842cde54a9d8233b47b35dc3ba4e45f249d0616c1060"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-controls-light.png",
+      "sha256": "744846b76d1128f6dd59017f8640ddff260b8070ba91b63b6672b4599ed49d1e"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-icons-dark.png",
+      "sha256": "242fe6503e9ef18b88e2c7316d37fc4d5a7cdf20669eaf7245eee1f1bfb5b784"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-icons-light.png",
+      "sha256": "6429f27764ca921a81c121d5afdbbf3eb12d02f5053459f4436a6adbe5156fbb"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-panels-dark.png",
+      "sha256": "407ad3cea3cd9ed3d0f52568666d90d7fd36c974748cfb5c8af9b1cabadd67e8"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-panels-light.png",
+      "sha256": "b435b5e92d3239f3c6fe45582391883360d5634cbb8830557d22619d9a7a809c"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group1-dark.png",
+      "sha256": "d3836cd8efaa9b9203900a31bbb9b3fef04c488d40d38a8f2ed1e4549ce3c35c"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group1-light.png",
+      "sha256": "2472b10e049d4621f45dc544b59447dd75cfa0e07504a224b763b8ddf6c25305"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group2-dark.png",
+      "sha256": "d2f22a74074cdbdae35b26bf76bc25e264e46d07140dea239733748b98145f6e"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group2-light.png",
+      "sha256": "40d06d906f27722ac739d148f4f05f265891ee3a1d57f75bc953fe66c3f5f95d"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group3-dark.png",
+      "sha256": "64344f512309e043613dbeb4189d24a1faaf5bc64ba965b06bf8e035d54a2c32"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group3-light.png",
+      "sha256": "e3184cd89bc0e6491f78abea38e39efe23815cea6b0605cfb8fda3ce12a62458"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group4-dark.png",
+      "sha256": "6010f8b958d1d3bb8349fc90312b9441fd616696107ce487875a97b623c1ebe0"
+    },
+    {
+      "file": "records/01-率土之滨/qa/runtime-ui-v2-sliced-group4-light.png",
+      "sha256": "a3f3a926e6ccc0ec9d847d3737a6ab8a8cbf89cf4875e44871859c19cf4f5abd"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3053,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 2929,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-pressed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4527,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5848,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-hover.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 2452,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3516,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-pressed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4979,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4206,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-hover.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3909,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4153,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5218,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-locked.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4168,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-notification.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3813,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3835,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4626,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3053,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3809,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        22,
+        17,
+        13
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3491,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        12,
+        18,
+        16,
+        17
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3418,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        13,
+        22,
+        24,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4462,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        11,
+        21,
+        33,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4033,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4989,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        19,
+        15,
+        18,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6330,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        14,
+        20,
+        20,
+        20
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4064,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-reserve.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 9356,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        21,
+        20,
+        3
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3151,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        17,
+        19,
+        18,
+        6
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6919,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        16,
+        21,
+        2
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7195,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5259,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        4,
+        14,
+        15
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4000,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        8,
+        14,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4122,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        2,
+        20,
+        20
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4277,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-lock.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 8456,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        20,
+        12,
+        14,
+        22
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6900,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7829,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5668,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NINE_SLICE_VERTICAL_ORNAMENT_DISTORTION",
+      "value": 12,
+      "threshold": 0,
+      "assetIds": [
+        "button-primary-normal",
+        "button-primary-pressed",
+        "button-primary-disabled",
+        "button-primary-hover",
+        "button-secondary-normal",
+        "button-secondary-pressed",
+        "button-secondary-disabled",
+        "button-secondary-hover",
+        "tab-selected",
+        "tab-normal",
+        "tab-locked",
+        "tab-notification"
+      ],
+      "testSize": [
+        500,
+        300
+      ],
+      "message": "Actual light/dark GPU review: side-center jade or scroll ornaments elongate into vertical pills in primary, secondary and tab states. Reject this border for general vertical resizing."
+    }
+  ],
+  "warningSummary": {
+    "NATIVE_ALPHA1_RETAINED": 36,
+    "NARROW_VISIBLE_GUTTER": 13,
+    "NINE_SLICE_VERTICAL_ORNAMENT_DISTORTION": 1
+  },
+  "status": "crop_corrections_and_111Sprite_package_roundtrip_complete__nine_slice_vertical_resize_rejected__all_art_candidates_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "nineSliceVerifiedInClient": false,
+  "animationIncluded": false,
+  "unchangedArtifacts": "Original111Sprite package and separateFX package preserved; no Git orREADME changes in this task",
+  "chronologyNote": "PreGPU manifest, crop records andsource index remain frozen snapshots inside package. This finalreview records lateractualGPU conclusions without rewriting their hashes.",
+  "implementationReferences": [
+    "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SpriteRenderer-drawMode.html",
+    "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/Camera.Render.html",
+    "https://docs.unity3d.com/6000.0/Documentation/ScriptReference/TextureImporter-spriteBorder.html"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-03.png",
+  "sha256": "41def6f0302a9efa8ab8d496eb9e6821d44ebbddf4a12851aab122e4d5cafc2d",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+    "sha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png.generation.json"
+  },
+  "cropBox": [
+    1330,
+    0,
+    1774,
+    444
+  ],
+  "sourceAnchorPxGlobal": [
+    1549,
+    332
+  ],
+  "sourceAnchorPxWithinCrop": [
+    219,
+    332
+  ],
+  "pasteOffset": [
+    231,
+    208
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    540
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.6
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "zeroPixels": 703405,
+    "alpha1Pixels": 35004,
+    "semiTransparentPixels": 106595,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      253,
+      352,
+      637,
+      647
+    ],
+    "bboxAbove16": [
+      262,
+      383,
+      627,
+      639
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 0
+  },
+  "phase": "rising pillars",
+  "timing": {
+    "startSeconds": 0.3,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

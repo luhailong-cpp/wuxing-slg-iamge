@@ -1,0 +1,31 @@
+{
+  "reviewer": "/root/check_materials",
+  "observedAt": "2026-10-29T03:59:39.854Z",
+  "method": "read-only actual visual inspection of three named QA images; no tests",
+  "images": [
+    "qa-three-assets-assembly.png",
+    "qa-road-to-crossing-close.png",
+    "qa-river-to-crossing-close.png"
+  ],
+  "findings": [
+    "石路在桥左端连续到台阶区域，可作静态摆放候选；近景缝向/尺度有可见转折，不等于无缝",
+    "河段斜向硬切线横贯水面，左下浅绿与右上深青色阶和波纹密度跳变，FAIL无缝，不能宣称水流连续",
+    "桥与河岸遮挡在该静态视角基本成立；未验证寻路/碰撞"
+  ],
+  "navigationTested": false,
+  "clientIntegrated": false,
+  "evidence": [
+    {
+      "file": "records/map-connectors-20261028-r2/qa-three-assets-assembly.png",
+      "sha256": "0cda782619f05c6a4a23bf6897e6c2c8c897ddf686432a74b40f502990868671"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-road-to-crossing-close.png",
+      "sha256": "bbcbefa259ed3da6076e789763dddc5a37aa41edfb68b5ff6e69dad107d9be1f"
+    },
+    {
+      "file": "records/map-connectors-20261028-r2/qa-river-to-crossing-close.png",
+      "sha256": "6487d476221df859ef32f55cd3a42f224714c3ee6f728cfe417b8f2de50907e9"
+    }
+  ]
+}

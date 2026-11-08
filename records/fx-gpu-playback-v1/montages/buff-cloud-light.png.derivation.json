@@ -1,0 +1,111 @@
+{
+  "operation": "QA montage of10 actual GPU captures, 8 observed phases + caller clear + late clear; no source sprite rendering or hand frame assignment",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/manifest.json",
+      "sha256": "4aa22ecff24db84eebcfc96b5b8793d727730dd33ae2805956d4b687d02eba18"
+    }
+  ],
+  "displayScale": 0.5,
+  "resizeMethod": "LANCZOS of opaque GPU captures only",
+  "labels": "Actual source game elapsed, not invented phase key times",
+  "localRawInputs": [
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0000.png",
+      "sha256": "49469d280dbb72fe01030206045545b8ce200ee7d0ef5bb30031c0a4dafac2ad",
+      "published": false,
+      "captureOrdinal": 0,
+      "observedFrameIndex": 0,
+      "gameElapsedSeconds": 0.01666666753590107
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0005.png",
+      "sha256": "5d5c56905aeddcf816db1aad82e24152f3b21e110a22e3a52984ca7cc6258932",
+      "published": false,
+      "captureOrdinal": 5,
+      "observedFrameIndex": 1,
+      "gameElapsedSeconds": 0.10000000086923441
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0012.png",
+      "sha256": "379a454e7553cab0e1464616c3f35ad9546a8a2f66b27195366e91d5dd4d73e5",
+      "published": false,
+      "captureOrdinal": 12,
+      "observedFrameIndex": 2,
+      "gameElapsedSeconds": 0.21666666753590108
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0017.png",
+      "sha256": "223d2a355381b90d9af26eb57511d48bbba59b72e976bdc7291abcf1148f1050",
+      "published": false,
+      "captureOrdinal": 17,
+      "observedFrameIndex": 3,
+      "gameElapsedSeconds": 0.3000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0023.png",
+      "sha256": "05d803e560a2514081590d52a30549a5aee050e313cc808359d5a1188a8ca04f",
+      "published": false,
+      "captureOrdinal": 23,
+      "observedFrameIndex": 4,
+      "gameElapsedSeconds": 0.4000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0029.png",
+      "sha256": "412a4e61f6e0aa740b159adee5c63985ddee25eeb152f0a50cb9cc88dc51bbb1",
+      "published": false,
+      "captureOrdinal": 29,
+      "observedFrameIndex": 5,
+      "gameElapsedSeconds": 0.5000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0036.png",
+      "sha256": "a3409f933c5f36765b9aea74f9a883234600ce68625bc83057d96df00857d73d",
+      "published": false,
+      "captureOrdinal": 36,
+      "observedFrameIndex": 6,
+      "gameElapsedSeconds": 0.616666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0042.png",
+      "sha256": "852dd025ca637634aaf0af2392c55d5750b3f56558e51d37c816dbe0951dd8c1",
+      "published": false,
+      "captureOrdinal": 42,
+      "observedFrameIndex": 7,
+      "gameElapsedSeconds": 0.716666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0047.png",
+      "sha256": "f41959200aa799dc0ac7c8bdecc259888f4fb30171f25f3a11114e75af1f2b59",
+      "published": false,
+      "captureOrdinal": 47,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 0.8000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/buff-cloud/light/frame-0059.png",
+      "sha256": "f41959200aa799dc0ac7c8bdecc259888f4fb30171f25f3a11114e75af1f2b59",
+      "published": false,
+      "captureOrdinal": 59,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 1.0000000008692342
+    }
+  ],
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/montages/buff-cloud-light.png",
+  "sha256": "d98125c03c9a190f32cf8cb6cb66236b697628947450676ddf1404ad5f613b0d",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

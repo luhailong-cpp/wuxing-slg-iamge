@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/gu-yong-face-native.png",
+  "sha256": "5b5d40511137c9c60517da45b26312cadb70f56364cf422ba5303e74d8b5525f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/gu-yong-master-v1.png",
+    "sha256": "7af9451afa7c605955402230cd0dbe71efc5ea1eede15d8dbb3040c5091534f8",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/gu-yong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      276,
+      75,
+      870,
+      660
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,73 @@
+{
+  "tool": "image_gen.imagegen",
+  "intent": "targeted AI edit; source geometry preservation requested, not guaranteed",
+  "submittedParameters": {
+    "prompt": "TARGETED EDIT, preserve composition. Edit reference image1, the transparent bridge-free terrain assembly. Produce ONE continuous transparent terrain plate for 五行问鼎. Keep the whole 3000x1700 composition and all terrain in exactly the same normalized frame positions, including transparent margins. Do NOT crop, zoom, rotate, recenter, shift the roadway, widen the river or redesign the scene. Return the same aspect ratio with highest available native detail.\n\nREFERENCE ROLES:\n1 = actual EDIT TARGET: a grass bridgehead diamond at lower-left joined to a long NE river extension, no bridge painted. It currently contains a very visible diagonal water color/texture seam where two plates meet.\n2 and3 = approved Daoist Q-version HD hand-painted style only (jade/green, rounded handpainted materials); never copy UI, text or characters.\n4 = the SAME target with a red diagnostic rectangle around the damaged water/bank join, and blue diagnostic rectangles for the two existing bridgehead road/landing areas that must stay fixed. It is only a constraint diagram. NO colored rectangles, words or guide marks in output.\n\nSINGLE REPAIR:\nRemove the straight diagonal hard cut across the water at the lower end of the NE extension, approximately target coordinates x1430..1790,y670..1010 in the3000x1700 target frame. Paint this area as one naturally continuous river surface, matching the crossing's lighter jade-turquoise water and carrying consistent fine ripple size/direction/density through the transition. Eliminate the pale diagonal stripe, triangular patch boundary and abrupt light-green/deep-cyan color jump. Unify shallow sandy edges and both grassy banks at this local join with naturally continuous vegetation. Keep the river's full clear width; no rock ledge, vegetation barrier, bridge, weir, foam stripe or stepping stones across the water. No blurred band—retain sharp native painted water/grass detail.\n\nLOCKED GEOMETRY:\nKeep both existing warm ivory paved road approaches and their stone slab layout at exactly their current positions. Keep both bridge landing zones and the unobstructed water gap between them. The bridge itself is supplied separately by the engine: this terrain image MUST contain NO bridge, posts, pillars, railings, arches, stairs across the river or gourd ornaments. Do not complete the crossing with any structure. Preserve the NW and SE road stubs, their clear widths, and the outer diamond footprint. Preserve the straight long NE river, its upstream open cut, and the lower-left open water cut. Keep natural low riverbank stones/reeds already present outside the repair neighborhood rather than adding new decoration.\n\nOUTPUT:\nOne coherent single finished terrain plate, true alpha outside the existing ground/water silhouette. Maintain existing transparency; no filled backdrop, black rectangle, checkerboard, text, border or UI. This is one continuous scene plate, not a repeating seamless tile. No figures, ordinary troops or heroes in this image.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/records/map-connectors-20261028-r2/04-edit-target-no-bridge.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/records/map-connectors-20261028-r2/04-edit-layout-constraints.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "path": "records/map-connectors-20261028-r2/04-edit-target-no-bridge.png",
+      "sha256": "9c3274c38ff4d2f51af3a6e1b553a172c7278cf889212def6b068e6197a80b2b",
+      "role": "EDIT TARGET: composed bridge-free ground+river, documented derived input"
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "primary style only"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "primary style only"
+    },
+    {
+      "path": "records/map-connectors-20261028-r2/04-edit-layout-constraints.png",
+      "sha256": "c0c1db5a7617cc97a428c9496679f6cfc0f4eed632af6c99443980c65a9277d2",
+      "role": "source geometry and targeted repair constraint diagram; not art"
+    }
+  ],
+  "ruleReadEvidence": [
+    {
+      "path": "D:/work/wuxing-slg-iamge/AGENTS.md",
+      "sha256": "da53e17f66054d0bdd2acaec3feae3a0333f01be75610e7661f812d7c91a29ad"
+    },
+    {
+      "path": "D:/work/image/AGENTS.md",
+      "sha256": "b247ee3eda4d04bc367ca6c36ed220a4ca54eb4179aa573df57f357861e63d6b"
+    },
+    {
+      "path": "D:/work/wuxing-slg-iamge/config/image-generation.json",
+      "sha256": "7d1558e9aa43e5bfad6f379a3d034484f0877398ce1a31471bcf3779dad29eb4"
+    },
+    {
+      "path": "D:/work/wuxing-slg-iamge/docs/IMAGE_MODEL_POLICY.md",
+      "sha256": "462bb5ac795c6b8a063cd8f03ade9788150cbbf9a7fa8928669a9539afa3480e"
+    }
+  ],
+  "requestedAt": "2026-10-29T04:29:58.616Z",
+  "additionalEditAuthorization": "parent allows max2 additional targeted edits in existing r2 batch",
+  "heavyLocalPause": true
+}

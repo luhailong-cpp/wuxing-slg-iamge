@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+  "sha256": "dcdb901dfa5d0aa4d208f75b85eafec8e6c34a54686aa8089263f5f58282453b",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 305,
+  "height": 309,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+      "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+      "record": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+    }
+  ],
+  "operation": "native_recrop_corrected_row_ownership",
+  "cropBox": [
+    642,
+    620,
+    947,
+    929
+  ],
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": false,
+  "previousExport": "exports/01-率土之滨/runtime-ui/icon-strategy.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/icon-strategy.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 29392,
+    "alpha1PixelCount": 6919,
+    "bboxAbove16": [
+      22,
+      16,
+      284,
+      307
+    ],
+    "visibleMarginsAbove16": [
+      22,
+      16,
+      21,
+      2
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      1,
+      7,
+      1,
+      1
+    ],
+    "sourceCropEdgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6919,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        16,
+        21,
+        2
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

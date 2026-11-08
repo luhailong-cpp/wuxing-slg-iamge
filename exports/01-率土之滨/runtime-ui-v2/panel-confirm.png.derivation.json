@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+  "sha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 568,
+  "height": 402,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui/panel-confirm.png",
+      "sha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+      "record": "exports/01-率土之滨/runtime-ui/panel-confirm.png.derivation.json"
+    }
+  ],
+  "operation": "byte_for_byte_copy_of_previous_export",
+  "cropBox": null,
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": true,
+  "previousExport": "exports/01-率土之滨/runtime-ui/panel-confirm.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/panel-confirm.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 42447,
+    "alpha1PixelCount": 6900,
+    "bboxAbove16": [
+      16,
+      19,
+      550,
+      380
+    ],
+    "visibleMarginsAbove16": [
+      16,
+      19,
+      18,
+      22
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourceCropEdgePixelsAbove16": null
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6900,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

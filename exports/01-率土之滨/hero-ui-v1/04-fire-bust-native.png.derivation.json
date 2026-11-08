@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+  "sha256": "c76108bb2704f56179f7655b2b04d989cb7a79eb5aebff433bb93dfd34c30b33",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 960,
+  "height": 955,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "04-fire",
+  "element": "fire",
+  "variant": "bust-native",
+  "identityPreservedFromMaster": "red spiky tied hair, gold tie and flowing ribbons; red green ivory robe and paired flame implements in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "record": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "recordSha256": "5587ce0759dcfa73492fa2ed2338bac08ad69bba2916c02e31fcac2b87fa58e4"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    30,
+    65,
+    990,
+    1020
+  ],
+  "resizeTo": null,
+  "resizeScaleNominal": null,
+  "actualScaleXY": null,
+  "resizeMethod": null,
+  "paddingCanvas": null,
+  "pasteOffsetTopLeft": null,
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    360,
+    305,
+    666,
+    535
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 408573,
+    "alpha1PixelCount": 16875,
+    "alphaSemiPixels": 508227,
+    "alphaOpaquePixels": 0,
+    "bboxAbove16": [
+      20,
+      23,
+      937,
+      955
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      606,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 16875,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        30,
+        65,
+        990,
+        1020
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-bust-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

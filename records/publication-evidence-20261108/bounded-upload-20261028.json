@@ -1,0 +1,203 @@
+{
+  "method": "bounded Git upload batches through temporary branch; main switches only to final parentless snapshot",
+  "startedAtUtc": "2026-10-28T14:35:40.428Z",
+  "branch": "codex/art-upload-20261028-cd44318",
+  "expectedMain": "400f3f198131bd2de5c6ec91eaef2736393ab31a",
+  "targetCommit": "cd44318c6c71d28a3bf0be2d6de2e78c15f92991",
+  "targetTree": "6ae47bf8326340ac9b36906c37be268acdb6b8c5",
+  "batches": [
+    {
+      "index": 1,
+      "files": 1,
+      "bytes": 39753408
+    },
+    {
+      "index": 2,
+      "files": 6,
+      "bytes": 37808586
+    },
+    {
+      "index": 3,
+      "files": 14,
+      "bytes": 38906066
+    },
+    {
+      "index": 4,
+      "files": 3,
+      "bytes": 7748806
+    },
+    {
+      "index": 5,
+      "files": 3,
+      "bytes": 7393188
+    },
+    {
+      "index": 6,
+      "files": 4,
+      "bytes": 7690073
+    },
+    {
+      "index": 7,
+      "files": 4,
+      "bytes": 7091434
+    },
+    {
+      "index": 8,
+      "files": 4,
+      "bytes": 6550838
+    },
+    {
+      "index": 9,
+      "files": 5,
+      "bytes": 7662914
+    },
+    {
+      "index": 10,
+      "files": 5,
+      "bytes": 7225314
+    },
+    {
+      "index": 11,
+      "files": 5,
+      "bytes": 7125947
+    },
+    {
+      "index": 12,
+      "files": 5,
+      "bytes": 6965041
+    },
+    {
+      "index": 13,
+      "files": 6,
+      "bytes": 7994225
+    },
+    {
+      "index": 14,
+      "files": 6,
+      "bytes": 7573083
+    },
+    {
+      "index": 15,
+      "files": 6,
+      "bytes": 7305268
+    },
+    {
+      "index": 16,
+      "files": 6,
+      "bytes": 7025451
+    },
+    {
+      "index": 17,
+      "files": 7,
+      "bytes": 7942064
+    },
+    {
+      "index": 18,
+      "files": 7,
+      "bytes": 7215480
+    },
+    {
+      "index": 19,
+      "files": 9,
+      "bytes": 7670519
+    },
+    {
+      "index": 20,
+      "files": 11,
+      "bytes": 7848369
+    },
+    {
+      "index": 21,
+      "files": 11,
+      "bytes": 7418858
+    },
+    {
+      "index": 22,
+      "files": 12,
+      "bytes": 7778531
+    },
+    {
+      "index": 23,
+      "files": 20,
+      "bytes": 7896550
+    },
+    {
+      "index": 24,
+      "files": 529,
+      "bytes": 6659326
+    }
+  ],
+  "completed": [
+    {
+      "index": 1,
+      "commit": "b3db4c50349fe0735ca6b90827471397acf67926",
+      "tree": "cc7f1d700c5a39b8ad63c957100e64bdbfcdbf07",
+      "bytes": 39753408,
+      "verifiedAtUtc": "2026-10-28T14:38:30.710Z",
+      "elapsedMs": 64975,
+      "pushResult": {
+        "ok": true,
+        "stderr": "remote: \nremote: Create a pull request for 'codex/art-upload-20261028-cd44318' on GitHub by visiting:        \nremote:      https://github.com/luhailong-cpp/wuxing-slg-iamge/pull/new/codex/art-upload-20261028-cd44318        \nremote: \nTo https://github.com/luhailong-cpp/wuxing-slg-iamge.git\n * [new branch]      b3db4c50349fe0735ca6b90827471397acf67926 -> codex/art-upload-20261028-cd44318\n"
+      }
+    },
+    {
+      "index": 2,
+      "commit": "7fe47cb4a7c8eea95996c413c2c32d43d07fb395",
+      "tree": "3178921ed24fd90f3066c2dabf2f050c5d2904a1",
+      "bytes": 37808586,
+      "verifiedAtUtc": "2026-10-28T14:41:56.476Z",
+      "elapsedMs": 79222,
+      "pushResult": {
+        "ok": true,
+        "stderr": "To https://github.com/luhailong-cpp/wuxing-slg-iamge.git\n   b3db4c5..7fe47cb  7fe47cb4a7c8eea95996c413c2c32d43d07fb395 -> codex/art-upload-20261028-cd44318\n"
+      }
+    },
+    {
+      "index": 3,
+      "commit": "e4f1632d0b3d1260be456564e0a699616e020d1d",
+      "tree": "8780ef4d0655307ff2ba036b747ffc50b75e5b3b",
+      "bytes": 38906066,
+      "verifiedAtUtc": "2026-10-28T15:02:49.047Z",
+      "elapsedMs": 103042,
+      "pushResult": {
+        "ok": true,
+        "stderr": "To https://github.com/luhailong-cpp/wuxing-slg-iamge.git\n   7fe47cb..e4f1632  e4f1632d0b3d1260be456564e0a699616e020d1d -> codex/art-upload-20261028-cd44318\n"
+      }
+    }
+  ],
+  "lastParent": "e4f1632d0b3d1260be456564e0a699616e020d1d",
+  "pending": {
+    "index": 4,
+    "commit": "f98fa36709c3ed0c04e6bf4bcb6b07a5318a4399",
+    "tree": "fa66d9dca833208957f4157084a2270c19980faa",
+    "bytes": 7748806
+  },
+  "lastFailure": {
+    "atUtc": "2026-10-28T15:41:52.011Z",
+    "elapsedMs": 214673,
+    "pushResult": {
+      "ok": false,
+      "code": null,
+      "killed": true,
+      "stderr": ""
+    },
+    "remoteStatus": 200,
+    "remoteSha": "e4f1632d0b3d1260be456564e0a699616e020d1d"
+  },
+  "temporaryLocalGitConfig": {
+    "key": "http.postBuffer",
+    "previous": null,
+    "value": "67108864",
+    "restoreRequired": true
+  },
+  "replannedFrom": {
+    "oldTotal": 7,
+    "oldPending": {
+      "index": 4,
+      "commit": "6291cb7dfbb11bc5330a3d79ef1ecefaea5a63db",
+      "tree": "fa66d9dca833208957f4157084a2270c19980faa",
+      "bytes": 39621068
+    },
+    "reason": "40 MB batches intermittently exceeded process timeout; remaining batches bounded at8 MB"
+  }
+}

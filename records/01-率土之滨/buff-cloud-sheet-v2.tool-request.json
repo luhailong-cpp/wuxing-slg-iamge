@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "intent": "AI packing correction of v1, no programmatic FX alteration",
+  "startedAt": "2026-10-27T16:31:55.989Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Edit only the packing, scale envelope and registration of the eight-frame effect sheet in image 4. Produce a corrected eight-frame native transparent sprite sheet, 4 columns by 2 rows, landscape 2:1.\nReferences: image1 and image2 are only the established Taoist chibi HD hand-painted palette/material style. Image3 is the original jade/ivory/gold buff-cloud identity. Image4 is the actual edit target: the eight successive growth/peak/fade phases to preserve. Image5 is a geometric placement template only; reproduce NONE of its white fill, black frame lines, blue rectangles or dotted guides.\nCRITICAL FIX: all eight effects must become MUCH SMALLER within their own cells. The previous lower-left peak touches/crosses its neighboring cell. Shrink each phase's artwork uniformly to about HALF its current linear extent in image4, then place its energy center exactly on the corresponding cell center. Do not change one phase independently to fill a cell. Keep the original intended relative growth sequence and each jade cloud's identity; only reduce and isolate the phase pictures. All visible glow, cloud wisps and sparks of every phase must fit inside image5's inner central square: x25%-75%, y25%-75% of that cell, with at least25% fully transparent empty margin on each side. There must be broad completely transparent vertical and horizontal gutters separating all eight effects, with no visible pixel, glow or dust near cell boundaries.\nExactly eight NONEMPTY phases in reading order:\ntop row: a small golden seed and jade curl; growing small two-cloud arc; medium incomplete jade/ivory orbit; full cloud orbit starting to close.\nbottom row: the SAME orbit reaching its strongest but still compact peak; orbit breaking into a few fading cloud arcs; sparse smaller wisps and gold points; two or three tiny residual gold motes and one very faint cloud tail.\nKeep the same hand-painted ivory/jade curled auspicious clouds and warm gold center/orbit from image3 and4. Preserve ordered continuous phases, same slight overhead camera, same cell center anchor (50%,50%), same lighting and material. Do not create unrelated skill icons or eight identical icons. The maximal phase remains confined to central50% square; smaller phases stay proportionately smaller. Last phase remains visibly nonempty and much weaker than the peak.\nCanvas: strict 4 equally spaced columns ×2 equally spaced rows, ideally2048×1024. No grid lines, borders, boxes, labels, numbers, characters, interface, scene, floor, shadow disc, backdrop or watermark. Actual transparent alpha everywhere except the isolated compact effect phases. No fake checkerboard, white background, dark background, whole-sheet glow, haze band or ground. Only the eight sprite phases. Do not crop away or clip a phase to satisfy boundaries; fit complete shapes with transparent margin.",
+    "promptFile": "prompts/01-率土之滨/buff-cloud-sheet-v2.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/buff-cloud.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/fx-animation-guides/layout-4x2-50pct.png"
+    ],
+    "transparent_background": true
+  }
+}

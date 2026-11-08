@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "zhang-bao",
+  "name": "张宝",
+  "batch": "roster-expansion-20261030-qun1",
+  "sourceIdentity": {
+    "personID": "ww-p-6254f8e399f5",
+    "entityID": "ww-p-6254f8e399f5",
+    "name": "张宝",
+    "canonicalName": "张宝",
+    "category": "普通人物",
+    "status": "queued_official_identity_candidate",
+    "identityStatus": "official_named_person_candidate_not_historical_proof",
+    "cards": [
+      100430,
+      100562,
+      130562
+    ],
+    "publicListCards": [
+      100430,
+      100562
+    ],
+    "source": [
+      {
+        "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "locator": "displayName=张宝; cardIds=100430,100562,130562",
+        "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 6
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Original full-body character master of 张宝 for 五行问鼎, original historical Three Kingdoms identity design in the attached authoritative Taoist chibi HD hand-painted style. Exactly ONE adult person on TRUE transparent alpha. Vertical 2:3 canvas. Both attached images are STYLE references only: preserve their rounded finely painted forms, jade green, ivory silk, restrained warm gold, soft fabric shading and clear expressive face, but do not reproduce their UI, children or costume.\nA middle-aged stocky Taoist rebel commander with a round broad face, heavy straight brows, small black moustache and short triangular black goatee. Low yellow cloth headband knotted behind dark hair, compact sage-green and ochre robe with ivory sleeves and small bronze shoulder guards. One hand holds a complete small bronze ritual bell, the other holds a short folded blank talisman bundle. Alert grounded stance, visibly younger and broader than Zhang Jiao; no long beard, no gourd staff, no tall scholar crown.\nOriginal fictional visual choices, not documentary costume reconstruction and not commercial card art. Large expressive adult head and short body, around 2.7 heads tall; face, beard, build, headwear and prop must be specific to this identity. Keep the COMPLETE figure and ALL props fully within the CENTRAL 76 percent of the canvas. At least 10 percent genuinely transparent empty padding on every side, including hat, staff, weapon and shoes. Full hands and two complete feet. No cut-off extremity or prop. No scene, background, mist, glow, ground plane, shadow, frame, label, writing, watermark, UI or elemental-class badge. Keep the native antialiased alpha; no painted checkerboard. Fine polished 2D hand-painted illustration, no 3D toy gloss, no realism, no pixel art.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261030-qun1/zhang-bao-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative visual style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative visual style"
+    }
+  ],
+  "preparedAtUtc": "2026-10-30T11:41:51.122Z",
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "prepared"
+}

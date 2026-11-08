@@ -1,0 +1,57 @@
+{
+  "reviewedAtUtc": "2026-10-27T19:24:00.2772467Z",
+  "method": "Root actually viewed listed PNGs with view_image, and read corresponding Unity/browser technical reports",
+  "reviewedImages": [
+    {
+      "sha256": "766baa56f995153737132cfeb8006f13674037740a6968d57e45551ac4523b29",
+      "file": "records/01-率土之滨/qa/hero-ui-v1/avatars-light.png"
+    },
+    {
+      "sha256": "f02b87d0e71e976fddb871186eac893007255890ca112cf267ca44ba9fb864be",
+      "file": "records/01-率土之滨/qa/hero-ui-v1/avatars-dark.png"
+    },
+    {
+      "sha256": "a057f1bad139e838a2111e36ef68be43893665c5ac5c5e28a3968fcaea565550",
+      "file": "exports/01-率土之滨/map-assembly-v1/assembled-preview-current.png"
+    },
+    {
+      "sha256": "39b7f493e2da112f25958da7aa3d6eadb8b5c03e784fe7d00fa28148319d28f0",
+      "file": "records/01-率土之滨/map-assembly-v1/navigation-current/nav-debug.png"
+    },
+    {
+      "sha256": "a926e3eefefbf693144672bbd0c1c4c161badc544d517596aa5a0a9b376e51de",
+      "file": "records/01-率土之滨/map-assembly-v1/unit-footpoint-review.png"
+    },
+    {
+      "sha256": "dca1db2335ac413fd68694d71d2b7e835ef9ca041ee48fd91158fb99a8f76cbd",
+      "file": "records/fx-gpu-playback-v1/montages/slash-arc-dark.png"
+    },
+    {
+      "sha256": "9cbb7268f131140d077190d006af980f5f6b794126a49d1316c213b457ffa8d5",
+      "file": "records/fx-gpu-playback-v1/montages/fire-light.png"
+    },
+    {
+      "sha256": "6d1239ee2c768f7549b1b9df30048ea19d11627071e72097384d12d5e65362ad",
+      "file": "records/fx-gpu-playback-v1/montages/capture-circle-dark.png"
+    },
+    {
+      "sha256": "527c8fc27569b4a743a451a4aa516645a5ead4b83e9cb615b956a0989296f4ed",
+      "file": "records/fx-gpu-playback-v1/montages/debuff-mist-light.png"
+    }
+  ],
+  "observations": [
+    "Five existing master faces distinct at128 and256; rectangular crops retain same-character props/cloth cut at edges; no masking/repaint performed.",
+    "Map has visibly repetitive grass/stone shore tiles; one bridge route and representative footpoint render are reviewable; provisional reachability does not prove final painted collision.",
+    "Four sampled GPU phase montages show rise/decay and nonempty07 followed by caller-clear blank; root did not watch full MP4 or approve final smoothness."
+  ],
+  "raw960GPUFramesPublic": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false,
+  "mapUnityActualViewed": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/gpu-footpoints-light-dark.png",
+    "finding": "Root viewed all5 actual PlayMode footpoint crops on both backgrounds. Static SE sprite visibly on bridge deck; single-layer front rail/terrain seam WARN still apply.",
+    "sha256": "b2eabca8d2cf24e10ea6ecb9efa383256cd3b89a9e7ca89cbac8ec4f1c0244c1",
+    "viewedAtUtc": "2026-10-27T19:42:53.5301961Z"
+  }
+}

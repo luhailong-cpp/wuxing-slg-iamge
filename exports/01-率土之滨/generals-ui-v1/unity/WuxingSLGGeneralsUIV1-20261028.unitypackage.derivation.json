@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T08:22:54.437092+00:00",
+  "artifactType": "Unity package containing existing-source UI derivatives",
+  "file": "exports/01-率土之滨/generals-ui-v1/unity/WuxingSLGGeneralsUIV1-20261028.unitypackage",
+  "sha256": "082b2d918712f105e7610068bb765665f4d9d361379fe93809045cde46b5f7b1",
+  "bytes": 39753408,
+  "generatedNewArtwork": false,
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/generals-ui-v1/unity/source-index.json",
+    "sha256": "4fe3f35a310c675fb87d4a6c5bb911a3e5ababe3583aff2f6f016af143f46153"
+  },
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/generals-ui-v1/generals-ui-manifest.json",
+    "sha256": "e32b7bd5992f47aa1df65b6e3213a95d3eabd885cfe1c7db4ae350e24c35a34f"
+  },
+  "generalCount": 12,
+  "pngCount": 60,
+  "originalMastersChanged": false,
+  "exportRoot": "Assets/WuxingSLGGeneralsUIV1",
+  "importVerification": [
+    {
+      "file": "records/generals-ui-20261028/unity-source-validation.json",
+      "sha256": "3b3fe1915d3e9a323d1c6a3aaadb02008b02f687768efcc50cb4fbac7f9842a9",
+      "passed": true,
+      "sprites": 60
+    },
+    {
+      "file": "records/generals-ui-20261028/unity-roundtrip-validation.json",
+      "sha256": "1d08d4c6796a5c177d7f3ae236bdbe0da25fc059f87495d4e49e8b8140df8901",
+      "passed": true,
+      "sprites": 60
+    }
+  ],
+  "archiveVerification": {
+    "file": "records/generals-ui-20261028/unity-package-archive-audit.json",
+    "sha256": "805c5b29b0549fe2ac6625113119f1bc77fbf55be52deb542afbc58824791d92"
+  },
+  "finalVisualReview": {
+    "file": "records/generals-ui-20261028/final-visual-review.json",
+    "sha256": "4d19808afb8a585bb781aebaa860da03469aff286358fe3aa064c1127772f68d"
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

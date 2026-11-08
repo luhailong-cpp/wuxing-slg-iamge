@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-lock",
+  "file": "exports/01-率土之滨/runtime-ui/icon-lock.png",
+  "sha256": "c0d3f7c4b108b104e28920fc0a8e47f39d9baff9af6a4e057d18562827e22552",
+  "width": 311,
+  "height": 289,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 37489,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      943,
+      934,
+      1254,
+      1223
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

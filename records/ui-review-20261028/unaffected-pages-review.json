@@ -1,0 +1,945 @@
+{
+  "schemaVersion": 1,
+  "reviewRecordedAtUtc": "2026-10-28T11:43:59.043827+00:00",
+  "reviewerTask": "/root/audit_characters",
+  "contract": "docs/CURRENT_REQUIREMENTS_20261028.md",
+  "currentGameName": "五行问鼎",
+  "selectionRule": "Exactly the 21 review_required items in the source checklist; file name unaffected-pages does not certify acceptance.",
+  "sourceChecklist": "records/ui-correction-20261028/ui-36-troop-correction-checklist.json",
+  "sourceChecklistSha256": "8b9846cdb2e194d6ebabdf2e8898bf3432fef63d1a9713cb49c6e4fd189ad423",
+  "sourceChecklistModified": false,
+  "summary": {
+    "selectedPageCount": 21,
+    "individualOriginalPageViewsCompleted": 21,
+    "sourceHashesMatchingChecklist": 21,
+    "explicitFiveElementHeroConflictPages": 0,
+    "explicitLegacyTroopTaxonomyPages": 0,
+    "categoryCounts": {
+      "visual_mapping_followup": 10,
+      "no_explicit_conflict_observed": 5,
+      "visible_copy_fix_required": 2,
+      "local_ui_followup": 4
+    },
+    "requiredVisibleCopyFixScreenIds": [
+      22,
+      25
+    ],
+    "requiredVisibleCopyFixes": [
+      "22 救援对白城中守军与地图流寇营地指代不一致",
+      "25 主标题牌空白，需当前名称五行问鼎"
+    ],
+    "otherLocalFollowupScreenIds": [
+      26,
+      28,
+      30,
+      32
+    ],
+    "visualMappingIsNotAnExplicitOldTroopSystemFinding": true,
+    "all21Accepted": false
+  },
+  "items": [
+    {
+      "screenId": 1,
+      "category": "visual_mapping_followup",
+      "roles": "主公头像、部队列表头像、地图行军单位；未显示具名武将。",
+      "observations": [
+        "右侧为第一部队待命、第二部队行军、第三部队征兵；未见步兵/弓兵/骑兵分类文字。",
+        "道路上的多组骑乘单位及行军马形图标不能单独证明采用三兵种系统；五行兵与武将也可能有坐骑。",
+        "三张部队头像没有姓名，不能据外观判为金行使等五系英雄。"
+      ],
+      "textIconReview": "资源图标与木材/铁矿/石料/粮草等对应，未发现明显错字或数值冲突。",
+      "issues": [
+        {
+          "id": "01-visual-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "地图部队、右侧三条部队记录",
+          "detail": "旧稿的兵士与部队头像尚无当前五行兵资源/历史武将 ID 映射证据。",
+          "action": "接入时明确地图单位、武将头像、兵种徽记和行军状态图标各自角色；不要把马形行军图标自动当骑兵分类。"
+        }
+      ],
+      "title": "大地图",
+      "sourcePath": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "sourceSha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "priorChecklistSha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1931,
+        "height": 814
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 4,
+      "category": "visual_mapping_followup",
+      "roles": "主城建筑、募集与训练场景中的小型军士。",
+      "observations": [
+        "城主府、校场、仓库、募兵所、民居、集市为城建功能。",
+        "可见通用头盔/长兵器小兵，但无五系英雄名称或步弓骑分类字段。"
+      ],
+      "textIconReview": "升级、资源消耗和建筑名称未见明显文字/图标不一致。",
+      "issues": [
+        {
+          "id": "04-ambient-troops",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "校场与募兵所周边小兵",
+          "detail": "场景军士可能是气氛装饰，也可能代表可操作单位；静态图无法确定。",
+          "action": "若为游戏部队，建立五行兵映射；纯装饰可按公共城建皮肤保留，不强加五行建筑/资源。"
+        }
+      ],
+      "title": "主城",
+      "sourcePath": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+      "sourceSha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+      "priorChecklistSha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 5,
+      "category": "no_explicit_conflict_observed",
+      "roles": "分城经济建筑与居民，无可辨识武将/兵种分类。",
+      "observations": [
+        "仓库、集市、民居、工坊等经济城建内容与当前合同可并存。",
+        "未见五系英雄、步弓骑分类文字或兵种专属图标。"
+      ],
+      "textIconReview": "未发现明显错字、资源图标混用或数值矛盾。",
+      "issues": [],
+      "title": "分城",
+      "sourcePath": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+      "sourceSha256": "7511461ca58efc5581495a3d156558435b437976a932e545af53cd97369d21a8",
+      "priorChecklistSha256": "7511461ca58efc5581495a3d156558435b437976a932e545af53cd97369d21a8",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1931,
+        "height": 814
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 6,
+      "category": "visual_mapping_followup",
+      "roles": "驻军部队头像与城内军士。",
+      "observations": [
+        "右侧第一部队待命、第二部队训练中；头像为无姓名人物。",
+        "白发花饰女性头像仅凭外观不能认定为旧金行使或五系英雄。",
+        "场景有通用军士及马匹，无明确旧三兵种分类文字。"
+      ],
+      "textIconReview": "驻军、调动、征兵等可见文案未见明显错字。",
+      "issues": [
+        {
+          "id": "06-roster-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "右侧驻军头像、场景军士",
+          "detail": "这些部队头像尚未展示历史武将身份和与当前资源的绑定；兵士也无五行兵映射证据。",
+          "action": "按部队数据绑定历史武将 ID 与五行兵 ID；不得因有马或无标签通用兵就判为旧三兵种系统。"
+        }
+      ],
+      "title": "戍城",
+      "sourcePath": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+      "sourceSha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "priorChecklistSha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 7,
+      "category": "visual_mapping_followup",
+      "roles": "要塞驻军头像及驻守小兵。",
+      "observations": [
+        "驻军容量为 1/2，第一部队待命；头像未标姓名。",
+        "通用绿色军士与中性守军图标未形成步弓骑分类。"
+      ],
+      "textIconReview": "容量、调动/征兵入口等未发现明显文字图标错误。",
+      "issues": [
+        {
+          "id": "07-roster-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "驻军记录、要塞前军士",
+          "detail": "武将头像与作战单位的当前身份/兵种绑定未证实。",
+          "action": "接入时分别绑定历史武将与五行兵；中性驻军/容量图标无需强改成兵种图标。"
+        }
+      ],
+      "title": "要塞",
+      "sourcePath": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+      "sourceSha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+      "priorChecklistSha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 8,
+      "category": "visual_mapping_followup",
+      "roles": "军营驻军头像、训练军士、靶场和马匹。",
+      "observations": [
+        "驻军 2/3，第一部队待命、第二部队征兵中 60%。",
+        "弓靶、长兵器和马匹是场景元素，不足以证明仍使用步弓骑三分类。",
+        "无姓名头像不能按发色/服色推定五系英雄。"
+      ],
+      "textIconReview": "征兵进度与场景文案未见明显错误。",
+      "issues": [
+        {
+          "id": "08-roster-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "驻军记录与军营训练单位",
+          "detail": "当前五行兵与历史武将资源的绑定未显示。",
+          "action": "按实际部队数据建立头像、兵士、徽记映射；场景器具按用途判定，不能一律删除弓靶或坐骑。"
+        }
+      ],
+      "title": "军营",
+      "sourcePath": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+      "sourceSha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+      "priorChecklistSha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 9,
+      "category": "visual_mapping_followup",
+      "roles": "县城守军状态图标与驻军信息，无具名角色。",
+      "observations": [
+        "可见守军待命、驻军 2 支、耐久 10000/10000。",
+        "交叉武器/弓盾类守军图标是中性功能图示；未显示步兵、弓兵、骑兵类别名称。"
+      ],
+      "textIconReview": "资源、耐久与驻军文字未发现明显错误。",
+      "issues": [
+        {
+          "id": "09-guard-icon-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "右侧守军图标",
+          "detail": "图标若只表示守军可保留；若代码将它用作具体兵种则需要对应五行兵。",
+          "action": "接入时明确图标语义；不要仅因图标含弓/盾而判为旧弓兵类型。"
+        }
+      ],
+      "title": "县城",
+      "sourcePath": "designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+      "sourceSha256": "21811d82f2c6f4c7c9ff598c9547b622d7901ee59913dea7ab291fac4c70892b",
+      "priorChecklistSha256": "21811d82f2c6f4c7c9ff598c9547b622d7901ee59913dea7ab291fac4c70892b",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1932,
+        "height": 814
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 10,
+      "category": "visual_mapping_followup",
+      "roles": "郡城建筑、右侧防务装饰剪影。",
+      "observations": [
+        "城防完好、驻军 4 支、水运通畅、防务就绪为公共城市功能。",
+        "右侧淡色骑乘军士剪影为装饰式呈现，未附具体兵种标签。"
+      ],
+      "textIconReview": "未发现明显文字、资源图标或驻军数量错误。",
+      "issues": [
+        {
+          "id": "10-decorative-unit-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "右侧防务区域淡色骑乘剪影",
+          "detail": "无法仅凭剪影认定旧骑兵分类。",
+          "action": "如用于具体守军/兵种展示则建立五行兵映射；若是中性防务装饰可保留。"
+        }
+      ],
+      "title": "郡城",
+      "sourcePath": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+      "sourceSha256": "965122cbfd510c341013969a20b054a846a4cda6c2c614e1d9880bc710bd567b",
+      "priorChecklistSha256": "965122cbfd510c341013969a20b054a846a4cda6c2c614e1d9880bc710bd567b",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1931,
+        "height": 814
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 11,
+      "category": "no_explicit_conflict_observed",
+      "roles": "州府城建与驻军容量，中性守军符号。",
+      "observations": [
+        "城防 100%、驻军 3/5 与约 60% 进度条一致。",
+        "区域管理/驻军调度未出现五系英雄或旧三兵种分类。"
+      ],
+      "textIconReview": "未见明显文字或图标语义缺陷。",
+      "issues": [],
+      "title": "州府",
+      "sourcePath": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+      "sourceSha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+      "priorChecklistSha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 12,
+      "category": "no_explicit_conflict_observed",
+      "roles": "国都、国家事务与驻军容量。",
+      "observations": [
+        "归属我方、城防完好、驻军 5/8；进度条比例近 62.5%。",
+        "中性驻军图标不代表任何具体旧兵种。"
+      ],
+      "textIconReview": "未见明显文字或图标语义缺陷。",
+      "issues": [],
+      "title": "国都",
+      "sourcePath": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+      "sourceSha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e",
+      "priorChecklistSha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 20,
+      "category": "visual_mapping_followup",
+      "roles": "引导少女 NPC、城建教程、场景小兵。",
+      "observations": [
+        "任务建造物资所 (0/1)，空地高亮与引导句对应。",
+        "角色明确为引导少女 NPC，不能当作五系英雄；NPC 无须强行改成历史武将。",
+        "建筑与资源功能没有被五行技能/五行经济替换。"
+      ],
+      "textIconReview": "引导句、铜钱奖励、前往建造/跳过文字可辨，未见明显错误。",
+      "issues": [
+        {
+          "id": "20-background-unit-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "募兵/训练区背景小兵",
+          "detail": "小兵是背景装饰还是操作单位尚无数据层证据。",
+          "action": "仅在代表实际部队时绑定当前五行兵；保留教程 NPC 及普通城建功能。"
+        }
+      ],
+      "title": "建造引导",
+      "sourcePath": "designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/20-city-build-tutorial-ui-v1.png",
+      "sourceSha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833",
+      "priorChecklistSha256": "20af44acf57e2b438dc61b72c4e6d9bc7ad8a354895956e6b31e4c107e7e1833",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 22,
+      "category": "visible_copy_fix_required",
+      "roles": "引导少女 NPC、骑乘带队者、通用军士、流寇与待救百姓。",
+      "observations": [
+        "目标救出百姓 (0/1)，地图标注流寇营地、残破仓库。",
+        "我方骑乘者和步行军士未标兵种；坐骑/步行姿态不能直接等同于骑兵/步兵类别。",
+        "底部文案提到城中守军，而画面所示威胁是流寇营地。"
+      ],
+      "textIconReview": "明确指代不一致：沿此路线前进，避开城中守军。；路线可达性无法凭静态图验收。",
+      "issues": [
+        {
+          "id": "22-dialogue-referent",
+          "kind": "visible_copy",
+          "certainty": "observed",
+          "priority": "required_before_page_acceptance",
+          "location": "底部引导对白",
+          "detail": "当前句“沿此路线前进，避开城中守军。”与地图“流寇营地”不一致。",
+          "action": "最小替换为“沿此路线前进，避开流寇营地。”；不由此新增规则或宣称路线验证通过。",
+          "recommendedReplacement": "沿此路线前进，避开流寇营地。"
+        },
+        {
+          "id": "22-unit-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "我方军士与带队者",
+          "detail": "未提供与当前五行兵、历史武将身份的绑定证据。",
+          "action": "区分武将/兵士/NPC，再按实际数据映射；无标签的骑乘表现不自动认定旧三兵种。"
+        }
+      ],
+      "title": "救援引导",
+      "sourcePath": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "sourceSha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+      "priorChecklistSha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 25,
+      "category": "visible_copy_fix_required",
+      "roles": "登录插画少年及白色宠物，选服内容。",
+      "observations": [
+        "顶部中央主标题牌为空白；当前已定游戏名五行问鼎。",
+        "插画少年/宠物不是已标注的武将或五系英雄，没有五行角色分类文字。",
+        "选服、维护、流畅、开始游戏与协议勾选可见。"
+      ],
+      "textIconReview": "缺少当前正式游戏名；其余可见文案未发现明显错误。",
+      "issues": [
+        {
+          "id": "25-missing-title",
+          "kind": "visible_copy",
+          "certainty": "observed",
+          "priority": "required_before_page_acceptance",
+          "location": "顶部中央装饰标题牌",
+          "detail": "旧稿留空主标题，当前命名已确定。",
+          "action": "补入已确认名称“五行问鼎”；可复用主代理已制透明 Logo 与新登录背景，候选仍需独立视觉复核。",
+          "recommendedReplacement": "五行问鼎"
+        }
+      ],
+      "title": "登录选服",
+      "sourcePath": "designs/01-率土之滨/ui/25-login-server-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/25-login-server-ui-v1.png",
+      "sourceSha256": "44e933deba035b37765e4430f6e9b1c9bcbcd641f008c66b4a7de313b3cd11fd",
+      "priorChecklistSha256": "44e933deba035b37765e4430f6e9b1c9bcbcd641f008c66b4a7de313b3cd11fd",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 26,
+      "category": "local_ui_followup",
+      "roles": "同盟玩家昵称与玩家头像，不是武将卡。",
+      "observations": [
+        "云川、清禾、松岚为玩家成员昵称，不应强制替换为三国武将姓名。",
+        "周贡献 1200+800+400=2400，与总值一致；活跃成员 3 与一人离线不必矛盾。",
+        "本页清禾为棕发花饰头像，聊天页 28 同名示例是白发花饰头像。"
+      ],
+      "textIconReview": "未发现明确文字错误；跨页同名示例头像存在一致性核对项。",
+      "issues": [
+        {
+          "id": "26-28-player-avatar",
+          "kind": "cross_page_consistency",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "清禾玩家头像；对照 screenId 28",
+          "detail": "若两个页面描述同一示例账号且未表达换头像，两处头像外观不一致。",
+          "action": "统一示例玩家 ID 与头像，或明确可更换头像的状态；不要把玩家头像误判为五系武将。"
+        }
+      ],
+      "title": "同盟",
+      "sourcePath": "designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/26-alliance-ui-v1.png",
+      "sourceSha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b",
+      "priorChecklistSha256": "336a177cf70408d7af9b10b95ffa9b6cd2cac41a19c7a5e2f1deebeb0d307d7b",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 27,
+      "category": "visual_mapping_followup",
+      "roles": "首战告捷邮件的主公/军队插画、邮件奖励。",
+      "observations": [
+        "正文主公首战告捷等没有五系英雄或步弓骑类别。",
+        "主公称谓不等同于具名历史武将，也未被标为五系英雄。",
+        "铜钱 10000、粮草 5000 与图标对应；可见未读/领取等静态示例。"
+      ],
+      "textIconReview": "未发现明显错字或奖励图标混用。",
+      "issues": [
+        {
+          "id": "27-illustration-unit-role",
+          "kind": "visual_mapping",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "邮件正文上方军队插画",
+          "detail": "插画中的通用头盔军士若承担具体兵种示意，需要与当前资源一致；若纯装饰则不构成旧分类证据。",
+          "action": "在独立 UI 分层/接入时确认插画用途，再决定映射或保留。"
+        }
+      ],
+      "title": "邮件",
+      "sourcePath": "designs/01-率土之滨/ui/27-mail-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/27-mail-ui-v1.png",
+      "sourceSha256": "804eb2f770288552e8e2497bff138cb9790cec956927eb07a616cf92ecee82ba",
+      "priorChecklistSha256": "804eb2f770288552e8e2497bff138cb9790cec956927eb07a616cf92ecee82ba",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 28,
+      "category": "local_ui_followup",
+      "roles": "聊天玩家头像与昵称；世界/同盟/私聊频道。",
+      "observations": [
+        "文本欢迎道友、探索资源地、城门集合、补充兵力均未将五行归为英雄。",
+        "玩家清禾为白发花饰头像，与同盟页 26 棕发花饰头像不同。"
+      ],
+      "textIconReview": "未见明显主文案错字；同名玩家头像应跨页核对。",
+      "issues": [
+        {
+          "id": "26-28-player-avatar",
+          "kind": "cross_page_consistency",
+          "certainty": "conditional",
+          "priority": "followup",
+          "location": "清禾玩家头像；对照 screenId 26",
+          "detail": "同名示例账号两页头像不同；是否为换头像状态未知。",
+          "action": "绑定同一示例玩家 ID 后统一头像或记录换头像状态；不能据此外观断言五系英雄。"
+        }
+      ],
+      "title": "聊天",
+      "sourcePath": "designs/01-率土之滨/ui/28-chat-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/28-chat-ui-v1.png",
+      "sourceSha256": "de01459135509fa77f68aef6759d256c9fae714494a46b80d7eec30dca0d57db",
+      "priorChecklistSha256": "de01459135509fa77f68aef6759d256c9fae714494a46b80d7eec30dca0d57db",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 29,
+      "category": "no_explicit_conflict_observed",
+      "roles": "任务插画与任务目标，非武将详情。",
+      "observations": [
+        "任务分别为城主府升级 1/1、占领资源地 1/3、完成一次武将招募 1/1。",
+        "“武将招募”与当前历史武将体系相容，无五系英雄分类文字。",
+        "匿名道家人物为任务插画，不能仅凭画风认定为五系英雄。"
+      ],
+      "textIconReview": "领取、进行中、已领取与目标进度对应；未见明显奖励图标/文字错误。",
+      "issues": [],
+      "title": "任务",
+      "sourcePath": "designs/01-率土之滨/ui/29-quests-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/29-quests-ui-v1.png",
+      "sourceSha256": "a4179f8a5579d9df12d7f31473b33a356e9a3689bf22cdc0690f8b09a1624c84",
+      "priorChecklistSha256": "a4179f8a5579d9df12d7f31473b33a356e9a3689bf22cdc0690f8b09a1624c84",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 30,
+      "category": "local_ui_followup",
+      "roles": "系统设置、帮助入口、断线提示。",
+      "observations": [
+        "可见声音、画面、操作、帮助标签；声音页中含主音量/音效/背景音乐/战斗音效。",
+        "已经有连接中断和重新连接按钮，不能继续笼统记为完全缺少重连页面。",
+        "帮助条目未展开，无法验收其隐藏的兵种说明文字。"
+      ],
+      "textIconReview": "当前画质“均衡”出现在选中的“声音”面板，存在设置分组可理解性问题。",
+      "issues": [
+        {
+          "id": "30-quality-under-audio",
+          "kind": "ui_grouping",
+          "certainty": "observed",
+          "priority": "followup",
+          "location": "声音页下方当前画质下拉项",
+          "detail": "图像质量控件与选中的声音分类不一致。",
+          "action": "移到画面页，或明确此面板是综合设置，避免误导。"
+        },
+        {
+          "id": "30-reconnect-scope",
+          "kind": "coverage_note",
+          "certainty": "observed",
+          "priority": "not_a_visible_defect",
+          "location": "右侧连接中断提示及重新连接按钮",
+          "detail": "断线提示与重连入口已可见；重连中、失败、恢复及实际事件尚未验证。",
+          "action": "后续状态清单只补未覆盖状态，不重复声称本页无断线/重连入口。"
+        }
+      ],
+      "title": "设置帮助",
+      "sourcePath": "designs/01-率土之滨/ui/30-settings-help-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/30-settings-help-ui-v1.png",
+      "sourceSha256": "2ef4da3a2a4ab24f63a2a6b7eea73de3b8dabc0c93e8d60fa2de90d1634a8410",
+      "priorChecklistSha256": "2ef4da3a2a4ab24f63a2a6b7eea73de3b8dabc0c93e8d60fa2de90d1634a8410",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 31,
+      "category": "visual_mapping_followup",
+      "roles": "林地与野外守军单位/头像。",
+      "observations": [
+        "林地 Lv.3，资源木材，未占领，距离 8 格，产量 +300/小时。",
+        "守军标题为野外守军、兵力 900；没有步兵/弓兵/骑兵类别名称。",
+        "地图两名军士及守军圆头像为红缨头盔/长兵器造型，无五行兵种标识。"
+      ],
+      "textIconReview": "出征可用，驻守/扫荡为占领后开放，状态与未占领一致；未见明显资源/数字错误。",
+      "issues": [
+        {
+          "id": "31-guard-mapping",
+          "kind": "visual_mapping",
+          "certainty": "requires_mapping",
+          "priority": "followup",
+          "location": "林地守军地图单位及右侧守军头像",
+          "detail": "当前可见的是通用野外守军，没有与现行五行兵 ID 的映射证据。",
+          "action": "依据实际守军数据绑定五行兵种；不因拿长兵器就直接判为旧步兵分类，也不把木材地块硬设为木兵。"
+        }
+      ],
+      "title": "土地详情",
+      "sourcePath": "designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/31-land-detail-ui-v1.png",
+      "sourceSha256": "65c774e965202d436733ff54c428f3616a6b99f2fcd468753a23116142ed422d",
+      "priorChecklistSha256": "65c774e965202d436733ff54c428f3616a6b99f2fcd468753a23116142ed422d",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 32,
+      "category": "local_ui_followup",
+      "roles": "背包资源、材料、消耗品；无武将/兵种类别。",
+      "observations": [
+        "木材包、粮草包、铁矿包、觉醒玉、加速令、招募券为一般道具；没有五系角色或五行技能分类。",
+        "粮草包持有 8、单个 1000、使用 3、预计 3000，数值一致。",
+        "招募券卡内红色卷轴的两字看似“储粮”，与外部名称可能不一致；内嵌手绘字形需局部核实。"
+      ],
+      "textIconReview": "招募券图内文字是疑似图标/名称错配，未把字形判读当确定 OCR 结果。",
+      "issues": [
+        {
+          "id": "32-recruit-ticket-glyph",
+          "kind": "icon_embedded_text",
+          "certainty": "probable_needs_confirmation",
+          "priority": "followup",
+          "location": "下排右侧招募券卡内红色卷轴",
+          "detail": "卷轴内文目视疑似“储粮”，而卡名为“招募券”。",
+          "action": "局部确认字形；若确为储粮则改为无字招募券或招募相关字样，并让正式标签由 UI 文本层显示。"
+        }
+      ],
+      "title": "背包",
+      "sourcePath": "designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/32-inventory-ui-v1.png",
+      "sourceSha256": "2b5e5e6496bd94df81c8283b54c8d61a6f7ea336e6b3c993762e98195b07882d",
+      "priorChecklistSha256": "2b5e5e6496bd94df81c8283b54c8d61a6f7ea336e6b3c993762e98195b07882d",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1916,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    },
+    {
+      "screenId": 36,
+      "category": "no_explicit_conflict_observed",
+      "roles": "城建管理、队列与取消确认。",
+      "observations": [
+        "木材 5000、石料 1500、铁矿 3000 图标区分正确；仓库升级需要石料 3000，持有 1500，不足 1500，计算一致。",
+        "建设队列 1/2，一条校场建设、一条空闲；下方为取消校场升级确认。",
+        "校场缩略图含训练军士，但无任何旧三兵种分类；建筑缩略图不需要强改五行建筑。"
+      ],
+      "textIconReview": "未发现旧稿石料/铁矿混用复发；可见取消确认文字无明显错误。",
+      "issues": [],
+      "title": "建设队列",
+      "sourcePath": "designs/01-率土之滨/ui/36-construction-queue-ui-v2.png",
+      "sourceAbsolutePath": "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/36-construction-queue-ui-v2.png",
+      "sourceSha256": "42671b3d515b46466542366e5c355b434fc52639318894587471c7e91b43f480",
+      "priorChecklistSha256": "42671b3d515b46466542366e5c355b434fc52639318894587471c7e91b43f480",
+      "hashMatchesChecklist": true,
+      "nativeSize": {
+        "width": 1915,
+        "height": 821
+      },
+      "actualViewed": true,
+      "viewMethod": "tools.view_image(detail=original), individual complete page; not contact-sheet-only",
+      "visualReviewCompleted": true,
+      "explicitFiveElementHeroSemanticsFound": false,
+      "explicitLegacyStepArcherCavalryTaxonomyFound": false,
+      "pixelModified": false,
+      "newGenerationInThisReview": false,
+      "currentFiveTroopMappingAccepted": false,
+      "userApproved": false,
+      "clientIntegratedByThisReview": false,
+      "fullStateCoverage": false,
+      "reviewScope": "Visible static screenshot only; hidden tabs/states, data binding, interactions, routes and client display unverified."
+    }
+  ],
+  "interpretationRules": [
+    "金木水火土只归类兵种；历史武将身份不能替换为金行使等五系英雄。",
+    "无标签的步行军士、弓靶、马匹、骑乘武将和行军马形图标，均不能单独证明旧步弓骑分类。",
+    "玩家昵称头像、主公插画与引导 NPC 不自动等同于武将卡，也不强制历史武将化。",
+    "通用兵士/部队头像尚未绑定新五行兵与历史武将时记为视觉映射后续项，不能宣称五兵已完成。",
+    "静态未发现明确冲突不等于用户验收；藏在未展开面板的文本/状态未被本轮审查。"
+  ],
+  "limits": [
+    "只读人工逐页目视审查；未做自动 OCR 全文保证，也未编辑任何源图。",
+    "21 页均以原生整屏单图查看，未使用拼板替代细节查看。",
+    "32 招募券内嵌字仅记疑似，不能作为确定字形转录。",
+    "本轮没有 Unity、编译、渲染、运行时验证或重型测试；Unity 保持暂停。",
+    "未修改 source checklist、全局索引、check_materials 工作目录、Unity Assets 或 Git。",
+    "新候选页面若由其他代理制作，需要引用其独立记录；本报告只对上列路径和哈希负责。"
+  ],
+  "userApproved": false,
+  "fullGameArtComplete": false
+}

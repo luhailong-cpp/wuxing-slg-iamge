@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/qa/sun-ce-native-dark.png",
+  "sha256": "aa2b3b6164457e7bf44ec25eddf1cc1bb7001335d790ebfa35213b508de750df",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "qaOnly": true,
+  "width": 1565,
+  "height": 1105,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-face-native.png",
+      "sha256": "bbfdf84f70cc9d2c309eabf331e21722c53c7b6a94792ff510d598cd64b61088",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png",
+      "sha256": "a78316380e35b6a8424e099af3c5f903383047f0f1f139d062fc5fb1b28eccb3",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png.derivation.json"
+    }
+  ]
+}

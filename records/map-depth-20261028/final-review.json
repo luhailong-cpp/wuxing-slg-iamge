@@ -1,0 +1,140 @@
+{
+  "schema": "wuxing.bridge-depth-final-review.v1",
+  "reviewedAt": "2026-10-28T08:37:54.663Z",
+  "status": "independent_layer_pair_exported_GPU_rendered_and_fresh_project_import_verified_candidate",
+  "newGeneratedImages": 1,
+  "generatedNativeSize": [
+    1774,
+    887
+  ],
+  "layerCount": 2,
+  "sharedCanvas": [
+    1000,
+    1000
+  ],
+  "art_source": "host_image",
+  "route": "builtin image_gen",
+  "generationRecord": "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png.generation.json",
+  "manifest": "exports/01-率土之滨/map-depth-20261028/bridge-depth-manifest.json",
+  "unity": {
+    "sourceExportPassed": true,
+    "actualStaticGpuCaptures": 6,
+    "freshProjectImportPassed": true,
+    "package": "exports/01-率土之滨/map-depth-20261028/unity/WuxingSLGBridgeDepth-20261028.unitypackage",
+    "packageSha256": "0ed82dec8c6562e8c3198ecd4b11444e28be34efe461ce92ea39dcfc0e2732e7",
+    "packageBytes": 881213,
+    "spriteCount": 2,
+    "prefabCount": 1,
+    "roundtripReport": "records/map-depth-20261028/unity-roundtrip-report.json",
+    "sourceReport": "records/map-depth-20261028/unity-source-report.json"
+  },
+  "browser": "records/map-depth-20261028/browser-verification.json",
+  "visualReview": {
+    "images": [
+      "records/map-depth-20261028/bridge-depth-light-dark-qa-v2.png",
+      "records/map-depth-20261028/metal-troop-depth-light-dark.png",
+      "records/map-depth-20261028/unity-gpu-light-dark.png",
+      "records/map-depth-20261028/browser-preview-landscape-960.png"
+    ],
+    "findings": [
+      "Coherent bridge reconstruction after measured integer registration",
+      "Foreground railing covers lower body at west/middle/east probes on light/dark backgrounds",
+      "Metal static troop identity remains unchanged; only diagnostic uniform resize",
+      "No visible clipped significant-alpha content at outputcanvas edges"
+    ]
+  },
+  "warnings": [
+    {
+      "id": "ORIGINAL_MASTER_REDESIGNED",
+      "status": "WARN",
+      "value": "Native generated bridge retains old identity/topology but differs in geometry/detail",
+      "threshold": "Do not reuse old map placement/collision without measurement",
+      "files": [
+        "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png"
+      ]
+    },
+    {
+      "id": "GENERATED_GRID_MANUALLY_REGISTERED",
+      "status": "WARN",
+      "value": {
+        "native": [
+          1774,
+          887
+        ],
+        "splitX": 1000,
+        "backOffset": [
+          0,
+          64
+        ],
+        "frontOffset": [
+          55,
+          39
+        ]
+      },
+      "threshold": "Do not assume equal-cell or naturally aligned layer sheet",
+      "files": [
+        "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+        "exports/01-率土之滨/map-depth-20261028/bridge-front.png"
+      ]
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "status": "WARN",
+      "value": {
+        "backAlpha1": 11251,
+        "frontAlpha1": 4286,
+        "edgeAlphaAbove16": 0
+      },
+      "threshold": "No threshold erasure performed; use source alpha and inspect backgrounds",
+      "files": [
+        "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+        "exports/01-率土之滨/map-depth-20261028/bridge-front.png"
+      ]
+    },
+    {
+      "id": "FINAL_MAP_NAVIGATION_NOT_VERIFIED",
+      "status": "WARN",
+      "value": "Only three local probe points; old map untouched",
+      "threshold": "Full bridge span, sockets, collision and occlusion region require final map integration",
+      "files": [
+        "exports/01-率土之滨/map-depth-20261028/bridge-depth-manifest.json"
+      ]
+    },
+    {
+      "id": "STATIC_DIAGNOSTICS_ONLY",
+      "status": "WARN",
+      "value": "Metal troop is one resized static image; UnityCamera.Render is static editor GPU rendering",
+      "threshold": "No walking animation, PlayMode gameplay or real client approval",
+      "files": [
+        "records/map-depth-20261028/metal-static-diagnostic-review.json",
+        "records/map-depth-20261028/unity-source-report.json"
+      ]
+    },
+    {
+      "id": "UNITY_STARTUP_ROUTE_FAILURES_PRESERVED",
+      "status": "WARN",
+      "value": "Node-launched normalUnity UPM IPC failed; noUpm exported/rendered; standard cmd.exe-launched Python fresh import passed",
+      "threshold": "Actual standard package reimport requires UPM; noUpm cannot import package",
+      "files": [
+        "records/map-depth-20261028/unity-startup-attempts.json",
+        "records/map-depth-20261028/unity-roundtrip-attempt3-failed.json",
+        "records/map-depth-20261028/unity-roundtrip-process-attempt5.json"
+      ]
+    },
+    {
+      "id": "EDITOR_API_DEPRECATION",
+      "status": "WARN",
+      "value": [
+        "AssetDatabase.ImportPackage(string, bool) is obsolete; Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.",
+        "AssetDatabase.ExportPackage(string, string, ExportPackageOptions) is obsolete; Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead."
+      ],
+      "threshold": "Editor verification code uses working deprecated API, runtime assets contain no scripts",
+      "files": [
+        "work/map-depth-20261028/BuildBridgeDepth.cs"
+      ]
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

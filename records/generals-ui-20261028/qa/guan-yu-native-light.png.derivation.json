@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/guan-yu-native-light.png",
+  "sha256": "273cb7e7fbda2aba6c005a2e12c84e3eae73839f41beb833870a6e24e9e36af5",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1455,
+  "height": 1105,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-face-native.png",
+      "sha256": "857cca6fc814abe6ea259fc507861fffcc31269b5d5f42936c5b7e01ced8ecde",
+      "record": "exports/01-率土之滨/generals-ui-v1/guan-yu-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-bust-native.png",
+      "sha256": "6536631e71e8ff54153d05d612713658a1588583030f9882513230b5b5503abe",
+      "record": "exports/01-率土之滨/generals-ui-v1/guan-yu-bust-native.png.derivation.json"
+    }
+  ]
+}

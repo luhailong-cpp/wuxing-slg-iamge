@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "dong-zhuo",
+  "name": "董卓",
+  "batch": "roster-expansion-20261030-qun1",
+  "sourceIdentity": {
+    "personID": "ww-p-7e59fb166e89",
+    "entityID": "ww-p-7e59fb166e89",
+    "name": "董卓",
+    "canonicalName": "董卓",
+    "category": "普通人物",
+    "status": "queued_official_identity_candidate",
+    "identityStatus": "primary_index_name_confirmed",
+    "cards": [
+      100009,
+      100061,
+      100014,
+      100480,
+      100657,
+      130009,
+      130480,
+      130657
+    ],
+    "publicListCards": [
+      100009,
+      100480
+    ],
+    "source": [
+      {
+        "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "locator": "displayName=董卓; cardIds=100009,100061,100014,100480,100657,130009,130480,130657",
+        "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe"
+      },
+      {
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "locator": "卷6",
+        "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 6
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Original full-body character master of 董卓 for 五行问鼎, original historical Three Kingdoms identity design in the attached authoritative Taoist chibi HD hand-painted style. Exactly ONE adult person on TRUE transparent alpha. Vertical 2:3 canvas. Both attached images are STYLE references only: preserve their rounded finely painted forms, jade green, ivory silk, restrained warm gold, soft fabric shading and clear expressive face, but do not reproduce their UI, children or costume.\nA heavy-set older warlord with broad square cheeks, thick outward brows, a short bushy black-and-grey beard, stern narrow eyes. Dark jade lamellar armour with bronze cloud trim and ivory under-robe, broad belt, low dark helmet with a short red tassel. Stocky wide stance. One complete broad single-edged dao held downward, other hand resting on belt. Strong bulky silhouette, no long scholar hat.\nOriginal fictional visual choices, not documentary costume reconstruction and not commercial card art. Large expressive adult head and short body, around 2.7 heads tall; face, beard, build, headwear and prop must be specific to this identity. Keep the COMPLETE figure and ALL props fully within the CENTRAL 76 percent of the canvas. At least 10 percent genuinely transparent empty padding on every side, including hat, staff, weapon and shoes. Full hands and two complete feet. No cut-off extremity or prop. No scene, background, mist, glow, ground plane, shadow, frame, label, writing, watermark, UI or elemental-class badge. Keep the native antialiased alpha; no painted checkerboard. Fine polished 2D hand-painted illustration, no 3D toy gloss, no realism, no pixel art.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261030-qun1/dong-zhuo-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative visual style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative visual style"
+    }
+  ],
+  "preparedAtUtc": "2026-10-30T11:41:51.106Z",
+  "actualModel": null,
+  "actualQuality": null,
+  "status": "prepared"
+}

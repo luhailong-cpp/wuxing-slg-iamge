@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "metal-walk-se-v5",
+  "clientDate": "2026-11-02",
+  "editOf": "designs/01-率土之滨/assets/troop-walk-20261102/metal-walk-se-v4.png",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-02",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "prompt": "prompts/01-率土之滨/troop-walk-20261102/metal-walk-se-v5.prompt.txt",
+  "submittedParameters": {
+    "prompt": "TARGETED EDIT of image1. Keep its3x2 six-cell layout and exact soldier identity/camera/scale, all upper bodies, equipment handedness, white feather and transparent background. Leave the TOP ROW poses unchanged. Fix ONLY the LEGS BELOW THE WAIST in the BOTTOM ROW, cells4,5,6, to create the OPPOSITE half of a genuine walk cycle. Current bottom cell4 repeats top cell1; that is wrong.\nImage2 is exact identity. Image3 is the geometry: orange NEAR leg, blue FAR leg, never paint orange/blue. Images4/5 are style only. In bottom cell4 the FAR thigh starts BEHIND the near thigh at the pelvis, then passes across and emerges DOWN-RIGHT to a forward planted boot. The NEAR thigh is in front at the pelvis but angles BACK-UP-LEFT to the trailing boot. Their projected leg lines CROSS like an X under the hem (natural3/4 gait), instead of reproducing top-row near-leg-forward V. In bottom cell5 FAR leg is the straight support to ground; NEAR knee bends up and its boot passes IN FRONT at knee height. In bottom cell6 FAR toe is pushing from the back while NEAR foot reaches forward ready for top cell1. Use the bottom row of the pose guide. Keep both knees/boots visually distinct; do not hide swapped anatomy under cloth or shield.\nKeep SE/down-right facing, same held saber and shield hands. No mirroring or rotating. No extra leg, no jump or flight; one sole stays on the projected ground in each pose. Actual TROUSER AND BOOT articulation, not whole figure translations. Keep full figure within each cell with clearance. No labels, numbers, line grid, guide colors, background, dust, shadows, slash effects or new props. Fine hand-painted Taoist chibi with native alpha. Full3x2 sheet result.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/troop-walk-20261102/metal-walk-se-v4.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troop-walk-20261102/six-phase-pose-guide.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "references": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-walk-20261102/metal-walk-se-v4.png",
+      "sha256": "f5c70712442195c9655c4adab599727aa94ed1f604cc9c4198bbcd3834ff303c",
+      "role": "edit target"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "role": "identity master"
+    },
+    {
+      "file": "records/troop-walk-20261102/six-phase-pose-guide.png",
+      "sha256": "6b1da906796cf5366166192de111dd609fd665ca1cba33d67e349d81c2c8850a",
+      "role": "code-drawn pose reference only"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style"
+    }
+  ],
+  "targetedCorrection": "opposite depth lead in lower row; unchanged facing/handedness",
+  "preparedAtUtc": "2026-11-02T11:13:34.700Z"
+}

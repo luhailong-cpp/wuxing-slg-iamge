@@ -1,0 +1,17 @@
+{
+  "observedAtUtc": "2026-11-02T12:31:55.024Z",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "request": "records/world-terrain-20261102-kit/water-v1.request.json",
+  "status": "failed_no_image",
+  "httpStatus": 429,
+  "errorType": "usage_limit_reached",
+  "planType": "pro",
+  "resetsAt": 1793676896,
+  "resetAtUtc": "2026-11-03T03:34:56.000Z",
+  "resetsInSecondsAtResponse": 54263,
+  "generatedImages": 0,
+  "actualModel": null,
+  "actualQuality": null,
+  "nextAction": "do not retry during the exhausted quota window; complete existing deliverables"
+}

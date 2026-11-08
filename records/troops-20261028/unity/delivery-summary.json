@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "finalizedAtUtc": "2026-10-28T08:27:54.742920+00:00",
+  "status": "20_static_sprites_source_and_fresh_project_import_verified_with_warnings",
+  "counts": {
+    "troopTypes": 5,
+    "nativeCopies": 5,
+    "display64h": 5,
+    "display128h": 5,
+    "icons128": 5,
+    "rgbaPng": 20,
+    "perPngDerivationRecords": 20,
+    "unityPackages": 1,
+    "animationFrames": 0,
+    "animationClips": 0,
+    "sceneCount": 0,
+    "newArtworkGeneratedDuringPackaging": 0
+  },
+  "package": {
+    "file": "exports/01-率土之滨/five-element-troops-v1/unity/WuxingSLGFiveElementTroopsV1-20261028.unitypackage",
+    "sha256": "7b8bca0bd2f8651058e508a1fc1bb8d8fd2d63b237658a4e62070d873f9f7cfb",
+    "bytes": 6362008,
+    "exportRoot": "Assets/WuxingSLGFiveElementTroopsV1"
+  },
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/five-element-troops-v1/troops-manifest.json",
+    "sha256": "4dbb71887a980dbf8578b49abc2a5613df2f96e8a01147d6c4dd1da9febcc90b",
+    "unchanged": true
+  },
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/five-element-troops-v1/unity/source-index.json",
+    "sha256": "a80b5c6ff4fc554fde12f8f20f4979dd4cf5d69140de85ff753570d27b6684d9"
+  },
+  "unityVersion": "6000.6.0f1",
+  "sourceImportPassed": true,
+  "freshProjectRoundtripPassed": true,
+  "sourceImportedPixelHashesMatched": 20,
+  "freshProjectImportedPixelHashesMatched": 20,
+  "pixelHashMeaning": "Full RGBA8 bottom-row-first including transparent RGB, matched to decoded source PNG",
+  "archivePngBytesMatched": 20,
+  "archiveRecordBytesMatched": 20,
+  "sourceMasterHashesUnchanged": 5,
+  "sourceGenerationRecordHashesUnchanged": 5,
+  "sourcePngHashesUnchanged": 20,
+  "sourceDerivationHashesUnchanged": 20,
+  "pivotsMatchedToSourceManifest": 20,
+  "actualAlphaCountsMatched": 20,
+  "otherExistingPackageConflictCount": 0,
+  "comparedExistingPackageCount": 8,
+  "qaViews": [
+    {
+      "file": "records/troops-20261028/qa/five-troops-lineup-light.png",
+      "sha256": "e11a1c5b93b42340a460b336a37e0ffded2c80a1a69abc97bc8e22551520576a",
+      "actuallyViewedByPackagingAgent": true
+    },
+    {
+      "file": "records/troops-20261028/qa/five-troops-64-128-light-dark.png",
+      "sha256": "63925501ee638059b6439c5409e82ba2c7fa3e6d9df3c5ba22cdf3416c240fe0",
+      "actuallyViewedByPackagingAgent": true
+    },
+    {
+      "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+      "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+      "actuallyViewedByPackagingAgent": true,
+      "viewType": "individual128Icon"
+    },
+    {
+      "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+      "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+      "actuallyViewedByPackagingAgent": true,
+      "viewType": "individual128Icon"
+    },
+    {
+      "file": "exports/01-率土之滨/five-element-troops-v1/water-icon128.png",
+      "sha256": "43591f5bb31b1f6e8fe6c876a9c333c95631682971cb346b99274e914caea41c",
+      "actuallyViewedByPackagingAgent": true,
+      "viewType": "individual128Icon"
+    },
+    {
+      "file": "exports/01-率土之滨/five-element-troops-v1/fire-icon128.png",
+      "sha256": "4af5f326c9ac2e9b9e1c7d6dd890802fe9b6852ee8739422065ec2d167e3def7",
+      "actuallyViewedByPackagingAgent": true,
+      "viewType": "individual128Icon"
+    },
+    {
+      "file": "exports/01-率土之滨/five-element-troops-v1/earth-icon128.png",
+      "sha256": "1d8db03fb392e85dbe4ec65ebe76f1586e5656fc9f1b523741f3f4cd99f8c165",
+      "actuallyViewedByPackagingAgent": true,
+      "viewType": "individual128Icon"
+    }
+  ],
+  "warningCounts": {
+    "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT": 5,
+    "NATIVE_ALPHA1_RESIDUE_RETAINED": 5
+  },
+  "warnings": [
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        165,
+        64,
+        157,
+        56
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 10861,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        166,
+        183,
+        139,
+        80
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 11592,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        252,
+        148,
+        194,
+        91
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 8269,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        259,
+        156,
+        178,
+        60
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 9793,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        169,
+        161,
+        143,
+        86
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 7465,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+      ]
+    }
+  ],
+  "limits": [
+    "Only SE view; no additional directions or real motion.",
+    "Token size normalizes full silhouettes; physical unit scale and animation roots are uncalibrated.",
+    "18% source margin prompt not met; alpha>1 silhouettes complete. Full source pixels retained in native/64h/128h.",
+    "Native alpha1 residue retained, not keyed, erased or normalized; see exact per-source WARN.",
+    "No five-element combat advantage or soldier statistics invented.",
+    "No static overview scene was added; this package supplies assets and provenance only.",
+    "No GPU render, game client integration, physics root calibration, or final user art acceptance was performed."
+  ],
+  "compilerDiagnostics": [
+    {
+      "mode": "source",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingFiveElementTroops.cs(212,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingFiveElementTroops.cs(65,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    },
+    {
+      "mode": "roundtrip",
+      "compilerDiagnosticLines": [
+        "Assets\\Editor\\BuildWuxingFiveElementTroops.cs(212,17): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+        "Assets\\Editor\\BuildWuxingFiveElementTroops.cs(65,9): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'"
+      ],
+      "warningCount": 2,
+      "errorCount": 0
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

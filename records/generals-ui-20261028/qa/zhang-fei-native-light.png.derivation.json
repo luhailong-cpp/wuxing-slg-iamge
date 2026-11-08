@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/zhang-fei-native-light.png",
+  "sha256": "c956cd90c36511798f4b172b58c282ce9079556dc03e452c5ce8132e5a05e960",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1495,
+  "height": 875,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhang-fei-face-native.png",
+      "sha256": "3c74814bb52effda783752004467065b28faf23513d2deb51748327021fb3788",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhang-fei-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhang-fei-bust-native.png",
+      "sha256": "9198c964391e5d7261855a1353a23aba37cd8132985cb14fcde0421a849bb6f1",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhang-fei-bust-native.png.derivation.json"
+    }
+  ]
+}

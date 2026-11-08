@@ -1,0 +1,60 @@
+{
+  "schema": "wuxing.map-connector-visual-qa.v1",
+  "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/03-riverbank-extension-v1.png",
+  "sha256": "e45832db8e3c8a993ca71f2502e78a235e4c62dfd57afbae176e525feac1ba1e",
+  "nativeSize": [
+    1586,
+    992
+  ],
+  "reviewedAt": "2026-10-29T03:52:54.654Z",
+  "review": "actual visual inspection of native output, light/dark alpha composites and assembled seam closeups",
+  "status": "FAIL_CROSSING_SEAM_KEEP_STANDALONE_CANDIDATE",
+  "visualPass": [
+    "开放直河道与两侧草岸，无桥/路/末端坝",
+    "浅深底可见自然边缘，真实alpha周边",
+    "水面和草岸整体画风接近底板"
+  ],
+  "notPassed": [
+    "与桥头底板连接处水色色阶和波纹突变，明显斜切线：严格接缝FAIL",
+    "双端切口角度/宽度不完全相同；无法宣称重复平铺或像素对齐",
+    "右侧及左侧安全边距不足，低alpha包围盒碰画布；应保留整个原生画布",
+    "本批3张已满，不加生成，不把暂缓修正视为通过"
+  ],
+  "usableAs": "独立直河段候选；不得采用为已通过的桥头无缝连接",
+  "png": {
+    "file": "D:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\assets\\map-connectors-20261028-r2\\03-riverbank-extension-v1.png",
+    "size": [
+      1586,
+      992
+    ],
+    "alphaZero": 922326,
+    "alphaOne": 35431,
+    "alphaSemi": 650985,
+    "alphaOpaque": 1,
+    "alphaAtLeast240": 582739,
+    "alphaBoundsAny": [
+      0,
+      4,
+      1586,
+      992
+    ],
+    "alphaBounds128": [
+      8,
+      20,
+      1583,
+      979
+    ],
+    "alphaMax": 255,
+    "alphaEdited": false,
+    "cornerAlphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "navigationTested": false,
+  "heavyToolsRun": false
+}

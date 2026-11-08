@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/li-hui-face-native.png",
+  "sha256": "3a8c08705b6df4627eda86b0c58a8cd5b340fd83cffcd19b0c145ca05402126e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-hui-master-v1.png",
+    "sha256": "7af5ca0b5857055bd76e2310487e3176cc4f249fa6ac27a9980edc43a8dd9362",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/li-hui-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      260,
+      100,
+      800,
+      720
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

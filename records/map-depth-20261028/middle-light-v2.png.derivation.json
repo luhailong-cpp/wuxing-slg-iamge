@@ -1,0 +1,33 @@
+{
+  "file": "records/map-depth-20261028/middle-light-v2.png",
+  "sha256": "25a8c43687bae176fc65cdda1f451a5fe242e9a32c84ac678cccdf47ed7f002b",
+  "createdAt": "2026-10-28T08:15:32.339242+00:00",
+  "width": 1000,
+  "height": 1000,
+  "operation": "diagnostic_composite",
+  "details": {
+    "layerOrder": [
+      "bridge-back.png",
+      "neutral diagnostic capsule",
+      "bridge-front.png"
+    ],
+    "footpoint": [
+      500,
+      447
+    ],
+    "background": "light",
+    "diagnosticOnly": true,
+    "resampled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b"
+    }
+  ],
+  "diagnosticOnly": true
+}

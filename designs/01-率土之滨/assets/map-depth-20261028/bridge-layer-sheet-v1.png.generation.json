@@ -1,0 +1,63 @@
+{
+  "file": "designs/01-率土之滨/assets/map-depth-20261028/bridge-layer-sheet-v1.png",
+  "sha256": "79daaff88d5ba10bc0524969d69c24f22eab8c5ce004aefedeb03a96fdc28b92",
+  "generatedAt": null,
+  "generatedAtMeaning": "Precise service generation timestamp not disclosed; receipt timestamp retained separately",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit / game prop layer production.\nImage 1 is the geometry and material reference: the existing ivory stone arched bridge with small golden gourd finials, green shrub accents, isometric camera, bridge axis NW-to-SE. Images 2 and 3 are USER-APPROVED ART STYLE references only: crisp Daoist chibi hand-painted game assets, rounded ivory stone, warm gold, jade greens. Do not copy their UI or lettering.\nCreate ONE transparent PNG registration sheet of exactly TWO equal square cells in a horizontal row, target overall 2048x1024. No borders, labels, text, background, ground plane or checkerboard. Each cell is a 1024x1024 coordinate space. This sheet contains TWO MATCHED RENDER LAYERS of the SAME bridge, not two complete bridges.\nWithin BOTH cells keep the EXACT SAME camera, scale and pixel-coordinate origin. The bridge footprint should occupy about x=150..870 and y=230..830 of its own cell, with generous truly transparent gutters. Light from upper left. Keep the existing ivory arch, both approaches/stairs, small golden gourd finials and restrained green shrub accents. Do not add a river.\nLEFT CELL: BACK/DECK LAYER. Render the complete bridge foundation, arch facade, all walkable paving and stairs, shrubs, and the FAR/BACK balustrade. REMOVE the ENTIRE nearest/foreground balustrade including its gold finials and posts, leaving the full floor visible where that rail would occlude it. The absent foreground rail must not leave ghost fragments.\nRIGHT CELL: FOREGROUND OCCLUDER ONLY. Render ONLY that matching nearest balustrade (parapet, its three/four posts and golden finials) at the exact position it would occupy if placed on top of the left cell. The remainder of this cell is truly transparent. Do not render a deck, arch, stairs, shrubs, far rail, floor or cast shadow here. Leave the walking surface above/behind the rail fully transparent. The rail is NOT recentered or enlarged to fill the cell.\nThe sum of the two equal-sized cells, stacked at offset zero, must reconstruct one coherent bridge. Focus on shared registration, clear rail silhouette and painterly edge quality. No characters. No weapons. No symbols or text. True RGBA alpha with a clean transparent outer background. This is a new layer-production candidate, so preserve bridge identity and topology rather than inventing a new structure.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": "records/map-depth-20261028/bridge-layer-sheet-v1.tool-response.json",
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/01-率土之滨/map-depth-20261028/bridge-layer-sheet-v1.prompt.txt",
+  "references": [
+    {
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "role": "Geometry and identity edit target"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "User-approved art style only; no UI or text copied"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "User-approved art style only; no UI or text copied"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "receivedAt": "2026-10-28T08:10:48.660Z",
+  "hostOutputFilename": "exec-d2af7fe8-6a81-4884-94bc-ad0424447837.png"
+}

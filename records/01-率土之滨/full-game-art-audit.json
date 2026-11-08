@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 1,
+  "auditId": "full-game-art-initial-audit-20261026",
+  "auditedAt": "2026-10-26T16:55:30.729794+00:00",
+  "timezone": "America/New_York",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "scopeStatus": "working_baseline_pending_user_specifications",
+  "fullGameArtComplete": false,
+  "scopeAuthority": "用户已授权继续完成；首发数量/名单/设备/引擎尚未确认，本基线不是用户已确认最终合同",
+  "snapshotBoundary": "只统计本轮完整性审计开始前的12张UI与1张角色；并行生成的新文件由后续生产清单增量统计",
+  "counts": {
+    "directionDraftUi": 12,
+    "directionDraftCharacters": 1,
+    "generationRecords": 13,
+    "userReferenceFiles": 9,
+    "uniqueUserReferenceImages": 8,
+    "exportFilesAtInitialAudit": 0,
+    "packagedAssetBundlesAtInitialAudit": 0,
+    "clientIntegratedAssetsAtInitialAudit": 0,
+    "userApprovedAssetsAtInitialAudit": 0
+  },
+  "stages": {
+    "D1": "方向稿可审阅",
+    "D2": "独立资产及状态齐全",
+    "D3": "可接入包与资源清单",
+    "D4": "实际客户端集成视觉验收"
+  },
+  "initialAssets": [
+    {
+      "file": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "width": 1931,
+      "height": 814,
+      "mode": "RGB",
+      "sha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "generationRecord": "designs/01-率土之滨/ui/01-world-map-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/02-world-trends-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "94ffce51d253670dbee944568b5b3b3983cd61de3ec531a263e36a59d1725ee1",
+      "generationRecord": "designs/01-率土之滨/ui/02-world-trends-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review_with_followups",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/03-generals-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "5fd0e6598351986dfb62b5e745146ce239bd9aefb720e0e27a0843b191b8aa10",
+      "generationRecord": "designs/01-率土之滨/ui/03-generals-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/04-main-city-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "6f772b15357a12366849b4febe1c0e44a4128f4970a752e38f62713a15230a73",
+      "generationRecord": "designs/01-率土之滨/ui/04-main-city-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+      "width": 1931,
+      "height": 814,
+      "mode": "RGB",
+      "sha256": "7511461ca58efc5581495a3d156558435b437976a932e545af53cd97369d21a8",
+      "generationRecord": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "18a2dfb2a7ecbd5b42f972c84bd7afaaf53e322502b2b8c14bed86e2b1be520d",
+      "generationRecord": "designs/01-率土之滨/ui/06-garrison-city-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/07-fortress-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "0af7f6375f577394b3f2172440fb805765ff34f3e674626dd8bffc35dc96b191",
+      "generationRecord": "designs/01-率土之滨/ui/07-fortress-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "dcde1bb588a95499c2fbaa3793dd0b9a3d5c07596f8231c9e1c9e6eb59f9d608",
+      "generationRecord": "designs/01-率土之滨/ui/08-military-camp-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+      "width": 1932,
+      "height": 814,
+      "mode": "RGB",
+      "sha256": "21811d82f2c6f4c7c9ff598c9547b622d7901ee59913dea7ab291fac4c70892b",
+      "generationRecord": "designs/01-率土之滨/ui/09-county-city-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+      "width": 1931,
+      "height": 814,
+      "mode": "RGB",
+      "sha256": "965122cbfd510c341013969a20b054a846a4cda6c2c614e1d9880bc710bd567b",
+      "generationRecord": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "79c806754de890a95064ebd46696cb2925af2aba578005056431f5c09d25f4c0",
+      "generationRecord": "designs/01-率土之滨/ui/11-provincial-capital-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "sha256": "9e2a03df3c830a9aab261316e3d8620ff75ba78386fd98215c27a211f645855e",
+      "generationRecord": "designs/01-率土之滨/ui/12-capital-city-ui-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "file": "designs/01-率土之滨/characters/01-spear-dao-general-v1.png",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "sha256": "1864f420f2a3897fdd5ee182726fbf1c310e0da718f00852cc33073cb44730dd",
+      "generationRecord": "designs/01-率土之滨/characters/01-spear-dao-general-v1.png.generation.json",
+      "stage": "D1_direction_draft",
+      "recordedStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false
+    }
+  ],
+  "userReferences": [
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "df13d577da8963add78718d93bc5a648b5deeadab2c20a623a37976637b4b56d",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/02-tactic-detail.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "c18bb9956b794ea7f8d3d4bbec7718c39559464e5ba1176a452906e11790553f",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/03-tactic-library.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "9e3f8076dd8dadd9f3d68b5da4f9f0eb8ddea3317e8474e18f0ed023470a35e5",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/04-general-detail.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "2141a2052acb29678c0e3c78945b404d1e869f112e806c999e14c24791cfb1d7",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/05-army-formation.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "6cf9c0ad96a549810c8a970b62c34cad0f948c2b91faf1ee6109b274ba69d768",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/06-map-march.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "9596ba16be05962d9843b9b731c4f370033e146e9eb03777d2441678aad68880",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "b40a3d1b54dab5da64133f601dbe7c1427a09aa44bef9ca05b2cc3a59054ffa1",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/08-general-recruit-result-duplicate.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "b40a3d1b54dab5da64133f601dbe7c1427a09aa44bef9ca05b2cc3a59054ffa1",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg",
+      "width": 2351,
+      "height": 1080,
+      "sha256": "94be818db5b563991c28ebecaa68bc7c7cbcc7d5cb0156f261e35b9443e3dd37",
+      "role": "function_and_layout_reference_only_not_character_identity"
+    }
+  ],
+  "duplicateReferences": [
+    {
+      "original": "uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg",
+      "duplicate": "uploads/01-率土之滨/user-reference-20261026/08-general-recruit-result-duplicate.jpg",
+      "sha256": "b40a3d1b54dab5da64133f601dbe7c1427a09aa44bef9ca05b2cc3a59054ffa1",
+      "deduplication": "需求计数合并；原始用户输入保留"
+    }
+  ],
+  "referenceFlowMapping": [
+    {
+      "referenceIds": [
+        1
+      ],
+      "flow": "city_build_tutorial",
+      "missing": [
+        "建造物资所步骤",
+        "奖励浮层",
+        "引导少女",
+        "对话遮罩与焦点手势"
+      ]
+    },
+    {
+      "referenceIds": [
+        2
+      ],
+      "flow": "tactic_details_and_learning",
+      "missing": [
+        "战法详情字段",
+        "学习入口与已学状态",
+        "对象选择与条件失败"
+      ]
+    },
+    {
+      "referenceIds": [
+        3
+      ],
+      "flow": "tactic_library",
+      "missing": [
+        "分类筛选",
+        "网格列表",
+        "经验与拆解",
+        "空态"
+      ]
+    },
+    {
+      "referenceIds": [
+        4
+      ],
+      "flow": "wuxing_hero_details_and_cultivation",
+      "missing": [
+        "五行原创角色身份稿（截图刘备仅为详情流程参考）",
+        "领兵/内政/列传/外观",
+        "详情/配点/兵种",
+        "保护与战法槽状态"
+      ]
+    },
+    {
+      "referenceIds": [
+        5
+      ],
+      "flow": "army_formation_and_conscription",
+      "missing": [
+        "大营/中军/前锋",
+        "COST/部队加成/士气",
+        "配置/互换/征兵",
+        "空席与锁定编队"
+      ]
+    },
+    {
+      "referenceIds": [
+        6
+      ],
+      "flow": "map_march",
+      "missing": [
+        "行军路径箭头",
+        "旗帜与计时",
+        "多部队状态",
+        "独立单位与选中格"
+      ]
+    },
+    {
+      "referenceIds": [
+        7,
+        8
+      ],
+      "flow": "recruit_result",
+      "duplicateReferenceIds": [
+        8
+      ],
+      "missing": [
+        "招募入口与所得卡",
+        "星级/阵营/等级/COST/攻击距离",
+        "卡框光效与重复武将状态"
+      ]
+    },
+    {
+      "referenceIds": [
+        9
+      ],
+      "flow": "rescue_tutorial",
+      "missing": [
+        "流寇营地/残破仓库",
+        "路线引导",
+        "敌占/可选格",
+        "火焰FX/NPC提示"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "ui_screens",
+      "name": "UI主流程方向稿",
+      "currentFileCount": 12,
+      "currentStage": "D1",
+      "packagedCount": 0,
+      "integratedCount": 0,
+      "missing": [
+        "新截图中的8个唯一功能流程",
+        "入口、社交、战斗、招募、内政、任务和系统其余页面"
+      ],
+      "baseline": "按modules完整列出启用页面，不把一张拼图等同全部页面"
+    },
+    {
+      "id": "ui_states",
+      "name": "UI业务与控件状态",
+      "currentFileCount": 0,
+      "currentStage": "missing_independent_bundle",
+      "missing": [
+        "默认/选中/按下/禁用/锁定/空态/加载/失败/红点",
+        "可领取/已领取/资源不足/征兵中/容量不足等适用业务状态"
+      ]
+    },
+    {
+      "id": "ui_skin",
+      "name": "无字公共皮肤",
+      "currentFileCount": 0,
+      "currentStage": "missing_independent_bundle",
+      "missing": [
+        "框板/标题牌/页签/按钮/卡框/列表行/输入/弹窗/提示/进度/滚动条/角标/锁/关闭返回/选择框/引导手势"
+      ],
+      "baseline": "独立PNG、真实alpha、适用九宫格、状态映射"
+    },
+    {
+      "id": "icons",
+      "name": "功能图标",
+      "currentFileCount": 0,
+      "currentStage": "missing_independent_bundle",
+      "missing": [
+        "经济资源/兵种/五维/建筑/战法分类/状态/导航/奖励"
+      ],
+      "baseline": "先形成稳定ID与独立图标再按清单扩展，不按整屏内嵌图标计数"
+    },
+    {
+      "id": "characters",
+      "name": "武将与NPC独立角色包",
+      "currentFileCount": 1,
+      "currentStage": "D1_transparent_direction_draft",
+      "packagedCount": 0,
+      "missing": [
+        "逐角色全身立绘/头像/卡面/身份与五行归属记录",
+        "五行原创角色与引导NPC"
+      ],
+      "workingRoster": [],
+      "workingNpcs": [],
+      "rosterConfirmedByUser": false,
+      "workingElements": [
+        "金",
+        "木",
+        "水",
+        "火",
+        "土"
+      ],
+      "rosterStatus": "名单、每系数量与NPC待定；历史候选撤回"
+    },
+    {
+      "id": "world",
+      "name": "地图与建筑独立资源",
+      "currentFileCount": 0,
+      "currentStage": "missing_independent_bundle",
+      "relatedDirectionDraftCount": 9,
+      "missing": [
+        "九类城池大地图独立外观",
+        "必要城内建筑",
+        "地形/道路/河岸/桥",
+        "资源地/敌营/损毁态"
+      ],
+      "baseline": "一致相机、锚点与比例；不放大整屏小城冒充原生母图"
+    },
+    {
+      "id": "troops",
+      "name": "兵种与行军",
+      "currentFileCount": 0,
+      "currentStage": "missing",
+      "workingTypes": [
+        "步兵",
+        "弓兵",
+        "骑兵"
+      ],
+      "workingStates": [
+        "待命",
+        "行军",
+        "驻守",
+        "返回"
+      ],
+      "missing": [
+        "独立地图单位",
+        "旗帜与阵营表达",
+        "朝向/脚点/状态映射"
+      ],
+      "animationSpecStatus": "未定；静态单位不冒称帧动画"
+    },
+    {
+      "id": "fx",
+      "name": "战斗与表现特效",
+      "currentFileCount": 0,
+      "currentStage": "missing",
+      "workingEffects": [
+        "物理命中",
+        "谋略",
+        "治疗",
+        "增益",
+        "减益",
+        "火焰",
+        "占领",
+        "奖励与招募"
+      ],
+      "missing": [
+        "独立透明FX",
+        "相位/时长/循环合同",
+        "战报与结算表现"
+      ],
+      "animationSpecStatus": "未定；静态FX不冒称动画"
+    },
+    {
+      "id": "delivery",
+      "name": "接入包与集成验收",
+      "currentFileCount": 0,
+      "currentStage": "D3_and_D4_not_started",
+      "missing": [
+        "manifest/状态矩阵/锚点与九宫格",
+        "文字与数据层规则",
+        "真实客户端视觉验收"
+      ],
+      "specStatus": "目标设备/引擎/导入格式未定"
+    },
+    {
+      "id": "marketing",
+      "name": "营销与渠道图",
+      "currentFileCount": 0,
+      "requiredForCoreGameArt": false,
+      "missing": [
+        "仅在用户明确纳入时制作"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "entry",
+      "name": "入口与加载",
+      "workingPages": [
+        "登录",
+        "选服",
+        "主公信息",
+        "加载与公告"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "map",
+      "name": "战略地图",
+      "workingPages": [
+        "大地图",
+        "小地图总览",
+        "土地详情",
+        "行军确认",
+        "行军状态",
+        "占领结果"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "city",
+      "name": "城建与九类城池",
+      "workingPages": [
+        "主城",
+        "分城",
+        "戍城",
+        "要塞",
+        "军营",
+        "县城",
+        "郡城",
+        "州府",
+        "国都",
+        "设施列表",
+        "建筑详情与升级",
+        "建设队列"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "hero",
+      "name": "武将",
+      "workingPages": [
+        "武将卡册",
+        "五行原创武将详情",
+        "配点",
+        "兵种",
+        "进阶与觉醒",
+        "保护",
+        "列传与外观（首发启用时）"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "tactic",
+      "name": "战法",
+      "workingPages": [
+        "战法库",
+        "筛选与空态",
+        "战法详情",
+        "学习对象选择",
+        "学习结果",
+        "升级与拆解确认"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "army",
+      "name": "部队",
+      "workingPages": [
+        "编组",
+        "武将选择",
+        "互换",
+        "征兵",
+        "征兵中与取消",
+        "COST或兵力不足"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "battle",
+      "name": "战斗",
+      "workingPages": [
+        "战报列表",
+        "战报详情",
+        "胜败平结算",
+        "奖励与损失",
+        "战斗过程展示（启用时）"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "recruit",
+      "name": "招募",
+      "workingPages": [
+        "招募入口",
+        "单次与多次结果",
+        "重复武将转化",
+        "资源不足"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "social",
+      "name": "同盟与社交",
+      "workingPages": [
+        "同盟入口",
+        "同盟概览与成员",
+        "集结或标记",
+        "聊天",
+        "邮件列表与详情",
+        "排行榜"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "economy",
+      "name": "内政",
+      "workingPages": [
+        "背包与奖励",
+        "资源交易或集市",
+        "国家事务",
+        "驻军管理"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "tasks",
+      "name": "任务与活动",
+      "workingPages": [
+        "任务列表",
+        "天下大势",
+        "奖励状态",
+        "签到与活动（启用时）"
+      ],
+      "scopeConfirmedByUser": false
+    },
+    {
+      "id": "system",
+      "name": "系统与引导",
+      "workingPages": [
+        "设置",
+        "帮助与规则",
+        "确认弹窗",
+        "断线失败与重试",
+        "城建引导",
+        "救民引导"
+      ],
+      "scopeConfirmedByUser": false
+    }
+  ],
+  "openSpecifications": [
+    "正式游戏名",
+    "首发五行原创角色与NPC名单",
+    "目标设备比例与最小字号",
+    "引擎与图集/导入格式",
+    "地图单位朝向和动画动作",
+    "战斗展示方式",
+    "首发启用模块与真实玩法数据"
+  ],
+  "notBlockedWork": [
+    "截图明确流程",
+    "统一无字皮肤与图标",
+    "五行原创角色身份稿",
+    "独立地图物件",
+    "通用兵种/旗帜/FX",
+    "PNG+JSON资源清单与预览"
+  ],
+  "existingUnresolvedIssues": [
+    {
+      "file": "designs/01-率土之滨/ui/02-world-trends-ui-v1.png",
+      "issue": "解锁内容旁的勾号存在已解锁误读",
+      "resolved": false
+    }
+  ],
+  "acceptanceColumns": [
+    "moduleId",
+    "screenId",
+    "assetId",
+    "type",
+    "state",
+    "file",
+    "nativeSize",
+    "exportSize",
+    "alphaMode",
+    "pivot",
+    "nineSlice",
+    "sourceRecord",
+    "reviewedAt",
+    "visualStatus",
+    "runtimeStatus",
+    "notes"
+  ],
+  "completionGates": [
+    "必需启用流程与状态逐项覆盖",
+    "独立资产真实alpha/尺寸/枢轴/拉伸参数合格",
+    "来源链与实际模型证据保真",
+    "角色/地图/兵种/FX独立成包",
+    "动态文字/状态/数值与位图分工明确",
+    "正式资源manifest和导入说明完整",
+    "目标客户端集成验收有实际证据"
+  ],
+  "document": "docs/FULL_GAME_ART_SCOPE.md",
+  "themeCorrection": {
+    "date": "2026-10-27",
+    "userTheme": "金木水火土",
+    "referenceRole": "率土之滨仅功能与布局参考",
+    "legacyStoragePath": "01-率土之滨",
+    "historicalRosterProposalWithdrawn": true,
+    "historicalCandidatesCountAsWuxingComplete": false,
+    "characterRosterStatus": "五行原创角色、人数与身份待定"
+  }
+}

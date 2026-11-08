@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/gao-shun-card-full.png",
+  "sha256": "0d5ecf6a0fdc6419d93f4b9fd8b6747d4a8ff60171e2f8a4512850f849489503",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png",
+    "sha256": "499cc544c1bb0010b4ae0bc970fb85f9126189dd2e41110f8c615387975fc649",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

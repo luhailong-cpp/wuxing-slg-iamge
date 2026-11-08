@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+  "sha256": "3de0f2c3fad9fe72ee84932806b5d9cb89df9332d0b79e49c722ea308ceee25d",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "04-fire",
+  "element": "fire",
+  "variant": "avatar-256",
+  "identityPreservedFromMaster": "red spiky tied hair, gold tie and flowing ribbons; red green ivory robe and paired flame implements in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "record": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "recordSha256": "5587ce0759dcfa73492fa2ed2338bac08ad69bba2916c02e31fcac2b87fa58e4"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    220,
+    65,
+    835,
+    575
+  ],
+  "resizeTo": [
+    224,
+    186
+  ],
+  "resizeScaleNominal": 0.3642276422764228,
+  "actualScaleXY": [
+    0.3642276422764228,
+    0.36470588235294116
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    256,
+    256
+  ],
+  "pasteOffsetTopLeft": [
+    16,
+    35,
+    240,
+    221
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    360,
+    305,
+    666,
+    535
+  ],
+  "faceRoiOutputApprox": [
+    66.99,
+    122.53,
+    178.45,
+    206.41
+  ],
+  "alphaInspection": {
+    "fullyTransparentPixels": 43234,
+    "alpha1PixelCount": 701,
+    "alphaSemiPixels": 21700,
+    "alphaOpaquePixels": 602,
+    "bboxAbove16": [
+      16,
+      43,
+      233,
+      221
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 701,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        220,
+        65,
+        835,
+        575
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

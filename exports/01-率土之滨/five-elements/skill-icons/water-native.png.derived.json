@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/five-elements/skill-icons/water-native.png",
+  "sha256": "2342f6b892c0aa6df036e5811394dd6fbf1cb1046234aa8e6886356f35187c61",
+  "derivedAtUtc": "2026-10-27T18:42:18.314162+00:00",
+  "width": 512,
+  "height": 512,
+  "format": "PNG",
+  "mode": "RGBA",
+  "operation": "manual_ownership_rectangle_crop",
+  "cropBox": [
+    1024,
+    0,
+    1536,
+    512
+  ],
+  "resampled": false,
+  "alphaModified": false,
+  "art_source": "existing",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png",
+      "sha256": "9b22889d597cb673c4cb1f423a2bbeb0d6974a916bb19453efebf4370edbeae9",
+      "record": "designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png.generation.json"
+    }
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "faintAlpha1Pixels": 4617,
+    "edgeAbove1": 0,
+    "edgeAbove16": 0,
+    "bboxAbove16": [
+      44,
+      79,
+      455,
+      481
+    ],
+    "marginAbove16": 31
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "candidate_skill_icon_pending_user_review"
+}

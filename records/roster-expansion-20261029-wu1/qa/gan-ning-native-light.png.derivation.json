@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/qa/gan-ning-native-light.png",
+  "sha256": "c60b8e8807e32e7d23211f31a60a1a31aff2bed437dd1df1947b7c206961e6e4",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "qaOnly": true,
+  "width": 1550,
+  "height": 1130,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png",
+      "sha256": "c2fb5d4d3ff4c47b2da5a7467faac5cb3fa005dc7e6b3f0fc06b446b8ff3c36f",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-bust-native.png",
+      "sha256": "20c33e090412c7d5f37f9845b1729bd14a49fb225e27a5fd1deb7e9475600844",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-bust-native.png.derivation.json"
+    }
+  ]
+}

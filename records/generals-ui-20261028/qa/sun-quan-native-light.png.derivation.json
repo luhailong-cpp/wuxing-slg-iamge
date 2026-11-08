@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/sun-quan-native-light.png",
+  "sha256": "53e026340193965a4711c82b016d87d5aa5c0fe31ccde122613361ff79672644",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1699,
+  "height": 1065,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-face-native.png",
+      "sha256": "5f835fa1cb608831422621dabeabe620fed81ed4b79a270bd87f5af571148b75",
+      "record": "exports/01-率土之滨/generals-ui-v1/sun-quan-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png",
+      "sha256": "7286b859d1e449f3903acf8c01d65b28201d1cdc17480903cd8d75d8d09c1c71",
+      "record": "exports/01-率土之滨/generals-ui-v1/sun-quan-bust-native.png.derivation.json"
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T13:18:08.758Z",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "scope": "水/火/土三系原创单张全身透明静态master候选；不含动画、头像、卡面或客户端集成。",
+  "toolRoute": "builtin image_gen.imagegen",
+  "skillApplied": "imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "工具返回image_url与output_hint，未披露实际模型或画质；配置gpt-image-2.5-sunburst/max仅为目标。",
+  "exactEvidence": "各图独立prompt、实际request、完整非二进制返回metadata和原生PNG均已归档。返回image_url像素以工具原生PNG保存，JSON避免重复嵌入base64。",
+  "preflight": "每次调用前重读AGENTS/config/policy并实际查看邮件/组队主参考；每次请求实际附两张文件路径，不使用历史角色作身份参考。",
+  "assets": [
+    {
+      "element": "水",
+      "candidateTitle": "沧澜使",
+      "stem": "03-water-envoy-v1",
+      "qa": "records/01-率土之滨/qa/five-elements-water-v1-light-dark.png",
+      "identityReview": "年轻女性，深蓝双辫、短斗篷、水纹实体环与小葫芦，蓝/米白/银配色；未使用历史人物为身份参考。",
+      "shapeReview": "双辫、环形法器、葫芦、双鞋完整，持物清楚；银边/玉绿细节延续主参考。",
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "prompt": "prompts/01-率土之滨/03-water-envoy-v1.prompt.txt",
+      "request": "records/01-率土之滨/03-water-envoy-v1.tool-request.json",
+      "response": "records/01-率土之滨/03-water-envoy-v1.tool-response.json",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "nativeMode": "RGBA",
+      "alpha": {
+        "stem": "03-water-envoy-v1",
+        "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+        "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 835988,
+        "semiTransparentPixels": 736876,
+        "opaque255Pixels": 0,
+        "alpha254Pixels": 561,
+        "alphaBboxThresholds": {
+          "0": [
+            0,
+            39,
+            1008,
+            1496
+          ],
+          "1": [
+            23,
+            85,
+            1006,
+            1482
+          ],
+          "16": [
+            25,
+            87,
+            1004,
+            1478
+          ],
+          "32": [
+            25,
+            88,
+            1003,
+            1477
+          ],
+          "128": [
+            25,
+            88,
+            1003,
+            1477
+          ],
+          "192": [
+            26,
+            88,
+            1002,
+            1476
+          ]
+        },
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 0,
+          "left": 1,
+          "right": 0
+        },
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "visibleFigureHeightFraction": 0.904296875,
+      "visibleMarginsAtAlpha128": {
+        "left": 25,
+        "top": 88,
+        "right": 21,
+        "bottom": 59
+      },
+      "referenceCount": 2,
+      "allReferencesActuallyAttached": true,
+      "nativePixelsPreserved": true,
+      "recoloredHistoricalCharacter": false,
+      "lightDarkVisualReview": "实际查看米白与深蓝灰背景的原生1:1 alpha合成，轮廓清楚，无可见大面积背景、白边、伪棋盘格或裁断主体。",
+      "meaningfulSilhouetteTouchesCanvas": false,
+      "marginTargetMet": false,
+      "status": "draft_pending_user_review_with_export_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0
+    },
+    {
+      "element": "火",
+      "candidateTitle": "焰翎使",
+      "stem": "04-fire-envoy-v1",
+      "qa": "records/01-率土之滨/qa/five-elements-fire-v1-light-dark.png",
+      "identityReview": "青年男性，赤棕蓬松短发与短束、活泼笑容、米白玉绿短袍、朱砂披肩、轻护腿与两枚实体火纹符牌；无历史长髯或长兵器。",
+      "shapeReview": "双手各持一符牌，衣摆和两鞋完整，动作清楚；发顶有短束，不能当成用户已确认发型。",
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "prompt": "prompts/01-率土之滨/04-fire-envoy-v1.prompt.txt",
+      "request": "records/01-率土之滨/04-fire-envoy-v1.tool-request.json",
+      "response": "records/01-率土之滨/04-fire-envoy-v1.tool-response.json",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "nativeMode": "RGBA",
+      "alpha": {
+        "stem": "04-fire-envoy-v1",
+        "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+        "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 864454,
+        "semiTransparentPixels": 708410,
+        "opaque255Pixels": 0,
+        "alpha254Pixels": 1075,
+        "alphaBboxThresholds": {
+          "0": [
+            0,
+            35,
+            1006,
+            1536
+          ],
+          "1": [
+            48,
+            86,
+            970,
+            1470
+          ],
+          "16": [
+            50,
+            88,
+            967,
+            1468
+          ],
+          "32": [
+            50,
+            88,
+            967,
+            1467
+          ],
+          "128": [
+            51,
+            89,
+            967,
+            1467
+          ],
+          "192": [
+            51,
+            89,
+            966,
+            1467
+          ]
+        },
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 1,
+          "right": 0
+        },
+        "cornerAlpha": [
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      "visibleFigureHeightFraction": 0.8971354166666666,
+      "visibleMarginsAtAlpha128": {
+        "left": 51,
+        "top": 89,
+        "right": 57,
+        "bottom": 69
+      },
+      "referenceCount": 2,
+      "allReferencesActuallyAttached": true,
+      "nativePixelsPreserved": true,
+      "recoloredHistoricalCharacter": false,
+      "lightDarkVisualReview": "实际查看米白与深蓝灰背景的原生1:1 alpha合成，轮廓清楚，无可见大面积背景、白边、伪棋盘格或裁断主体。",
+      "meaningfulSilhouetteTouchesCanvas": false,
+      "marginTargetMet": false,
+      "status": "draft_pending_user_review_with_export_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0
+    },
+    {
+      "element": "土",
+      "candidateTitle": "玄垣使",
+      "stem": "05-earth-envoy-v1",
+      "qa": "records/01-率土之滨/qa/five-elements-earth-v1-light-dark.png",
+      "identityReview": "成年女性，深色低发髻、宽圆面部与稳重微笑、暖赭/米白/玉绿宽袖短外套、方形山钮石印和护阵盾；独立于历史统帅或帝王装。",
+      "shapeReview": "低发髻、手托石印、盾牌及双鞋完整，较稳厚轮廓与水火区分。",
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "prompt": "prompts/01-率土之滨/05-earth-envoy-v1.prompt.txt",
+      "request": "records/01-率土之滨/05-earth-envoy-v1.tool-request.json",
+      "response": "records/01-率土之滨/05-earth-envoy-v1.tool-response.json",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "nativeMode": "RGBA",
+      "alpha": {
+        "stem": "05-earth-envoy-v1",
+        "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+        "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 867482,
+        "semiTransparentPixels": 705382,
+        "opaque255Pixels": 0,
+        "alpha254Pixels": 2137,
+        "alphaBboxThresholds": {
+          "0": [
+            0,
+            23,
+            1000,
+            1536
+          ],
+          "1": [
+            73,
+            174,
+            982,
+            1399
+          ],
+          "16": [
+            75,
+            176,
+            980,
+            1396
+          ],
+          "32": [
+            75,
+            176,
+            979,
+            1396
+          ],
+          "128": [
+            76,
+            177,
+            979,
+            1396
+          ],
+          "192": [
+            76,
+            177,
+            979,
+            1395
+          ]
+        },
+        "edgeMaxAlpha": {
+          "top": 0,
+          "bottom": 1,
+          "left": 1,
+          "right": 0
+        },
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "visibleFigureHeightFraction": 0.7936197916666666,
+      "visibleMarginsAtAlpha128": {
+        "left": 76,
+        "top": 177,
+        "right": 45,
+        "bottom": 140
+      },
+      "referenceCount": 2,
+      "allReferencesActuallyAttached": true,
+      "nativePixelsPreserved": true,
+      "recoloredHistoricalCharacter": false,
+      "lightDarkVisualReview": "实际查看米白与深蓝灰背景的原生1:1 alpha合成，轮廓清楚，无可见大面积背景、白边、伪棋盘格或裁断主体。",
+      "meaningfulSilhouetteTouchesCanvas": false,
+      "marginTargetMet": false,
+      "status": "draft_pending_user_review_with_export_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "animationFrames": 0
+    }
+  ],
+  "checks": {
+    "copiedByteForByteByFinalizeTool": true,
+    "allThreeNative1024x1536RGBA": true,
+    "allThreeSourceHashesMatchRecords": true,
+    "allThreeViewedOnLightAndDark": true,
+    "allMeaningfulSilhouettesInsideCanvas": true,
+    "noProgrammaticKeyingOrRetouching": true
+  },
+  "limitations": [
+    "三张构图均比提示要求更满，alpha>128主体高约90.4%/89.7%/79.4%，未达到约70%高度与上下15%/左右12%余边目标。后续导出合同确定后可另做有来源记录的透明加边派生；不能把本图标为余边合同通过。",
+    "水图左边及火/土图左边/底边有alpha=1低值像素。alpha>1、>16、>128轮廓均离开画布边，未发现实质主体裁切；本轮保留原生alpha，未程序去背或阈值抹除。",
+    "三张alpha范围0至254，没有255像素；真实透明背景已核实，原生主体alpha未强制归一。",
+    "称号、脸型、服装、年龄感、法器与正式采用均未获用户审阅确认。未称五个候选即完整首发角色或全游戏美术完成。"
+  ],
+  "status": "three_original_static_candidates_saved_pending_review_not_runtime_acceptance"
+}

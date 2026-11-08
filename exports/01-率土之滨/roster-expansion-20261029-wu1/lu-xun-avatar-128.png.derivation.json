@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-128.png",
+  "sha256": "6eef8c59d8cf51020716ecb13dc33eb3833845f5a4b7ee7fe4e4b67072c7c816",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "lu-xun",
+  "personID": "ww-p-91d823d76f0b",
+  "displayName": "陆逊",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png",
+      "sha256": "bac25ce9f9eda35f22f1eade3cd341aca10d180f19e51c3497cada279a3d3457",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png.generation.json",
+      "recordSha256": "08c72c6917bea7d03eabc61fb35700cf4f05738e9680d7ecb7f5de39ab4910b8"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    345,
+    55,
+    770,
+    585
+  ],
+  "resizeTo": [
+    90,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    19,
+    8,
+    109,
+    120
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    325,
+    665,
+    530
+  ],
+  "faceRoiOutputApprox": [
+    32.76,
+    65.06,
+    86.76,
+    108.38
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 9077,
+    "alpha1Pixels": 94,
+    "semiTransparentPixels": 7070,
+    "opaquePixels": 237,
+    "bboxAbove32": [
+      19,
+      9,
+      103,
+      120
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgePixelsAbove0": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      19,
+      9,
+      25,
+      8
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        50,
+        62,
+        43,
+        34
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 94,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "crop": [
+        345,
+        55,
+        770,
+        585
+      ],
+      "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

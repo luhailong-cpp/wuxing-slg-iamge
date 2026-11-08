@@ -1,0 +1,30 @@
+{
+    "mode": "source_build",
+    "unityVersion": "6000.6.0f1",
+    "error": "",
+    "file": "Assets/WuxingSLGContinuousGrass20261028/continuous-grass-plate-native.png",
+    "sha256": "63d2e1fa21528cbfd5bbcd9c2174b38609eaae5004036629b6d67d837e7f9e23",
+    "guid": "5a4253f086b11b94689937cfdafaad3e",
+    "packageHash": "1c7c8540bbf0e4271a9ddc1c41cff6c9fc8d5f013484087479c2d9e11516ad66",
+    "completedAt": "2026-10-28T08:51:01.7775860Z",
+    "passed": true,
+    "sourceHashMatches": true,
+    "importMatches": true,
+    "clientIntegrated": false,
+    "playModeTested": false,
+    "actualGPUCameraRender": false,
+    "seamlessTilingVerified": false,
+    "spriteCount": 1,
+    "prefabCount": 1,
+    "width": 1774,
+    "height": 887,
+    "pivot": {
+        "x": 887.0,
+        "y": 443.5
+    },
+    "notes": [
+        "One continuous native grass plate, not a seamless tile.3x3 visual seam test failed.",
+        "No city or troop pixels are copied into this package; they appear only in static QA composition.",
+        "No navigation, GPU, PlayMode or production-client integration claimed."
+    ]
+}

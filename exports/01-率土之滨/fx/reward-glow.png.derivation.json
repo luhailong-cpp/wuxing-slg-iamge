@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx/reward-glow.png",
+  "sha256": "bf17b7291b5c7f59d686a61fa5a89402e9bb668411bc606dce86d285bff10a5a",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 464,
+  "height": 432,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "route": "native_crop_from_existing_host_image",
+  "operation": "crop",
+  "cropBox": [
+    1310,
+    455,
+    1774,
+    887
+  ],
+  "cropBoxConvention": "left,top,right,bottom; right/bottom exclusive",
+  "ownershipMethod": "manually inspected individual subject and transparent gutters, not equal-grid splitting",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png",
+    "sha256": "7d581df81399fb7e71e4cd5d142ebbb9296e0936a7a8fabc1c6ea56aeac0904d",
+    "generationRecord": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png.generation.json",
+    "sourceNativeSize": [
+      1774,
+      887
+    ],
+    "generatedAt": null,
+    "originalReceiptEvidenceGapPreserved": true
+  },
+  "resampled": false,
+  "repainted": false,
+  "rekeyed": false,
+  "pixelIdentityAgainstSourceCrop": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "fullyTransparentPixelCount": 74565,
+    "alpha1PixelCount": 45678,
+    "semiTransparentPixelCount": 125883,
+    "opaquePixelCount": 0,
+    "contentBoxAlphaAbove1": [
+      60,
+      30,
+      420,
+      380
+    ],
+    "edgeMaxAlpha": {
+      "top": 1,
+      "bottom": 1,
+      "left": 1,
+      "right": 1
+    },
+    "edgePixelsAlphaAbove1": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "contentMarginsAlphaAbove1": {
+      "left": 60,
+      "top": 30,
+      "right": 44,
+      "bottom": 52
+    },
+    "alphaEdited": false
+  },
+  "anchor_px": [
+    240.0,
+    380
+  ],
+  "anchorNormalized": [
+    0.5172413793103449,
+    0.8796296296296297
+  ],
+  "anchorMethod": "bottom_center_of_alpha_above_1_content_box; provisional map placement anchor",
+  "static": true,
+  "animationFrameCount": 0,
+  "animations": [],
+  "qa": {
+    "cropIntegrity": "pass",
+    "significantAlphaThreshold": 1,
+    "minimumSignificantContentMarginPx": 8,
+    "visibleAdjacentSubject": false,
+    "subjectContoursComplete": true,
+    "lightDarkBackgroundVisualReview": "pass_for_static_candidate",
+    "visualReviewBackgroundsRGB": [
+      [
+        245,
+        241,
+        230
+      ],
+      [
+        28,
+        38,
+        44
+      ]
+    ],
+    "warnings": [
+      {
+        "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+        "value": 45678,
+        "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+        "file": "exports/01-率土之滨/fx/reward-glow.png",
+        "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+      }
+    ]
+  },
+  "status": "native_static_crop_candidate_pending_user_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false
+}

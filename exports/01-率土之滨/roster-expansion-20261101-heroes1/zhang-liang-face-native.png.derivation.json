@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/zhang-liang-face-native.png",
+  "sha256": "1cf9ab4a5c4d176d5e579539107e46f36bbcf97645c08fde30fe23da0d9fcee4",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png",
+    "sha256": "8b38493997a3c1b23735e448be1ba3888145270f4bfed3d97013bf8b3589f062",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      310,
+      255,
+      835,
+      800
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

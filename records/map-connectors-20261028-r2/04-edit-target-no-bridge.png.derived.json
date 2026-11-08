@@ -1,0 +1,21 @@
+{
+  "file": "records/map-connectors-20261028-r2/04-edit-target-no-bridge.png",
+  "sha256": "9c3274c38ff4d2f51af3a6e1b553a172c7278cf889212def6b068e6197a80b2b",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/01-crossing-underlay-v1.png",
+      "sha256": "cc435d46bb6e8b2fc96256b7cbdfa9822276656ae92cf01a6c31337ad1c657a5"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-connectors-20261028-r2/03-riverbank-extension-v1.png",
+      "sha256": "e45832db8e3c8a993ca71f2502e78a235e4c62dfd57afbae176e525feac1ba1e"
+    }
+  ],
+  "operation": "reference-only source assembly; ground at[500,400]; river display1427×893 at[1439,63]; bridge excluded; guide adds diagnostic rectangle/text only",
+  "canvas": [
+    3000,
+    1700
+  ],
+  "nativeArt": false,
+  "finalDeliverable": false
+}

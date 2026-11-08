@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-05.png",
+  "sha256": "399769806818a22b4d2f7c64c7313b4bad31b816401e22c4bc5d4f2a732c3a73",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+    "sha256": "db25ce0390d3168d449a5f4bd00cc5a7cf4acb73f5560adcc49c05c743c709b3",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png.generation.json"
+  },
+  "cropBox": [
+    480,
+    444,
+    887,
+    887
+  ],
+  "sourceAnchorPxGlobal": [
+    670,
+    647
+  ],
+  "sourceAnchorPxWithinCrop": [
+    190,
+    203
+  ],
+  "pasteOffset": [
+    260,
+    247
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "zeroPixels": 706983,
+    "alpha1Pixels": 23881,
+    "semiTransparentPixels": 103017,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      279,
+      286,
+      630,
+      593
+    ],
+    "bboxAbove16": [
+      299,
+      312,
+      611,
+      571
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 253
+  },
+  "phase": "contracting star and thinning orbit",
+  "timing": {
+    "startSeconds": 0.5,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

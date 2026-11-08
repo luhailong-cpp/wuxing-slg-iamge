@@ -1,0 +1,21 @@
+{
+  "file": "records/troop-frames-20261029-r3-water/water-ground-defeat-dark-aligned.png",
+  "sha256": "f568de9ca429893d13199a5c6c6f359424e190ae8d9229a32def7d9c980231e8",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "QA-only contact/helmet/grid/grounding preview",
+    "notRuntimeAsset": true,
+    "registrationInput": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "scripts": [
+      "work/troop-frames-20261029-r3-water/measure.py",
+      "work/troop-frames-20261029-r3-water/review_sources.py",
+      "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py"
+    ]
+  }
+}

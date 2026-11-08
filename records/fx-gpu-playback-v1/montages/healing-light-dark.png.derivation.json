@@ -1,0 +1,111 @@
+{
+  "operation": "QA montage of10 actual GPU captures, 8 observed phases + caller clear + late clear; no source sprite rendering or hand frame assignment",
+  "derivedFrom": [
+    {
+      "file": "records/fx-gpu-playback-v1/actual-playmode-capture.json",
+      "sha256": "8dabc0933bd4f698282aceaa14c08b63e3d33d589af681d8af2421e87f7480f1"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-gpu-playback-v1/Runtime/WuxingFxGpuPlaybackDemo.cs",
+      "sha256": "5a3ba5ead4c20e53693fa396c0af3c4b8edd281490b890aa692c10556d40e36a"
+    },
+    {
+      "file": "exports/01-率土之滨/fx-animation/healing-light/manifest.json",
+      "sha256": "b0332b5fc9f97ded72536ff27bf839c39c6b710b6c48be3f05e9b7fdfb7d5720"
+    }
+  ],
+  "displayScale": 0.5,
+  "resizeMethod": "LANCZOS of opaque GPU captures only",
+  "labels": "Actual source game elapsed, not invented phase key times",
+  "localRawInputs": [
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0000.png",
+      "sha256": "b6734bd4fc514f7a87049b3dca5540e0def5f5b4b6fa26d4e640c410ff8dd58c",
+      "published": false,
+      "captureOrdinal": 0,
+      "observedFrameIndex": 0,
+      "gameElapsedSeconds": 0.01666666753590107
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0005.png",
+      "sha256": "672051eba56d01218663cc982e8434d2b3ea2071dfa710229d562f69f0f4658f",
+      "published": false,
+      "captureOrdinal": 5,
+      "observedFrameIndex": 1,
+      "gameElapsedSeconds": 0.10000000086923441
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0012.png",
+      "sha256": "bd6319851b240555482626b3babae17a0ec5cd2c999f208e9d91921ee6ab1581",
+      "published": false,
+      "captureOrdinal": 12,
+      "observedFrameIndex": 2,
+      "gameElapsedSeconds": 0.21666666753590108
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0017.png",
+      "sha256": "b2fcdfb4f5bedce330444ff2de905ead19d4706fa137684f012c5a6f72634959",
+      "published": false,
+      "captureOrdinal": 17,
+      "observedFrameIndex": 3,
+      "gameElapsedSeconds": 0.3000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0023.png",
+      "sha256": "8c0f7d94146f59a108e244363029215f4b2058f3b78b0c8381efbaac30578ba5",
+      "published": false,
+      "captureOrdinal": 23,
+      "observedFrameIndex": 4,
+      "gameElapsedSeconds": 0.4000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0029.png",
+      "sha256": "cccb4d37d0c012421732429a9833842c8574a4b6ac81cd8ef3e66ba8b604e30e",
+      "published": false,
+      "captureOrdinal": 29,
+      "observedFrameIndex": 5,
+      "gameElapsedSeconds": 0.5000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0036.png",
+      "sha256": "7d9ee12f43986dd58ad5df1d8a6d7005b027e83773fee1ab952b03e1aa779c2c",
+      "published": false,
+      "captureOrdinal": 36,
+      "observedFrameIndex": 6,
+      "gameElapsedSeconds": 0.616666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0042.png",
+      "sha256": "020b882cddef516f604db17d967335f1db794de466868cd2bd437d01342fa32a",
+      "published": false,
+      "captureOrdinal": 42,
+      "observedFrameIndex": 7,
+      "gameElapsedSeconds": 0.716666667535901
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0047.png",
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "published": false,
+      "captureOrdinal": 47,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 0.8000000008692344
+    },
+    {
+      "file": "work/unity-fx-gpu-playback-v1-20261027/CaptureRaw/healing-light/dark/frame-0059.png",
+      "sha256": "83ff20174ec85109bff9dd5ad98fe1fe45c0d5aa50442987f3de7ef7b753e084",
+      "published": false,
+      "captureOrdinal": 59,
+      "observedFrameIndex": -1,
+      "gameElapsedSeconds": 1.0000000008692342
+    }
+  ],
+  "schemaVersion": 1,
+  "file": "records/fx-gpu-playback-v1/montages/healing-light-dark.png",
+  "sha256": "0221b11a8f6379168470f747f0cea75292dfeedfda9417daa9ac822ea770abd3",
+  "createdAtUtc": "2026-10-27T19:08:15.427183+00:00",
+  "qaOnly": true,
+  "art_source": "existing",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalSmoothnessApproved": false
+}

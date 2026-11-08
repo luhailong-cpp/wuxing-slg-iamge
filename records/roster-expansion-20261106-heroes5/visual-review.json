@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "reviewedAtUtc": "2026-11-06T10:36:52.528941+00:00",
+  "ids": [
+    "huangfu-song",
+    "sun-yu"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261106-heroes5/generals-ui-light.png",
+      "sha256": "2d57489d366387c4b7d18497c5ae4e97e9cdfec2bf1e474d51812c1538dbc6b0"
+    },
+    {
+      "file": "records/roster-expansion-20261106-heroes5/generals-ui-dark.png",
+      "sha256": "254f2853fa29f38658c81c2b2b83cd15e6469ec5fc5a72218de1361e534b5c13"
+    }
+  ],
+  "scope": "Internal visual QA of original transparent figures and card, bust, and face assets. No user or client acceptance implied.",
+  "notes": [
+    "Huangfu Song full-body card retains boots and complete pennon. Avatar shows helmet and face; lower bust and pennon are intentionally outside this crop.",
+    "Sun Yu full-body card retains boots and bamboo slips. Avatar shows entire face and main cap with intentional crop of ribbon tips.",
+    "Light and dark sheets show clean visible silhouettes. Native low alpha, peak alpha and margin advisories remain in the export manifest."
+  ]
+}

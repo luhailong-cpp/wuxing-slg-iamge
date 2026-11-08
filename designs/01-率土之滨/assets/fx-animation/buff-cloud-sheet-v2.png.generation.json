@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v2.png",
+  "sha256": "a06c49387dc2bad33524722a483e22565c85f0239b627f7ed0b569055bc231da",
+  "generatedAt": "2026-10-27T16:37:13.155Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T16:36:32.649Z",
+  "width": 1774,
+  "height": 887,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/buff-cloud.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/fx-animation-guides/layout-4x2-50pct.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/buff-cloud-sheet-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，实际模型/画质未披露。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/buff-cloud-sheet-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/buff-cloud-sheet-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-cff0-7880-8ecb-55d72d7f468d/exec-b3bead77-627a-4dda-8afe-a7b4528f87ff.png",
+      "sha256": "a06c49387dc2bad33524722a483e22565c85f0239b627f7ed0b569055bc231da",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/buff-cloud-sheet-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件画风",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队画风",
+      "actuallyAttached": true
+    },
+    {
+      "file": "exports/01-率土之滨/fx/buff-cloud.png",
+      "sha256": "b03d95ae5129b021ac02d876bf3076c537496a3f08a472eed93f77ab33c0ed90",
+      "role": "buff-cloud原型",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v1.png",
+      "sha256": "ffe23ff691d6ddca90d8733497479cd987135282a2af46938d55c5d618a3a141",
+      "role": "v1待修订母表",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v1.png.generation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation-guides/layout-4x2-50pct.png",
+      "sha256": "5b12b48d53b9825d35c6053425be32ac410ac9ebcc9ffa7620ad73695420e67c",
+      "role": "几何布局guide",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 1219494,
+    "semiTransparentPixelCount": 354044,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "buff-cloud八帧母表v2 AI间距修订候选，待逐格QA",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T16:43:51.319403+00:00"
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/mail-native.png",
+  "sha256": "4f9935d0c53aca571f1e2a008a69f885a1951c4609e6da7d2d186d8dfdea8fa8",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 290,
+  "height": 229,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "transform": {
+    "cropBox": [
+      644,
+      983,
+      934,
+      1212
+    ],
+    "resampled": false,
+    "scale": 1,
+    "padding": null
+  },
+  "manualOwnership": {
+    "id": "mail",
+    "label": "邮件",
+    "manualCropBox": [
+      644,
+      983,
+      934,
+      1212
+    ],
+    "sourceComponentIdAbove16": 15,
+    "sourceComponentPixelsAbove16": 39597,
+    "nativeSize": [
+      290,
+      229
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 22021,
+      "alpha1Pixels": 3075,
+      "semiTransparentPixels": 44260,
+      "opaquePixels": 129,
+      "pixelsAbove16": 39597,
+      "bboxAbove16": [
+        14,
+        12,
+        275,
+        214
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": true,
+  "alphaCleanupApplied": false,
+  "alphaResampled": false,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 22021,
+    "alpha1Pixels": 3075,
+    "semiTransparentPixels": 44260,
+    "opaquePixels": 129,
+    "pixelsAbove16": 39597,
+    "bboxAbove16": [
+      14,
+      12,
+      275,
+      214
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 3075,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

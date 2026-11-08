@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+  "sha256": "28aaf6f82a4648cdca82e245a81851f0323a336f0e5e5b699c76e95f2e87eb65",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 320,
+  "height": 285,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+      "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+      "record": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+    }
+  ],
+  "operation": "native_recrop_corrected_row_ownership",
+  "cropBox": [
+    15,
+    640,
+    335,
+    925
+  ],
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": false,
+  "previousExport": "exports/01-率土之滨/runtime-ui/icon-attack.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/icon-attack.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 36845,
+    "alpha1PixelCount": 9356,
+    "bboxAbove16": [
+      24,
+      21,
+      300,
+      282
+    ],
+    "visibleMarginsAbove16": [
+      24,
+      21,
+      20,
+      3
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      1,
+      3,
+      0,
+      1
+    ],
+    "sourceCropEdgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 9356,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        21,
+        20,
+        3
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

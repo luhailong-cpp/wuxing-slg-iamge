@@ -1,0 +1,85 @@
+{
+  "schema": "wuxing.map-connectors.r2.v1",
+  "targetCanvas": [
+    1600,
+    1200
+  ],
+  "origin": "top-left",
+  "camera": "orthographic2:1 isometric matching existing bridge NW-SE axis",
+  "sourceBridgeCanvas": [
+    1000,
+    1000
+  ],
+  "sourceBridgePlacement": [
+    300,
+    45
+  ],
+  "sourceBridgeScale": 1,
+  "terrainDiamond": [
+    [
+      80,
+      650
+    ],
+    [
+      800,
+      290
+    ],
+    [
+      1520,
+      650
+    ],
+    [
+      800,
+      1010
+    ]
+  ],
+  "basisU": [
+    800,
+    400
+  ],
+  "basisV": [
+    800,
+    -400
+  ],
+  "riverAxis": "NE-SW",
+  "riverBandU": [
+    -0.17,
+    0.17
+  ],
+  "extentV": [
+    -0.45,
+    0.45
+  ],
+  "roadNWCenterline": [
+    [
+      440,
+      470
+    ],
+    [
+      656,
+      578
+    ]
+  ],
+  "roadSECenterline": [
+    [
+      944,
+      722
+    ],
+    [
+      1160,
+      830
+    ]
+  ],
+  "roadHalfWidthV": 0.08,
+  "groundLayerOrder": 0,
+  "bridgeBackOrder": 1,
+  "actorOrder": 2,
+  "bridgeFrontOrder": 3,
+  "purpose": "Generate native grass/river/banks with two stone approaches; bridge excluded from painted underlay",
+  "guidanceOnly": true,
+  "exactAlignmentGuaranteed": false,
+  "navigationTested": false,
+  "clientIntegrated": false,
+  "heavyLocalPause": true,
+  "maxNewImages": 3
+}

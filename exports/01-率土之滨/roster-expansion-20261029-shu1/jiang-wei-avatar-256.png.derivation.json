@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-avatar-256.png",
+  "sha256": "0d176260872c98b29026869d760081191907fb0301aa0b644bb8034c8276258c",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "jiang-wei",
+  "displayName": "姜维",
+  "variant": "avatar-256",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png",
+      "sha256": "853a50ac3a2ec9a6ac8028eb23b3ff67434c9294e40af241e144ca2efadd5b18",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png.generation.json",
+      "recordSha256": "282ccf29ab321c7721355bd04523b3e1febce4d284a5bc7b55413e645f321492"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    320,
+    130,
+    710,
+    570
+  ],
+  "resizeTo": [
+    199,
+    224
+  ],
+  "pasteOffsetTopLeft": [
+    28,
+    16,
+    227,
+    240
+  ],
+  "canvas": [
+    256,
+    256
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    400,
+    355,
+    630,
+    535
+  ],
+  "faceRoiOutputApprox": [
+    68.82,
+    130.55,
+    186.18,
+    222.18
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 35292,
+    "alpha1Pixels": 941,
+    "opaquePixels": 229,
+    "bboxAbove32": [
+      28,
+      20,
+      220,
+      240
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      28,
+      20,
+      36,
+      16
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": true,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 17717,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        38,
+        101,
+        16,
+        74
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

@@ -1,0 +1,60 @@
+{
+  "browser": "Google Chrome via Playwright",
+  "views": [
+    {
+      "view": "plate",
+      "pressed": "true",
+      "natural": [
+        1774,
+        887
+      ],
+      "text": "单张原生底板：未缩放导出、未编辑 alpha，可承接一个区域的建筑与单位。"
+    },
+    {
+      "view": "context",
+      "pressed": "true",
+      "natural": [
+        1774,
+        887
+      ],
+      "text": "静态脚点示例：复用主城原像素；金兵仅缩小到 100 × 100 用于比例诊断，不能作为动作验收。"
+    },
+    {
+      "view": "seams",
+      "pressed": "true",
+      "natural": [
+        1600,
+        800
+      ],
+      "text": "FAIL：重复 3 × 3 后存在可见接缝。采样内部 1,440 像素 alpha ≤ 16；此证据固定使用深底。"
+    },
+    {
+      "view": "debug",
+      "pressed": "true",
+      "natural": [
+        1600,
+        800
+      ],
+      "text": "FAIL 证据：红色只标记内部 alpha ≤ 16 的位置。缩略图为检查视图，红色不是美术素材。"
+    }
+  ],
+  "viewportChecks": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 960,
+      "height": 600,
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "files": [
+    "browser-preview-1440.png",
+    "browser-preview-960.png"
+  ],
+  "measuredAt": "2026-10-28T08:52:37.496Z"
+}

@@ -1,0 +1,53 @@
+{
+  "startedAt": "2026-11-06T11:13:32.353Z",
+  "clientDate": "2026-11-06",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "tool": "image_gen.imagegen",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-master-v3.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original full-body portrait for a Three Kingdoms strategy game: historical identity 宋谦. Use both reference images solely for polished Daoist chibi proportions and hand-painted art language. Oversized expressive head, compact legs, rounded clear silhouette, soft shaded textiles, warm brushed metal and restrained jade. Alert wiry Eastern Wu field officer, lean jaw, warm narrow eyes, tiny dark chin beard. Rustic umber lacquer lamellar, small slate-blue scarf, short wrapped black hair without tall helmet. Holds one short spear diagonal by his side with both ends visible. Feet planted and a compact silhouette. Three-quarter pose, both feet grounded. Fit the entire character inside the middle 75% width and 82% height, clear air around every edge and prop. Face readable at icon size. Portrait 2:3, real transparent alpha. The entire outside of the clean hard-edged silhouette is fully transparent (alpha zero). No halo, ambient glow, gradients, shadows, matte, or ground contact. No stage, border, text, UI, other figures or copy of the reference poses.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "song-qian",
+    "name": "宋谦",
+    "personID": "ww-p-a19f8ad4b7fa",
+    "cardIDs": [
+      100241
+    ],
+    "source": "https://zh.wikisource.org/wiki/三國志/卷47",
+    "identityEvidence": "Eastern Wu officer, also attested at Yiling in vol. 58"
+  },
+  "retryOf": "records/roster-expansion-20261106-heroes5/song-qian-master-v2.request.json"
+}

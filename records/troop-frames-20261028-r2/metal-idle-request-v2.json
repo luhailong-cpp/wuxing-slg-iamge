@@ -1,0 +1,74 @@
+{
+  "preparedAt": "2026-10-29T03:27:37.668Z",
+  "status": "prepared_revision",
+  "action": "idle",
+  "direction": "SE",
+  "frames": 4,
+  "grid": {
+    "columns": 2,
+    "rows": 2,
+    "requestedCell": [
+      512,
+      512
+    ]
+  },
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "promptFile": "prompts/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261028-r2/metal-idle-layout.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ]
+  },
+  "references": [
+    {
+      "path": "records/troop-frames-20261028-r2/metal-idle-layout.png",
+      "sha256": "fc272de91826c4f2dd93e5f9ab0b9c2c8aeaccd144b1d7c7a4e69ff483a163b4",
+      "purpose": "derived geometry-only layout; not new art or animation",
+      "actuallyViewed": true
+    },
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "purpose": "candidate identity master; userApproved false",
+      "actuallyViewed": true
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "purpose": "main style reference",
+      "actuallyViewed": true
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "purpose": "main style reference",
+      "actuallyViewed": true
+    }
+  ],
+  "masterUserApproved": false,
+  "output": "designs/01-率土之滨/troop-frames-20261028-r2/metal-idle-se-v2.png",
+  "revisionOf": "records/troop-frames-20261028-r2/metal-idle-v1.generation.json",
+  "revisionAttemptForGeometry": 1,
+  "referencePriorityChange": "geometry layout now first; failed native sheet not attached"
+}

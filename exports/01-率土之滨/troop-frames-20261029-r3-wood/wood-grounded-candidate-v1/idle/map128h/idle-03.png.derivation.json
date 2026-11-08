@@ -1,0 +1,53 @@
+{
+  "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/idle/map128h/idle-03.png",
+  "sha256": "fe9971fdb70c57432f29091e9260870f1d4e7d755454c451be3bc1bac3ef228e",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-idle-se-v1.png",
+      "sha256": "84ab3c81d719a3f0083d70dad1c999bfa7b134019e72a5591a02d9599a59bb20",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-idle-se-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "derived_animation_frame",
+    "tier": "map128h",
+    "sourceRectXYXYExclusive": [
+      0,
+      650,
+      627,
+      1254
+    ],
+    "originalAlphaDeleted": false,
+    "nativeRGBAExact": false,
+    "nativeTranslation": [
+      128,
+      221
+    ],
+    "actionUniformScale": 0.583732057416268,
+    "normalizedTranslation": [
+      288,
+      449
+    ],
+    "mapScale": 0.375,
+    "resampler": "premultiplied Lanczos",
+    "root": [
+      192,
+      288
+    ],
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ]
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-wood/wood-ground-measured.json",
+    "sha256": "5ceab3b8ac48c4ae5dd0c25095e7aeca7a90c5c6cc98f75a4da59f1e8e2f1552"
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "notNativeGeneration": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

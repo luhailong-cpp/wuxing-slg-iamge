@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/cai-wen-ji-bust-native.png",
+  "sha256": "ff7dcb9db84f51839797fb8eddfb2d0a50b8ca88a0fbac51ee3be632bec8ee6f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+    "sha256": "8fdded956c858a7d4a38ca3c56d6f00de9b4f1fea03598041b41cb9ec7e12e69",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "executionCellId": "15",
+  "callStartedAt": "2026-10-26T17:02:07.779Z",
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: 完整单角色全身静态master原画，可用于道家Q版SLG武将立绘/剧情对话；不是动作表，不是UI。\nArt direction: 首要附图1邮件、附图2组队是已经确认的道家Q版高清手绘风格：大头短身，圆润脸型与清楚表情，细腻柔和手绘明暗，玉绿青绿、象牙米白、暖金细边与少量朱砂点缀，金玉材质适度，线条和边缘清楚，高清但干净。承接其中的手绘角色完成度，而不复制人物的同一张脸，不画成写实人物或塑料3D玩具。服饰有精细但克制的层次。\nCanvas/framing: 仅一位人物，全身，竖幅约2:3；自然站立的三分之二微侧朝观者，面部正面可识别、目光面向观者。人物整体为约2.8至3头身，成年身份感保留。头顶和最低点分别距画布边缘至少9%，左右衣饰与武器距边缘至少8%；完整头发、发冠、双手、双脚、鞋、衣摆和全部持物都在画布内，安全余边充足。主体大小与在制同类角色协调，避免长武器顶住边缘。\nLighting: 柔和明亮中性日光，面部清楚，手绘体积与细节清楚，有干净外轮廓。人物实体与服饰/武器保持实色，不将主体画成半透明光雾。\nBackground: 真正透明背景，干净真实alpha；仅人物及随身装备，无地面、无底座、无环境、无投影底盘、无白底、无渐变布景、无画进像素的棋盘格。\nText: 无任何文字、姓名、字母、数字、logo、水印、UI、边框、卡牌框、签名或示意标注。\nConstraints: 单人物、正确双手和手指持物关系，不额外增加人物/宠物；没有sheet、没有多视图、没有动作分格、没有穿插到画布外的兵器。保持与邮件和组队主参考一致的道家Q版高清手绘。\n\nIdentity: 原创成年女性引导助手，二十岁左右气质，名字未定，聪慧亲切，圆润而稍长的鹅蛋脸，明亮棕黑眼、自然笑容，脸型不同于现有女角色模板。长黑直发，头顶较小环髻与半束发，两侧直顺发丝，少量红绳与玉珠发饰、额上细玉饰；不画过大的王冠。服装保留用户截图的红白衣装身份：朱红交领上衣与外披、象牙白长袖和层叠裙、深玉绿宽腰带、暖金细边与玉佩细链，材质轻盈，成年比例约2.8至3头身，端庄不暴露。右手持一把完整白绢宫扇/长柄团扇，扇面仅淡淡云纹，无文字；左手自然向观者作温和引导姿势。双手清楚，长袖与裙摆完整，鞋尖和双足完整露出。\nReference role: 附图3/4用户新手截图的女助手只提供引导职责、黑直发、红白衣、玉饰和持扇身份特征，不复制写实人脸或写实身材，不画教程文字框、任务UI、手指箭头、战场背景。服装转为两张主图同系列的圆润高清手绘。",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg"
+    ],
+    "transparent_background": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T12:05:35.271Z",
+  "reviewMode": "actual visual inspection of returned full native images; no Unity, OCR, or automatic pixel-equivalence claim",
+  "items": [
+    {
+      "screenId": 25,
+      "selectedFile": "designs/01-率土之滨/ui/qa-correction-20261028/25-wuxing-wending-login-server-ui-v2.png",
+      "sha256": "964c0cf217f1c1de6cb2ff31a13ab4e9e1a07d525b40ed67dcf67eb97f368e8b",
+      "nativeSize": [
+        1915,
+        821
+      ],
+      "generationRecord": "designs/01-率土之滨/ui/qa-correction-20261028/25-wuxing-wending-login-server-ui-v2.png.generation.json",
+      "status": "corrected_direction_candidate",
+      "actuallyViewed": true,
+      "findings": [
+        "五行问鼎四字清楚；空标题已替换成新logo风格",
+        "启程面板、三服务器/首服选中/第三服维护和开始游戏等布局保留",
+        "原引导孩童与宠物保留为引导装饰，不是五系武将"
+      ],
+      "limitations": [
+        "AI重绘方向稿，标题为烘焙像素，不声称与独立logo完全逐像素一致",
+        "正式登录/协议/服务器业务未接入，未做设备与安全区验收"
+      ],
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false
+    },
+    {
+      "screenId": 22,
+      "selectedFile": "designs/01-率土之滨/ui/qa-correction-20261028/22-rescue-camp-copy-ui-v2.png",
+      "sha256": "6bbc5224e39df774513cab82f90ed0bae92c690903156e166137bd1d6837f83e",
+      "nativeSize": [
+        1914,
+        822
+      ],
+      "generationRecord": "designs/01-率土之滨/ui/qa-correction-20261028/22-rescue-camp-copy-ui-v2.png.generation.json",
+      "status": "corrected_direction_candidate",
+      "actuallyViewed": true,
+      "findings": [
+        "对白已改为沿此路线前进，避开流寇营地。",
+        "救出百姓0/1、流寇营地/残破仓库、前往救援按钮保留",
+        "红色营地与绿色绕行路线的关系目视保留"
+      ],
+      "limitations": [
+        "只修指代；通用地图兵士与骑乘引导单位尚待五行兵视觉映射",
+        "路线为画面表达，未验证可达性、碰撞、寻路或实际游戏流程"
+      ],
+      "userApproved": false,
+      "clientIntegrated": false,
+      "fullStateCoverage": false
+    }
+  ],
+  "fullGameArtComplete": false
+}

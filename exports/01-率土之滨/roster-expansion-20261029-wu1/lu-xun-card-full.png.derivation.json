@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-card-full.png",
+  "sha256": "c0556a8a02926a271ecde13ecb9bf109f79a03b299095978dfd2fcba543e8037",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "lu-xun",
+  "personID": "ww-p-91d823d76f0b",
+  "displayName": "陆逊",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png",
+      "sha256": "bac25ce9f9eda35f22f1eade3cd341aca10d180f19e51c3497cada279a3d3457",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png.generation.json",
+      "recordSha256": "08c72c6917bea7d03eabc61fb35700cf4f05738e9680d7ecb7f5de39ab4910b8"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    325,
+    665,
+    530
+  ],
+  "faceRoiOutputApprox": [
+    313.88,
+    271.44,
+    489.19,
+    412.38
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 482680,
+    "alpha1Pixels": 6657,
+    "semiTransparentPixels": 400857,
+    "opaquePixels": 1199,
+    "bboxAbove32": [
+      66,
+      91,
+      707,
+      1081
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgePixelsAbove0": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      66,
+      91,
+      61,
+      71
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        50,
+        62,
+        43,
+        34
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 6657,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-28T11:45:15.176Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: precise-object-edit / text-localization.\nImage 1 is the current rescue tutorial screenshot to edit; images 2 and 3 are required visual style references only.\nMake a single targeted Chinese copy correction in the large bottom dialogue panel: replace the existing sentence “沿此路线前进，避开城中守军。” with exactly “沿此路线前进，避开流寇营地。”.\nDo not change anything else intentionally. Preserve all map positions and scale, green dashed route and arrow directions, red forbidden camp tile, top-left “救出百姓 (0/1)”, the map labels “流寇营地” and “残破仓库”, the top-right help and close buttons, the guide woman's identity/outfit/pose, and bottom-right “前往救援” button. Preserve the original landscape canvas and refined jade/ivory/gold Taoist chibi hand painting. No new title, no extra text, no reframed map, no new tactical relationships or altered troop labels. The corrected sentence must be clear and completely readable at normal screen size.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": false
+  }
+}

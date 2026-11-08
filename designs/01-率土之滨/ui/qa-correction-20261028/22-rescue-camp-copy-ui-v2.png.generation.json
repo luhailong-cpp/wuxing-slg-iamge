@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/qa-correction-20261028/22-rescue-camp-copy-ui-v2.png",
+  "sha256": "6bbc5224e39df774513cab82f90ed0bae92c690903156e166137bd1d6837f83e",
+  "generatedAt": "2026-10-28T11:56:16.000Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-28T11:45:15.176Z",
+  "width": 1914,
+  "height": 822,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/qa-correction-20261028/22-rescue-camp-copy-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/qa-correction-20261028/22-rescue-camp-copy-ui-v2.request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/qa-correction-20261028/22-rescue-camp-copy-ui-v2.response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-ec302d2d-389b-4ac8-9396-d888f029ce60.png",
+      "sha256": "6bbc5224e39df774513cab82f90ed0bae92c690903156e166137bd1d6837f83e",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/qa-correction-20261028/22-rescue-camp-copy-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+      "sha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+      "role": "待改救援整屏，局部文案编辑目标",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png.generation.json"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "已确认邮件风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "已确认组队风格主参考",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "22-rescue-camp-copy-ui-v2",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-28T12:03:59.359026+00:00"
+}

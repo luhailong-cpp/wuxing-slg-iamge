@@ -1,0 +1,26 @@
+{
+  "checkedAtUtc": "2026-11-02T12:04:45.897656+00:00",
+  "sourceMasterCount": 12,
+  "uiDerivativeCount": 60,
+  "rootVisualReviewPassed": true,
+  "userFinalAccepted": false,
+  "views": [
+    {
+      "file": "records/roster-expansion-20261102-heroes2/twelve-generals-ui-light.png",
+      "sha256": "e7fd73216b47262f26ea65acd9a28729d40408a0de121c85b99f33da2813d989"
+    },
+    {
+      "file": "records/roster-expansion-20261102-heroes2/twelve-generals-ui-dark.png",
+      "sha256": "5e73dac15da64aa895508e2d34bb68f5005a2850999ce98a3c46408d2ca0cd64"
+    }
+  ],
+  "corrections": [
+    "cheng-pu, zhang-he and wen-yang face crop windows exclude disconnected weapon edge fragments"
+  ],
+  "notes": [
+    "Native alpha, alpha1 and max254 retained without thresholding; all source/derivation hashes checked.",
+    "Twelve complete identities remain candidates; official card variants and full roster are incomplete."
+  ],
+  "manifestSha256": "12c628a2ed44f03fc9d52721956ad55531d808d66a3365c5c9e8e59861669cab",
+  "warningCount": 30
+}

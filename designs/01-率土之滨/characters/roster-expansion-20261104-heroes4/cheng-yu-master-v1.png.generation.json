@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+  "sha256": "c06ad04904a6bee8f45d1a02832202470c33af0d7c62a8b7f0397c391baaa510",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-05T03:41:18.961Z",
+  "clientDate": "2026-11-04",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "resultId": "exec-aea0fb63-9a9a-4592-b9f7-8ac42e26fd04",
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-aea0fb63-9a9a-4592-b9f7-8ac42e26fd04.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理，工具未披露实际型号、质量或服务端时间。",
+  "requestedAtUtc": "2026-11-05T03:39:36.625Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-master-v1.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "prompt": "One original full-body character master for the landscape Three Kingdoms game 五行问鼎. Historical identity 程昱, attested in Records of the Three Kingdoms volume 14. Images 1 and 2 define the approved Taoist chibi style, not composition. Rounded large head and short body, warm hand-painted gold, jade and ivory details, believable cloth and lacquer, expressive face. Art direction: an older strategist with a pronounced long grey beard and angular eyes, tall black scholar hat and layered burnt-umber and cream robes with pale gold cloud edging, a small folded bamboo dispatch held low with both hands. Tallest silhouette of the set but still a big-headed chibi. Resolute expression. Standing, three-quarter toward screen right. All cloth, feet and props fully visible, clear alpha around the entire silhouette. Keep visible silhouette within 80 percent of image height and 76 percent of width. Portrait 2:3 PNG. Truly transparent background, no floor or cast shadow, no text, UI, frame, signature or floating props. Face unobstructed for separate portrait crops. Original artwork.",
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "cheng-yu",
+    "name": "程昱",
+    "personID": "ww-p-07563508cc4b",
+    "source": "https://zh.wikisource.org/wiki/三國志/卷14",
+    "cardIDs": [
+      100149,
+      100787
+    ],
+    "identityEvidence": "primary biography opening and archived official card records"
+  }
+}

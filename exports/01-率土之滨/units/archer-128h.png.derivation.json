@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/units/archer-128h.png",
+  "sha256": "6f2e4233bd370cb1919511b223e7d88c89d86998dfe95a973236c5f05d466e95",
+  "derivedAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "width": 256,
+  "height": 256,
+  "mode": "RGBA",
+  "format": "PNG",
+  "operation": "premultiplied_lanczos_downscale_and_transparent_canvas_registration",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/units/archer-native.png",
+      "sha256": "264a45f0999607493e40952da2ef62f9af064791fadbead2eaab2ffa77de2180",
+      "record": "exports/01-率土之滨/units/archer-native.png.derivation.json"
+    }
+  ],
+  "resampled": true,
+  "scale": 0.1430167597765363,
+  "resizedDimensions": [
+    108,
+    133
+  ],
+  "pasteOffset": [
+    74,
+    94
+  ],
+  "plannedSilhouetteHeightPx": 128,
+  "anchorPxTopLeft": [
+    128,
+    224
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.875
+  ],
+  "nativeDetailClaim": false,
+  "static": true,
+  "animationFrameCount": 0,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 58140,
+    "alpha1Pixels": 190,
+    "opaquePixels": 430,
+    "bboxByThreshold": {
+      "1": [
+        75,
+        94,
+        182,
+        227
+      ],
+      "16": [
+        76,
+        96,
+        180,
+        225
+      ],
+      "127": [
+        77,
+        97,
+        179,
+        224
+      ]
+    },
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_map_unit_display_candidate"
+}

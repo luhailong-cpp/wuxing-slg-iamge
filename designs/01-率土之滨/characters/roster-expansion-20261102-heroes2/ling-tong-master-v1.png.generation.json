@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/ling-tong-master-v1.png",
+  "sha256": "ed7fb7e1f01deda7e0027d9ce663e7d0486e531dac9bf44c047c87e116b27528",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-02T10:48:10.251Z",
+  "clientDate": "2026-11-02",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "resultId": "exec-8bc6aac4-ecbd-46ec-bff9-3aa2d71c6623",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-02",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE ORIGINAL complete full-body character master of 凌统 for 五行问鼎, in the attached authoritative Taoist chibi HD hand-painted style. Exactly ONE clearly ADULT Three Kingdoms historical identity, not an elemental troop. Large expressive adult head and SHORT rounded body, about 2.7 heads tall. Vertical2:3, TRUE transparent alpha. Both attached images are STYLE ONLY: same finely painted cloth, rounded jade/ivory/warm-gold materials, soft shading and polished finish. Do not copy their people, poses, UI or text.\nA spirited young ADULT commander with a slightly round face, high expressive brows, warm brown eyes and CLEAN SHAVEN jaw. Black hair in a high compact topknot with one jade band, no helmet. Light jade armour over ivory robe, short sage cape, muted ochre sash and soft dark boots. Holds a COMPLETE short straight sword pointed down beside him and a closed small order tablet in the other hand. Confident open stance and restrained friendly smile, no child proportions.\nThese face, costume and prop details are original fictional art direction, not documentary historical costume claims or commercial card copies. Whole figure and ALL props must stay inside central76percent of canvas: at least10percent genuinely transparent padding on ALL four sides. Complete helmet/hair, weapon tip and butt, hands, feet, hems and ribbons. Keep long weapons short enough to fit safely; no cut-off. No floor, shadow, background, mist, halo, frame, nameplate, text, watermark or elemental class badge. Native antialiased alpha preserved, no painted checkerboard. Fine clean hand-painted 2D chibi, readable distinct face/build/headwear silhouette; no realistic anatomy, plastic toy shine, 3D render or pixel art.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261102-heroes2/ling-tong-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style reference"
+    }
+  ],
+  "identity": {
+    "personID": "ww-p-f4b3c8e434cb",
+    "entityID": "ww-p-f4b3c8e434cb",
+    "name": "凌统",
+    "canonicalName": "凌统",
+    "category": "普通人物",
+    "status": "queued_official_identity_candidate",
+    "identityStatus": "primary_index_name_confirmed",
+    "cards": [
+      100426,
+      100616,
+      130616
+    ],
+    "publicListCards": [
+      100426,
+      100616
+    ],
+    "source": [
+      {
+        "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "locator": "displayName=凌统; cardIds=100426,100616,130616",
+        "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe"
+      },
+      {
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "locator": "卷55",
+        "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 6
+  },
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-8bc6aac4-ecbd-46ec-bff9-3aa2d71c6623.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理；未返回可核实型号、质量和服务端时间。",
+  "status": "generated_identity_candidate_not_user_final"
+}

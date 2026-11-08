@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-27T13:04:39.867973+00:00",
+  "theme": "金木水火土五行原创SLG；率土之滨仅功能/布局参考",
+  "storageLegacyName": "01-率土之滨沿用路径仅为溯源，不代表正式游戏题材",
+  "fullGameArtComplete": false,
+  "sourceSheetsV1": 4,
+  "sourceSheetsV2": 4,
+  "v2Candidates": [
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+      "generationRecord": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd",
+      "intendedObjects": 9,
+      "status": "candidate_pending_crop_and_alpha_QA",
+      "notes": "城池物件，物件分离已有改善，边界与alpha仍待逐格核验",
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 819088,
+        "semiTransparentPixelCount": 752997,
+        "opaquePixelCount": 431,
+        "canvasCornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "responseRecovery": "records/01-率土之滨/01-city-types-sheet-v2.tool-response.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/02-buildings-sheet-v2.png",
+      "generationRecord": "designs/01-率土之滨/assets/map-kit/02-buildings-sheet-v2.png.generation.json",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "sha256": "0135bb06246eaaee81af0cc10849083d517a0ed494e55abfe1a213427d725b49",
+      "intendedObjects": 12,
+      "status": "candidate_pending_crop_and_alpha_QA",
+      "notes": "建筑物件，已有透明间隔，个别外轮廓靠格边，需人工ownership裁切核验",
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 845184,
+        "semiTransparentPixelCount": 727101,
+        "opaquePixelCount": 243,
+        "canvasCornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "responseRecovery": "records/01-率土之滨/02-buildings-sheet-v2.tool-response.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png",
+      "generationRecord": "designs/01-率土之滨/assets/map-kit/03-terrain-resources-sheet-v2.png.generation.json",
+      "nativeSize": [
+        1448,
+        1086
+      ],
+      "sha256": "2e39733491b49972f4c602c9b75e29da9cd358e07af3880106805b6a1de70b17",
+      "intendedObjects": 12,
+      "status": "candidate_pending_crop_and_alpha_QA",
+      "notes": "地形资源，12块视觉完整，尚无逐块alpha/裁切/拼接与导航验收",
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 1086029,
+        "semiTransparentPixelCount": 486091,
+        "opaquePixelCount": 408,
+        "canvasCornerAlpha": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "responseRecovery": "records/01-率土之滨/03-terrain-resources-sheet-v2.tool-response.json"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png",
+      "generationRecord": "designs/01-率土之滨/assets/fx/01-effects-sheet-v2.png.generation.json",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "sha256": "7d581df81399fb7e71e4cd5d142ebbb9296e0936a7a8fabc1c6ea56aeac0904d",
+      "intendedObjects": 8,
+      "status": "candidate_pending_crop_and_alpha_QA",
+      "notes": "静态特效，主体完整但边缘光晕密集且贴近，尚不能宣称8个合格独立FX",
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixelCount": 599717,
+        "semiTransparentPixelCount": 973818,
+        "opaquePixelCount": 3,
+        "canvasCornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "responseRecovery": "records/01-率土之滨/01-effects-sheet-v2.tool-response.json"
+    }
+  ],
+  "intendedMapObjects": 33,
+  "intendedStaticEffects": 8,
+  "exportedMapSprites": 0,
+  "exportedFxSprites": 0,
+  "unitMastersGenerated": 0,
+  "animationFrames": 0,
+  "runtimeIntegrated": false,
+  "userApproved": false,
+  "inFlightStatus": "4个v2原生输出均已找到并复制；exec cell 17不存在，未保留可等待调用。没有新调用。",
+  "incomplete": [
+    "v2逐格所有权/cropBox与完整边缘检查",
+    "alpha半透明彩边与浅深背景复核",
+    "33地图物件+8静态FX裁切与派生记录",
+    "map-kit/fx manifest和锚点",
+    "3兵种master尚未提交调用；步兵/弓兵仅prompt，骑兵prompt未落盘",
+    "单位64/128导出与manifest尚未制作",
+    "五行金木水火土主题差异复核与所需五系变体",
+    "实际客户端集成验收"
+  ],
+  "v1Disposition": "原生v1是v2AI编辑输入与来源链，暂保留；未声称正式通过。",
+  "receiptLimit": "v2仅有真实请求与原生PNG恢复证据，准确完成时刻和完整原始返回丢失，actualModel/actualQuality保持null。",
+  "handoff": "docs/HANDOFF_MAPFX_20261027.md"
+}

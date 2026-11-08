@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/zhang-hong-face-native.png",
+  "sha256": "f6215ecb493fc890942f0be35f4686ec5dd0850763c65d7c774c2a6de4f17df0",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhang-hong-master-v1.png",
+    "sha256": "e7b52afd28e6bd4a8557f15b8afea6f8ad9d84938bf5d7d82e36ce0b4097754f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhang-hong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      250,
+      100,
+      800,
+      720
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

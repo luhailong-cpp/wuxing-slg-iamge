@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+  "sha256": "e5953137c7472e8094451aaebb1273accf5386d6dc5b9158c484ee17d5602ec7",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 300,
+  "height": 310,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui/icon-jade.png",
+      "sha256": "e5953137c7472e8094451aaebb1273accf5386d6dc5b9158c484ee17d5602ec7",
+      "record": "exports/01-率土之滨/runtime-ui/icon-jade.png.derivation.json"
+    }
+  ],
+  "operation": "byte_for_byte_copy_of_previous_export",
+  "cropBox": null,
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": true,
+  "previousExport": "exports/01-率土之滨/runtime-ui/icon-jade.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/icon-jade.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 45455,
+    "alpha1PixelCount": 4989,
+    "bboxAbove16": [
+      19,
+      15,
+      282,
+      291
+    ],
+    "visibleMarginsAbove16": [
+      19,
+      15,
+      18,
+      19
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgePixelsAbove16": null
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4989,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        19,
+        15,
+        18,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

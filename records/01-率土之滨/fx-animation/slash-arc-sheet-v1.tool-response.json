@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "callStartedAt": "2026-10-27T16:27:36.595Z",
+  "callCompletedAt": "2026-10-27T16:28:15.518Z",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17d77-f08e-7500-b96a-7cf0bcdf73d9 as C:\\Users\\luyua\\.codex\\generated_images\\01a17d77-f08e-7500-b96a-7cf0bcdf73d9\\exec-363902a7-e1b1-471b-b64c-7aa843d22b6a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-f08e-7500-b96a-7cf0bcdf73d9/exec-363902a7-e1b1-471b-b64c-7aa843d22b6a.png",
+  "imageDataOmitted": true,
+  "resultId": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主仅返回image_url/output_hint，型号与质量未披露。原生PNG承载图像数据，不重复保存base64。"
+}

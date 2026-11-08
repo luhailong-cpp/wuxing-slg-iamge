@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/reference-contact/march-layout-v3.guide.png",
+  "sha256": "1fa09e6f5deeaaf1c0f2b3fe2d578e8abb0e3eb5d299bfdc48fd4c9032169ff4",
+  "derivedAtUtc": "2026-10-27T16:56:02.432870+00:00",
+  "width": 1916,
+  "height": 821,
+  "mode": "RGB",
+  "operation": "render_reference_only_geometry_guide_from_authored_scene_plan",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/reference-contact/march-layout-v3.scene-plan.json",
+      "sha256": "48f2cf89e5433118c45f5e226913c4d1ab543e42d9ebe9d0a729561149f4b7a0"
+    }
+  ],
+  "purpose": "Input layout guide, not code-drawn game art; final scene uses image_gen and two actual primary style images",
+  "art_source": "code_layout_guide_only",
+  "userApproved": false,
+  "clientIntegrated": false
+}

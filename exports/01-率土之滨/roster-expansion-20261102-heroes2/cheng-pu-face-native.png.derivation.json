@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/cheng-pu-face-native.png",
+  "sha256": "279ba5791e91d0eb2c1197cf23868d1dcf71491238327e3b7e5059e833f57121",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/cheng-pu-master-v1.png",
+    "sha256": "a4bdfb67e6ca3ec082cced1576efa8ae275afc33af242f81dbc3d5757d5140f8",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/cheng-pu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      320,
+      180,
+      815,
+      740
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

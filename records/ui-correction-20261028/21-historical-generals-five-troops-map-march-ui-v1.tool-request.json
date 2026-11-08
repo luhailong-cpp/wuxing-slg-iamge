@@ -1,0 +1,37 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T11:32:45.343Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Precise localized editing of attached image3 complete horizontal SLG map-march UI, opaque about1916x821. Images1/2 authoritative jade/ivory/gold Daoist chibi hand-painted style. Image4 is ONE derived six historical general identity contact sheet (top Liu Bei / Cao Cao / Sun Quan; bottom Zhao Yun / Zhuge Liang / Guan Yu), image5 is ONE derived five ORDINARY TROOP master lineup left to right metal wood water fire earth. Do not reproduce contact labels/grid.\nPreserve the map geometry and route paths EXACTLY: two separated river banks with ONE stone bridge connecting them; lower-left friendly maincity, upper-left fortress, midleft plain camp, upper-right enemy city. First army green dotted arrow goes from lower-left maincity, along road, onto the left end of bridge, over its full bridge deck, then on right-bank road to enemy gate. No arrows cross water away from bridge. Third army amber dotted arrow comes from upperleft fortress and ENDS at lower-left maincity gate, staying left bank. Second army is standby at plain camp and has NO route. Do not reintroduce branch bridges, cliff landings, routes ending midroad, disconnected bridge entries or extra rivers.\nUpdate just troop units and right-list general identities. Replace little generic dark-armored marching units near the green route with small ordinary METAL troops matching image5 first master (ivory/gold helmet cream plume, round metal cloud shield, short blade). Replace little returning units near amber route with FIRE troops matching image5 fourth master (red/gold helmet, two physical red talisman batons, no spear or horse). Add a small stationary pair of WOOD troops matching image5 second at plain camp without route, only if room. Troops must stay small map scale, not giant heroes. The upper-left player avatar and player name道友 are a generic account identity and may remain.\nRight panel 行军部队: first card avatar historical LIU BEI with tall upright dark green jade crown, long brown hair, small goatee, green/ivory robe, distinct from generic child; 第一部队, 行军中, add small clear \"刘备 · 金兵\"; second avatar historical clean-shaven silver/green ZHAO YUN, 第二部队, 待命, add \"赵云 · 木兵\"; third avatar historical CAO CAO black/gold armor burgundy/moustache, 第三部队, 返回中, add \"曹操 · 火兵\". Troop assignments are illustrative, not new elemental hero identities.\nPreserve original numeric pairs8000/2000,6000/1000,5000/1500, first maincity→enemycity, second平原营地, third要塞→主城. Replace horse-head icons next to second numbers with neutral small supply/baggage icons, keep all numbers unchanged and do not invent named mechanics or extra totals. Make space for commander names while all text stays readable.\nKeep original top resource values木材12.8万,铁矿10.6万,石料9.8万,粮草15.2万,铜钱8.6万,玉符680; Lv.12; route countdown00:00:05 and00:00:08; map numbers1/2/3; buttons查看部队/撤回/返回 and bottom chat. No步兵/弓兵/骑兵 text, no horses or mounted units, no五系英雄/金行使, no combat multipliers, no new rules, no technical commentary. Preserve existing landmarks, flags, bridges, geometry, borders.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/21-map-march-ui-v4.png",
+      "D:/work/wuxing-slg-iamge/records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troops-20261028/qa/five-troops-lineup-light.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/21-historical-generals-five-troops-map-march-ui-v1.prompt.txt",
+  "referenceNotes": [
+    "Image4: records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png.derived.json",
+    "Image5: records/troops-20261028/qa/five-troops-lineup-light.png.derivation.json"
+  ]
+}

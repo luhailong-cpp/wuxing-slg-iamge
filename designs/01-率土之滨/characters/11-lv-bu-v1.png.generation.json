@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/11-lv-bu-v1.png",
+  "sha256": "4acb16c0459e237c9a1a301688d78eb5325aaa85ecc3b7f7cae98ac1898c705c",
+  "generatedAt": "2026-10-26T19:44:47.170Z",
+  "generatedAtBasis": "宿主调用完成时记录的UTC时间；工具未另披露独立图像生成时间",
+  "callStartedAt": "2026-10-26T19:43:32.414Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": null,
+  "executionCellId": "24",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": true,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "promptFile": "prompts/01-率土之滨/11-lv-bu-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/11-lv-bu-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/11-lv-bu-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1772a-98d5-7941-8861-130d582ca739/exec-c047eab1-5d08-43e2-9360-6783631447db.png",
+      "sha256": "4acb16c0459e237c9a1a301688d78eb5325aaa85ecc3b7f7cae98ac1898c705c",
+      "copyHashVerified": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "unverifiedReason": "宿主管理，工具未开放model/quality参数，返回字段未披露实际模型与画质；当前可读取PNG元数据未提供可核实版本字段，配置目标不能作为实际版本证据。",
+  "prompt": "prompts/01-率土之滨/11-lv-bu-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要画风、玉绿米白暖金、圆润道家Q版人物高清手绘参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要画风和差异化角色完成度参考",
+      "actuallyAttached": true
+    }
+  ],
+  "assetRole": "完整单角色静态master",
+  "alphaInspection": {
+    "mode": "native_alpha",
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 775769,
+    "semiTransparentPixelCount": 797095,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "thresholdForBounds": 32,
+    "bounds": [
+      36,
+      84,
+      1024,
+      1471
+    ],
+    "marginsLTRB": [
+      36,
+      84,
+      0,
+      65
+    ]
+  },
+  "status": "legacy_direction_candidate_not_release",
+  "userApproved": false,
+  "animationGenerated": false,
+  "clientIntegrated": false,
+  "plan": "records/01-率土之滨/full-completion-characters-plan.json",
+  "themeCorrection": {
+    "receivedAt": "2026-10-27",
+    "userDirection": "金木水火土主题；率土之滨仅功能参考",
+    "disposition": "historical_identity_candidate_requires_original_wuxing_redesign",
+    "renameOnlyForbidden": true,
+    "releaseEligible": false
+  },
+  "visualReview": {
+    "file": "records/01-率土之滨/full-completion-characters-review.json",
+    "viewedInHost": true,
+    "observed": "已实际查看静态图；用户方向已纠正，此检查不等于形象验收。",
+    "warnings": [
+      "安全余边未达到原提示的8–10%目标；不能把提示要求当作已实现。",
+      "画布角落存在alpha=1微量半透明像素；未处理。",
+      "端点贴边旧候选，已有构图修订；保留溯源，不用于首发。"
+    ]
+  },
+  "supersededForFramingBy": "designs/01-率土之滨/characters/11-lv-bu-v2.png"
+}

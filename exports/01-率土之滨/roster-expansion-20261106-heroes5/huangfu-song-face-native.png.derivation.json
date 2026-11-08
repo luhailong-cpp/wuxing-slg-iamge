@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes5/huangfu-song-face-native.png",
+  "sha256": "236304707cf60da2606835f9360abbf220d4843aa8dee41b618f4697eedf7b5b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/huangfu-song-master-v1.png",
+    "sha256": "3d264747b733f2a1814d2db4477c42282075c33b169c36a723687a40ca4b804f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/huangfu-song-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      132,
+      94,
+      699,
+      720
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

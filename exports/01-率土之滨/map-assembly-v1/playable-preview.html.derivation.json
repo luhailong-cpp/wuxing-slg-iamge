@@ -1,0 +1,33 @@
+{
+  "schema": "wuxing.html-derivation.v1",
+  "file": "exports/01-率土之滨/map-assembly-v1/playable-preview.html",
+  "sha256": "9bff1506cf59c887f6858586c527b115f9cdb7ab2bc95fc95598d10705475272",
+  "operation": "replace_debug_actor_renderer_with_existing_png_and_add_readonly_anchor_audit_and_notice",
+  "derivedFrom": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/baseline-browser-preview/preview.html",
+      "sha256": "7207849b8b765baeb208d29be77d16db2bf8d9c857f98959287c853d3acdf669"
+    },
+    {
+      "file": "exports/01-率土之滨/units/infantry-64h.png",
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json"
+    }
+  ],
+  "collisionRuntimeChanged": false,
+  "bundleDataChanged": false,
+  "unitCanvasSize": [
+    256,
+    256
+  ],
+  "unitSourceAnchorPx": [
+    128,
+    224
+  ],
+  "unitDisplayScale": 1,
+  "renderReplacementOldSha256": "9b6c83a6fd9b622501e9f4eaa1792104cf92796782676f7c6fd47c74d4cda2a3",
+  "renderReplacementNewSha256": "1715e1e3fc6e762c2ac5143ec852b73d6af87b78ce5e800206de4117ff58346b",
+  "embeddedUnitBytesMatchSource": true,
+  "scope": "offline candidate only; no gameplay, combat, animation, engine or mobile acceptance",
+  "baselineOfficialVerify": "SKIPPED: bundled playwright headless browser executable absent; separate actual installed-Chrome run retained in browser-validation"
+}

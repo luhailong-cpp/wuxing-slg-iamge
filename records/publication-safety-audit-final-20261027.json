@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "auditStartedAtUtc": "2026-10-27T15:09:35.778985+00:00",
+  "gitScopeCapturedAtUtc": "2026-10-27T15:09:35.815777+00:00",
+  "scanCompletedAtUtc": "2026-10-27T15:15:20.945383+00:00",
+  "root": "D:/work/wuxing-slg-iamge",
+  "purpose": "Final publication safety and image provenance audit of current Git publishable working-tree scope; this report does not assert a remote push or final art acceptance.",
+  "scope": {
+    "command": "git ls-files --cached --others --exclude-standard -z",
+    "workingDirectory": "D:/work/wuxing-slg-iamge",
+    "listedUniqueFileCount": 727,
+    "explicitExcludedPrefixes": [
+      ".git/",
+      "work/",
+      "records/publication-local/"
+    ],
+    "excludedPathsUnexpectedlyListed": [],
+    "scopedFileCount": 727,
+    "scopedTotalBytes": 293312347,
+    "scopedListSha256": "807f5272c48ca07c5170da7baeaabd87f938a8fc523a24a3847a35557cef93d3",
+    "textFilesScanned": 512,
+    "binaryFilesSkippedForTextScan": 215,
+    "imageFilesDecoded": 214,
+    "jsonFilesParsed": 401,
+    "extensionCounts": {
+      "<none>": 1,
+      ".md": 16,
+      ".json": 401,
+      ".png": 205,
+      ".cs": 1,
+      ".unitypackage": 1,
+      ".txt": 86,
+      ".py": 7,
+      ".jpg": 9
+    },
+    "auditFileSelfIncluded": false,
+    "limitations": [
+      "Names are captured from tracked plus nonignored untracked files, but contents are the current working-tree bytes. Root must ensure final staged catalog matches before pushing.",
+      "Production workers may still add final receipts after this snapshot. No waiting or final approval is inferred.",
+      "Credential pattern scan and metadata checks are not a proof against unknown secret formats."
+    ]
+  },
+  "security": {
+    "patternsScanned": [
+      "github_token",
+      "openai_token",
+      "aws_access_key",
+      "private_key",
+      "bearer_literal",
+      "credential_url",
+      "secret_assignment",
+      "google_api_key",
+      "slack_token"
+    ],
+    "secretPatternFindings": [],
+    "sensitiveFilenameFindings": [],
+    "cacheOrLogFilesUnexpectedlyInScope": [],
+    "gpsMetadataFiles": [],
+    "secretValuesPrinted": false,
+    "systemCredentialsRead": false,
+    "personalSystemLogsInspected": false
+  },
+  "validation": {
+    "invalidJsonFiles": [],
+    "imageDecodeErrors": [],
+    "scopeFilesMissingAtRead": [],
+    "over50MiBFiles": [],
+    "imageRecordsVerifiedCount": 205,
+    "imageRecordsByKind": {
+      "generated": 81,
+      "historical_copied_reference": 2,
+      "derived": 122
+    },
+    "userScreenshotReferenceFiles": [
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/01-city-tutorial.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/02-tactic-detail.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/03-tactic-library.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/04-general-detail.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/05-army-formation.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/06-map-march.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/08-general-recruit-result-duplicate.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      },
+      {
+        "file": "uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg",
+        "basis": "User-supplied third-party screenshot; source/rights manifest in initial publication audit"
+      }
+    ],
+    "missingAdjacentImageRecords": [],
+    "outputHashMismatches": [],
+    "derivedSourceHashesChecked": 170,
+    "derivedSourcesMissing": [],
+    "derivedSourceHashMismatches": [],
+    "unityPackages": [
+      {
+        "file": "exports/01-率土之滨/unity/WuxingSLGArtPreview-20261027.unitypackage",
+        "bytes": 28754662,
+        "sha256": "c7d20bb4a089da76dea0f412e7cb07e36fe77888b76ac222e265186396df411c",
+        "adjacentRecordExists": true,
+        "adjacentHashMatches": true,
+        "archiveTextMembersScanned": 262,
+        "archiveEntries": 382,
+        "archiveErrors": [],
+        "archiveScannedWithoutExtractingToDisk": true,
+        "hashStillMatchesSnapshot": true
+      }
+    ]
+  },
+  "concurrentChangeObservation": {
+    "changedDuringScan": [],
+    "addedToScopeDuringScan": [],
+    "removedFromScopeDuringScan": [],
+    "finalCatalogStillRequired": true
+  },
+  "publicationContext": {
+    "theme": "金木水火土; historical character candidates remain old provenance, not original Wuxing launch roster",
+    "thirdPartyRights": "User screenshots remain third-party functionality/layout reference; no blanket open-source license inferred. Initial publication audit contains their hashes and source notices.",
+    "modelEvidence": "Configuration targets are not actual model/quality evidence. Unreported actual fields remain null.",
+    "state": "Current art is candidate/static unless per-resource evidence specifically states otherwise. Unity import verification does not establish user acceptance or target game integration."
+  },
+  "status": "pass_for_snapshot_pending_root_final_catalog_and_push_verification",
+  "blockingIssueCount": 0,
+  "sourceCompletenessNotesCount": 0,
+  "gitMutationsPerformed": false,
+  "otherWorkerFilesModified": false
+}

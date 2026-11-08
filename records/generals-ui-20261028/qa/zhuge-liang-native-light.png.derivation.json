@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/zhuge-liang-native-light.png",
+  "sha256": "a41eecefe47a9be83523af10e3ce7c973fbf4d7856f928c7199eea36884018fe",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1670,
+  "height": 1095,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-face-native.png",
+      "sha256": "c8684e5e45a70b44254cbc95dbe42b4e733b78d297c0e14eaaa8b25d2462950a",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-bust-native.png",
+      "sha256": "8c5ed6a27f2761ebfa58cf70b6c92853d16acb70c2928c38a2c7a3accd11fd82",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-bust-native.png.derivation.json"
+    }
+  ]
+}

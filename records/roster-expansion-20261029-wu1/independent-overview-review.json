@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "receivedAtUtc": "2026-10-29T12:02:18.110Z",
+  "reviewer": "/root/check_materials",
+  "method": "read_only_actual_view_image",
+  "scope": [
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/cards-light.png",
+      "sha256": "f28693417ad7ec1cbe45ba9508a2b7e63b425b112abce0bac14a5a714d903413",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/cards-dark.png",
+      "sha256": "bdcedd0d1271eca735c6ac33b53130dfe7a42358e2f23615e522108fa22657e2",
+      "actuallyViewed": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wu1/qa/avatars-light.png",
+      "sha256": "5c387375d6f8362f3e13d95db854ac9e364d505b9e462bcc3c0a0ad067a4ead2",
+      "actuallyViewed": true
+    }
+  ],
+  "status": "NO_NEW_BLOCKER_WITHIN_THREE_OVERVIEWS",
+  "findings": [
+    "总览未见人物/兵器端部明显切断。",
+    "孙坚刀、孙策矛刃、陆逊展开卷与剑、鲁肃卷牍、吕蒙竹简及佩剑、甘宁刀绳均可见。",
+    "浅深底未见大块矩形背景污染。",
+    "头像脸部/主要帽饰可辨，边缘衣领/飘带属于矩形取景。",
+    "六人并非仅换色，但孙坚/吕蒙、孙策/甘宁共享较近五官语言，依胡须、眉眼、帽冠/头带、体态装备区分。"
+  ],
+  "limitations": [
+    "不能宣称完全无脸相似。",
+    "仅这三张静态总览肉眼复核；未原生逐图、alpha数值或Unity检验。"
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

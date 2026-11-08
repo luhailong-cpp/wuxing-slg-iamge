@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-defense",
+  "file": "exports/01-率土之滨/runtime-ui/icon-defense.png",
+  "sha256": "578e36b1a7c33c42c227305dd36815d5f70f099672412a2171ced62d3623e1b6",
+  "width": 281,
+  "height": 283,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 26718,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      337,
+      635,
+      618,
+      918
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

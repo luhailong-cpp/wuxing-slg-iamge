@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-bust-native.png",
+  "sha256": "e2f8b4accaa7c21c24ee7091915a40eae330979e56c2a99ef2fd87ce25b44c06",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+    "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      141,
+      113,
+      883,
+      980
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

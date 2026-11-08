@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-128.png",
+  "sha256": "87e83f944498702917f8804a2cd146b145705f641700728578b91eda419cb132",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "lv-meng",
+  "personID": "ww-p-799cddfec017",
+  "displayName": "吕蒙",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png",
+      "sha256": "69a69e2c2c8f26331fe18cc39cd1d019c385de6df872e0faf2522371ec67f97b",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png.generation.json",
+      "recordSha256": "570b504a57aa1b25e7c8d06ab53feaaaa03e895435c537203e5136e8a5350f22"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    325,
+    105,
+    775,
+    610
+  ],
+  "resizeTo": [
+    100,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    14,
+    8,
+    114,
+    120
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    390,
+    320,
+    700,
+    565
+  ],
+  "faceRoiOutputApprox": [
+    28.44,
+    55.68,
+    97.33,
+    110.02
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 7755,
+    "alpha1Pixels": 86,
+    "semiTransparentPixels": 8439,
+    "opaquePixels": 190,
+    "bboxAbove32": [
+      14,
+      9,
+      114,
+      120
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgePixelsAbove0": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      14,
+      9,
+      14,
+      8
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        21,
+        112,
+        26,
+        69
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 86,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "crop": [
+        325,
+        105,
+        775,
+        610
+      ],
+      "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

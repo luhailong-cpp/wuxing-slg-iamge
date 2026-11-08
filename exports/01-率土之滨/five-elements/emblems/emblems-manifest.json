@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-27T13:23:26.839518+00:00",
+  "assetType": "five_static_element_emblems",
+  "source": "designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+  "sourceSha256": "2e0c66c6b26615ce080cb49ac24de33647baa8d6d3e9ee2f4c98a9037ceea029",
+  "nativeCount": 5,
+  "displayDerivativeCount": 15,
+  "animations": 0,
+  "framesPerIcon": 1,
+  "items": [
+    {
+      "element": "metal",
+      "label": "金",
+      "native": "exports/01-率土之滨/five-elements/emblems/metal-native.png",
+      "nativeRecord": "exports/01-率土之滨/five-elements/emblems/metal-native.png.derived.json",
+      "displayVariants": [
+        {
+          "size": 32,
+          "file": "exports/01-率土之滨/five-elements/emblems/metal-32.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/metal-32.png.derived.json"
+        },
+        {
+          "size": 64,
+          "file": "exports/01-率土之滨/five-elements/emblems/metal-64.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/metal-64.png.derived.json"
+        },
+        {
+          "size": 128,
+          "file": "exports/01-率土之滨/five-elements/emblems/metal-128.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/metal-128.png.derived.json"
+        }
+      ]
+    },
+    {
+      "element": "wood",
+      "label": "木",
+      "native": "exports/01-率土之滨/five-elements/emblems/wood-native.png",
+      "nativeRecord": "exports/01-率土之滨/five-elements/emblems/wood-native.png.derived.json",
+      "displayVariants": [
+        {
+          "size": 32,
+          "file": "exports/01-率土之滨/five-elements/emblems/wood-32.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/wood-32.png.derived.json"
+        },
+        {
+          "size": 64,
+          "file": "exports/01-率土之滨/five-elements/emblems/wood-64.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/wood-64.png.derived.json"
+        },
+        {
+          "size": 128,
+          "file": "exports/01-率土之滨/five-elements/emblems/wood-128.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/wood-128.png.derived.json"
+        }
+      ]
+    },
+    {
+      "element": "water",
+      "label": "水",
+      "native": "exports/01-率土之滨/five-elements/emblems/water-native.png",
+      "nativeRecord": "exports/01-率土之滨/five-elements/emblems/water-native.png.derived.json",
+      "displayVariants": [
+        {
+          "size": 32,
+          "file": "exports/01-率土之滨/five-elements/emblems/water-32.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/water-32.png.derived.json"
+        },
+        {
+          "size": 64,
+          "file": "exports/01-率土之滨/five-elements/emblems/water-64.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/water-64.png.derived.json"
+        },
+        {
+          "size": 128,
+          "file": "exports/01-率土之滨/five-elements/emblems/water-128.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/water-128.png.derived.json"
+        }
+      ]
+    },
+    {
+      "element": "fire",
+      "label": "火",
+      "native": "exports/01-率土之滨/five-elements/emblems/fire-native.png",
+      "nativeRecord": "exports/01-率土之滨/five-elements/emblems/fire-native.png.derived.json",
+      "displayVariants": [
+        {
+          "size": 32,
+          "file": "exports/01-率土之滨/five-elements/emblems/fire-32.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/fire-32.png.derived.json"
+        },
+        {
+          "size": 64,
+          "file": "exports/01-率土之滨/five-elements/emblems/fire-64.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/fire-64.png.derived.json"
+        },
+        {
+          "size": 128,
+          "file": "exports/01-率土之滨/five-elements/emblems/fire-128.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/fire-128.png.derived.json"
+        }
+      ]
+    },
+    {
+      "element": "earth",
+      "label": "土",
+      "native": "exports/01-率土之滨/five-elements/emblems/earth-native.png",
+      "nativeRecord": "exports/01-率土之滨/five-elements/emblems/earth-native.png.derived.json",
+      "displayVariants": [
+        {
+          "size": 32,
+          "file": "exports/01-率土之滨/five-elements/emblems/earth-32.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/earth-32.png.derived.json"
+        },
+        {
+          "size": 64,
+          "file": "exports/01-率土之滨/five-elements/emblems/earth-64.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/earth-64.png.derived.json"
+        },
+        {
+          "size": 128,
+          "file": "exports/01-率土之滨/five-elements/emblems/earth-128.png",
+          "record": "exports/01-率土之滨/five-elements/emblems/earth-128.png.derived.json"
+        }
+      ]
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "visually_reviewed_candidate_exports_with_recorded_warnings",
+  "rawSheetQc": {
+    "schema": "generate2dsprite.sheet_qc.v1",
+    "check": "spill",
+    "status": "warn",
+    "method": "8-connected components at alpha > 127 (solid) and > 16 (visible edge) on the raw sheet; a component belongs to the cell holding most of its pixels; cells are forge_core.rounded_grid_boxes; specks are forge_core.alpha_hygiene('both') counts",
+    "checks": [
+      {
+        "id": "cross_cell_components",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "cells": [],
+        "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "the same test on the visible edge (alpha > 16)"
+      },
+      {
+        "id": "sheet_edge",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "art touching the sheet border was cut by the image edge"
+      },
+      {
+        "id": "empty_cells",
+        "status": "pass",
+        "value": [],
+        "threshold": [],
+        "note": "the first 5 cells must each hold a subject"
+      },
+      {
+        "id": "boundary_band",
+        "status": "warn",
+        "value": 65,
+        "threshold": 0,
+        "note": "solid pixels within 10 px of a cell line; a different crop or rounding can cut them"
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 5,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 27805,
+          "detached_components": 0
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "params": {
+      "alpha_threshold": 127,
+      "edge_threshold": 16,
+      "min_area": 64,
+      "band_px": 10,
+      "safe_margin": 0.15,
+      "expect": 5,
+      "connectivity": 8
+    }
+  },
+  "manualOwnership": {
+    "allVisibleSubjectPixelsCoveredAbove1": true,
+    "crossingVisibleEdgesAbove1": 0,
+    "sixthCellIntentionallyEmpty": true,
+    "alphaModified": false,
+    "keyed": false,
+    "reviewBasis": "Actual light/dark composite and manually inspected native ownership rectangles; no largest-component filtering."
+  }
+}

@@ -1,0 +1,919 @@
+{
+    "checkedAtUtc": "2026-11-02T03:25:45.7687436Z",
+    "unityVersion": "6000.6.0f1",
+    "error": "",
+    "scope": "Real Animator Play Mode with deterministic deltaTime; not wall-clock smoothness, target-device performance or combat",
+    "enteredPlayMode": true,
+    "passed": true,
+    "framePlaybackTested": true,
+    "visualMotionAccepted": false,
+    "gameplayTested": false,
+    "frameChecks": 100,
+    "tailChecks": 15,
+    "idleWrapChecks": 5,
+    "pauseChecks": 5,
+    "restartChecks": 5,
+    "actionSwitchChecks": 20,
+    "checks": [
+        {
+            "unit": "metal",
+            "action": "idle",
+            "frame": 0,
+            "time": 0.125,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-01.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "idle",
+            "frame": 1,
+            "time": 0.375,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-02.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "idle",
+            "frame": 2,
+            "time": 0.625,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-03.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "idle",
+            "frame": 3,
+            "time": 0.875,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/idle/idle-04.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "attack",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-01.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "attack",
+            "frame": 1,
+            "time": 0.17000000178813934,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-02.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "attack",
+            "frame": 2,
+            "time": 0.27000001072883606,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-03.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "attack",
+            "frame": 3,
+            "time": 0.35499998927116394,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-04.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "attack",
+            "frame": 4,
+            "time": 0.4399999976158142,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-05.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "attack",
+            "frame": 5,
+            "time": 0.5699999928474426,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/attack/attack-06.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "hurt",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-01.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "hurt",
+            "frame": 1,
+            "time": 0.17000000178813934,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-02.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "hurt",
+            "frame": 2,
+            "time": 0.2800000011920929,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-03.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "hurt",
+            "frame": 3,
+            "time": 0.4300000071525574,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/hurt/hurt-04.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "defeat",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-01.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "defeat",
+            "frame": 1,
+            "time": 0.17999999225139618,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-02.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "defeat",
+            "frame": 2,
+            "time": 0.3199999928474426,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-03.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "defeat",
+            "frame": 3,
+            "time": 0.5,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-04.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "defeat",
+            "frame": 4,
+            "time": 0.7000000476837158,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-05.png",
+            "passed": true
+        },
+        {
+            "unit": "metal",
+            "action": "defeat",
+            "frame": 5,
+            "time": 1.100000023841858,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/metal/defeat/defeat-06.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "idle",
+            "frame": 0,
+            "time": 0.14000000059604645,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-01.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "idle",
+            "frame": 1,
+            "time": 0.41999998688697815,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-02.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "idle",
+            "frame": 2,
+            "time": 0.699999988079071,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-03.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "idle",
+            "frame": 3,
+            "time": 0.9799999594688416,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/idle/idle-04.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "attack",
+            "frame": 0,
+            "time": 0.07000000029802322,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-01.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "attack",
+            "frame": 1,
+            "time": 0.19500000774860382,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-02.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "attack",
+            "frame": 2,
+            "time": 0.30000001192092896,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-03.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "attack",
+            "frame": 3,
+            "time": 0.38499999046325684,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-04.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "attack",
+            "frame": 4,
+            "time": 0.4749999940395355,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-05.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "attack",
+            "frame": 5,
+            "time": 0.6149999499320984,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/attack/attack-06.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "hurt",
+            "frame": 0,
+            "time": 0.05000000074505806,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-01.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "hurt",
+            "frame": 1,
+            "time": 0.15000000596046448,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-02.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "hurt",
+            "frame": 2,
+            "time": 0.27000001072883606,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-03.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "hurt",
+            "frame": 3,
+            "time": 0.4300000071525574,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/hurt/hurt-04.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "defeat",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-01.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "defeat",
+            "frame": 1,
+            "time": 0.1899999976158142,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-02.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "defeat",
+            "frame": 2,
+            "time": 0.3400000035762787,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-03.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "defeat",
+            "frame": 3,
+            "time": 0.5099999904632568,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-04.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "defeat",
+            "frame": 4,
+            "time": 0.7099999785423279,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-05.png",
+            "passed": true
+        },
+        {
+            "unit": "wood",
+            "action": "defeat",
+            "frame": 5,
+            "time": 1.1200000047683716,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/wood/defeat/defeat-06.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "idle",
+            "frame": 0,
+            "time": 0.14000000059604645,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-01.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "idle",
+            "frame": 1,
+            "time": 0.41999998688697815,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-02.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "idle",
+            "frame": 2,
+            "time": 0.6499999761581421,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-03.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "idle",
+            "frame": 3,
+            "time": 0.8799999952316284,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/idle/idle-04.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "attack",
+            "frame": 0,
+            "time": 0.07000000029802322,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-01.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "attack",
+            "frame": 1,
+            "time": 0.19500000774860382,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-02.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "attack",
+            "frame": 2,
+            "time": 0.30000001192092896,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-03.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "attack",
+            "frame": 3,
+            "time": 0.38499999046325684,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-04.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "attack",
+            "frame": 4,
+            "time": 0.4749999940395355,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-05.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "attack",
+            "frame": 5,
+            "time": 0.6149999499320984,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/attack/attack-06.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "hurt",
+            "frame": 0,
+            "time": 0.05000000074505806,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-01.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "hurt",
+            "frame": 1,
+            "time": 0.15000000596046448,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-02.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "hurt",
+            "frame": 2,
+            "time": 0.27000001072883606,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-03.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "hurt",
+            "frame": 3,
+            "time": 0.4300000071525574,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/hurt/hurt-04.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "defeat",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-01.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "defeat",
+            "frame": 1,
+            "time": 0.1899999976158142,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-02.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "defeat",
+            "frame": 2,
+            "time": 0.3400000035762787,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-03.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "defeat",
+            "frame": 3,
+            "time": 0.5099999904632568,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-04.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "defeat",
+            "frame": 4,
+            "time": 0.7099999785423279,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-05.png",
+            "passed": true
+        },
+        {
+            "unit": "water",
+            "action": "defeat",
+            "frame": 5,
+            "time": 1.1200000047683716,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/water/defeat/defeat-06.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "idle",
+            "frame": 0,
+            "time": 0.125,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-01.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "idle",
+            "frame": 1,
+            "time": 0.375,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-02.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "idle",
+            "frame": 2,
+            "time": 0.625,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-03.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "idle",
+            "frame": 3,
+            "time": 0.875,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/idle/idle-04.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "attack",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-01.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "attack",
+            "frame": 1,
+            "time": 0.17000000178813934,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-02.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "attack",
+            "frame": 2,
+            "time": 0.27000001072883606,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-03.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "attack",
+            "frame": 3,
+            "time": 0.35499998927116394,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-04.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "attack",
+            "frame": 4,
+            "time": 0.4399999976158142,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-05.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "attack",
+            "frame": 5,
+            "time": 0.5699999928474426,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/attack/attack-06.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "hurt",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-01.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "hurt",
+            "frame": 1,
+            "time": 0.17000000178813934,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-02.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "hurt",
+            "frame": 2,
+            "time": 0.2800000011920929,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-03.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "hurt",
+            "frame": 3,
+            "time": 0.4300000071525574,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/hurt/hurt-04.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "defeat",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-01.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "defeat",
+            "frame": 1,
+            "time": 0.17999999225139618,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-02.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "defeat",
+            "frame": 2,
+            "time": 0.3199999928474426,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-03.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "defeat",
+            "frame": 3,
+            "time": 0.5,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-04.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "defeat",
+            "frame": 4,
+            "time": 0.7000000476837158,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-05.png",
+            "passed": true
+        },
+        {
+            "unit": "fire",
+            "action": "defeat",
+            "frame": 5,
+            "time": 1.100000023841858,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/fire/defeat/defeat-06.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "idle",
+            "frame": 0,
+            "time": 0.125,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-01.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "idle",
+            "frame": 1,
+            "time": 0.375,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-02.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "idle",
+            "frame": 2,
+            "time": 0.625,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-03.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "idle",
+            "frame": 3,
+            "time": 0.875,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/idle/idle-04.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "attack",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-01.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "attack",
+            "frame": 1,
+            "time": 0.17000000178813934,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-02.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "attack",
+            "frame": 2,
+            "time": 0.27000001072883606,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-03.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "attack",
+            "frame": 3,
+            "time": 0.35499998927116394,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-04.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "attack",
+            "frame": 4,
+            "time": 0.4399999976158142,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-05.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "attack",
+            "frame": 5,
+            "time": 0.5699999928474426,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/attack/attack-06.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "hurt",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-01.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "hurt",
+            "frame": 1,
+            "time": 0.17000000178813934,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-02.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "hurt",
+            "frame": 2,
+            "time": 0.2800000011920929,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-03.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "hurt",
+            "frame": 3,
+            "time": 0.4300000071525574,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/hurt/hurt-04.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "defeat",
+            "frame": 0,
+            "time": 0.05999999865889549,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-01.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-01.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "defeat",
+            "frame": 1,
+            "time": 0.17999999225139618,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-02.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-02.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "defeat",
+            "frame": 2,
+            "time": 0.3199999928474426,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-03.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-03.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "defeat",
+            "frame": 3,
+            "time": 0.5,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-04.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-04.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "defeat",
+            "frame": 4,
+            "time": 0.7000000476837158,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-05.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-05.png",
+            "passed": true
+        },
+        {
+            "unit": "earth",
+            "action": "defeat",
+            "frame": 5,
+            "time": 1.100000023841858,
+            "expectedSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-06.png",
+            "actualSprite": "Assets/WuxingNewArt20261030/Troops/earth/defeat/defeat-06.png",
+            "passed": true
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+  "submittedAt": "2026-10-28T11:02:33.413Z",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "parameters": {
+    "prompt": "Use case: game login background, baked_scene_mode, one finished landscape background painting.\nCreate one native wide 16:9 landscape illustration, target 1920x1080 (do not create a collage or UI mockup). Opaque full canvas, no transparent border.\n\nREFERENCE ROLES:\nImage1 (mail) and image2 (team) are the highest-priority visual style references: polished Daoist chibi HD hand-painted art, jade/teal, warm ivory and gold, soft round forms, carefully painted mountains, pavilions and trees. Borrow their painting and materials, NEVER their UI panels or writing.\nImage3 is the existing game title art: use ONLY its jade/gold/ivory palette and craftsmanship. Do not draw its title letters, logo, ornate title plaque, tripod emblem or floating five icons anywhere.\nImage4 is a labelled reference sheet showing FIVE ORDINARY TROOP TYPES. Use the five small soldier designs faithfully as the troop identity reference; do NOT copy the sheet, labels or lineup background. They are common soldiers, NOT five named heroes or elemental demigods.\n\nSCENE:\nA welcoming yet strategically ambitious mountain-and-river realm at clear golden morning, in the same refined chibi world. A winding turquoise river, fertile occupied fields and roads, connected allied camps and a prominent walled jade-roof Chinese city in the middle distance. Small friendly alliance banners share a simple non-letter emblem and tie the foreground force to distant fortified outposts. A modest distant siege cart and organized tiny allied formations approaching a fortified gate suggest territorial conquest and alliance cooperation. Landscape and city remain the main subject.\nForeground: five ordinary short chibi soldiers from image4, equal rank and comparable small scale, as members of one allied company on a grassy stone overlook, looking toward the realm with optimistic readiness. Each is about 17-21% of canvas height, not giant hero portraits. Split them naturally on left and right sides so the center remains open: left flank metal + wood, right flank water + fire + earth. All five visible from helmet to feet with their distinct equipment:\nmetal: ivory/gold metal cloud helmet, rounded metal shield, short curved blade;\nwood: green bamboo/wood helmet and armor, short wood staff, woven round shield;\nwater: blue wave helmet/armor, solid ring-headed staff and rounded blue wave shield;\nfire: cinnabar red armor and flame-shaped helmet ornament, two solid red/gold talisman batons;\nearth: warm beige stone armor, square stone shield and short blocky hammer.\nMatch the big-head short-body proportions, cloud motifs, green waistcloth and fine hand-painted faces of image4. These designs represent金木水火土 troop categories, without any written names. No horse, archer, bow, cavalry, named historical general, huge halo, floating magic deity or dramatic hero lineup.\n\nCOMPOSITION AND RESERVED UI SPACE:\n- Upper-middle rectangle x=28%-72%, y=8%-33% must be a quiet light warm sky/cloud opening, with almost no sharp mountain/building/character shapes. This is intentional empty composition room for a later separate title overlay. Do not draw any plaque there.\n- Lower-middle x=29%-71%, y=82%-97% must be calm, low-detail, low-contrast grass/stone terrace with soft natural value, suitable for later server/login controls. No faces, hands, weapons, banners, text or high-contrast props in this area.\n- Place the five soldiers around the left x=8%-25% and right x=76%-94% flanks, feet above y=82%; ensure none touches the canvas edge.\n- Use river/road curves to lead the eye toward the central city, keep lively architecture around the middle rather than filling the title sky.\n- Landscape must run to every canvas edge. No frame, card border, vignette panel, split screen, grid or diagram.\n\nFinish: high-detail hand-painted game illustration with clean readable silhouette hierarchy, warm inviting Daoist chibi tone, atmospheric distance and coherent lighting, no photorealism or glossy plastic.\nABSOLUTELY NO TEXT, letters, numbers, calligraphy, readable glyphs, logos, watermarks, title, UI buttons, control icons or labels anywhere. This is one background layer only; all interface graphics are added later separately.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/branding/wuxing-wending-title-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troops-20261028/qa/five-troops-lineup-light.png"
+    ],
+    "transparent_background": false
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedModel": null,
+  "submittedQuality": null,
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "width": 1931,
+      "height": 814,
+      "purpose": "Primary approved mail UI painting style; exclude UI/text",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "width": 1931,
+      "height": 814,
+      "purpose": "Primary approved team UI painting style; exclude UI/text",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/assets/branding/wuxing-wending-title-v1.png",
+      "sha256": "e8cd9471511b12dc4556a7b8f223a9135b3f9275571c15f87d01ddb075b56561",
+      "width": 1942,
+      "height": 809,
+      "purpose": "Title art palette/material only; do not reproduce logo/text",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "records/troops-20261028/qa/five-troops-lineup-light.png",
+      "sha256": "e11a1c5b93b42340a460b336a37e0ffded2c80a1a69abc97bc8e22551520576a",
+      "width": 1500,
+      "height": 440,
+      "purpose": "Five ordinary troop identity/proportion/equipment; exclude labels",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    }
+  ]
+}

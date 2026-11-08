@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-28T11:06:50.896Z",
+  "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+  "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+  "reviewMode": "actual full native image visual inspection; no browser or Unity",
+  "actualDimensions": [
+    1672,
+    941
+  ],
+  "requestedDimensions": [
+    1920,
+    1080
+  ],
+  "resampled": false,
+  "cropped": false,
+  "format": "RGB PNG; opaque full-canvas background",
+  "overallStatus": "candidate_with_ui_composition_warnings",
+  "visibleTroopTypes": [
+    "metal",
+    "wood",
+    "water",
+    "fire",
+    "earth"
+  ],
+  "visibleForegroundTroopCount": 5,
+  "checks": {
+    "daoistChibiStyle": "PASS",
+    "landscapeCanvas": "PASS",
+    "noVisibleTextButtonsOrTitleLogo": "PASS_visual_only",
+    "ordinaryTroopsInsteadOfNamedHeroes": "PASS",
+    "distinctFiveTroopDesigns": "PASS_visual_candidate",
+    "riverCityFieldsAndAlliedFormations": "PASS",
+    "siegeEquipmentVisible": "PASS",
+    "upperMiddleTitleRoom": "PASS_with_distant_mountain_detail_near_bottom",
+    "lowerMiddleLoginRoom": "WARN_textured_stone_and_small_water_troop_foot_overlap_near_top_right",
+    "native1920x1080": "NOT_MET_actual1672x941",
+    "exact16by9": "approximate_only_actual1.776833156"
+  },
+  "observedDetails": [
+    "Jade-roof walled city, linked river/roads, cultivated territory, siege engines and distant allied troops are visible.",
+    "Five ordinary troops are split metal/wood left and water/fire/earth right; no obsolete archer/cavalry category appears.",
+    "Shared generic leaf emblem on flags has no readable letters and is an alliance scene symbol, not the title logo.",
+    "No visible text or interactive controls burned into background."
+  ],
+  "limitations": [
+    "Upper requested zone has soft mountain/cloud details at its lower edge; a large logo requires actual overlay QA later.",
+    "Lower requested zone is a stone terrace with high-frequency cracks and grass; login text/controls may need their own solid or translucent backing.",
+    "Water troop extends near the upper-right edge of the intended lower UI zone; keep controls within a narrower central area or evaluate composite later.",
+    "Foreground troops are larger than the requested17-21 percent height; preserve as illustrative candidate rather than an exact gameplay scale guide.",
+    "Native return is1672x941, not1920x1080; no upscaling was performed.",
+    "Single baked background; no parallax layers, isolated actors, animation, navigation or client integration."
+  ],
+  "suggestedCompositionAreasNormalized": {
+    "title": [
+      0.33,
+      0.06,
+      0.68,
+      0.23
+    ],
+    "loginControls": [
+      0.34,
+      0.86,
+      0.63,
+      0.95
+    ]
+  },
+  "suggestedAreasStatus": "visual estimate only; no actual UI overlay or device-safe-area test performed",
+  "generationCalls": 1,
+  "localHeavyWorkPaused": true,
+  "unityLaunched": false,
+  "browserLaunched": false,
+  "subprocessesLaunched": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

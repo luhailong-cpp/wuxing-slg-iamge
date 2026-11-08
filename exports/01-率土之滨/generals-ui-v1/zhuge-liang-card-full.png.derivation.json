@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-card-full.png",
+  "sha256": "b27db45e8a3fbf64dfc11bad9bc1fc6e9f68eb83001955309b4e1253e5859a6b",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "zhuge-liang",
+  "displayName": "诸葛亮",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png",
+      "sha256": "16d4585e4b68b26687dfb5009024f59379afe78e71453cd60995b649aaa0ea03",
+      "record": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png.generation.json",
+      "recordSha256": "9e18caf9228bdbde0635f85a52736fa832884c8a59440733a7f56d6b8cee33c0"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    425,
+    340,
+    700,
+    600
+  ],
+  "faceRoiOutputApprox": [
+    324.19,
+    281.75,
+    513.25,
+    460.5
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 435317,
+    "alpha1Pixels": 7740,
+    "semiTransparentPixels": 448743,
+    "opaquePixels": 676,
+    "bboxAbove32": [
+      59,
+      85,
+      723,
+      1082
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      59,
+      85,
+      45,
+      70
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-card-full.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 7740,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-card-full.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

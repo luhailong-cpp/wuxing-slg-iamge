@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+  "sha256": "f011ac5773971485aae21cd7906bd138e7e5a2f4770c49ff6c7470484c396e02",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "03-water",
+  "element": "water",
+  "variant": "avatar-128",
+  "identityPreservedFromMaster": "blue braided hair including outward braid, crescent waterdrop hairpiece; blue white robe, ring and gourd in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "record": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "recordSha256": "87947f2cf3c1d2f9a7e35de8c1f5c798059808c95a6b9918ebd8787dc2697979"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    285,
+    60,
+    1015,
+    700
+  ],
+  "resizeTo": [
+    112,
+    98
+  ],
+  "resizeScaleNominal": 0.15342465753424658,
+  "actualScaleXY": [
+    0.15342465753424658,
+    0.153125
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    128,
+    128
+  ],
+  "pasteOffsetTopLeft": [
+    8,
+    15,
+    120,
+    113
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    245,
+    675,
+    465
+  ],
+  "faceRoiOutputApprox": [
+    27.18,
+    43.33,
+    67.84,
+    77.02
+  ],
+  "alphaInspection": {
+    "fullyTransparentPixels": 9678,
+    "alpha1PixelCount": 85,
+    "alphaSemiPixels": 6458,
+    "alphaOpaquePixels": 248,
+    "bboxAbove16": [
+      8,
+      19,
+      119,
+      113
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 85,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        285,
+        60,
+        1015,
+        700
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

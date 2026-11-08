@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+  "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alphaMinMax": [
+    0,
+    254
+  ],
+  "alphaZero": 649752,
+  "alphaOne": 18415,
+  "semiTransparent": 923112,
+  "alphaOpaque": 0,
+  "bboxAlpha16": [
+    16,
+    25,
+    999,
+    1504
+  ],
+  "marginsAlpha16": [
+    16,
+    25,
+    25,
+    32
+  ],
+  "bboxAlpha1": [
+    14,
+    24,
+    1002,
+    1506
+  ],
+  "edgeAlpha16Pixels": 0,
+  "sourcePixelsModified": false,
+  "alphaHygiene": "none",
+  "qaViews": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/xun-yu-master-v1-light.png",
+      "sha256": "2ed728b8702d04dd6da071af28e8f11e3af732d8af5f4ee744a41debc0a1c48d",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        245,
+        239,
+        222,
+        255
+      ],
+      "qaOnly": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/xun-yu-master-v1-dark.png",
+      "sha256": "87baa4640fe2f368855e932dd6f81e0e1b8d9aa554e44bf1f6c1eb343f26aabc",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        28,
+        43,
+        48,
+        255
+      ],
+      "qaOnly": true
+    }
+  ]
+}

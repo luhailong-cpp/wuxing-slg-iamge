@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+  "sha256": "d3e9652984940f22bfa60a2a5adae065839e048ca6d9539e5db8a581bd9950db",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 590,
+  "height": 530,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "01-metal",
+  "element": "metal",
+  "variant": "face-native",
+  "identityPreservedFromMaster": "silver bob and cowlick, gold flower hairpiece, jade earrings; ivory/jade/gold robe; metal talisman and lotus implement in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "record": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "recordSha256": "210e71a0e43dd334acffe30dbed6f8f946ff5f05a509be0665e6e69b18cb4f74"
+    }
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    205,
+    55,
+    795,
+    585
+  ],
+  "resizeTo": null,
+  "resizeScaleNominal": null,
+  "actualScaleXY": null,
+  "resizeMethod": null,
+  "paddingCanvas": null,
+  "pasteOffsetTopLeft": null,
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    368,
+    250,
+    618,
+    480
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 122470,
+    "alpha1PixelCount": 10817,
+    "alphaSemiPixels": 190230,
+    "alphaOpaquePixels": 0,
+    "bboxAbove16": [
+      0,
+      20,
+      590,
+      530
+    ],
+    "edgePixelsAbove16": [
+      0,
+      190,
+      487,
+      177
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 10817,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_CROP",
+      "value": [
+        205,
+        55,
+        795,
+        585
+      ],
+      "threshold": "face/hair identity must remain; lower body/props intentionally cropped",
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Portrait is a rectangular view through the existing master. Bottom shoulders, clothing, braid/prop edges may end at the crop boundary; no new art or mask is painted."
+    },
+    {
+      "id": "RECTANGULAR_PORTRAIT_PROP_FRAGMENT",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-face-native.png",
+      "message": "Rectangular source view includes a partial same-hero implement or shield at a side/bottom edge. No erase/mask was applied. It is a portrait composition limitation, not neighbor contamination or a production-approved standalone head cutout."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

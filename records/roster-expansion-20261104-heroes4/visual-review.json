@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "reviewedAtUtc": "2026-11-06T09:02:32.599754+00:00",
+  "ids": [
+    "cao-ren",
+    "cheng-yu",
+    "xun-you",
+    "zhang-lu"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261104-heroes4/four-generals-ui-light.png",
+      "sha256": "d672c5baa6c56ce950e70ab19a1e6c56fa797598382051b468e378ba07c7baed"
+    },
+    {
+      "file": "records/roster-expansion-20261104-heroes4/four-generals-ui-dark.png",
+      "sha256": "f65684976f1808cb6cff6dc2035330cd13b7d94bf004c036740a9bef7c9f53c1"
+    }
+  ],
+  "scope": "Internal review of original transparent full figures and UI card/portrait crops. User and in-game acceptance remain pending.",
+  "notes": [
+    "All four full-card silhouettes retain their signature props.",
+    "Face crops intentionally exclude parts of headwear or equipment. Cheng Yu and Zhang Lu are checked against the full-card version.",
+    "Alpha edge and native margin advisories remain in the export manifest."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "status": "no generation calls; no source sheets exist",
+  "preparedAt": "2026-10-29T06:43:12.951Z",
+  "plans": [
+    {
+      "id": "idle",
+      "prompt": "D:/work/wuxing-slg-iamge/prompts/01-率土之滨/troop-frames-20261029-r3/water/water-idle-sheet-v1.actualprompt.txt",
+      "request": "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3/water/water-idle-sheet-v1.planned-request.json",
+      "source": null,
+      "submitted": false
+    },
+    {
+      "id": "attack",
+      "prompt": "D:/work/wuxing-slg-iamge/prompts/01-率土之滨/troop-frames-20261029-r3/water/water-attack-sheet-v1.actualprompt.txt",
+      "request": "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3/water/water-attack-sheet-v1.planned-request.json",
+      "source": null,
+      "submitted": false
+    },
+    {
+      "id": "hurt",
+      "prompt": "D:/work/wuxing-slg-iamge/prompts/01-率土之滨/troop-frames-20261029-r3/water/water-hurt-sheet-v1.actualprompt.txt",
+      "request": "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3/water/water-hurt-sheet-v1.planned-request.json",
+      "source": null,
+      "submitted": false
+    },
+    {
+      "id": "defeat",
+      "prompt": "D:/work/wuxing-slg-iamge/prompts/01-率土之滨/troop-frames-20261029-r3/water/water-defeat-sheet-v1.actualprompt.txt",
+      "request": "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3/water/water-defeat-sheet-v1.planned-request.json",
+      "source": null,
+      "submitted": false
+    }
+  ],
+  "skillRead": "C:/Users/luyua/.codex/skills/generate2dsprite/SKILL.md",
+  "spriteForgeReference": "rare character sheet explicitly wanted; user-route-override",
+  "exporter": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+  "guidePrepared": false,
+  "independentGenerationMayResumeByRoot": true
+}

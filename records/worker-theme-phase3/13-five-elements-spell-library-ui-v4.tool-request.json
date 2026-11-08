@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T19:06:09.675Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Design a NEW full landscape Daoist hand-painted game UI, 1916x821 wide canvas. The first two attached images are the style references: jade green, warm ivory silk/paper, warm fine gold rounded cloud frames, gorgeous but restrained pavilion/flower backdrop, crisp readable Chinese. Attached third image contains five original spell motifs only. Do NOT reproduce its sheet layout. Design the functional screen described below from scratch.\n\nImportant layout rule: small free-standing spell icons inside large ivory cards, NO rectangular image viewport or clipping mask. Each motif is ONLY about 120 pixels tall, displayed whole on ivory paper; include visible ivory space at least 15 pixels BELOW every complete icon BEFORE its Chinese name. Do not fill the card with an oversized circular image. Bottom FIRE icon must include both tablet tips and complete bottom flame curl; bottom EARTH icon must include complete shield and all mountain/cloud base. The five actual whole compact icons are more important than big zoomed art. No art goes behind a name strip. Do not crop any motif. No people or rarity letters/stars.\n\nTop centered jade title 五行术法库, back arrow upper-left, X upper-right. Left category sidebar width about260px with five buttons 全部 (selected jade), 攻击, 恢复, 辅助, 防御. Center width about850px: top 术法 5 / 200 and 筛选 button. Below 3-column x2-row ivory cards, each roughly270px wide x270px tall. Card art top zone about160px high, whole motif120px high centered with padding; name on separate line below art, category and learning count on final two lines. Top row: selected 金 铸锋符阵, motif silver engraved ruler with gold/jade array compass and one small ivory crescent, 攻击, 可学习 3 / 3; 木 青蘅回春, bamboo leaf enclosing jade seed and two roots, 恢复, 可学习 2 / 3; 水 沧澜流环, blue jade ring with wave and droplet, 辅助, 可学习 2 / 2. Bottom row: 火 焰翎符火, two vermilion tablets and one curling flame, 攻击, 可学习 1 / 2; 土 玄垣山御, ochre mountain seal against jade/ivory shield and small cloud base, 防御, 可学习 1 / 3; muted empty sixth card + 暂无术法. Each small element badge in top-left corner of card. Selected METAL card jade/gold border and check. Card names and counts large, clear and exact.\n\nRight selected detail pane about350px wide: larger WHOLE METAL ruler/compass motif in a round gold frame; name 铸锋符阵; ivory text rows 主动 and 敌军单体; large jade 查看详情 button. Bottom bar scroll icon 术法经验 200 and small plus button, small muted 演示配置, centered hint 选择术法查看详情, right ivory 拆解术法 button. All controls inside screen, all Chinese unobstructed. No product name or official rules. Make this look like the same polished game UI family as mail/team, with airy generous ivory space around the complete small icons rather than large cropped paintings.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "demoValuesAreGameplayContract": false,
+  "staticDirectionOnly": true,
+  "replacesCandidate": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v3.png",
+  "repairReason": "v3 retained lower icon clipping; new construction uses small freestanding motifs without a viewport mask. Old13 functional source had actually been viewed; only primary style and actual skill-sheet art are attached to this fresh design.",
+  "userApproved": false,
+  "clientIntegrated": false
+}

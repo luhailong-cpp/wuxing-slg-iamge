@@ -1,0 +1,99 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/zhang-liao-avatar-128.png",
+  "sha256": "a965637c149cb8732ae31ef14b54b05b0f9bbd2e34b7ad1aa4c569629bab6d24",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "zhang-liao",
+  "displayName": "张辽",
+  "variant": "avatar-128",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png",
+      "sha256": "0b74b74d3e088ad79dcc8224451d9eedc939b336b40448847a290754502ce2a4",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/zhang-liao-master-v1.png.generation.json",
+      "recordSha256": "d27fcc99316b19749fd2fc972446c0bd1958453ad9abe3cfb6f808cb9612ec6d"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    300,
+    120,
+    790,
+    675
+  ],
+  "resizeTo": [
+    99,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    14,
+    8,
+    113,
+    120
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 8557,
+    "alphaOne": 105,
+    "alphaSemi": 7573,
+    "alphaOpaque": 254,
+    "bboxAlpha16": [
+      14,
+      10,
+      111,
+      120
+    ],
+    "marginsAlpha16": [
+      14,
+      10,
+      17,
+      8
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    490,
+    425,
+    715,
+    605
+  ],
+  "faceRoiOutputApprox": [
+    52.388,
+    69.55,
+    97.847,
+    105.874
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

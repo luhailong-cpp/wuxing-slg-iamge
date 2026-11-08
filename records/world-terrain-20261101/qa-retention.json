@@ -1,0 +1,12 @@
+{
+  "clientDate": "2026-11-02",
+  "retained": [
+    "grass-seamless-v1.png source and engine copy",
+    "repeat-join-native.png exact source pixels across both boundaries",
+    "repeat-3x3-overview.png reviewed overview",
+    "seam-review.json numeric and visual record"
+  ],
+  "removed": "repeat-3x3-native.png",
+  "reason": "Redundant9-copy processing image; exact seam crop and current source retained; no unique art removed",
+  "reproducibleFrom": "check-seams.py in-memory 3x3 repeat"
+}

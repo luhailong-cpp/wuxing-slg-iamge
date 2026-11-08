@@ -1,0 +1,86 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xiahou-yuan-bust-native.png",
+  "sha256": "1023e763752768771bf59697ab153f5efef0cd50fca8b2b521ded17d16003584",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "xiahou-yuan",
+  "displayName": "夏侯渊",
+  "variant": "bust-native",
+  "width": 910,
+  "height": 945,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png",
+      "sha256": "1202c36c313d741e44026c2eb2492b72e11e43b310ae9aefd22fae6bef51be50",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xiahou-yuan-master-v2.png.generation.json",
+      "recordSha256": "b88d2d6920ec2263e9fb63b68655950554ae2bac2b9e9ee8c9adb8bd8ed33ffe"
+    }
+  ],
+  "operation": "native_rectangle_crop",
+  "cropBox": [
+    60,
+    95,
+    970,
+    1040
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alphaZero": 302577,
+    "alphaOne": 13192,
+    "alphaSemi": 557373,
+    "alphaOpaque": 0,
+    "bboxAlpha16": [
+      2,
+      0,
+      902,
+      945
+    ],
+    "marginsAlpha16": [
+      2,
+      0,
+      8,
+      0
+    ],
+    "edgeAlpha16Pixels": 879
+  },
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    488,
+    388,
+    686,
+    555
+  ],
+  "faceRoiOutputApprox": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

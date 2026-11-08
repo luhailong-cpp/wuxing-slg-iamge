@@ -1,0 +1,64 @@
+{
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/dian-wei-master-v1.png",
+  "sha256": "78134f11beea03f731f15a455e508d0e0bd272a29478d20dcf411d55d5c41da0",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alphaMinMax": [
+    0,
+    254
+  ],
+  "alphaZero": 914013,
+  "alphaOne": 23935,
+  "semiTransparent": 658851,
+  "alphaOpaque": 0,
+  "bboxAlpha16": [
+    24,
+    202,
+    1005,
+    1336
+  ],
+  "marginsAlpha16": [
+    24,
+    202,
+    19,
+    200
+  ],
+  "bboxAlpha1": [
+    19,
+    200,
+    1007,
+    1338
+  ],
+  "edgeAlpha16Pixels": 0,
+  "sourcePixelsModified": false,
+  "alphaHygiene": "none",
+  "qaViews": [
+    {
+      "file": "records/roster-expansion-20261029-wei1/dian-wei-master-v1-light.png",
+      "sha256": "df7d2178ce07282a6dc6bf37bd30164e0995aa6ca421831d1b457f8a77f6d7a7",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        245,
+        239,
+        222,
+        255
+      ],
+      "qaOnly": true
+    },
+    {
+      "file": "records/roster-expansion-20261029-wei1/dian-wei-master-v1-dark.png",
+      "sha256": "982e896be22c229fee3db00ffed289bed9ec56664f28277f1dcc3b2d8f1b85c3",
+      "operation": "native size source alpha composite on QA background",
+      "backgroundRGBA": [
+        28,
+        43,
+        48,
+        255
+      ],
+      "qaOnly": true
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-29T11:48:20.116662+00:00",
+  "reviewer": "check_materials",
+  "basis": "Six native tool outputs actually viewed, four light/dark card/avatar boards and all six native portrait-window QA boards actually opened after export.",
+  "viewedImages": [
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/cards-light.png",
+      "sha256": "94a9c90bbaee7e7588d42120a187f60d013efc575bade45a5ac1365cf4d98c67",
+      "width": 960,
+      "height": 1000
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/avatars-light.png",
+      "sha256": "a77943667794f39c013c5f89f9d3615019f0edc3c765b5cb8bc490c7106b75f8",
+      "width": 960,
+      "height": 920
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/cards-dark.png",
+      "sha256": "6f877dfd8ed294e5cd4ff0af408fdc47b67711bfc0bc188f101aa9cdcb84b725",
+      "width": 960,
+      "height": 1000
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/avatars-dark.png",
+      "sha256": "c4c135ea6ceedb1a889431ff8820869adef417354449185b28e62ba98871b268",
+      "width": 960,
+      "height": 920
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/ma-chao-native-crops-light.png",
+      "sha256": "8c33fc58088d9fbe7180e1f988bc35ddc0431c048f75fdb309b9cb8a6ba6e4b0",
+      "width": 1330,
+      "height": 950
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/huang-zhong-native-crops-light.png",
+      "sha256": "d14d1ccd3d6e1299cf23c1179ed50b781d225aa09b504d66cc6e21836ab74ab1",
+      "width": 1405,
+      "height": 990
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/wei-yan-native-crops-light.png",
+      "sha256": "271ca70992db7b2d18d0ab0901fa56de7e7db6a1a12c49a429c9963c6e007c5b",
+      "width": 1355,
+      "height": 1010
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/pang-tong-native-crops-light.png",
+      "sha256": "8f0c3c23aa23dbc82dc7feeb04de4d17c1427de0d8cf8b16fc4b2af2b0853c1d",
+      "width": 1495,
+      "height": 950
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/jiang-wei-native-crops-light.png",
+      "sha256": "abf369d4f69a0517d610f6da7d2e9bfc722796b84006e779360eaba9ad6dd143",
+      "width": 1330,
+      "height": 990
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/xu-shu-native-crops-light.png",
+      "sha256": "f02b9ba58b9a6bf306acecee9e77975616e4d64d948b636695c701805dc80f54",
+      "width": 1350,
+      "height": 990
+    }
+  ],
+  "sources": [
+    {
+      "generalId": "ma-chao",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/ma-chao-master-v1.png",
+      "sha256": "8c42e6a221e744c3875c5d6ccf68fa898b3c88d41e2853e445c5625dcfd8d03a",
+      "visualOutcome": "PASS_WITH_WARNINGS_TECHNICAL_CANDIDATE",
+      "observations": [
+        "Silver helmet and ivory plume, youthful clean-shaven angular face; full spear point/butt and both boots visible.",
+        "Large plume differs from requested short crest; retained as artistic candidate. Face window intentionally clips plume."
+      ],
+      "fullBodyAndHeldEquipmentVisible": true,
+      "noObviousRectangularBackgroundOnViewedLightDarkBoards": true,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 28101,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            21,
+            34,
+            21,
+            76
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ]
+    },
+    {
+      "generalId": "huang-zhong",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/huang-zhong-master-v1.png",
+      "sha256": "18316e282fdb364e749d1c43a9b071ee71ab4dbf8412e5a2ee0aded7912ca4bf",
+      "visualOutcome": "PASS_WITH_WARNINGS_TECHNICAL_CANDIDATE",
+      "observations": [
+        "White beard/brows and weathered broad face; bow, string, quiver and both boots visible.",
+        "Face window includes beard but clips upper plume and some shoulder/quiver. Bow is equipment, not a troop-class label."
+      ],
+      "fullBodyAndHeldEquipmentVisible": true,
+      "noObviousRectangularBackgroundOnViewedLightDarkBoards": true,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 18511,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            45,
+            143,
+            38,
+            94
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ]
+    },
+    {
+      "generalId": "wei-yan",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/wei-yan-master-v1.png",
+      "sha256": "48feb538691b4722f4ab2a0fee6c23be7c4c91cbaa4cda017023274b111f9c37",
+      "visualOutcome": "PASS_WITH_WARNINGS_TECHNICAL_CANDIDATE",
+      "observations": [
+        "Broad mature face, heavy eyebrows and shorter black beard; broad dao complete in full card.",
+        "Returned helmet has tall red plume instead of requested low flat ridge; distinct candidate retained. Face window clips plume."
+      ],
+      "fullBodyAndHeldEquipmentVisible": true,
+      "noObviousRectangularBackgroundOnViewedLightDarkBoards": true,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 13135,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            65,
+            103,
+            27,
+            95
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ]
+    },
+    {
+      "generalId": "pang-tong",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/pang-tong-master-v1.png",
+      "sha256": "fff403fc5bad2ce464729d31d76a23cebe7e2d71ac95d63d063eb17bafd8e82b",
+      "visualOutcome": "PASS_WITH_WARNINGS_TECHNICAL_CANDIDATE",
+      "observations": [
+        "Wide rounded face/nose, uneven expressive brows and asymmetric smile; cloth cap, gourd staff, bamboo scroll and boots visible.",
+        "Appearance is artistic interpretation; not a historical fact or exact official card variant."
+      ],
+      "fullBodyAndHeldEquipmentVisible": true,
+      "noObviousRectangularBackgroundOnViewedLightDarkBoards": true,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 15956,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            60,
+            196,
+            44,
+            109
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ]
+    },
+    {
+      "generalId": "jiang-wei",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png",
+      "sha256": "853a50ac3a2ec9a6ac8028eb23b3ff67434c9294e40af241e144ca2efadd5b18",
+      "visualOutcome": "PASS_WITH_WARNINGS_TECHNICAL_CANDIDATE",
+      "observations": [
+        "Clean-shaven serious oval face, compact bun/crown and controlled two-hand diagonal spear; full weapon and feet visible.",
+        "Shares the common youthful chibi eye language with Ma Chao/Zhao Yun; crown, hair, expression and silhouette distinguish this design. Not proof against all future roster likeness collisions."
+      ],
+      "fullBodyAndHeldEquipmentVisible": true,
+      "noObviousRectangularBackgroundOnViewedLightDarkBoards": true,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 17717,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            38,
+            101,
+            16,
+            74
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ]
+    },
+    {
+      "generalId": "xu-shu",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/xu-shu-master-v1.png",
+      "sha256": "e48e45533bce8c8d83873cbf0cec16d0db1dfdf4cfe4b38a38789af7da80bdd1",
+      "visualOutcome": "PASS_WITH_WARNINGS_TECHNICAL_CANDIDATE",
+      "observations": [
+        "Long calm face, low square cap, closed manuscript in both hands, sheathed sword and boots visible.",
+        "Returned beard has a small pointed chin tuft despite prompt requesting jaw stubble without a goatee. Retained as candidate; future art direction may refine it."
+      ],
+      "fullBodyAndHeldEquipmentVisible": true,
+      "noObviousRectangularBackgroundOnViewedLightDarkBoards": true,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 15349,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            106,
+            97,
+            71,
+            57
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ]
+    }
+  ],
+  "conclusions": [
+    "All six full-body masters and the card-full derivatives retain complete visible body/held equipment within the canvas.",
+    "Six designs differ by age, face/eyebrow/beard treatment, cap/helmet and equipment silhouette, beyond color alone; this remains an artistic candidate judgment.",
+    "Portrait crops are intentional rectangular windows, not isolated-head drawings. Long plume, weapon, garment and hair may cross window edges.",
+    "Source alpha1 residue and max alpha254 retained without erasing; no obvious rectangle seen on current light/dark QA backgrounds."
+  ],
+  "limitations": [
+    "No user final approval, no Unity import/run/GPU verification, no animation.",
+    "Six named artistic designs are not all official cards, season variants or a complete Shu/Three Kingdoms roster.",
+    "All six requested 10% source margins were not reached; measured margins recorded. No alpha>32 pixels on source canvas boundary.",
+    "No individual elemental affiliation, original archer/cavalry/infantry class, card stars, costs, skills or stats assigned."
+  ],
+  "status": "visual_candidate_with_warnings",
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png",
+  "sha256": "3851757119075d897f0c20eeabf6f9e0afba76ca98465b1373a9d3ae0b7641cb",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png",
+    "sha256": "2aa75743bc4e24d81b919bcfb3cd1405317bd669b91c21cd0988d07de6dc0c1a",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png.generation.json"
+  },
+  "operation": "native_crop_then_integer_translate_paste_on_transparent_fixed_canvas",
+  "cropBox": [
+    444,
+    0,
+    887,
+    444
+  ],
+  "cropBoxConvention": "left,top,right-exclusive,bottom-exclusive",
+  "ownershipMethod": "nominal4x2 half-up boxes, manually inspected complete contours and gaps",
+  "sourceNativeSize": [
+    1774,
+    887
+  ],
+  "sourceCropSize": [
+    443,
+    444
+  ],
+  "sourceAnchorPx": [
+    671,
+    270
+  ],
+  "sourceAnchorLocalPx": [
+    227,
+    270
+  ],
+  "sourceAnchorMethod": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+  "sourceAnchorUncertainty": "human visual estimate; approximately +/-3px, candidate only",
+  "pasteOffsetPx": [
+    223,
+    180
+  ],
+  "offsetPx": [
+    223,
+    180
+  ],
+  "targetAnchorPx": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "exportSize": [
+    900,
+    900
+  ],
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "alphaHygiene": "none",
+  "pixelIdentityAgainstSourceCrop": true,
+  "perFrameBboxNormalization": false,
+  "sourceAnchorMappedToTargetResidualPx": [
+    0,
+    0
+  ],
+  "previousExport": null,
+  "createdAtUtc": "2026-10-27T17:28:31.758688+00:00"
+}

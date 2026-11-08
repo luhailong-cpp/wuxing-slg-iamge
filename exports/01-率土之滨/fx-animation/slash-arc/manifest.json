@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "assetId": "slash-arc",
+  "assetType": "generated_eight_phase_one_shot_candidate",
+  "status": "registered_candidate_pending_motion_and_user_review",
+  "artSource": "host_image",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png",
+  "sourceSha256": "da618f485d3cbd050c69cd5ea54a509fe8c12d41557f390c84de429d18e77e34",
+  "sourceRecord": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png.generation.json",
+  "nativeSheetSize": [
+    1774,
+    887
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "order": "row-major",
+    "ownershipBoxes": [
+      [
+        0,
+        0,
+        444,
+        444
+      ],
+      [
+        444,
+        0,
+        887,
+        444
+      ],
+      [
+        887,
+        0,
+        1331,
+        444
+      ],
+      [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      [
+        0,
+        444,
+        444,
+        887
+      ],
+      [
+        444,
+        444,
+        887,
+        887
+      ],
+      [
+        887,
+        444,
+        1331,
+        887
+      ],
+      [
+        1331,
+        444,
+        1774,
+        887
+      ]
+    ],
+    "nominalGridAdjusted": false
+  },
+  "frames": [
+    {
+      "index": 0,
+      "phase": "ignition",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png",
+      "sha256": "ea1218414baa62192062c88cfe4e90b0933f408048de281f879bca0ddd887b32",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        243,
+        300
+      ],
+      "cropBox": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "pasteOffsetPx": [
+        207,
+        150
+      ]
+    },
+    {
+      "index": 1,
+      "phase": "short-curve",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png",
+      "sha256": "85139dae186315e4500d468e46475025bb011238df69d1964c9d6e9dd2b748fc",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        667,
+        300
+      ],
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "pasteOffsetPx": [
+        227,
+        150
+      ]
+    },
+    {
+      "index": 2,
+      "phase": "growing-crescent",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png",
+      "sha256": "78673bf0f2b54de718ce7a829b3f3dfcdfc7d83101561cc4beccd77cb672a06d",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1110,
+        300
+      ],
+      "cropBox": [
+        887,
+        0,
+        1331,
+        444
+      ],
+      "pasteOffsetPx": [
+        227,
+        150
+      ]
+    },
+    {
+      "index": 3,
+      "phase": "expansion",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png",
+      "sha256": "afc28f1389c353e967c35040537475fccc56bb97833814d0b2e093cb5a7b6155",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1552,
+        300
+      ],
+      "cropBox": [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      "pasteOffsetPx": [
+        229,
+        150
+      ]
+    },
+    {
+      "index": 4,
+      "phase": "peak",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png",
+      "sha256": "9fe541508e6c3edd09679bd442d5b440047a69d7ae413ef821a03899d3f05741",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        243,
+        675
+      ],
+      "cropBox": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "pasteOffsetPx": [
+        207,
+        219
+      ]
+    },
+    {
+      "index": 5,
+      "phase": "decay",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png",
+      "sha256": "4e2034a20ef87268a333a4c9132f770a09525f91f2dd42d45c839e891ca61305",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        670,
+        675
+      ],
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "pasteOffsetPx": [
+        224,
+        219
+      ]
+    },
+    {
+      "index": 6,
+      "phase": "residual-wisp",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png",
+      "sha256": "59970c00ecee6887bb167a2ae289b4c75b0bfe3cb86e1ae5bc441dcd64788920",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1108,
+        675
+      ],
+      "cropBox": [
+        887,
+        444,
+        1331,
+        887
+      ],
+      "pasteOffsetPx": [
+        229,
+        219
+      ]
+    },
+    {
+      "index": 7,
+      "phase": "last-spark",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png",
+      "sha256": "e0d00de7459d8cdf01c708b08e505831a56d80678721ec92c22dde5f0aac5cbb",
+      "record": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1545,
+        675
+      ],
+      "cropBox": [
+        1331,
+        444,
+        1774,
+        887
+      ],
+      "pasteOffsetPx": [
+        236,
+        219
+      ]
+    }
+  ],
+  "frameCount": 8,
+  "animations": 1,
+  "animation": {
+    "id": "slash-arc",
+    "durationSeconds": 0.8,
+    "frameDurationSeconds": 0.1,
+    "loop": false,
+    "events": [],
+    "timingStatus": "demonstration, not bound to combat events"
+  },
+  "durationSeconds": 0.8,
+  "frameDurationSeconds": 0.1,
+  "loop": false,
+  "fixedCanvasSize": [
+    900,
+    900
+  ],
+  "anchorPx": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "registration": {
+    "method": "manual semantic FX origin; exact native crop then integer translation and transparent padding",
+    "sourceAnchorBasis": "人工逐格查看微火花中心/斩击弧的作用旋转中心；固定斩击中心，不按bbox自动对齐；微火花作为起止相位定位。",
+    "allSourceAnchorsMappedToTargetPx": [
+      450,
+      450
+    ],
+    "transformResidualPx": 0,
+    "visualOriginUncertaintyPx": 3,
+    "perFrameBboxNormalization": false,
+    "resampled": false,
+    "alphaEdited": false
+  },
+  "qa": {
+    "manualReview": "records/01-率土之滨/fx-animation/slash-arc-review-20261027.json",
+    "skillSpillReport": "records/01-率土之滨/fx-animation/slash-arc-sheet-v2.spill-qc.json",
+    "publishedWarningsAndFailures": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 127930,
+          "detached_components": 4
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "nominalGridVisibleCrossingResolvedByManualOwnership": false,
+    "customOwnershipNoVisibleClippingOrNeighborIntrusion": true,
+    "lightDarkReviewed": true,
+    "registeredPreviewReviewed": true,
+    "smoothAnimationFinallyApproved": false,
+    "sourceRawReportRelativeNamesBasis": "original tool work directory, see manual review",
+    "finalSourceCropVisibleEdgePixelCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourcePixelsPreservedVerified": true
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "battleEventsImplemented": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "createdAtUtc": "2026-10-27T17:28:31.334453+00:00"
+}

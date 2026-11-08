@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-bust-native.png",
+  "sha256": "a7cdaa3232ae5bca80a51534ced9adb686654966bcbfc684887042a091c660b0",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+    "sha256": "18608bcbf1414b7349f7278beb261b32af7d118b365edb8c95384670df596f4b",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-face-native.png",
+  "sha256": "857cca6fc814abe6ea259fc507861fffcc31269b5d5f42936c5b7e01ced8ecde",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 445,
+  "height": 780,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "guan-yu",
+  "displayName": "关羽",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/08-guan-yu-v1.png",
+      "sha256": "dc8bce0cb65c49a604683c0eedb5b6c9e5e69af1278b5a7e040044c14ec75284",
+      "record": "designs/01-率土之滨/characters/08-guan-yu-v1.png.generation.json",
+      "recordSha256": "663f16a97320181f27d6074855871cecde76eba92765b472f1b30c02a23e0c8e"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    325,
+    250,
+    770,
+    1030
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    445,
+    780
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    410,
+    450,
+    670,
+    680
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 61245,
+    "alpha1Pixels": 5244,
+    "semiTransparentPixels": 285855,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      17,
+      445,
+      780
+    ],
+    "edgePixelsAbove32": [
+      495,
+      0,
+      434,
+      445
+    ],
+    "marginsAbove32": [
+      0,
+      17,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-face-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 5244,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-face-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        325,
+        250,
+        770,
+        1030
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/guan-yu-face-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

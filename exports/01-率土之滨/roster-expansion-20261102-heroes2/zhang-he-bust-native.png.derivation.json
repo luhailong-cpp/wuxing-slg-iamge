@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/zhang-he-bust-native.png",
+  "sha256": "2c34fc2e8680d475c536017ffa3ceb3a893600fc49749b31c77751b10e6a590d",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhang-he-master-v1.png",
+    "sha256": "1097fb2932efa68f1415f4048cf1996fe722cef6567e5c3e5f94525f366e051b",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhang-he-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

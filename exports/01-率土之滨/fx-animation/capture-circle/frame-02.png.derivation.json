@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/fx-animation/capture-circle/frame-02.png",
+  "sha256": "1440c384e92f1d44f4ba61dabc87355c9fe341a8b9f4825bf2b0a845600fb24b",
+  "createdAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "width": 900,
+  "height": 900,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "operation": "native_crop_then_integer_translate_on_transparent_canvas",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png",
+    "sha256": "1fcaa2e9f656d4b857e3cbc8958287970c014a0caa6f161e5043206cf3ba5ec1",
+    "generationRecord": "designs/01-率土之滨/assets/fx-animation/capture-circle-sheet-v2.png.generation.json"
+  },
+  "cropBox": [
+    887,
+    0,
+    1330,
+    444
+  ],
+  "sourceAnchorPxGlobal": [
+    1104,
+    330
+  ],
+  "sourceAnchorPxWithinCrop": [
+    217,
+    330
+  ],
+  "pasteOffset": [
+    233,
+    210
+  ],
+  "outputAnchorPxTopLeft": [
+    450,
+    540
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.6
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "keyed": false,
+  "sourcePixelsExactlyPreserved": true,
+  "perFrameBboxNormalization": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      253
+    ],
+    "zeroPixels": 707887,
+    "alpha1Pixels": 39986,
+    "semiTransparentPixels": 102113,
+    "opaquePixels": 0,
+    "bboxAbove1": [
+      259,
+      298,
+      650,
+      645
+    ],
+    "bboxAbove16": [
+      266,
+      436,
+      628,
+      637
+    ],
+    "sourceCropEdgeMaxAlpha": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "sourceCropEdgeAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "registeredCanvasEdgeAlphaMax": 0,
+    "alphaAtSharedAnchor": 0
+  },
+  "phase": "ring complete and short pillars",
+  "timing": {
+    "startSeconds": 0.2,
+    "durationSeconds": 0.1,
+    "loop": false,
+    "demonstrationOnly": true,
+    "gameplayEvents": []
+  },
+  "status": "registered_FX_phase_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

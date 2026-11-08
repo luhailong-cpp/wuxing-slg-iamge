@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+  "sha256": "2267c8fba4978c4f3f707e3a93368e35610a29ccd50fe0c1ceb6125ba9567287",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 398,
+  "height": 413,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "route": "native_crop_from_existing_host_image",
+  "operation": "crop",
+  "cropBox": [
+    430,
+    841,
+    828,
+    1254
+  ],
+  "cropBoxConvention": "left,top,right,bottom; right/bottom exclusive",
+  "ownershipMethod": "manually inspected individual subject and transparent gutters, not equal-grid splitting",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+    "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd",
+    "generationRecord": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png.generation.json",
+    "sourceNativeSize": [
+      1254,
+      1254
+    ],
+    "generatedAt": null,
+    "originalReceiptEvidenceGapPreserved": true
+  },
+  "resampled": false,
+  "repainted": false,
+  "rekeyed": false,
+  "pixelIdentityAgainstSourceCrop": true,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixelCount": 76951,
+    "alpha1PixelCount": 4420,
+    "semiTransparentPixelCount": 87317,
+    "opaquePixelCount": 106,
+    "contentBoxAlphaAbove1": [
+      19,
+      29,
+      388,
+      345
+    ],
+    "edgeMaxAlpha": {
+      "top": 1,
+      "bottom": 0,
+      "left": 1,
+      "right": 1
+    },
+    "edgePixelsAlphaAbove1": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "contentMarginsAlphaAbove1": {
+      "left": 19,
+      "top": 29,
+      "right": 10,
+      "bottom": 68
+    },
+    "alphaEdited": false
+  },
+  "anchor_px": [
+    203.5,
+    345
+  ],
+  "anchorNormalized": [
+    0.5113065326633166,
+    0.8353510895883777
+  ],
+  "anchorMethod": "bottom_center_of_alpha_above_1_content_box; provisional map placement anchor",
+  "static": true,
+  "animationFrameCount": 0,
+  "animations": [],
+  "qa": {
+    "cropIntegrity": "pass",
+    "significantAlphaThreshold": 1,
+    "minimumSignificantContentMarginPx": 8,
+    "visibleAdjacentSubject": false,
+    "subjectContoursComplete": true,
+    "lightDarkBackgroundVisualReview": "pass_for_static_candidate",
+    "visualReviewBackgroundsRGB": [
+      [
+        245,
+        241,
+        230
+      ],
+      [
+        28,
+        38,
+        44
+      ]
+    ],
+    "warnings": [
+      {
+        "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+        "value": 4420,
+        "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+        "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+        "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+      },
+      {
+        "id": "NARROW_NATIVE_GUTTER",
+        "value": 10,
+        "threshold": "16px preferred, 8px minimum for this native-crop integrity check",
+        "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+        "message": "Significant content is intact but the native sheet limits spare margin; no padding/resizing added."
+      }
+    ]
+  },
+  "status": "native_static_crop_candidate_pending_user_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "seamlessTilingVerified": false,
+  "collisionVerified": false,
+  "navigationVerified": false
+}

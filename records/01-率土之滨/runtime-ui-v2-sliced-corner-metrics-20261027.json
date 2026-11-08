@@ -1,0 +1,1189 @@
+{
+  "method": "Compare4 unscaled128x90 render corners against same-pipeline500x204 render; metric does NOT test side-center ornament deformation or prove visual acceptance",
+  "items": [
+    {
+      "assetId": "button-primary-normal",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-normal",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-pressed",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-pressed",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-disabled",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-disabled",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-hover",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-primary-hover",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-normal",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-normal",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-pressed",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-pressed",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-disabled",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-disabled",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-hover",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "button-secondary-hover",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-selected",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-selected",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-normal",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-normal",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-locked",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-locked",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-notification",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "tab-notification",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-normal",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-normal",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-selected",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-selected",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-disabled",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-disabled",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-empty",
+      "target": [
+        900,
+        204
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    },
+    {
+      "assetId": "card-row-empty",
+      "target": [
+        500,
+        300
+      ],
+      "fixedCorner128x90ComparisonAgainstOriginalRender": [
+        {
+          "corner": "TL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "TR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BL",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        },
+        {
+          "corner": "BR",
+          "maxChannelDiff": 0,
+          "meanAbsChannelDiff": 0.0,
+          "visibleMeanAbsChannelDiff": 0.0,
+          "pixelsAnyChannelDiffAbove2": 0
+        }
+      ]
+    }
+  ]
+}

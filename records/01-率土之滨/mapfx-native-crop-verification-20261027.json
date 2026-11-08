@@ -1,0 +1,747 @@
+{
+  "verifiedAtUtc": "2026-10-27T13:35:45.250373+00:00",
+  "scope": "final read-only verification of written 41 export PNGs/records",
+  "checked": 41,
+  "failed": [],
+  "alphaAcceptance": "Requires genuine alpha-zero and visible subject alpha; fully opaque 255 is not required for naturally semitransparent FX.",
+  "assets": [
+    {
+      "id": "main-city",
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "branch-city",
+      "file": "exports/01-率土之滨/map-kit/cities/branch-city.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "garrison-city",
+      "file": "exports/01-率土之滨/map-kit/cities/garrison-city.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "fortress",
+      "file": "exports/01-率土之滨/map-kit/cities/fortress.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "military-camp",
+      "file": "exports/01-率土之滨/map-kit/cities/military-camp.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "county-city",
+      "file": "exports/01-率土之滨/map-kit/cities/county-city.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "commandery-city",
+      "file": "exports/01-率土之滨/map-kit/cities/commandery-city.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "provincial-capital",
+      "file": "exports/01-率土之滨/map-kit/cities/provincial-capital.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "capital-city",
+      "file": "exports/01-率土之滨/map-kit/cities/capital-city.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "city-hall",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-hall.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "training-ground",
+      "file": "exports/01-率土之滨/map-kit/buildings/training-ground.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "recruitment-hall",
+      "file": "exports/01-率土之滨/map-kit/buildings/recruitment-hall.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "warehouse",
+      "file": "exports/01-率土之滨/map-kit/buildings/warehouse.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "residence",
+      "file": "exports/01-率土之滨/map-kit/buildings/residence.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "market",
+      "file": "exports/01-率土之滨/map-kit/buildings/market.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "workshop",
+      "file": "exports/01-率土之滨/map-kit/buildings/workshop.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "wall-segment",
+      "file": "exports/01-率土之滨/map-kit/buildings/wall-segment.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "city-gate",
+      "file": "exports/01-率土之滨/map-kit/buildings/city-gate.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "bridge",
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "enemy-camp",
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "damaged-warehouse",
+      "file": "exports/01-率土之滨/map-kit/buildings/damaged-warehouse.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "grassland",
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "stone-road",
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "woodland",
+      "file": "exports/01-率土之滨/map-kit/terrain/woodland.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "mountains",
+      "file": "exports/01-率土之滨/map-kit/terrain/mountains.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "wheat-field",
+      "file": "exports/01-率土之滨/map-kit/terrain/wheat-field.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "iron-mine",
+      "file": "exports/01-率土之滨/map-kit/terrain/iron-mine.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "quarry",
+      "file": "exports/01-率土之滨/map-kit/terrain/quarry.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "river-bend",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bend.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "river-straight",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "river-bank",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-bank.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "ferry",
+      "file": "exports/01-率土之滨/map-kit/terrain/ferry.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "building-plot",
+      "file": "exports/01-率土之滨/map-kit/terrain/building-plot.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "slash-arc",
+      "file": "exports/01-率土之滨/fx/slash-arc.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        253
+      ]
+    },
+    {
+      "id": "strategy-array",
+      "file": "exports/01-率土之滨/fx/strategy-array.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "healing-light",
+      "file": "exports/01-率土之滨/fx/healing-light.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        253
+      ]
+    },
+    {
+      "id": "buff-cloud",
+      "file": "exports/01-率土之滨/fx/buff-cloud.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        255
+      ]
+    },
+    {
+      "id": "debuff-mist",
+      "file": "exports/01-率土之滨/fx/debuff-mist.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        253
+      ]
+    },
+    {
+      "id": "fire",
+      "file": "exports/01-率土之滨/fx/fire.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    {
+      "id": "capture-circle",
+      "file": "exports/01-率土之滨/fx/capture-circle.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        253
+      ]
+    },
+    {
+      "id": "reward-glow",
+      "file": "exports/01-率土之滨/fx/reward-glow.png",
+      "checks": {
+        "outputSha256Matches": true,
+        "sourceSha256Matches": true,
+        "pixelArrayMatchesSourceCrop": true,
+        "anchorInCanvas": true,
+        "trueAlphaZeroPresent": true,
+        "visibleSubjectAlphaPresent": true,
+        "significantBoundaryPixelsZero": true,
+        "dimensionsMatch": true
+      },
+      "alphaRange": [
+        0,
+        253
+      ]
+    }
+  ]
+}

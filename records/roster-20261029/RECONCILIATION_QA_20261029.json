@@ -1,0 +1,60 @@
+{
+  "checkedAt": "2026-10-29T09:24:27.392Z",
+  "kind": "lightweight_JSON_and_source_link_consistency_only",
+  "checks": {
+    "entityRows": 560,
+    "uniqueEntityIDs": 560,
+    "uniquePersonKeys": 545,
+    "original314NamesPreserved": true,
+    "allOriginalSameNameCardIdsPreserved": true,
+    "originalSameNameCardCount": 784,
+    "noDuplicateCardAssignment": true,
+    "all237IndexNamesLocated": true,
+    "all8NovelPassagesLocated": true,
+    "index65Unique": true,
+    "index120Unique": true,
+    "fullCensusNotClaimed": true,
+    "existing12ActualFiles": true,
+    "inProduction8": true,
+    "noArtCompletionClaim": true,
+    "next12NoExistingOrInProduction": true,
+    "officialFactsUnchanged": true
+  },
+  "files": [
+    {
+      "path": "docs/research/ROSTER_RECONCILIATION_20261029.md",
+      "bytes": 8442,
+      "sha256": "e55c6114ac7351a2cf3f64d836b3aa705b185505cd9767c4ac88256fe5766f20"
+    },
+    {
+      "path": "records/roster-20261029/PRODUCTION_IDENTITY_RECONCILIATION_20261029.json",
+      "bytes": 975513,
+      "sha256": "47e24c3113e297f7df64ec6571ced808cec110b210f0bbd4b595cd4167bcca44"
+    },
+    {
+      "path": "records/roster-20261029/PRIMARY_CORPUS_SUPPLEMENTS_20261029.json",
+      "bytes": 484546,
+      "sha256": "fd147f3e270223d52807c0bd6786a69660302b7f269eaf2416a3e6ddb5f037fb"
+    },
+    {
+      "path": "records/roster-20261029/CORPUS_COVERAGE_LEDGER_20261029.json",
+      "bytes": 86507,
+      "sha256": "0e4970841e4d8aa975257e9ce32ba687d66b44c1a672a4ed078e0b88c1e43a1c"
+    },
+    {
+      "path": "records/roster-20261029/PRODUCTION_QUEUE_20261029.json",
+      "bytes": 466215,
+      "sha256": "6fe24e078b4e787b961084a2ac526f8c0d86e431d943d90158584343404737aa"
+    },
+    {
+      "path": "records/roster-20261029/PRODUCTION_QUEUE_20261029.csv",
+      "bytes": 142745,
+      "sha256": "8eb9d20dacd560d579115484f077d2d8ecaf033422fcce5f6795a4cb31eaa99b"
+    },
+    {
+      "path": "records/roster-20261029/reconciliation-http-evidence.json",
+      "bytes": 11900,
+      "sha256": "3422f97c4c0ca9c00c3e308af3e79143bfdc66aa7b84640fd53483068679fd56"
+    }
+  ]
+}

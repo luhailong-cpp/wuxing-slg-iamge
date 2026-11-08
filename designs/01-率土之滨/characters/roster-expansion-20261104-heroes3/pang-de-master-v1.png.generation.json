@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/pang-de-master-v1.png",
+  "sha256": "eed5af245365d2dc26f6457756423897c34dff24fd3272b4b6791dd225df806b",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-04T15:56:03.522Z",
+  "clientDate": "2026-11-04",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "art_source": "host_image",
+  "resultId": "exec-8cf2efe1-ab16-4363-9b40-e7da391332ae",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE original full-body transparent character master for 五行问鼎, portrait 2:3 requested, native PNG RGBA. Historical Three Kingdoms identity 庞德, reference identity from 《三国志》卷18; original costume and silhouette, no copying existing game character or card design. Actual attached images 1 and 2 are approved style references only: high-detail hand-painted Taoist Chinese chibi, rounded warm face, large head about 40 percent of body, short stout body, jade green and warm ivory paper-cloth, gold and lacquer details, soft clean shading, no plastic sheen. Character design: a fierce athletic frontier warrior with thick dark eyebrows, short beard stubble, copper-bronze armor over dusty russet sleeves and a cream scarf, a single long broad-bladed Chinese polearm upright away from the face, angular cloth and a restrained red tassel; no other props. Three-quarter view facing slightly right, entire silhouette centered. Leave 10 percent transparent clearance around every limb, weapon tip and hem. Face around the upper third, every prop below the face or separated by clear empty space so the face crop is usable. Feet flat visible together. Full figure with separately readable silhouette, expression and clothing identity. Transparent background with genuine alpha only, no background fill, no checkerboard, no floor/shadow, text, badge, interface, border, companions or decorative floating FX. One character, one pose.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261104-heroes3/pang-de-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative Taoist chibi style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative Taoist chibi style"
+    }
+  ],
+  "identity": {
+    "id": "pang-de",
+    "name": "庞德",
+    "personID": "ww-p-0907e758601d",
+    "source": "《三国志》卷18",
+    "cardIDs": [
+      100084
+    ]
+  },
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-8cf2efe1-ab16-4363-9b40-e7da391332ae.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理，未返回可核实型号、质量或服务端生成时间。",
+  "status": "candidate_pending_asset_checks"
+}

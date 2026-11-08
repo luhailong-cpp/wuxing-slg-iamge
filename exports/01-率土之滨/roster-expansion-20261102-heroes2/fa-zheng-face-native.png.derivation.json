@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/fa-zheng-face-native.png",
+  "sha256": "94acc906d402e80e376d75a246b19fa55fcdf44dc441eb1e8dcececf2260dd8d",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/fa-zheng-master-v1.png",
+    "sha256": "90e173022a88e8a9bd3ee69bbeeb14b0559347baa2326d6646ee7de3c4ee1aed",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/fa-zheng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      220,
+      100,
+      800,
+      740
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

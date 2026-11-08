@@ -1,0 +1,2850 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "scope": "Six Wu historical general master candidates with five UI derivatives each",
+  "contractReference": "exports/01-率土之滨/generals-ui-v1/generals-ui-manifest.json",
+  "generalCount": 6,
+  "assetCount": 30,
+  "newGeneratedImageCount": 6,
+  "variantCounts": {
+    "face-native": 6,
+    "bust-native": 6,
+    "avatar-128": 6,
+    "avatar-256": 6,
+    "card-full": 6
+  },
+  "avatarContainers": [
+    [
+      128,
+      128
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "cardContainer": [
+    768,
+    1152
+  ],
+  "sources": [
+    {
+      "id": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "displayName": "孙坚",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png",
+      "sha256": "afafd07555ff615c7824efb17526c992759bb8cacb36b4fdecefda4e6cb9cc6c",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-jian-master-v1.png.generation.json",
+      "recordSha256": "283013ac28065e16472e1e28e98b97cd6290d0312f93039cf5ae3d431ad57c42",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 668459,
+        "alpha1Pixels": 18197,
+        "semiTransparentPixels": 904405,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          25,
+          20,
+          1008,
+          1512
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          116,
+          0,
+          0,
+          11
+        ],
+        "marginsAbove32": [
+          25,
+          20,
+          16,
+          24
+        ]
+      },
+      "manualFaceBox": [
+        330,
+        15,
+        770,
+        535
+      ],
+      "manualBustBox": [
+        20,
+        15,
+        1010,
+        1060
+      ],
+      "manualFaceRoi": [
+        410,
+        235,
+        670,
+        475
+      ],
+      "identityBrief": "SUN JIAN 孙坚, an energetic veteran commander and father of Sun Ce and Sun Quan. Visibly mature around late 30s to early 40s, broad squared face, warm tan complexion, thick straight brows, confident slightly stern brown eyes, neatly trimmed short black moustache and compact full jaw beard, sturdy broad shoulders; not Zhang Fei's huge wild beard and not Sun Quan's youthful pointed goatee. Dark hair gathered into a compact soldier topknot under a low practical jade-and-gold helm with modest red cloth knot, no emperor crown, no animal ears. Deep muted jade lamellar armour over ivory sleeves and trousers, bronze-gold tiger-inspired shoulder embossing as a carved ornament (no live tiger), weathered red-orange short commander cape. A single broad straight dao held down at his side with tip safely inside canvas; other hand resting at waist on a plain sealed command scroll. Stable wide-foot stance. Less jewellery than Sun Quan, martial fatherly gravity, distinct mature face.",
+      "inspectedOriginal": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "original_historical_character_art_candidate"
+    },
+    {
+      "id": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "displayName": "孙策",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png",
+      "sha256": "7cce405788136b7e78c1f1c2700f7f7133f4674d1649ef9dbe647cbeb72cc2c5",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png.generation.json",
+      "recordSha256": "6bad4a632bcb6743a0b9547a1b2255acf8dd79dcb4de9412a92656294c215c04",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 656356,
+        "alpha1Pixels": 26078,
+        "semiTransparentPixels": 916508,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          15,
+          44,
+          1008,
+          1498
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          2,
+          0,
+          0,
+          20
+        ],
+        "marginsAbove32": [
+          15,
+          44,
+          16,
+          38
+        ]
+      },
+      "manualFaceBox": [
+        340,
+        35,
+        840,
+        560
+      ],
+      "manualBustBox": [
+        10,
+        35,
+        1015,
+        1070
+      ],
+      "manualFaceRoi": [
+        445,
+        310,
+        735,
+        520
+      ],
+      "identityBrief": "SUN CE 孙策, the youthful Little Conqueror of Jiangdong. Visibly young adult around mid 20s, athletic compact body, clean-shaven slightly angular oval face, bold upward brows, amber-brown eyes and bright fearless open grin; distinctly more muscular and lively than Zhou Yu or Zhao Yun. Shorter swept black hair in a high short ponytail, jade circlet with narrow red headband and one short red ribbon, no beard, no long imperial crown. Warm ivory light lamellar armour with jade breast plates, bold bronze shoulder guards and vermilion cape pulled back; fitted waist and exposed fitted forearm bracers. Holds one short heavy spear diagonally down close to the body, not beyond margins, small pointed silver tip rather than huge fantasy halberd. Other hand relaxed at waist. Confident forward weight, not a combat pose. Evoke brave youthful warlord without copying a peer face.",
+      "inspectedOriginal": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "original_historical_character_art_candidate"
+    },
+    {
+      "id": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "displayName": "陆逊",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png",
+      "sha256": "bac25ce9f9eda35f22f1eade3cd341aca10d180f19e51c3497cada279a3d3457",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-xun-master-v1.png.generation.json",
+      "recordSha256": "08c72c6917bea7d03eabc61fb35700cf4f05738e9680d7ecb7f5de39ab4910b8",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 718304,
+        "alpha1Pixels": 17721,
+        "semiTransparentPixels": 854560,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          50,
+          62,
+          981,
+          1502
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          50,
+          62,
+          43,
+          34
+        ]
+      },
+      "manualFaceBox": [
+        345,
+        55,
+        770,
+        585
+      ],
+      "manualBustBox": [
+        25,
+        55,
+        1000,
+        1060
+      ],
+      "manualFaceRoi": [
+        410,
+        325,
+        665,
+        530
+      ],
+      "identityBrief": "LU XUN 陆逊, a composed scholarly commander. Adult around early 30s, slender short chibi build, long narrow oval face, elegant softly arched brows, attentive narrow brown eyes, clean-shaven, small serious thoughtful smile. Neat dark hair under a restrained low jade scholar cap with a rectangular pale jade clasp, not Sun Quan's crown or Zhuge Liang's tall hat. Long pale ivory robe with muted teal layered collar and dark jade sash, only light hidden scale armour at the chest and fitted forearms; warm gold fine cloud embroidery, small cinnabar tassel. Holds an unfolded small ivory strategy scroll across the lower torso with ONLY blank faint abstract lines (no readable glyphs); other hand grips a short wooden command baton pointing down. A sheathed modest sword at belt, no feather fan, no fire effects, no elemental symbols. Upright restrained scholarly silhouette, clearly different face and body from Zhou Yu.",
+      "inspectedOriginal": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "original_historical_character_art_candidate"
+    },
+    {
+      "id": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "displayName": "鲁肃",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-su-master-v1.png",
+      "sha256": "9a190bafe22cddf6ec492fba418db3e341e8868b6687459a7a151f8640e06ae8",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lu-su-master-v1.png.generation.json",
+      "recordSha256": "3277857a65c1e304e888584abb7ea92d9c1d248933f85b63d1839f2c27cf81ca",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 683485,
+        "alpha1Pixels": 15697,
+        "semiTransparentPixels": 889379,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          26,
+          64,
+          1009,
+          1489
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          31,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          26,
+          64,
+          15,
+          47
+        ]
+      },
+      "manualFaceBox": [
+        350,
+        55,
+        775,
+        585
+      ],
+      "manualBustBox": [
+        20,
+        55,
+        1015,
+        1070
+      ],
+      "manualFaceRoi": [
+        420,
+        290,
+        710,
+        540
+      ],
+      "identityBrief": "LU SU 鲁肃, a warm and prudent mature diplomat and strategist. Around mid 40s, broad round face, slightly fuller cheeks and rounded compact body, gentle horizontal eyebrows and warm eyes, friendly closed smile, neat short moustache with a softly squared medium beard; no enormous Zhang Fei beard and no frail old scholar. Dark hair with subtle grey at the temples, simple folded charcoal-jade cloth scholar cap with small gold clasp, no royal crown. Generous ivory sleeves, muted sage-green outer robe, earth-warm taupe sash and plain dark boots, subtle jade cloud embroidery, modest gold trim. Holds a closed rolled diplomatic document tied with red cord in one hand and a small plain bamboo tally bundle at waist with the other. Calm welcoming stance, no weapon held, no magic, no feather fan. Humane reliable mature official with an unmistakably rounded silhouette.",
+      "inspectedOriginal": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "original_historical_character_art_candidate"
+    },
+    {
+      "id": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "displayName": "吕蒙",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png",
+      "sha256": "69a69e2c2c8f26331fe18cc39cd1d019c385de6df872e0faf2522371ec67f97b",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/lv-meng-master-v1.png.generation.json",
+      "recordSha256": "570b504a57aa1b25e7c8d06ab53feaaaa03e895435c537203e5136e8a5350f22",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 752400,
+        "alpha1Pixels": 12923,
+        "semiTransparentPixels": 820464,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          21,
+          112,
+          998,
+          1467
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          36,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          21,
+          112,
+          26,
+          69
+        ]
+      },
+      "manualFaceBox": [
+        325,
+        105,
+        775,
+        610
+      ],
+      "manualBustBox": [
+        15,
+        105,
+        1010,
+        1070
+      ],
+      "manualFaceRoi": [
+        390,
+        320,
+        700,
+        565
+      ],
+      "identityBrief": "LU MENG 吕蒙, a seasoned disciplined martial commander who also studies. Around late 30s, solid stocky athletic body, angular broad cheekbones, deep-set focused brown eyes, straight thick brows, closely trimmed moustache and short box beard, composed firm mouth. Short neat black hair, plain compact green soldier headwrap beneath small bronze brow guard; no royal headdress. Dark jade and charcoal practical lamellar armour, ivory underlayers, restrained gilt cloud details, square shoulder plates, short teal cloak with a narrow dull red lining. One hand holds a tightly closed bamboo book against the ribs, the other rests on the hilt of a sheathed short straight dao. Closed book has plain bamboo slats and no writing. Strong upright grounded stance. Armour and practical square silhouette should contrast with Lu Su's flowing robes and Lu Xun's slim scholar silhouette. No elemental aura.",
+      "inspectedOriginal": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "original_historical_character_art_candidate"
+    },
+    {
+      "id": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "displayName": "甘宁",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png",
+      "sha256": "0db774f29ec7053ba001f7842465f6d4035b48b71cabf8836586440ed76057b1",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/gan-ning-master-v1.png.generation.json",
+      "recordSha256": "c69566d560aa4330ecedf32fce7cde2725505e9ce48c205ebd19e1207f72279c",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 694829,
+        "alpha1Pixels": 29792,
+        "semiTransparentPixels": 878035,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          25,
+          11,
+          994,
+          1511
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          58,
+          7,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          25,
+          11,
+          30,
+          25
+        ]
+      },
+      "manualFaceBox": [
+        325,
+        10,
+        825,
+        555
+      ],
+      "manualBustBox": [
+        20,
+        10,
+        1010,
+        1070
+      ],
+      "manualFaceRoi": [
+        425,
+        290,
+        720,
+        505
+      ],
+      "identityBrief": "GAN NING 甘宁, the bold bell-wearing former river raider turned general. Adult early 30s, compact muscular build, sun-tanned face, strong cheekbones, lively wide brown eyes, one eyebrow raised and a broad roguish grin showing a little tooth; clean jaw with light sideburns, no heavy beard. Black hair tied in an asymmetric short high knot with an ivory-red patterned headband, two small bronze bells on red ties at the belt, one jade bead earring. Short sleeveless dark teal armour vest over ivory fitted fabric, muscular forearms partly visible with leather bracers, rich but restrained red-ivory brocade sash, rolled trouser cuffs and practical boots; warm gold cloud trim consistent with series. Holds one short curved sabre down beside him, entire blade visible and inside margins, other hand casually gripping a coil of plain rope at hip. A small asymmetric fabric shoulder mantle, not a giant pirate hat, no skulls, no ship, no cannon, no firearms, no bird. Cheerful daring river-warrior identity.",
+      "inspectedOriginal": true,
+      "actualModel": null,
+      "actualQuality": null,
+      "status": "original_historical_character_art_candidate"
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "sun-jian-face-native",
+      "generalId": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "displayName": "孙坚",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-face-native.png",
+      "sha256": "b6a5d97d37b4f06a5a3ab2687f8ed1fe9df936794ad5cfd768b9b450a11b58f7",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-face-native.png.derivation.json",
+      "recordSha256": "b48d52cf0e8b21914dd0eb44da513b1917b2db8a658d8759f8e9e2836ed92044",
+      "width": 440,
+      "height": 520,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 58811,
+        "alpha1Pixels": 4701,
+        "semiTransparentPixels": 169989,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          5,
+          438,
+          520
+        ],
+        "edgePixelsAbove32": [
+          193,
+          0,
+          0,
+          438
+        ],
+        "edgePixelsAbove0": [
+          235,
+          0,
+          21,
+          440
+        ],
+        "marginsAbove32": [
+          0,
+          5,
+          2,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            20,
+            16,
+            24
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 4701,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            330,
+            15,
+            770,
+            535
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-jian-bust-native",
+      "generalId": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "displayName": "孙坚",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-bust-native.png",
+      "sha256": "afb9f864828cade8c0210724d814697bd796c8e8a7e73f12f6c5be1bbb9628a1",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-bust-native.png.derivation.json",
+      "recordSha256": "c20913f358cd01341cf82e60f16c0cb3a80bcba110c9651f6f8ff22e978026d2",
+      "width": 990,
+      "height": 1045,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 402819,
+        "alpha1Pixels": 11911,
+        "semiTransparentPixels": 631731,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          36,
+          5,
+          974,
+          1045
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          938
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          1,
+          946
+        ],
+        "marginsAbove32": [
+          36,
+          5,
+          16,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            20,
+            16,
+            24
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 11911,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            20,
+            15,
+            1010,
+            1060
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-jian-avatar-128",
+      "generalId": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "displayName": "孙坚",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-128.png",
+      "sha256": "7fa8bfed19eaa23a36420900810a533af3b5b55a7ceb69b4942db3c7bc7792d2",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-128.png.derivation.json",
+      "recordSha256": "18982c9576880c2a08e472868ddac4a64dbc18e9c836125de777e769b044c016",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 8439,
+        "alpha1Pixels": 137,
+        "semiTransparentPixels": 7748,
+        "opaquePixels": 197,
+        "bboxAbove32": [
+          16,
+          9,
+          110,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          16,
+          9,
+          18,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        33.27,
+        55.38,
+        89.41,
+        107.08
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            20,
+            16,
+            24
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 137,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            330,
+            15,
+            770,
+            535
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-jian-avatar-256",
+      "generalId": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "displayName": "孙坚",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-256.png",
+      "sha256": "94513d32ace1f78317421db242ad6881e7b7cbd2188173f984c84fb5e762e226",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-avatar-256.png.derivation.json",
+      "recordSha256": "ecb9f1b5ed6c4d9374ffab687f5809f6db963ccd17955f39054c863c94549d6a",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 34265,
+        "alpha1Pixels": 551,
+        "semiTransparentPixels": 30980,
+        "opaquePixels": 291,
+        "bboxAbove32": [
+          33,
+          18,
+          222,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          33,
+          18,
+          34,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        67.55,
+        110.77,
+        179.82,
+        214.15
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            20,
+            16,
+            24
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 551,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            330,
+            15,
+            770,
+            535
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-jian-card-full",
+      "generalId": "sun-jian",
+      "personID": "ww-p-745064a05078",
+      "displayName": "孙坚",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-card-full.png",
+      "sha256": "99a6c5a2172432756fd8c0095326cf158854fdb51c9912d7dee75fe7534f3342",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-jian-card-full.png.derivation.json",
+      "recordSha256": "22c63d09524a4509dec59fa99079b512d6e8a5ad4083c50255f803434ea8f689",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 458410,
+        "alpha1Pixels": 7383,
+        "semiTransparentPixels": 425173,
+        "opaquePixels": 1153,
+        "bboxAbove32": [
+          49,
+          62,
+          725,
+          1088
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          49,
+          62,
+          43,
+          64
+        ]
+      },
+      "faceRoiOutputApprox": [
+        313.88,
+        209.56,
+        492.62,
+        374.56
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            20,
+            16,
+            24
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 7383,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-ce-face-native",
+      "generalId": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "displayName": "孙策",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-face-native.png",
+      "sha256": "bbfdf84f70cc9d2c309eabf331e21722c53c7b6a94792ff510d598cd64b61088",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-face-native.png.derivation.json",
+      "recordSha256": "4089e48563af7a55d67628ea9db400da6051f3c0529249f13726da7b8a1feb23",
+      "width": 500,
+      "height": 525,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 68870,
+        "alpha1Pixels": 6987,
+        "semiTransparentPixels": 193630,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          9,
+          493,
+          525
+        ],
+        "edgePixelsAbove32": [
+          129,
+          0,
+          0,
+          425
+        ],
+        "edgePixelsAbove0": [
+          150,
+          0,
+          51,
+          440
+        ],
+        "marginsAbove32": [
+          0,
+          9,
+          7,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            15,
+            44,
+            16,
+            38
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 6987,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            340,
+            35,
+            840,
+            560
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-ce-bust-native",
+      "generalId": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "displayName": "孙策",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png",
+      "sha256": "a78316380e35b6a8424e099af3c5f903383047f0f1f139d062fc5fb1b28eccb3",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-bust-native.png.derivation.json",
+      "recordSha256": "3f71b8f25f92abd75067ddc785352e6b51dd2e8673a2d146fc7f258d260388e6",
+      "width": 1005,
+      "height": 1035,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 374738,
+        "alpha1Pixels": 18862,
+        "semiTransparentPixels": 665437,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          5,
+          9,
+          998,
+          1035
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          910
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          914
+        ],
+        "marginsAbove32": [
+          5,
+          9,
+          7,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            15,
+            44,
+            16,
+            38
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 18862,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            10,
+            35,
+            1015,
+            1070
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-ce-avatar-128",
+      "generalId": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "displayName": "孙策",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-128.png",
+      "sha256": "8fd654c0555707b64234d1606b26dbb3823a972d9ace7abce590f069c3298156",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-128.png.derivation.json",
+      "recordSha256": "e8a5b27d64a4875ef2da4267a1bfb08b76201dd709be5031511948c154f8be0e",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7442,
+        "alpha1Pixels": 164,
+        "semiTransparentPixels": 8613,
+        "opaquePixels": 329,
+        "bboxAbove32": [
+          10,
+          10,
+          116,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          10,
+          10,
+          12,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        32.47,
+        66.67,
+        94.53,
+        111.47
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            15,
+            44,
+            16,
+            38
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 164,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            340,
+            35,
+            840,
+            560
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-ce-avatar-256",
+      "generalId": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "displayName": "孙策",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-256.png",
+      "sha256": "94588af40b21bb846ed9039d3a87222cd80afa517acc25e914829e4942df83a3",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-avatar-256.png.derivation.json",
+      "recordSha256": "251ed67224261a2630f1b729088f8ddf74e741e5666ce0bcb427c0617ff828fc",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 30639,
+        "alpha1Pixels": 840,
+        "semiTransparentPixels": 34403,
+        "opaquePixels": 494,
+        "bboxAbove32": [
+          21,
+          20,
+          231,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          21,
+          20,
+          25,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        65.73,
+        133.33,
+        189.27,
+        222.93
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            15,
+            44,
+            16,
+            38
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 840,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            340,
+            35,
+            840,
+            560
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "sun-ce-card-full",
+      "generalId": "sun-ce",
+      "personID": "ww-p-8fa0077b6be6",
+      "displayName": "孙策",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-card-full.png",
+      "sha256": "bb948773a227deec29581e897d302c45192a86fb142d3b1ea9dfc32fd3e292f3",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-card-full.png.derivation.json",
+      "recordSha256": "366c073f91042796696ba4390b1d0e9ddc0b56eaaebef90baa8d57b65a912d20",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 452864,
+        "alpha1Pixels": 10520,
+        "semiTransparentPixels": 430494,
+        "opaquePixels": 1378,
+        "bboxAbove32": [
+          42,
+          78,
+          725,
+          1078
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          42,
+          78,
+          43,
+          74
+        ]
+      },
+      "faceRoiOutputApprox": [
+        337.94,
+        261.12,
+        537.31,
+        405.5
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            15,
+            44,
+            16,
+            38
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 10520,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-xun-face-native",
+      "generalId": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "displayName": "陆逊",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-face-native.png",
+      "sha256": "1189db2fb9025577a740ddf1d8cbfa27c00cf22853d73e19e77329a0e7a7885d",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-face-native.png.derivation.json",
+      "recordSha256": "7e562c09156ef8bcb0a78e22afbba53cfa97196b4da524c0e774d2791169d441",
+      "width": 425,
+      "height": 530,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 62620,
+        "alpha1Pixels": 4199,
+        "semiTransparentPixels": 162630,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          7,
+          394,
+          530
+        ],
+        "edgePixelsAbove32": [
+          279,
+          0,
+          0,
+          319
+        ],
+        "edgePixelsAbove0": [
+          326,
+          1,
+          0,
+          351
+        ],
+        "marginsAbove32": [
+          0,
+          7,
+          31,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            50,
+            62,
+            43,
+            34
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 4199,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            345,
+            55,
+            770,
+            585
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-xun-bust-native",
+      "generalId": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "displayName": "陆逊",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-bust-native.png",
+      "sha256": "8ab689a3855fd2d99ec467e77c72a0e9353855b3d0848b8212658912203a5863",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-bust-native.png.derivation.json",
+      "recordSha256": "3968f855a858fcb2064983674c5ac53c0bc9eef572dbf12a533f570f706e0caf",
+      "width": 975,
+      "height": 1005,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 396437,
+        "alpha1Pixels": 12874,
+        "semiTransparentPixels": 583438,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          25,
+          7,
+          956,
+          1005
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          880
+        ],
+        "edgePixelsAbove0": [
+          1,
+          1,
+          4,
+          889
+        ],
+        "marginsAbove32": [
+          25,
+          7,
+          19,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            50,
+            62,
+            43,
+            34
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 12874,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            25,
+            55,
+            1000,
+            1060
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-xun-avatar-128",
+      "generalId": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "displayName": "陆逊",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-128.png",
+      "sha256": "6eef8c59d8cf51020716ecb13dc33eb3833845f5a4b7ee7fe4e4b67072c7c816",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-128.png.derivation.json",
+      "recordSha256": "7623ffa09cf7e31cddcceb465d280f2d3f7a2b0bb76a1eedb111a2f4db4fcf98",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 9077,
+        "alpha1Pixels": 94,
+        "semiTransparentPixels": 7070,
+        "opaquePixels": 237,
+        "bboxAbove32": [
+          19,
+          9,
+          103,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          19,
+          9,
+          25,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        32.76,
+        65.06,
+        86.76,
+        108.38
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            50,
+            62,
+            43,
+            34
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 94,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            345,
+            55,
+            770,
+            585
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-xun-avatar-256",
+      "generalId": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "displayName": "陆逊",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-256.png",
+      "sha256": "6c7cf9766c844a6ec25cd1ffad016e2cb20523bb530099936cccf85c1fd947c8",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-avatar-256.png.derivation.json",
+      "recordSha256": "ed3e4c41e19ae88388fd5843feeaf88bd31b05cf1045b598640b0fd42a6abc88",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 36723,
+        "alpha1Pixels": 495,
+        "semiTransparentPixels": 28467,
+        "opaquePixels": 346,
+        "bboxAbove32": [
+          38,
+          19,
+          205,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          38,
+          19,
+          51,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        65.53,
+        130.11,
+        173.53,
+        216.75
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            50,
+            62,
+            43,
+            34
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 495,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            345,
+            55,
+            770,
+            585
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-xun-card-full",
+      "generalId": "lu-xun",
+      "personID": "ww-p-91d823d76f0b",
+      "displayName": "陆逊",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-card-full.png",
+      "sha256": "c0556a8a02926a271ecde13ecb9bf109f79a03b299095978dfd2fcba543e8037",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-card-full.png.derivation.json",
+      "recordSha256": "de43448581b21aee42e3850de3628adee69eba7e74bb8c71b7244bc6428bc125",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 482680,
+        "alpha1Pixels": 6657,
+        "semiTransparentPixels": 400857,
+        "opaquePixels": 1199,
+        "bboxAbove32": [
+          66,
+          91,
+          707,
+          1081
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          66,
+          91,
+          61,
+          71
+        ]
+      },
+      "faceRoiOutputApprox": [
+        313.88,
+        271.44,
+        489.19,
+        412.38
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            50,
+            62,
+            43,
+            34
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 6657,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-su-face-native",
+      "generalId": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "displayName": "鲁肃",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-face-native.png",
+      "sha256": "37b61a99e84dfcd0e1ad3d95bbbccdde8366baddf5521ee85d7d02bd7b0b1612",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-face-native.png.derivation.json",
+      "recordSha256": "c657dd2f5c67bbf2bcac53ecf1a269870cde05310a1923cec56acbf28e580bfe",
+      "width": 425,
+      "height": 530,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 56073,
+        "alpha1Pixels": 3705,
+        "semiTransparentPixels": 169177,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          9,
+          398,
+          530
+        ],
+        "edgePixelsAbove32": [
+          160,
+          0,
+          0,
+          398
+        ],
+        "edgePixelsAbove0": [
+          195,
+          0,
+          0,
+          406
+        ],
+        "marginsAbove32": [
+          0,
+          9,
+          27,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            26,
+            64,
+            15,
+            47
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 3705,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            350,
+            55,
+            775,
+            585
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-su-bust-native",
+      "generalId": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "displayName": "鲁肃",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-bust-native.png",
+      "sha256": "70f9f0ab7ef867d7a1811357e57b4de89087d33911fc4852348e45c390c1bf89",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-bust-native.png.derivation.json",
+      "recordSha256": "0040b4ed887ee239c41763a6d5e170f3cd923ebbcf54393422f5427da29c5267",
+      "width": 995,
+      "height": 1015,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 409953,
+        "alpha1Pixels": 10314,
+        "semiTransparentPixels": 599972,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          6,
+          9,
+          986,
+          1015
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          916
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          928
+        ],
+        "marginsAbove32": [
+          6,
+          9,
+          9,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            26,
+            64,
+            15,
+            47
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 10314,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            20,
+            55,
+            1015,
+            1070
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-su-avatar-128",
+      "generalId": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "displayName": "鲁肃",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-128.png",
+      "sha256": "d45d3f2d324f4abf97b516f1b37cdf34439f5a63bd07aa183a42c78506e1e053",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-128.png.derivation.json",
+      "recordSha256": "8025c1a4f63cf2103d2ed09d16152b85106f51e9c768eda207cd7a3c35fd5ff1",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 8696,
+        "alpha1Pixels": 109,
+        "semiTransparentPixels": 7454,
+        "opaquePixels": 234,
+        "bboxAbove32": [
+          19,
+          10,
+          104,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          19,
+          10,
+          24,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        33.82,
+        57.66,
+        95.24,
+        110.49
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            26,
+            64,
+            15,
+            47
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 109,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            350,
+            55,
+            775,
+            585
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-su-avatar-256",
+      "generalId": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "displayName": "鲁肃",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-256.png",
+      "sha256": "08f9c7d8058e38360984fbfb4276571d36c67a23752c9cb877c81485aa59055d",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-avatar-256.png.derivation.json",
+      "recordSha256": "422d45fabf3dc3710cd1c1c022ce64e8cb7ba397ca71e464f18998b7db12c751",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 35378,
+        "alpha1Pixels": 400,
+        "semiTransparentPixels": 29817,
+        "opaquePixels": 341,
+        "bboxAbove32": [
+          38,
+          20,
+          207,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          38,
+          20,
+          49,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        67.65,
+        115.32,
+        190.47,
+        220.98
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            26,
+            64,
+            15,
+            47
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 400,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            350,
+            55,
+            775,
+            585
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lu-su-card-full",
+      "generalId": "lu-su",
+      "personID": "ww-p-397eac76e115",
+      "displayName": "鲁肃",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-card-full.png",
+      "sha256": "e9a0418c3cafc1518fa619804b293c011097da9dbd2ae0a5d3dffc01b88478c8",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-su-card-full.png.derivation.json",
+      "recordSha256": "19c42010890b0e1fad0253b45a5c532e6f144a32b57ca7e9363d05caeb8dd929",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 465669,
+        "alpha1Pixels": 6069,
+        "semiTransparentPixels": 418048,
+        "opaquePixels": 1019,
+        "bboxAbove32": [
+          50,
+          92,
+          726,
+          1071
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          50,
+          92,
+          42,
+          81
+        ]
+      },
+      "faceRoiOutputApprox": [
+        320.75,
+        247.38,
+        520.12,
+        419.25
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            26,
+            64,
+            15,
+            47
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 6069,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        }
+      ]
+    },
+    {
+      "assetId": "lv-meng-face-native",
+      "generalId": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "displayName": "吕蒙",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-face-native.png",
+      "sha256": "c7e621687ad7974bc64566d23c00c1f1ee4380d9ac5dffdbc5b30a6463415390",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-face-native.png.derivation.json",
+      "recordSha256": "ea5e2f5c8a7db50f7149058872bcc1dd2b88cc0036ab10cf9509ebf0a65819b3",
+      "width": 450,
+      "height": 505,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 54908,
+        "alpha1Pixels": 2736,
+        "semiTransparentPixels": 172342,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          7,
+          450,
+          505
+        ],
+        "edgePixelsAbove32": [
+          252,
+          0,
+          23,
+          450
+        ],
+        "edgePixelsAbove0": [
+          269,
+          0,
+          31,
+          450
+        ],
+        "marginsAbove32": [
+          0,
+          7,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            21,
+            112,
+            26,
+            69
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 2736,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            325,
+            105,
+            775,
+            610
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lv-meng-bust-native",
+      "generalId": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "displayName": "吕蒙",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-bust-native.png",
+      "sha256": "6c5ac71f2379edd51c558461a230df1c100e7c8e0ccdc9fda1a87fa2d89cd604",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-bust-native.png.derivation.json",
+      "recordSha256": "72e5cf3084f3784dba27fe55bf358488efbf441badd19947679783f386567b08",
+      "width": 995,
+      "height": 965,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 351223,
+        "alpha1Pixels": 7510,
+        "semiTransparentPixels": 608952,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          6,
+          7,
+          983,
+          965
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          963
+        ],
+        "edgePixelsAbove0": [
+          0,
+          1,
+          0,
+          980
+        ],
+        "marginsAbove32": [
+          6,
+          7,
+          12,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            21,
+            112,
+            26,
+            69
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 7510,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            15,
+            105,
+            1010,
+            1070
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lv-meng-avatar-128",
+      "generalId": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "displayName": "吕蒙",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-128.png",
+      "sha256": "87e83f944498702917f8804a2cd146b145705f641700728578b91eda419cb132",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-128.png.derivation.json",
+      "recordSha256": "ccf3555b42730d7a9fd14cb17d3929730b004557c9fe8d22cc60154efffd69a0",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7755,
+        "alpha1Pixels": 86,
+        "semiTransparentPixels": 8439,
+        "opaquePixels": 190,
+        "bboxAbove32": [
+          14,
+          9,
+          114,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          14,
+          9,
+          14,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        28.44,
+        55.68,
+        97.33,
+        110.02
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            21,
+            112,
+            26,
+            69
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 86,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            325,
+            105,
+            775,
+            610
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lv-meng-avatar-256",
+      "generalId": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "displayName": "吕蒙",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-256.png",
+      "sha256": "7446531b1cb7258e3f5a850afa9128e31f1eb6f5a0fbe6509a9bf4ac389f5d2b",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-avatar-256.png.derivation.json",
+      "recordSha256": "ab4ad2f3a8a5cd31fd77d833e1e9c2463f7d28350b7f80c34dee4af0412d9b2c",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 31643,
+        "alpha1Pixels": 314,
+        "semiTransparentPixels": 33563,
+        "opaquePixels": 330,
+        "bboxAbove32": [
+          28,
+          19,
+          228,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          28,
+          19,
+          28,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        56.89,
+        111.37,
+        194.67,
+        220.04
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            21,
+            112,
+            26,
+            69
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 314,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            325,
+            105,
+            775,
+            610
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "lv-meng-card-full",
+      "generalId": "lv-meng",
+      "personID": "ww-p-799cddfec017",
+      "displayName": "吕蒙",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-card-full.png",
+      "sha256": "d24ab646962319e8706599bfdd2f52e117ad86f083b29b3ed017d55972ab032d",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lv-meng-card-full.png.derivation.json",
+      "recordSha256": "8fef6b5198f705173d6c70e05c620203af3900ff8814c997a0f50623e830632f",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 497861,
+        "alpha1Pixels": 4487,
+        "semiTransparentPixels": 385515,
+        "opaquePixels": 1360,
+        "bboxAbove32": [
+          47,
+          125,
+          718,
+          1056
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          47,
+          125,
+          50,
+          96
+        ]
+      },
+      "faceRoiOutputApprox": [
+        300.12,
+        268,
+        513.25,
+        436.44
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            21,
+            112,
+            26,
+            69
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 4487,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        }
+      ]
+    },
+    {
+      "assetId": "gan-ning-face-native",
+      "generalId": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "displayName": "甘宁",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png",
+      "sha256": "c2fb5d4d3ff4c47b2da5a7467faac5cb3fa005dc7e6b3f0fc06b446b8ff3c36f",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-face-native.png.derivation.json",
+      "recordSha256": "39c96b40ed354229b0b16842e3083f2ccd7cdbe5c481ff6c2c1fb01fb2ee0b9e",
+      "width": 500,
+      "height": 545,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 60058,
+        "alpha1Pixels": 8553,
+        "semiTransparentPixels": 212442,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          1,
+          493,
+          545
+        ],
+        "edgePixelsAbove32": [
+          231,
+          0,
+          0,
+          448
+        ],
+        "edgePixelsAbove0": [
+          289,
+          26,
+          0,
+          456
+        ],
+        "marginsAbove32": [
+          0,
+          1,
+          7,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            11,
+            30,
+            25
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 8553,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            325,
+            10,
+            825,
+            555
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "gan-ning-bust-native",
+      "generalId": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "displayName": "甘宁",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-bust-native.png",
+      "sha256": "20c33e090412c7d5f37f9845b1729bd14a49fb225e27a5fd1deb7e9475600844",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-bust-native.png.derivation.json",
+      "recordSha256": "a6308c2d684115dd800a8e2b869621b70a91f86945798dab85cea1edf3b9293d",
+      "width": 990,
+      "height": 1060,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 394495,
+        "alpha1Pixels": 20710,
+        "semiTransparentPixels": 654905,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          5,
+          1,
+          974,
+          1060
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          737
+        ],
+        "edgePixelsAbove0": [
+          6,
+          26,
+          2,
+          780
+        ],
+        "marginsAbove32": [
+          5,
+          1,
+          16,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null,
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            11,
+            30,
+            25
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 20710,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            20,
+            10,
+            1010,
+            1070
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "gan-ning-avatar-128",
+      "generalId": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "displayName": "甘宁",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-128.png",
+      "sha256": "38089e776d16c3ab1e1f58f39884d5d2b8a829cb9e2370dc0e5fd18076563edb",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-128.png.derivation.json",
+      "recordSha256": "4d568bd0004e9ff0aab10382bf767e19295da641a57d6165fd640f4ccf97d4fa",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7373,
+        "alpha1Pixels": 156,
+        "semiTransparentPixels": 8675,
+        "opaquePixels": 336,
+        "bboxAbove32": [
+          12,
+          8,
+          114,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          12,
+          8,
+          14,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        32.6,
+        65.54,
+        93.37,
+        109.72
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            11,
+            30,
+            25
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 156,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            325,
+            10,
+            825,
+            555
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "gan-ning-avatar-256",
+      "generalId": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "displayName": "甘宁",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-256.png",
+      "sha256": "5dd9afc4173148327c1844e20da70ee54bf5b313253189fc972b7c17f88af448",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-avatar-256.png.derivation.json",
+      "recordSha256": "97056cd81f0670f4ad8ae836e9dc3d2d40236c43071faeb16ebfb05284f22174",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 30084,
+        "alpha1Pixels": 887,
+        "semiTransparentPixels": 34951,
+        "opaquePixels": 501,
+        "bboxAbove32": [
+          25,
+          16,
+          228,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          25,
+          16,
+          28,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        66.2,
+        131.08,
+        187.74,
+        219.45
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            11,
+            30,
+            25
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 887,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        },
+        {
+          "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+          "crop": [
+            325,
+            10,
+            825,
+            555
+          ],
+          "message": "Rectangular UI window; long hair, ribbons, sleeves and weapons may cross portrait boundaries. This is not a newly drawn isolated head."
+        }
+      ]
+    },
+    {
+      "assetId": "gan-ning-card-full",
+      "generalId": "gan-ning",
+      "personID": "ww-p-f639aded718e",
+      "displayName": "甘宁",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-card-full.png",
+      "sha256": "2d74f48d1e3a1aa0fcecccc6d1f9c1a2a19f9edd81a9a611cf4577d7f199e0c6",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/gan-ning-card-full.png.derivation.json",
+      "recordSha256": "bd03144c219007061fd852ff520f019bbc2614271ac75170f1ae33cdfe582730",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 472047,
+        "alpha1Pixels": 11976,
+        "semiTransparentPixels": 411248,
+        "opaquePixels": 1441,
+        "bboxAbove32": [
+          49,
+          56,
+          715,
+          1087
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove0": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          49,
+          56,
+          53,
+          65
+        ]
+      },
+      "faceRoiOutputApprox": [
+        324.19,
+        247.38,
+        527,
+        395.19
+      ],
+      "warnings": [
+        {
+          "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+          "message": "Original new art candidate; not final roster or launch art acceptance."
+        },
+        {
+          "id": "TIGHT_SOURCE_MASTER_MARGIN",
+          "sourceMargins": [
+            25,
+            11,
+            30,
+            25
+          ],
+          "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+        },
+        {
+          "id": "SOURCE_SOFT_ALPHA_RETAINED",
+          "count": 11976,
+          "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+        }
+      ]
+    }
+  ],
+  "sourceMastersModified": false,
+  "animationIncluded": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "UnityRun": false,
+  "status": "derived_static_UI_candidates_visual_QA_pass_with_limitations",
+  "visualQA": "records/roster-expansion-20261029-wu1/visual-qa.json",
+  "visualQASha256": "b33a78ee797ed69c4a0100d8399dddd2c8255a075e8326f651a76ff67dc1a40d"
+}

@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes5/sun-yu-card-full.png",
+  "sha256": "a98fb7a899da18d4d48a8f2a0b6833a5846810cf13d20b3a2e3733e59e9b1bbe",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/sun-yu-master-v1.png",
+    "sha256": "bafaba64a421147d7b6ef1e827a0eb89f40cc3d5e0d03ec6dd5288a48b2bcc02",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/sun-yu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      23,
+      45,
+      942,
+      1516
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.6526172671651937,
+    "resizedSize": [
+      600,
+      960
+    ],
+    "offset": [
+      84,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

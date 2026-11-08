@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T08:53:17.998641+00:00",
+  "sourceSheetActuallyViewed": true,
+  "nativeLightDarkQaViewed": 8,
+  "small128LightDarkQaViewed": 2,
+  "actualQaCount": 10,
+  "qa": [
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row1-light.png",
+      "sha256": "9565609ab1fc807b6522251df2b8341114c72b5035a7b226be1b02f0a9a2b12f",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row2-light.png",
+      "sha256": "96f82ac68af741457604aba1171862195fd9710311951369d9cf40c4878d85bf",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row3-light.png",
+      "sha256": "ad43f0c1087c95e3f894eb0d2037b01ea039f8f91c6367a086978d28ecb6f432",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row4-light.png",
+      "sha256": "a5856f9dd4576a983c3b5983f25752e25ac0a69152ffbded2a290656c2785e56",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/128-overview-light.png",
+      "sha256": "66fd90e75fb55aa29f3e17e11200db1a6d9ecaa728c0ee3d7247f235889a7b74",
+      "kind": "all128variantsAt1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row1-dark.png",
+      "sha256": "f91c94c9acca7544f7bdbfa7e35831094d82c7c9b2820eb8300d922d9d9fdf49",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row2-dark.png",
+      "sha256": "ca7de74e5a7bc0ad064b91de55db756d44e31850e433553cdd0c8d7e58756627",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row3-dark.png",
+      "sha256": "0d064500b544db3e88bf571d16052a684b61cad787d7deaa6faeac73ebbe3f02",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/native-row4-dark.png",
+      "sha256": "f226603dc9e67e48f54f3ad057e529acd296c6debf50430e89c866731b5c8777",
+      "kind": "native1to1"
+    },
+    {
+      "file": "records/ui-support-20261028/export-qa/128-overview-dark.png",
+      "sha256": "772fdf2b7ef3b724928fa5cf342fbe5272f465861788d71cc88b3a747017bf10",
+      "kind": "all128variantsAt1to1"
+    }
+  ],
+  "manualObservations": [
+    "All16 identities readable and match supplied ordering.",
+    "Allnative silhouettes complete without visible neighbouring artwork.",
+    "No obvious opaque background rectangle, checkerboard or visible coloured fringe on light/dark composites.",
+    "Close/back lower tassels remain complete.",
+    "Checkbox ornaments differ betweenchecked/unchecked; toggleon/off also differ in contour and width.",
+    "Scrollbartrack is naturally narrow and progress bars are shallow at128; proportional display is retained rather than stretching.",
+    "Progress frame/fill not assembled or clippingtested; no arbitrary size or nine-slice acceptance.",
+    "Notification is a polished red gem/badge, not a flat red indicator."
+  ],
+  "statePairGeometryIdentical": false,
+  "nineSliceValidated": false,
+  "uiInputBehaviorImplemented": false,
+  "userApproved": false,
+  "clientIntegrated": false
+}

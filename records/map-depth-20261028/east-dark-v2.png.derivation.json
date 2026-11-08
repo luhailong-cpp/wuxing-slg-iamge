@@ -1,0 +1,33 @@
+{
+  "file": "records/map-depth-20261028/east-dark-v2.png",
+  "sha256": "cadf82065f2417538b46476d43b34f544a05c6e173e9fb9c6d12ec51db6d1b45",
+  "createdAt": "2026-10-28T08:15:32.339242+00:00",
+  "width": 1000,
+  "height": 1000,
+  "operation": "diagnostic_composite",
+  "details": {
+    "layerOrder": [
+      "bridge-back.png",
+      "neutral diagnostic capsule",
+      "bridge-front.png"
+    ],
+    "footpoint": [
+      760,
+      670
+    ],
+    "background": "dark",
+    "diagnosticOnly": true,
+    "resampled": false
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b"
+    }
+  ],
+  "diagnosticOnly": true
+}

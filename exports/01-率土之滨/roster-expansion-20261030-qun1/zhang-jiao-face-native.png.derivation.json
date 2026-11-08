@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-qun1/zhang-jiao-face-native.png",
+  "sha256": "08bc08e600ec399bf64a08e599f2412ce73d597912c333897c70dbaea460915a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png",
+    "sha256": "299a6efd0faf8e1b125eed3318651ff38a3927cb207251f830b4dcc2b32681d8",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/zhang-jiao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      335,
+      260,
+      875,
+      800
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

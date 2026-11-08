@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "callPreparedAt": "2026-10-26T19:10:56.477Z",
+  "promptFile": "prompts/01-率土之滨/32-inventory-ui-v1.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Use case: ui-mockup\nAsset type: One complete landscape inventory screen, approximately21:9.\nPrimary request: “背包” with item categories, grid, selected stack and quantity-use preview in the established Daoist Q/chibi UI.\nImages1/2 are PRIMARY exquisite jade-green/ivory/warm-gold hand-painted style references. Image3 is our tactics library, for consistent inventory card selection and layout language only; use new item illustrations rather than tactics abilities.\nComposition: full ornate rounded ivory parchment panel, jade title “背包” centered top, back arrow upper-left, X upper-right, slim courtyard/mountain scenery at edges. Left15% category column, center53% spacious3-column2-row item grid, right30% selected-item details.\nCategories exact “全部” selected jade, “资源”, “材料”, “消耗品”.\nCounter above grid “物品 6 / 100”. Exactly6 illustrated item cards:\n“木材包” with bound logs and small sack, quantity “6”\n“粮草包” with a tied golden grain sack, quantity “8” (SELECTED jade border/check)\n“铁矿包” with dark ore and sack, quantity “4”\n“觉醒玉” with a carved pale jade bead/talisman, quantity “1”\n“加速令” with winged hourglass token, quantity “3”\n“招募券” with tied scroll token, quantity “5”\nEach distinct rounded icon well lit, all names readable. Resources warm beige frames, material delicate jade frame, consumables fine gold; consistent style.\nRight details: larger matching selected GRAIN SACK icon, heading “粮草包”, small category “资源”, “持有 8”.\nDescription exact: “使用后获得 1000 粮草。”\nQuantity row “使用数量” then ivory minus button, number “3”, ivory plus button, small secondary “最大”.\nBelow green preview “预计获得 粮草 3000”.\nMain jade action “使用”, smaller ivory “取消选择”. No consumed or acquired success stamp: this is preview before use. Quantities3<=8 and3×1000=3000 coherent. Do not show currency prices or assume paid purchase.\nStyle: user Daoist Q/chibi hand-painted HD, jade controls, ivory paper cards, fine warm gold borders and gentle cloud ornaments, dark-green clear Chinese, moderate material detail and rounded item shapes, small red tassels. No dark metallic UI, realistic gritty texture, plastic gloss, watermark, official game name, clipped controls or invented server claims. Opaque full screen.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/13-tactic-library-ui-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "modelTarget": "gpt-image-2.5-sunburst",
+  "qualityTarget": "max"
+}

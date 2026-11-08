@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-avatar-128.png",
+  "sha256": "689f2d06a4ad0ac6fd8cb82bb274a822bbf64341c3c4fb96d77198dd075725ad",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 128,
+  "height": 128,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "sun-quan",
+  "displayName": "孙权",
+  "variant": "avatar-128",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/04-sun-quan-v1.png",
+      "sha256": "e1ee5843358777ce56e8a1b20b6f16424301d0a6ad0e5d2da4087efbdb62c799",
+      "record": "designs/01-率土之滨/characters/04-sun-quan-v1.png.generation.json",
+      "recordSha256": "41c81119cb6706cd2cc49f4bf081912bdf16351bf8e55e5ef57bb2639b1d2218"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    245,
+    0,
+    860,
+    620
+  ],
+  "resizeTo": [
+    111,
+    112
+  ],
+  "pasteOffsetTopLeft": [
+    8,
+    8,
+    119,
+    120
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    400,
+    285,
+    690,
+    535
+  ],
+  "faceRoiOutputApprox": [
+    35.98,
+    59.48,
+    88.32,
+    104.65
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 7693,
+    "alpha1Pixels": 152,
+    "semiTransparentPixels": 8434,
+    "opaquePixels": 257,
+    "bboxAbove32": [
+      8,
+      8,
+      115,
+      120
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      8,
+      8,
+      13,
+      8
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-avatar-128.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 152,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-avatar-128.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        245,
+        0,
+        860,
+        620
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-avatar-128.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "value": [
+        1,
+        2,
+        1,
+        8
+      ],
+      "threshold": "original requested 8–10% not attained",
+      "file": "exports/01-率土之滨/generals-ui-v1/sun-quan-avatar-128.png",
+      "message": "Full-card output preserves entire source canvas and adds padding; it cannot recover any source detail not drawn."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

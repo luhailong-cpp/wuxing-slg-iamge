@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/22-rescue-tutorial-ui-v1.png",
+  "sha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+  "width": 1916,
+  "height": 821,
+  "mode": "RGB",
+  "format": "PNG",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "actualModel": null,
+  "actualQuality": null,
+  "generatedAt": null,
+  "sourceFileModifiedAt": "2026-10-26T20:35:38.809130+00:00",
+  "recordedAt": "2026-10-27T12:56:33.442935+00:00",
+  "recordRecovery": {
+    "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+    "originalToolReceiptAvailable": false,
+    "exactCallStartedAt": null,
+    "exactCallCompletedAt": null,
+    "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+    "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+  },
+  "configReadAtRecovery": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "promptFile": "prompts/01-率土之滨/22-rescue-tutorial-ui-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/07-tutorial-guide-v1.png",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/01-world-map-ui-v1.png"
+    ]
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/07-tutorial-guide-v1.png",
+      "sha256": "ce9d9d34d3cfd53a6c1f81167d2e8e569cb07e4cd95734da5e502954577c57c5",
+      "actuallyAttached": true
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/09-rescue-tutorial.jpg",
+      "sha256": "94be818db5b563991c28ebecaa68bc7c7cbcc7d5cb0156f261e35b9443e3dd37",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/01-world-map-ui-v1.png",
+      "sha256": "34f1b397abc015b10b341d4c172af2dd06b0bd98e9d39b99aa94d2695b463793",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "file": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-b8c17d4e-d788-4d33-88c5-55b7c62857bc.png",
+    "sha256": "47be0a7bf41190eea1e08c041fde18237493cec8647dd494f96601e428263bad",
+    "copyHashVerified": true
+  },
+  "status": "direction_draft_pending_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "notes": [
+    "用户最新主题为金木水火土；率土只参考功能。",
+    "恢复记录不能冒充原始工具完整返回；实际模型与质量仍未披露。"
+  ]
+}

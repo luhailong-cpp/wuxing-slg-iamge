@@ -1,0 +1,63 @@
+{
+  "updatedAtUtc": "2026-11-02T12:45:45.706340+00:00",
+  "batch": "roster-expansion-20261102-heroes2",
+  "sourcePeople": 12,
+  "sourceUi": 60,
+  "sourceAndDerivationHashChecksPassed": true,
+  "currentTotalPeople": 72,
+  "currentTotalUi": 360,
+  "currentImportedPeople": 60,
+  "currentImportedUi": 300,
+  "currentUnityPng": 621,
+  "expectedAfterImportPng": 681,
+  "newUnityPngImported": 0,
+  "fontUnityValidated": false,
+  "gpuPassed": false,
+  "externalCompiler": {
+    "checkedAtUtc": "2026-11-02T12:50:02.349494+00:00",
+    "method": "Unity bundled Roslyn compiler using actual previous Unity Bee response references/defines; output redirected to ignored Logs/Compiler",
+    "exitCode": 0,
+    "passed": true,
+    "newImporterSha256": "30b131e754c1a38faf702a60499b4f236d9e912b476f4b2666368e5636ef1164",
+    "editorScriptCount": 7,
+    "unityEditorLaunched": false,
+    "unityAssetImportExecuted": false,
+    "glyphGpuChecked": false,
+    "output": [
+      "Assets\\Project\\Editor\\TroopRuntimeVerification.cs(64,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "Assets\\Project\\Editor\\ArtProjectBootstrap.cs(71,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+      "Assets\\Project\\Editor\\ArtBatchImporter.cs(111,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "Assets\\Project\\Editor\\ArtProjectBootstrap.cs(192,84): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'"
+    ],
+    "warningCount": 4,
+    "newScriptWarnings": 0,
+    "sourceSha256": {
+      "Assets/Project/Editor/ArtBatchImporter.cs": "c522b77cc94f9b96651c0ad88ef652a4a17819b94263672360e3382e2188d068",
+      "Assets/Project/Editor/ArtPixelIntegrity.cs": "d7a49875d26067626d8aa1ff70bea4d43197f0dbdc0d4140f8c1cbe2a0a76af0",
+      "Assets/Project/Editor/ArtProjectBootstrap.cs": "b073b346d4a2ad96b89ef6b44c8801ad93a74a362be6060844d5fce09032ad6c",
+      "Assets/Project/Editor/ArtSupplementImporter.cs": "e837bcf13ac612dffeaeea33aefc5286b4888c24fb1c8147ed9070df9b6df06a",
+      "Assets/Project/Editor/HeroLibraryBatchImporter.cs": "30b131e754c1a38faf702a60499b4f236d9e912b476f4b2666368e5636ef1164",
+      "Assets/Project/Editor/RegionalMapImporter.cs": "d31097841e79ac2dcbdad19b0186f375253a9f236a66bb12c67c7b8f923918ab",
+      "Assets/Project/Editor/TroopRuntimeVerification.cs": "845959ba711f1ae2f175fdeb6f651eddfb70949833e08b5a67d9e3c4b25ac00a"
+    }
+  },
+  "startup": {
+    "checkedAtUtc": "2026-11-02T12:22:45.716833+00:00",
+    "stage": "editor startup before script compilation/import",
+    "errorCode": 198,
+    "error": "com.unity.editor.headless was not found",
+    "newPngImported": 0,
+    "newFontUnityValidated": false,
+    "importerCompiled": false,
+    "expectedPendingPng": 60,
+    "previousVerifiedPng": 621,
+    "sourceLogSha256": "2e545acf3c680a86365c6efeb5d6e3de8a1b8256f041c830bd573ab40af268d4",
+    "userReply": "稍后操作",
+    "credentialsCopied": false,
+    "licenseFilesEdited": false,
+    "externalRoslynCompilePassed": true,
+    "unityEditorCompilePassed": false
+  },
+  "planSha256": "a2324be5a3e3b333bc01da1229603457427b34c6122fdd81a25ea2af079531df",
+  "fullGameArtComplete": false
+}

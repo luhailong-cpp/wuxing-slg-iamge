@@ -1,0 +1,469 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "manifest": "exports/01-率土之滨/runtime-ui-v2/runtime-ui-manifest.json",
+  "assetCount": 36,
+  "changedNativeRecrops": 21,
+  "byteCopiedAssets": 15,
+  "all36PixelsMatchDeclaredSourceOperations": true,
+  "all36VisibleAlphaAbove16EdgeCountsZero": true,
+  "all21RecropSourceEdgesAlphaAbove16Zero": true,
+  "all16ControlsSameCanvas": true,
+  "manualVisualReview": "Actually viewed all36 on ivory and dark slate native1:1 composite montages. Hover glow now complete, secondaryhover excludes upper-row tail, five corrected icons include complete intended contours and no visible neighboring icon fragment. Four state groups retain common visual frame position.",
+  "sourceOwnershipEvidence": "New control row crops65..245,280..445,490..650,675..855 and corrected5 icon boxes use visible-alpha-zero gutters. Cropping changes ownership, no alpha threshold modification.",
+  "qaImages": [
+    "records/01-率土之滨/qa/runtime-ui-v2-controls-light.png",
+    "records/01-率土之滨/qa/runtime-ui-v2-controls-dark.png",
+    "records/01-率土之滨/qa/runtime-ui-v2-icons-light.png",
+    "records/01-率土之滨/qa/runtime-ui-v2-icons-dark.png",
+    "records/01-率土之滨/qa/runtime-ui-v2-panels-light.png",
+    "records/01-率土之滨/qa/runtime-ui-v2-panels-dark.png"
+  ],
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3053,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 2929,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-pressed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4527,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5848,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-hover.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 2452,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3516,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-pressed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4979,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4206,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-hover.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3909,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4153,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5218,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-locked.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4168,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-notification.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3813,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3835,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4626,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-disabled.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3053,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/card-row-empty.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3809,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        22,
+        17,
+        13
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-wood.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3491,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        12,
+        18,
+        16,
+        17
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-iron.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3418,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        13,
+        22,
+        24,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stone.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4462,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        11,
+        21,
+        33,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4033,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4989,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        19,
+        15,
+        18,
+        19
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-jade.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6330,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        14,
+        20,
+        20,
+        20
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-tactic-exp.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4064,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-reserve.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 9356,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        21,
+        20,
+        3
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-attack.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3151,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        17,
+        19,
+        18,
+        6
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-defense.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6919,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        16,
+        21,
+        2
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-strategy.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7195,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-speed.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5259,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        22,
+        4,
+        14,
+        15
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-siege.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4000,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        15,
+        8,
+        14,
+        16
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-stamina.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4122,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        24,
+        2,
+        20,
+        20
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 4277,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/icon-lock.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 8456,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        20,
+        12,
+        14,
+        22
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 6900,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 7829,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 5668,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    }
+  ],
+  "nineSliceCandidateControlBorderPx": {
+    "left": 128,
+    "top": 90,
+    "right": 128,
+    "bottom": 90
+  },
+  "nineSliceGpuRenderStatus": "pending actual Unity Camera.Render",
+  "nineSliceVerifiedInClient": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "36_corrected_native_UI_candidates_saved_ready_for_isolated_engine_QA"
+}

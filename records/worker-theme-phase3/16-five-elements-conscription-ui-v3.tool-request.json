@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T19:28:36.523Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Apply only localized text cleanup to attached reference 3, the full 征兵 UI. References 1 and 2 are primary art style. Preserve all faces, equipment, portraits, scene, frames, controls, all numbers, sliders and disabled states.\n\n1) Remove the tiny lower-left internal label 演示配置 AND its tiny gold marker immediately to its left, outside the main frame near x45–172,y768–792. Replace that small area with matching continuous courtyard/foliage ground background. No replacement text, badge, control, demo or developer note anywhere.\n2) Change the nameplate beneath the left silver-short-haired woman from 铸锋使 to 金行使. Change the nameplate beneath the middle brown-haired bamboo-staff man from 青蘅使 to 木行使. Keep their original mother identities and all visual details unchanged: METAL woman has silver bob, amber eyes, gold flower/jade hair clasp, ivory/jade robe, rune ruler and jade-center compass; WOOD man has brown half-up leaf-pinned hair, green leaf capelet, bamboo staff and seed pouch.\n\nEverything else must remain intact: title 征兵 / 第一部队; two panels 大营 and 中军; current 500/1000 each, target1000 each, increase+500 each; slider endpoints500 and1000. Top grain8000, coin5000. Costs grain need10000/held8000/shortage2000 red; coin need2000/held5000 green check. Time00:20:00. Reserve section unchecked 使用预备役, available200, required1000 and red不足. Bottom summary current1000 ->target2000, new+1000. Locked grey button 粮草不足 and red 请降低目标兵力或补充粮草. 返回配置 remains. Do not invent new rules or explanatory captions. Output the corrected complete native wide PNG, no rearrangement or restyling.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/phase3-theme/16-five-elements-conscription-ui-v2.png"
+    ],
+    "transparent_background": false
+  },
+  "demoValuesAreGameplayContract": false,
+  "staticDirectionOnly": true,
+  "pixelIdenticalPortraitReuse": false,
+  "repairOf": "designs/01-率土之滨/ui/phase3-theme/16-five-elements-conscription-ui-v2.png",
+  "repairReason": "Remove lower-left internal demonstration label/marker and unify original hero labels to 金行使/木行使; preserve all arithmetic and states.",
+  "userApproved": false,
+  "clientIntegrated": false
+}

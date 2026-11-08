@@ -1,0 +1,51 @@
+{
+  "requestedAtUtc": "2026-11-06T09:23:15.785739+00:00",
+  "clientDate": "2026-11-06",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261106-heroes5/sun-yu-master-v1.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "prompt": "Original full-body portrait for a Three Kingdoms strategy game: historical identity 孙瑜. Use both reference images solely for polished Daoist chibi proportions and hand-painted art language. Oversized expressive head, compact legs, rounded clear silhouette, soft shaded textiles, warm brushed metal and restrained jade. Warm, mature scholarly general of Eastern Wu. Friendly oval face and small curved moustache, lake-blue half-cloak over aged bronze lamellar, light ochre tunic, dark low cloth headwrap. Holds a tied bundle of tan bamboo slips against his chest and rests his free hand on his sash. No fan or loose books. Three-quarter pose, both feet grounded. Fit the entire character inside the middle 75% width and 82% height, clear air around every edge and prop. Face readable at icon size. Portrait 2:3, real transparent alpha. Zero background color, no glow or shadow, no stage, border, text, UI, other figures or copy of the reference poses.",
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "sun-yu",
+    "name": "孙瑜",
+    "personID": "ww-p-bf5d8aa16a1b",
+    "cardIDs": [
+      100752
+    ],
+    "source": "https://zh.wikisource.org/wiki/三國志/卷51",
+    "identityEvidence": "Sun Jing's son Zhongyi and military study, Records of the Three Kingdoms vol. 51"
+  }
+}

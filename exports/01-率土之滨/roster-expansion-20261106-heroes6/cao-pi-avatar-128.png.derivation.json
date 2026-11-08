@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-avatar-128.png",
+  "sha256": "dfbd843ce29b7438831fea9a0c29656f0ae7676c7a6c769a450a2a3c5fa10bee",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png",
+    "sha256": "739ce359afc3d07d27207feb72f157ec482dc7dbcea2a07048cfce3309d55c3f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      271,
+      27,
+      772,
+      590
+    ],
+    "uniformScale": 0.20959147424511546,
+    "resizedSize": [
+      105,
+      118
+    ],
+    "offset": [
+      11,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

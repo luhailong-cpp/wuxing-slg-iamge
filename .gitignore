@@ -1,0 +1,17 @@
+# Local scratch, caches and credentials; current art and provenance remain tracked.
+work/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+# Machine-specific publishing state and remote receipts live locally.
+records/publication-local/

@@ -1,0 +1,24 @@
+{
+  "startedAtUtc": "2026-10-28T14:05:55.243Z",
+  "method": "GitHub Git database API; original account; binary objects then text/tree; branch unchanged until final commit",
+  "expectedOldMain": "400f3f198131bd2de5c6ec91eaef2736393ab31a",
+  "intendedLocalCommit": "cd44318c6c71d28a3bf0be2d6de2e78c15f92991",
+  "intendedTree": "6ae47bf8326340ac9b36906c37be268acdb6b8c5",
+  "totalBinaryObjects": 228,
+  "totalBinaryBytes": 251637135,
+  "uploaded": [
+    {
+      "sha": "2d1ea35db6f9143091d86306680644bb9dc91d59",
+      "path": "exports/01-率土之滨/ui-support-v1/scrollbar-track-128.png",
+      "bytes": 5392,
+      "atUtc": "2026-10-28T14:19:13.898Z"
+    }
+  ],
+  "failures": [
+    {
+      "stage": "largest-object",
+      "error": "fetch failed",
+      "atUtc": "2026-10-28T14:08:20.831Z"
+    }
+  ]
+}

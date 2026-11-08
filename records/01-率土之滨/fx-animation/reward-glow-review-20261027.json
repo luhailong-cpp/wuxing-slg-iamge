@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T16:56:21.981718+00:00",
+  "effect": "reward-glow",
+  "manifest": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+  "sourceSha256": "db25ce0390d3168d449a5f4bd00cc5a7cf4acb73f5560adcc49c05c743c709b3",
+  "frames": 8,
+  "uniqueFrameFiles": 8,
+  "canvas": [
+    900,
+    900
+  ],
+  "nativeRGBAAtPasteOffsetMatchesSourceCrop": true,
+  "allCanvasBordersGenuinelyTransparent": true,
+  "allAlphaAbove1ContentWithinCentral60Percent": true,
+  "sourceOwnershipBoundaryAlphaAbove16Counts": 0,
+  "sharedAnchorPxTopLeft": [
+    450,
+    450
+  ],
+  "sourceAnchorsManuallyMeasuredFrom": "four-point star core",
+  "registrationMethod": "manual plane-hole/star-core source registration; native crop then RGBA-preserving paste on transparent canvas; no per-frame bbox normalization",
+  "perFrameBboxNormalization": false,
+  "perFrameScaleChanges": false,
+  "sourceAlphaEdited": false,
+  "phaseOrderReview": "rise, peak atframe04, decline throughframe07; endpoints nonempty, eight distinct images",
+  "lightAndDarkNativeContactSheetsActuallyViewed": true,
+  "continuousPlaybackHumanApproved": false,
+  "status": "candidate_pass_for_registered_phase_preview_with_warnings",
+  "warnings": [
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 2,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time",
+      "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 264111,
+        "detached_components": 100
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both",
+      "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png"
+    },
+    {
+      "id": "MANUAL_SHARED_ROOT_REGISTRATION",
+      "status": "warn",
+      "value": {
+        "sourceAnchors": [
+          [
+            225,
+            248
+          ],
+          [
+            667,
+            248
+          ],
+          [
+            1108,
+            248
+          ],
+          [
+            1550,
+            249
+          ],
+          [
+            225,
+            648
+          ],
+          [
+            670,
+            647
+          ],
+          [
+            1108,
+            648
+          ],
+          [
+            1552,
+            648
+          ]
+        ],
+        "outputAnchor": [
+          450,
+          450
+        ]
+      },
+      "threshold": "single shared logical anchor; source sheet not perfectly registered",
+      "file": "designs/01-率土之滨/assets/fx-animation/reward-glow-sheet-v1.png",
+      "note": "Original phases are only translated on transparent padding using measured plane/star core, no alpha-bbox normalization or per-frame scaling. Residual subpixel motion is not formally approved."
+    },
+    {
+      "id": "SOURCE_FAINT_ALPHA_AT_OWNERSHIP_EDGE",
+      "status": "warn",
+      "value": [
+        1,
+        1,
+        2,
+        1
+      ],
+      "threshold": "alpha>1 ideally absent; alpha>16 must be0 and is0",
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/frame-04.png",
+      "note": "Low alpha source haze is retained/cropped at ownership gutter; no threshold erasure or matte repair."
+    },
+    {
+      "id": "GENERATIVE_CONTOUR_AND_TIMING_CANDIDATE",
+      "status": "warn",
+      "value": "Minor ring/cloud or spark topology differences across phases; eight phases at10fps",
+      "threshold": "Final smoothness, topology and gameplay timing require animation/director review",
+      "file": "exports/01-率土之滨/fx-animation/reward-glow/manifest.json",
+      "note": "No claim of continuous video, gameplay event alignment or final smooth-animation acceptance."
+    }
+  ],
+  "qaPreviews": [
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-0.png",
+      "sha256": "9941d73931e4d5e2c0fa9b902a4e640b3c73a109497c5f17e3846049c0c1bc96",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-1.png",
+      "sha256": "defd0765cb715e7848ff82a3f7d3dcb63a2fd5bf57546999e91a1628f45f8092",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-sequence.gif",
+      "sha256": "9f3ab5a6a3cbbdbc1607539398cdb9870e154574541d7f3463d5aa010464d070",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-dark-sequence.gif.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-0.png",
+      "sha256": "169db750a2398c3a5e87d454e2f0c3cbcc54d7bd255c1d8c5e32a0a6c18143f4",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-0.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-1.png",
+      "sha256": "e00e8f6d04fb3e56051805da171cad462f97c9ba13aa15ea9d1d6a3ec9c30d2e",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-1.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-sequence.gif",
+      "sha256": "a2e411c7615504fdec1eb397eed705e5017d958110aaeb7bba039e8ef535736e",
+      "record": "records/01-率土之滨/fx-animation/reward-glow-registered-qa-20261027/qa-light-sequence.gif.derivation.json"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "timingDemonstrationOnly": true,
+  "durationSeconds": 0.8,
+  "loop": false,
+  "gameplayEvents": []
+}

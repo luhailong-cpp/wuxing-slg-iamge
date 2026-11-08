@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/zhu-ling-avatar-128.png",
+  "sha256": "b1c50522a0e38f6a1fde08f8cc812e3e3bfae1904fa10ad477091493a649372a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/zhu-ling-master-v1.png",
+    "sha256": "c719dad277ca020a8e62dc7d9aaf7f745bb0f4a4592c5913382b4f597ea60c8a",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/zhu-ling-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      201,
+      283,
+      690,
+      734
+    ],
+    "uniformScale": 0.24130879345603273,
+    "resizedSize": [
+      118,
+      109
+    ],
+    "offset": [
+      5,
+      9
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

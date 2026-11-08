@@ -1,0 +1,72 @@
+{
+  "unit": "fire",
+  "status": "technical_registration_candidate_not_user_or_engine_accepted",
+  "counts": {
+    "sourceSheets": 4,
+    "animationFrames": 20,
+    "native1024PNG": 20,
+    "normalized1024PNG": 20,
+    "map128hPNG": 20,
+    "exportPNG": 60,
+    "generatedNewSheetsThisStep": 0
+  },
+  "manifest": {
+    "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/manifest.json",
+    "sha256": "d75c0056df64718d4788c08d7fbc5361464a0d9d2d0c7054efebcad1d016a49c"
+  },
+  "clips": {
+    "file": "exports/01-率土之滨/troop-frames-20261029-r3/fire-grounded-candidate-v1/clips.json",
+    "sha256": "1ed937c29e44cde483d1994d1bb8b00bbf20ad1a1f031329ba40e56c07e0bb3f"
+  },
+  "sourceSheetHashes": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-idle-se-v1.png",
+      "sha256": "8c882e049a77fbdb6d525b5fe8bf41de7f1b46430e3e8fcff1c45e5f8da58ffd"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-attack-se-v1.png",
+      "sha256": "80e33f1338c699450a0444a2ceef9db69e03bb887a78f958f31750e0b4183efb"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-hurt-se-v1.png",
+      "sha256": "4cfb3b25ac5261f341422161abdb3eb21413efbe870b3e0b92bf9c639c5ebd9c"
+    },
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-defeat-se-v1.png",
+      "sha256": "bc969f57cb030c75189c41acc3ffe21fd8d63be33a857ffc5226c1559935f82a"
+    }
+  ],
+  "maxNormalizedRootErrorPx": 0.875,
+  "masterMapAlpha16Height": 130,
+  "overview": [
+    {
+      "file": "records/troop-frames-20261029-r3/fire-registration-all-actions-map-light.png",
+      "sha256": "290559ac6d5c2ce8a009c2ecb730a63755841be81fec7f4b4de3f75e4ddbfe9d"
+    },
+    {
+      "file": "records/troop-frames-20261029-r3/fire-registration-all-actions-map-dark.png",
+      "sha256": "352fc94128008c4fec4c5a098d03b9032b83fd6cf3254bdbeb34719b7d0a5577"
+    }
+  ],
+  "technicalChecks": {
+    "allNativeExactRGBA": true,
+    "sourceExactlyPartitionedOnce": true,
+    "oneScalePerAction": true,
+    "perFrameFit": false,
+    "outputBoundaryAlphaZero": true
+  },
+  "limits": [
+    "user approval of identity or final visual",
+    "motion smoothness and timing",
+    "individual feet do not slide",
+    "all generated proportions identical beyond measured neutral helmet width",
+    "Unity import or playback"
+  ],
+  "warnings": [
+    "Faint original alpha haze retained in native; resized alpha can quantize.",
+    "SE direction only; walk excluded.",
+    "Manual helmet/contact interpretation has artistic measurement uncertainty.",
+    "Defeat frame6 raises head slightly relative to frame5; inspect hold/timing during playback, not accepted as continuous smooth motion.",
+    "map128h is approximate: measured master alpha>16 height 130 px."
+  ]
+}

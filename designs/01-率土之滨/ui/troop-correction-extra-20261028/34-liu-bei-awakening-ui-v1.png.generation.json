@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v1.png",
+  "sha256": "e0cc7f18c5a8d88b2fb17b4f388d263948cda60e00b5ebce4be39f0c974517f2",
+  "generatedAt": null,
+  "generatedAtBasis": "Service-internal generation timestamp not disclosed; observed call completion retained separately",
+  "callStartedAt": "2026-10-28T11:46:38.908Z",
+  "callCompletedAt": "2026-10-28T11:47:55.258Z",
+  "width": 1915,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "bitDepth": 8,
+  "bytes": 2723782,
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "resultId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Edit reference3 (the original general awakening UI) into a corrected historical-general page. One complete wide landscape UI, target1915x821. References1/2 are the primary approved Daoist chibi art/UI style. Reference4 is the exact Liu Bei master. Reference5 is the current corrected Liu Bei details page for consistent identity, crown and four-star rarity; it is not a new layout target.\nPreserve reference3's full ornate jade/ivory/gold frame, mountain garden background, back/close buttons, large left general/identity panel, right conditions area, two equipment-slot preview boxes and bottom disabled/action controls. Do NOT make an elemental hero screen.\n\nTitle EXACTLY \"武将养成\". Top-right tabs \"进阶\" and selected jade \"觉醒\".\nLEFT: historical \"刘备\", small faction tag \"汉\", exactly FOUR gold stars, \"Lv.20\", badge \"未觉醒\". Repaint the anonymous spear wielder into Liu Bei from reference4: long dark hair, tall narrow upright dark-green jade crown with gold trim, thin moustache and short pointed goatee, white/jade robes, twin swords. Preserve his face and crown identity; no low red/gold crown, no female elemental envoy, no 金行使/铸锋使/修士. Bottom-left button \"返回武将\". Do not force a troop selector onto a page whose source has none.\nRIGHT text and states:\nHeading \"觉醒条件\".\nFirst row: green check; \"武将等级 20 / 20\"; green status \"已达成\".\nSecond row: existing green Daoist jade awakening-material icon; \"觉醒玉\"; red count \"1 / 2\"; red status \"还差 1\".\nHeading \"觉醒效果预览\".\nLeft preview caption \"当前：未开放\", with two existing filled tactic icons then a gray locked third slot.\nArrow toward right preview, caption \"觉醒后：开放\", same two filled tactic icons then an empty jade slot with a plus sign. The first filled icon can reflect Liu Bei's existing military-banner tactic motif from reference5; keep the before/after pair identical, do not depict five-element powers or claim a new skill.\nUnder previews \"开放第三战法位\".\nBottom primary action is disabled gray with a lock and EXACT text \"材料不足\".\nBottom secondary button active ivory/gold \"获取材料\".\nSmall bottom helper \"集齐2个觉醒玉后可觉醒\".\nThis preserves the inherited source material-count example, not a request to invent extra costs or numerical rules. No duplicate progress bars, five-star row, elemental faction, “术法位”, “修士等级” or “返回修士”. Maintain clear Chinese, readable1/2 and one-missing state, coherent spacing, no overlap. Finished opaque raster UI candidate.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/34-general-awakening-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具未披露／无可核实元数据",
+  "prompt": "prompts/01-率土之滨/ui-correction-extra-20261028/34-liu-bei-awakening-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "width": 1931,
+      "height": 814,
+      "role": "Primary approved mail UI style",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "width": 1931,
+      "height": 814,
+      "role": "Primary approved team UI style",
+      "actuallyViewed": true,
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/34-general-awakening-ui-v1.png",
+      "sha256": "20a7fcbbfdf91faceba67d01bb9458d3dc54dcade91c65c51ab68a726ff0f09a",
+      "width": 1916,
+      "height": 821,
+      "role": "Original awakening function/layout edit target; replace anonymous identity only",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/ui/34-general-awakening-ui-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "width": 1024,
+      "height": 1536,
+      "role": "Liu Bei v2 historical master identity",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/characters/02-liu-bei-v2.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png",
+      "sha256": "c6a7a151db4f0f23aecd159af6cd752a63d6cb936019cb5715f8dcd2c40a434f",
+      "width": 1915,
+      "height": 821,
+      "role": "Current corrected Liu Bei identity/rarity/tactic motif consistency",
+      "actuallyViewed": true,
+      "actuallyAttached": true,
+      "sourceRecord": "designs/01-率土之滨/ui/troop-correction-20261028/18-liu-bei-gold-troop-detail-ui-v1.png.generation.json"
+    }
+  ],
+  "evidence": [
+    "records/ui-correction-extra-20261028/34-liu-bei-awakening-ui-v1.tool-request.json",
+    "records/ui-correction-extra-20261028/34-liu-bei-awakening-ui-v1.tool-response.json"
+  ],
+  "priorChecklistItem": {
+    "screenId": 34,
+    "title": "武将觉醒",
+    "priorCatalogSelection": "designs/01-率土之滨/ui/34-metal-envoy-awakening-ui-v2.png",
+    "priorCatalogSelectionSha256": "3c309306de0f6bb6aa924dfff1ee97edd6a2cb36cd292831f7112419e582cf1c",
+    "correctionStatus": "correction_required",
+    "requiredAction": "撤回金行使，采用率土武将母版与原觉醒/材料/战法槽功能；旧v1为匿名道将，不能直接视为身份恢复。",
+    "pixelRecheckedInThisBatch": false,
+    "newGenerationInThisBatch": false,
+    "userApproved": false,
+    "clientIntegrated": false,
+    "fullStateCoverage": false,
+    "evidenceBasis": "prior catalog and recorded reviews; this batch did not re-view page pixels",
+    "suggestedRestoreOrEditBase": "designs/01-率土之滨/ui/34-general-awakening-ui-v1.png",
+    "baseExists": true,
+    "baseSha256": "20a7fcbbfdf91faceba67d01bb9458d3dc54dcade91c65c51ab68a726ff0f09a"
+  },
+  "assetRole": "Full flattened UI direction correction candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullStateCoverage": false
+}

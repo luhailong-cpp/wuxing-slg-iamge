@@ -1,0 +1,86 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/guo-jia-face-native.png",
+  "sha256": "374d0099ce7a97f52be48e8557bd43db935c3f814ca0e9db96af102cc95782b4",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "guo-jia",
+  "displayName": "郭嘉",
+  "variant": "face-native",
+  "width": 485,
+  "height": 468,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png",
+      "sha256": "ae6c0cfa5d7aae4dd4a2b36203a77a4d99a6aec7929f25a78a637e1a21069d88",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/guo-jia-master-v1.png.generation.json",
+      "recordSha256": "d0a0ea4493baa4f1577a2818363d8a1626e8060dd7da8907dac43a63f88ff60e"
+    }
+  ],
+  "operation": "native_rectangle_crop",
+  "cropBox": [
+    340,
+    112,
+    825,
+    580
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "alphaZero": 58291,
+    "alphaOne": 4849,
+    "alphaSemi": 168689,
+    "alphaOpaque": 0,
+    "bboxAlpha16": [
+      0,
+      12,
+      475,
+      468
+    ],
+    "marginsAlpha16": [
+      0,
+      12,
+      10,
+      0
+    ],
+    "edgeAlpha16Pixels": 578
+  },
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    475,
+    320,
+    737,
+    530
+  ],
+  "faceRoiOutputApprox": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP_NOT_ISOLATED_HEAD_ART",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

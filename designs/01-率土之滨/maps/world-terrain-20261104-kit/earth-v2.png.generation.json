@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v2.png",
+  "sha256": "d81cf8407a6e066d55d2ff3a1af059d450e38d96f6911cc6201bf3fd29f6134d",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-11-04T16:11:34.686Z",
+  "clientDate": "2026-11-04",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "art_source": "host_image",
+  "resultId": "exec-e17bc5e2-9358-4d4f-8c61-a837fa8f0077",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png",
+      "D:/work/wuxing-slg-iamge/records/world-terrain-20261104-kit/earth-v1-junction-native.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "prompt": "Edit image 1, a square repeat texture for the Five Elements strategy game, and return one opaque square PNG. Image 2 is the exact repeat-junction diagnostic from image 1. The upright discontinuity at its center is the problem. Images 3 and 4 are approved Taoist chibi style references only. Keep the color, top-down scale, painted pattern, and texture of image 1. Correct its left and right edges so the brushwork truly continues seamlessly through a horizontal repeat; choose the same color and shape continuation for both ends of each row. Also preserve a seamless top-bottom repeat and all four corners. Treat it as one continuous toroidal surface with no visible vertical or horizontal join. Preserve warm ochre ground and scattered tiny flecks. Maintain uniform detail, no blur, border, object, UI, text, shadows, vignette, extra panels or output preview. Return only the corrected square texture.",
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "prompt": "prompts/01-率土之滨/world-terrain-20261104-kit/earth-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png",
+      "sha256": "1b2d0a5c118519e667ddda055660f5ac3d0609c648985bf47758b72a7697aeee",
+      "role": "edit target"
+    },
+    {
+      "file": "records/world-terrain-20261104-kit/earth-v1-junction-native.png",
+      "sha256": "c82fc40917ebee01e8ba22575fb86df7d3219ea6997083d3168601f8daf9b501",
+      "role": "native seam diagnostic"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style"
+    }
+  ],
+  "identity": null,
+  "editOf": {
+    "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png",
+    "generation": "designs/01-率土之滨/maps/world-terrain-20261104-kit/earth-v1.png.generation.json",
+    "sha256": "1b2d0a5c118519e667ddda055660f5ac3d0609c648985bf47758b72a7697aeee"
+  },
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-e17bc5e2-9358-4d4f-8c61-a837fa8f0077.png",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理，未返回可核实型号、质量或服务端生成时间。",
+  "status": "candidate_pending_asset_checks"
+}

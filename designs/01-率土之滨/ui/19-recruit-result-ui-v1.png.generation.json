@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png",
+  "sha256": "875af7638b4b759b0624067f45ba77c60ae9b246f25c69acf3b8dbacb8b4d243",
+  "width": 1916,
+  "height": 821,
+  "mode": "RGB",
+  "format": "PNG",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "actualModel": null,
+  "actualQuality": null,
+  "generatedAt": null,
+  "sourceFileModifiedAt": "2026-10-26T20:26:19.355455+00:00",
+  "recordedAt": "2026-10-27T12:56:33.442935+00:00",
+  "recordRecovery": {
+    "basis": "前序会话调用代码、持久提示词、会话摘要及宿主输出文件恢复；内存store未跨本轮保留",
+    "originalToolReceiptAvailable": false,
+    "exactCallStartedAt": null,
+    "exactCallCompletedAt": null,
+    "doNotTreatFilesystemMtimeAsToolCompletionTime": true,
+    "originalCallCodeInLocalSession": "C:/Users/luyua/.codex/sessions/2026/10/26/rollout-2026-10-26T03-15-52-01a17710-cf3a-7e80-a69a-252bb7b23d42.jsonl"
+  },
+  "configReadAtRecovery": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "promptFile": "prompts/01-率土之滨/19-recruit-result-ui-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "D:/work/wuxing-slg-iamge/uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg"
+    ]
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "actuallyAttached": true
+    },
+    {
+      "file": "uploads/01-率土之滨/user-reference-20261026/07-general-recruit-result.jpg",
+      "sha256": "b40a3d1b54dab5da64133f601dbe7c1427a09aa44bef9ca05b2cc3a59054ffa1",
+      "actuallyAttached": true
+    }
+  ],
+  "source": {
+    "file": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-fa724fd1-7574-4717-8c3d-c64649a857c7.png",
+    "sha256": "875af7638b4b759b0624067f45ba77c60ae9b246f25c69acf3b8dbacb8b4d243",
+    "copyHashVerified": true
+  },
+  "status": "theme_mismatch_requires_five_elements_redesign",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "notes": [
+    "用户最新主题为金木水火土；率土只参考功能。",
+    "恢复记录不能冒充原始工具完整返回；实际模型与质量仍未披露。"
+  ]
+}

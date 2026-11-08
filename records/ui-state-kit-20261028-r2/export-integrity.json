@@ -1,0 +1,43 @@
+{
+  "verifiedAtUtc": "2026-10-29T04:02:55.072007+00:00",
+  "nativeSheetCount": 3,
+  "derivedSpriteCount": 23,
+  "allSourceHashesMatched": true,
+  "allPromptsMatchedActualRequest": true,
+  "allReferenceHashesMatched": true,
+  "allCropsPixelIdenticalToSourceRect": true,
+  "warningCount": 5,
+  "warnings": [
+    {
+      "id": "NATIVE_LOW_ALPHA_PIXELS_RETAINED",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "alpha1": 37503,
+      "alpha2to8": 23565
+    },
+    {
+      "id": "NO_FULLY_OPAQUE_PIXELS_IN_NATIVE",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "maximumAlpha": 254,
+      "note": "Original alpha preserved; not normalized to255. Interiors slightly translucent."
+    },
+    {
+      "id": "NATIVE_LOW_ALPHA_PIXELS_RETAINED",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "alpha1": 43891,
+      "alpha2to8": 16368
+    },
+    {
+      "id": "NATIVE_LOW_ALPHA_PIXELS_RETAINED",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "alpha1": 37524,
+      "alpha2to8": 17684
+    },
+    {
+      "id": "NO_FULLY_OPAQUE_PIXELS_IN_NATIVE",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "maximumAlpha": 254,
+      "note": "Original alpha preserved; not normalized to255. Interiors slightly translucent."
+    }
+  ],
+  "noUnityOrHeavyTests": true
+}

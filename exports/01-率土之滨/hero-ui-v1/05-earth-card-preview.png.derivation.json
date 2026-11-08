@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+  "sha256": "eb715b07d68ef54b3fe5be61f275be41bbf237cfa5ee2edd3889c56e24d4050a",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "heroId": "05-earth",
+  "element": "earth",
+  "variant": "card-preview",
+  "identityPreservedFromMaster": "brown side-swept bun, jade bead tassel hairpiece; ochre ivory green robe, mountain seal and jade shield in bust/card",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "record": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "recordSha256": "cf6f24dba60acb7667f1a48373fbe171967bc473f5bc4d070ff902933432dd02"
+    }
+  ],
+  "operation": "rectangular_crop_premultiplied_LANCZOS_downsample_transparent_integer_pad",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "resizeScaleNominal": 0.6875,
+  "actualScaleXY": [
+    0.6875,
+    0.6875
+  ],
+  "resizeMethod": "Pillow RGBa premultiplied-alpha LANCZOS then convert back RGBA",
+  "paddingCanvas": [
+    768,
+    1152
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48,
+    736,
+    1104
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    370,
+    310,
+    680,
+    545
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "fullyTransparentPixels": 552329,
+    "alpha1PixelCount": 4644,
+    "alphaSemiPixels": 331367,
+    "alphaOpaquePixels": 1040,
+    "bboxAbove16": [
+      83,
+      169,
+      706,
+      1008
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MASTER_UNAPPROVED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "message": "Original master and this derivative are candidates; no user approval or official launch adoption."
+    },
+    {
+      "id": "NATIVE_SOFT_ALPHA_RETAINED",
+      "value": 4644,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-card-preview.png",
+      "message": "Original soft alpha and alpha1 residue retained; downsample may redistribute alpha. No keying or threshold cleaning."
+    }
+  ],
+  "status": "derived_UI_preview_candidate_pending_user_and_client_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false
+}

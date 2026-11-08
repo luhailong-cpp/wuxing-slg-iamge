@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-face-native.png",
+  "sha256": "24bbd5575d0863b1ef83ded1f18f39e64cfa28889bff07e61d43ef0ad40b76d9",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+    "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      168,
+      133,
+      860,
+      706
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,565 @@
+{
+  "schema": "wuxing-slg.engine-frame-candidate.v1",
+  "status": "metadata_ready_not_engine_imported",
+  "character": "troop-metal",
+  "direction": "SE",
+  "walkIncluded": false,
+  "variants": {
+    "normalized1024": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "rootTopLeft": [
+        512,
+        768
+      ],
+      "unityPivotBottomLeftNormalized": [
+        0.5,
+        0.25
+      ]
+    },
+    "map128h": {
+      "canvas": [
+        384,
+        384
+      ],
+      "rootTopLeft": [
+        192,
+        288
+      ],
+      "unityPivotBottomLeftNormalized": [
+        0.5,
+        0.25
+      ],
+      "meaning": "master standing silhouette128px; action heights vary naturally"
+    }
+  },
+  "clips": [
+    {
+      "name": "metal-idle-se",
+      "loop": true,
+      "playback": "forward_only",
+      "durationMs": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "totalDurationMs": 1000,
+      "endBehavior": "loop",
+      "frames": [
+        {
+          "index": 1,
+          "normalized1024": "idle/normalized1024/idle-01.png",
+          "map128h": "idle/map128h/idle-01.png",
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "sourceGroundRoot": [
+            339,
+            482
+          ],
+          "nativeOffset": [
+            173,
+            286
+          ],
+          "normalizedOffset": [
+            207,
+            334
+          ]
+        },
+        {
+          "index": 2,
+          "normalized1024": "idle/normalized1024/idle-02.png",
+          "map128h": "idle/map128h/idle-02.png",
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "sourceGroundRoot": [
+            348,
+            482
+          ],
+          "nativeOffset": [
+            164,
+            286
+          ],
+          "normalizedOffset": [
+            199,
+            334
+          ]
+        },
+        {
+          "index": 3,
+          "normalized1024": "idle/normalized1024/idle-03.png",
+          "map128h": "idle/map128h/idle-03.png",
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "sourceGroundRoot": [
+            341,
+            478
+          ],
+          "nativeOffset": [
+            171,
+            290
+          ],
+          "normalizedOffset": [
+            205,
+            338
+          ]
+        },
+        {
+          "index": 4,
+          "normalized1024": "idle/normalized1024/idle-04.png",
+          "map128h": "idle/map128h/idle-04.png",
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "sourceGroundRoot": [
+            347,
+            477
+          ],
+          "nativeOffset": [
+            165,
+            291
+          ],
+          "normalizedOffset": [
+            200,
+            339
+          ]
+        }
+      ]
+    },
+    {
+      "name": "metal-attack-se",
+      "loop": false,
+      "playback": "forward_only",
+      "durationMs": [
+        120,
+        100,
+        100,
+        70,
+        100,
+        160
+      ],
+      "totalDurationMs": 650,
+      "endBehavior": "return_to_idle_when_game_state_allows",
+      "frames": [
+        {
+          "index": 1,
+          "normalized1024": "attack/normalized1024/attack-01.png",
+          "map128h": "attack/map128h/attack-01.png",
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceGroundRoot": [
+            301,
+            476
+          ],
+          "nativeOffset": [
+            211,
+            292
+          ],
+          "normalizedOffset": [
+            255,
+            362
+          ]
+        },
+        {
+          "index": 2,
+          "normalized1024": "attack/normalized1024/attack-02.png",
+          "map128h": "attack/map128h/attack-02.png",
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceGroundRoot": [
+            304,
+            474
+          ],
+          "nativeOffset": [
+            208,
+            294
+          ],
+          "normalizedOffset": [
+            253,
+            363
+          ]
+        },
+        {
+          "index": 3,
+          "normalized1024": "attack/normalized1024/attack-03.png",
+          "map128h": "attack/map128h/attack-03.png",
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceGroundRoot": [
+            313,
+            475
+          ],
+          "nativeOffset": [
+            199,
+            293
+          ],
+          "normalizedOffset": [
+            245,
+            363
+          ]
+        },
+        {
+          "index": 4,
+          "normalized1024": "attack/normalized1024/attack-04.png",
+          "map128h": "attack/map128h/attack-04.png",
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceGroundRoot": [
+            345,
+            444
+          ],
+          "nativeOffset": [
+            167,
+            324
+          ],
+          "normalizedOffset": [
+            218,
+            389
+          ]
+        },
+        {
+          "index": 5,
+          "normalized1024": "attack/normalized1024/attack-05.png",
+          "map128h": "attack/map128h/attack-05.png",
+          "sourceRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceGroundRoot": [
+            325,
+            448
+          ],
+          "nativeOffset": [
+            187,
+            320
+          ],
+          "normalizedOffset": [
+            235,
+            386
+          ]
+        },
+        {
+          "index": 6,
+          "normalized1024": "attack/normalized1024/attack-06.png",
+          "map128h": "attack/map128h/attack-06.png",
+          "sourceRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceGroundRoot": [
+            306,
+            449
+          ],
+          "nativeOffset": [
+            206,
+            319
+          ],
+          "normalizedOffset": [
+            251,
+            385
+          ]
+        }
+      ]
+    },
+    {
+      "name": "metal-hurt-se",
+      "loop": false,
+      "playback": "forward_only",
+      "durationMs": [
+        120,
+        100,
+        120,
+        180
+      ],
+      "totalDurationMs": 520,
+      "endBehavior": "return_to_idle_when_game_state_allows",
+      "frames": [
+        {
+          "index": 1,
+          "normalized1024": "hurt/normalized1024/hurt-01.png",
+          "map128h": "hurt/map128h/hurt-01.png",
+          "sourceRect": [
+            0,
+            0,
+            627,
+            627
+          ],
+          "sourceGroundRoot": [
+            397,
+            602
+          ],
+          "nativeOffset": [
+            115,
+            166
+          ],
+          "normalizedOffset": [
+            282,
+            419
+          ]
+        },
+        {
+          "index": 2,
+          "normalized1024": "hurt/normalized1024/hurt-02.png",
+          "map128h": "hurt/map128h/hurt-02.png",
+          "sourceRect": [
+            627,
+            0,
+            1254,
+            627
+          ],
+          "sourceGroundRoot": [
+            367,
+            604
+          ],
+          "nativeOffset": [
+            145,
+            164
+          ],
+          "normalizedOffset": [
+            299,
+            417
+          ]
+        },
+        {
+          "index": 3,
+          "normalized1024": "hurt/normalized1024/hurt-03.png",
+          "map128h": "hurt/map128h/hurt-03.png",
+          "sourceRect": [
+            0,
+            627,
+            627,
+            1254
+          ],
+          "sourceGroundRoot": [
+            409,
+            567
+          ],
+          "nativeOffset": [
+            103,
+            201
+          ],
+          "normalizedOffset": [
+            275,
+            439
+          ]
+        },
+        {
+          "index": 4,
+          "normalized1024": "hurt/normalized1024/hurt-04.png",
+          "map128h": "hurt/map128h/hurt-04.png",
+          "sourceRect": [
+            627,
+            627,
+            1254,
+            1254
+          ],
+          "sourceGroundRoot": [
+            338,
+            582
+          ],
+          "nativeOffset": [
+            174,
+            186
+          ],
+          "normalizedOffset": [
+            316,
+            430
+          ]
+        }
+      ]
+    },
+    {
+      "name": "metal-defeat-se",
+      "loop": false,
+      "playback": "forward_only",
+      "durationMs": [
+        120,
+        120,
+        160,
+        200,
+        200,
+        600
+      ],
+      "totalDurationMs": 1400,
+      "endBehavior": "hold_last_frame",
+      "frames": [
+        {
+          "index": 1,
+          "normalized1024": "defeat/normalized1024/defeat-01.png",
+          "map128h": "defeat/map128h/defeat-01.png",
+          "sourceRect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "sourceGroundRoot": [
+            289,
+            483
+          ],
+          "nativeOffset": [
+            223,
+            285
+          ],
+          "normalizedOffset": [
+            278,
+            377
+          ]
+        },
+        {
+          "index": 2,
+          "normalized1024": "defeat/normalized1024/defeat-02.png",
+          "map128h": "defeat/map128h/defeat-02.png",
+          "sourceRect": [
+            512,
+            0,
+            1024,
+            512
+          ],
+          "sourceGroundRoot": [
+            298,
+            496
+          ],
+          "nativeOffset": [
+            214,
+            272
+          ],
+          "normalizedOffset": [
+            270,
+            366
+          ]
+        },
+        {
+          "index": 3,
+          "normalized1024": "defeat/normalized1024/defeat-03.png",
+          "map128h": "defeat/map128h/defeat-03.png",
+          "sourceRect": [
+            1024,
+            0,
+            1536,
+            512
+          ],
+          "sourceGroundRoot": [
+            313,
+            501
+          ],
+          "nativeOffset": [
+            199,
+            267
+          ],
+          "normalizedOffset": [
+            258,
+            362
+          ]
+        },
+        {
+          "index": 4,
+          "normalized1024": "defeat/normalized1024/defeat-04.png",
+          "map128h": "defeat/map128h/defeat-04.png",
+          "sourceRect": [
+            0,
+            512,
+            512,
+            1024
+          ],
+          "sourceGroundRoot": [
+            291,
+            441
+          ],
+          "nativeOffset": [
+            221,
+            327
+          ],
+          "normalizedOffset": [
+            276,
+            411
+          ]
+        },
+        {
+          "index": 5,
+          "normalized1024": "defeat/normalized1024/defeat-05.png",
+          "map128h": "defeat/map128h/defeat-05.png",
+          "sourceRect": [
+            512,
+            512,
+            1024,
+            1024
+          ],
+          "sourceGroundRoot": [
+            289,
+            440
+          ],
+          "nativeOffset": [
+            223,
+            328
+          ],
+          "normalizedOffset": [
+            278,
+            411
+          ]
+        },
+        {
+          "index": 6,
+          "normalized1024": "defeat/normalized1024/defeat-06.png",
+          "map128h": "defeat/map128h/defeat-06.png",
+          "sourceRect": [
+            1024,
+            512,
+            1536,
+            1024
+          ],
+          "sourceGroundRoot": [
+            294,
+            438
+          ],
+          "nativeOffset": [
+            218,
+            330
+          ],
+          "normalizedOffset": [
+            274,
+            413
+          ]
+        }
+      ]
+    }
+  ],
+  "timingStatus": "authoring proposal; temporal playback and engine validation pending"
+}

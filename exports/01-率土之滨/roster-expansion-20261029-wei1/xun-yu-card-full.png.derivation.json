@@ -1,0 +1,96 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wei1/xun-yu-card-full.png",
+  "sha256": "590914d6a91c21aae8ea1033d0dbffb22d80a7573fec2c3fb524bd18993bdd2e",
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T12:41:07.135147+00:00",
+  "generalId": "xun-yu",
+  "displayName": "荀彧",
+  "variant": "card-full",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png",
+      "sha256": "603ab5d45004a75c8e6ab9fc34ab4f75ce9097b73a1660580b58296f92acbcbe",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wei1/xun-yu-master-v1.png.generation.json",
+      "recordSha256": "a07570f2c83a6576bd5c5e712f794400d051df0ca80744ae98743a96534277f2"
+    }
+  ],
+  "operation": "rectangle_crop_premultiplied_Lanczos_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "originalMasterSize": [
+    1024,
+    1536
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "alphaZero": 450104,
+    "alphaOne": 6940,
+    "alphaSemi": 433187,
+    "alphaOpaque": 1445,
+    "bboxAlpha16": [
+      43,
+      65,
+      719,
+      1082
+    ],
+    "marginsAlpha16": [
+      43,
+      65,
+      49,
+      70
+    ],
+    "edgeAlpha16Pixels": 0
+  },
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaHygiene": "none",
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "faceRoiSourceApprox": [
+    430,
+    345,
+    705,
+    562
+  ],
+  "faceRoiOutputApprox": [
+    327.625,
+    285.188,
+    516.688,
+    434.375
+  ],
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    "CANDIDATE_NOT_USER_ACCEPTED",
+    "NO_ANIMATION_OR_ENGINE_VALIDATION",
+    "SOURCE_SOFT_ALPHA_RETAINED",
+    "ORIGINAL_8_PERCENT_MARGIN_TARGET_NOT_FULLY_MET_NO_ALPHA16_EDGE_CONTACT"
+  ],
+  "status": "derived_static_UI_candidate",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "newGeneratedImage": false
+}

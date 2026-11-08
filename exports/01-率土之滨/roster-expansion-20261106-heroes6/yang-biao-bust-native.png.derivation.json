@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-bust-native.png",
+  "sha256": "bf1c92c39184d9c85785886fafd1a9d527ac876975d618cc15ca824cda0051a1",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+    "sha256": "d1450fcd23f1f24e92661a3601c2d85d4c1111e873dc6a2d97f1666b03304f14",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      196,
+      128,
+      823,
+      970
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

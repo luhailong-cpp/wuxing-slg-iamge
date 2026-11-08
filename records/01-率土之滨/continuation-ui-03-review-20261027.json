@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T13:36:09.784Z",
+  "reviewer": "root",
+  "uiV2": "designs/01-率土之滨/ui/03-five-elements-roster-ui-v2.png",
+  "uiCurrentCandidate": "designs/01-率土之滨/ui/03-five-elements-roster-ui-v3.png",
+  "v2Issue": "Selected metal character boot soles partly hidden by bottom action button; v2 is actual edit source retained for provenance.",
+  "v3Status": "visual_review_pass_pending_user_acceptance",
+  "v3Checks": [
+    "实际查看原生返回；两只靴子/鞋底与衣角完整位于按钮上方，间隔约20像素",
+    "五张卡面均能按各自母版识别：银灰短发金、叶簪竹杖木、蓝双辫环水、赤发火符火、低髻印盾土",
+    "金木水火土形状+文字筛选与每卡标签存在；第六格待结缘为空",
+    "金系主角与18详情的发型服装法器一致；角色数量5/100与五卡对应",
+    "详情数值5/500兵力/100体力/统御2.0等与18金系示例一致；学习和觉醒锁定状态保持"
+  ],
+  "limitations": [
+    "头像与角色是AI参考再现，尚非程序复用同一母版像素",
+    "新称号、四星、容量100与全部数值仍为演示，未确认正式角色名单或玩法",
+    "v3原生宽1915高821，v2宽1916；未重采样，不作像素级完全一致承诺",
+    "通用徽记已独立导出，但本屏烘焙简化徽记仍待运行时资产统一"
+  ],
+  "inputAttempt1": {
+    "status": "validation_rejected_no_image",
+    "reason": "referenced_image_paths最多5张，原8张参数请求未执行生成；随后以来源清楚的5母版参考拼板使用4张真实附图"
+  },
+  "userApproved": false,
+  "clientIntegrated": false
+}

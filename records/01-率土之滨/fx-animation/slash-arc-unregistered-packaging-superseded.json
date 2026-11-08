@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "assetId": "slash-arc",
+  "assetType": "generated_eight_phase_one_shot_candidate",
+  "status": "candidate_pending_smoothness_and_user_review",
+  "artSource": "host_image",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png",
+  "sourceSha256": "da618f485d3cbd050c69cd5ea54a509fe8c12d41557f390c84de429d18e77e34",
+  "sourceRecord": "designs/01-率土之滨/assets/fx-animation/slash-arc-sheet-v2.png.generation.json",
+  "nativeSheetSize": [
+    1774,
+    887
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "order": "row-major",
+    "boxes": [
+      [
+        0,
+        0,
+        444,
+        444
+      ],
+      [
+        444,
+        0,
+        887,
+        444
+      ],
+      [
+        887,
+        0,
+        1331,
+        444
+      ],
+      [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      [
+        0,
+        444,
+        444,
+        887
+      ],
+      [
+        444,
+        444,
+        887,
+        887
+      ],
+      [
+        887,
+        444,
+        1331,
+        887
+      ],
+      [
+        1331,
+        444,
+        1774,
+        887
+      ]
+    ]
+  },
+  "frames": [
+    {
+      "index": 0,
+      "phase": "tiny-ignition",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png",
+      "sha256": "e85a49020912cf5f1f206318d131225040b6f8144464211299b85b6df6affbe1",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-00.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "phase": "short-curve",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png",
+      "sha256": "f2c605787d1399bab2812614b0468d0b06e267676549bdfdbd72758fe657a37f",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-01.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 2,
+      "phase": "developing-crescent",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png",
+      "sha256": "73e59696006b9e427d4e1ed8833ed9fa35f496631dc6b5a0d36f75ada19eadda",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-02.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        887,
+        0,
+        1331,
+        444
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "phase": "expansion",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png",
+      "sha256": "56d1f5536412dff71ff383a26708e1bf6127271f868979704b25c9774088852c",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-03.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 4,
+      "phase": "peak-follow-through",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png",
+      "sha256": "8663d52c124668f5a79825eb02e7cf795599046174e25950bc94bd526794e625",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-04.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 5,
+      "phase": "thinning",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png",
+      "sha256": "7bb66eedfec9f228d3ce7975225ee310ce23b6c524fcdbb0efc5a25769c7629e",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-05.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 6,
+      "phase": "weak-remnant",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png",
+      "sha256": "535c42a34318372e9a40cb230c175075d571bdeea4efab0f3411bd3d7f2320c2",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-06.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        887,
+        444,
+        1331,
+        887
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    },
+    {
+      "index": 7,
+      "phase": "last-spark",
+      "file": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png",
+      "sha256": "4fe3c1260e48434d3290e9da14cf68495ba7bd7b26399a4e3ada313ecd4e770e",
+      "derivation": "exports/01-率土之滨/fx-animation/slash-arc/frame-07.png.derivation.json",
+      "durationSeconds": 0.1,
+      "anchorPx": [
+        222.0,
+        222.0
+      ],
+      "size": [
+        444,
+        444
+      ],
+      "cropBox": [
+        1331,
+        444,
+        1774,
+        887
+      ],
+      "paddingOffsetPx": [
+        0,
+        0
+      ]
+    }
+  ],
+  "frameCount": 8,
+  "animations": 1,
+  "animation": {
+    "id": "slash-arc",
+    "durationSeconds": 0.8,
+    "frameDurationSeconds": 0.1,
+    "loop": false,
+    "events": [],
+    "timingStatus": "demonstration only; not bound to combat/damage/healing events"
+  },
+  "loop": false,
+  "durationSeconds": 0.8,
+  "frameDurationSeconds": 0.1,
+  "fixedCanvasSize": [
+    444,
+    444
+  ],
+  "anchorPx": [
+    222.0,
+    222.0
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "registration": "fixed source-grid cells, optional 1px right/bottom transparent padding only; source pixels preserved; no per-frame bbox normalization",
+  "sourceGridRounding": "half-up as sheet_qc.rounded_grid_boxes; native cell width/height may differ1px",
+  "qa": {
+    "manualReview": "records/01-率土之滨/fx-animation/slash-arc-review-20261027.json",
+    "skillSpillReport": "work/fx-animation-theme-scope/slash-arc-v2-spill/sheet-qc.json",
+    "publishedWarnings": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 127930,
+          "detached_components": 4
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "noVisibleClippingOrNeighborIntrusion": true,
+    "lightDarkReviewed": true,
+    "sourceHasFaintAlphaSpecksPreserved": true,
+    "smoothAnimationFinallyApproved": false,
+    "generatedPhaseMotionMayDrift": true
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "battleEventsImplemented": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "createdAtUtc": "2026-10-27T16:41:50.271414+00:00"
+}

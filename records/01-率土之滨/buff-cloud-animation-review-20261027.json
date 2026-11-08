@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "id": "buff-cloud",
+  "reviewedAtUtc": "2026-10-27T16:59:57.240164+00:00",
+  "sourceSheet": {
+    "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png",
+    "sha256": "fb0c951d786f5aa4d5079293f546c0d501a78db0ebf5a5247631d0461b7300b0",
+    "record": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png.generation.json",
+    "grid": {
+      "columns": 4,
+      "rows": 2,
+      "order": "left_to_right_top_to_bottom"
+    }
+  },
+  "exportManifest": "exports/01-率土之滨/fx-animation/buff-cloud/manifest.json",
+  "frameCount": 8,
+  "uniqueFrameHashes": 8,
+  "manualOwnershipReview": "All8 source cells and all8 light/dark registered-frame composites actually viewed. Complete cloud shapes and sparks belong to their own cell; no visible clipping or neighboring-effect intrusion.",
+  "temporalPhaseReview": "One consistent jade/ivory/gold cloud-ring identity grows through frames00-04, breaks/fades05-06, leaves nonempty tiny residual motes/cloud07. Reading-order stage continuity visually reviewed; no final smoothness acceptance.",
+  "sharedAnchorReview": "Visible golden core manually marked in each source frame and translated to320,320 on common640 canvas. No per-frame bbox fitting or image resize. Last-phase residual star is the effect origin.",
+  "rawSheetQcChecks": [
+    {
+      "id": "cross_cell_components",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "cells": [],
+      "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+    },
+    {
+      "id": "cross_cell_visible",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "the same test on the visible edge (alpha > 16)"
+    },
+    {
+      "id": "sheet_edge",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "art touching the sheet border was cut by the image edge"
+    },
+    {
+      "id": "empty_cells",
+      "status": "pass",
+      "value": [],
+      "threshold": [],
+      "note": "the first 8 cells must each hold a subject"
+    },
+    {
+      "id": "boundary_band",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "solid pixels within 9 px of a cell line; a different crop or rounding can cut them"
+    },
+    {
+      "id": "safe_frame",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "cells": [],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 92932,
+        "detached_components": 2
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "rawSheetQcStatus": "warn",
+  "rawSheetSource": "work/fx-animation/buff-cloud-v3-spill/sheet-qc.json (original diagnostic paths are work-relative; this review preserves all check values)",
+  "publishedQaImages": [
+    "records/01-率土之滨/qa/buff-cloud-animation-v3-light.png",
+    "records/01-率土之滨/qa/buff-cloud-animation-v3-dark.png"
+  ],
+  "sourcePixelIdentityAll": true,
+  "eightFramesNonempty": true,
+  "edgeMaxAlphaAllFrames": 0,
+  "central60PercentForFinalFramesAtAlpha16": true,
+  "nativeAlphaModified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "warnings": [
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 92932,
+        "detached_components": 2
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "status": "one_shot_candidate_ready_for_engine_preview_not_user_accepted",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "timingSeconds": 0.8,
+  "frameSeconds": 0.1,
+  "loop": false,
+  "combatEvents": []
+}

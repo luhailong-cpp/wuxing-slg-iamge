@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/chen-gong-card-full.png",
+  "sha256": "283bb2b3f85a1ce5669d578293a506434a183b55531156e1980ef18b37bececf",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png",
+    "sha256": "d38273cb838e57f446a2e32c5529ac01e1e53192663cf9383c6ef418c5dd953c",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "uniformScale": 0.625,
+    "resizedSize": [
+      640,
+      960
+    ],
+    "offset": [
+      64,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

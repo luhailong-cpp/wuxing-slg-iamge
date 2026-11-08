@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/troop-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.png",
+  "sha256": "1f76212b7cd4b6ab28af6caa0b4742c64d2671bc8102f180f68506e60b426b34",
+  "generatedAt": "2026-10-28T11:21:25.512Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-28T11:20:02.679Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/33-battle-result-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troops-20261028/qa/five-troops-lineup-light.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/troop-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/ui-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/ui-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a1771a-2076-7f21-94c3-d0fbda0da0db/exec-a3608df0-15f8-4727-952d-ea19ebca82cf.png",
+      "sha256": "1f76212b7cd4b6ab28af6caa0b4742c64d2671bc8102f180f68506e60b426b34",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/troop-correction-20261028/33-historical-generals-five-troops-battle-result-ui-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "首要已确认邮件/组队风格主参考",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/33-battle-result-ui-v1.png",
+      "sha256": "7d13477c32af07e4c2ce40eff92883f006b0b76c44d2e145eefa7a5cd652fde1",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/33-battle-result-ui-v1.png.generation.json"
+    },
+    {
+      "file": "records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png",
+      "sha256": "901d78dd28e06bf202f12ae304e348ec5e1e5ce9f788bcb1351c6b8376d45e00",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true
+    },
+    {
+      "file": "records/troops-20261028/qa/five-troops-lineup-light.png",
+      "sha256": "e11a1c5b93b42340a460b336a37e0ffded2c80a1a69abc97bc8e22551520576a",
+      "role": "实际附图参考；具体用途见本次提示词",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "Current-contract corrected landscape UI direction candidate; troops are five elements, generals retain historical identity",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-28T11:22:36.883959+00:00"
+}

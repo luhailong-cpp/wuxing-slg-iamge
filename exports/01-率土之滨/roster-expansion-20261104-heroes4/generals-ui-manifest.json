@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-05T05:18:02.132196+00:00",
+  "scope": "Original Daoist chibi historical identity masters to five UI derivatives each",
+  "newGeneratedImagesInThisScript": 0,
+  "generalCount": 4,
+  "sources": [
+    {
+      "id": "cao-ren",
+      "name": "曹仁",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png",
+      "faceBox": [
+        140,
+        85,
+        746,
+        650
+      ],
+      "bustBox": [
+        0,
+        0,
+        1024,
+        1050
+      ],
+      "sha256": "64086ed938a783c934552b9c94a1246a333b1599495c24ef47736b1c4ac09b33",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 17965,
+        "alphaZero": 730043,
+        "solidBBoxAbove16": [
+          5,
+          125,
+          1007,
+          1406
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "c76e3d5b78b0840b7a8e528143af1bb1637dd3815dad93d6c0ad854b4ff0a136"
+    },
+    {
+      "id": "cheng-yu",
+      "name": "程昱",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+      "faceBox": [
+        170,
+        45,
+        698,
+        738
+      ],
+      "bustBox": [
+        0,
+        0,
+        1024,
+        1050
+      ],
+      "sha256": "c06ad04904a6bee8f45d1a02832202470c33af0d7c62a8b7f0397c391baaa510",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 17358,
+        "alphaZero": 760188,
+        "solidBBoxAbove16": [
+          89,
+          75,
+          900,
+          1487
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "e570d5fb3f8c8e6112b4da0af644fe4d361e72f3d7aa3bd95a446abf13eb7cf8"
+    },
+    {
+      "id": "xun-you",
+      "name": "荀攸",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png",
+      "faceBox": [
+        205,
+        70,
+        735,
+        632
+      ],
+      "bustBox": [
+        0,
+        0,
+        1024,
+        1050
+      ],
+      "sha256": "d2b08ce295b0358f5066c80c281e9a7057a8d5d3484ce5a909ee1ebc310fc8a8",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 14016,
+        "alphaZero": 876459,
+        "solidBBoxAbove16": [
+          139,
+          83,
+          849,
+          1469
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "b0395acea0764c4fcf4bfa85ef624ff00eb1350f3bec9d84deb6d48d1ee02776"
+    },
+    {
+      "id": "zhang-lu",
+      "name": "张鲁",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png",
+      "faceBox": [
+        190,
+        20,
+        744,
+        638
+      ],
+      "bustBox": [
+        0,
+        0,
+        1024,
+        1050
+      ],
+      "sha256": "ccef391fe59e65eadbc472b2c80fa29d004bed46b1ed413e02bb01cb3264fc4d",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 17057,
+        "alphaZero": 668953,
+        "solidBBoxAbove16": [
+          69,
+          34,
+          944,
+          1501
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "732ecc3fe970a5e25a857a77939f88ca6beb43ad5a55e70683edfa425ba62fe0"
+    }
+  ],
+  "assets": [
+    {
+      "personId": "cao-ren",
+      "displayName": "曹仁",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-face-native.png",
+      "sha256": "d377f70be92110258b96f77723199cdacc245c6f897eb4ae9f5c93f13a05277e",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-face-native.png.derivation.json",
+      "recordSha256": "8ba759107585944ba5828825fba378deeba528797fe9a62941bcac81ee3cedb6",
+      "stats": {
+        "size": [
+          606,
+          565
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 5940,
+        "alphaZero": 124266,
+        "solidBBoxAbove16": [
+          0,
+          40,
+          606,
+          565
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          42,
+          538,
+          18
+        ]
+      }
+    },
+    {
+      "personId": "cao-ren",
+      "displayName": "曹仁",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-bust-native.png",
+      "sha256": "0230046103d10613c172901ba64b71a8d45a1d1ec6ecc0aaf4e7b7626358002b",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-bust-native.png.derivation.json",
+      "recordSha256": "7584e462555c67b3c6eb67046f5e01224b753cfcf055056ef9779538ee752511",
+      "stats": {
+        "size": [
+          1024,
+          1050
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 9055,
+        "alphaZero": 521642,
+        "solidBBoxAbove16": [
+          34,
+          125,
+          1006,
+          1050
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          972,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-ren",
+      "displayName": "曹仁",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-avatar-128.png",
+      "sha256": "03f98dfb080becbd692e34a7374136e0ee17505894cccaf684ab331e45fb99f6",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-avatar-128.png.derivation.json",
+      "recordSha256": "271e8d057d38f37a2896e2c3d3d2e608320478d054e386389efb5a3e65e29f3f",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 122,
+        "alphaZero": 7878,
+        "solidBBoxAbove16": [
+          5,
+          16,
+          123,
+          119
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-ren",
+      "displayName": "曹仁",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-avatar-256.png",
+      "sha256": "ad071ec538d8b98884364981c5ba919272f78e245bfecf3f151e2f8db57aaa2b",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-avatar-256.png.derivation.json",
+      "recordSha256": "cef934fd696ca50961682c5700af87a49c3c3659f400ce2bc9334a5a8117ff79",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 462,
+        "alphaZero": 32448,
+        "solidBBoxAbove16": [
+          10,
+          33,
+          246,
+          238
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-ren",
+      "displayName": "曹仁",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-card-full.png",
+      "sha256": "0dfad5c23420df46fd8e3ba320b7dcd2a4706499ec95f8faf71a8d64cd59fe1a",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cao-ren-card-full.png.derivation.json",
+      "recordSha256": "bac3e6b6067b85cbda1cccbb8077089d47b4ec874562096c99534fab3b0882b6",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 7074,
+        "alphaZero": 388613,
+        "solidBBoxAbove16": [
+          36,
+          72,
+          724,
+          953
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cheng-yu",
+      "displayName": "程昱",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-face-native.png",
+      "sha256": "b2728e3f0cbab45a3a67e2b22fb2780705a50a599d814f3498c763516d595972",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-face-native.png.derivation.json",
+      "recordSha256": "4522e39a94c8ebfec455975a24157103d5d91ee223112eb705f9a13c72ecd469",
+      "stats": {
+        "size": [
+          528,
+          693
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 5864,
+        "alphaZero": 79967,
+        "solidBBoxAbove16": [
+          0,
+          30,
+          528,
+          693
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          99,
+          468,
+          145
+        ]
+      }
+    },
+    {
+      "personId": "cheng-yu",
+      "displayName": "程昱",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-bust-native.png",
+      "sha256": "ec7234b124ee85db3d92157abc89ce93c81fb59e74e7a183f27dd1a1a7f75ae9",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-bust-native.png.derivation.json",
+      "recordSha256": "9f1253462a3f68921e6dcc76e91cbbc1d35c1b91f162295d8569eda67e55d380",
+      "stats": {
+        "size": [
+          1024,
+          1050
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 12883,
+        "alphaZero": 561528,
+        "solidBBoxAbove16": [
+          89,
+          75,
+          897,
+          1050
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          799,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cheng-yu",
+      "displayName": "程昱",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-avatar-128.png",
+      "sha256": "3c249003543e47c460c4492ff27284824ce084f4b3ad45287fb3025126a65dcf",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-avatar-128.png.derivation.json",
+      "recordSha256": "4e5ae43cc15e1d4450536a2798c72c9100e487e3b42649f37d6cdbae7a3c2d40",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 110,
+        "alphaZero": 7790,
+        "solidBBoxAbove16": [
+          19,
+          10,
+          109,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cheng-yu",
+      "displayName": "程昱",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-avatar-256.png",
+      "sha256": "2043a438925a60dd2d6138b4fee5f7a8b71319c581322c343280ec60b3a33b56",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-avatar-256.png.derivation.json",
+      "recordSha256": "88299b2cc87bd4ddb82ff5a96155d2c8905981b7bf8754026453518120ca8984",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 342,
+        "alphaZero": 32311,
+        "solidBBoxAbove16": [
+          38,
+          20,
+          218,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cheng-yu",
+      "displayName": "程昱",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-card-full.png",
+      "sha256": "686e394513e9734113a33414e297a86f0c85ec7c9e32ca3d3655c9e5ef6d2afd",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/cheng-yu-card-full.png.derivation.json",
+      "recordSha256": "e789053ab04188fe7777915415aec8b99c11f8f64c311fcdeeee62721431f429",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 5920,
+        "alphaZero": 436406,
+        "solidBBoxAbove16": [
+          117,
+          48,
+          650,
+          977
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "xun-you",
+      "displayName": "荀攸",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-face-native.png",
+      "sha256": "736d9d4969d8b2873ed18c501848be4fe3ee6400a9abe350d0a50650ffe0ff83",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-face-native.png.derivation.json",
+      "recordSha256": "be8640f022b2158e19fd35aeaf7dcd11f8368a1bf93a88580cce328396710b4f",
+      "stats": {
+        "size": [
+          530,
+          562
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 5508,
+        "alphaZero": 83327,
+        "solidBBoxAbove16": [
+          0,
+          13,
+          496,
+          562
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          308,
+          26
+        ]
+      }
+    },
+    {
+      "personId": "xun-you",
+      "displayName": "荀攸",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-bust-native.png",
+      "sha256": "e24864b2b63aecf88d3135a4d8b1f5f00f69159553aa4826a8317942df48c1f9",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-bust-native.png.derivation.json",
+      "recordSha256": "dcc53f340918a9f8d519de80aad3abddebfecc484e03da122009ec3bf0e72b73",
+      "stats": {
+        "size": [
+          1024,
+          1050
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 9635,
+        "alphaZero": 619792,
+        "solidBBoxAbove16": [
+          157,
+          83,
+          849,
+          1050
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          683,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "xun-you",
+      "displayName": "荀攸",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-avatar-128.png",
+      "sha256": "5140049cc86913c380d54221b52f884d0eb5ecb7ca7622947a386fc5e9bbdb87",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-avatar-128.png.derivation.json",
+      "recordSha256": "6f492e65661b52def5a575f2a7642e59b2399c6adff4d37a2accd52af7ed7fd8",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 132,
+        "alphaZero": 6753,
+        "solidBBoxAbove16": [
+          8,
+          7,
+          112,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "xun-you",
+      "displayName": "荀攸",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-avatar-256.png",
+      "sha256": "684858e68af658ad0c8be235a3a64c6464fbb9aa122ca8c26f5c37e17ed06e8a",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-avatar-256.png.derivation.json",
+      "recordSha256": "c7cf7613f62682d0f49ebe505d091b08fbb32a78cf3f6584ec264c83d2868e5f",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 574,
+        "alphaZero": 27719,
+        "solidBBoxAbove16": [
+          16,
+          15,
+          225,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "xun-you",
+      "displayName": "荀攸",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-card-full.png",
+      "sha256": "8a721f924ec513c62017dcb694855aa171af455533994d0572dbe0e9a98ddeef",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-card-full.png.derivation.json",
+      "recordSha256": "5b4d54769253f682c059c19e8d9fdda26ba356076de9dc9e581892ae77bca2d0",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 4984,
+        "alphaZero": 475481,
+        "solidBBoxAbove16": [
+          146,
+          48,
+          621,
+          976
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-lu",
+      "displayName": "张鲁",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-face-native.png",
+      "sha256": "366c83bf0380ee4adf217df0b6216e8fe0d75b402c35ed06017b38dcdbe7aa1d",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-face-native.png.derivation.json",
+      "recordSha256": "f5411c1f19de2b86fcf059d07a7ce1f0ab8de25f80021d3f895f3e2b5af6fd0e",
+      "stats": {
+        "size": [
+          554,
+          618
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 6455,
+        "alphaZero": 74290,
+        "solidBBoxAbove16": [
+          0,
+          14,
+          528,
+          618
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          371,
+          230
+        ]
+      }
+    },
+    {
+      "personId": "zhang-lu",
+      "displayName": "张鲁",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-bust-native.png",
+      "sha256": "6bf621084e5971fb78cce81d2f012157007c55c55daa7b459522eed1806750f2",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-bust-native.png.derivation.json",
+      "recordSha256": "89f4c32c9b0ac0ca497925dd8de7aa497bda2508a2bd2d722852daa60359ef4e",
+      "stats": {
+        "size": [
+          1024,
+          1050
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 12638,
+        "alphaZero": 490999,
+        "solidBBoxAbove16": [
+          85,
+          34,
+          938,
+          1050
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          853,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-lu",
+      "displayName": "张鲁",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-avatar-128.png",
+      "sha256": "be9b6d6c3f8a903bb0b383d3e67dcbee7b87cf07b6cd22f4c95f2c68f28de429",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-avatar-128.png.derivation.json",
+      "recordSha256": "95f8603ca9d72682e97f8ad48969fd09c8d0c346ebb2d743cd1ca39b7ff53b71",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 118,
+        "alphaZero": 6404,
+        "solidBBoxAbove16": [
+          11,
+          7,
+          112,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-lu",
+      "displayName": "张鲁",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-avatar-256.png",
+      "sha256": "0a10ec50def1d2309dafe876cd280a94d2d21c85bfc5dd83f45c089345a747f7",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-avatar-256.png.derivation.json",
+      "recordSha256": "cf5b9a95074f6edaa0adc129886d0bffd2bce1bc0a70ad11a04c96b6164a45cc",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 497,
+        "alphaZero": 26479,
+        "solidBBoxAbove16": [
+          22,
+          15,
+          224,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-lu",
+      "displayName": "张鲁",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-card-full.png",
+      "sha256": "edfabb4d6dd1721949e99d7983002bbdd50040cb606d732b1afc1c88207c9233",
+      "record": "exports/01-率土之滨/roster-expansion-20261104-heroes4/zhang-lu-card-full.png.derivation.json",
+      "recordSha256": "d275d6eb30209bcf04d29e0d3147c09575b3377faf669758e35239dac84f40ff",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 5096,
+        "alphaZero": 424137,
+        "solidBBoxAbove16": [
+          106,
+          47,
+          661,
+          977
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png",
+      "value": 17965,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cao-ren-master-v1.png",
+      "value": [
+        0.0048828125,
+        0.08138020833333333,
+        0.0166015625,
+        0.08463541666666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+      "value": 17358,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/cheng-yu-master-v1.png",
+      "value": [
+        0.0869140625,
+        0.048828125,
+        0.12109375,
+        0.031901041666666664
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png",
+      "value": 14016,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/xun-you-master-v1.png",
+      "value": [
+        0.1357421875,
+        0.054036458333333336,
+        0.1708984375,
+        0.043619791666666664
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png",
+      "value": 17057,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes4/zhang-lu-master-v1.png",
+      "value": [
+        0.0673828125,
+        0.022135416666666668,
+        0.078125,
+        0.022786458333333332
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "variantsFulfilled": false,
+  "assetCount": 20,
+  "nativeCropRgbaChecked": true,
+  "status": "source and UI candidates visually reviewed",
+  "rootVisualReviewPassed": true
+}

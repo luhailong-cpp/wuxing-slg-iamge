@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/gao-shun-face-native.png",
+  "sha256": "5d212a0cfa899246167f77d3c0279267e3db3a51d3e1302e3e75b521751c94ce",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png",
+    "sha256": "499cc544c1bb0010b4ae0bc970fb85f9126189dd2e41110f8c615387975fc649",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/gao-shun-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      220,
+      130,
+      800,
+      740
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

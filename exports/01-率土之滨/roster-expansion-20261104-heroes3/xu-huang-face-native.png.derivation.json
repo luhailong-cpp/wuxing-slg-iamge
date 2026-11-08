@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/xu-huang-face-native.png",
+  "sha256": "bef10d15e1e8a701256956691b2df1cf756f90c865050db7674459546fcaa394",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/xu-huang-master-v1.png",
+    "sha256": "407ca6cc594a507364f8d8c211a6bc0e05ad8a83fb1cc15b03406dd4cb90a566",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/xu-huang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      125,
+      150,
+      660,
+      695
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

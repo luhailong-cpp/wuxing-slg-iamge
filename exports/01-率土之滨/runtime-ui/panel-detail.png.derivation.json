@@ -1,0 +1,39 @@
+{
+  "assetId": "panel-detail",
+  "file": "exports/01-率土之滨/runtime-ui/panel-detail.png",
+  "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+  "width": 464,
+  "height": 540,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 54524,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "window",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png",
+    "sha256": "41277b6203efc91954dc6c685f1b4c734f62047305bbfa06bc35a791ea8e1627",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      1030,
+      470,
+      1494,
+      1010
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

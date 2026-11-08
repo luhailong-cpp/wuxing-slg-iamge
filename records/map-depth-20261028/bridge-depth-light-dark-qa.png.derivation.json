@@ -1,0 +1,20 @@
+{
+  "file": "records/map-depth-20261028/bridge-depth-light-dark-qa.png",
+  "sha256": "f7ad69942f39f7745257bb67abd86721e55615b14c2abc0ff424969af29de38f",
+  "operation": "diagnostic_3x2_montage",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-back.png",
+      "sha256": "f46e56789072c67d5e7cd1db563bf61e49d61ed949dbcdb2bbd00b43fd70ed6a",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-back.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/map-depth-20261028/bridge-front.png",
+      "sha256": "de9ce98b627df656a2bf27386fc7464058dcf2d552968d4deea4dbccc4c5608b",
+      "record": "exports/01-率土之滨/map-depth-20261028/bridge-front.png.derivation.json"
+    }
+  ],
+  "resampled": true,
+  "scale": 0.6,
+  "newArtwork": false
+}

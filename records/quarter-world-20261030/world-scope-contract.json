@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "game": "五行问鼎",
+  "userInstruction": "我地图只要率土的四分之一",
+  "scope": "nominal strategic world grid area",
+  "reference": {
+    "title": "云·率土之滨 官方应用介绍（网易移动游戏）",
+    "url": "https://apps.apple.com/cn/app/%E4%BA%91-%E7%8E%87%E5%9C%9F%E4%B9%8B%E6%BB%A8/id1658292466",
+    "nominalCells": 2250000,
+    "observedAtUtc": "2026-10-30T11:46:38.295Z",
+    "limitation": "This publisher description supplies a 2.25-million-cell baseline, not every season map. Reference axis dimensions have not been verified."
+  },
+  "areaRatio": 0.25,
+  "targetNominalCells": 562500,
+  "productionGrid": {
+    "width": 750,
+    "height": 750,
+    "reason": "Project-chosen square grid whose 562500 cells equal one quarter of the publisher baseline; 750 is not a claimed measured axis of an official season."
+  },
+  "viewport": "landscape; viewport aspect does not fix world aspect",
+  "cellSizeWorldUnits": null,
+  "renderPixelsPerCell": null,
+  "chunking": {
+    "cellWidth": 32,
+    "cellHeight": 32,
+    "columns": 24,
+    "rows": 24,
+    "edgeWidth": 14,
+    "edgeHeight": 14,
+    "totalChunks": 576,
+    "role": "data streaming partition; NOT 576 completed art tiles"
+  },
+  "artProduction": {
+    "reusableTerrainAtlas": true,
+    "uniqueImagePerCell": false,
+    "worldLayoutApproved": false,
+    "fullyPaintedWorldDelivered": false,
+    "nativeDetailTileCount": 0
+  },
+  "existingOverview": {
+    "file": "designs/01-率土之滨/maps/quarter-world-20261030/world-overview-v1.png",
+    "role": "regional scene composition study, not a scale-accurate whole-world map",
+    "fullWorldAtProductionGrid": false
+  },
+  "acceptance": [
+    "Exactly 750×750 grid addresses, with no gaps or duplicate chunk ownership",
+    "World topology, regional boundaries, city and pass placements authored separately from the painted regional plate",
+    "All playable starting regions connect to the central contest region through intentional passes",
+    "Blocked water and mountains cannot be crossed outside intended crossings",
+    "Terrain atlas seam checks and map LOD readability at target device sizes",
+    "Actual Unity zoom, streaming, route and occlusion verification"
+  ],
+  "fullMapComplete": false
+}

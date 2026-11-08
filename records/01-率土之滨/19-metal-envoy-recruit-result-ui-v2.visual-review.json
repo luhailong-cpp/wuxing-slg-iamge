@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-27T14:17:05.174Z",
+  "file": "designs/01-率土之滨/ui/19-metal-envoy-recruit-result-ui-v2.png",
+  "sha256": "56b44835e1076a81c5a416abed4e9469727ef2c1e46ba80a04d73e893ddac1b5",
+  "generationRecord": "designs/01-率土之滨/ui/19-metal-envoy-recruit-result-ui-v2.png.generation.json",
+  "prompt": "prompts/01-率土之滨/19-metal-envoy-recruit-result-ui-v2.prompt.txt",
+  "request": "records/01-率土之滨/19-metal-envoy-recruit-result-ui-v2.tool-request.json",
+  "response": "records/01-率土之滨/19-metal-envoy-recruit-result-ui-v2.tool-response.json",
+  "replacesForCurrentDirection": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png",
+  "oldImageRetainedForProvenance": true,
+  "nativeDimensions": [
+    1916,
+    821
+  ],
+  "mode": "RGB",
+  "resampled": false,
+  "route": "builtin image_gen.imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "referenceRoles": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "已确认邮件主画风与材质",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "已确认组队主画风与材质",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "role": "唯一金系原创人物身份master",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png",
+      "sha256": "875af7638b4b759b0624067f45ba77c60ae9b246f25c69acf3b8dbacb8b4d243",
+      "role": "旧19仅布局功能流程参考，历史身份排除",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/19-recruit-result-ui-v1.png.generation.json"
+    },
+    {
+      "file": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png",
+      "sha256": "702bb211bb1f0fafeb8a8dbd1f845104e2346e97f7e0d4e1c9a1a56737cd1cd8",
+      "role": "新18金系详情人物连续性、徽记与信息体系",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png.generation.json"
+    }
+  ],
+  "reviewMethod": "实际查看全部5张输入、宿主返回与项目内原生落盘PNG。按角色母版和18v2核对人物连续性、主题、中文与获得/去向状态。",
+  "identity": {
+    "master": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+    "detail": "designs/01-率土之滨/ui/18-metal-envoy-detail-ui-v2.png",
+    "candidateTitle": "铸锋使",
+    "element": "金",
+    "visualMatch": "短银灰发、金棕眼、侧金花扣流苏、象牙米白/玉绿短外袍、短裤、金边短靴、工具腰袋、金玉短符尺与展开阵盘均与同一master和18v2一致；为原创女性重新绘制，不是旧刘备换名字。",
+    "historicalFeaturesRemoved": [
+      "刘备姓名",
+      "汉阵营",
+      "男性历史脸型与胡须",
+      "高冠长发",
+      "双剑"
+    ]
+  },
+  "textReview": {
+    "title": "招募结果",
+    "elementBadge": "金系，金色菱形四角几何徽记，与18v2一致",
+    "name": "铸锋使",
+    "resultHeading": "获得道将",
+    "acquiredStatus": "已加入道将卡册",
+    "count": "当前数量 7 / 100",
+    "primary": "查看道将",
+    "secondary": "确定",
+    "repeat": "再次招募，循环箭头",
+    "cardStats": [
+      "Lv.1",
+      "统御 2.0",
+      "步兵",
+      "攻击距离 3"
+    ],
+    "starCount": 4,
+    "readability": "可读，主要中文未见明显错字，按钮和状态不互相遮挡。"
+  },
+  "stateReview": {
+    "result": "获得成功并已加入卡册",
+    "primaryDestination": "静态示意查看18金系详情",
+    "secondaryDestination": "静态示意确认/返回",
+    "repeatDestination": "静态示意再次招募入口",
+    "buttonAppearance": "三个按钮分别为玉绿主按钮、米白次按钮与更小再次招募按钮；无真实概率、价格或充值条件。",
+    "implementedInteractions": false
+  },
+  "visualReview": {
+    "style": "玉绿米白暖金、纸绢面板、云纹如意控件、仙山庭院、Q版高清手绘延续两张主参考。",
+    "singleCardLayout": true,
+    "allMajorUIWithinCanvas": true,
+    "characterFacePropsClear": true,
+    "noVisibleHistoricalIdentityText": true,
+    "noLogoWatermarkObserved": true,
+    "notes": "人物双鞋和法器均可见，鞋底靠近卡底信息栏，留白偏紧；需要在正式卡面导出时再确认统一内边距。获得光效已烘焙在整屏中，非独立动态效果。"
+  },
+  "demonstrationData": [
+    "四星",
+    "Lv.1",
+    "统御2.0",
+    "步兵",
+    "攻击距离3",
+    "当前数量7/100"
+  ],
+  "demonstrationDataStatus": "仅显示样例，不代表稀有度、角色正式等级、兵种、统御、距离、卡册容量或首发合同。与18的Lv5详情示例可并存，因为本页演示初始获得Lv1，不宣称实时同一存档数据。",
+  "limitations": [
+    "仅一张烘焙文本/角色/装饰的RGB静态整屏方向稿，非独立卡牌资产、动画、客户端逻辑或集成结果。",
+    "正式玩法、数值、名称与角色采用待用户确认。",
+    "人物脚部与卡底信息栏间距偏紧，正式卡面需复核内边距。",
+    "本次无实际模型/画质返回，配置目标不可当作锁定证据。"
+  ],
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

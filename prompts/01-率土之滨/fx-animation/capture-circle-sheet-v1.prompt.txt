@@ -1,0 +1,17 @@
+Use case: stylized-concept.
+Asset type: production candidate 2D spell FX animation source sprite sheet.
+Create ONE transparent PNG sheet containing EXACTLY eight sequential animation frames in FOUR equal columns and TWO equal rows, read left to right across the first row then the second. Overall canvas aspect 2:1; target 2048x1024 if available. No visible grid lines, captions, numbers, labels, typography, frames, UI, watermark, landscape or ground.
+Input image 1 and image 2: the project's approved Taoist chibi HD hand-painted style and jade/ivory/warm-gold materials only. Do not copy their screens or lettering.
+Input image 3: the exact identity reference for the CAPTURE CIRCLE effect. Preserve the jade-green and warm-gold isometric oval ritual ring, four small jade/gold ornaments and four slender upright light pillars. This is an animation of that single effect, not eight unrelated designs.
+Registration invariant: every frame uses the same fixed isometric camera (about 35-degree downward view), the same orientation and scale reference, and the same world-plane center at exactly 50% of its cell width and 60% of its cell height. The effect's full envelope, including every wisp and glow, stays inside the central 60% of its cell, leaving at least 20% genuinely transparent gutter on ALL four sides. No element crosses any cell boundary. Do not reposition each phase to center its own changing bounding box. The ellipse center stays locked. Inner hole remains truly transparent.
+Make a coherent ONE-SHOT sequence with eight distinct phases:
+1) a very small, dim but clearly NONEMPTY jade oval seed with four faint anchor dots;
+2) thin gold arcs begin tracing the same oval, small jade sparks at the four fixed positions;
+3) a readable jade/gold oval ring completes, very short pillars begin at the four fixed positions;
+4) ring grows luminous, the same four vertical pillars rise halfway, restrained cloud curl accents;
+5) peak: the complete ornate oval ring and four upright beams, jade and warm-gold glints, no opaque disc filling its center;
+6) beams shorten and ring brightness falls, a few glints drift outward within the envelope;
+7) ring thins and breaks into faint arcs, beams almost gone;
+8) a tiny faint but still NONEMPTY oval residue and several diminishing jade/gold sparks at the original center. Different from phase1, not a blank cell.
+Art: refined high-resolution hand-painted Taoist fantasy, soft tapered glows, clear smooth contours, elegant cream cloud curls, restrained gold detail. Each phase should plausibly follow the previous at 0.1-second intervals for a 0.8-second one-shot preview. No gameplay numbers, damage events or character animation.
+Actual native transparent alpha background, including all gaps between cells and the ring holes. Avoid painted checkerboards, black/white backdrops, opaque rectangular haze, colored key backgrounds, realistic photography, plastic 3D, unrelated icons, inconsistent camera, shifting center or cropped glow.

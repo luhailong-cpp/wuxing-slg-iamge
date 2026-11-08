@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/huang-gai-avatar-256.png",
+  "sha256": "df556b9a29e759a010837c933eb7988facc151479d8834bd076fdf57117da2ac",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/huang-gai-master-v1.png",
+    "sha256": "18f038b695120f4ee7521e1cc478b787717099b585691db088296eb585426b8c",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/huang-gai-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      280,
+      170,
+      820,
+      730
+    ],
+    "uniformScale": 0.42142857142857143,
+    "resizedSize": [
+      228,
+      236
+    ],
+    "offset": [
+      14,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

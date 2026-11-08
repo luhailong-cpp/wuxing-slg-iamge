@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "executionCellId": "29",
+  "callStartedAt": "2026-10-26T08:04:32.989Z",
+  "callCompletedAt": "2026-10-26T08:05:16.303Z",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a17710-cf3a-7e80-a69a-252bb7b23d42 as C:\\Users\\luyua\\.codex\\generated_images\\01a17710-cf3a-7e80-a69a-252bb7b23d42\\exec-b1891331-c74e-4949-99e5-adea67ba3f22.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "toolOutputPath": "C:/Users/luyua/.codex/generated_images/01a17710-cf3a-7e80-a69a-252bb7b23d42/exec-b1891331-c74e-4949-99e5-adea67ba3f22.png",
+  "imageDataOmitted": true,
+  "model": null,
+  "quality": null,
+  "resultId": null,
+  "metadataDisclosure": "工具仅返回 image_url 与 output_hint；未披露本次实际模型、画质、结果ID或独立图像生成时间。"
+}

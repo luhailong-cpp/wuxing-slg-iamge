@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-face-native.png",
+  "sha256": "4356e5fe8c07c12500f452943111d6d79605e53df0e34127b7740b16ef6b0489",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 595,
+  "height": 505,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "liu-bei",
+  "displayName": "刘备",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/02-liu-bei-v2.png",
+      "sha256": "aeac9892d16eb0eb1e432b7920ccb1b8a6c98c8c9e542efc728420fa3027f698",
+      "record": "designs/01-率土之滨/characters/02-liu-bei-v2.png.generation.json",
+      "recordSha256": "ff87a3600a7f2e4cdadc6c8fbe4e4eb292dc0d159869c7f3724ead1d68b77f2a"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    205,
+    140,
+    800,
+    645
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    595,
+    505
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    415,
+    370,
+    650,
+    555
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 140829,
+    "alpha1Pixels": 5312,
+    "semiTransparentPixels": 159646,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      20,
+      595,
+      505
+    ],
+    "edgePixelsAbove32": [
+      153,
+      0,
+      30,
+      595
+    ],
+    "marginsAbove32": [
+      0,
+      20,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-face-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 5312,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-face-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        205,
+        140,
+        800,
+        645
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-face-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

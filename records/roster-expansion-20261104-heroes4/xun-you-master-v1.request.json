@@ -1,0 +1,50 @@
+{
+  "requestedAtUtc": "2026-11-05T03:41:18.987Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-04",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference"
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261104-heroes4/xun-you-master-v1.prompt.txt",
+  "submittedParameters": {
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "prompt": "One original full-body character master for the landscape Three Kingdoms game 五行问鼎. Historical identity 荀攸, attested in Records of the Three Kingdoms volume 10. Images 1 and 2 define the approved Taoist chibi style, not composition. Rounded large head and short body, warm hand-painted gold, jade and ivory details, believable cloth and lacquer, expressive face. Art direction: an astute quiet middle-aged adviser, tidy short moustache, shallow soft black official cap, pale jade grey and warm blue robes, a small bamboo-bound note book and a writing brush held near the waist, modest shoulder drape. An understated intelligent smile. Standing, three-quarter toward screen right. All cloth, feet and props fully visible, clear alpha around the entire silhouette. Keep visible silhouette within 80 percent of image height and 76 percent of width. Portrait 2:3 PNG. Truly transparent background, no floor or cast shadow, no text, UI, frame, signature or floating props. Face unobstructed for separate portrait crops. Original artwork.",
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "xun-you",
+    "name": "荀攸",
+    "personID": "ww-p-9561f89d16d0",
+    "source": "https://zh.wikisource.org/wiki/三國志/卷10",
+    "cardIDs": [
+      100150
+    ],
+    "identityEvidence": "primary biography opening and archived official card records"
+  }
+}

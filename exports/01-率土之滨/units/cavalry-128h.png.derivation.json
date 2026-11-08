@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/units/cavalry-128h.png",
+  "sha256": "9c0107893b3c950bda1f9eb6ae56c1847ba9d24c6a310c52e08b7777efd6a6d7",
+  "derivedAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "width": 256,
+  "height": 256,
+  "mode": "RGBA",
+  "format": "PNG",
+  "operation": "premultiplied_lanczos_downscale_and_transparent_canvas_registration",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/units/cavalry-native.png",
+      "sha256": "c37c7e03039b4964bbd8ac09725bb500aa8282597cea1a8c070710ddbbe3ba1f",
+      "record": "exports/01-率土之滨/units/cavalry-native.png.derivation.json"
+    }
+  ],
+  "resampled": true,
+  "scale": 0.12524461839530332,
+  "resizedDimensions": [
+    102,
+    132
+  ],
+  "pasteOffset": [
+    77,
+    94
+  ],
+  "plannedSilhouetteHeightPx": 128,
+  "anchorPxTopLeft": [
+    128,
+    224
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.875
+  ],
+  "nativeDetailClaim": false,
+  "static": true,
+  "animationFrameCount": 0,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 58219,
+    "alpha1Pixels": 195,
+    "opaquePixels": 398,
+    "bboxByThreshold": {
+      "1": [
+        77,
+        94,
+        179,
+        226
+      ],
+      "16": [
+        79,
+        96,
+        177,
+        224
+      ],
+      "127": [
+        79,
+        96,
+        177,
+        223
+      ]
+    },
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_map_unit_display_candidate"
+}

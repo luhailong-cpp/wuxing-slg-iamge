@@ -1,0 +1,49 @@
+{
+  "createdAtUtc": "2026-11-02T12:29:01.253Z",
+  "sceneMode": "tile_mode",
+  "viewport": [
+    1920,
+    1080
+  ],
+  "viewportIsReviewOnly": true,
+  "worldGrid": [
+    750,
+    750
+  ],
+  "origin": "northwest; x east, y south",
+  "zoom": "client pending",
+  "tileLogicalSpan": [
+    1,
+    1
+  ],
+  "sourcePixelSize": "measure actual output; 1024 square requested",
+  "actorReference": "five-element troops map128h",
+  "terrainRenderOrder": "terrain below props below troops below UI",
+  "navigation": "not defined by these textures",
+  "materials": [
+    {
+      "id": "water",
+      "name": "平静浅水",
+      "description": "Only calm shallow jade-turquoise river water as an endless opaque surface. Small soft interlocking painterly ripples; a faint teal depth variation with sparse tiny warm ivory highlights, no large foam curls. No shore, bottom stones, fish, boats, plants, reflections of objects, sky or sun. Surface is even and low contrast, no dominant horizontal stripes."
+    },
+    {
+      "id": "earth",
+      "name": "暖土",
+      "description": "Only low flat warm pale ochre compacted earth as an endless opaque surface. Fine small rounded dirt flecks and occasional embedded pebble pinpoints, soft subtle dust variation, warm beige with a muted olive undertone harmonizing with the existing meadow. No defined paths, ruts, cracks, large rocks, grass tufts or plants."
+    },
+    {
+      "id": "dry-meadow",
+      "name": "疏草旱地",
+      "description": "Only a dry low meadow ground surface with muted sage and straw-green tiny grass marks interspersed with warm ivory-tan earth. Less densely tufted and more visually quiet than the attached existing grass. Fine scattered short rounded brush marks, no distinct flower clumps, broad bare patches or large tufts."
+    },
+    {
+      "id": "forest-floor",
+      "name": "林下地表",
+      "description": "Only low flat woodland earth as an endless opaque surface, muted jade and olive moss flecks with warm taupe soil, a few tiny soft fallen-leaf strokes. Rounded fine hand-painted marks and gentle warm daylight. No trunks, trees, canopies, roots, large leaves, branches, mushrooms, flowers or sunlight shafts. Ground only, consistently readable behind troops."
+    }
+  ],
+  "scope": "four independent repeating terrain candidates; not shoreline transitions or full world",
+  "art_source": "host_image",
+  "route": "builtin image_gen user policy override; no API/CLI",
+  "mapParallelSplit": "old image docs/MAP_PARALLEL_SPLIT_20261013.json absent; independent SLG material batch, no old map coordinates used"
+}

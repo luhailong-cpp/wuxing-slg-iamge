@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "debuff-mist",
+  "reviewedAtUtc": "2026-10-27T17:17:00.852588+00:00",
+  "sourceSheet": {
+    "file": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png",
+    "sha256": "56658e737b1f417f001a4022dbf62a471481af50508bda8faaaf658a243c9188",
+    "record": "designs/01-率土之滨/assets/fx-animation/debuff-mist-sheet-v1.png.generation.json",
+    "grid": {
+      "columns": 4,
+      "rows": 2,
+      "order": "left_to_right_top_to_bottom"
+    }
+  },
+  "exportManifest": "exports/01-率土之滨/fx-animation/debuff-mist/manifest.json",
+  "frameCount": 8,
+  "uniqueFrameHashes": 8,
+  "manualOwnershipReview": "All8 raw cells and registered light/dark frame composites actually viewed; complete contours, no visible cutting or adjacent-frame intrusion.",
+  "temporalPhaseReview": "All eight phase pictures preserve one S-shaped violet mist identity. Frames00-04 grow into the same stronger vortex,05-06 shrink and loosen,07 keeps a small nonempty curl/motes. Phase-order continuity visually checked; final smoothness remains unaccepted.",
+  "sharedAnchorReview": "Manually annotated visible violet core/star origin in all eight raw cells and integer-translated it to384,384 on shared768 square canvas. No per-bbox fitting, alpha clearing or resampling.",
+  "rawSheetQcChecks": [
+    {
+      "id": "cross_cell_components",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "cells": [],
+      "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+    },
+    {
+      "id": "cross_cell_visible",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "the same test on the visible edge (alpha > 16)"
+    },
+    {
+      "id": "sheet_edge",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "art touching the sheet border was cut by the image edge"
+    },
+    {
+      "id": "empty_cells",
+      "status": "pass",
+      "value": [],
+      "threshold": [],
+      "note": "the first 8 cells must each hold a subject"
+    },
+    {
+      "id": "boundary_band",
+      "status": "pass",
+      "value": 0,
+      "threshold": 0,
+      "note": "solid pixels within 9 px of a cell line; a different crop or rounding can cut them"
+    },
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 3,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 180779,
+        "detached_components": 67
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "rawSheetQcStatus": "warn",
+  "publishedQaImages": [
+    "records/01-率土之滨/qa/debuff-mist-animation-light.png",
+    "records/01-率土之滨/qa/debuff-mist-animation-dark.png"
+  ],
+  "sourcePixelIdentityAll": true,
+  "eightFramesNonempty": true,
+  "edgeMaxAlphaAllFrames": 0,
+  "central60PercentForFinalFramesAtAlpha16": true,
+  "nativeAlphaModified": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "warnings": [
+    {
+      "id": "safe_frame",
+      "status": "warn",
+      "value": 3,
+      "threshold": 0,
+      "cells": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+    },
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 180779,
+        "detached_components": 67
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "status": "one_shot_candidate_ready_for_engine_preview_not_user_accepted",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "timingSeconds": 0.8,
+  "frameSeconds": 0.1,
+  "loop": false,
+  "combatEvents": []
+}

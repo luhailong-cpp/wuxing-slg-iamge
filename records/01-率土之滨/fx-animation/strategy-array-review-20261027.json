@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 2,
+  "assetId": "strategy-array",
+  "reviewedAtUtc": "2026-10-27T17:30:59.504286+00:00",
+  "reviewer": "theme_scope",
+  "reviewScope": "生成worker实际逐格及浅深底文件级QA，非独立第二审稿人或用户验收。",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png",
+  "sourceSha256": "2aa75743bc4e24d81b919bcfb3cd1405317bd669b91c21cd0988d07de6dc0c1a",
+  "sourceRecord": "designs/01-率土之滨/assets/fx-animation/strategy-array-sheet-v2.png.generation.json",
+  "artSource": "host_image",
+  "route": "builtin image_gen.imagegen",
+  "actualModel": null,
+  "actualQuality": null,
+  "findings": [
+    "8相位从阵心光点、环线生成、多环扩张至完整阵法峰值，再逐步退环至末光点，属于同一符阵启动消散动作。",
+    "v1名义等分格存在可见halo跨格，未导出；v2是实际AI编辑后源，cross_cell_visible为0。",
+    "按中心玉光点/阴阳阵心/残留椭圆中心人工标定逐帧原生注册，保留阵法扩张和衰退；不按总bbox自动居中。",
+    "戒环和中轴装饰在个别相位存在生成式轻微变化，尚未用户确认或验证最终平滑。"
+  ],
+  "ownership": {
+    "nominalGridAdjusted": false,
+    "cropBoxes": [
+      [
+        0,
+        0,
+        444,
+        444
+      ],
+      [
+        444,
+        0,
+        887,
+        444
+      ],
+      [
+        887,
+        0,
+        1331,
+        444
+      ],
+      [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      [
+        0,
+        444,
+        444,
+        887
+      ],
+      [
+        444,
+        444,
+        887,
+        887
+      ],
+      [
+        887,
+        444,
+        1331,
+        887
+      ],
+      [
+        1331,
+        444,
+        1774,
+        887
+      ]
+    ],
+    "method": "manual visual subject ownership with transparent gaps; preserve source pixels",
+    "healingNominalCrossingResolvedByY400OwnershipSplit": false,
+    "allSourceCropMaxEdgeAlpha": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "allSourceCropVisibleBorderPixelCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "visibleSourceContoursComplete": true,
+    "visibleNeighborIntrusionObserved": false
+  },
+  "registration": {
+    "manualSourceAnchors": true,
+    "semanticOriginSelection": "斩击作用/旋转中心；符阵阵心；治疗环底心，各按具体FX语义。",
+    "sameTargetCanvas": [
+      900,
+      900
+    ],
+    "sameTargetAnchor": [
+      450,
+      450
+    ],
+    "sourceAnchorTransformsVerified": true,
+    "transformResidualPx": 0,
+    "nativeScalePreserved": true,
+    "perFrameBboxNormalization": false,
+    "alphaErasureOrDespill": false,
+    "manualPointUncertainty": "approximate human visual points, +/-3px; not final event/hitpoint calibration"
+  },
+  "perFrame": [
+    {
+      "index": 0,
+      "cropBox": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "cropNativeSize": [
+        444,
+        444
+      ],
+      "sourceAnchorPx": [
+        232,
+        275
+      ],
+      "sourceAnchorLocalPx": [
+        232,
+        275
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        218,
+        175
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 815564,
+      "visibleSourceCropBbox": [
+        188,
+        235,
+        280,
+        311
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png",
+      "sha256": "62fd7cdfbc75a1a971e97708c73992400bb8dd758d722bdf2d4dcfe2328c81d1",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-00.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 1,
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "cropNativeSize": [
+        443,
+        444
+      ],
+      "sourceAnchorPx": [
+        671,
+        270
+      ],
+      "sourceAnchorLocalPx": [
+        227,
+        270
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        223,
+        180
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 5061406,
+      "visibleSourceCropBbox": [
+        119,
+        192,
+        339,
+        349
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png",
+      "sha256": "3851757119075d897f0c20eeabf6f9e0afba76ca98465b1373a9d3ae0b7641cb",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-01.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 2,
+      "cropBox": [
+        887,
+        0,
+        1331,
+        444
+      ],
+      "cropNativeSize": [
+        444,
+        444
+      ],
+      "sourceAnchorPx": [
+        1102,
+        272
+      ],
+      "sourceAnchorLocalPx": [
+        215,
+        272
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        235,
+        178
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 11100521,
+      "visibleSourceCropBbox": [
+        67,
+        153,
+        364,
+        387
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png",
+      "sha256": "98e308e82994fe5694594482fb27e41e81c7674d2a2a8f518beac3fe2d04f14b",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-02.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 3,
+      "cropBox": [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      "cropNativeSize": [
+        443,
+        444
+      ],
+      "sourceAnchorPx": [
+        1547,
+        270
+      ],
+      "sourceAnchorLocalPx": [
+        216,
+        270
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        234,
+        180
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 15448850,
+      "visibleSourceCropBbox": [
+        55,
+        112,
+        378,
+        417
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png",
+      "sha256": "d1b151f379878a94f7e71b37209ea21589a732b72c5a5d32369252f6b9006cdc",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-03.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 4,
+      "cropBox": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "cropNativeSize": [
+        444,
+        443
+      ],
+      "sourceAnchorPx": [
+        236,
+        658
+      ],
+      "sourceAnchorLocalPx": [
+        236,
+        214
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        214,
+        236
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 16822217,
+      "visibleSourceCropBbox": [
+        65,
+        45,
+        411,
+        372
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png",
+      "sha256": "e4a05f4ffb34b72b6b9a62065b9b79c697826dd5a9ee6ff70e10a618a35bf671",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-04.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 5,
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "cropNativeSize": [
+        443,
+        443
+      ],
+      "sourceAnchorPx": [
+        678,
+        658
+      ],
+      "sourceAnchorLocalPx": [
+        234,
+        214
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        216,
+        236
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 13290328,
+      "visibleSourceCropBbox": [
+        71,
+        89,
+        396,
+        343
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png",
+      "sha256": "68a1d742aaf893dc1d3927b15131cea585752396b7f3ba9fd140937b0ae98dd0",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-05.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 6,
+      "cropBox": [
+        887,
+        444,
+        1331,
+        887
+      ],
+      "cropNativeSize": [
+        444,
+        443
+      ],
+      "sourceAnchorPx": [
+        1109,
+        658
+      ],
+      "sourceAnchorLocalPx": [
+        222,
+        214
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        228,
+        236
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 5757983,
+      "visibleSourceCropBbox": [
+        76,
+        123,
+        363,
+        315
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png",
+      "sha256": "81397590b1fcc43bd6e2ad731c495a67b47ffc8d6f955ff743240d37e2c5d1bb",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-06.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    },
+    {
+      "index": 7,
+      "cropBox": [
+        1331,
+        444,
+        1774,
+        887
+      ],
+      "cropNativeSize": [
+        443,
+        443
+      ],
+      "sourceAnchorPx": [
+        1550,
+        662
+      ],
+      "sourceAnchorLocalPx": [
+        219,
+        218
+      ],
+      "sourceAnchorBasis": "人工逐格查看中央玉白光点、阴阳阵心或残留椭圆中心，按同一个阵心注册，不按外圈bbox自动对齐。",
+      "targetAnchorPx": [
+        450,
+        450
+      ],
+      "pasteOffsetPx": [
+        231,
+        232
+      ],
+      "sourceCropMaxEdgeAlpha": 1,
+      "sourceCropVisibleBorderPixelCount": 0,
+      "alphaSum": 632162,
+      "visibleSourceCropBbox": [
+        181,
+        182,
+        264,
+        252
+      ],
+      "pixelIdentityAgainstSourceCrop": true,
+      "sourceAnchorMappedToTargetResidualPx": [
+        0,
+        0
+      ],
+      "file": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png",
+      "sha256": "860c9f1725fb7a2e501f4b93f985b4f5bd41f2798acd3c663cc87a1b93af480b",
+      "record": "exports/01-率土之滨/fx-animation/strategy-array/frame-07.png.derivation.json",
+      "actualFrameSize": [
+        900,
+        900
+      ],
+      "allCropRgbaBytesMatchSource": true,
+      "outputCanvasEdgeMaxAlpha": 0
+    }
+  ],
+  "oneShotSequence": {
+    "allEightFramesNonempty": true,
+    "eightDistinctHashes": true,
+    "alphaSumByFrame": [
+      815564,
+      5061406,
+      11100521,
+      15448850,
+      16822217,
+      13290328,
+      5757983,
+      632162
+    ],
+    "peakFrameIndex": 4,
+    "strictGrowthThenDecayAlphaSum": true,
+    "chronologicalPhasesActuallyViewed": true,
+    "registeredLightAndDarkContactActuallyViewed": true,
+    "fullPlaybackSmoothnessFinalApproval": false
+  },
+  "timing": {
+    "durationSeconds": 0.8,
+    "frameDurationSeconds": 0.1,
+    "loop": false,
+    "events": [],
+    "status": "demonstration only; no damage/heal/combat bindings"
+  },
+  "sourceNominalGridSkillQa": {
+    "rawReport": "records/01-率土之滨/fx-animation/strategy-array-sheet-v2.spill-qc.json",
+    "rawReportSha256": "5a491861063ff1eefccbc4924d59363dc1966700572cae44ae7640b075390e84",
+    "rawReportOriginalLocation": "work/fx-animation-theme-scope/strategy-array-v2-spill/sheet-qc.json",
+    "relativeNamesInRawReportBasis": "original tool output location; overlays are scratch intermediates",
+    "method": "8-connected components at alpha > 127 (solid) and > 16 (visible edge) on the raw sheet; a component belongs to the cell holding most of its pixels; cells are forge_core.rounded_grid_boxes; specks are forge_core.alpha_hygiene('both') counts",
+    "status": "warn",
+    "warningsAndFailuresVerbatim": [
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 96502,
+          "detached_components": 2
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "allChecks": [
+      {
+        "id": "cross_cell_components",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "cells": [],
+        "note": "solid parts crossing a cell line are cut or misassigned when the sheet is sliced"
+      },
+      {
+        "id": "cross_cell_visible",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "the same test on the visible edge (alpha > 16)"
+      },
+      {
+        "id": "sheet_edge",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "art touching the sheet border was cut by the image edge"
+      },
+      {
+        "id": "empty_cells",
+        "status": "pass",
+        "value": [],
+        "threshold": [],
+        "note": "the first 8 cells must each hold a subject"
+      },
+      {
+        "id": "boundary_band",
+        "status": "pass",
+        "value": 0,
+        "threshold": 0,
+        "note": "solid pixels within 9 px of a cell line; a different crop or rounding can cut them"
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 96502,
+          "detached_components": 2
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "nominalFailureDoesNotDescribeFinalManualOwnership": false
+  },
+  "finalFrameValidation": {
+    "frameCount": 8,
+    "animations": 1,
+    "pngRgba": true,
+    "sourcePixelsPreserved": true,
+    "sharedCanvasAndAnchor": true,
+    "visibleClipOrNeighborIssues": false
+  },
+  "manifest": "exports/01-率土之滨/fx-animation/strategy-array/manifest.json",
+  "status": "registered_generated_eight_phase_candidate_pending_user_motion_and_engine_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "smoothAnimationFinallyApproved": false,
+  "battleEventsImplemented": false,
+  "fullGameArtComplete": false,
+  "limitations": [
+    "生成式8相位候选，不是已经用户验收的流畅成品动画；仍需检查真实播放节奏、形状一致性与游戏缩放。",
+    "安全边距与微量低alpha散点源警告保留，不称全部QC通过。",
+    "运行时0.8s结束后隐藏；当前无伤害/治疗事件、打击停顿或客户端集成验收。"
+  ]
+}

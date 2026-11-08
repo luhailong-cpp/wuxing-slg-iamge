@@ -1,0 +1,26 @@
+{
+  "requestedAtUtc": "2026-11-02T12:29:01.271Z",
+  "args": {
+    "prompt": "Create ONE square repeating terrain ground texture for 五行问鼎, a landscape Three Kingdoms strategy game. Actual attached references 1 and 2 define the authoritative Taoist chibi HD hand-painted style: soft rounded forms, refined brushwork, jade green, warm ivory, bright clean daylight. Reference 3 is the current selected meadow tile and defines environment brush scale, top-down viewpoint and detail density, not a requirement to draw grass on other materials. Only calm shallow jade-turquoise river water as an endless opaque surface. Small soft interlocking painterly ripples; a faint teal depth variation with sparse tiny warm ivory highlights, no large foam curls. No shore, bottom stones, fish, boats, plants, reflections of objects, sky or sun. Surface is even and low contrast, no dominant horizontal stripes. Pure orthographic top-down ground filling the entire canvas, no horizon, perspective, raised 3D object, vignette, directional shadow, central light spot, border, grid, label, UI, building, character or animal. Essential production constraint: paint a TOROIDAL repeat tile with EXACTLY matching left/right edge colors and brush details, and exactly matching top/bottom; any marks cut by one edge continue at the opposite edge. Uniform detail and color distribution at edges and center. Avoid motifs that become obvious checkerboard blobs under 3x3 repetition. Requested native 1024x1024 opaque PNG, one continuous material only, delicately hand-painted 2D, not a photograph, not pixel art. Do not generate a preview sheet or multiple panels.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/maps/world-terrain-20261101/grass-seamless-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-02",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  }
+}

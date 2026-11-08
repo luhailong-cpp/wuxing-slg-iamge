@@ -1,0 +1,1516 @@
+{
+  "schemaVersion": 1,
+  "generatedArtRoute": "builtin image_gen; actualModel/Quality in source records unconfirmed",
+  "processing": "Deterministic native crop only; no repaint, alpha keying, scaling or artificial detail",
+  "assetCount": 36,
+  "sourceSheetCount": 3,
+  "assets": [
+    {
+      "assetId": "button-primary-normal",
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-normal.png",
+      "sha256": "81a44101e25a7c32d37448189c321c9e8b25ac7ddbd39b5fd9bf40979af313af",
+      "width": 444,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 53109,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-primary",
+      "state": "normal",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 105,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          0,
+          0,
+          444,
+          222
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-primary-pressed",
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-pressed.png",
+      "sha256": "25b778033c85b5f6f1d0c4f8314e7b3298fa91d7bb3d805a24059f864296d029",
+      "width": 443,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 52941,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-primary",
+      "state": "pressed",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 105,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          444,
+          0,
+          887,
+          222
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-primary-disabled",
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-disabled.png",
+      "sha256": "5bfc5402eef44e9cdd25933c1234b0e3bd518eb9e8db6fe7159c4fe5076ab652",
+      "width": 443,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 51314,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-primary",
+      "state": "disabled",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 105,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          887,
+          0,
+          1330,
+          222
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-primary-hover",
+      "file": "exports/01-率土之滨/runtime-ui/button-primary-hover.png",
+      "sha256": "936f14f1bd3b705385bda12f74aa52db5417bd76be360ea201a8d4f45c445f45",
+      "width": 444,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 36472,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-primary",
+      "state": "hover",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 105,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          1330,
+          0,
+          1774,
+          222
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-secondary-normal",
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-normal.png",
+      "sha256": "17ec03feee71c741b2fb8bdc782a94020eb6a310b4a4ff4dddb60eba76717b77",
+      "width": 444,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 52799,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-secondary",
+      "state": "normal",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          0,
+          222,
+          444,
+          444
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-secondary-pressed",
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-pressed.png",
+      "sha256": "7f45e4ae30a389e69115d34f35fc50694193590af5a6213a0cd15776711e707b",
+      "width": 443,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 51568,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-secondary",
+      "state": "pressed",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          444,
+          222,
+          887,
+          444
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-secondary-disabled",
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-disabled.png",
+      "sha256": "6fe765d5260a67191b5ac0a5367c3a5db2ec58fc0852cd9d4735832a6fc7b262",
+      "width": 443,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 49400,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-secondary",
+      "state": "disabled",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          887,
+          222,
+          1330,
+          444
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "button-secondary-hover",
+      "file": "exports/01-率土之滨/runtime-ui/button-secondary-hover.png",
+      "sha256": "783b6e23f06131f52160952c07e4cbc3fa7702ed83b504795362d81d1bd6f312",
+      "width": 444,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 15177,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "button-secondary",
+      "state": "hover",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          1330,
+          222,
+          1774,
+          444
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "tab-selected",
+      "file": "exports/01-率土之滨/runtime-ui/tab-selected.png",
+      "sha256": "c83f5d7b9d7b7d9de281f7cacd4eb0375f6c2fdbdadef924845f0d4ebea59f39",
+      "width": 444,
+      "height": 221,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 51602,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "tab",
+      "state": "selected",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          0,
+          444,
+          444,
+          665
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "tab-normal",
+      "file": "exports/01-率土之滨/runtime-ui/tab-normal.png",
+      "sha256": "fec840fbce11511922e50505c24317f9e84b3285b2281edab2eac8e2a1f00372",
+      "width": 443,
+      "height": 221,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 50057,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "tab",
+      "state": "normal",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          444,
+          444,
+          887,
+          665
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "tab-locked",
+      "file": "exports/01-率土之滨/runtime-ui/tab-locked.png",
+      "sha256": "2d5323ba7fc389f8e98b00c0558751415944e891a326589a83e04f30ca4efb96",
+      "width": 443,
+      "height": 221,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 49150,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "tab",
+      "state": "locked",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          887,
+          444,
+          1330,
+          665
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "tab-notification",
+      "file": "exports/01-率土之滨/runtime-ui/tab-notification.png",
+      "sha256": "f04b250b104357dd8b2fe332894c163e2771bf309f80d8d7f533b2e424656524",
+      "width": 444,
+      "height": 221,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 42187,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "tab",
+      "state": "notification",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          1330,
+          444,
+          1774,
+          665
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "card-row-normal",
+      "file": "exports/01-率土之滨/runtime-ui/card-row-normal.png",
+      "sha256": "879e8687b584d5647d16df1da2888ef9c35f88ee6909b63e7edf7d1d8fa518f7",
+      "width": 444,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 44964,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "card-row",
+      "state": "normal",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          0,
+          665,
+          444,
+          887
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "card-row-selected",
+      "file": "exports/01-率土之滨/runtime-ui/card-row-selected.png",
+      "sha256": "cecdc8b03122912abd45cf00988d773a247b197c3107000944f5f32584e429db",
+      "width": 443,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 43408,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "card-row",
+      "state": "selected",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          444,
+          665,
+          887,
+          887
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "card-row-disabled",
+      "file": "exports/01-率土之滨/runtime-ui/card-row-disabled.png",
+      "sha256": "d81f38546fe2d384aad11b81347356a2a47311f7fc5608fc2b17636b7c05801a",
+      "width": 443,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 42394,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "card-row",
+      "state": "disabled",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          887,
+          665,
+          1330,
+          887
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "card-row-empty",
+      "file": "exports/01-率土之滨/runtime-ui/card-row-empty.png",
+      "sha256": "41c19cffcfcaec9dd85766e30ca8d0921565d9f44acbec9e0ae2943a54a63511",
+      "width": 444,
+      "height": 222,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 44216,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "card-row",
+      "state": "empty",
+      "nineSliceCandidate": {
+        "left": 100,
+        "top": 70,
+        "right": 100,
+        "bottom": 75,
+        "basis": "Provisional native crop pixels; do not stretch until rendered review"
+      },
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+        "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          1330,
+          665,
+          1774,
+          887
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-wood",
+      "file": "exports/01-率土之滨/runtime-ui/icon-wood.png",
+      "sha256": "9f4edcbbe1dcbec3757922cdc2db77bd58525a5aa66e8db1f6e9ae4b95a70b24",
+      "width": 321,
+      "height": 276,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 34124,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          16,
+          45,
+          337,
+          321
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-iron",
+      "file": "exports/01-率土之滨/runtime-ui/icon-iron.png",
+      "sha256": "b300d2383afa1a225888b413b7904416ea407203c139cec8de17595d87443619",
+      "width": 288,
+      "height": 276,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 30765,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          337,
+          45,
+          625,
+          321
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-stone",
+      "file": "exports/01-率土之滨/runtime-ui/icon-stone.png",
+      "sha256": "affb6e5da8ed971055e6d20094595ff0d432d1b8eb14d12eeb23d2cdcc7b0fa1",
+      "width": 313,
+      "height": 272,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 37929,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          628,
+          50,
+          941,
+          322
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-grain",
+      "file": "exports/01-率土之滨/runtime-ui/icon-grain.png",
+      "sha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+      "width": 316,
+      "height": 305,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 38075,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          938,
+          20,
+          1254,
+          325
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-coin",
+      "file": "exports/01-率土之滨/runtime-ui/icon-coin.png",
+      "sha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+      "width": 318,
+      "height": 252,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 28885,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          12,
+          370,
+          330,
+          622
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-jade",
+      "file": "exports/01-率土之滨/runtime-ui/icon-jade.png",
+      "sha256": "e5953137c7472e8094451aaebb1273accf5386d6dc5b9158c484ee17d5602ec7",
+      "width": 300,
+      "height": 310,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 45455,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          339,
+          320,
+          639,
+          630
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-tactic-exp",
+      "file": "exports/01-率土之滨/runtime-ui/icon-tactic-exp.png",
+      "sha256": "1264796a71a4e8f59e1cb47f824b6e826c5d987367b546d3a8210a2c190f5512",
+      "width": 325,
+      "height": 292,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 34698,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          628,
+          340,
+          953,
+          632
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-reserve",
+      "file": "exports/01-率土之滨/runtime-ui/icon-reserve.png",
+      "sha256": "385c6ffd275edbf3c1b3129e58805a18d8ce49c6ccc5e6c442a3005d6c9eca7f",
+      "width": 303,
+      "height": 302,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 40602,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          951,
+          330,
+          1254,
+          632
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-attack",
+      "file": "exports/01-率土之滨/runtime-ui/icon-attack.png",
+      "sha256": "de0736e6433ee732aecf049d5d13d13aa80195106ff7ff9c4df47aa4d222f05f",
+      "width": 320,
+      "height": 297,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 40134,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          15,
+          640,
+          335,
+          937
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-defense",
+      "file": "exports/01-率土之滨/runtime-ui/icon-defense.png",
+      "sha256": "578e36b1a7c33c42c227305dd36815d5f70f099672412a2171ced62d3623e1b6",
+      "width": 281,
+      "height": 283,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 26718,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          337,
+          635,
+          618,
+          918
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-strategy",
+      "file": "exports/01-率土之滨/runtime-ui/icon-strategy.png",
+      "sha256": "9710eed4fbaad94ec85721359633e42e430e9c211f1dd9c6cf68e00ee221b726",
+      "width": 305,
+      "height": 320,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 31437,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          642,
+          620,
+          947,
+          940
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-speed",
+      "file": "exports/01-率土之滨/runtime-ui/icon-speed.png",
+      "sha256": "d921f3719872aa0d68a847f6818e9d39142a759b6b6ab5213c031ddcf4babb66",
+      "width": 308,
+      "height": 312,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 28608,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          945,
+          627,
+          1253,
+          939
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-siege",
+      "file": "exports/01-率土之滨/runtime-ui/icon-siege.png",
+      "sha256": "4e662934f997f396da4b4a3c35288c48a64db12eb73ad9a70d1bf0fb89d87fd5",
+      "width": 342,
+      "height": 320,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 43551,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          10,
+          915,
+          352,
+          1235
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-stamina",
+      "file": "exports/01-率土之滨/runtime-ui/icon-stamina.png",
+      "sha256": "7806d8577b4378bbad2f5738b1375140eb51b51a25c948eb826889cb2cbd32e4",
+      "width": 298,
+      "height": 322,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 35076,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          345,
+          908,
+          643,
+          1230
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-timer",
+      "file": "exports/01-率土之滨/runtime-ui/icon-timer.png",
+      "sha256": "c9d8dfd838932bdcfb7330bb90c37719762d46d75662da3e0c4375c9e7614044",
+      "width": 292,
+      "height": 315,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 33595,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          650,
+          915,
+          942,
+          1230
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "icon-lock",
+      "file": "exports/01-率土之滨/runtime-ui/icon-lock.png",
+      "sha256": "c0d3f7c4b108b104e28920fc0a8e47f39d9baff9af6a4e057d18562827e22552",
+      "width": 311,
+      "height": 289,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 37489,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "icon",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+        "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          943,
+          934,
+          1254,
+          1223
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "panel-main",
+      "file": "exports/01-率土之滨/runtime-ui/panel-main.png",
+      "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+      "width": 946,
+      "height": 550,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 91276,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "window",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png",
+        "sha256": "41277b6203efc91954dc6c685f1b4c734f62047305bbfa06bc35a791ea8e1627",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          10,
+          0,
+          956,
+          550
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "panel-confirm",
+      "file": "exports/01-率土之滨/runtime-ui/panel-confirm.png",
+      "sha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+      "width": 568,
+      "height": 402,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 42447,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "window",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png",
+        "sha256": "41277b6203efc91954dc6c685f1b4c734f62047305bbfa06bc35a791ea8e1627",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          950,
+          63,
+          1518,
+          465
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "panel-dialogue",
+      "file": "exports/01-率土之滨/runtime-ui/panel-dialogue.png",
+      "sha256": "f8afc62592e23a429a524a25cdfa284ac0bc559406a4060bf27839986a109bf5",
+      "width": 1006,
+      "height": 310,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 92355,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "window",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png",
+        "sha256": "41277b6203efc91954dc6c685f1b4c734f62047305bbfa06bc35a791ea8e1627",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          10,
+          610,
+          1016,
+          920
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    },
+    {
+      "assetId": "panel-detail",
+      "file": "exports/01-率土之滨/runtime-ui/panel-detail.png",
+      "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+      "width": 464,
+      "height": 540,
+      "format": "PNG",
+      "alphaMode": "straight",
+      "transparentPixelCount": 54524,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "category": "window",
+      "state": "normal",
+      "nineSliceCandidate": null,
+      "nineSliceVerifiedInClient": false,
+      "derivedFrom": {
+        "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png",
+        "sha256": "41277b6203efc91954dc6c685f1b4c734f62047305bbfa06bc35a791ea8e1627",
+        "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-03-window-panels.png.generation.json"
+      },
+      "operation": {
+        "type": "crop",
+        "cropBox": [
+          1030,
+          470,
+          1494,
+          1010
+        ],
+        "resampled": false,
+        "alphaPreserved": true,
+        "sourcePixelsModified": false
+      },
+      "status": "independent_asset_pending_client_visual_verification",
+      "notes": [
+        "Native crop; not a new model generation."
+      ]
+    }
+  ],
+  "knownLimitations": [
+    "Window sheet uses manually inspected ownership boxes because the generated layout was not equal 2x2.",
+    "Icon ownership boxes follow observed sprites; requested uniform grid was not obeyed exactly.",
+    "Soft alpha fringes and hover glow must be checked on client light/dark backgrounds before final approval.",
+    "Nine-slice entries are candidates only; no target client validation has occurred."
+  ],
+  "clientIntegrated": false
+}

@@ -1,0 +1,21 @@
+{
+  "checkedAtUtc": "2026-11-02T11:31:12.606Z",
+  "currentInProgressCandidate": "designs/01-率土之滨/assets/troop-walk-20261102/metal-walk-se-v5.png",
+  "sourceActuallyViewed": true,
+  "acceptedForRuntime": false,
+  "newUsableFrames": 0,
+  "noRuntimeExport": true,
+  "issues": [
+    {
+      "id": "NEAR_FAR_LEAD_NOT_RELIABLY_ALTERNATING",
+      "value": "Bottom row contact1 still repeats near-leg-leading arrangement from top row; visible leg articulation is not opposite-half-cycle evidence",
+      "threshold": "opposite depth lead between frames1/4,2/5,3/6"
+    },
+    {
+      "id": "SOURCE_SAFE_PADDING_UNDER_PROMPT",
+      "value": "Some figures exceed70percent of cell height",
+      "threshold": "70percent max height with15percent clearance"
+    }
+  ],
+  "decision": "Two attempts in this new6-pose strategy did not resolve gait; preserve current evidence, continue independent assets, no walk completion claim"
+}

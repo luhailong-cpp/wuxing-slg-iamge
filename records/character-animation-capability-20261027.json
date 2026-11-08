@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-27T17:57:17.922777+00:00",
+  "status": "blocked_capability",
+  "blockedScope": "new character/unit image-to-video generation only",
+  "projectRoot": "D:/work/wuxing-slg-iamge",
+  "targetEngine": "Unity",
+  "nativeHostTools": {
+    "checkedAtUtc": "2026-10-27T17:45:06.858Z",
+    "imageToolNames": [
+      "image_gen__imagegen"
+    ],
+    "nativeVideoToolCandidates": []
+  },
+  "probeEnvironment": {
+    "runner": "D:/luyuan/image-skills/runtime/agent-sprite-forge/forge.ps1",
+    "python": "D:/luyuan/image-skills/runtime/agent-sprite-forge/.venv/Scripts/python.exe",
+    "ffmpeg": "D:\\luyuan\\image-skills\\runtime\\agent-sprite-forge\\ffmpeg\\bin\\ffmpeg.EXE",
+    "ffprobe": "D:\\luyuan\\image-skills\\runtime\\agent-sprite-forge\\ffmpeg\\bin\\ffprobe.EXE",
+    "ffmpegVersion": "9.0.2-essentials_build-www.gyan.dev",
+    "apiKeyConfiguredYesNo": {
+      "openai": "no",
+      "gemini": "no",
+      "xai": "no",
+      "byteplus": "no",
+      "fal": "no"
+    },
+    "providerKeyValuesReadOutOrStored": false,
+    "grokCliInstalled": false,
+    "hostVideoToolAvailable": false,
+    "suppliedVideoProcessingReady": true,
+    "codecFunctional": {
+      "vp9_alpha": true,
+      "libx264": true
+    },
+    "supportedLocalPackageTransports": {
+      "png": true,
+      "webm": true,
+      "packed": true
+    },
+    "barePathPreviousFindingDoesNotApplyToDedicatedRunner": true,
+    "forgeDoctorSummary": {
+      "overall": "WARN",
+      "routes": {
+        "image": {
+          "route": "host_image",
+          "status": "ready",
+          "detail": "the calling agent's own media tool",
+          "options": [
+            {
+              "route": "host_image",
+              "status": "ready",
+              "detail": "the calling agent's own media tool",
+              "consent": "host"
+            },
+            {
+              "route": "local:codex-cli",
+              "status": "ready",
+              "detail": "Codex (local CLI), at PRESENT: its first successful run records the VERIFIED proof; route_media.py runs it on the user's own sign-in (subscription quota, not API credit)",
+              "consent": "quota",
+              "level": "PRESENT",
+              "label": "Codex (local CLI)",
+              "verified": false
+            }
+          ]
+        },
+        "image_edit": {
+          "route": "local:codex-cli",
+          "status": "ready",
+          "detail": "Codex (local CLI), at PRESENT: its first successful run records the VERIFIED proof; route_media.py runs it on the user's own sign-in (subscription quota, not API credit)",
+          "options": [
+            {
+              "route": "local:codex-cli",
+              "status": "ready",
+              "detail": "Codex (local CLI), at PRESENT: its first successful run records the VERIFIED proof; route_media.py runs it on the user's own sign-in (subscription quota, not API credit)",
+              "consent": "quota",
+              "level": "PRESENT",
+              "label": "Codex (local CLI)",
+              "verified": false
+            }
+          ]
+        },
+        "video": {
+          "route": "none",
+          "status": "none",
+          "detail": "no video generation route: write a motion brief and report the missing capability (supplied clips can still be processed)",
+          "options": []
+        },
+        "clip": {
+          "route": "ffmpeg",
+          "status": "ready",
+          "detail": "supplied clips decode and encode with ffmpeg 9.0.2-essentials_build-www.gyan.dev"
+        },
+        "code_art": {
+          "route": "codeart2d",
+          "status": "fallback",
+          "detail": "explicit-only last resort: only when the user asks for code-drawn art or no image or video route exists; codeart2d PixelSpec and SVG (resvg-py)"
+        }
+      },
+      "pythonPathWarning": "Additional Python interpreters exist on PATH; dedicated Forge runner used successfully."
+    }
+  },
+  "observedRouteResolver": {
+    "status": "no-route",
+    "kind": "video",
+    "requested": "auto",
+    "skipped": [
+      "api:xai: no XAI_API_KEY in the environment or the user config file",
+      "api:byteplus: no ARK_API_KEY in the environment or the user config file",
+      "api:fal: no FAL_KEY in the environment or the user config file",
+      "local:grok-acp: Grok Build CLI is not installed (not found on PATH or in $GROK_HOME/bin)"
+    ],
+    "fallbackAdvertised": "codeart2d",
+    "fallbackInvoked": false,
+    "actualProcessExitCode": 1,
+    "note": "Installed resolver returned JSON no-route with process exit1 in this check; docs mention exit3 but actual evidence is retained."
+  },
+  "commandsRun": [
+    {
+      "command": "forge.ps1 generate2dmedia forge_doctor.py --host-tools image_gen --save work/character-animation-capability/forge-doctor.json",
+      "exitCode": 0
+    },
+    {
+      "command": "forge.ps1 generate2dmedia route_media.py resolve --kind video",
+      "exitCode": 1
+    },
+    {
+      "command": "isolated-python route_media.py resolve --kind video",
+      "exitCode": 1
+    },
+    {
+      "command": "forge.ps1 video2dsprite video2dsprite.py doctor",
+      "exitCode": 0,
+      "kind": "offline codec roundtrip probe, not game video/provider generation"
+    }
+  ],
+  "assets": [
+    {
+      "kind": "hero",
+      "id": "01-metal-envoy-v1",
+      "file": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "sha256": "555c1757f7ee88ed26961366043ef32f4743c0607972fedf6e38e4d4deb88208",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png.generation.json",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alphaAbove16Bbox": [
+        59,
+        75,
+        982,
+        1464
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        59,
+        75,
+        42,
+        72
+      ],
+      "alphaAbove16SubjectHeight": 1389,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "identityInvariants": "金系铸锋使：短银灰发、暖金花簪与玉珠流苏、米白短袍/玉绿内衬、金护臂、腰侧工具袋、短符尺和折叠阵盘；两件法器数量与形状保持。"
+    },
+    {
+      "kind": "hero",
+      "id": "02-wood-envoy-v1",
+      "file": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png",
+      "sha256": "8be021e9382b885ba64a5f883dd4a435e9a0cd8739b570110d667314f928e07c",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/02-wood-envoy-v1.png.generation.json",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alphaAbove16Bbox": [
+        123,
+        200,
+        985,
+        1412
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        123,
+        200,
+        39,
+        124
+      ],
+      "alphaAbove16SubjectHeight": 1212,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "identityInvariants": "木系青蘅使：棕色半束发和叶簪、嫩叶短披肩、米白玉绿袍、竹节法杖、腰侧种子囊与双短靴；法杖不能变长或变成历史人物拐杖。"
+    },
+    {
+      "kind": "hero",
+      "id": "03-water-envoy-v1",
+      "file": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png",
+      "sha256": "322e4d90a21b20fadac2eb9babc03763723fe7178a3a3c931ef134c6654c68b5",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/03-water-envoy-v1.png.generation.json",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alphaAbove16Bbox": [
+        25,
+        87,
+        1004,
+        1478
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        25,
+        87,
+        20,
+        58
+      ],
+      "alphaAbove16SubjectHeight": 1391,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "identityInvariants": "水系沧澜使：深蓝双辫、蓝白短斗篷、银边与水滴发饰、实体水纹环和小葫芦；双辫、圆环和葫芦都保留。"
+    },
+    {
+      "kind": "hero",
+      "id": "04-fire-envoy-v1",
+      "file": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png",
+      "sha256": "0b334b77d2eabba1f68b1d12984006f1df2be7e035bb992b9357df6b4b6b800b",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/04-fire-envoy-v1.png.generation.json",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alphaAbove16Bbox": [
+        50,
+        88,
+        967,
+        1468
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        50,
+        88,
+        57,
+        68
+      ],
+      "alphaAbove16SubjectHeight": 1380,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "identityInvariants": "火系焰翎使：赤棕蓬短发与短发束、朱砂披肩、米白玉绿短袍、护腿、两枚火纹实体符牌；不是持双剑的历史武将。"
+    },
+    {
+      "kind": "hero",
+      "id": "05-earth-envoy-v1",
+      "file": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png",
+      "sha256": "e87e703421833da4678a6eb8aee7c9d5a5cd14180a41f5fe526b2f0f84dd0021",
+      "generationRecord": "designs/01-率土之滨/characters/five-elements/05-earth-envoy-v1.png.generation.json",
+      "nativeSize": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        254
+      ],
+      "alphaAbove16Bbox": [
+        75,
+        176,
+        980,
+        1396
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        75,
+        176,
+        44,
+        140
+      ],
+      "alphaAbove16SubjectHeight": 1220,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "identityInvariants": "土系玄垣使：深色低发髻、暖赭/米白/玉绿宽袖外套、方形山钮石印、护阵盾、宽圆稳重面部与短靴。"
+    },
+    {
+      "kind": "unit",
+      "id": "01-dao-infantry-master-v1",
+      "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png",
+      "sha256": "901880ee5681e69107cba1f8557f2f2c060025e2ca4c337e577db3c9ea35723a",
+      "generationRecord": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaAbove16Bbox": [
+        241,
+        219,
+        1014,
+        1070
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        241,
+        219,
+        240,
+        184
+      ],
+      "alphaAbove16SubjectHeight": 851,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "unitId": "infantry",
+      "cameraFromManifest": "isometric approximately40degree top-down",
+      "facingFromManifest": "south-east",
+      "nativeExport": "exports/01-率土之滨/units/infantry-native.png",
+      "nativeExportRecord": "exports/01-率土之滨/units/infantry-native.png.derivation.json",
+      "nativeExportCropBox": [
+        223,
+        201,
+        1032,
+        1088
+      ],
+      "nativeAnchorPxTopLeft": [
+        404.5,
+        871
+      ],
+      "provisionalSourceAnchorPxTopLeft": [
+        627.5,
+        1072
+      ],
+      "displayVariants": [
+        {
+          "file": "exports/01-率土之滨/units/infantry-64h.png",
+          "record": "exports/01-率土之滨/units/infantry-64h.png.derivation.json",
+          "silhouetteHeight": 64,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/units/infantry-128h.png",
+          "record": "exports/01-率土之滨/units/infantry-128h.png.derivation.json",
+          "silhouetteHeight": 128,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        }
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "existingWarnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            239,
+            217,
+            238,
+            182
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+        }
+      ],
+      "identityInvariants": "SE步兵：圆顶玉绿米白头盔、深棕短发、玉绿金边轻甲、米白短袍、右侧圆云纹盾与另一手短枪；固定盾枪数量和轮廓。"
+    },
+    {
+      "kind": "unit",
+      "id": "02-dao-archer-master-v1",
+      "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png",
+      "sha256": "e907349d5c3ee1582669aa3e85dad9f2fcaa3b1d2be85133acf011d4352c5e18",
+      "generationRecord": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaAbove16Bbox": [
+        324,
+        194,
+        1046,
+        1085
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        324,
+        194,
+        208,
+        169
+      ],
+      "alphaAbove16SubjectHeight": 891,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "unitId": "archer",
+      "cameraFromManifest": "isometric approximately40degree top-down",
+      "facingFromManifest": "south-east",
+      "nativeExport": "exports/01-率土之滨/units/archer-native.png",
+      "nativeExportRecord": "exports/01-率土之滨/units/archer-native.png.derivation.json",
+      "nativeExportCropBox": [
+        306,
+        177,
+        1064,
+        1104
+      ],
+      "nativeAnchorPxTopLeft": [
+        379.0,
+        911
+      ],
+      "provisionalSourceAnchorPxTopLeft": [
+        685.0,
+        1088
+      ],
+      "displayVariants": [
+        {
+          "file": "exports/01-率土之滨/units/archer-64h.png",
+          "record": "exports/01-率土之滨/units/archer-64h.png.derivation.json",
+          "silhouetteHeight": 64,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/units/archer-128h.png",
+          "record": "exports/01-率土之滨/units/archer-128h.png.derivation.json",
+          "silhouetteHeight": 128,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        }
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "existingWarnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            322,
+            193,
+            206,
+            166
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/02-dao-archer-master-v1.png"
+        }
+      ],
+      "identityInvariants": "SE弓兵：棕发高束、玉绿抹额与短披肩、米白短袍、背箭袋与一张金玉长弓；弓弦/箭袋保持，不多生弓或把弓换剑。"
+    },
+    {
+      "kind": "unit",
+      "id": "03-dao-cavalry-master-v1",
+      "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png",
+      "sha256": "f5a98a34a33cb3699f8fb12a341f1bc267df1afe2d292aa617d8091b0fa6cf8a",
+      "generationRecord": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "recordStatus": "draft_pending_user_review",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaAbove16Bbox": [
+        292,
+        148,
+        1068,
+        1164
+      ],
+      "alphaAbove16MarginsLtrbPx": [
+        292,
+        148,
+        186,
+        90
+      ],
+      "alphaAbove16SubjectHeight": 1016,
+      "strictAnimationEnvelopeApproved": false,
+      "existingAnimationFrames": 0,
+      "unitId": "cavalry",
+      "cameraFromManifest": "isometric approximately40degree top-down",
+      "facingFromManifest": "south-east",
+      "nativeExport": "exports/01-率土之滨/units/cavalry-native.png",
+      "nativeExportRecord": "exports/01-率土之滨/units/cavalry-native.png.derivation.json",
+      "nativeExportCropBox": [
+        274,
+        130,
+        1086,
+        1184
+      ],
+      "nativeAnchorPxTopLeft": [
+        406.0,
+        1038
+      ],
+      "provisionalSourceAnchorPxTopLeft": [
+        680.0,
+        1168
+      ],
+      "displayVariants": [
+        {
+          "file": "exports/01-率土之滨/units/cavalry-64h.png",
+          "record": "exports/01-率土之滨/units/cavalry-64h.png.derivation.json",
+          "silhouetteHeight": 64,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/units/cavalry-128h.png",
+          "record": "exports/01-率土之滨/units/cavalry-128h.png.derivation.json",
+          "silhouetteHeight": 128,
+          "canvas": [
+            256,
+            256
+          ],
+          "anchorPxTopLeft": [
+            128,
+            224
+          ],
+          "anchorNormalizedTopLeft": [
+            0.5,
+            0.875
+          ]
+        }
+      ],
+      "sourceRequested15PercentMarginMet": false,
+      "existingWarnings": [
+        {
+          "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+          "value": [
+            290,
+            146,
+            184,
+            86
+          ],
+          "threshold": {
+            "minimumEachSidePx": 188.1
+          },
+          "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png"
+        }
+      ],
+      "identityInvariants": "SE骑兵：玉绿圆盔骑手、金玉短杖、栗色马、深棕鬃尾、米白马鼻/小腿、玉金缰具和鞍毯；马/骑手作为一个身份，四蹄、双耳、单尾、缰绳完整。"
+    }
+  ],
+  "allEightMasterHashesMatchGenerationSidecars": true,
+  "formalForgeMasterJsonFound": [],
+  "existingCharacterMotionFrames": 0,
+  "existingUnitMotionFrames": 0,
+  "proposalNotGameplayContract": true,
+  "proposedActionFamilies": {
+    "heroFirstProposal": [
+      "idle",
+      "cast",
+      "hurt"
+    ],
+    "heroLaterProposal": [
+      "guard",
+      "victory",
+      "defeat"
+    ],
+    "unitFirstProposal": [
+      "idle",
+      "march",
+      "attack"
+    ],
+    "unitLaterProposal": [
+      "hurt",
+      "guard_or_hold",
+      "retreat_or_defeat"
+    ],
+    "conditionalOnly": [
+      "hero_walk_or_run_if_battle_actor_needed",
+      "extra_directions",
+      "jump",
+      "combo",
+      "cavalry_gallop"
+    ]
+  },
+  "geometryContract": {
+    "heroCamera": "current front-three-quarter presentation view; no SE claim; exact angle not calibrated",
+    "unitCamera": "existing SE approximately40degree top-down art convention from units-manifest, not measured camera calibration",
+    "footpoint": "heroes not formally measured/approved; units current source/native/display anchors are provisional map placement points",
+    "sameIdentityMasterForAllActionsOfAView": true,
+    "oneImageToVideoClipPerAction": true,
+    "oneScaleProfilePerActor": true,
+    "perFrameBboxNormalize": false,
+    "runtimeTranslationOwnedByGame": true,
+    "separateFxLayer": true,
+    "unityPreviewPpuCurrent": 100,
+    "finalWorldScaleAndFinalPpuApproved": false
+  },
+  "toProceed": [
+    {
+      "route": "user_supplied_motion",
+      "needed": "Same-master one-action source clips or registered PNG sequences; fixed camera and identity, documented FPS/duration/alpha or clean key background, master hash and action/direction mapping. Local post-processing is available; no new account required."
+    },
+    {
+      "route": "explicitly_authorized_video_provider",
+      "needed": "User explicitly chooses new video provider/billing route, scope/budget or cap, and configures credentials locally; no full key in chat. Re-run read-only resolver before any generation. No provider selected/approved by this record."
+    },
+    {
+      "route": "user_prepared_grok_or_native_host_video",
+      "needed": "User prepares installed/signed-in Grok capability or host exposes native image-to-video. Current CLI absent; no install/login/verification generation done here."
+    }
+  ],
+  "nonClaims": [
+    "8 unrelated stills do not prove character animation; existing FX8phase candidates are not hero/unit actions.",
+    "8 PNG masters are direction candidates, not approved animation masters or full roster coverage.",
+    "No new video, paid API, CLI generation, installation, sign-in, UI automation login or Git operation was invoked.",
+    "blocked_capability describes only new motion generation; thread/overall goal status was not set to blocked and other art is not declared complete."
+  ],
+  "newGameVideoGenerationCalls": 0,
+  "paidApiCalls": 0,
+  "cliGenerationCalls": 0,
+  "installedAnything": false,
+  "signedIntoAnything": false,
+  "gitOperations": 0,
+  "goalStatusChanged": false,
+  "rawDiagnosticsLocation": "work/character-animation-capability (scratch; public record contains only configuration flags and relevant capability evidence)",
+  "sourcesRead": [
+    "C:/Users/luyua/.codex/skills/video2dsprite/SKILL.md",
+    "C:/Users/luyua/.codex/skills/generate2dmedia/references/local-windows-runtime.md",
+    "C:/Users/luyua/.codex/skills/generate2dmedia/references/route-media.md",
+    "C:/Users/luyua/.codex/skills/video2dsprite/references/sprite-set.md",
+    "C:/Users/luyua/.codex/skills/video2dsprite/references/motion-prompts.md",
+    "exports/01-率土之滨/units/units-manifest.json",
+    "records/01-率土之滨/units-native-and-display-review-20261027.json",
+    "records/01-率土之滨/five-elements/metal-wood-master-review-20261027.json",
+    "records/01-率土之滨/five-elements-water-fire-earth-review-20261027.json"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "preparedAt": "2026-10-28T10:03:29.688Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Precise localized edit to image3, already corrected wide landscape部队配置. Preserve ALL portraits, labels, numbers, composition and background. Images1/2 authoritative jade/ivory/gold hand-painted Daoist chibi style only; image4 existing five troop emblems; image5 six-general identity reference only.\nFix exactly two details: (1) the star row above刘备in大营must have exactly FOUR gold stars, centered, matching his existing four-star identity card; Zhao Yun in中军 keeps its five stars. (2)金兵badge beside刘备must show the ivory/gold FOUR-POINT emblem with GREEN JADE CENTER from image4 top-left, not a horse head, helmet or infantry sign. Keep the exact text金兵 below emblem; keep Zhao Yun leaf木兵badge and all names. Liu Bei remains Liu Bei, not an elemental hero. KeepCOST2.0+2.5=4.5/8,500/1000 each,1000 total,2/3 members,士气100,50/小时 and original buttons/locks unchanged. No new explanations, game title, rules or extra controls. Complete opaque horizontal screen.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/troop-correction-20261028/15-historical-generals-five-troops-formation-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-emblems-sheet-v1.png",
+      "D:/work/wuxing-slg-iamge/records/ui-correction-20261028/reference-contact/six-generals-identity-contact-v1.png"
+    ],
+    "transparent_background": false,
+    "model": null,
+    "quality": null
+  },
+  "promptFile": "prompts/01-率土之滨/troop-correction-20261028/15-historical-generals-five-troops-formation-ui-v2.prompt.txt",
+  "revisionOf": "troop-correction-20261028/15-historical-generals-five-troops-formation-ui-v1.png"
+}
+

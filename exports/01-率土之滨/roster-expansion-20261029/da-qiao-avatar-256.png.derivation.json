@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261029/da-qiao-avatar-256.png",
+  "sha256": "3d176bfb68fe7fd7310ce06eb4b01ce14318c512a3787dc04f1ed9eaf9a0a367",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261029/da-qiao-master-v1.png",
+    "sha256": "3558c905b5e1c6f97b4249920bb8408e4570044a4192637e4b14d7f5907670e2",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261029/da-qiao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      235,
+      85,
+      805,
+      675
+    ],
+    "uniformScale": 0.4,
+    "resizedSize": [
+      228,
+      236
+    ],
+    "offset": [
+      14,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

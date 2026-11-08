@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "updatedAtUtc": "2026-10-28T13:00:08.637Z",
+  "productName": "五行问鼎",
+  "contract": "docs/CURRENT_REQUIREMENTS_20261028.md",
+  "status": "production_incomplete",
+  "fullGameArtComplete": false,
+  "userFinalAcceptance": false,
+  "orientation": "landscape",
+  "troopTypes": [
+    "金",
+    "木",
+    "水",
+    "火",
+    "土"
+  ],
+  "troopTypesAreGeneralCategories": false,
+  "packages": [
+    {
+      "id": "core-v3",
+      "file": "exports/01-率土之滨/core-art-v3-20261028/WuxingSLGCoreArtV3-20261028.unitypackage",
+      "sha256": "98557a0b424018d68bc0208839098f868dc8130b49c4851ca5b754e9f690fac9",
+      "bytes": 12911932,
+      "rgbaPng": 74,
+      "fxAnimationClips": 0,
+      "prefabs": 0,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    },
+    {
+      "id": "generals",
+      "file": "exports/01-率土之滨/generals-ui-v1/unity/WuxingSLGGeneralsUIV1-20261028.unitypackage",
+      "sha256": "082b2d918712f105e7610068bb765665f4d9d361379fe93809045cde46b5f7b1",
+      "bytes": 39753408,
+      "rgbaPng": 60,
+      "fxAnimationClips": 0,
+      "prefabs": 0,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    },
+    {
+      "id": "five-troops",
+      "file": "exports/01-率土之滨/five-element-troops-v1/unity/WuxingSLGFiveElementTroopsV1-20261028.unitypackage",
+      "sha256": "7b8bca0bd2f8651058e508a1fc1bb8d8fd2d63b237658a4e62070d873f9f7cfb",
+      "bytes": 6362008,
+      "rgbaPng": 20,
+      "fxAnimationClips": 0,
+      "prefabs": 0,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    },
+    {
+      "id": "ui-support",
+      "file": "exports/01-率土之滨/ui-support-v1/unity/WuxingSLGUISupportV1-20261028.unitypackage",
+      "sha256": "59448583002dcdb6f98f8512ae8f199f790e390b2a4b9d30089eb9a85035296d",
+      "bytes": 1379013,
+      "rgbaPng": 32,
+      "fxAnimationClips": 0,
+      "prefabs": 0,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    },
+    {
+      "id": "fx-animation",
+      "file": "exports/01-率土之滨/unity/WuxingSLGFXAnimationPreview-20261027.unitypackage",
+      "sha256": "18919229cf380d5cbd16cc6fa76fcb5197f94315d62af06d6b8c6ae54ea9e018",
+      "bytes": 7827361,
+      "rgbaPng": 64,
+      "fxAnimationClips": 8,
+      "prefabs": 0,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    },
+    {
+      "id": "bridge-depth",
+      "file": "exports/01-率土之滨/map-depth-20261028/unity/WuxingSLGBridgeDepth-20261028.unitypackage",
+      "sha256": "0ed82dec8c6562e8c3198ecd4b11444e28be34efe461ce92ea39dcfc0e2732e7",
+      "bytes": 881213,
+      "rgbaPng": 2,
+      "fxAnimationClips": 0,
+      "prefabs": 1,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    },
+    {
+      "id": "continuous-grass",
+      "file": "exports/01-率土之滨/terrain-continuity-20261028/unity/WuxingSLGContinuousGrass-20261028.unitypackage",
+      "sha256": "1c7c8540bbf0e4271a9ddc1c41cff6c9fc8d5f013484087479c2d9e11516ad66",
+      "bytes": 1281719,
+      "rgbaPng": 1,
+      "fxAnimationClips": 0,
+      "prefabs": 1,
+      "actualClientImportCompletionObserved": true,
+      "finalClientValidationPassed": false
+    }
+  ],
+  "actualClient": {
+    "path": "D:/work/wuxing-slg-unity",
+    "repository": "https://github.com/luhailong-cpp/wuxing-slg-unity",
+    "private": true,
+    "publishedCommit": "7ca958f8431a033a85f6c06e852a2d78d4dfa117",
+    "publishedTree": "874503d5414800fb36d916dcbbf7426b12896f2b",
+    "sourceFileHashAndGuidAuditPassed": true,
+    "sourceEntries": 592,
+    "rgbaPng": 253,
+    "fxClips": 8,
+    "prefabs": 2,
+    "artGallerySaved": true,
+    "finalValidationPassed": false,
+    "pendingFailure": "bridge-front.png Sprite validation; exact runtime mismatch not yet determined",
+    "heavyWorkPaused": true
+  },
+  "ui": {
+    "knownScreenCategories": 36,
+    "requiredStatesInCurrentMatrix": 224,
+    "stateMatrix": "records/production-20261028/ui-state-matrix.json",
+    "correctionChecklist": "records/ui-correction-20261028/ui-36-troop-correction-checklist-v2.json",
+    "allStateClientIntegrationPassed": false,
+    "currentSelection": "records/ui-correction-20261028/current-ui-selection-20261028.json",
+    "unaffectedPagesVisualAudit": "records/ui-review-20261028/unaffected-pages-review.json",
+    "selectedCount": 36,
+    "newSelectedImages": 16,
+    "restoredHistoricalPageIds": [
+      13
+    ],
+    "preservedReviewedPages": 19,
+    "currentSelectionSha256": "5f8c7bd3675cee83d597f76f10ee73b1fb89973bdcdb2087884833a9da65b381",
+    "statusCounts": {
+      "reviewed_visual_mapping_followup": 10,
+      "corrected_direction_candidate": 14,
+      "reviewed_no_explicit_conflict_observed": 5,
+      "reviewed_restored_candidate": 1,
+      "corrected_copy_direction_candidate": 2,
+      "reviewed_local_ui_followup": 4
+    }
+  },
+  "branding": {
+    "title": "designs/01-率土之滨/assets/branding/wuxing-wending-title-v1.png",
+    "record": "designs/01-率土之滨/assets/branding/wuxing-wending-title-v1.png.generation.json",
+    "visualReview": "records/branding-20261028/visual-review.json",
+    "userApproved": false,
+    "clientIntegrated": false
+  },
+  "excludedHistoricalCategories": [
+    "five-element named heroes and their derived UI/skill assets",
+    "infantry/archer/cavalry troop masters and derivatives"
+  ],
+  "criticalRemaining": [
+    "real troop/general animations and motion directions",
+    "map troop visual mapping, local UI follow-ups, and all live states",
+    "seamless terrain/riverbank/bridgehead/road connectors",
+    "complete actual launch roster and enabled game flows",
+    "target devices/resolution and Chinese font",
+    "Unity imported-pixel failure diagnosis and completed GPU/animation/scene validation"
+  ],
+  "limits": [
+    "A count of existing assets is not a whole-game denominator.",
+    "8 clips are FX only; troop/general animation frames remain 0.",
+    "Continuous grass failed seamless tiling and is usable only as a single plate.",
+    "Private Unity repository is published; latest art workspace changes are not yet declared published."
+  ],
+  "loginBackground": {
+    "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+    "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+    "nativeSize": [
+      1672,
+      941
+    ],
+    "visualReview": "records/login-background-20261028/visual-qa.json",
+    "status": "candidate_not_client_integrated"
+  },
+  "videoRoute": {
+    "record": "records/production-20261028/video-plugin-discovery.json",
+    "status": "connection_not_confirmed; tool namespace removed after failed whoami check; no video generated",
+    "generatedClips": 0
+  }
+}

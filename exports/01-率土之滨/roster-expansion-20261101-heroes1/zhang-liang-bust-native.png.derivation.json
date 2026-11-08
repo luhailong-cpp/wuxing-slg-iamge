@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/zhang-liang-bust-native.png",
+  "sha256": "dc17f80b4026c76789364943e64deda460ea7e1d64e0165bea1debdec825e253",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png",
+    "sha256": "8b38493997a3c1b23735e448be1ba3888145270f4bfed3d97013bf8b3589f062",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-liang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

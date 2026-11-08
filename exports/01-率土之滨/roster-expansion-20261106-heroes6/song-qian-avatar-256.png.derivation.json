@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-avatar-256.png",
+  "sha256": "8f316145840e664dad2ceb0f90e410fa06eff9957a2c6dd80869ab1f5ff9dfea",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+    "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      168,
+      133,
+      860,
+      706
+    ],
+    "uniformScale": 0.34104046242774566,
+    "resizedSize": [
+      236,
+      195
+    ],
+    "offset": [
+      10,
+      30
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

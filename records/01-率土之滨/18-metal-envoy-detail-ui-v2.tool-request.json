@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "startedAt": "2026-10-27T13:16:47.1799924Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "promptFile": "prompts/01-率土之滨/18-metal-envoy-detail-ui-v2.prompt.txt",
+  "submittedParameters": {
+    "transparent_background": false,
+    "quality": null,
+    "prompt": "Use case: ui-mockup\nAsset type: original five-elements character-detail game screen; complete opaque landscape, approximately21:9.\nInput images and roles: Images1/2 PRIMARY Daoist chibi hand-painted UI style only. Image3 the ONLY character identity master: original female 金系铸锋使. Image4 previous character-detail screen for functional layout ONLY, never identity, weapon, text or dynasty. Replace all image4 historical identity art with the original woman in image3.\nPrimary request: A genuinely redesigned 五行原创“铸锋使” details screen preserving the broad functional hierarchy of image4. This is not a text-only relabeling of the old historical man.\nCharacter identity invariants from image3: young adult female; short bobbed silver-gray hair with a small swept tuft; round amber eyes and friendly determined smile; gold flower/cloud clasp with jade and short golden tassel at her left side; ivory short outer robe with jade-green lining and restrained warm-gold cloud trim; golden forearm guards; jade belt and small brown tools pouch; ivory/jade short boots; one hand holds short rectangular gold-jade rune ruler, other hand a folded lotus/geometric array compass with central jade gem. Preserve this SAME face, hairstyle, costume construction, rune ruler, array compass and pose; no long black hair, beard, emperor's crown, dual swords or historical general. Display full-body with complete boots, hair and BOTH items inside left content area, safe from UI overlap. No black matte or halo from input preview: composite the actual character cleanly onto bright Daoist mountain pavilion scenery.\nLayout: slim ornate vertical navigation bar at far left with four evenly spaced icon/text items “领兵”(selected jade), “内政”, “列传”, “外观”. Left main character area about45% width. Along its left edge, slim jade identity ribbon with small gold geometric metal emblem and exact “金系”, vertical name “铸锋使”, four small warm-gold stars. Character large but readable complete body; restrained leafy Daoist scenery from style refs, no history banners.\nRight half: large ivory silk-paper panel with cloud/gold frame, top right close X. Above tabs an OPEN padlock icon and “未保护” (not a closed lock). Three tabs “详情”(selected jade), “配点”, “兵种”.\nFirst row three spaced columns: infantry shield icon with “步兵”, “攻击距离 3”, “统御 2.0”. All are coherent demonstration fields.\nNext three stat rows with exact values and simple bars: “Lv.5” “0 / 500”, “兵力” “500 / 500”, “体力” “100 / 100”. Empty experience bar, full blue troop bar, full jade stamina bar.\nMiddle stat section: five readable attributes in two columns with simple ivory/gold small icons. Left “攻击 78（+0.73）”, “防御 84（+0.79）”, “灵力 74（+0.62）”. Right “攻城 19（+0.97）”, “速度 58（+0.39）”. Positive growth green, names dark green.\nBottom skill row three separated circular slots: first unlocked warm-gold metal-array skill icon, little “Lv.1”, label “铸锋符阵”; second ivory empty plus circle with jade button “学习”; third gray/beige chained LOCK circle with restrained red “未觉醒”. Do not show an unlocked check on third slot.\nBottom-right panel footer small rune-book icon, “战法经验 200” and a small plus button. Bottom-left secondary jade “传承 »” button, no warning or confirmation modal.\nStyle: fine high-definition painted Daoist Q/chibi consistent with primary images1/2; jade green controls, ivory parchment, fine warm-gold outlines and rounded cloud ornaments; clean Chinese with larger title/name and medium data text; coherent illustration and screen finish. No photorealism, plastic3D, black gray HUD, neon, unrelated hairstyles, cropped feet, obstructed face, dense tiny paragraphs, logo/watermark, 三国/汉/魏/蜀/吴/刘备/曹操/历史人物. No official product title invented.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/characters/five-elements/01-metal-envoy-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/18-liu-bei-detail-ui-v1.png"
+    ],
+    "model": null
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false
+}

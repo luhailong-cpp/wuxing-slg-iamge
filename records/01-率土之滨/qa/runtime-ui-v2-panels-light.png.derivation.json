@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/runtime-ui-v2-panels-light.png",
+  "sha256": "b435b5e92d3239f3c6fe45582391883360d5634cbb8830557d22619d9a7a809c",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+      "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+      "sha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+      "record": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png",
+      "sha256": "f8afc62592e23a429a524a25cdfa284ac0bc559406a4060bf27839986a109bf5",
+      "record": "exports/01-率土之滨/runtime-ui-v2/panel-dialogue.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+      "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+      "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+    }
+  ],
+  "operation": "QA-only native1:1 alpha composites with diagnostic labels and layout margins; source pixels unchanged",
+  "sourceResized": false,
+  "previewDimensions": [
+    2080,
+    1200
+  ],
+  "backgroundRGBA": [
+    245,
+    241,
+    231,
+    255
+  ],
+  "gameDeliverable": false
+}

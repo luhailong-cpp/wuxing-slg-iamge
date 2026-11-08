@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261106-heroes5/huangfu-song-card-full.png",
+  "sha256": "512b1978aa7e3a472543b7b27b8da0df5af885d57389c2b236923711b3b27c78",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/huangfu-song-master-v1.png",
+    "sha256": "3d264747b733f2a1814d2db4477c42282075c33b169c36a723687a40ca4b804f",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes5/huangfu-song-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      18,
+      102,
+      1024,
+      1473
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.6998011928429424,
+    "resizedSize": [
+      704,
+      959
+    ],
+    "offset": [
+      32,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

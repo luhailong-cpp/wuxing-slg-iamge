@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-29T11:57:42.681Z",
+  "reviewer": "/root/audit_mapfx",
+  "scope": "Read-only independent visual review of two derived full-card overviews only",
+  "inputEvidenceManifest": "exports/01-率土之滨/roster-expansion-20261029-shu1/generals-ui-manifest.json",
+  "inputEvidenceManifestSha256": "d9609c53eaaf10e6f40fee47a2cf7081b6d06eab3df859cb1bd7b1c6fb930461",
+  "viewedFiles": [
+    "records/roster-expansion-20261029-shu1/qa/cards-light.png",
+    "records/roster-expansion-20261029-shu1/qa/cards-dark.png"
+  ],
+  "observation": "总览尺度未见人物/武器明显切断，马超、姜维枪尖及底端、黄忠弓箭、魏延刀尖、庞统杖、徐庶卷牍均可见；双脚和主要衣袖完整。浅深底均未见大片背景污染或明显硬底。六人并非仅换色套脸：黄忠白须老者、魏延黑须武将、庞统圆厚文士、徐庶清瘦文士与两个青年枪将有区分。",
+  "limits": "仅确认这两张静态总览，未核查每张原生/alpha数值/头像裁框，不等于官方身份或Unity通过。",
+  "outcome": "No additional blocking visual issue on reviewed boards",
+  "userApproved": false,
+  "clientIntegrated": false
+}

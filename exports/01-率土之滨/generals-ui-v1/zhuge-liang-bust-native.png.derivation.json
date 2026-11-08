@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-bust-native.png",
+  "sha256": "8c5ed6a27f2761ebfa58cf70b6c92853d16acb70c2928c38a2c7a3accd11fd82",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 990,
+  "height": 1030,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "zhuge-liang",
+  "displayName": "诸葛亮",
+  "variant": "bust-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png",
+      "sha256": "16d4585e4b68b26687dfb5009024f59379afe78e71453cd60995b649aaa0ea03",
+      "record": "designs/01-率土之滨/characters/06-zhuge-liang-v1.png.generation.json",
+      "recordSha256": "9e18caf9228bdbde0635f85a52736fa832884c8a59440733a7f56d6b8cee33c0"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    20,
+    30,
+    1010,
+    1060
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    990,
+    1030
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    425,
+    340,
+    700,
+    600
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 358926,
+    "alpha1Pixels": 12918,
+    "semiTransparentPixels": 660774,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      20,
+      24,
+      985,
+      1030
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      837
+    ],
+    "marginsAbove32": [
+      20,
+      24,
+      5,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-bust-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 12918,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-bust-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        20,
+        30,
+        1010,
+        1060
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/zhuge-liang-bust-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

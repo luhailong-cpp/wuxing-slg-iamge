@@ -1,0 +1,128 @@
+[
+  {
+    "personID": "ww-p-f784cb3f93bc",
+    "name": "公孙瓒",
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=公孙瓒; cardIds=100114,100484,100677,130677"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷8"
+      }
+    ],
+    "officialPublicCards": [
+      {
+        "cardid": 100484,
+        "faction": "汉",
+        "starsRaw": 4,
+        "variantRaw": {
+          "seasonRaw": "S2",
+          "isSpCardRaw": 0,
+          "isSeasonCardRaw": 0,
+          "baseHeroIdRaw": 0,
+          "iconHeroIdRaw": 100114
+        }
+      },
+      {
+        "cardid": 100677,
+        "faction": "群",
+        "starsRaw": 5,
+        "variantRaw": {
+          "seasonRaw": "N",
+          "isSpCardRaw": 0,
+          "isSeasonCardRaw": 0,
+          "baseHeroIdRaw": 0,
+          "iconHeroIdRaw": 100677
+        }
+      }
+    ]
+  },
+  {
+    "personID": "ww-p-2020bc6050e5",
+    "name": "马腾",
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=马腾; cardIds=100062,100605,100785,130785"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷6"
+      }
+    ],
+    "officialPublicCards": [
+      {
+        "cardid": 100062,
+        "faction": "群",
+        "starsRaw": 4,
+        "variantRaw": {
+          "seasonRaw": "N",
+          "isSpCardRaw": 0,
+          "isSeasonCardRaw": 0,
+          "baseHeroIdRaw": 0,
+          "iconHeroIdRaw": 100062
+        }
+      },
+      {
+        "cardid": 100785,
+        "faction": "群",
+        "starsRaw": 5,
+        "variantRaw": {
+          "seasonRaw": "N",
+          "isSpCardRaw": 0,
+          "isSeasonCardRaw": 0,
+          "baseHeroIdRaw": 0,
+          "iconHeroIdRaw": 100785
+        }
+      }
+    ]
+  },
+  {
+    "personID": "ww-p-767074d82bd2",
+    "name": "诸葛瑾",
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=诸葛瑾; cardIds=100164,100527"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷52"
+      }
+    ],
+    "officialPublicCards": [
+      {
+        "cardid": 100527,
+        "faction": "吴",
+        "starsRaw": 4,
+        "variantRaw": {
+          "seasonRaw": "XP",
+          "isSpCardRaw": 0,
+          "isSeasonCardRaw": 0,
+          "baseHeroIdRaw": 0,
+          "iconHeroIdRaw": 100164
+        }
+      }
+    ]
+  }
+]

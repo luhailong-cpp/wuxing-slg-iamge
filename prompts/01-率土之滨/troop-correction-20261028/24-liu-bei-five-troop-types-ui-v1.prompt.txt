@@ -1,0 +1,18 @@
+Use case: precise-object-edit
+Asset type: high-fidelity landscape Chinese SLG game UI direction image.
+Edit the third attached image, the existing Liu Bei troop-type page. Preserve its approximately 1916x821 wide horizontal composition, original Liu Bei identity, detailed hand-painted Daoist chibi art, ivory paper/silk panels, jade-green and warm-gold rounded cloud borders, and scenic pavilion background. No portrait layout.
+Input image roles in attached order:
+1. Confirmed mail UI: authoritative style/material/control treatment only; do not copy its text.
+2. Confirmed party UI: authoritative style/readability/rounded hand painting only; do not copy its characters or text.
+3. EDIT TARGET: existing Liu Bei troop page. Preserve left Liu Bei portrait, name, four stars, tabs, right content hierarchy and bottom navigation, except changes listed below.
+4. Liu Bei v2 character master: identity reference. He remains the same male Liu Bei, long brown hair, small goatee, tall jade crown, green/ivory gold-trimmed robes and two swords. Do not turn him into a newly named elemental hero or a female character.
+5. Five existing elemental emblems sheet: use the five emblems as TROOP TYPE symbols only: metal four-point ivory/gold emblem, wood green leaves, water blue droplet, fire red flame, earth ochre mountains. Preserve their distinct recognizable silhouettes. They are not characters or new skills.
+Required change: replace the old three infantry/archer/cavalry cards with FIVE evenly spaced readable cards in a single row in the right panel. Their exact left-to-right titles are "金兵", "木兵", "水兵", "火兵", "土兵". Each card shows only its corresponding large emblem, title, and state; no person. Do not use spear/shield, bow/quiver or horse illustrations as troop symbols. Metal card is selected with jade background and gold edge, state "当前". Other four cards are ivory secondary cards with state "可切换".
+Keep the three top tabs exactly "详情", "配点", "兵种"; select "兵种".
+Keep the left name exactly "刘备" and four stars.
+Replace the summary row with metal emblem and exact text "当前兵种  金兵", preserve "攻击距离  3" and "配置成本  COST2.0". Gold troop choice is the current displayed choice; no elemental affiliation is assigned to Liu Bei himself.
+Keep the lower row "兵种特性", "基础兵种", "进阶未解锁", "进阶条件待解锁", using the metal emblem for the basic troop icon and a lock for locked advancement.
+Bottom disabled wide button reads exactly "已使用金兵". The secondary button reads "返回详情".
+No visible "步兵", "弓兵", "骑兵" anywhere. No "金行使", "木行使", elemental hero names, elemental skill names, invented probabilities, damage, counters or new game rules. Do not add explanatory prototype/developer/candidate footnotes to the product UI.
+Maintain full panel/control edges, legible Chinese text, consistent spacing and the original high-resolution hand-painted finish. Do not crop any of the five emblems. No watermark, no product title, no extra controls. Opaque complete screen, not transparent.
+

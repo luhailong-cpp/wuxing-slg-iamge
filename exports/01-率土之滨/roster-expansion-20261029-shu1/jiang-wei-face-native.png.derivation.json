@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-face-native.png",
+  "sha256": "720361e83ad7f2ea20e237bc778f3e491dda06b2b95bf112cbb78213d3778030",
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "width": 390,
+  "height": 440,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "jiang-wei",
+  "displayName": "姜维",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png",
+      "sha256": "853a50ac3a2ec9a6ac8028eb23b3ff67434c9294e40af241e144ca2efadd5b18",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png.generation.json",
+      "recordSha256": "282ccf29ab321c7721355bd04523b3e1febce4d284a5bc7b55413e645f321492"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    320,
+    130,
+    710,
+    570
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    390,
+    440
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    400,
+    355,
+    630,
+    535
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 53554,
+    "alpha1Pixels": 5008,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      9,
+      375,
+      440
+    ],
+    "edgePixelsAbove32": [
+      73,
+      0,
+      0,
+      292
+    ],
+    "marginsAbove32": [
+      0,
+      9,
+      15,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "portraitWindowMayClipNonFaceElements": true,
+  "sourceWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 17717,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        38,
+        101,
+        16,
+        74
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

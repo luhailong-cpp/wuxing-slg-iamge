@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/ling-tong-bust-native.png",
+  "sha256": "260d5110125ea6fd0b08e2db89cc2192684876bbcd0cf42f79b97d5c0ca4150a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/ling-tong-master-v1.png",
+    "sha256": "ed7fb7e1f01deda7e0027d9ce663e7d0486e531dac9bf44c047c87e116b27528",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/ling-tong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

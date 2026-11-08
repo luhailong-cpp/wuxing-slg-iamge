@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/zhou-yu-avatar-256.png",
+  "sha256": "2e6488525972d2cb22d4b349d70f26313b009978980f763acedc75c69942c676",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 256,
+  "height": 256,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "zhou-yu",
+  "displayName": "周瑜",
+  "variant": "avatar-256",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/10-zhou-yu-v1.png",
+      "sha256": "3ecc8fe1c952e758bf513fc8756fec0c71dc1666b430e2a8f13110a5570272ed",
+      "record": "designs/01-率土之滨/characters/10-zhou-yu-v1.png.generation.json",
+      "recordSha256": "30ae58af6352569f6c0cc7bdd2ef76e1b563d717fb31009b47a53f8db4621669"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    290,
+    100,
+    775,
+    635
+  ],
+  "resizeTo": [
+    203,
+    224
+  ],
+  "pasteOffsetTopLeft": [
+    26,
+    16,
+    229,
+    240
+  ],
+  "canvas": [
+    256,
+    256
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    375,
+    325,
+    650,
+    530
+  ],
+  "faceRoiOutputApprox": [
+    61.58,
+    110.21,
+    176.68,
+    196.04
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 35889,
+    "alpha1Pixels": 911,
+    "semiTransparentPixels": 29132,
+    "opaquePixels": 515,
+    "bboxAbove32": [
+      26,
+      24,
+      229,
+      240
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      26,
+      24,
+      27,
+      16
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhou-yu-avatar-256.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 911,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/zhou-yu-avatar-256.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        290,
+        100,
+        775,
+        635
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/zhou-yu-avatar-256.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

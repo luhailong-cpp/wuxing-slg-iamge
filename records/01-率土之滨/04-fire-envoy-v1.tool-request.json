@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "startedAt": "2026-10-27T13:14:07.478Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: 五行SLG原创火系单人全身静态master候选，真实透明PNG。\nPrimary request: 全新设计火系“焰翎使”，青年成年男性，独立脸型、发型、衣服结构、法器和剪影；不是三国人物或历史武将换色。\nInput images: 附图1邮件UI、附图2组队UI仅作本系列画法/材质/亲和Q版参考，学习圆润大头短身、细腻高清手绘、玉绿米白暖金材质和柔和轮廓。不要复制UI、背景、参考角色的面孔或姓名。\nSubject: 青年成年男性，赤棕色蓬松短发、发顶短翘束，较宽的圆脸、明亮棕色大眼和自然浓眉，活泼开朗含笑。年轻成人，没有胡须，约2.7—3头身，大头短身但非婴儿。\nClothes: 象牙米白短道袍配玉绿内衬，朱砂红短披肩与暖橙衣边作为火系局部识别，干净简洁的火苗曲线衣纹；棕色腰带与小玉扣，深玉绿收口长裤，暖金小护膝/轻甲护腿，两只短靴完整露出。朱砂/橙只作识别色，保留本系列米白玉绿基底。布料、皮革和金玉为温润手绘材质，避免沉重全身金甲。\nProps and pose: 自然稳健站姿，三分之二微侧朝观者，目光看观者。一手各拿一枚小型实体圆角火纹符牌，符牌分别约手掌大，朱砂玉与暖金细边、雕刻火焰形状，无文字。两枚符牌稳稳握在身体两侧腰部附近、彼此分离，不遮脸，不发射火焰；双手和手指关系清楚。短袖外衣、双臂及双鞋构成清楚轮廓。\nComposition: 竖幅约2:3，只有一人和随身小符牌。远一些的完整全身取景：人物最高发梢到最低鞋底最多占画布70%高度，头顶和脚下各有约15%纯透明空白；全体服饰、手指和法器离左右边各至少12%。让人物显得在大透明画布中央，不能贴边放大。双脚分开、完整，不是半身肖像、卡牌、多视图或动作表。\nStyle/medium: 与实际附图同系列道家Q版高清手绘，细腻克制笔触，柔和中性日光、面部清楚，边缘干净，柔和布料阴影和温润金玉。无写实皮肤、塑料3D、粗糙拼贴、密集噪点或大面积光效。\nBackground: genuine native transparent alpha。只有人物实体与符牌，其他区域完全透明，无环境、地面、投影盘、底座、白底、渐变背景或棋盘格。\nText: 无文字、字母、数字、姓名、logo、水印、签名、标签、UI和卡框。\nAvoid: 关羽绿袍长髯、吕布双雉尾和戟、张飞络腮胡蛇矛、帝王冠、长兵器、宠物、火海、烟雾、粒子气场、漂浮火球、额外人物。仅一张原创静态候选，不是动画。",
+    "promptFile": "prompts/01-率土之滨/04-fire-envoy-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-26",
+  "reviewer": "generals_ui_reference",
+  "status": "drafts_checked_pending_user_review",
+  "reviewMethod": "实际查看三张项目落盘PNG，并对照本次实际查看的邮件/组队主图、本项目大地图与旧主城参考；本地只读检查PNG解码、原生尺寸、哈希和逐图来源链。",
+  "scope": "本工作者独占分城、县城、郡城三张静态城市功能方向稿；不修改父级统计，不套用旧地图分块合同。",
+  "assets": [
+    {
+      "file": "designs/01-率土之滨/ui/05-branch-city-ui-v1.png",
+      "result": "direction_draft_deliverable",
+      "blockingIssues": [],
+      "checks": {
+        "styleContinuity": true,
+        "sixResourcesComplete": true,
+        "chineseLabelsReadable": true,
+        "economyIdentityClear": true,
+        "warehouseMarketHousingWorkshopVisible": true,
+        "constructionAndEconomyActionsVisible": true,
+        "roadsAndBridgesConnected": true,
+        "obviousControlClipping": false
+      },
+      "followUps": [
+        "正式交互时按真实业务绑定建设队列、仓储容量和生产状态；当前均为演示数据",
+        "小屏适配时可减少场景居民与杂物密度"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/09-county-city-ui-v1.png",
+      "result": "direction_draft_deliverable",
+      "blockingIssues": [],
+      "checks": {
+        "styleContinuity": true,
+        "sixResourcesComplete": true,
+        "chineseLabelsReadable": true,
+        "smallSingleWallCityClear": true,
+        "countyOfficeMarketGranaryVisible": true,
+        "farmsRiverAndBridgeVisible": true,
+        "guardStatusAndViewGarrisonActionVisible": true,
+        "roadBridgeGateConnectionVisible": true,
+        "obviousControlClipping": false
+      },
+      "followUps": [
+        "城门当前为关闭的画面状态；正式交互按城防状态决定开合，不等同于导航验证",
+        "耐久和驻军数是视觉演示值，没有官方固定等级映射"
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/ui/10-commandery-city-ui-v1.png",
+      "result": "direction_draft_deliverable",
+      "blockingIssues": [],
+      "checks": {
+        "styleContinuity": true,
+        "sixResourcesComplete": true,
+        "chineseLabelsReadable": true,
+        "mediumCityLargerThanCounty": true,
+        "administrationAndTradeZonesDistinct": true,
+        "commanderyOfficeMarketDockGranaryVisible": true,
+        "dockRoadAndGateConnected": true,
+        "guardStatusAndGarrisonManagementVisible": true,
+        "obviousControlClipping": false
+      },
+      "followUps": [
+        "正式交互时将水运和驻军管理接入真实规则；本稿仅表达入口与状态",
+        "区域城市类别梯度为本次设计归纳，尚未指定具体地名"
+      ]
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

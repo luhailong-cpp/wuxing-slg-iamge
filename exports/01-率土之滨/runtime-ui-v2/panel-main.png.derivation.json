@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+  "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 946,
+  "height": 550,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/runtime-ui/panel-main.png",
+      "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+      "record": "exports/01-率土之滨/runtime-ui/panel-main.png.derivation.json"
+    }
+  ],
+  "operation": "byte_for_byte_copy_of_previous_export",
+  "cropBox": null,
+  "offset": null,
+  "sourceAnchorUsedPx": null,
+  "sourceAnchorExactColumnPx": null,
+  "targetArtworkFrameCenter": null,
+  "integerRegistrationErrorPx": null,
+  "registrationBasis": "unchanged native icon/panel coordinate system",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": true,
+  "previousExport": "exports/01-率土之滨/runtime-ui/panel-main.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/panel-main.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 91276,
+    "alpha1PixelCount": 8456,
+    "bboxAbove16": [
+      20,
+      12,
+      932,
+      528
+    ],
+    "visibleMarginsAbove16": [
+      20,
+      12,
+      14,
+      22
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourceCropEdgePixelsAbove16": null
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 8456,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    },
+    {
+      "id": "NARROW_VISIBLE_GUTTER",
+      "value": [
+        20,
+        12,
+        14,
+        22
+      ],
+      "threshold": {
+        "preferredMinimumEachSidePx": 16
+      },
+      "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+      "message": "Contour complete and edgesalpha>16 zero, but one or more native margins narrower than16px."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/ui-support-v1/scrollbar-thumb-128.png",
+  "sha256": "8ff570456edcb629859bdc3c5cd3240421a0bd691a6c05ddd7235645ec562e38",
+  "derivedAtUtc": "2026-10-28T08:50:16.788132+00:00",
+  "width": 128,
+  "height": 128,
+  "mode": "RGBA",
+  "art_source": "existing",
+  "newImageGeneration": false,
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png",
+      "sha256": "e06d784f191ad682ab42ecee38119b51941c1ad512f452afa43e0cc0d529daeb",
+      "record": "designs/01-率土之滨/assets/runtime-ui-support/ui-support-sheet-v1.png.generation.json",
+      "recordSha256": "a197e690c012a7f5f151ebe21d84a7392b58d44649df8f60cb2588a40aedc8d4"
+    }
+  ],
+  "operation": "native_crop_then_proportional_downscale_and_transparent_padding",
+  "transform": {
+    "cropBox": [
+      99,
+      664,
+      219,
+      918
+    ],
+    "resampled": true,
+    "scale": 0.4409448818897638,
+    "resizedSize": [
+      53,
+      112
+    ],
+    "padding": {
+      "canvas": [
+        128,
+        128
+      ],
+      "pasteOffset": [
+        37,
+        8
+      ]
+    },
+    "filter": "premultiplied_alpha_LANCZOS"
+  },
+  "manualOwnership": {
+    "id": "scrollbar-thumb",
+    "label": "滚动滑块",
+    "manualCropBox": [
+      99,
+      664,
+      219,
+      918
+    ],
+    "sourceComponentIdAbove16": 10,
+    "sourceComponentPixelsAbove16": 16632,
+    "nativeSize": [
+      120,
+      254
+    ],
+    "sourcePixelsUnchanged": true,
+    "adjacentSubjectComponentsInside": 0,
+    "completeSubjectAbove16Retained": true,
+    "alphaInspection": {
+      "range": [
+        0,
+        255
+      ],
+      "fullyTransparentPixels": 9912,
+      "alpha1Pixels": 2436,
+      "semiTransparentPixels": 20559,
+      "opaquePixels": 9,
+      "pixelsAbove16": 16632,
+      "bboxAbove16": [
+        16,
+        16,
+        100,
+        240
+      ],
+      "edgePixelsAbove16": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sourcePixelExact": false,
+  "alphaCleanupApplied": false,
+  "alphaResampled": true,
+  "repainted": false,
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 12533,
+    "alpha1Pixels": 303,
+    "semiTransparentPixels": 3738,
+    "opaquePixels": 113,
+    "pixelsAbove16": 3294,
+    "bboxAbove16": [
+      44,
+      15,
+      81,
+      114
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "border": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "nineSliceValidated": false,
+  "warnings": [
+    {
+      "id": "LOW_ALPHA_SOURCE_VALUES_RETAINED",
+      "value": 303,
+      "threshold": 0,
+      "message": "No keying, erasing or alpha threshold cleanup; native crop retains source alpha,128 variant resamples it with colour."
+    },
+    {
+      "id": "STATIC_UI_CANDIDATE_NOT_CLIENT_ACCEPTED",
+      "message": "Static UI art only; data layer, hover/press/disabled states and client acceptance not completed."
+    },
+    {
+      "id": "SCROLLBAR_ASSEMBLY_NOT_CALIBRATED",
+      "message": "Thumb and track dimensions differ; visual placement, hitbox and travel range require client layout."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false
+}

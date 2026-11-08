@@ -1,0 +1,1396 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T04:02:55.072007+00:00",
+  "batch": "ui-state-kit-20261028-r2",
+  "purpose": "Reusable unlabelled UI state assets; no screens or fake dynamic Chinese",
+  "nativeSheetCount": 3,
+  "derivedSpriteCount": 23,
+  "sheets": [
+    {
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "generationRecord": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 969052,
+        "alpha1": 37503,
+        "alpha2to8": 23565,
+        "alpha255": 0,
+        "bboxAbove8": [
+          30,
+          163,
+          1506,
+          820
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "layout": {
+        "columns": 3,
+        "rows": 3,
+        "order": "row-major-top-left",
+        "assetIds": [
+          "button-primary-default",
+          "button-primary-pressed",
+          "button-primary-disabled",
+          "button-secondary-default",
+          "button-secondary-pressed",
+          "button-secondary-disabled",
+          "tab-default",
+          "tab-selected",
+          "tab-disabled"
+        ]
+      },
+      "submittedTransparentBackground": true,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "generationRecord": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 1041594,
+        "alpha1": 43891,
+        "alpha2to8": 16368,
+        "alpha255": 398,
+        "bboxAbove8": [
+          23,
+          146,
+          1752,
+          743
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "layout": {
+        "columns": 4,
+        "rows": 2,
+        "order": "row-major-top-left",
+        "assetIds": [
+          "checkbox-off",
+          "checkbox-on",
+          "checkbox-disabled-off",
+          "checkbox-disabled-on",
+          "toggle-off",
+          "toggle-on",
+          "toggle-disabled-off",
+          "toggle-disabled-on"
+        ]
+      },
+      "submittedTransparentBackground": true,
+      "actualModel": null,
+      "actualQuality": null
+    },
+    {
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "generationRecord": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 740514,
+        "alpha1": 37524,
+        "alpha2to8": 17684,
+        "alpha255": 0,
+        "bboxAbove8": [
+          15,
+          105,
+          1523,
+          937
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "layout": {
+        "columns": 3,
+        "rows": 2,
+        "order": "row-major-top-left",
+        "assetIds": [
+          "frame-confirm",
+          "frame-error",
+          "frame-empty",
+          "illustration-confirm",
+          "illustration-error",
+          "illustration-empty"
+        ]
+      },
+      "submittedTransparentBackground": true,
+      "actualModel": null,
+      "actualQuality": null
+    }
+  ],
+  "items": [
+    {
+      "id": "ui.r2.button-primary-default",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-primary-default.png",
+      "sha256": "3506a8c5ee0b14eb0c050ac15cf63e81f18e216224a6e9db9e123a19bbed38dc",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-primary-default.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        0,
+        128,
+        512,
+        352
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          140,
+          88,
+          140,
+          88
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 50280,
+        "alpha1": 3327,
+        "alpha2to8": 3041,
+        "alpha255": 0,
+        "bboxAbove8": [
+          30,
+          36,
+          499,
+          183
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.button-primary-pressed",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-primary-pressed.png",
+      "sha256": "39f81f5e11491c8cf4b7b802c87c62c7096ac7a302f7df30f4b6a81341ffdaf1",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-primary-pressed.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        512,
+        128,
+        1024,
+        352
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          140,
+          88,
+          140,
+          88
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 50686,
+        "alpha1": 3640,
+        "alpha2to8": 2837,
+        "alpha255": 0,
+        "bboxAbove8": [
+          24,
+          36,
+          490,
+          183
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.button-primary-disabled",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-primary-disabled.png",
+      "sha256": "65eb1cc70a22882a06237a5b9d0ed4a673305f964066655d8a38a9acc4f7a180",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-primary-disabled.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        1024,
+        128,
+        1536,
+        352
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          140,
+          88,
+          140,
+          88
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 50409,
+        "alpha1": 3934,
+        "alpha2to8": 2227,
+        "alpha255": 0,
+        "bboxAbove8": [
+          13,
+          35,
+          482,
+          183
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.button-secondary-default",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-default.png",
+      "sha256": "b4e1f8a80f149765b234c1491d4ada7f89a7825d7e12e41ff0498ef754709b26",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-default.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        0,
+        384,
+        512,
+        608
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          140,
+          88,
+          140,
+          88
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 49559,
+        "alpha1": 3256,
+        "alpha2to8": 3248,
+        "alpha255": 0,
+        "bboxAbove8": [
+          31,
+          34,
+          499,
+          183
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.button-secondary-pressed",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-pressed.png",
+      "sha256": "2052b3251261033e6b8a40f8b357500156ad109e00205bbd298b917c9ac814bc",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-pressed.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        512,
+        384,
+        1024,
+        608
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          140,
+          88,
+          140,
+          88
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 49316,
+        "alpha1": 3219,
+        "alpha2to8": 3371,
+        "alpha255": 0,
+        "bboxAbove8": [
+          24,
+          34,
+          490,
+          183
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.button-secondary-disabled",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-disabled.png",
+      "sha256": "53a83a61380ea04a857952ae1aa14e730ff5212b1b4dff2c91b13f5d26333752",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/button-secondary-disabled.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        1024,
+        384,
+        1536,
+        608
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          140,
+          88,
+          140,
+          88
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Side jade beads/cloud corners fixed; do not stretch vertically. Grain/inner frame need target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 49859,
+        "alpha1": 3227,
+        "alpha2to8": 2755,
+        "alpha255": 0,
+        "bboxAbove8": [
+          14,
+          34,
+          482,
+          183
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.tab-default",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-default.png",
+      "sha256": "903fac94bc2d1ad9fc356f321e14a93c851a294c9a24097488b274b1370f5f3c",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-default.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        0,
+        640,
+        512,
+        864
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          104,
+          76,
+          104,
+          76
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Corners fixed; selected/default shape differs slightly at pixel level; no pixel-identical state geometry claim."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 44719,
+        "alpha1": 3741,
+        "alpha2to8": 1860,
+        "alpha255": 0,
+        "bboxAbove8": [
+          47,
+          26,
+          481,
+          179
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.tab-selected",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-selected.png",
+      "sha256": "e7c28b11f33d1d242d4b6dd7b8dd622b3dc2edc58e90feb3d6c1d80c6ae31d1a",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-selected.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        512,
+        640,
+        1024,
+        864
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          104,
+          76,
+          104,
+          76
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Corners fixed; selected/default shape differs slightly at pixel level; no pixel-identical state geometry claim."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 42073,
+        "alpha1": 5378,
+        "alpha2to8": 3154,
+        "alpha255": 0,
+        "bboxAbove8": [
+          39,
+          26,
+          474,
+          180
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.tab-disabled",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-disabled.png",
+      "sha256": "1bb1cb20ca63dba7c88e0e96e43e6185088e46c368f1ced1f29437b974d19afd",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/tab-disabled.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "sourceSheetSha256": "6961d7f660be4c4ef2403965fcb101d1d3682f53094e9e2b890f6d5f2ee88210",
+      "cropBoxSourceXYXY": [
+        1024,
+        640,
+        1536,
+        864
+      ],
+      "size": [
+        512,
+        224
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          104,
+          76,
+          104,
+          76
+        ],
+        "allowedStretch": "horizontal_candidate_only_keep_native_height224",
+        "note": "Corners fixed; selected/default shape differs slightly at pixel level; no pixel-identical state geometry claim."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 45617,
+        "alpha1": 3643,
+        "alpha2to8": 1072,
+        "alpha255": 0,
+        "bboxAbove8": [
+          31,
+          28,
+          465,
+          180
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.checkbox-off",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-off.png",
+      "sha256": "c3948398293a95278e5cf1cddff359578eb62c1ade00f9f7a9207843a1b653fa",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-off.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        0,
+        96,
+        444,
+        448
+      ],
+      "size": [
+        444,
+        352
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 90706,
+        "alpha1": 4682,
+        "alpha2to8": 1942,
+        "alpha255": 9,
+        "bboxAbove8": [
+          95,
+          50,
+          351,
+          305
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.checkbox-on",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-on.png",
+      "sha256": "104668559f6650a57800710fe41835b891530576e0ed04d110c2c45f5436c120",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-on.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        443,
+        96,
+        887,
+        448
+      ],
+      "size": [
+        444,
+        352
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 91511,
+        "alpha1": 3950,
+        "alpha2to8": 2187,
+        "alpha255": 2,
+        "bboxAbove8": [
+          96,
+          50,
+          350,
+          305
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.checkbox-disabled-off",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-disabled-off.png",
+      "sha256": "390f60e48b1e736c845a6e98c41d5900ac2e732b322e64fed6c02fffeeec7561",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-disabled-off.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        887,
+        96,
+        1331,
+        448
+      ],
+      "size": [
+        444,
+        352
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 91364,
+        "alpha1": 3615,
+        "alpha2to8": 2150,
+        "alpha255": 10,
+        "bboxAbove8": [
+          95,
+          50,
+          351,
+          305
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.checkbox-disabled-on",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-disabled-on.png",
+      "sha256": "8972000fb2015b6b7833d18fa7c1987c7a31566f746c3ea89983df4a43b741fd",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/checkbox-disabled-on.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        1330,
+        96,
+        1774,
+        448
+      ],
+      "size": [
+        444,
+        352
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 92468,
+        "alpha1": 2896,
+        "alpha2to8": 2062,
+        "alpha255": 9,
+        "bboxAbove8": [
+          96,
+          50,
+          350,
+          305
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.toggle-off",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-off.png",
+      "sha256": "680ed2d86ec876a7e86c22758a6c679cca3feb9574e03a4beff60b5e8dfa6a3e",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-off.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        0,
+        512,
+        444,
+        800
+      ],
+      "size": [
+        444,
+        288
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 62073,
+        "alpha1": 4576,
+        "alpha2to8": 2271,
+        "alpha255": 109,
+        "bboxAbove8": [
+          23,
+          59,
+          421,
+          231
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.toggle-on",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-on.png",
+      "sha256": "5fcc4b681b3ac313ce937a05cdff21e36439c512c1b0c84624c527b6088b790e",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-on.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        443,
+        512,
+        887,
+        800
+      ],
+      "size": [
+        444,
+        288
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 62820,
+        "alpha1": 3787,
+        "alpha2to8": 2224,
+        "alpha255": 79,
+        "bboxAbove8": [
+          23,
+          57,
+          422,
+          231
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.toggle-disabled-off",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-disabled-off.png",
+      "sha256": "79aa74e6a32e9931cc71cd45a23e1e35ce0c1b7265291bae2093f95cdaa85dca",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-disabled-off.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        887,
+        512,
+        1331,
+        800
+      ],
+      "size": [
+        444,
+        288
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 60452,
+        "alpha1": 6529,
+        "alpha2to8": 1782,
+        "alpha255": 56,
+        "bboxAbove8": [
+          23,
+          58,
+          422,
+          231
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.toggle-disabled-on",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-disabled-on.png",
+      "sha256": "64d3088afa3e89ff26031554b7432234ea3bfa6cd54f7c92069395aae2ab25a8",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/toggle-disabled-on.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "sourceSheetSha256": "205140ccd70f1c82f647184823341835414c03b3d8fd6b1dacf00e25f1666e9b",
+      "cropBoxSourceXYXY": [
+        1330,
+        512,
+        1774,
+        800
+      ],
+      "size": [
+        444,
+        288
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "alpha0": 64421,
+        "alpha1": 2737,
+        "alpha2to8": 1750,
+        "alpha255": 124,
+        "bboxAbove8": [
+          23,
+          59,
+          422,
+          231
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.frame-confirm",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-confirm.png",
+      "sha256": "846050003e390a9bf29f324c9e450e82537e6740b1c37dbc99c0cc489f81aaa4",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-confirm.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sourceSheetSha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "cropBoxSourceXYXY": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          128,
+          144,
+          128,
+          112
+        ],
+        "allowedStretch": "unvalidated_two_axis_candidate; Simple fixed512x512 is default",
+        "note": "Corner ornaments excluded from center; paper grain and inset cloud motifs may distort; text safe bounds require target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 91879,
+        "alpha1": 4718,
+        "alpha2to8": 3554,
+        "alpha255": 0,
+        "bboxAbove8": [
+          15,
+          105,
+          511,
+          459
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.frame-error",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-error.png",
+      "sha256": "57238348b37bd7cd3141243c2c186af0192103ae408e0a8d45a44e7fc3f4971d",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-error.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sourceSheetSha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "cropBoxSourceXYXY": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          128,
+          144,
+          128,
+          112
+        ],
+        "allowedStretch": "unvalidated_two_axis_candidate; Simple fixed512x512 is default",
+        "note": "Corner ornaments excluded from center; paper grain and inset cloud motifs may distort; text safe bounds require target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 91555,
+        "alpha1": 5646,
+        "alpha2to8": 3562,
+        "alpha255": 0,
+        "bboxAbove8": [
+          10,
+          105,
+          503,
+          459
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.frame-empty",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-empty.png",
+      "sha256": "9aeea1ec5e36724950f0a163365e163f155738039b9978b0acef3d413e8eedda",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/frame-empty.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sourceSheetSha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "cropBoxSourceXYXY": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": [
+          128,
+          144,
+          128,
+          112
+        ],
+        "allowedStretch": "unvalidated_two_axis_candidate; Simple fixed512x512 is default",
+        "note": "Corner ornaments excluded from center; paper grain and inset cloud motifs may distort; text safe bounds require target-size review."
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 91197,
+        "alpha1": 5161,
+        "alpha2to8": 3525,
+        "alpha255": 0,
+        "bboxAbove8": [
+          1,
+          105,
+          499,
+          459
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.illustration-confirm",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-confirm.png",
+      "sha256": "d8cb8ba09c7f568a7ac66538041bf10407f6931fd0792bd59cfd6ae17bf1591a",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-confirm.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sourceSheetSha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "cropBoxSourceXYXY": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 152602,
+        "alpha1": 7614,
+        "alpha2to8": 2615,
+        "alpha255": 0,
+        "bboxAbove8": [
+          92,
+          62,
+          477,
+          415
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.illustration-error",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-error.png",
+      "sha256": "2f1a2c0a310970d313d232d3aad87bc0fd4aa3bc3026c67385d98344f6bcdcc7",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-error.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sourceSheetSha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "cropBoxSourceXYXY": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 168107,
+        "alpha1": 8716,
+        "alpha2to8": 2401,
+        "alpha255": 0,
+        "bboxAbove8": [
+          42,
+          58,
+          435,
+          397
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    },
+    {
+      "id": "ui.r2.illustration-empty",
+      "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-empty.png",
+      "sha256": "60a79fdd187d3490669af943c488e35f9876cd864a198786645738e07445dcb4",
+      "derivationRecord": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-empty.png.derivation.json",
+      "sourceSheet": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "sourceSheetSha256": "c0fff0ae73b39f2be2a981d5e9bf3b9c8986735fc047c343da2fdd52e61d66e9",
+      "cropBoxSourceXYXY": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "size": [
+        512,
+        512
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "nineSlice": {
+        "defaultImportMode": "Simple",
+        "validatedInRuntime": false,
+        "suggestedBorderPxLTRB": null,
+        "allowedStretch": "none; preserve aspect ratio"
+      },
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "alpha0": 145174,
+        "alpha1": 5669,
+        "alpha2to8": 2027,
+        "alpha255": 0,
+        "bboxAbove8": [
+          45,
+          57,
+          461,
+          425
+        ],
+        "edgePixelsAbove8": 0
+      },
+      "visualStatus": "candidate_visual_reviewed_with_limits",
+      "userApproved": false,
+      "clientIntegrated": false,
+      "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "NATIVE_LOW_ALPHA_PIXELS_RETAINED",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "alpha1": 37503,
+      "alpha2to8": 23565
+    },
+    {
+      "id": "NO_FULLY_OPAQUE_PIXELS_IN_NATIVE",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/01-button-tab-state-sheet-v1.png",
+      "maximumAlpha": 254,
+      "note": "Original alpha preserved; not normalized to255. Interiors slightly translucent."
+    },
+    {
+      "id": "NATIVE_LOW_ALPHA_PIXELS_RETAINED",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/02-checkbox-toggle-state-sheet-v1.png",
+      "alpha1": 43891,
+      "alpha2to8": 16368
+    },
+    {
+      "id": "NATIVE_LOW_ALPHA_PIXELS_RETAINED",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "alpha1": 37524,
+      "alpha2to8": 17684
+    },
+    {
+      "id": "NO_FULLY_OPAQUE_PIXELS_IN_NATIVE",
+      "file": "designs/01-率土之滨/assets/ui-state-kit-20261028-r2/03-feedback-frame-illustration-sheet-v1.png",
+      "maximumAlpha": 254,
+      "note": "Original alpha preserved; not normalized to255. Interiors slightly translucent."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "unityLaunched": false,
+  "nineSliceRuntimeValidated": false,
+  "fullGameArtComplete": false,
+  "limits": [
+    "Exactly3 builtin imagegen calls; all actualModel/actualQuality fields undisclosed/null.",
+    "23 sprites are rectangular crops from3native sheets, not23native generations.",
+    "Original alpha and pixel values preserved; low-alpha fringe/residue retained, no keying or alpha normalization.",
+    "Disabled states are visual variants only; caller must gate input and expose accessible status.",
+    "Switch knobs/checkmarks are baked in each state; animated transitions need separate work.",
+    "Hover/focus/loading/error interaction states are not complete; this is a bounded state subset.",
+    "State silhouettes share dimensions per family but are not pixel-identical; verify transitions at target device size.",
+    "Dynamic labels/body text/buttons remain separate client layers; feedback frames contain no operational UI.",
+    "Nine-slice borders are proposals only. Simple import and native/aspect-preserving display are default."
+  ],
+  "reviewedAtUtc": "2026-10-29T05:19:42.559219+00:00",
+  "visualReviewRecord": "records/ui-state-kit-20261028-r2/visual-review.json",
+  "visualReviewSha256": "b92d918fb0d26056c4cce0288a4bbff7842cce6904336ba0b840d708cd2c1cfb"
+}

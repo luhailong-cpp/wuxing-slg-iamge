@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUtc": "2026-10-28T11:56:25.859Z",
+  "contract": "docs/CURRENT_REQUIREMENTS_20261028.md",
+  "reviewerTask": "/root/check_materials",
+  "reviewMethod": "Actual full generated images displayed by host tool; historical page13 viewed directly using view_image. No OCR guarantee or client testing.",
+  "items": [
+    {
+      "id": 3,
+      "stem": "03-historical-generals-five-troops-roster-ui-v1",
+      "status": "needs_targeted_revision",
+      "findings": [
+        "Six historical names/identities and six troop filters present; Liu Bei4star and details78/84/74/58/19 match requested data.",
+        "Gold badges simplified to plain diamonds lacking the intended jade-center four-point emblem.",
+        "义勇军 retained as text but original gold-arrow skill graphic diverges from restored Liu Bei detail."
+      ],
+      "revision": "Restore metal emblem shape and original义勇军banner symbol."
+    },
+    {
+      "id": 15,
+      "stem": "15-historical-generals-five-troops-formation-ui-v1",
+      "status": "needs_targeted_revision",
+      "findings": [
+        "Liu Bei and Zhao Yun portraits/labels substituted correctly; gold/wood troop wording,2/3,4.5/8,1000 and2x500 hold.",
+        "Liu Bei remains5stars instead of intended4;金兵badge artwork does not match four-point metal emblem."
+      ],
+      "revision": "Liu Bei4stars and correct metal emblem; everything else unchanged."
+    },
+    {
+      "id": 3,
+      "stem": "03-historical-generals-five-troops-roster-ui-v2",
+      "status": "candidate_reviewed",
+      "findings": [
+        "六历史武将/全部+五兵种筛选/刘备4星及金兵字段完整。",
+        "金兵徽记已改四角绿玉中心，义勇军已改绿旗兵群图形；原属性/战法体系保留。"
+      ],
+      "warnings": [
+        "战法/头像为生成式重绘；小图星级为各页原型数据，非正式卡池合同。"
+      ]
+    },
+    {
+      "id": 15,
+      "stem": "15-historical-generals-five-troops-formation-ui-v2",
+      "status": "candidate_reviewed_with_limits",
+      "findings": [
+        "刘备四星、赵云五星，刘备金兵/赵云木兵仅装备兵种；队伍数值自洽。",
+        "金徽记已修正四角绿玉中心，无马首旧兵种符号。"
+      ],
+      "warnings": [
+        "金徽记比木徽记大，伸入人物卡下部衣缘，但未遮姓名/数值；运行时统一badge尺寸待做。"
+      ]
+    },
+    {
+      "id": 16,
+      "stem": "16-historical-generals-five-troops-conscription-ui-v1",
+      "status": "candidate_reviewed",
+      "findings": [
+        "刘备金兵/赵云木兵、双头像身份明确。",
+        "各500→1000/+500，总1000→2000/+1000；粮草缺2000、预备役不足与禁用一致。"
+      ],
+      "warnings": [
+        "本页为独立原型数据，不是当前账号操作结果。"
+      ]
+    },
+    {
+      "id": 17,
+      "stem": "17-historical-generals-five-troops-battle-report-ui-v1",
+      "status": "needs_targeted_revision",
+      "findings": [
+        "战报系统、四报告、胜负与兵损计算保持，刘备赵云姓名正确。",
+        "刘备上头像冠饰漂移，金徽记变多瓣星、金木未带明确文字标签。"
+      ],
+      "revision": "固定刘备到18已修身份，并修金徽/金木文字标识。"
+    },
+    {
+      "id": 17,
+      "stem": "17-historical-generals-five-troops-battle-report-ui-v2",
+      "status": "candidate_reviewed",
+      "findings": [
+        "刘备恢复高直深绿玉冠，小胡须与绿白衣；赵云无须银甲形象保留。",
+        "金兵、木兵文字可读；金四尖玉芯徽记与木叶徽记正确。",
+        "1000-180=820，900-900=0；刘备损100剩400、赵云损80剩420；5回合。"
+      ],
+      "limitations": [
+        "小头像为生成重绘，需后续运行时用原始母版派生头像替换；未接入客户端。"
+      ]
+    },
+    {
+      "id": 2,
+      "stem": "02-historical-world-trends-unlock-fixed-ui-v1",
+      "status": "candidate_reviewed",
+      "findings": [
+        "五阶段恢复历史命名；第2/5汉室衰微进行中，后三阶段未开启。",
+        "40/60尚未达成；解锁栏锁图标，奖励按钮灰色，前序已领取状态独立。",
+        "赛季12天、倒计时01天12:30:00、玉符300铜钱50000保持。"
+      ],
+      "limitations": [
+        "静态示例界面，不验证历史系统阶段命名或数值与原版同账号一致。"
+      ]
+    },
+    {
+      "id": 13,
+      "stem": "13-tactic-library-ui-v1",
+      "status": "reviewed_restored_candidate",
+      "selectedFile": "designs/01-率土之滨/ui/13-tactic-library-ui-v1.png",
+      "newGeneration": false,
+      "findings": [
+        "实际复看历史v1；全部/攻击/谋略/恢复/辅助分类正确。",
+        "6/200，突击D攻击3/3、谋攻D谋略3/3、回春C恢复2/3、守心C辅助1/3、破阵B攻击1/2、御风B辅助2/2；谋攻选中。",
+        "没有步弓骑兵种字段、五系英雄或五行术法替换；恢复原文件即可。"
+      ],
+      "limitations": [
+        "战法文本及数据沿历史样例，未核验原版同账号真实数据；静态候选尚未客户端验收。"
+      ]
+    },
+    {
+      "id": 14,
+      "stem": "14-original-tactic-five-troop-applicability-ui-v1",
+      "status": "candidate_reviewed",
+      "findings": [
+        "谋攻D、Lv.1、主动、距离4、45%、敌军单体、3/3和无消耗学习保留。",
+        "全兵种适用由原全部三兵种适配为全部五行兵种；徽记与文字顺序金木水火土且完整。",
+        "没有将战法变为五行术法，面板间隔与按钮完整。"
+      ],
+      "limitations": [
+        "适用集合遵循原全部兵种语义；正式武将/战法数据表仍待真实游戏配置，不宣称数值已验收。"
+      ]
+    },
+    {
+      "id": 33,
+      "stem": "33-historical-generals-five-troops-battle-result-ui-v1",
+      "status": "candidate_reviewed",
+      "findings": [
+        "刘备高玉冠绿白衣小胡须，赵云银甲银冠长枪；标注刘备金兵、赵云木兵。",
+        "野外守军为参考土兵方石盾/短石锤/奶白缨盔形象。",
+        "1000-180=820和900-900=0一致；5回合、粮600/铜300/经验200、返回入口保持。"
+      ],
+      "limitations": [
+        "兵种分配为可修订样例；角色为整屏重绘，后续运行时应引用独立母版导出；没有战斗倍率。"
+      ]
+    },
+    {
+      "id": 21,
+      "stem": "21-historical-generals-five-troops-map-march-ui-v1",
+      "status": "needs_targeted_revision",
+      "findings": [
+        "历史武将身份与金/木/火普通兵正确；地图两岸单桥、绿色过桥、橙色返城、驻军无路线保留。",
+        "右侧三卡起终点文案遗失，需要唯一一轮补回。"
+      ],
+      "limitations": [
+        "2000/1000/1500原稿以马头图标但无文字语义，此稿仅中性行装图标替换，不据此认定为新资源系统；正式字段需配置确认。"
+      ]
+    },
+    {
+      "id": 21,
+      "stem": "21-historical-generals-five-troops-map-march-ui-v2",
+      "status": "candidate_reviewed_with_limits",
+      "findings": [
+        "三部队刘备金兵、赵云木兵、曹操火兵正确，地图为金/木/火普通兵形象。",
+        "三条卡片地点已补回：主城→敌方城池、平原营地、要塞→主城；状态/原数字对照保持。",
+        "绿色路线沿单石桥跨两岸至敌门；橙色返程结束在主城门，木兵驻军无路线；没有桥头几何回退。"
+      ],
+      "limitations": [
+        "2000/1000/1500在旧稿只由马头图标承载，字段语义未被真实数据证实；本稿仅为中性行装图标，须运行时绑定确认，不定义新资源。",
+        "地图单位为整屏重绘且非实际寻路/动作验证；武将兵种分配为可修订样例。"
+      ]
+    }
+  ],
+  "pending": [],
+  "limits": [
+    "D1 flattened screen candidates only; no dynamic labels, independent controls or runtime state validation.",
+    "Historical data preserved as existing mockup samples, not asserted as authenticated current game balance.",
+    "Troop assignments illustrated and revisable; they do not redefine general identities or factions.",
+    "actualModel/actualQuality remain null for builtin calls.",
+    "Old rejected variants retained for traceability and excluded from current selection."
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullGameArtComplete": false
+}

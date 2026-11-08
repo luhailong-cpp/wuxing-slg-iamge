@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T17:00:00.519Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: stylized-concept\nAsset type: ONE8-frame one-shot magic strategy-array FX animation sheet,4columns x2rows, landscape2:1, real native transparent PNG. These are successive instants of one spell activation and disappearance, not8icon variants.\nInput roles: Image1 mail and Image2 team UI are the PRIMARY Daoist chibi premium HD hand-painted art style. Image3 is the existing strategy-array visual identity only: jade-green and ivory circular energy pattern with thin warm-gold concentric ornaments, four small jade cardinal gems and central simple yin-yang swirl. Continue this same visual identity and fixed35degree top-down elliptical projection; no opaque floor, podium, physical tile or stone platform. Do NOT copy the source's fringe noise or dark preview matte.\nGrid and origin: exactly8equal square imaginary cells,4columns x2rows, read left-to-right top row then left-to-right bottom. Same locked camera. The center of the SAME spell ring is exactly at each cell's center; top-row origins at global sheet positions(12.5%,25%),(37.5%,25%),(62.5%,25%),(87.5%,25%), bottom row corresponding x positions at y75%. Do not shift the top row down or bottom row up. Peak effect and ALL faint rays/particles must fit in central45% of each cell, with at least27% empty transparent padding in every direction. No drawn grid, no gutters with a background, no labels, no frame numbers.\nEight chronological nonempty phases:0 one tiny jade-white seed mote exactly at the shared center, diameter5%cell;1 a thin small jade inner ellipse emerges around seed, diameter13%;2 one larger ellipse and4tiny gold points form, diameter24%;3 the same yin-yang center and2thin rings expand, four jade gems appear, diameter34%;4 peak complete strategy-array, concentric jade/ivory rings, four small gems, very short vertical jade light wisps and fine warm-gold energy strokes, diameter no more45%, same center and viewing angle;5 same array dims and outer ring breaks into4short arcs, diameter35%;6 only2faint ring traces and3small jade-gold motes remain, diameter20%;7 one tiny fading jade-white residual mote exactly at the shared center, diameter4%, nonempty. Frame7 must be weaker/smaller than frame0. No final restart or second burst.\nRendering: clean high-definition hand-painted Daoist Q/chibi FX, jade green and ivory-white energy, restrained warm gold; soft partial-alpha light attached to rings only, clean silhouette, no big radial bloom. Abstract ornamental strokes, not legible text or rune glyphs. One consistent spell design growing-peak-decaying. ALL8 frames nonempty and visibly different; no repeated full array.\nBackground: native transparent alpha with true empty alpha everywhere outside each isolated effect; no black/white/color background, gradient, checkerboard, scene, floor, shadow, vignette or colored fringe. No figures, objects, UI, lettering, numbers, logo, watermark, signature, labels, separators, grid lines, card frames or border. Keep every effect well away from its cell edges.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/strategy-array.png"
+    ],
+    "transparent_background": true
+  },
+  "contract": {
+    "action": "strategy-array",
+    "grid": [
+      4,
+      2
+    ],
+    "frames": 8,
+    "frameOrder": "row-major",
+    "nativeAlpha": true,
+    "anchor": "same cell center",
+    "durationSeconds": 0.8,
+    "frameSeconds": 0.1,
+    "loop": false,
+    "timingIsDemonstration": true,
+    "noBattleEvents": true
+  }
+}

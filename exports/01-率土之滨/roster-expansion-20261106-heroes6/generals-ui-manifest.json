@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-06T11:24:49.619494+00:00",
+  "scope": "Original Daoist chibi historical identity masters to five UI derivatives each",
+  "newGeneratedImagesInThisScript": 0,
+  "generalCount": 4,
+  "sources": [
+    {
+      "id": "yang-biao",
+      "name": "杨彪",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+      "faceBox": [
+        246,
+        126,
+        725,
+        737
+      ],
+      "bustBox": [
+        196,
+        128,
+        823,
+        970
+      ],
+      "sha256": "d1450fcd23f1f24e92661a3601c2d85d4c1111e873dc6a2d97f1666b03304f14",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 7957,
+        "alphaZero": 992491,
+        "solidBBoxAbove16": [
+          150,
+          151,
+          863,
+          1431
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "4df600b737d034191ce76297c0faa3d79749e7bdd36e0720b3f5d2a610f708c2"
+    },
+    {
+      "id": "song-qian",
+      "name": "宋谦",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "faceBox": [
+        168,
+        133,
+        860,
+        706
+      ],
+      "bustBox": [
+        158,
+        133,
+        913,
+        974
+      ],
+      "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 23502,
+        "alphaZero": 983680,
+        "solidBBoxAbove16": [
+          31,
+          158,
+          936,
+          1408
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "e98ffa6284e1d0d80e8c18a57f5496f81977d005238a3349144f2aa589f4ad88"
+    },
+    {
+      "id": "sima-hui",
+      "name": "司马徽",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+      "faceBox": [
+        213,
+        117,
+        741,
+        680
+      ],
+      "bustBox": [
+        141,
+        113,
+        883,
+        980
+      ],
+      "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 18235,
+        "alphaZero": 893201,
+        "solidBBoxAbove16": [
+          155,
+          135,
+          858,
+          1439
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "c5c02314c5d3d21d64ae146291693fc68066fe86dc62502b9432e139b5cac1c9"
+    },
+    {
+      "id": "cao-pi",
+      "name": "曹丕",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png",
+      "faceBox": [
+        271,
+        27,
+        772,
+        590
+      ],
+      "bustBox": [
+        247,
+        25,
+        777,
+        903
+      ],
+      "sha256": "739ce359afc3d07d27207feb72f157ec482dc7dbcea2a07048cfce3309d55c3f",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 7896,
+        "alphaZero": 1036719,
+        "solidBBoxAbove16": [
+          247,
+          46,
+          758,
+          1491
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "15063f4ece5f852419018b755fb3cf763b1e8f151278fa1c6b34e4e260868ae0"
+    }
+  ],
+  "assets": [
+    {
+      "personId": "yang-biao",
+      "displayName": "杨彪",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-face-native.png",
+      "sha256": "ed708e5760da22736fdd55b8e3a57b5e44542c09673f1c3c7fc162084ee23ea0",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-face-native.png.derivation.json",
+      "recordSha256": "1f4161feebeba45f14fadd27f3d36bb25589ef115eba69209ed4a321915429e1",
+      "stats": {
+        "size": [
+          479,
+          611
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 3630,
+        "alphaZero": 98971,
+        "solidBBoxAbove16": [
+          28,
+          25,
+          464,
+          611
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          337,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yang-biao",
+      "displayName": "杨彪",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-bust-native.png",
+      "sha256": "bf1c92c39184d9c85785886fafd1a9d527ac876975d618cc15ca824cda0051a1",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-bust-native.png.derivation.json",
+      "recordSha256": "db952905c24d3b67fc8f2f52f7ab761e203909827cfa329a4dcb23c5a9e3ff06",
+      "stats": {
+        "size": [
+          627,
+          842
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 4569,
+        "alphaZero": 224369,
+        "solidBBoxAbove16": [
+          63,
+          23,
+          604,
+          842
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          541,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yang-biao",
+      "displayName": "杨彪",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-avatar-128.png",
+      "sha256": "dd85978b8e17f6e8f3eecd5f350dccaefbb67f8e3df6723f0d406418ae202d35",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-avatar-128.png.derivation.json",
+      "recordSha256": "0110168a6f95f47ce8cd8fdd88eeb7dd6c6eca478c9d4ab3ca5d064bcbe47d06",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 102,
+        "alphaZero": 8808,
+        "solidBBoxAbove16": [
+          22,
+          10,
+          107,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yang-biao",
+      "displayName": "杨彪",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-avatar-256.png",
+      "sha256": "95f5da4c6e873574bbfecef04544d7bc5772427c4b438d7840d64325808998dc",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-avatar-256.png.derivation.json",
+      "recordSha256": "6b73a00bd392cfd92518a01cc88f850d29eab46cbdaef103a06be7c3c4477197",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 312,
+        "alphaZero": 36450,
+        "solidBBoxAbove16": [
+          46,
+          20,
+          214,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "yang-biao",
+      "displayName": "杨彪",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-card-full.png",
+      "sha256": "809e6510ee180b915d5663e3b34fd8f8bbb55dd2cbc1582626e0d4dd3e723dcb",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/yang-biao-card-full.png.derivation.json",
+      "recordSha256": "1e2fb2fc9afaf2aa9ae73d4ada984a40a598509a80912004aa48500b726470ef",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 2892,
+        "alphaZero": 483752,
+        "solidBBoxAbove16": [
+          126,
+          49,
+          641,
+          975
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "song-qian",
+      "displayName": "宋谦",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-face-native.png",
+      "sha256": "24bbd5575d0863b1ef83ded1f18f39e64cfa28889bff07e61d43ef0ad40b76d9",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-face-native.png.derivation.json",
+      "recordSha256": "740d16c11861d869da645dc24ddf60395de09f61f351283a040d3a0e7f7cdb88",
+      "stats": {
+        "size": [
+          692,
+          573
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 11027,
+        "alphaZero": 155226,
+        "solidBBoxAbove16": [
+          0,
+          25,
+          663,
+          573
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          465,
+          75
+        ]
+      }
+    },
+    {
+      "personId": "song-qian",
+      "displayName": "宋谦",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-bust-native.png",
+      "sha256": "9665d6bbcd32a9f39cfd846f495a991bfbf87d7a6583ac0ba1db078c54fb1646",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-bust-native.png.derivation.json",
+      "recordSha256": "8c6dcc35c388ac8a33e4e159c14939e10c3eb0b2e7be556e6d79ded49b1f7824",
+      "stats": {
+        "size": [
+          755,
+          841
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 14155,
+        "alphaZero": 241321,
+        "solidBBoxAbove16": [
+          0,
+          25,
+          694,
+          841
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          428,
+          161
+        ]
+      }
+    },
+    {
+      "personId": "song-qian",
+      "displayName": "宋谦",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-avatar-128.png",
+      "sha256": "8115b9999603f0c74d7367b6f431104d42cb8da7eb830129669c8c74eabce8ad",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-avatar-128.png.derivation.json",
+      "recordSha256": "6996f7d75697c8663bf7ce1a3a0b270eb56b3a94dc1d073f4c29eb55f591818b",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 193,
+        "alphaZero": 9042,
+        "solidBBoxAbove16": [
+          5,
+          19,
+          118,
+          113
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "song-qian",
+      "displayName": "宋谦",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-avatar-256.png",
+      "sha256": "8f316145840e664dad2ceb0f90e410fa06eff9957a2c6dd80869ab1f5ff9dfea",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-avatar-256.png.derivation.json",
+      "recordSha256": "988561e565e661f25d84b42507bb36cdfe034767cbbebeb813055c07c53e66f2",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 777,
+        "alphaZero": 37431,
+        "solidBBoxAbove16": [
+          10,
+          38,
+          236,
+          225
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "song-qian",
+      "displayName": "宋谦",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-card-full.png",
+      "sha256": "561736bd2f3af739b26fcfb84256f186ffe9fa57b8bda81e096b19adc33d47aa",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/song-qian-card-full.png.derivation.json",
+      "recordSha256": "c82f2b5071542d4b36376e066e013189c9f9b04964b4bafa9c3ede710a7f2391",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 10281,
+        "alphaZero": 466168,
+        "solidBBoxAbove16": [
+          50,
+          49,
+          718,
+          974
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "sima-hui",
+      "displayName": "司马徽",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-face-native.png",
+      "sha256": "707865d0a10b6d7f0ebb6a7d2fe192f59f4610d845f0a94a6332e5b063376b59",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-face-native.png.derivation.json",
+      "recordSha256": "ea5cd4704555bb2e779d784b9040e1092a335ae8e1fd98245aa708192f26955e",
+      "stats": {
+        "size": [
+          528,
+          563
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 8994,
+        "alphaZero": 65781,
+        "solidBBoxAbove16": [
+          0,
+          18,
+          528,
+          563
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          155,
+          420,
+          179
+        ]
+      }
+    },
+    {
+      "personId": "sima-hui",
+      "displayName": "司马徽",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-bust-native.png",
+      "sha256": "e2f8b4accaa7c21c24ee7091915a40eae330979e56c2a99ef2fd87ce25b44c06",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-bust-native.png.derivation.json",
+      "recordSha256": "a4ebb3e64c08f98ddbd9ec05177843250cf8de7edb7dbe7fb5058c3b8702d18b",
+      "stats": {
+        "size": [
+          742,
+          867
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 13848,
+        "alphaZero": 209991,
+        "solidBBoxAbove16": [
+          14,
+          22,
+          717,
+          867
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          593,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "sima-hui",
+      "displayName": "司马徽",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-avatar-128.png",
+      "sha256": "98f6d197ddd81ff01fe518774b83c1434171045a27fa1eebbfb2e742cc3b24b7",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-avatar-128.png.derivation.json",
+      "recordSha256": "d8a6b41122c1a58aa4de6374db39d3b63a85b31ca01652f7e6c11e332fbe6deb",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 178,
+        "alphaZero": 6109,
+        "solidBBoxAbove16": [
+          8,
+          9,
+          119,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "sima-hui",
+      "displayName": "司马徽",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-avatar-256.png",
+      "sha256": "294c6f9678ff9ba78bba3f218e356af8ef60a3c2a7c9cb7eb1449d47a5ec4f18",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-avatar-256.png.derivation.json",
+      "recordSha256": "250d5d73572f08534b4b6584e454f854943e35e310691442074b3d58a418abd8",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 1131,
+        "alphaZero": 25156,
+        "solidBBoxAbove16": [
+          17,
+          17,
+          238,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "sima-hui",
+      "displayName": "司马徽",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-card-full.png",
+      "sha256": "c0b18f1a1168966b4de7395d13c917d692e4234511dca53eeb1d45829170a0c4",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/sima-hui-card-full.png.derivation.json",
+      "recordSha256": "8a833b9bac9543431471a477c77f9730635fe60e6fc081c318e5ad29e99eafa2",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 7416,
+        "alphaZero": 444979,
+        "solidBBoxAbove16": [
+          134,
+          49,
+          633,
+          975
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-pi",
+      "displayName": "曹丕",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-face-native.png",
+      "sha256": "f41ad18c0f3279f86c695441178a06378442c4fc2a60ae57ea807803cb440a93",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-face-native.png.derivation.json",
+      "recordSha256": "686a50bb00195972cd7f80297a1b27b2571f2d422bf4ef26c553190968968cb0",
+      "stats": {
+        "size": [
+          501,
+          563
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 4127,
+        "alphaZero": 119747,
+        "solidBBoxAbove16": [
+          36,
+          19,
+          471,
+          563
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          239,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-pi",
+      "displayName": "曹丕",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-bust-native.png",
+      "sha256": "b6992a683210138713ad85862d270355a582185b81a4dc83c61250779f22d754",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-bust-native.png.derivation.json",
+      "recordSha256": "742889577a2e416ce3e69bb084df9269c9dd9cf323be3e26c4dbb891e8f2a712",
+      "stats": {
+        "size": [
+          530,
+          878
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 5132,
+        "alphaZero": 177714,
+        "solidBBoxAbove16": [
+          29,
+          21,
+          495,
+          878
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          444,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-pi",
+      "displayName": "曹丕",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-avatar-128.png",
+      "sha256": "dfbd843ce29b7438831fea9a0c29656f0ae7676c7a6c769a450a2a3c5fa10bee",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-avatar-128.png.derivation.json",
+      "recordSha256": "f71bddf38ae30f1b2567064a4827e813fa05cb1c2ecc322a8de5a8d1e9182700",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 135,
+        "alphaZero": 8974,
+        "solidBBoxAbove16": [
+          18,
+          9,
+          110,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-pi",
+      "displayName": "曹丕",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-avatar-256.png",
+      "sha256": "57723a60e0d48364b4b5d06118b1a1a50261059fa13b696be1101f4d25105397",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-avatar-256.png.derivation.json",
+      "recordSha256": "36bb0a10b5cafa13a40ae09b8831ec8dd5c9cdf6710aa9e98544b924a0365e6a",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 412,
+        "alphaZero": 36896,
+        "solidBBoxAbove16": [
+          38,
+          18,
+          221,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-pi",
+      "displayName": "曹丕",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-card-full.png",
+      "sha256": "44688e2669a6f27101780ff41895664bc7143387674f3e0c3dff95793fe06353",
+      "record": "exports/01-率土之滨/roster-expansion-20261106-heroes6/cao-pi-card-full.png.derivation.json",
+      "recordSha256": "9af3b27069c94229b8f63885aeaf959e11edab74bcd7598446e542389d6f74bf",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 2140,
+        "alphaZero": 565048,
+        "solidBBoxAbove16": [
+          220,
+          47,
+          548,
+          977
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+      "value": 7957,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/yang-biao-master-v3.png",
+      "value": [
+        0.146484375,
+        0.09830729166666667,
+        0.1572265625,
+        0.068359375
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "value": 23502,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "value": [
+        0.0302734375,
+        0.10286458333333333,
+        0.0859375,
+        0.08333333333333333
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+      "value": 18235,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+      "value": [
+        0.1513671875,
+        0.087890625,
+        0.162109375,
+        0.06315104166666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png",
+      "value": 7896,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/cao-pi-master-v1.png",
+      "value": [
+        0.2412109375,
+        0.029947916666666668,
+        0.259765625,
+        0.029296875
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "variantsFulfilled": false,
+  "assetCount": 20,
+  "nativeCropRgbaChecked": true,
+  "status": "source and UI candidates visually reviewed",
+  "rootVisualReviewPassed": true
+}

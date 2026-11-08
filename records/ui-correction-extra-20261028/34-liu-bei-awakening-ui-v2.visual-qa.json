@@ -1,0 +1,63 @@
+{
+  "screenId": 34,
+  "title": "武将觉醒",
+  "file": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v2.png",
+  "sha256": "14daaa79e75c86ea5e201953b21fc39ed092649f379ce5e44ff0ad89779deff6",
+  "actualVisualInspection": true,
+  "status": "selected_corrected_direction_candidate",
+  "selected": true,
+  "observedSize": [
+    1916,
+    821
+  ],
+  "verifiedText": [
+    "武将养成",
+    "汉",
+    "刘备",
+    "Lv.20",
+    "未觉醒",
+    "进阶",
+    "觉醒",
+    "觉醒条件",
+    "武将等级20/20",
+    "已达成",
+    "觉醒玉",
+    "1/2",
+    "还差1",
+    "觉醒效果预览",
+    "当前：未开放",
+    "觉醒后：开放",
+    "开放第三战法位",
+    "材料不足",
+    "获取材料",
+    "返回武将"
+  ],
+  "checks": {
+    "historicalIdentity": "PASS",
+    "fourStars": "PASS_after_targeted_fix",
+    "materialArithmetic": "PASS_1of2_oneMissing",
+    "disabledInsufficientAction": "PASS",
+    "thirdTacticSlotPreview": "PASS_locked_before_plus_after",
+    "noElementHeroOrSpellSlotWording": "PASS",
+    "layoutPreserved": "PASS_visual_function_hierarchy"
+  },
+  "firstDraftFailure": {
+    "file": "designs/01-率土之滨/ui/troop-correction-extra-20261028/34-liu-bei-awakening-ui-v1.png",
+    "sha256": "e0cc7f18c5a8d88b2fb17b4f388d263948cda60e00b5ebce4be39f0c974517f2",
+    "issue": "Three stars instead of four; retained as nonselected original"
+  },
+  "limits": [
+    "Flattened raster UI direction only; no independent sliced controls or dynamic text layer",
+    "Visual inspection only; no OCR automation, browser interaction, Unity import or client/device test in this paused window",
+    "Numbers and costs retained as inherited UI examples, not newly confirmed gameplay data",
+    "User approval and full state coverage remain false",
+    "觉醒玉 and count1/2 inherited from the original direction; formal awakening gameplay rules not validated",
+    "Targeted edit changed surrounding raster pixels slightly; no pixel-perfect locality claim"
+  ],
+  "correctionRounds": 1,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "fullStateCoverage": false,
+  "reviewedAt": "2026-10-28T12:06:46.649Z",
+  "qaRecord": "records/ui-correction-extra-20261028/34-liu-bei-awakening-ui-v2.visual-qa.json"
+}

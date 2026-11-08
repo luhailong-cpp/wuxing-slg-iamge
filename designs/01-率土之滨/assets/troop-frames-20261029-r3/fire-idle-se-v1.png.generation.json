@@ -1,0 +1,66 @@
+{
+  "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/fire-idle-se-v1.png",
+  "sha256": "8c882e049a77fbdb6d525b5fe8bf41de7f1b46430e3e8fcff1c45e5f8da58ffd",
+  "generatedAt": null,
+  "observedCompletedAt": "2026-10-29T05:23:34.726Z",
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_image",
+  "resultId": "exec-3c61c627-c333-4e3c-8266-9830317e57e8",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Use case: identity-preserve\nCreate ONE game-ready transparent HD hand-painted sprite sheet, 2 equal columns by 2 equal rows; overall aspect 2:2. Image 1 is the exact identity master. Image 2 is a repeated-master scale/root template, not final poses. Images 3 and 4 are the authoritative rounded Taoist chibi hand-painted UI style, material and palette only; do not copy their UI or people.\nFIRE ordinary soldier: exactly the red-orange flame-shaped helmet crest, two flame tabs, red gold armour, jade-green sash, ivory undersleeves and trousers, brown gold boots, BOTH short rectangular red-and-gold flame batons, one attached to each original hand. Friendly determined chibi face; no living fire or glow.\nFour quiet IDLE poses, row-major: 0 neutral ready open eyes; 1 breath in with chest subtly raised and small arm drift; 2 breath out with a brief natural closed-eye blink and slight knee softness; 3 back near neutral with open eyes, cloth settling. Boots remain planted at identical locations. Same head size, no limb scaling. Not four identical copies.\nFixed elevated southeast three-quarter view matching master. Same character in all cells; no mirror, weapon switching, identity changes, added hands or omitted equipment. Every full figure including crest and weapons should occupy ONLY 60-64 percent of its cell height, with at least 15 percent empty clearance around every limb and prop. All cells one fixed anatomical scale. Boot-ground line at local y80%, root x50%. Keep entire subject inside its own cell and separate by real transparent gutters. Rich fine hand-painted shading, no pixel finish, no plastic sheen.\nOutput true transparent alpha, no checkerboard, background, shadow, ground plate, text, numbers, labels, borders, grid lines, effect arcs or extra props. Frame order left-to-right then next row.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troop-frames-20261029-r3/fire-idle-anchor.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "returnedLocalPath": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-3c61c627-c333-4e3c-8266-9830317e57e8.png",
+    "request": "records/troop-frames-20261029-r3/fire-idle-se-v1-request.json",
+    "timestamp": "Service did not return generated timestamp; local observation recorded separately"
+  },
+  "unverifiedReason": "宿主管理；工具没有模型/质量选择器，未披露实际模型或画质。",
+  "prompt": "prompts/01-率土之滨/troop-frames-20261029-r3/fire-idle-se-v1.prompt.txt",
+  "references": [
+    {
+      "path": "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png",
+      "sha256": "0f6d2516ef32c38a72d35999b2b3a467e26d425833e3f0db2f53194707364709"
+    },
+    {
+      "path": "records/troop-frames-20261029-r3/fire-idle-anchor.png",
+      "sha256": "72ba27d7ef1d3a5de96cc799cbc549b47319b61e12129764f562d953d4e531b1"
+    },
+    {
+      "path": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2"
+    },
+    {
+      "path": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750"
+    }
+  ],
+  "reviewStatus": "candidate_requires_source_alpha_and_frame_registration_QA"
+}

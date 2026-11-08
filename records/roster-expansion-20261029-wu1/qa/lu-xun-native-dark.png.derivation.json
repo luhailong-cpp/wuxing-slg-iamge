@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/roster-expansion-20261029-wu1/qa/lu-xun-native-dark.png",
+  "sha256": "d9a55844276633ac0d910819a50dce3ba5720562401dba50c8d6944ffb69803b",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "qaOnly": true,
+  "width": 1460,
+  "height": 1075,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-face-native.png",
+      "sha256": "1189db2fb9025577a740ddf1d8cbfa27c00cf22853d73e19e77329a0e7a7885d",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-bust-native.png",
+      "sha256": "8ab689a3855fd2d99ec467e77c72a0e9353855b3d0848b8212658912203a5863",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-wu1/lu-xun-bust-native.png.derivation.json"
+    }
+  ]
+}

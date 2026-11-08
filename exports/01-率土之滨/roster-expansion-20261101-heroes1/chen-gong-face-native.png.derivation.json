@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/chen-gong-face-native.png",
+  "sha256": "2e5d7aad2a85fb3882fd54c113a3c23ba02bdfee76b296e78e1e1919ce843f8b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png",
+    "sha256": "d38273cb838e57f446a2e32c5529ac01e1e53192663cf9383c6ef418c5dd953c",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/chen-gong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      280,
+      140,
+      820,
+      730
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T10:51:51.694Z",
+  "file": "designs/01-率土之滨/assets/branding/wuxing-wending-title-v1.png",
+  "sha256": "e8cd9471511b12dc4556a7b8f223a9135b3f9275571c15f87d01ddb075b56561",
+  "nativeSize": [
+    1942,
+    809
+  ],
+  "actualViews": [
+    "native tool result",
+    "records/branding-20261028/title-qa-light.png",
+    "records/branding-20261028/title-qa-dark.png"
+  ],
+  "exactText": "五行问鼎",
+  "textVisuallyVerified": true,
+  "transparentBackgroundVerified": true,
+  "sourcePixelsUnchanged": true,
+  "alphaOver16Bbox": [
+    128,
+    16,
+    1815,
+    796
+  ],
+  "warnings": [
+    "Requested 10% transparent margins not achieved: visible margins L128/T16/R127/B13 pixels. No visible silhouette cropping; preserve source and leave extra layout padding in client.",
+    "Title mark is a candidate; not user-approved, not imported into Unity, no small-screen title test."
+  ],
+  "status": "candidate_visual_reviewed",
+  "userApproved": false,
+  "clientIntegrated": false
+}

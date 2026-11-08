@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "metal-walk-se-v4",
+  "clientDate": "2026-11-02",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-02",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "prompt": "prompts/01-率土之滨/troop-walk-20261102/metal-walk-se-v4.prompt.txt",
+  "submittedParameters": {
+    "prompt": "Draw a SIX-frame full walking gait for the EXACT metal soldier in image1, using the SIX leg poses in image2. Transparent landscape3:2 canvas, exactly3 equal columns by2 equal rows, row-major. All6 cells occupied. Do not make standing-pose copies.\nIDENTITY: preserve image1 helmet, ivory feather, jade/ivory armour, adult chibi face and body proportions, curved saber in SAME hand and oval shield in SAME hand. Use image1 same elevated three-quarter SE/down-right facing in ALL6 frames. Never mirror the soldier or swap equipment. Images3/4 are authoritative hand-painted style only.\nMOTION: Image2 is a motion diagram ONLY. ORANGE denotes the leg nearer camera; BLUE denotes the leg behind. Draw normal ivory trousers and matching boots, NEVER orange/blue legs or the diagram. The lower row MUST reverse the leading depth leg.\nTop row: 1 NEAR foot reaches forward/down-right while FAR foot trails behind/up-left; 2 NEAR leg supports weight, FAR knee bends and boot lifts and passes; 3 NEAR toe pushes behind while FAR foot reaches forward toward its next contact. Bottom row: 4 FAR foot visibly reaches forward/down-right while NEAR foot trails behind/up-left (opposite depth lead from1); 5 FAR leg supports, NEAR knee bends and boot lifts and passes (opposite from2); 6 FAR toe pushes behind while NEAR foot reaches forward toward the next contact (opposite from3). Lower row is not a copy of the upper row. Both boots must remain distinguishable, legs articulate, no foot slides as a rigid cutout. At least one foot touches the ground plane in every frame; no jumping or flight. Keep skirt/armour arranged naturally so both lower legs and boots remain readable.\nKeep head, body, camera distance and helmet width CONSTANT across all6 cells. Minimal natural torso bob, restrained counter-swing of saber/shield, feather sway. Walk IN PLACE around a shared cell origin; do not drift across the cell. The complete soldier including feather, sword and shield must occupy at most70percent of each cell width/height, leaving15percent transparent clearance ALL sides. Native transparent alpha. NO background, shadows, dust, slash effects, text, number, border, visible grid, pose-guide marks or labels. The diagram is NOT final art; only the 6 finished hand-painted soldier poses appear.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "D:/work/wuxing-slg-iamge/records/troop-walk-20261102/six-phase-pose-guide.png",
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "references": [
+    {
+      "file": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "role": "identity master"
+    },
+    {
+      "file": "records/troop-walk-20261102/six-phase-pose-guide.png",
+      "sha256": "6b1da906796cf5366166192de111dd609fd665ca1cba33d67e349d81c2c8850a",
+      "role": "code-drawn motion reference only; not game art"
+    },
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style"
+    }
+  ],
+  "framePlan": {
+    "rows": 2,
+    "cols": 3,
+    "count": 6,
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "loop": true,
+    "registration": "shared cell/pelvis origin with natural bob; no per-frame bbox fitting",
+    "acceptedForRuntime": false
+  },
+  "priorIssue": "v1-v3 near/far lead did not alternate; v4 changes to6 explicit poses and new guide",
+  "preparedAtUtc": "2026-11-02T10:23:20.483Z",
+  "userRouteOverride": "Direct action-frame sheet per user; no video"
+}

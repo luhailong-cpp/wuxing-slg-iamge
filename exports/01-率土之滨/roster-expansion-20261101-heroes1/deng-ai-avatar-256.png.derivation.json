@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/deng-ai-avatar-256.png",
+  "sha256": "56c212834b79e7f5177732e7f1a2e651376778288ad6827e74ce12f20f5eb2c1",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png",
+    "sha256": "20d088af568e3e19a56fa2bbfbef3742021b84cbabc599979ad1a9c2f571c1c3",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/deng-ai-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      230,
+      100,
+      800,
+      770
+    ],
+    "uniformScale": 0.3522388059701492,
+    "resizedSize": [
+      201,
+      236
+    ],
+    "offset": [
+      27,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

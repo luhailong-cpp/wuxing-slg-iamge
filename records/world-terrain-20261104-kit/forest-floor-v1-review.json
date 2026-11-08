@@ -1,0 +1,47 @@
+{
+  "checkedAtUtc": "2026-11-04T16:25:49.732784+00:00",
+  "source": "designs/01-率土之滨/maps/world-terrain-20261104-kit/forest-floor-v1.png",
+  "sourceSha256": "09c77df9fb77c62048037afd16a26d9643bbdc47c24fb55086aabf5300323f6f",
+  "generation": "designs/01-率土之滨/maps/world-terrain-20261104-kit/forest-floor-v1.png.generation.json",
+  "nativeSize": [
+    1254,
+    1254
+  ],
+  "checks": {
+    "square": true,
+    "opaque": true,
+    "seamRatioPassed": true
+  },
+  "horizontalRatio": 1.836350312461006,
+  "verticalRatio": 1.4545178386061353,
+  "threshold": 2.0,
+  "visualReviewPassed": true,
+  "warnings": [
+    {
+      "id": "NATIVE_SIZE_DIFFERS_FROM_PROMPT",
+      "value": [
+        1254,
+        1254
+      ],
+      "threshold": [
+        1024,
+        1024
+      ],
+      "file": "designs/01-率土之滨/maps/world-terrain-20261104-kit/forest-floor-v1.png"
+    }
+  ],
+  "qa": [
+    {
+      "file": "records/world-terrain-20261104-kit/forest-floor-v1-repeat-3x3.png",
+      "sha256": "2eed23bc60fa5eef9cb1d7d29926702804fd345e8aa9e6ad1f27344b8e647e97",
+      "operation": "3x3 repeat then downscale for QA"
+    },
+    {
+      "file": "records/world-terrain-20261104-kit/forest-floor-v1-junction-native.png",
+      "sha256": "aefd8f32c1cf677a9ea6a757efacd02c74e994d55e57308c4da6fe048f1a0629",
+      "operation": "exact native RGB repeat junction crop"
+    }
+  ],
+  "visualNotes": "Native junction and 3x3 visually reviewed. Repeated diagonal vegetation is discernible. Use as a ground candidate with future overlays.",
+  "export": "exports/01-率土之滨/world-terrain-20261104-kit/forest-floor-v1.png"
+}

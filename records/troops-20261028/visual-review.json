@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-28T08:38:24.763Z",
+  "nativeFilesActuallyViewed": 5,
+  "reviewImagesActuallyViewed": [
+    "records/troops-20261028/qa/five-troops-lineup-light.png",
+    "records/troops-20261028/qa/five-troops-64-128-light-dark.png"
+  ],
+  "troopTypes": [
+    "金",
+    "木",
+    "水",
+    "火",
+    "土"
+  ],
+  "style": "consistent Taoist chibi, ordinary soldier family",
+  "observations": [
+    "五兵种均普通兵士，未使用金行使等具名英雄；金属/竹木/水纹/赤铜符牌/石甲盾槌有不同装备轮廓。",
+    "所有可见头冠、武器和鞋完整；同一SE三分之二俯视风格。",
+    "64px显示主要依靠轮廓和颜色，面部及细纹不可逐个识别；128px可见装备差别。",
+    "金兵羽冠较高，当前token归一完整轮廓而非物理身高；脚点为视觉估计，未做动画接地标定。",
+    "浅深背景未发现明显整块伪透明；源alpha1散点保留。"
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        165,
+        64,
+        157,
+        56
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 10861,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        166,
+        183,
+        139,
+        80
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 11592,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        252,
+        148,
+        194,
+        91
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 8269,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        259,
+        156,
+        178,
+        60
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 9793,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        169,
+        161,
+        143,
+        86
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 7465,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+      ]
+    }
+  ],
+  "animationFrameCount": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_candidates_reviewed_with_documented_limits"
+}

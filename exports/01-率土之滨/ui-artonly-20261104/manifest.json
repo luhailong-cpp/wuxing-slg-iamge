@@ -1,0 +1,5292 @@
+{
+  "schemaVersion": 1,
+  "builtAtUtc": "2026-11-04T15:36:09.668705+00:00",
+  "game": "五行问鼎",
+  "feature": "征兵",
+  "stateMatrixScreenId": 16,
+  "stateMatrixSource": {
+    "file": "records/production-20261028/ui-state-matrix.json",
+    "sha256": "89efe9f8b5760f9f9de1270838eeabcf93a82346ac74b5ca797f67ccae4a86df",
+    "record": null
+  },
+  "artSource": "existing",
+  "operation": "existing raster layers and separately rendered text composited into a landscape review image",
+  "layoutReference": {
+    "file": "designs/01-率土之滨/ui/troop-correction-20261028/16-historical-generals-five-troops-conscription-ui-v1.png",
+    "sha256": "b8853840fdfdc3bb194850d412a48a8fdddde3404e2df4ff2319dbf188fcbf49",
+    "record": "designs/01-率土之滨/ui/troop-correction-20261028/16-historical-generals-five-troops-conscription-ui-v1.png.generation.json"
+  },
+  "styleReferences": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "record": null
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "record": null
+    }
+  ],
+  "font": {
+    "file": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+    "sha256": "d477a2f86ddffb2bf60aabee0319f89fd11b999f486cb1fca8fa7656b3e79002",
+    "record": null,
+    "license": {
+      "file": "exports/01-率土之滨/fonts/wuxing-ui-20261102/OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "record": null
+    }
+  },
+  "previewSize": [
+    1280,
+    720
+  ],
+  "previewStateCount": 6,
+  "visualReviewRecord": "records/ui-artonly-20261104/visual-review.json",
+  "states": [
+    {
+      "id": "idle",
+      "title": "待设置",
+      "preview": {
+        "file": "exports/01-率土之滨/ui-artonly-20261104/idle.png",
+        "sha256": "91e062551494d91952f7c26594873e90584c1a31a6ac46bc6e523e707e259937",
+        "record": null
+      },
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "exampleInput": {
+        "title": "待设置",
+        "counts": [
+          480,
+          560,
+          480,
+          560
+        ],
+        "heldGrain": 1600,
+        "heldCoins": 800,
+        "cta": "确认征兵",
+        "enabled": false
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+          "record": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png.generation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+          "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "sha256": "05be25b876d4531d8c1a7229ea9174a36361bc0515014e29ba3e2b3882735644",
+          "record": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+          "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+          "sha256": "6dfd438d55eb2230582fabae596fcfdaf89d45773910fab662e90d6bfa6ee047",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sha256": "fc76f228e4f46d671f03f759dc5c8d2036f4ecba86b5f5e06e8d917f84d603e1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+          "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "sha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "sha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sha256": "22a30cfb6c38951e75030b216c0daeb5ca180c6f2a062550ab95fae276907c5a",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+          "sha256": "d6c623554697d101a705d82cfff025996cc93f29095ff9fd2c55a1aee2137290",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json"
+        }
+      ],
+      "layers": [
+        {
+          "kind": "image",
+          "role": "山城背景",
+          "source": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sourceSize": [
+            1672,
+            941
+          ],
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "operation": "cover downscale with centered crop"
+        },
+        {
+          "kind": "image",
+          "role": "征兵主面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sourceSize": [
+            946,
+            550
+          ],
+          "boxXYXY": [
+            167,
+            76,
+            1113,
+            626
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "主标题",
+          "value": "征 兵",
+          "position": [
+            657,
+            150
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 34,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            619,
+            136,
+            695,
+            168
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "部队名称",
+          "value": "第一部队",
+          "position": [
+            640,
+            202
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            606,
+            195,
+            674,
+            212
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "关闭",
+          "source": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sourceSize": [
+            255,
+            338
+          ],
+          "boxXYXY": [
+            1015,
+            136,
+            1073,
+            213
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "配兵标题",
+          "value": "兵力配置",
+          "position": [
+            437,
+            229
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 22,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            393,
+            220,
+            481,
+            241
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            215,
+            661,
+            400
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "大营武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            262,
+            362,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营阵位",
+          "value": "大营",
+          "position": [
+            371,
+            282
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            276,
+            403,
+            291
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营武将名",
+          "value": "刘备",
+          "position": [
+            371,
+            312
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            301,
+            423,
+            327
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            261,
+            482,
+            299
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营兵种",
+          "value": "金兵",
+          "position": [
+            488,
+            280
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            273,
+            522,
+            290
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            308,
+            476,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力数值",
+          "value": "480 → 480",
+          "position": [
+            488,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            308,
+            591,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营新增数值",
+          "value": "本次 +0",
+          "position": [
+            443,
+            339
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            333,
+            493,
+            348
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营减少兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            512,
+            327,
+            564,
+            348
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营减少兵力文字",
+          "value": "-",
+          "position": [
+            539,
+            338
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#413e36",
+          "glyphBoundsXYXY": [
+            536,
+            339,
+            542,
+            345
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营增加兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            555,
+            327,
+            607,
+            348
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营增加兵力文字",
+          "value": "+",
+          "position": [
+            582,
+            338
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            577,
+            335,
+            587,
+            345
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            347,
+            661,
+            532
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "中军武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            394,
+            362,
+            476
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军阵位",
+          "value": "中军",
+          "position": [
+            371,
+            414
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            408,
+            403,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军武将名",
+          "value": "赵云",
+          "position": [
+            371,
+            444
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            434,
+            423,
+            459
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            393,
+            482,
+            431
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军兵种",
+          "value": "木兵",
+          "position": [
+            488,
+            412
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            405,
+            522,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            440,
+            476,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力数值",
+          "value": "560 → 560",
+          "position": [
+            488,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            440,
+            591,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军新增数值",
+          "value": "本次 +0",
+          "position": [
+            443,
+            471
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            465,
+            493,
+            480
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军减少兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-disabled.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            512,
+            459,
+            564,
+            480
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军减少兵力文字",
+          "value": "-",
+          "position": [
+            539,
+            470
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#413e36",
+          "glyphBoundsXYXY": [
+            536,
+            471,
+            542,
+            477
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军增加兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            555,
+            459,
+            607,
+            480
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军增加兵力文字",
+          "value": "+",
+          "position": [
+            582,
+            470
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            577,
+            467,
+            587,
+            477
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵信息面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sourceSize": [
+            464,
+            540
+          ],
+          "boxXYXY": [
+            710,
+            216,
+            1020,
+            577
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "当前状态",
+          "value": "待设置",
+          "position": [
+            865,
+            263
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 23,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            830,
+            253,
+            899,
+            276
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "粮草图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "sourceSize": [
+            316,
+            305
+          ],
+          "boxXYXY": [
+            748,
+            303,
+            790,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "粮草名称",
+          "value": "粮草",
+          "position": [
+            796,
+            321
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            314,
+            830,
+            331
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "粮草需求和持有量",
+          "value": "0 / 1,600",
+          "position": [
+            965,
+            321
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            889,
+            314,
+            965,
+            334
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "铜钱图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "sourceSize": [
+            318,
+            252
+          ],
+          "boxXYXY": [
+            748,
+            346,
+            790,
+            379
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "铜钱名称",
+          "value": "铜钱",
+          "position": [
+            796,
+            366
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            359,
+            830,
+            375
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "铜钱需求和持有量",
+          "value": "0 / 800",
+          "position": [
+            965,
+            366
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            906,
+            359,
+            965,
+            378
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "时间图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sourceSize": [
+            292,
+            301
+          ],
+          "boxXYXY": [
+            750,
+            389,
+            788,
+            428
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "耗时名称",
+          "value": "耗时",
+          "position": [
+            796,
+            407
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            401,
+            830,
+            417
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "耗时示例",
+          "value": "—",
+          "position": [
+            965,
+            407
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            948,
+            409,
+            965,
+            416
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "消耗说明",
+          "value": "请先调整目标兵力",
+          "position": [
+            865,
+            445
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            801,
+            438,
+            929,
+            454
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵操作",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            755,
+            452,
+            973,
+            541
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "征兵操作文字",
+          "value": "确认征兵",
+          "position": [
+            867,
+            496
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#413e36",
+          "glyphBoundsXYXY": [
+            829,
+            488,
+            905,
+            507
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "返回配兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            235,
+            500,
+            433,
+            581
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "返回配兵文字",
+          "value": "返回配兵",
+          "position": [
+            337,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            303,
+            533,
+            371,
+            550
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "总兵力预览",
+          "value": "总兵力 1,040 → 1,040",
+          "position": [
+            550,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            446,
+            531,
+            653,
+            554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amount_changed",
+      "title": "数量已调整",
+      "preview": {
+        "file": "exports/01-率土之滨/ui-artonly-20261104/amount-changed.png",
+        "sha256": "1089bae13081c46149601755d120049d9570e1f37e5d1470cec407c6cd5fbbe8",
+        "record": null
+      },
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "exampleInput": {
+        "title": "数量已调整",
+        "counts": [
+          480,
+          560,
+          680,
+          660
+        ],
+        "heldGrain": 1600,
+        "heldCoins": 800,
+        "cta": "确认征兵",
+        "enabled": true
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+          "record": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png.generation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+          "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sha256": "e5f483500b3b25900e74c6ae70865d8027e52e50ea03ba5ee3f2bf78a4af40e9",
+          "record": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+          "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sha256": "fc76f228e4f46d671f03f759dc5c8d2036f4ecba86b5f5e06e8d917f84d603e1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+          "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "sha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "sha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sha256": "22a30cfb6c38951e75030b216c0daeb5ca180c6f2a062550ab95fae276907c5a",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png.derivation.json"
+        }
+      ],
+      "layers": [
+        {
+          "kind": "image",
+          "role": "山城背景",
+          "source": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sourceSize": [
+            1672,
+            941
+          ],
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "operation": "cover downscale with centered crop"
+        },
+        {
+          "kind": "image",
+          "role": "征兵主面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sourceSize": [
+            946,
+            550
+          ],
+          "boxXYXY": [
+            167,
+            76,
+            1113,
+            626
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "主标题",
+          "value": "征 兵",
+          "position": [
+            657,
+            150
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 34,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            619,
+            136,
+            695,
+            168
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "部队名称",
+          "value": "第一部队",
+          "position": [
+            640,
+            202
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            606,
+            195,
+            674,
+            212
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "关闭",
+          "source": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sourceSize": [
+            255,
+            338
+          ],
+          "boxXYXY": [
+            1015,
+            136,
+            1073,
+            213
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "配兵标题",
+          "value": "兵力配置",
+          "position": [
+            437,
+            229
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 22,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            393,
+            220,
+            481,
+            241
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            215,
+            661,
+            400
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "大营武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            262,
+            362,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营阵位",
+          "value": "大营",
+          "position": [
+            371,
+            282
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            276,
+            403,
+            291
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营武将名",
+          "value": "刘备",
+          "position": [
+            371,
+            312
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            301,
+            423,
+            327
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            261,
+            482,
+            299
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营兵种",
+          "value": "金兵",
+          "position": [
+            488,
+            280
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            273,
+            522,
+            290
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            308,
+            476,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力数值",
+          "value": "480 → 680",
+          "position": [
+            488,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            308,
+            591,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营新增数值",
+          "value": "本次 +200",
+          "position": [
+            443,
+            339
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            333,
+            509,
+            348
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营减少兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            512,
+            327,
+            564,
+            348
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营减少兵力文字",
+          "value": "-",
+          "position": [
+            539,
+            338
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            536,
+            339,
+            542,
+            345
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营增加兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            555,
+            327,
+            607,
+            348
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营增加兵力文字",
+          "value": "+",
+          "position": [
+            582,
+            338
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            577,
+            335,
+            587,
+            345
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            347,
+            661,
+            532
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "中军武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            394,
+            362,
+            476
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军阵位",
+          "value": "中军",
+          "position": [
+            371,
+            414
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            408,
+            403,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军武将名",
+          "value": "赵云",
+          "position": [
+            371,
+            444
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            434,
+            423,
+            459
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            393,
+            482,
+            431
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军兵种",
+          "value": "木兵",
+          "position": [
+            488,
+            412
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            405,
+            522,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            440,
+            476,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力数值",
+          "value": "560 → 660",
+          "position": [
+            488,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            440,
+            591,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军新增数值",
+          "value": "本次 +100",
+          "position": [
+            443,
+            471
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            465,
+            509,
+            480
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军减少兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            512,
+            459,
+            564,
+            480
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军减少兵力文字",
+          "value": "-",
+          "position": [
+            539,
+            470
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            536,
+            471,
+            542,
+            477
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军增加兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            555,
+            459,
+            607,
+            480
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军增加兵力文字",
+          "value": "+",
+          "position": [
+            582,
+            470
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            577,
+            467,
+            587,
+            477
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵信息面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sourceSize": [
+            464,
+            540
+          ],
+          "boxXYXY": [
+            710,
+            216,
+            1020,
+            577
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "当前状态",
+          "value": "数量已调整",
+          "position": [
+            865,
+            263
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 23,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            807,
+            253,
+            922,
+            276
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "粮草图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "sourceSize": [
+            316,
+            305
+          ],
+          "boxXYXY": [
+            748,
+            303,
+            790,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "粮草名称",
+          "value": "粮草",
+          "position": [
+            796,
+            321
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            314,
+            830,
+            331
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "粮草需求和持有量",
+          "value": "1,200 / 1,600",
+          "position": [
+            965,
+            321
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            850,
+            314,
+            965,
+            334
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "铜钱图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "sourceSize": [
+            318,
+            252
+          ],
+          "boxXYXY": [
+            748,
+            346,
+            790,
+            379
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "铜钱名称",
+          "value": "铜钱",
+          "position": [
+            796,
+            366
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            359,
+            830,
+            375
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "铜钱需求和持有量",
+          "value": "300 / 800",
+          "position": [
+            965,
+            366
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            884,
+            359,
+            965,
+            378
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "时间图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sourceSize": [
+            292,
+            301
+          ],
+          "boxXYXY": [
+            750,
+            389,
+            788,
+            428
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "耗时名称",
+          "value": "耗时",
+          "position": [
+            796,
+            407
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            401,
+            830,
+            417
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "耗时示例",
+          "value": "00:05:00",
+          "position": [
+            965,
+            407
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            889,
+            402,
+            965,
+            416
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "消耗说明",
+          "value": "需求 / 持有",
+          "position": [
+            865,
+            445
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            826,
+            438,
+            904,
+            455
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵操作",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            755,
+            452,
+            973,
+            541
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "征兵操作文字",
+          "value": "确认征兵",
+          "position": [
+            867,
+            496
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            829,
+            488,
+            905,
+            507
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "返回配兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            235,
+            500,
+            433,
+            581
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "返回配兵文字",
+          "value": "返回配兵",
+          "position": [
+            337,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            303,
+            533,
+            371,
+            550
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "总兵力预览",
+          "value": "总兵力 1,040 → 1,340",
+          "position": [
+            550,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            446,
+            531,
+            653,
+            554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resources_insufficient",
+      "title": "粮草不足",
+      "preview": {
+        "file": "exports/01-率土之滨/ui-artonly-20261104/resources-insufficient.png",
+        "sha256": "0c3b4151de71eb0e26e452442d42c7a2d7368e74f30ded26d2398a5e7d962154",
+        "record": null
+      },
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "exampleInput": {
+        "title": "粮草不足",
+        "counts": [
+          480,
+          560,
+          980,
+          860
+        ],
+        "heldGrain": 1600,
+        "heldCoins": 800,
+        "cta": "粮草不足",
+        "enabled": false
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+          "record": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png.generation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+          "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sha256": "e5f483500b3b25900e74c6ae70865d8027e52e50ea03ba5ee3f2bf78a4af40e9",
+          "record": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+          "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sha256": "fc76f228e4f46d671f03f759dc5c8d2036f4ecba86b5f5e06e8d917f84d603e1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+          "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "sha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "sha256": "ca2f717eba4b715c5c2e65ceab969bf7716dcd777bea356156bb83dc78074413",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sha256": "22a30cfb6c38951e75030b216c0daeb5ca180c6f2a062550ab95fae276907c5a",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+          "sha256": "d6c623554697d101a705d82cfff025996cc93f29095ff9fd2c55a1aee2137290",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png.derivation.json"
+        }
+      ],
+      "layers": [
+        {
+          "kind": "image",
+          "role": "山城背景",
+          "source": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sourceSize": [
+            1672,
+            941
+          ],
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "operation": "cover downscale with centered crop"
+        },
+        {
+          "kind": "image",
+          "role": "征兵主面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sourceSize": [
+            946,
+            550
+          ],
+          "boxXYXY": [
+            167,
+            76,
+            1113,
+            626
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "主标题",
+          "value": "征 兵",
+          "position": [
+            657,
+            150
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 34,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            619,
+            136,
+            695,
+            168
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "部队名称",
+          "value": "第一部队",
+          "position": [
+            640,
+            202
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            606,
+            195,
+            674,
+            212
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "关闭",
+          "source": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sourceSize": [
+            255,
+            338
+          ],
+          "boxXYXY": [
+            1015,
+            136,
+            1073,
+            213
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "配兵标题",
+          "value": "兵力配置",
+          "position": [
+            437,
+            229
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 22,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            393,
+            220,
+            481,
+            241
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            215,
+            661,
+            400
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "大营武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            262,
+            362,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营阵位",
+          "value": "大营",
+          "position": [
+            371,
+            282
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            276,
+            403,
+            291
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营武将名",
+          "value": "刘备",
+          "position": [
+            371,
+            312
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            301,
+            423,
+            327
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            261,
+            482,
+            299
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营兵种",
+          "value": "金兵",
+          "position": [
+            488,
+            280
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            273,
+            522,
+            290
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            308,
+            476,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力数值",
+          "value": "480 → 980",
+          "position": [
+            488,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            308,
+            591,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营新增数值",
+          "value": "本次 +500",
+          "position": [
+            443,
+            339
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            333,
+            509,
+            348
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营减少兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            512,
+            327,
+            564,
+            348
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营减少兵力文字",
+          "value": "-",
+          "position": [
+            539,
+            338
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            536,
+            339,
+            542,
+            345
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营增加兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            555,
+            327,
+            607,
+            348
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营增加兵力文字",
+          "value": "+",
+          "position": [
+            582,
+            338
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            577,
+            335,
+            587,
+            345
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            347,
+            661,
+            532
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "中军武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            394,
+            362,
+            476
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军阵位",
+          "value": "中军",
+          "position": [
+            371,
+            414
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            408,
+            403,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军武将名",
+          "value": "赵云",
+          "position": [
+            371,
+            444
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            434,
+            423,
+            459
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            393,
+            482,
+            431
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军兵种",
+          "value": "木兵",
+          "position": [
+            488,
+            412
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            405,
+            522,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            440,
+            476,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力数值",
+          "value": "560 → 860",
+          "position": [
+            488,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            440,
+            591,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军新增数值",
+          "value": "本次 +300",
+          "position": [
+            443,
+            471
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            465,
+            509,
+            480
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军减少兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            512,
+            459,
+            564,
+            480
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军减少兵力文字",
+          "value": "-",
+          "position": [
+            539,
+            470
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            536,
+            471,
+            542,
+            477
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军增加兵力",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            555,
+            459,
+            607,
+            480
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军增加兵力文字",
+          "value": "+",
+          "position": [
+            582,
+            470
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            577,
+            467,
+            587,
+            477
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵信息面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sourceSize": [
+            464,
+            540
+          ],
+          "boxXYXY": [
+            710,
+            216,
+            1020,
+            577
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "当前状态",
+          "value": "粮草不足",
+          "position": [
+            865,
+            263
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 23,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            819,
+            253,
+            911,
+            276
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "粮草图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-grain.png",
+          "sourceSize": [
+            316,
+            305
+          ],
+          "boxXYXY": [
+            748,
+            303,
+            790,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "粮草名称",
+          "value": "粮草",
+          "position": [
+            796,
+            321
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            314,
+            830,
+            331
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "粮草需求和持有量",
+          "value": "3,200 / 1,600",
+          "position": [
+            965,
+            321
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#a53c24",
+          "glyphBoundsXYXY": [
+            850,
+            314,
+            965,
+            334
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "铜钱图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-coin.png",
+          "sourceSize": [
+            318,
+            252
+          ],
+          "boxXYXY": [
+            748,
+            346,
+            790,
+            379
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "铜钱名称",
+          "value": "铜钱",
+          "position": [
+            796,
+            366
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            359,
+            830,
+            375
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "铜钱需求和持有量",
+          "value": "800 / 800",
+          "position": [
+            965,
+            366
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            884,
+            359,
+            965,
+            378
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "时间图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sourceSize": [
+            292,
+            301
+          ],
+          "boxXYXY": [
+            750,
+            389,
+            788,
+            428
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "耗时名称",
+          "value": "耗时",
+          "position": [
+            796,
+            407
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            796,
+            401,
+            830,
+            417
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "耗时示例",
+          "value": "00:13:20",
+          "position": [
+            965,
+            407
+          ],
+          "anchor": "rm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            889,
+            402,
+            965,
+            416
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "消耗说明",
+          "value": "还差 1,600 粮草",
+          "position": [
+            865,
+            445
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#a53c24",
+          "glyphBoundsXYXY": [
+            808,
+            438,
+            921,
+            456
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵操作",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-disabled.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            755,
+            452,
+            973,
+            541
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "征兵操作文字",
+          "value": "粮草不足",
+          "position": [
+            867,
+            496
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#413e36",
+          "glyphBoundsXYXY": [
+            829,
+            489,
+            905,
+            507
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "返回配兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            235,
+            500,
+            433,
+            581
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "返回配兵文字",
+          "value": "返回配兵",
+          "position": [
+            337,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            303,
+            533,
+            371,
+            550
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "总兵力预览",
+          "value": "总兵力 1,040 → 1,840",
+          "position": [
+            550,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            446,
+            531,
+            653,
+            554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recruiting",
+      "title": "征兵中",
+      "preview": {
+        "file": "exports/01-率土之滨/ui-artonly-20261104/recruiting.png",
+        "sha256": "0fdacdcd129839dfc88c09f0563143ad1a2761e6cb90930f9ead7b66b7f418e8",
+        "record": null
+      },
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "exampleInput": {
+        "title": "征兵中",
+        "counts": [
+          480,
+          560,
+          680,
+          660
+        ],
+        "heldGrain": 1600,
+        "heldCoins": 800,
+        "cta": "取消征兵",
+        "enabled": true
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+          "record": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png.generation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+          "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sha256": "e5f483500b3b25900e74c6ae70865d8027e52e50ea03ba5ee3f2bf78a4af40e9",
+          "record": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+          "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+          "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sha256": "22a30cfb6c38951e75030b216c0daeb5ca180c6f2a062550ab95fae276907c5a",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json"
+        }
+      ],
+      "layers": [
+        {
+          "kind": "image",
+          "role": "山城背景",
+          "source": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sourceSize": [
+            1672,
+            941
+          ],
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "operation": "cover downscale with centered crop"
+        },
+        {
+          "kind": "image",
+          "role": "征兵主面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sourceSize": [
+            946,
+            550
+          ],
+          "boxXYXY": [
+            167,
+            76,
+            1113,
+            626
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "主标题",
+          "value": "征 兵",
+          "position": [
+            657,
+            150
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 34,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            619,
+            136,
+            695,
+            168
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "部队名称",
+          "value": "第一部队",
+          "position": [
+            640,
+            202
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            606,
+            195,
+            674,
+            212
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "关闭",
+          "source": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sourceSize": [
+            255,
+            338
+          ],
+          "boxXYXY": [
+            1015,
+            136,
+            1073,
+            213
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "配兵标题",
+          "value": "兵力配置",
+          "position": [
+            437,
+            229
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 22,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            393,
+            220,
+            481,
+            241
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            215,
+            661,
+            400
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "大营武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            262,
+            362,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营阵位",
+          "value": "大营",
+          "position": [
+            371,
+            282
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            276,
+            403,
+            291
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营武将名",
+          "value": "刘备",
+          "position": [
+            371,
+            312
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            301,
+            423,
+            327
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            261,
+            482,
+            299
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营兵种",
+          "value": "金兵",
+          "position": [
+            488,
+            280
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            273,
+            522,
+            290
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            308,
+            476,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力数值",
+          "value": "480 → 680",
+          "position": [
+            488,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            308,
+            591,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营新增数值",
+          "value": "本次 +200",
+          "position": [
+            443,
+            339
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            333,
+            509,
+            348
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            347,
+            661,
+            532
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "中军武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            394,
+            362,
+            476
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军阵位",
+          "value": "中军",
+          "position": [
+            371,
+            414
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            408,
+            403,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军武将名",
+          "value": "赵云",
+          "position": [
+            371,
+            444
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            434,
+            423,
+            459
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            393,
+            482,
+            431
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军兵种",
+          "value": "木兵",
+          "position": [
+            488,
+            412
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            405,
+            522,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            440,
+            476,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力数值",
+          "value": "560 → 660",
+          "position": [
+            488,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            440,
+            591,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军新增数值",
+          "value": "本次 +100",
+          "position": [
+            443,
+            471
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            465,
+            509,
+            480
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵信息面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sourceSize": [
+            464,
+            540
+          ],
+          "boxXYXY": [
+            710,
+            216,
+            1020,
+            577
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "当前状态",
+          "value": "征兵中",
+          "position": [
+            865,
+            263
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 23,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            830,
+            253,
+            899,
+            275
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "计时图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sourceSize": [
+            292,
+            301
+          ],
+          "boxXYXY": [
+            756,
+            306,
+            795,
+            346
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "计时标题",
+          "value": "剩余时间",
+          "position": [
+            808,
+            324
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            808,
+            317,
+            876,
+            334
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "倒计时",
+          "value": "00:03:24",
+          "position": [
+            865,
+            368
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 36,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            794,
+            358,
+            936,
+            384
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "征兵增量",
+          "value": "将补充 300 兵力",
+          "position": [
+            865,
+            421
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            797,
+            413,
+            933,
+            432
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵操作",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            755,
+            452,
+            973,
+            541
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "征兵操作文字",
+          "value": "取消征兵",
+          "position": [
+            867,
+            496
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            829,
+            488,
+            905,
+            507
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "返回配兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            235,
+            500,
+            433,
+            581
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "返回配兵文字",
+          "value": "返回配兵",
+          "position": [
+            337,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            303,
+            533,
+            371,
+            550
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "总兵力预览",
+          "value": "总兵力 1,040 → 1,340",
+          "position": [
+            550,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            446,
+            531,
+            653,
+            554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cancel_confirm",
+      "title": "取消确认",
+      "preview": {
+        "file": "exports/01-率土之滨/ui-artonly-20261104/cancel-confirm.png",
+        "sha256": "5f692ef6dcbf07ffd1dc6bbc46d64432a7943ff74196b20d111f8f9e9cebc2de",
+        "record": null
+      },
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "exampleInput": {
+        "title": "取消确认",
+        "counts": [
+          480,
+          560,
+          680,
+          660
+        ],
+        "heldGrain": 1600,
+        "heldCoins": 800,
+        "cta": "取消征兵",
+        "enabled": true
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+          "record": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png.generation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+          "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sha256": "e5f483500b3b25900e74c6ae70865d8027e52e50ea03ba5ee3f2bf78a4af40e9",
+          "record": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+          "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+          "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sha256": "22a30cfb6c38951e75030b216c0daeb5ca180c6f2a062550ab95fae276907c5a",
+          "record": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+          "sha256": "a046f8a5e4575671a4e6882f587626d2b2f832fb1088fc79c92ac1a44232b086",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sha256": "fc76f228e4f46d671f03f759dc5c8d2036f4ecba86b5f5e06e8d917f84d603e1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png.derivation.json"
+        }
+      ],
+      "layers": [
+        {
+          "kind": "image",
+          "role": "山城背景",
+          "source": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sourceSize": [
+            1672,
+            941
+          ],
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "operation": "cover downscale with centered crop"
+        },
+        {
+          "kind": "image",
+          "role": "征兵主面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sourceSize": [
+            946,
+            550
+          ],
+          "boxXYXY": [
+            167,
+            76,
+            1113,
+            626
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "主标题",
+          "value": "征 兵",
+          "position": [
+            657,
+            150
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 34,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            619,
+            136,
+            695,
+            168
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "部队名称",
+          "value": "第一部队",
+          "position": [
+            640,
+            202
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            606,
+            195,
+            674,
+            212
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "关闭",
+          "source": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sourceSize": [
+            255,
+            338
+          ],
+          "boxXYXY": [
+            1015,
+            136,
+            1073,
+            213
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "配兵标题",
+          "value": "兵力配置",
+          "position": [
+            437,
+            229
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 22,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            393,
+            220,
+            481,
+            241
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            215,
+            661,
+            400
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "大营武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            262,
+            362,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营阵位",
+          "value": "大营",
+          "position": [
+            371,
+            282
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            276,
+            403,
+            291
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营武将名",
+          "value": "刘备",
+          "position": [
+            371,
+            312
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            301,
+            423,
+            327
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            261,
+            482,
+            299
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营兵种",
+          "value": "金兵",
+          "position": [
+            488,
+            280
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            273,
+            522,
+            290
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            308,
+            476,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力数值",
+          "value": "480 → 680",
+          "position": [
+            488,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            308,
+            591,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营新增数值",
+          "value": "本次 +200",
+          "position": [
+            443,
+            339
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            333,
+            509,
+            348
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-selected.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            347,
+            661,
+            532
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "中军武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            394,
+            362,
+            476
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军阵位",
+          "value": "中军",
+          "position": [
+            371,
+            414
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            408,
+            403,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军武将名",
+          "value": "赵云",
+          "position": [
+            371,
+            444
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            434,
+            423,
+            459
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            393,
+            482,
+            431
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军兵种",
+          "value": "木兵",
+          "position": [
+            488,
+            412
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            405,
+            522,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            440,
+            476,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力数值",
+          "value": "560 → 660",
+          "position": [
+            488,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            440,
+            591,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军新增数值",
+          "value": "本次 +100",
+          "position": [
+            443,
+            471
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            465,
+            509,
+            480
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵信息面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sourceSize": [
+            464,
+            540
+          ],
+          "boxXYXY": [
+            710,
+            216,
+            1020,
+            577
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "当前状态",
+          "value": "取消确认",
+          "position": [
+            865,
+            263
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 23,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            819,
+            253,
+            911,
+            276
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "计时图标",
+          "source": "exports/01-率土之滨/runtime-ui-v2/icon-timer.png",
+          "sourceSize": [
+            292,
+            301
+          ],
+          "boxXYXY": [
+            756,
+            306,
+            795,
+            346
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "计时标题",
+          "value": "剩余时间",
+          "position": [
+            808,
+            324
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            808,
+            317,
+            876,
+            334
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "倒计时",
+          "value": "00:03:24",
+          "position": [
+            865,
+            368
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 36,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            794,
+            358,
+            936,
+            384
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "征兵增量",
+          "value": "将补充 300 兵力",
+          "position": [
+            865,
+            421
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            797,
+            413,
+            933,
+            432
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵操作",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            755,
+            452,
+            973,
+            541
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "征兵操作文字",
+          "value": "取消征兵",
+          "position": [
+            867,
+            496
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            829,
+            488,
+            905,
+            507
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "返回配兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            235,
+            500,
+            433,
+            581
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "返回配兵文字",
+          "value": "返回配兵",
+          "position": [
+            337,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            303,
+            533,
+            371,
+            550
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "总兵力预览",
+          "value": "总兵力 1,040 → 1,340",
+          "position": [
+            550,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            446,
+            531,
+            653,
+            554
+          ]
+        },
+        {
+          "kind": "color",
+          "role": "确认层背景遮罩",
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "rgba": [
+            19,
+            29,
+            23,
+            151
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "取消征兵确认框",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-confirm.png",
+          "sourceSize": [
+            568,
+            402
+          ],
+          "boxXYXY": [
+            356,
+            150,
+            924,
+            552
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "确认框标题",
+          "value": "取消征兵",
+          "position": [
+            641,
+            222
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 28,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            585,
+            210,
+            697,
+            237
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "确认提示",
+          "value": "要取消当前征兵吗？",
+          "position": [
+            640,
+            317
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 28,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            514,
+            305,
+            766,
+            332
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "取消后果",
+          "value": "取消后将停止这次征兵。",
+          "position": [
+            640,
+            365
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            535,
+            357,
+            744,
+            376
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "保留征兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            414,
+            398,
+            632,
+            487
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "保留征兵文字",
+          "value": "继续征兵",
+          "position": [
+            526,
+            442
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            434,
+            564,
+            453
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "确认取消",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            647,
+            398,
+            865,
+            487
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "确认取消文字",
+          "value": "确认取消",
+          "position": [
+            759,
+            442
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            721,
+            434,
+            797,
+            453
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complete",
+      "title": "征兵完成",
+      "preview": {
+        "file": "exports/01-率土之滨/ui-artonly-20261104/complete.png",
+        "sha256": "5fa78a4d31ee42d8211266dc02766ebf1ba43e6b5d19741197611ddaf89f8d6f",
+        "record": null
+      },
+      "size": [
+        1280,
+        720
+      ],
+      "mode": "RGB",
+      "exampleInput": {
+        "title": "征兵完成",
+        "counts": [
+          680,
+          660,
+          680,
+          660
+        ],
+        "completedAdds": [
+          200,
+          100
+        ],
+        "heldGrain": 400,
+        "heldCoins": 500,
+        "cta": "完成",
+        "enabled": true
+      },
+      "derivedFrom": [
+        {
+          "file": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sha256": "e7500f666b3a1b78996b5f78327bc72150ea6db86944fce7eecbe7b0726da2ba",
+          "record": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png.generation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sha256": "2cd4e06cb80b35f197964eb6621babe4d05f1a40aa2622832ecdbd4c54865fef",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-main.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sha256": "d215cf72b8daae2e0139f5cd8e51fa43a63a0534b36a4b8c8f4691ac50b97961",
+          "record": "exports/01-率土之滨/ui-support-v1/close-native.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "sha256": "05be25b876d4531d8c1a7229ea9174a36361bc0515014e29ba3e2b3882735644",
+          "record": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sha256": "2d528c26f51d2f18d669b4168fe7a1698f55a43acc66664b26d2af5175c7ba1f",
+          "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sha256": "edf0a2bce58e263abb6d009f936107a4a43530f619b4e7cbb17e5efea1e3eed1",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sha256": "fefada576d91e0d0819e4998149588fe64d4771fa3e694bdd724eac6cbe97c68",
+          "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sha256": "e8da025cf107ba8c55814e18610e334fe1f6fc5fd3fcdcb84ab0cefda7d31b09",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sha256": "73344f3b87a16584f447a1e37751239697e1c872316945808c8751d6bdf1e219",
+          "record": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-confirm.png",
+          "sha256": "d8cb8ba09c7f568a7ac66538041bf10407f6931fd0792bd59cfd6ae17bf1591a",
+          "record": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-confirm.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sha256": "fc76f228e4f46d671f03f759dc5c8d2036f4ecba86b5f5e06e8d917f84d603e1",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png.derivation.json"
+        },
+        {
+          "file": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sha256": "a825572af75ec758bebb51cc8018c3c546776a9e3d32f756fb018146d6d63b19",
+          "record": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png.derivation.json"
+        }
+      ],
+      "layers": [
+        {
+          "kind": "image",
+          "role": "山城背景",
+          "source": "designs/01-率土之滨/assets/login-background-20261028/login-landscape-v1.png",
+          "sourceSize": [
+            1672,
+            941
+          ],
+          "boxXYXY": [
+            0,
+            0,
+            1280,
+            720
+          ],
+          "operation": "cover downscale with centered crop"
+        },
+        {
+          "kind": "image",
+          "role": "征兵主面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-main.png",
+          "sourceSize": [
+            946,
+            550
+          ],
+          "boxXYXY": [
+            167,
+            76,
+            1113,
+            626
+          ],
+          "operation": "native size composite"
+        },
+        {
+          "kind": "text",
+          "role": "主标题",
+          "value": "征 兵",
+          "position": [
+            657,
+            150
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 34,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            619,
+            136,
+            695,
+            168
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "部队名称",
+          "value": "第一部队",
+          "position": [
+            640,
+            202
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            606,
+            195,
+            674,
+            212
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "关闭",
+          "source": "exports/01-率土之滨/ui-support-v1/close-native.png",
+          "sourceSize": [
+            255,
+            338
+          ],
+          "boxXYXY": [
+            1015,
+            136,
+            1073,
+            213
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "配兵标题",
+          "value": "兵力配置",
+          "position": [
+            437,
+            229
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 22,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            393,
+            220,
+            481,
+            241
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            215,
+            661,
+            400
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "大营武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/liu-bei-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            262,
+            362,
+            344
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营阵位",
+          "value": "大营",
+          "position": [
+            371,
+            282
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            276,
+            403,
+            291
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营武将名",
+          "value": "刘备",
+          "position": [
+            371,
+            312
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            301,
+            423,
+            327
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "大营兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            261,
+            482,
+            299
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "大营兵种",
+          "value": "金兵",
+          "position": [
+            488,
+            280
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            273,
+            522,
+            290
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            308,
+            476,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营兵力数值",
+          "value": "680 → 680",
+          "position": [
+            488,
+            315
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            308,
+            591,
+            324
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "大营新增数值",
+          "value": "已补 +200",
+          "position": [
+            443,
+            339
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            333,
+            509,
+            347
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军卡片",
+          "source": "exports/01-率土之滨/runtime-ui-v2/card-row-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            208,
+            347,
+            661,
+            532
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "image",
+          "role": "中军武将头像",
+          "source": "exports/01-率土之滨/generals-ui-v1/zhao-yun-avatar-256.png",
+          "sourceSize": [
+            256,
+            256
+          ],
+          "boxXYXY": [
+            280,
+            394,
+            362,
+            476
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军阵位",
+          "value": "中军",
+          "position": [
+            371,
+            414
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            371,
+            408,
+            403,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军武将名",
+          "value": "赵云",
+          "position": [
+            371,
+            444
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 26,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            371,
+            434,
+            423,
+            459
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "中军兵种图标",
+          "source": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+          "sourceSize": [
+            128,
+            128
+          ],
+          "boxXYXY": [
+            444,
+            393,
+            482,
+            431
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "中军兵种",
+          "value": "木兵",
+          "position": [
+            488,
+            412
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            405,
+            522,
+            422
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力标签",
+          "value": "兵力",
+          "position": [
+            444,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 16,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            444,
+            440,
+            476,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军兵力数值",
+          "value": "660 → 660",
+          "position": [
+            488,
+            447
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            488,
+            440,
+            591,
+            456
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "中军新增数值",
+          "value": "已补 +100",
+          "position": [
+            443,
+            471
+          ],
+          "anchor": "lm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 15,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            443,
+            465,
+            509,
+            479
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵信息面板",
+          "source": "exports/01-率土之滨/runtime-ui-v2/panel-detail.png",
+          "sourceSize": [
+            464,
+            540
+          ],
+          "boxXYXY": [
+            710,
+            216,
+            1020,
+            577
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "当前状态",
+          "value": "征兵完成",
+          "position": [
+            865,
+            263
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 23,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            819,
+            253,
+            911,
+            276
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "完成插画",
+          "source": "exports/01-率土之滨/ui-state-kit-20261028-r2/illustration-confirm.png",
+          "sourceSize": [
+            512,
+            512
+          ],
+          "boxXYXY": [
+            816,
+            295,
+            920,
+            399
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "完成增量",
+          "value": "已补充 300 兵力",
+          "position": [
+            865,
+            415
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 20,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            794,
+            407,
+            935,
+            426
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "完成后兵力",
+          "value": "总兵力 1,340",
+          "position": [
+            865,
+            448
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#5f6451",
+          "glyphBoundsXYXY": [
+            816,
+            441,
+            913,
+            460
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "征兵操作",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-primary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            755,
+            452,
+            973,
+            541
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "征兵操作文字",
+          "value": "完成",
+          "position": [
+            867,
+            496
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 19,
+          "fill": "#fff3cd",
+          "glyphBoundsXYXY": [
+            848,
+            488,
+            886,
+            507
+          ]
+        },
+        {
+          "kind": "image",
+          "role": "返回配兵",
+          "source": "exports/01-率土之滨/runtime-ui-v2/button-secondary-normal.png",
+          "sourceSize": [
+            500,
+            204
+          ],
+          "boxXYXY": [
+            235,
+            500,
+            433,
+            581
+          ],
+          "operation": "proportional downscale"
+        },
+        {
+          "kind": "text",
+          "role": "返回配兵文字",
+          "value": "返回配兵",
+          "position": [
+            337,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 17,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            303,
+            533,
+            371,
+            550
+          ]
+        },
+        {
+          "kind": "text",
+          "role": "总兵力预览",
+          "value": "总兵力 1,340",
+          "position": [
+            550,
+            540
+          ],
+          "anchor": "mm",
+          "font": "exports/01-率土之滨/fonts/wuxing-ui-20261102/WuxingUI-Regular.ttf",
+          "sizePx": 21,
+          "fill": "#244638",
+          "glyphBoundsXYXY": [
+            489,
+            531,
+            611,
+            554
+          ]
+        }
+      ]
+    }
+  ],
+  "newModelImages": 0,
+  "clientIntegrated": false,
+  "userAccepted": false,
+  "limits": [
+    "Review composition at one landscape size",
+    "Fixed example data and unit types",
+    "Live quantity inputs, dynamic progress, resource settlement, reserve system and other display ratios require follow-up"
+  ]
+}

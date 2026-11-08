@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261102-heroes2/zhou-tai-avatar-256.png",
+  "sha256": "363168141f19725f921aab0841f917b0898c8513ab9680b39788d848e2971e41",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhou-tai-master-v1.png",
+    "sha256": "2a29f8202f7d55f194048c3f7ad1e0f7256b3f881d4de048e245bdd36d5c9240",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261102-heroes2/zhou-tai-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      280,
+      170,
+      810,
+      740
+    ],
+    "uniformScale": 0.41403508771929826,
+    "resizedSize": [
+      219,
+      236
+    ],
+    "offset": [
+      18,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/qa/hero-ui-v1/avatars-light.png",
+  "sha256": "766baa56f995153737132cfeb8006f13674037740a6968d57e45551ac4523b29",
+  "createdAtUtc": "2026-10-27T18:38:37.455232+00:00",
+  "art_source": "existing",
+  "operation": "QA only plain background composite and diagnostic labels; no new asset art",
+  "operations": {
+    "displayScale": 1,
+    "backgroundRGBA": [
+      245,
+      239,
+      222,
+      255
+    ]
+  },
+  "width": 1440,
+  "height": 480,
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png",
+      "sha256": "66fe30b65b11f21d66b1de9e3bb26d81bae97254854a6aba824a98c5125b025e",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-128.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png",
+      "sha256": "2a8e69d66f1b70f9b30d36c0b80d5208704ba07f7e1cad97039801e6874fd26f",
+      "record": "exports/01-率土之滨/hero-ui-v1/01-metal-avatar-256.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png",
+      "sha256": "81e61476bf436725dfdd6719ba049ab976b182b775899629654bbee45ad2a160",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-128.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png",
+      "sha256": "044373d933ef3c31c95b6c19b509d8decf9fda303e6cd44308245bfd50dabb3d",
+      "record": "exports/01-率土之滨/hero-ui-v1/02-wood-avatar-256.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png",
+      "sha256": "f011ac5773971485aae21cd7906bd138e7e5a2f4770c49ff6c7470484c396e02",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-128.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png",
+      "sha256": "4dc00cc8d060cdd3a321be72583b1f698d56a7a40ffccbab657ed21193c24441",
+      "record": "exports/01-率土之滨/hero-ui-v1/03-water-avatar-256.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png",
+      "sha256": "9cf4d1c07b432a1105eb82e20d5f0f6bfc85063bb3864ebd47c58e57a337eb52",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-128.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png",
+      "sha256": "3de0f2c3fad9fe72ee84932806b5d9cb89df9332d0b79e49c722ea308ceee25d",
+      "record": "exports/01-率土之滨/hero-ui-v1/04-fire-avatar-256.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png",
+      "sha256": "43b007254aecaa469aebabcec91438cf421e94feaf4a29db363665d3cde0371c",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-128.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png",
+      "sha256": "b4b27eb1dd29342670971e8c916031b2bfd59d005723ab3eb30a059d3daf1ad0",
+      "record": "exports/01-率土之滨/hero-ui-v1/05-earth-avatar-256.png.derivation.json"
+    }
+  ],
+  "qaOnly": true,
+  "userApproved": false
+}

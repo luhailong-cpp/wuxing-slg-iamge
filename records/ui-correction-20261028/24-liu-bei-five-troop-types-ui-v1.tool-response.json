@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "callStartedAt": "2026-10-28T08:07:59.928Z",
+  "callCompletedAt": "2026-10-28T08:09:11.329Z",
+  "returnedFields": [
+    "image_url",
+    "output_hint"
+  ],
+  "output_hint": "Generated images are saved to C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2076-7f21-94c3-d0fbda0da0db as C:\\Users\\luyua\\.codex\\generated_images\\01a1771a-2076-7f21-94c3-d0fbda0da0db\\exec-d3a1d0f2-7f11-4e42-b95b-f81c609913af.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "resultId": null,
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具无model/quality参数，实际返回未披露型号或画质。",
+  "imageUrlOmittedFromTextRecord": "Returned image_url contains binary image data; native returned file path preserved in output_hint."
+}

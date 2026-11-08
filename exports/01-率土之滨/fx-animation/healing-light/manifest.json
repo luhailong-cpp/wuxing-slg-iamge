@@ -1,0 +1,429 @@
+{
+  "schemaVersion": 1,
+  "assetId": "healing-light",
+  "assetType": "generated_eight_phase_one_shot_candidate",
+  "status": "registered_candidate_pending_motion_and_user_review",
+  "artSource": "host_image",
+  "sourceSheet": "designs/01-率土之滨/assets/fx-animation/healing-light-sheet-v1.png",
+  "sourceSha256": "5f3d1fef0b1e490baf36b09e1faca4f7022e4ab86745318fc73577a8704b1b41",
+  "sourceRecord": "designs/01-率土之滨/assets/fx-animation/healing-light-sheet-v1.png.generation.json",
+  "nativeSheetSize": [
+    1774,
+    887
+  ],
+  "grid": {
+    "columns": 4,
+    "rows": 2,
+    "order": "row-major",
+    "ownershipBoxes": [
+      [
+        0,
+        0,
+        444,
+        400
+      ],
+      [
+        444,
+        0,
+        887,
+        444
+      ],
+      [
+        887,
+        0,
+        1331,
+        444
+      ],
+      [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      [
+        0,
+        400,
+        444,
+        887
+      ],
+      [
+        444,
+        444,
+        887,
+        887
+      ],
+      [
+        887,
+        444,
+        1331,
+        887
+      ],
+      [
+        1331,
+        444,
+        1774,
+        887
+      ]
+    ],
+    "nominalGridAdjusted": true
+  },
+  "frames": [
+    {
+      "index": 0,
+      "phase": "small-pulse",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-00.png",
+      "sha256": "8a02195915c29500471d12b26c847f1bf1fc3ddbb21450f09f6b057156dbfec9",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-00.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-00.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        228,
+        352
+      ],
+      "cropBox": [
+        0,
+        0,
+        444,
+        400
+      ],
+      "pasteOffsetPx": [
+        222,
+        98
+      ]
+    },
+    {
+      "index": 1,
+      "phase": "initial-leaves",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-01.png",
+      "sha256": "85292e920f588a349d493f8b0bec46a06a4fa517361325c2bc7adae61b9757ff",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-01.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-01.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        667,
+        354
+      ],
+      "cropBox": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "pasteOffsetPx": [
+        227,
+        96
+      ]
+    },
+    {
+      "index": 2,
+      "phase": "column-growth",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-02.png",
+      "sha256": "33e6c7de4a40671eb0810acae71e3f2fe8a972efbf6eb400821f8b61571aeb07",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-02.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-02.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1103,
+        355
+      ],
+      "cropBox": [
+        887,
+        0,
+        1331,
+        444
+      ],
+      "pasteOffsetPx": [
+        234,
+        95
+      ]
+    },
+    {
+      "index": 3,
+      "phase": "bloom",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-03.png",
+      "sha256": "21f1a661dcf6a35cf051a7dd842e57224f345940969b60be5c0981e656a649e8",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-03.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-03.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1540,
+        356
+      ],
+      "cropBox": [
+        1331,
+        0,
+        1774,
+        444
+      ],
+      "pasteOffsetPx": [
+        241,
+        94
+      ]
+    },
+    {
+      "index": 4,
+      "phase": "peak",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-04.png",
+      "sha256": "5b3807591ef244dc35a5e00e48523d6fdbf36babd78f599d6bfef8c6b48a6358",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-04.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-04.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        224,
+        773
+      ],
+      "cropBox": [
+        0,
+        400,
+        444,
+        887
+      ],
+      "pasteOffsetPx": [
+        226,
+        77
+      ]
+    },
+    {
+      "index": 5,
+      "phase": "receding-column",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-05.png",
+      "sha256": "e79eb5622d9c0612c9cdce2a07a6f9d48298ac9bdc5330c2bc0fa5d92d483d03",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-05.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-05.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        665,
+        779
+      ],
+      "cropBox": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "pasteOffsetPx": [
+        229,
+        115
+      ]
+    },
+    {
+      "index": 6,
+      "phase": "leaf-remnants",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-06.png",
+      "sha256": "26d76bb22a500069c053f4dce74c9307a1a2ce08249f98a4318e437ec2d7249a",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-06.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-06.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1103,
+        778
+      ],
+      "cropBox": [
+        887,
+        444,
+        1331,
+        887
+      ],
+      "pasteOffsetPx": [
+        234,
+        116
+      ]
+    },
+    {
+      "index": 7,
+      "phase": "last-small-pulse",
+      "file": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png",
+      "sha256": "f2b67586ed45083f739cd0907a1a73d473fd6be6f359252709c54a3e78a2f6c8",
+      "record": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png.derivation.json",
+      "derivation": "exports/01-率土之滨/fx-animation/healing-light/frame-07.png.derivation.json",
+      "durationSeconds": 0.1,
+      "size": [
+        900,
+        900
+      ],
+      "anchorPx": [
+        450,
+        450
+      ],
+      "sourceAnchorPx": [
+        1542,
+        779
+      ],
+      "cropBox": [
+        1331,
+        444,
+        1774,
+        887
+      ],
+      "pasteOffsetPx": [
+        239,
+        115
+      ]
+    }
+  ],
+  "frameCount": 8,
+  "animations": 1,
+  "animation": {
+    "id": "healing-light",
+    "durationSeconds": 0.8,
+    "frameDurationSeconds": 0.1,
+    "loop": false,
+    "events": [],
+    "timingStatus": "demonstration, not bound to combat events"
+  },
+  "durationSeconds": 0.8,
+  "frameDurationSeconds": 0.1,
+  "loop": false,
+  "fixedCanvasSize": [
+    900,
+    900
+  ],
+  "anchorPx": [
+    450,
+    450
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "anchorNormalized": [
+    0.5,
+    0.5
+  ],
+  "registration": {
+    "method": "manual semantic FX origin; exact native crop then integer translation and transparent padding",
+    "sourceAnchorBasis": "人工逐格查看治疗环/光柱与环底的接触中心；以底环作用点注册，保留光柱向上生长，不能按总bbox中点对齐。",
+    "allSourceAnchorsMappedToTargetPx": [
+      450,
+      450
+    ],
+    "transformResidualPx": 0,
+    "visualOriginUncertaintyPx": 3,
+    "perFrameBboxNormalization": false,
+    "resampled": false,
+    "alphaEdited": false
+  },
+  "qa": {
+    "manualReview": "records/01-率土之滨/fx-animation/healing-light-review-20261027.json",
+    "skillSpillReport": "records/01-率土之滨/fx-animation/healing-light-sheet-v1.spill-qc.json",
+    "publishedWarningsAndFailures": [
+      {
+        "id": "cross_cell_visible",
+        "status": "fail",
+        "value": 1,
+        "threshold": 0,
+        "note": "the same test on the visible edge (alpha > 16)"
+      },
+      {
+        "id": "safe_frame",
+        "status": "warn",
+        "value": 3,
+        "threshold": 0,
+        "cells": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "note": "owned art closer than 15% of the cell to its edge; ask for more margin next time"
+      },
+      {
+        "id": "faint_specks",
+        "status": "warn",
+        "value": {
+          "floor_px": 146546,
+          "detached_components": 27
+        },
+        "threshold": 0,
+        "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+      }
+    ],
+    "nominalGridVisibleCrossingResolvedByManualOwnership": true,
+    "customOwnershipNoVisibleClippingOrNeighborIntrusion": true,
+    "lightDarkReviewed": true,
+    "registeredPreviewReviewed": true,
+    "smoothAnimationFinallyApproved": false,
+    "sourceRawReportRelativeNamesBasis": "original tool work directory, see manual review",
+    "finalSourceCropVisibleEdgePixelCounts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourcePixelsPreservedVerified": true
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "battleEventsImplemented": false,
+  "actualModel": null,
+  "actualQuality": null,
+  "createdAtUtc": "2026-10-27T17:28:32.318270+00:00"
+}

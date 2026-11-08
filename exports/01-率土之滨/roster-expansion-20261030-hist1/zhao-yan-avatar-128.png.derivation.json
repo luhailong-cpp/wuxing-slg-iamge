@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261030-hist1/zhao-yan-avatar-128.png",
+  "sha256": "4c484bb3aa570550d4209cdf07099f04afc796ecd71cf887a8080a5ceda23faf",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhao-yan-master-v1.png",
+    "sha256": "9745b59f19ae1dda4a3f6b44f267e829ab1934dcfadddf44398ca2929b83b3f9",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261030-hist1/zhao-yan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      100,
+      770,
+      720
+    ],
+    "uniformScale": 0.19032258064516128,
+    "resizedSize": [
+      95,
+      118
+    ],
+    "offset": [
+      16,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

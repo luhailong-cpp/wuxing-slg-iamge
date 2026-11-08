@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/units/cavalry-native.png",
+  "sha256": "c37c7e03039b4964bbd8ac09725bb500aa8282597cea1a8c070710ddbbe3ba1f",
+  "derivedAtUtc": "2026-10-27T13:52:57.005048+00:00",
+  "width": 812,
+  "height": 1054,
+  "mode": "RGBA",
+  "format": "PNG",
+  "operation": "crop",
+  "cropBox": [
+    274,
+    130,
+    1086,
+    1184
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png",
+      "sha256": "f5a98a34a33cb3699f8fb12a341f1bc267df1afe2d292aa617d8091b0fa6cf8a",
+      "record": "designs/01-率土之滨/assets/units/03-dao-cavalry-master-v1.png.generation.json"
+    }
+  ],
+  "resampled": false,
+  "alphaEdited": false,
+  "art_source": "existing",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "zeroPixels": 426879,
+    "alpha1Pixels": 11178,
+    "opaquePixels": 344,
+    "bboxByThreshold": {
+      "1": [
+        16,
+        16,
+        796,
+        1038
+      ],
+      "16": [
+        18,
+        18,
+        794,
+        1034
+      ],
+      "127": [
+        19,
+        19,
+        793,
+        1033
+      ]
+    },
+    "edgePixelsAbove1": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "anchorPxTopLeft": [
+    406.0,
+    1038
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.9848197343453511
+  ],
+  "anchorStatus": "provisional bottom-center of alpha>1 footprint; no collider/physical scale contract",
+  "static": true,
+  "animationFrameCount": 0,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "static_unit_native_crop_candidate"
+}

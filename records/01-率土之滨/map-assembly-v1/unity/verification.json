@@ -1,0 +1,323 @@
+{
+  "schema": "wuxing.unity-map-assembly-preview-verification.v1",
+  "verifiedAt": "2026-10-27T19:32:50.419134+00:00",
+  "status": "actual_export_fresh_import_and_PlayMode_GPU_verified_candidate_with_WARN",
+  "package": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+    "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92",
+    "bytes": 1000922
+  },
+  "sourceImportExport": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/source-import-export-report.json",
+    "sha256": "c756b745dfdda6c9e5f927f30f33b9c6d45e2902fb14c03d4c9ac7a2056b6d41"
+  },
+  "freshEmptyProjectImport": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/fresh-project-import-report.json",
+    "sha256": "c71a52e16fbc1f86ffd0eb9a886e2da52b9e29af2c5789610474735cb4a6cce5"
+  },
+  "actualPlayModeGPU": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/actual-playmode-gpu-report.json",
+    "sha256": "82a26c7d81c86f2c8babb83f0687c0344c7f452827d027bb05d5b0b07673746c"
+  },
+  "archiveAudit": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/archive-audit.json",
+    "sha256": "19b1592b1356815ccf9f03b90cd0f6a41b7b5de068c79e075afaa21a29dd5f54"
+  },
+  "compileDiagnostics": {
+    "file": "records/01-率土之滨/map-assembly-v1/unity/compile-diagnostics.json",
+    "sha256": "21fcc6f35a371af30b1231e427a9298592c4dce797700e0b41dc116f61dbe68e"
+  },
+  "unity": {
+    "actualVersion": "6000.6.0f1",
+    "editorFileVersion": "6000.6.0.16251117",
+    "graphicsDeviceType": "Direct3D11",
+    "graphicsDeviceName": "NVIDIA GeForce RTX 3070 Ti",
+    "actualPlayMode": true
+  },
+  "verified": {
+    "pngFiles": 7,
+    "nativeByteHashes": true,
+    "alphaCountsExact": true,
+    "nativeSizeAndPivotAndImporterSettings": true,
+    "rendererInstances": 39,
+    "allInstancePositionsScaleFlipSortingContactAnchors": true,
+    "sceneExists": true,
+    "noMissingScripts": true,
+    "cameraExistsAndProjectionMatchesDeclared1440x960": true,
+    "route8PointReferences": true,
+    "actualRuntimeSamples": 275,
+    "allRuntimeFootPointsAndRouteAndProjectionValid": true,
+    "oneStaticSpriteReferenceThroughout": true,
+    "routeCompleted": true,
+    "pauseStableFrames": 4,
+    "restartReturnsToSpawn": true,
+    "GPUVisibleFootpointCaptures": 10,
+    "maxObservedFrameStepPx": 2.5000407695770264,
+    "nominalStepBudgetPx": 2.5,
+    "floatingPointTolerancePx": 0.02,
+    "noBridgeMidpointBlockedInUnity": true
+  },
+  "navigationEvidencePolicy": {
+    "sixTargetsReachable": "reused canonical map bundle nav report copied into package Data/positive-nav-report.json, not recomputed UnityA*",
+    "singleBridgeNegative": "reused canonical no-bridge report has four unreachable targets; Unity separately confirms midpoint invalid with bridge region removed",
+    "runtimeCheck": "nine point footprint samples on authored walk unions and two base ellipses each actual LateUpdate frame; fixed validated route only"
+  },
+  "images": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-light.png",
+      "sha256": "9e4258a3390329e74416548e9650d0514e5f5c6b84256dd2138b26ced839fffc",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-light.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-dark.png",
+      "sha256": "8d69f8f34ef5302e726b2d68c468aadb4b2ec4383c6f7eac8d44081dba3e5815",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/spawn-dark.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-light.png",
+      "sha256": "c6b74829283decce4644a03b73dbbf7d8c18e19d7ee11aa21031aafca7a2d316",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-light.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-dark.png",
+      "sha256": "14bd40df18c856260d76c1ed261248e8a172d49a29a77b542f6b819fc245fdb3",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-west-dark.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-light.png",
+      "sha256": "5883f42c300b4e550e569e683ab5629e13bc8f7740a632a6ee5dc8a625c08d72",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-light.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-dark.png",
+      "sha256": "502897d337a815831e2ddafadf4b6d59ac185ae8f1015c9b3234c1f94d73e875",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-mid-dark.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-light.png",
+      "sha256": "e85b2a5845722fa01a355a8cdfece6d56ab5a3347d685e06f6b8762a5f24f5ec",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-light.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-dark.png",
+      "sha256": "8aa8c783eb6e1671e431076bb0f33fac3ec5b71219fe4948f4a6e1a8b248900a",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/bridge-east-dark.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-light.png",
+      "sha256": "463caefab588c7c4d6ac13727b0d50186a428bb97785e6beb72573c2cecd5731",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-light.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-dark.png",
+      "sha256": "12a404a48892b0ed33b0eb1071c54732d679e11eb56b471e61b1c2a25e65d189",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu/enemy-front-dark.png.derivation.json"
+    },
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/gpu-footpoints-light-dark.png",
+      "sha256": "b2eabca8d2cf24e10ea6ecb9efa383256cd3b89a9e7ca89cbac8ec4f1c0244c1",
+      "record": "records/01-率土之滨/map-assembly-v1/unity/gpu-footpoints-light-dark.png.derivation.json"
+    }
+  ],
+  "sourceIndex": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/source-index.json",
+    "sha256": "7e2b5144ebd3da488effa402c8ec7191863c37f0ecfc177e45635acaf5abf583"
+  },
+  "publicFixedRouteAlias": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/fixed-route.json",
+    "sha256": "cd20ee98635c750d71b1836f9221db49ae99f658a4121cce3428e9b3cd128c80"
+  },
+  "sourceMapAssemblyManifest": {
+    "file": "exports/01-率土之滨/map-assembly-v1/assembly-manifest.json",
+    "sha256": "9080061d97d19100e34bb8b6352c8c3e45defe82ae0b2c12a66a208aaa1b2cdc"
+  },
+  "warningsVerbatim": [
+    {
+      "id": "TERRAIN_SEAMS_UNVERIFIED",
+      "value": "stone-rimmed standalone grass/river/road dioramas repeated at uniform 0.72 scale",
+      "threshold": "seam-compatible shared edge pixels and sockets required for continuous terrain",
+      "status": "WARN"
+    },
+    {
+      "id": "RIVER_MIRRORED_FOR_AXIS",
+      "value": 5,
+      "threshold": "mirror-safe lighting and shore continuity not approved",
+      "status": "WARN"
+    },
+    {
+      "id": "PROVISIONAL_COLLISION_AND_ROADS",
+      "value": "manually authored land unions, bridge corridor, small building-base ellipses and route centreline",
+      "threshold": "painted contact, edge and collision approval required",
+      "status": "WARN"
+    },
+    {
+      "id": "BRIDGE_SINGLE_SPRITE_DEPTH",
+      "value": "whole bridge sorts below player on deck; foreground rail is not split",
+      "threshold": "front rail occluder or approved engine depth solution required",
+      "status": "WARN"
+    },
+    {
+      "id": "REPRESENTATIVE_UNIT_STATIC_SE",
+      "value": "existing infantry-64h PNG, foot [128,224], static slide in any movement direction",
+      "threshold": "directional walk animations are absent",
+      "status": "WARN"
+    },
+    {
+      "id": "SCALE_CONVENTION_PROVISIONAL",
+      "value": "64px silhouette, 8x4.8px foot ellipse, uniform world terrain scale 0.72",
+      "threshold": "client gameplay scale and camera contract not accepted",
+      "status": "WARN"
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": "all source alpha retained; compositing/resampling may accumulate faint alpha",
+      "threshold": "no alpha cleanup or threshold deletion authorized",
+      "status": "WARN"
+    },
+    {
+      "id": "NO_PER_PIXEL_OCCLUSION_CUE",
+      "value": "simple y-sort only; actor-shaped cue behind roofs is not implemented",
+      "threshold": "client depth/occlusion review required",
+      "status": "WARN"
+    }
+  ],
+  "additionalWarningsVerbatim": [
+    {
+      "id": "NATIVE_UNITY_SAMPLING_DIFFERS_FROM_PIL_MOSAIC",
+      "status": "WARN",
+      "value": "native Sprite uniform scaling with GPU bilinear vs rounded PIL LANCZOS composite",
+      "threshold": "not pixel-identical or seamless"
+    },
+    {
+      "id": "GAMEVIEW_ASPECT_DEPENDENT",
+      "status": "WARN",
+      "value": {
+        "freshSceneAspectBeforeProbe": 1.3333333730697632,
+        "projectionProbeAndGPUAspect": 1.5,
+        "target": [
+          1440,
+          960
+        ]
+      },
+      "threshold": "use3:2 or1440x960 for matched framing; arbitrary aspect/mobile coverage unverified"
+    },
+    {
+      "id": "FIXED_ROUTE_NOT_UNITY_PATHFINDER",
+      "status": "WARN",
+      "value": "fixed8-point route; six-target positive/four-target negative canonical evidence is reused; Unity also checks275 actual nine-sample foot positions and no-bridge midpoint",
+      "threshold": "no dynamic pathfinder, physics controller, or production-navigation acceptance"
+    },
+    {
+      "id": "UNITY_KEYBOARD_NOT_INJECTED",
+      "status": "WARN",
+      "value": "pause/restart public component methods tested in PlayMode; native Space/R injection not exercised",
+      "threshold": "legacy input mapping is supplied conditionally; keyboard runtime interaction needs user/device check"
+    }
+  ],
+  "sourceWarningsVerbatim": [
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2484,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2862,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 2928,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4060,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 5117,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "NATIVE_ALPHA1_GUTTER_RETAINED",
+      "value": 4277,
+      "threshold": "0 for a mathematically clean matte; retained original alpha=1 pixels",
+      "file": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "message": "Original alpha=1 pixels remain; two-background visual inspection found no visible colored fringe. No keying, alpha cleanup or repaint performed."
+    },
+    {
+      "id": "SOURCE_SAFE_MARGIN_BELOW_REQUEST",
+      "value": [
+        239,
+        217,
+        238,
+        182
+      ],
+      "threshold": {
+        "minimumEachSidePx": 188.1
+      },
+      "file": "designs/01-率土之滨/assets/units/01-dao-infantry-master-v1.png"
+    }
+  ],
+  "failedAttemptsPreserved": [
+    {
+      "file": "records/01-率土之滨/map-assembly-v1/unity/attempt1-dependency-failure.json",
+      "sha256": "e18f92106ea7036111f2d05dfa5ba54415e0faf01fb558962ed84e4e7636e4ab"
+    }
+  ],
+  "actualViews": [
+    "spawn-light.png",
+    "bridge-mid-dark.png",
+    "gpu-footpoints-light-dark.png"
+  ],
+  "notClaimed": [
+    "walking animation",
+    "Unity dynamic pathfinding",
+    "client integration",
+    "final scale/collision/occlusion/seam acceptance",
+    "arbitrary aspect/mobile coverage",
+    "native keyboard injection",
+    "performance benchmark"
+  ],
+  "officialAPIDocumentationConsulted": [
+    "https://docs.unity.com/en-us/engine/6000.5/script-reference/unityeditor/textureimporter",
+    "https://docs.unity.com/en-us/engine/6000.5/script-reference/unityengine/camera/render",
+    "https://docs.unity.com/en-us/engine/6000.5/script-reference/unityeditor/editorapplication/playmodestatechanged"
+  ],
+  "editorToolCompilerWarningsVerbatim": [
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(100,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(108,13): warning CS0618: 'AssetDatabase.ImportPackage(string, bool)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Import(string packagePath, bool interactive) instead.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(74,13): warning CS0618: 'AssetDatabase.ExportPackage(string, string, ExportPackageOptions)' is obsolete: 'Use UnityEditor.AssetPackage.Package.Export(ExportPackageParameters) instead.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+    "Assets\\Editor\\BuildWuxingMapAssemblyPreview.cs(95,76): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'"
+  ],
+  "editorToolCompilerWarningScope": "6 unique CS0618 obsolete API warnings; repeated compilation emitted12 source/24 roundtrip lines. All in build-only Assets/Editor code outside exported asset root. Exported runtime component has none of these APIs. No compiler errors.",
+  "pauseFrameMeaning": "Four LateUpdate observations including the frame that invokes pause; three subsequent Update passes execute while paused, then resume.",
+  "osProcessExitCodeCaptured": false,
+  "completionEvidence": "Actual source/fresh/GPU passed reports, successful archive/sprite/scene validation and process termination; immediate Windows GUI launcher return code is not treated as Unity Editor exit code.",
+  "localBuildToolSourceHashes": [
+    {
+      "name": "BuildWuxingMapAssemblyPreview.cs",
+      "sha256": "a26f3bd12fff39424fa4d7d5b08b765c1323d3b69131af0515c5d7493e7cd6cc",
+      "policy": "local work source, outside exported package"
+    },
+    {
+      "name": "MapAssemblyNativeSpriteImport.cs",
+      "sha256": "d184325f0b35e05af89d7e645131e76ab3de69db997374987428d65d0b651552",
+      "policy": "local work source, outside exported package"
+    }
+  ]
+}

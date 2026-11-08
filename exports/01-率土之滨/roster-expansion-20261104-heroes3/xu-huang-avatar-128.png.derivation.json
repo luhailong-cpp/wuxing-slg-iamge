@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261104-heroes3/xu-huang-avatar-128.png",
+  "sha256": "a9c5e38e20cf7900a144211dda3b5794bccd6a86de941a4d5a7772749a02ccd9",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/xu-huang-master-v1.png",
+    "sha256": "407ca6cc594a507364f8d8c211a6bc0e05ad8a83fb1cc15b03406dd4cb90a566",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261104-heroes3/xu-huang-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      125,
+      150,
+      660,
+      695
+    ],
+    "uniformScale": 0.21651376146788992,
+    "resizedSize": [
+      116,
+      118
+    ],
+    "offset": [
+      6,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

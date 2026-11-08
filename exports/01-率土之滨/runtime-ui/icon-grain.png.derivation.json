@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-grain",
+  "file": "exports/01-率土之滨/runtime-ui/icon-grain.png",
+  "sha256": "13d2a3e795d18c8208080da9c1a21ff13f50deed138221a60550a58b19ad43c1",
+  "width": 316,
+  "height": 305,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 38075,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      938,
+      20,
+      1254,
+      325
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

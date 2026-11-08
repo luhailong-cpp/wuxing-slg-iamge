@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261030-qun1/yuan-shao-master-v1.png",
+  "sha256": "18608bcbf1414b7349f7278beb261b32af7d118b365edb8c95384670df596f4b",
+  "generatedAt": null,
+  "observedCompletedAtUtc": "2026-10-30T11:51:44.671Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "tool": "image_gen.imagegen",
+  "route": "host_builtin",
+  "resultId": "exec-c05a1b25-77df-4d9b-92ad-8405d8bfbd1b",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Original full-body character master of 袁绍 for 五行问鼎, original historical Three Kingdoms identity design in the attached authoritative Taoist chibi HD hand-painted style. Exactly ONE adult person on TRUE transparent alpha. Vertical 2:3 canvas. Both attached images are STYLE references only: preserve their rounded finely painted forms, jade green, ivory silk, restrained warm gold, soft fabric shading and clear expressive face, but do not reproduce their UI, children or costume.\nA refined middle-aged aristocratic commander with a long oval face, elegant arched brows, neat black moustache and a narrow three-point beard. Tall restrained jade ceremonial crown, long black hair, ivory silk outer robe over light teal armour with warm-gold edging. Upright proud three-quarter stance, one hand holding a closed command scroll, complete sheathed straight sword at waist. Slender poised silhouette, no huge pauldrons.\nOriginal fictional visual choices, not documentary costume reconstruction and not commercial card art. Large expressive adult head and short body, around 2.7 heads tall; face, beard, build, headwear and prop must be specific to this identity. Keep the COMPLETE figure and ALL props fully within the CENTRAL 76 percent of the canvas. At least 10 percent genuinely transparent empty padding on every side, including hat, staff, weapon and shoes. Full hands and two complete feet. No cut-off extremity or prop. No scene, background, mist, glow, ground plane, shadow, frame, label, writing, watermark, UI or elemental-class badge. Keep the native antialiased alpha; no painted checkerboard. Fine polished 2D hand-painted illustration, no 3D toy gloss, no realism, no pixel art.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "evidence": {
+    "nativeFile": "C:/Users/luyua/.codex/generated_images/01a17719-c410-7dc0-9ba1-65d2b3f6cc22/exec-c05a1b25-77df-4d9b-92ad-8405d8bfbd1b.png",
+    "request": "records/roster-expansion-20261030-qun1/yuan-shao-master-v1.request.json",
+    "returnedModelMetadata": false
+  },
+  "unverifiedReason": "宿主管理；工具无型号/质量选择器，未返回可核实型号、质量或服务端生成时间。",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261030-qun1/yuan-shao-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative visual style"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative visual style"
+    }
+  ],
+  "identity": {
+    "personID": "ww-p-43a8b0f51197",
+    "entityID": "ww-p-43a8b0f51197",
+    "name": "袁绍",
+    "canonicalName": "袁绍",
+    "category": "普通人物",
+    "status": "queued_official_identity_candidate",
+    "identityStatus": "primary_index_name_confirmed",
+    "cards": [
+      100006,
+      100670,
+      130006,
+      130670
+    ],
+    "publicListCards": [
+      100006,
+      100670
+    ],
+    "source": [
+      {
+        "url": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "locator": "displayName=袁绍; cardIds=100006,100670,130006,130670",
+        "sha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe"
+      },
+      {
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "locator": "卷6",
+        "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 6
+  },
+  "status": "generated_not_final_accepted"
+}

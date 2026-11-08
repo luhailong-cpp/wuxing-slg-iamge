@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "clientDate": "2026-11-01",
+  "status": "host_usage_limit_reached",
+  "newImagesGenerated": 0,
+  "failures": [
+    {
+      "id": "yuan-shu",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/yuan-shu-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "zhang-liang",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/zhang-liang-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "chen-gong",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/chen-gong-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "gao-shun",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/gao-shun-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "jia-xu",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/jia-xu-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "deng-ai",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/deng-ai-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "cai-wen-ji",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.request.json",
+      "generated": false
+    },
+    {
+      "id": "zhang-chun-hua",
+      "error": "imagegen returned HTTP429 usage_limit_reached; no image",
+      "request": "records/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.request.json",
+      "generated": false
+    }
+  ],
+  "followupAfterDisclosedReset": {
+    "newImagesGenerated": 8,
+    "allSaved": true,
+    "status": "generated_after_quota_reset",
+    "resetAtUtc": "2026-11-02T03:31:47Z",
+    "sourceManifest": "exports/01-率土之滨/roster-expansion-20261101-heroes1/generals-ui-manifest.json"
+  }
+}

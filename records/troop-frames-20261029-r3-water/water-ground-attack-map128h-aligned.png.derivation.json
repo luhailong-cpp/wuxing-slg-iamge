@@ -1,0 +1,21 @@
+{
+  "file": "records/troop-frames-20261029-r3-water/water-ground-attack-map128h-aligned.png",
+  "sha256": "7a3f6ec4adf504358e795f6491b1c405adafda16001507bb2dbcc5d1d1cba8e4",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "sha256": "7c44796514c6c15aafa045f0c7de9c56873c529d339b73f8ef5c1ce4f5d753a4",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "QA-only contact/helmet/grid/grounding preview",
+    "notRuntimeAsset": true,
+    "registrationInput": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "scripts": [
+      "work/troop-frames-20261029-r3-water/measure.py",
+      "work/troop-frames-20261029-r3-water/review_sources.py",
+      "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py"
+    ]
+  }
+}

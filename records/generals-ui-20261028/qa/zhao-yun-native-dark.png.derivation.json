@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/zhao-yun-native-dark.png",
+  "sha256": "83fd6662bcdf838f272cc0cf023896a3ab15840a528a1253b31b093adf458dc3",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1644,
+  "height": 980,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-face-native.png",
+      "sha256": "f282b54acfd35653a6bd8153af72244a04cbf4b22558111795c0aef9f21b72fa",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/zhao-yun-bust-native.png",
+      "sha256": "e6cfb9bd3519257a06afa83ea4ff02880f67485f77eb6f05aa5b9c8a61c2395a",
+      "record": "exports/01-率土之滨/generals-ui-v1/zhao-yun-bust-native.png.derivation.json"
+    }
+  ]
+}

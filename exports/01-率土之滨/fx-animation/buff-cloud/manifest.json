@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "buff-cloud",
+  "clipName": "buff-cloud",
+  "createdAtUtc": "2026-10-27T16:59:57.240164+00:00",
+  "sourceSheet": {
+    "file": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png",
+    "sha256": "fb0c951d786f5aa4d5079293f546c0d501a78db0ebf5a5247631d0461b7300b0",
+    "record": "designs/01-率土之滨/assets/fx-animation/buff-cloud-sheet-v3.png.generation.json",
+    "grid": {
+      "columns": 4,
+      "rows": 2,
+      "order": "left_to_right_top_to_bottom"
+    }
+  },
+  "frameCount": 8,
+  "frameSize": [
+    640,
+    640
+  ],
+  "anchor_px": [
+    320,
+    320
+  ],
+  "anchorNormalizedTopLeft": [
+    0.5,
+    0.5
+  ],
+  "registration": "Same manually annotated energy-core anchor; integer crop/paste only; scale1.0 for every frame, no per-bbox fit",
+  "durationSeconds": 0.8,
+  "frameDurationSeconds": 0.1,
+  "loop": false,
+  "timingBasis": "Visual demonstration only; no approved combat timing or event contract",
+  "events": [],
+  "frames": [
+    {
+      "index": 0,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-00.png",
+      "sha256": "72b9785ac81964fcf69d72ba7102276449842b327b6a4cddd6909875819ed48a",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-00.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "seed"
+    },
+    {
+      "index": 1,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-01.png",
+      "sha256": "baf024717dbc03b2450130f90125072768480387f73a8574e2a8b7e46361e45f",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-01.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "small_arc"
+    },
+    {
+      "index": 2,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-02.png",
+      "sha256": "a35acdbdb5329f3d1bd144ae0a02058c29c2d53f196268296aeb6c0a7f34647b",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-02.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "growing_orbit"
+    },
+    {
+      "index": 3,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-03.png",
+      "sha256": "69e9b7617924aaf83944443af07ab03b7b3131d60c719c12f754cd7463c73670",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-03.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "closing_orbit"
+    },
+    {
+      "index": 4,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-04.png",
+      "sha256": "36dce6e5a3c0a84ca7f711f5c80b170be5cd5e78afb40ca8aeb92956e4b4b017",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-04.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "peak"
+    },
+    {
+      "index": 5,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-05.png",
+      "sha256": "b1beb193e824769ab438c98b85ac2c97957f64d8f2fa453fbe65d086f4e85bdb",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-05.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "breaking_fade"
+    },
+    {
+      "index": 6,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-06.png",
+      "sha256": "4fabc35f59524c7c2ee27835922353f528911ce72a728f41ee0c69bb4c868224",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-06.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "sparse_wisps"
+    },
+    {
+      "index": 7,
+      "file": "exports/01-率土之滨/fx-animation/buff-cloud/frame-07.png",
+      "sha256": "9fd4380c6df1dbddd46c405e07e2c8a20bb2a956007d68b8664c314432476af1",
+      "record": "exports/01-率土之滨/fx-animation/buff-cloud/frame-07.png.derivation.json",
+      "durationSeconds": 0.1,
+      "phase": "residual_motes"
+    }
+  ],
+  "review": "records/01-率土之滨/buff-cloud-animation-review-20261027.json",
+  "status": "eight_distinct_frame_one_shot_candidate_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "warnings": [
+    {
+      "id": "faint_specks",
+      "status": "warn",
+      "value": {
+        "floor_px": 92932,
+        "detached_components": 2
+      },
+      "threshold": 0,
+      "note": "alpha haze and detached specks; process removes them with --alpha-hygiene both"
+    }
+  ],
+  "limitations": [
+    "Native low-alpha haze/specks retained without threshold clearing.",
+    "Eight staged generated phases are a candidate; final temporal smoothness and game integration are not accepted.",
+    "Source sheet v3 replaces v1 crossing and v2 tight-margin proposals for this export."
+  ]
+}

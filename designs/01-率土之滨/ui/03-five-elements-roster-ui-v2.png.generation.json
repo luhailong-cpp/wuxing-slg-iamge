@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/03-five-elements-roster-ui-v2.png",
+  "sha256": "8bc6d9e6fa79df280e7f7f094c8f63f979417b3e46634e85baaca29d6189d22e",
+  "generatedAt": "2026-10-27T13:33:19.754Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T13:31:26.815Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/03-generals-ui-v1.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/03-five-elements-roster-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理；内置工具未披露实际模型/画质。配置目标和提示词不等同实际返回证据。",
+  "evidence": [
+    {
+      "file": "records/01-率土之滨/03-five-elements-roster-ui-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/01-率土之滨/03-five-elements-roster-ui-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d74-9ca8-7061-8996-5aefcd03a82b/exec-0b763ded-7e6a-471b-a950-6b8079637731.png",
+      "sha256": "8bc6d9e6fa79df280e7f7f094c8f63f979417b3e46634e85baaca29d6189d22e",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/03-five-elements-roster-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件主参考，仅风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队主参考，仅风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+      "role": "5系母版半尺寸参考拼板，仅身份；来源见相邻derived记录",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/03-generals-ui-v1.png",
+      "sha256": "5fd0e6598351986dfb62b5e745146ce239bd9aefb720e0e27a0843b191b8aa10",
+      "role": "旧总览，仅功能布局",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/03-generals-ui-v1.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "五行五系修士总览原创重设计v2，主角鞋底遮挡待v3修订",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T13:34:34.196147+00:00"
+}

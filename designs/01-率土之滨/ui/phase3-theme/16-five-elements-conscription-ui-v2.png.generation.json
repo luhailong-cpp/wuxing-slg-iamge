@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/ui/phase3-theme/16-five-elements-conscription-ui-v2.png",
+  "sha256": "c2ad9abe414a4f328a84022e2af5e6e8b8bff6372018dc23610368f34f4d6b0e",
+  "generatedAt": "2026-10-27T18:54:02.540Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-10-27T18:52:55.406Z",
+  "width": 1916,
+  "height": 821,
+  "format": "PNG",
+  "mode": "RGB",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": null,
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/16-conscription-ui-v1.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png"
+    ],
+    "num_last_images_to_include": null,
+    "promptFile": "prompts/01-率土之滨/worker-theme-phase3/16-five-elements-conscription-ui-v2.prompt.txt"
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "宿主管理，工具仅返回image_url/output_hint，未披露模型/画质。",
+  "evidence": [
+    {
+      "file": "records/worker-theme-phase3/16-five-elements-conscription-ui-v2.tool-request.json",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/worker-theme-phase3/16-five-elements-conscription-ui-v2.tool-response.json",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt"
+      ]
+    },
+    {
+      "sourceImage": "C:/Users/luyua/.codex/generated_images/01a17d77-f08e-7500-b96a-7cf0bcdf73d9/exec-d5907239-2071-4519-9068-9551bab3fe1d.png",
+      "sha256": "c2ad9abe414a4f328a84022e2af5e6e8b8bff6372018dc23610368f34f4d6b0e",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/worker-theme-phase3/16-five-elements-conscription-ui-v2.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "邮件主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "组队主风格",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/16-conscription-ui-v1.png",
+      "sha256": "fab1b06a30be8c93fdb579d145cb30224425d6024319957fb8b7a7d39ef5daec",
+      "role": "旧征兵仅功能布局与演示算术",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/16-conscription-ui-v1.png.generation.json"
+    },
+    {
+      "file": "records/01-率土之滨/reference-contact/five-elements-masters-v1.png",
+      "sha256": "3637c6cb8a6ab1315ee7df277a1cca3f683bc89b19df11d01bf47f21ca674e7f",
+      "role": "五位原创master有记录参考拼板，仅取金木身份",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png",
+      "sha256": "a63c376507fafed1704aab74a39dd6a2e1d31f17795dafb41e7b8577ec27527a",
+      "role": "新编队金木人物及UI连续性，非像素级头像复用",
+      "actuallyAttached": true,
+      "generationRecord": "designs/01-率土之滨/ui/phase3-theme/15-five-elements-formation-ui-v2.png.generation.json"
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": null,
+  "assetRole": "五行征兵静态候选；原功能演示数值保留；粮草不足禁用；未集成客户端",
+  "status": "draft_pending_user_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "finalizedAt": "2026-10-27T18:54:40.059307+00:00"
+}

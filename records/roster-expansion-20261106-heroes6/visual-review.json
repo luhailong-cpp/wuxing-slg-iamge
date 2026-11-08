@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "reviewedAtUtc": "2026-11-06T11:25:23.826862+00:00",
+  "ids": [
+    "yang-biao",
+    "song-qian",
+    "sima-hui",
+    "cao-pi"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261106-heroes6/generals-ui-light.png",
+      "sha256": "6020118dedc930db83b56bb5e203cd8aba4d780b9b8d719caa7fe9dbed25aad6"
+    },
+    {
+      "file": "records/roster-expansion-20261106-heroes6/generals-ui-dark.png",
+      "sha256": "55bd1be62151729a06308c9a93c6580a268a087e61213d37c291d197f1846b6a"
+    }
+  ],
+  "scope": "Internal visual QA of transparent figures and card, bust, and face derivatives.",
+  "notes": [
+    "Yang Biao: both shoes, court tablet, and cap are intact in the full card.",
+    "Song Qian: both spear tips and both shoes are intact in the full card. Portrait crops retain the face and only part of the weapon.",
+    "Sima Hui: full card retains the mirror and shoes. The smaller face crop prioritizes facial features over the mirror.",
+    "Cao Pi: cap, bamboo slips, sheathed sword and both shoes are intact in the full card. The close native top and bottom margins are documented.",
+    "Light and dark review shows clean visible silhouettes and readable faces. Native alpha-1 pixels, peak alpha 254 and margin advisories remain recorded; the originals are byte-identical to the host files."
+  ]
+}

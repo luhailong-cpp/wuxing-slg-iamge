@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "file": "records/01-率土之滨/mapfx-crop-qa-20261027/cities-row-2-native-light-dark.png",
+  "sha256": "2f82896f3d124d1d1f5b8423685e44ff6ff346133d8121905997201d141ee250",
+  "createdAt": "2026-10-27T13:17:57.600008+00:00",
+  "purpose": "visual_QA_only_not_runtime_art",
+  "operation": "crop_then_alpha_composite_on_two_constant_QA_backgrounds",
+  "resampled": false,
+  "alphaBackgroundsRGB": [
+    [
+      245,
+      241,
+      230
+    ],
+    [
+      28,
+      38,
+      44
+    ]
+  ],
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+      "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd",
+      "cropBox": [
+        0,
+        457,
+        430,
+        841
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+      "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd",
+      "cropBox": [
+        430,
+        457,
+        836,
+        841
+      ]
+    },
+    {
+      "file": "designs/01-率土之滨/assets/map-kit/01-city-types-sheet-v2.png",
+      "sha256": "e47292d985ef8cf456147480196cd894019c36fb9f8694bf8ae58d75cccfa4cd",
+      "cropBox": [
+        836,
+        457,
+        1254,
+        841
+      ]
+    }
+  ],
+  "sourcePixelsUnchangedInRuntimeExports": true,
+  "note": null
+}

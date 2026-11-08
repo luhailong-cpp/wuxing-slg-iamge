@@ -1,0 +1,16 @@
+Use case: identity-preserve
+Asset type: DIRECTLY IMAGE-GENERATED character walk pose sheet for 五行问鼎. This is not a video and not an FX sheet.
+Image 1 is the exact existing GOLD / METAL ordinary soldier master: preserve the same face, body proportions, silver-ivory helmet with gold trim and off-white plume, green jade gems, teal under-tunic, ivory trousers, gold-edged silver armour, small curved saber in the same hand (screen-left in the neutral pose) and oval silver-and-gold shield in the same hand (screen-right). Images 2 and 3 are authoritative hand-painted art style references only; do not copy their UI, scenery, characters, lettering or props.
+Create one transparent RGBA PNG sprite sheet with EXACTLY 8 complete full-body poses, 4 equal columns and 2 equal rows, row-major chronological order. Prefer 2048x1024 canvas and equal square cells; each full unit including plume, blade and shield must remain in its own cell with at least 12% empty margin. Native crisp HD hand-painted detail, smooth antialiasing, no pixel-art treatment.
+Fixed three-quarter elevated isometric game view facing southeast / down-right, matching the master. Camera, facing, handedness, costume and anatomical size stay identical across all cells. No mirror, no turn toward camera or away, no armour morphing. All 8 bodies have the same height and head scale with only small intentional walking bob; NEVER fit each pose to the bounds independently.
+Action is a grounded marching WALK IN PLACE, one complete two-step cycle. Keep the hip/root at the same x coordinate and projected ground position in each cell; legs and arms articulate around it. The NEAR leg is the leg nearer the viewer, screen-right in the neutral pose, and the FAR leg is farther from the viewer, screen-left. Sword and shield stay attached to their original hands with restrained counter-swing.
+Cell 0: NEAR heel reaches forward/down-right to contact, FAR foot trails.
+Cell 1: weight settles onto NEAR planted leg, knee softly compressed, FAR heel lifts.
+Cell 2: FAR foot passes beneath the hips while NEAR supports, limbs clearly distinct.
+Cell 3: FAR foot advances for contact, NEAR toe pushes from behind, one foot still planted.
+Cell 4: FAR heel leads forward/down-right to contact, NEAR foot trails; clearly opposite leading leg to cell 0, never a duplicate/mirror of cell 0.
+Cell 5: weight settles onto FAR planted leg, NEAR heel lifts.
+Cell 6: NEAR foot passes beneath hips while FAR supports; clearly opposite support to cell 2.
+Cell 7: NEAR foot advances toward next contact so the sequence returns naturally to cell 0.
+At least one sole touches the shared imaginary ground plane in every frame, no flight, no hopping. Feet must visibly alternate so this is not eight tiny variations of the same stance. Keep space between legs when possible; do not hide all phases behind shield.
+No motion trails, strike effects, shadows, ground, floating sparks, disconnected equipment, duplicates, labels, numbers, borders, grid lines, checkerboard or UI. The surrounding pixels must be truly transparent. Do not render any part outside its assigned cell.

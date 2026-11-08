@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "art_source": "host_image",
+  "startedAt": "2026-10-27T17:22:55.709Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "modelParameterExposed": false,
+  "qualityParameterExposed": false,
+  "submittedParameters": {
+    "model": null,
+    "quality": null,
+    "prompt": "Use case: stylized-concept\nAsset type: 道家Q版SLG单一火焰fire特效的八帧连续one-shot sprite sheet，4列×2行，真实透明PNG。\nReferences: image1邮件UI、image2组队UI只为统一细腻高清手绘风格和温润材质，不复制UI、人物、建筑或场景。Image3为唯一火焰身份：朱砂橙红、暖金亮核、圆润S形卷焰、少量小火星。八格只画这个同一火焰从点燃到消散的一次连续过程。Image4是4x2几何布局模板，只参考各格位置与安全区域，所有黑边/白底/蓝框/虚线都必须消失。\nCanvas: landscape2:1, ideally2048×1024, exactly4 columns×2 rows, eight equally sized square cells in reading order left-to-right top row then left-to-right bottom row. No ninth tile or separate title. Eight stages all visibly nonempty. No text, numbers, labels, frame lines, white boxes, arrows or captions.\nSize/containment: each effect must look miniature inside a large empty transparent cell. At peak, all flame tips/glow/sparks together occupy no more than the central45% of a cell's width and45% of its height; never fill a cell. At least25% genuine transparent empty gutter on every side, broad gaps between all8 phases. No flare, glow or particle may cross a cell boundary or touch a sheet edge. Use image4's inner blue boxes only as containment references; draw no guide mark in the output.\nShared origin/camera: all phases use precisely the SAME ignition point at x50%,y65% of their cell. Keep that root fixed; flames grow upward from it and collapse back to it. Do not move the burning base upward with phase height or recenter each flame silhouette. Same camera, same hand-painted lighting, same material scale. No ground, ring platform, shadow disc or lava pool; the ignition point is just the common art origin, not a floor.\nExact8 phases:\n1. A tiny nonempty red-gold ember bud at the common ignition point, one short curled flame tip, about8% cell width.\n2. The same ember opens into a small orange tongue with one tiny gold spark, about15% width.\n3. Two related curled tongues grow upward, a pale warm core begins, about25% width.\n4. Same rounded S-shaped fire curls taller and brighter, small red outer edge and few gold sparks, about35% width/height.\n5. Peak of the SAME fire: a compact elegant S-shaped golden core with red-orange curled outer tongues like image3, max45% width/height, every flame tip complete, no outward explosion or big ring.\n6. The same fire thins and breaks into two smaller curling tongues, pale core fading, sparks reduce, about30% width.\n7. Only a low small orange-red flame curl plus three dim embers near the same ignition point, about18% width.\n8. A tiny residual orange-gold ember and two small dim sparks close to fixed ignition point, about8% width; nonempty, visibly weak, completing the fade.\nStyle: same high-finish hand-painted rounded fantasy FX from image3 and main references, clean controlled soft edges, warm golden light and cinnabar/orange, delicate curved fire shapes; no photoreal fire/smoke, plastic3D, vector icon row, dense noise, harsh neon outline, characters, faces or extra objects.\nAlpha/background: genuine native transparent alpha. Everything except the isolated flame phases is actually transparent. No global orange fog or shared haze, no black/white background, fake checkerboard, ground, scenery, watermark or game UI. Flame glow confined to each compact phase's safe envelope.\nScope: one continuous effect in8 ordered phases, not8 unrelated skills. 0.8-second one-shot visual candidate with0.1second perframe; no looping/timing/combat rule acceptance implied.",
+    "promptFile": "prompts/01-率土之滨/fire-sheet-v1.prompt.txt",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/exports/01-率土之滨/fx/fire.png",
+      "D:/work/wuxing-slg-iamge/records/01-率土之滨/fx-animation-guides/layout-4x2-50pct.png"
+    ],
+    "transparent_background": true
+  }
+}

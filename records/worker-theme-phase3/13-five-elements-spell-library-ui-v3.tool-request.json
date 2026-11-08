@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "tool": "image_gen.imagegen",
+  "startedAt": "2026-10-27T19:02:15.353Z",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-10-26",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Edit/recreate reference 3 as one improved full landscape static Daoist game UI candidate. References 1 mail and 2 team are the primary style; reference 3 is the complete current five-elements spell library to preserve; reference 4 supplies the complete original five spell motifs. Native wide 1916:821 composition. Preserve all layout, readable Chinese, amounts and selected states from reference 3. MAIN FIX: ALL FIVE card icons must be compact and have visibly complete silhouettes with clear ivory gap between art and the name line. In reference 3, lower fire and earth motifs are cropped by a horizontal name strip; correct this. Fit the whole FIRE tablets and bottom curl/flame base inside its art window, fit the whole EARTH shield and mountain/cloud base inside its art window. Reduce each card's motif apparent size approximately 20 percent. All five icons sit fully within their circular or softly framed art medallion, not clipped by labels, card edges or row boundary. Do not change or shrink readable labels to make room. No new characters.\n\nExact contents: title 五行术法库. Back arrow upper left, X upper right. Left category list 全部 selected jade, 攻击, 恢复, 辅助, 防御. Center 术法 5 / 200 and 筛选 button. Grid three columns and two rows. Top row selected 金 铸锋符阵 (rune ruler + array compass + ivory crescent), 攻击, 可学习 3 / 3; 木 青蘅回春 (bamboo leaf, jade seed), 恢复, 可学习 2 / 3; 水 沧澜流环 (blue jade wave ring and droplet), 辅助, 可学习 2 / 2. Bottom row 火 焰翎符火 (two vermilion tablets and flame, ENTIRE base visible), 攻击, 可学习 1 / 2; 土 玄垣山御 (mountain seal and shield, ENTIRE base visible), 防御, 可学习 1 / 3; muted empty card plus 暂无术法. Keep correct Chinese, especially 蘅, 翎, 垣 and 铸锋.\n\nRight selected detail pane METAL large complete ruler/compass motif, name 铸锋符阵, 主动 and 敌军单体 rows, jade 查看详情 button. Bottom bar 术法经验 200 plus button, small 演示配置, hint 选择术法查看详情, ivory 拆解术法 button. Keep warm ivory paper, jade green, fine warm gold rounded cloud frames, sunny pavilions/flowers at margins. Do not add letter rarity, stars, people, product name, new rules or explanatory production labels. All five motifs must be visibly whole and distinct at the card size. Complete coherent new UI painting, not code or collage.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v2.png",
+      "D:/work/wuxing-slg-iamge/designs/01-率土之滨/assets/five-elements/five-elements-skill-icons-v1.png"
+    ],
+    "transparent_background": false
+  },
+  "demoValuesAreGameplayContract": false,
+  "staticDirectionOnly": true,
+  "repairOf": "designs/01-率土之滨/ui/phase3-theme/13-five-elements-spell-library-ui-v2.png",
+  "repairReason": "Lower fire and earth icon silhouettes clipped by the name-strip art window in v2.",
+  "userApproved": false,
+  "clientIntegrated": false
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/roster-expansion-20261029-wu1/sun-ce-card-full.png",
+  "sha256": "bb948773a227deec29581e897d302c45192a86fb142d3b1ea9dfc32fd3e292f3",
+  "createdAtUtc": "2026-10-29T10:46:50.465472+00:00",
+  "width": 768,
+  "height": 1152,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing_native_master",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "sun-ce",
+  "personID": "ww-p-8fa0077b6be6",
+  "displayName": "孙策",
+  "variant": "card-full",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png",
+      "sha256": "7cce405788136b7e78c1f1c2700f7f7133f4674d1649ef9dbe647cbeb72cc2c5",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-wu1/sun-ce-master-v1.png.generation.json",
+      "recordSha256": "6bad4a632bcb6743a0b9547a1b2255acf8dd79dcb4de9412a92656294c215c04"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "crop_premultiplied_LANCZOS_downsample_and_transparent_padding",
+  "cropBox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "resizeTo": [
+    704,
+    1056
+  ],
+  "pasteOffsetTopLeft": [
+    32,
+    48
+  ],
+  "canvas": [
+    768,
+    1152
+  ],
+  "sourcePixelsExact": false,
+  "resampled": true,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "alphaNormalized": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    445,
+    310,
+    735,
+    520
+  ],
+  "faceRoiOutputApprox": [
+    337.94,
+    261.12,
+    537.31,
+    405.5
+  ],
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 452864,
+    "alpha1Pixels": 10520,
+    "semiTransparentPixels": 430494,
+    "opaquePixels": 1378,
+    "bboxAbove32": [
+      42,
+      78,
+      725,
+      1078
+    ],
+    "edgePixelsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgePixelsAbove0": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "marginsAbove32": [
+      42,
+      78,
+      43,
+      74
+    ]
+  },
+  "sourceActualModel": null,
+  "sourceActualQuality": null,
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "message": "Original new art candidate; not final roster or launch art acceptance."
+    },
+    {
+      "id": "TIGHT_SOURCE_MASTER_MARGIN",
+      "sourceMargins": [
+        15,
+        44,
+        16,
+        38
+      ],
+      "message": "Requested 8% source margins not reached on every side. Full card preserves entire source and adds transparent padding; no missing detail is synthesized."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "count": 10520,
+      "message": "Source RGBA retained; no threshold, chroma key, matte erasing, or alpha normalization."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

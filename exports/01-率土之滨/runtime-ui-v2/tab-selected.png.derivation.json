@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 2,
+  "file": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+  "sha256": "8911a2acb0acf90a3cf5811302f9d9246271ce00edfa773b8a7b54f9cd654954",
+  "createdAtUtc": "2026-10-27T17:51:22.975211+00:00",
+  "format": "PNG",
+  "mode": "RGBA",
+  "width": 500,
+  "height": 204,
+  "art_source": "existing",
+  "sourceArtSource": "host_image",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png",
+      "sha256": "2cbf0801a59b6851666aa53ef0c3d3bf73680a28810f88455215d8ec02ae92ef",
+      "record": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-01-control-states.png.generation.json"
+    }
+  ],
+  "operation": "native_recrop_and_integer_register_on_common500x204",
+  "cropBox": [
+    0,
+    490,
+    444,
+    650
+  ],
+  "offset": [
+    28,
+    18,
+    472,
+    178
+  ],
+  "sourceAnchorUsedPx": [
+    222,
+    574
+  ],
+  "sourceAnchorExactColumnPx": [
+    222.0,
+    574
+  ],
+  "targetArtworkFrameCenter": [
+    250,
+    102
+  ],
+  "integerRegistrationErrorPx": [
+    0.0,
+    0
+  ],
+  "registrationBasis": "4states perrow share common source frame center; source column halfpixel centers rounded upward, causing at most-0.5px exact-column error; no resampling",
+  "sourcePixelsPreserved": true,
+  "resampled": false,
+  "repainted": false,
+  "alphaEdited": false,
+  "byteForByteCopy": false,
+  "previousExport": "exports/01-率土之滨/runtime-ui/tab-selected.png",
+  "previousExportRecord": "exports/01-率土之滨/runtime-ui/tab-selected.png.derivation.json",
+  "alphaInspection": {
+    "range": [
+      0,
+      255
+    ],
+    "fullyTransparentPixels": 55752,
+    "alpha1PixelCount": 3909,
+    "bboxAbove16": [
+      66,
+      41,
+      458,
+      151
+    ],
+    "visibleMarginsAbove16": [
+      66,
+      41,
+      42,
+      53
+    ],
+    "edgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "edgeMaxAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "sourceCropEdgePixelsAbove16": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "nineSliceCandidate": {
+    "left": 128,
+    "top": 90,
+    "right": 128,
+    "bottom": 90,
+    "basis": "Provisional common500x204 source-border candidate for isolated Unity Sliced rendering only; actual result in separate QA",
+    "clientVerified": false
+  },
+  "nineSliceVerifiedInClient": false,
+  "warnings": [
+    {
+      "id": "NATIVE_ALPHA1_RETAINED",
+      "value": 3909,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/runtime-ui-v2/tab-selected.png",
+      "message": "Native alpha1 source residue retained; no threshold cleaning/keying/repaint."
+    }
+  ],
+  "status": "corrected_native_UI_candidate_pending_engine_and_user_review",
+  "userApproved": false,
+  "clientIntegrated": false
+}

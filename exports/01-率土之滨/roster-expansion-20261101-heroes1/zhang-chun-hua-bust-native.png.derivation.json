@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/zhang-chun-hua-bust-native.png",
+  "sha256": "d96a592b962e05058e7a4358a3eadced02fa07e30b358b910a27b7b468329f07",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png",
+    "sha256": "987fd0574dafcb9313fa8efa541da89d8fcbff1b990d5bd3a2e7b38558bf0601",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/zhang-chun-hua-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      20,
+      20,
+      1004,
+      1080
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

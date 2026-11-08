@@ -1,0 +1,2100 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-29T11:19:18.954935+00:00",
+  "scope": "Six historical named general artistic interpretations; five elements classify troops only",
+  "generalCount": 6,
+  "newGeneratedMasterCount": 6,
+  "derivedAssetCount": 30,
+  "variantCounts": {
+    "face-native": 6,
+    "bust-native": 6,
+    "avatar-128": 6,
+    "avatar-256": 6,
+    "card-full": 6
+  },
+  "sources": [
+    {
+      "id": "ma-chao",
+      "displayName": "马超",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/ma-chao-master-v1.png",
+      "sha256": "8c42e6a221e744c3875c5d6ccf68fa898b3c88d41e2853e445c5625dcfd8d03a",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/ma-chao-master-v1.png.generation.json",
+      "recordSha256": "be05231a6a75930ae7f58f41fa592271e703a1089d20e606a21c900a435c581c",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 775565,
+        "alpha1Pixels": 28101,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          21,
+          34,
+          1003,
+          1460
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          21,
+          34,
+          21,
+          76
+        ]
+      },
+      "identity": "young angular brows, clean-shaven, silver helmet and large ivory plume, upright spear",
+      "manualFaceBox": [
+        380,
+        250,
+        760,
+        655
+      ],
+      "manualBustBox": [
+        100,
+        180,
+        990,
+        1060
+      ],
+      "manualFaceRoi": [
+        470,
+        475,
+        665,
+        612
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 28101,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            21,
+            34,
+            21,
+            76
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ],
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "id": "huang-zhong",
+      "displayName": "黄忠",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/huang-zhong-master-v1.png",
+      "sha256": "18316e282fdb364e749d1c43a9b071ee71ab4dbf8412e5a2ee0aded7912ca4bf",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/huang-zhong-master-v1.png.generation.json",
+      "recordSha256": "28c4e72de8ba4e9277c0b5155145f058133d9fc959b56559a3ee099c7fd041e0",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 732222,
+        "alpha1Pixels": 18511,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          45,
+          143,
+          986,
+          1442
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          45,
+          143,
+          38,
+          94
+        ]
+      },
+      "identity": "elderly broad weathered face, white eyebrows and full white beard, bronze helmet, recurved bow and quiver",
+      "manualFaceBox": [
+        330,
+        250,
+        780,
+        810
+      ],
+      "manualBustBox": [
+        75,
+        140,
+        970,
+        1060
+      ],
+      "manualFaceRoi": [
+        480,
+        395,
+        730,
+        590
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 18511,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            45,
+            143,
+            38,
+            94
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ],
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "id": "wei-yan",
+      "displayName": "魏延",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/wei-yan-master-v1.png",
+      "sha256": "48feb538691b4722f4ab2a0fee6c23be7c4c91cbaa4cda017023274b111f9c37",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/wei-yan-master-v1.png.generation.json",
+      "recordSha256": "3e6a40094397640b40e0980297dbb13f8c6fbba6c7a05eda6b7c81f006ea79ed",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 796478,
+        "alpha1Pixels": 13135,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          65,
+          103,
+          997,
+          1441
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          65,
+          103,
+          27,
+          95
+        ]
+      },
+      "identity": "broad mature face, heavy straight brows, black beard, copper helmet with red plume, broad dao blade",
+      "manualFaceBox": [
+        350,
+        170,
+        725,
+        615
+      ],
+      "manualBustBox": [
+        70,
+        100,
+        990,
+        1040
+      ],
+      "manualFaceRoi": [
+        490,
+        350,
+        675,
+        500
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 13135,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            65,
+            103,
+            27,
+            95
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ],
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "id": "pang-tong",
+      "displayName": "庞统",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/pang-tong-master-v1.png",
+      "sha256": "fff403fc5bad2ce464729d31d76a23cebe7e2d71ac95d63d063eb17bafd8e82b",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/pang-tong-master-v1.png.generation.json",
+      "recordSha256": "6e9f790cce8a1c2a15e103cd9244cc7c02f21541aef972c39b7a77b549bba703",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 768896,
+        "alpha1Pixels": 15956,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          60,
+          196,
+          980,
+          1427
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          60,
+          196,
+          44,
+          109
+        ]
+      },
+      "identity": "wide rounded face and nose, uneven lifted brows, asymmetric smile, soft cloth cap, wooden staff with gourd and bamboo scroll",
+      "manualFaceBox": [
+        280,
+        190,
+        790,
+        675
+      ],
+      "manualBustBox": [
+        55,
+        190,
+        980,
+        1070
+      ],
+      "manualFaceRoi": [
+        400,
+        360,
+        700,
+        615
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 15956,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            60,
+            196,
+            44,
+            109
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ],
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "id": "jiang-wei",
+      "displayName": "姜维",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png",
+      "sha256": "853a50ac3a2ec9a6ac8028eb23b3ff67434c9294e40af241e144ca2efadd5b18",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/jiang-wei-master-v1.png.generation.json",
+      "recordSha256": "282ccf29ab321c7721355bd04523b3e1febce4d284a5bc7b55413e645f321492",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 905177,
+        "alpha1Pixels": 17717,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          38,
+          101,
+          1008,
+          1462
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          38,
+          101,
+          16,
+          74
+        ]
+      },
+      "identity": "young clean-shaven oval face and serious expression, compact bun and jade crown, diagonal spear",
+      "manualFaceBox": [
+        320,
+        130,
+        710,
+        570
+      ],
+      "manualBustBox": [
+        100,
+        130,
+        980,
+        1050
+      ],
+      "manualFaceRoi": [
+        400,
+        355,
+        630,
+        535
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 17717,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            38,
+            101,
+            16,
+            74
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ],
+      "userApproved": false,
+      "clientIntegrated": false
+    },
+    {
+      "id": "xu-shu",
+      "displayName": "徐庶",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/xu-shu-master-v1.png",
+      "sha256": "e48e45533bce8c8d83873cbf0cec16d0db1dfdf4cfe4b38a38789af7da80bdd1",
+      "record": "designs/01-率土之滨/characters/roster-expansion-20261029-shu1/xu-shu-master-v1.png.generation.json",
+      "recordSha256": "9d2ef94c914035390868dced8773c96b57bf4951695f153bbe0853626484ea44",
+      "width": 1024,
+      "height": 1536,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 813980,
+        "alpha1Pixels": 15349,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          106,
+          97,
+          953,
+          1479
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          106,
+          97,
+          71,
+          57
+        ]
+      },
+      "identity": "long calm face, fine moustache and chin beard, low square scholar cap, closed bamboo manuscript and sheathed sword",
+      "manualFaceBox": [
+        320,
+        90,
+        750,
+        575
+      ],
+      "manualBustBox": [
+        100,
+        80,
+        960,
+        1000
+      ],
+      "manualFaceRoi": [
+        430,
+        315,
+        670,
+        520
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "value": 15349,
+          "threshold": 0,
+          "message": "No erasing or alpha thresholding; faint source alpha retained."
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW_255",
+          "value": 254,
+          "threshold": 255,
+          "message": "Original alpha maximum preserved."
+        },
+        {
+          "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+          "value": [
+            106,
+            97,
+            71,
+            57
+          ],
+          "threshold": [
+            102.4,
+            153.6,
+            102.4,
+            153.6
+          ],
+          "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+        }
+      ],
+      "userApproved": false,
+      "clientIntegrated": false
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "ma-chao-face-native",
+      "generalId": "ma-chao",
+      "displayName": "马超",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-face-native.png",
+      "sha256": "afad667174d7835da8d7900b07af5e6df0140da6dffb818c107e1a0559f2bda2",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-face-native.png.derivation.json",
+      "recordSha256": "d8ebc689742fc91a788ccad22713a17c70be2cd64e3256eb41bc55773441b4c9",
+      "width": 380,
+      "height": 405,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 24810,
+        "alpha1Pixels": 2802,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          0,
+          367,
+          405
+        ],
+        "edgePixelsAbove32": [
+          405,
+          224,
+          0,
+          319
+        ],
+        "marginsAbove32": [
+          0,
+          0,
+          13,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "ma-chao-bust-native",
+      "generalId": "ma-chao",
+      "displayName": "马超",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-bust-native.png",
+      "sha256": "c03b0860d4c5f7caff6634d362778c9c6af5dbf6b933e3b55222a025e59f9482",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-bust-native.png.derivation.json",
+      "recordSha256": "f82428b961759ae0f7525378301df1c80c6af8d121944dab8bd6e2f1359f0cd9",
+      "width": 890,
+      "height": 880,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 229420,
+        "alpha1Pixels": 18340,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          0,
+          890,
+          880
+        ],
+        "edgePixelsAbove32": [
+          275,
+          107,
+          101,
+          762
+        ],
+        "marginsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "ma-chao-avatar-128",
+      "generalId": "ma-chao",
+      "displayName": "马超",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-avatar-128.png",
+      "sha256": "b0aaea118a27b321fa48cc93c66d2c89ea18bbdcc1efecfb2342870d3f378bcb",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-avatar-128.png.derivation.json",
+      "recordSha256": "f239f55508d97b113209acefa6a4ef0abdac77b54da064443488c3ffb3ff99b0",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 6594,
+        "alpha1Pixels": 105,
+        "opaquePixels": 110,
+        "bboxAbove32": [
+          11,
+          8,
+          113,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          11,
+          8,
+          15,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        35.87,
+        70.22,
+        89.75,
+        108.11
+      ]
+    },
+    {
+      "assetId": "ma-chao-avatar-256",
+      "generalId": "ma-chao",
+      "displayName": "马超",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-avatar-256.png",
+      "sha256": "9d494527ac85ef24811e1838644411da73b0879134ef29c1e67dfc31c77972ca",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-avatar-256.png.derivation.json",
+      "recordSha256": "b210d6c0ee7dba219c4cc91e527dee109123d194f16dd5ec278cfd5e22250ee3",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 26320,
+        "alpha1Pixels": 697,
+        "opaquePixels": 82,
+        "bboxAbove32": [
+          23,
+          16,
+          226,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          23,
+          16,
+          30,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        72.74,
+        140.44,
+        180.5,
+        216.22
+      ]
+    },
+    {
+      "assetId": "ma-chao-card-full",
+      "generalId": "ma-chao",
+      "displayName": "马超",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-card-full.png",
+      "sha256": "c39aae37a4e6fdce606808577a731d592b8da6731e4abba121e65efe1c281c33",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/ma-chao-card-full.png.derivation.json",
+      "recordSha256": "6470c19e690453bf9d4bca39391a66d6f260da0097e0e1c8e36b2a2576295cc5",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 510376,
+        "alpha1Pixels": 10949,
+        "opaquePixels": 1470,
+        "bboxAbove32": [
+          47,
+          71,
+          722,
+          1052
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          47,
+          71,
+          46,
+          100
+        ]
+      },
+      "faceRoiOutputApprox": [
+        355.12,
+        374.56,
+        489.19,
+        468.75
+      ]
+    },
+    {
+      "assetId": "huang-zhong-face-native",
+      "generalId": "huang-zhong",
+      "displayName": "黄忠",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-face-native.png",
+      "sha256": "73917cf8fcab667906bebe2d57d250534975074dabfe9329f984d073c8dfeeea",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-face-native.png.derivation.json",
+      "recordSha256": "06ff956578b29b1e74807c04d3e3496ecc69f3b2795a0258260847fba932e742",
+      "width": 450,
+      "height": 560,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 20927,
+        "alpha1Pixels": 1814,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          0,
+          450,
+          560
+        ],
+        "edgePixelsAbove32": [
+          452,
+          242,
+          319,
+          450
+        ],
+        "marginsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "huang-zhong-bust-native",
+      "generalId": "huang-zhong",
+      "displayName": "黄忠",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-bust-native.png",
+      "sha256": "bca401b2a9d69f18b500aa40558733969973ac8fc6c9d39c0d40c8882bf11028",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-bust-native.png.derivation.json",
+      "recordSha256": "0f830206414b1bc59b88e36679d4465cf7a5b55c5d3b21f2ea7d21d965c2f389",
+      "width": 895,
+      "height": 920,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 225545,
+        "alpha1Pixels": 12720,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          3,
+          895,
+          920
+        ],
+        "edgePixelsAbove32": [
+          90,
+          0,
+          84,
+          835
+        ],
+        "marginsAbove32": [
+          0,
+          3,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "huang-zhong-avatar-128",
+      "generalId": "huang-zhong",
+      "displayName": "黄忠",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-avatar-128.png",
+      "sha256": "1045019e310e795c7de65807a8fa479d03f0eeb5cdad7fd947453bd659a1981f",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-avatar-128.png.derivation.json",
+      "recordSha256": "05ecba5dda409b932ae0e1704a156e99508d8b5dea3fce870820131484ff1676",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7073,
+        "alpha1Pixels": 49,
+        "opaquePixels": 121,
+        "bboxAbove32": [
+          19,
+          8,
+          109,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          19,
+          8,
+          19,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        49.0,
+        37.0,
+        99.0,
+        76.0
+      ]
+    },
+    {
+      "assetId": "huang-zhong-avatar-256",
+      "generalId": "huang-zhong",
+      "displayName": "黄忠",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-avatar-256.png",
+      "sha256": "0ccdaf14a692c26b428ba2126bb502c659ac70dc0104ee78817a48fa348d9457",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-avatar-256.png.derivation.json",
+      "recordSha256": "1023bac360b6fbe6abd57185b1c95f1bdc6275ba9d02a289271a49d205625d4e",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 28608,
+        "alpha1Pixels": 182,
+        "opaquePixels": 200,
+        "bboxAbove32": [
+          38,
+          16,
+          218,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          38,
+          16,
+          38,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        98.0,
+        74.0,
+        198.0,
+        152.0
+      ]
+    },
+    {
+      "assetId": "huang-zhong-card-full",
+      "generalId": "huang-zhong",
+      "displayName": "黄忠",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-card-full.png",
+      "sha256": "f079f37fee3da322b3ef3696b5803b0467165cac0152036407b5384ee8219136",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/huang-zhong-card-full.png.derivation.json",
+      "recordSha256": "c38d990c0ecce9513a4c83c39df6808532092da04656473e4c5272904f7e7666",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 488595,
+        "alpha1Pixels": 7258,
+        "opaquePixels": 1144,
+        "bboxAbove32": [
+          63,
+          146,
+          710,
+          1040
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          63,
+          146,
+          58,
+          112
+        ]
+      },
+      "faceRoiOutputApprox": [
+        362.0,
+        319.56,
+        533.88,
+        453.62
+      ]
+    },
+    {
+      "assetId": "wei-yan-face-native",
+      "generalId": "wei-yan",
+      "displayName": "魏延",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-face-native.png",
+      "sha256": "54e18ed4cf76467fcbeeb9e05934e0918d4c391a02ed7befb7107e874775693c",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-face-native.png.derivation.json",
+      "recordSha256": "6ae5e2423fd14b690fa6edefc21eda4a3ad2d0962469786024dd788a307f6a81",
+      "width": 375,
+      "height": 445,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 20649,
+        "alpha1Pixels": 2121,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          0,
+          375,
+          445
+        ],
+        "edgePixelsAbove32": [
+          289,
+          184,
+          51,
+          375
+        ],
+        "marginsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "wei-yan-bust-native",
+      "generalId": "wei-yan",
+      "displayName": "魏延",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-bust-native.png",
+      "sha256": "043d2979ef8d3c7bd6dd3d18d0a1fc3d209edd6d4de02131bad7cc84fe3f45f5",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-bust-native.png.derivation.json",
+      "recordSha256": "143834d9ab841f4f45197941974db2f35ca5da71162ef636281e04d6a2f5c6e5",
+      "width": 920,
+      "height": 940,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 339177,
+        "alpha1Pixels": 8955,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          3,
+          899,
+          940
+        ],
+        "edgePixelsAbove32": [
+          58,
+          0,
+          0,
+          886
+        ],
+        "marginsAbove32": [
+          0,
+          3,
+          21,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "wei-yan-avatar-128",
+      "generalId": "wei-yan",
+      "displayName": "魏延",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-avatar-128.png",
+      "sha256": "f3bdacb49cf645913e8c24531b84ccfee113ec678efe5e7358ea7583eaa664bb",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-avatar-128.png.derivation.json",
+      "recordSha256": "11a033d8a1ee5f175bd47414ee2cfe3dbb22a900768441b415646c961938a479",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7132,
+        "alpha1Pixels": 53,
+        "opaquePixels": 157,
+        "bboxAbove32": [
+          17,
+          8,
+          111,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          17,
+          8,
+          17,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        52.09,
+        53.3,
+        98.47,
+        91.06
+      ]
+    },
+    {
+      "assetId": "wei-yan-avatar-256",
+      "generalId": "wei-yan",
+      "displayName": "魏延",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-avatar-256.png",
+      "sha256": "41b64572b5c1c0aaf2e165e47187f52cc71444e3c1234b354b6f3a40614ef76e",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-avatar-256.png.derivation.json",
+      "recordSha256": "98ca4dacd26b3dcb5dee5f42a0bc8c22b38669de757ecc5cff20d5f0a241018f",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 28630,
+        "alpha1Pixels": 345,
+        "opaquePixels": 234,
+        "bboxAbove32": [
+          33,
+          16,
+          222,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          33,
+          16,
+          34,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        103.56,
+        106.61,
+        196.8,
+        182.11
+      ]
+    },
+    {
+      "assetId": "wei-yan-card-full",
+      "generalId": "wei-yan",
+      "displayName": "魏延",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-card-full.png",
+      "sha256": "96349e8397f6909295331d88250cfdde20e671c9c7070e56c78a5762fe52ab01",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/wei-yan-card-full.png.derivation.json",
+      "recordSha256": "32570a68bced1ba880ffce08d7d88559bbb9034d8240aa8c3326b3e5c14cce46",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 518585,
+        "alpha1Pixels": 5134,
+        "opaquePixels": 1197,
+        "bboxAbove32": [
+          76,
+          119,
+          718,
+          1038
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          76,
+          119,
+          50,
+          114
+        ]
+      },
+      "faceRoiOutputApprox": [
+        368.88,
+        288.62,
+        496.06,
+        391.75
+      ]
+    },
+    {
+      "assetId": "pang-tong-face-native",
+      "generalId": "pang-tong",
+      "displayName": "庞统",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-face-native.png",
+      "sha256": "9a325a8552cd6a28651a47797edf7f9035bfb85effffb37e75668b9890085c77",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-face-native.png.derivation.json",
+      "recordSha256": "9c94f201e9a5a29fc4c251890ac588dd895c5a0ad94644a31eb1d9c386ef39a3",
+      "width": 510,
+      "height": 485,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 50798,
+        "alpha1Pixels": 4919,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          6,
+          510,
+          485
+        ],
+        "edgePixelsAbove32": [
+          127,
+          0,
+          3,
+          462
+        ],
+        "marginsAbove32": [
+          0,
+          6,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "pang-tong-bust-native",
+      "generalId": "pang-tong",
+      "displayName": "庞统",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-bust-native.png",
+      "sha256": "fcbd79188a320104b9f6c5c74954ff26962601cf26eaedfa1d698b29c4160e8f",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-bust-native.png.derivation.json",
+      "recordSha256": "d80868b0f0a9b035221faf88c89e02b220d31b55343b2d739f8cb07ff0d7861c",
+      "width": 925,
+      "height": 880,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 228524,
+        "alpha1Pixels": 10546,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          5,
+          6,
+          925,
+          880
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          20,
+          896
+        ],
+        "marginsAbove32": [
+          5,
+          6,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "pang-tong-avatar-128",
+      "generalId": "pang-tong",
+      "displayName": "庞统",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-avatar-128.png",
+      "sha256": "733e84a5d9953c1d57c32f2b398397f8eb118bf1b2afa59768469eabce412adb",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-avatar-128.png.derivation.json",
+      "recordSha256": "ffb9fe46458a2c7a06421e022cb0ab6b8a53e55f395343169453546b216e8cd1",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 6797,
+        "alpha1Pixels": 126,
+        "opaquePixels": 223,
+        "bboxAbove32": [
+          8,
+          11,
+          120,
+          117
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          8,
+          11,
+          8,
+          11
+        ]
+      },
+      "faceRoiOutputApprox": [
+        34.35,
+        47.51,
+        100.24,
+        103.76
+      ]
+    },
+    {
+      "assetId": "pang-tong-avatar-256",
+      "generalId": "pang-tong",
+      "displayName": "庞统",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-avatar-256.png",
+      "sha256": "45bfac565d7fc9b610abd0dec630455267b3566a5e0adba5305bb2c9888157a9",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-avatar-256.png.derivation.json",
+      "recordSha256": "044c047581916a71afb7ee692cbbead1156014f4c4f862477c73dd83972f50c6",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 27899,
+        "alpha1Pixels": 656,
+        "opaquePixels": 323,
+        "bboxAbove32": [
+          16,
+          23,
+          240,
+          234
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          16,
+          23,
+          16,
+          22
+        ]
+      },
+      "faceRoiOutputApprox": [
+        68.71,
+        95.66,
+        200.47,
+        207.65
+      ]
+    },
+    {
+      "assetId": "pang-tong-card-full",
+      "generalId": "pang-tong",
+      "displayName": "庞统",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-card-full.png",
+      "sha256": "fa36cd8399d1bd18756ba5ec65a817bb306f614b4a3580f84364caf9f7338cb9",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/pang-tong-card-full.png.derivation.json",
+      "recordSha256": "9d5d67375ba4600d4a2473cfb75272aac32030b7321109549cc2dcf2e4c6b61b",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 506068,
+        "alpha1Pixels": 6217,
+        "opaquePixels": 823,
+        "bboxAbove32": [
+          73,
+          183,
+          706,
+          1029
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          73,
+          183,
+          62,
+          123
+        ]
+      },
+      "faceRoiOutputApprox": [
+        307.0,
+        295.5,
+        513.25,
+        470.81
+      ]
+    },
+    {
+      "assetId": "jiang-wei-face-native",
+      "generalId": "jiang-wei",
+      "displayName": "姜维",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-face-native.png",
+      "sha256": "720361e83ad7f2ea20e237bc778f3e491dda06b2b95bf112cbb78213d3778030",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-face-native.png.derivation.json",
+      "recordSha256": "8805f69ab41d7438a4c2102dccd9d2e1221585be839b24b0b609c6c72deec222",
+      "width": 390,
+      "height": 440,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 53554,
+        "alpha1Pixels": 5008,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          9,
+          375,
+          440
+        ],
+        "edgePixelsAbove32": [
+          73,
+          0,
+          0,
+          292
+        ],
+        "marginsAbove32": [
+          0,
+          9,
+          15,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "jiang-wei-bust-native",
+      "generalId": "jiang-wei",
+      "displayName": "姜维",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-bust-native.png",
+      "sha256": "017c9b70df5cbab9092270603fefc7a5d9e49d014d6e885b7c4f7d4c5639c85d",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-bust-native.png.derivation.json",
+      "recordSha256": "107e2fed78934e6e2912701b40d41c49e1ed64b6f0d96d84f9da83a9d29fae4d",
+      "width": 880,
+      "height": 920,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 330743,
+        "alpha1Pixels": 11848,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          0,
+          880,
+          920
+        ],
+        "edgePixelsAbove32": [
+          89,
+          19,
+          45,
+          768
+        ],
+        "marginsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "jiang-wei-avatar-128",
+      "generalId": "jiang-wei",
+      "displayName": "姜维",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-avatar-128.png",
+      "sha256": "f28a7a757bcd0dbb64c04da738c8f516cf71010d5881ba0ccb12e5826c9f6972",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-avatar-128.png.derivation.json",
+      "recordSha256": "687a4ced237cc415db7cf0268815c0ac19259e48b1a65d484c1f7f927929ebbb",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 8752,
+        "alpha1Pixels": 161,
+        "opaquePixels": 236,
+        "bboxAbove32": [
+          14,
+          10,
+          110,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          14,
+          10,
+          18,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        34.31,
+        65.27,
+        92.69,
+        111.09
+      ]
+    },
+    {
+      "assetId": "jiang-wei-avatar-256",
+      "generalId": "jiang-wei",
+      "displayName": "姜维",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-avatar-256.png",
+      "sha256": "0d176260872c98b29026869d760081191907fb0301aa0b644bb8034c8276258c",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-avatar-256.png.derivation.json",
+      "recordSha256": "9b309c2d67c77c3883913b1338fcb194edcf6ab2f03f5014fe012a2913e78ce7",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 35292,
+        "alpha1Pixels": 941,
+        "opaquePixels": 229,
+        "bboxAbove32": [
+          28,
+          20,
+          220,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          28,
+          20,
+          36,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        68.82,
+        130.55,
+        186.18,
+        222.18
+      ]
+    },
+    {
+      "assetId": "jiang-wei-card-full",
+      "generalId": "jiang-wei",
+      "displayName": "姜维",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-card-full.png",
+      "sha256": "312cd3c143b8444a88b7db5ddb85567a3397ac3d7a00eadc8acf577a0fca173b",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/jiang-wei-card-full.png.derivation.json",
+      "recordSha256": "68a46b134b14c84384dadec841ca4b972abccd7a3700a089d3b178a9b5e9c5c4",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 570670,
+        "alpha1Pixels": 6712,
+        "opaquePixels": 1437,
+        "bboxAbove32": [
+          58,
+          118,
+          725,
+          1053
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          58,
+          118,
+          43,
+          99
+        ]
+      },
+      "faceRoiOutputApprox": [
+        307.0,
+        292.06,
+        465.12,
+        415.81
+      ]
+    },
+    {
+      "assetId": "xu-shu-face-native",
+      "generalId": "xu-shu",
+      "displayName": "徐庶",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-face-native.png",
+      "sha256": "465b32204c465fa955ddabce28b9801e1749b6b80ded218607bb1b5893345f28",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-face-native.png.derivation.json",
+      "recordSha256": "081808ac7f92a3ac55c689ae09f1a79708ddbd0f4e2ba148f3aac0a8b52a903d",
+      "width": 430,
+      "height": 485,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 38613,
+        "alpha1Pixels": 3942,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          0,
+          7,
+          417,
+          485
+        ],
+        "edgePixelsAbove32": [
+          188,
+          0,
+          0,
+          308
+        ],
+        "marginsAbove32": [
+          0,
+          7,
+          13,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "xu-shu-bust-native",
+      "generalId": "xu-shu",
+      "displayName": "徐庶",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-bust-native.png",
+      "sha256": "040933e417636f7ec31b0a0e3738c2bcc6ccc444bada3172d6271a3c31469acf",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-bust-native.png.derivation.json",
+      "recordSha256": "307b25d6e243dadf297226a3aecddfdee9f0040a9b313e025dc6e1e48154b373",
+      "width": 860,
+      "height": 920,
+      "alphaInspection": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 351028,
+        "alpha1Pixels": 9854,
+        "opaquePixels": 0,
+        "bboxAbove32": [
+          19,
+          17,
+          757,
+          920
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          708
+        ],
+        "marginsAbove32": [
+          19,
+          17,
+          103,
+          0
+        ]
+      },
+      "faceRoiOutputApprox": null
+    },
+    {
+      "assetId": "xu-shu-avatar-128",
+      "generalId": "xu-shu",
+      "displayName": "徐庶",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-avatar-128.png",
+      "sha256": "43580ae388c4a0b1c269306a7fd7847311e0e8e053579a23237f789ff5b59131",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-avatar-128.png.derivation.json",
+      "recordSha256": "e580ba61a3468a7205b903cb1880f41e3e96c1b8a1c420b3c6baa8b57dc09565",
+      "width": 128,
+      "height": 128,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 7212,
+        "alpha1Pixels": 109,
+        "opaquePixels": 191,
+        "bboxAbove32": [
+          14,
+          9,
+          110,
+          120
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          14,
+          9,
+          18,
+          8
+        ]
+      },
+      "faceRoiOutputApprox": [
+        39.33,
+        59.96,
+        94.58,
+        107.3
+      ]
+    },
+    {
+      "assetId": "xu-shu-avatar-256",
+      "generalId": "xu-shu",
+      "displayName": "徐庶",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-avatar-256.png",
+      "sha256": "d8f589a45d83419677bc7af89015032fc08a8ebdd4818e323294d0634856104b",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-avatar-256.png.derivation.json",
+      "recordSha256": "3a0017f46df31b2a8c52021c3785f3ac82ec5e5239d53becc412c3cb156d2421",
+      "width": 256,
+      "height": 256,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 29311,
+        "alpha1Pixels": 593,
+        "opaquePixels": 313,
+        "bboxAbove32": [
+          28,
+          19,
+          221,
+          240
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          28,
+          19,
+          35,
+          16
+        ]
+      },
+      "faceRoiOutputApprox": [
+        78.91,
+        119.92,
+        189.98,
+        214.6
+      ]
+    },
+    {
+      "assetId": "xu-shu-card-full",
+      "generalId": "xu-shu",
+      "displayName": "徐庶",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-card-full.png",
+      "sha256": "abed4d86b63b31912c655422e7343945d5c616753cf98d5b486624dd27890d17",
+      "record": "exports/01-率土之滨/roster-expansion-20261029-shu1/xu-shu-card-full.png.derivation.json",
+      "recordSha256": "a9f4d396e9db430cbf91f7811776b19b80aac281c874b04bd4795bf7552bf149",
+      "width": 768,
+      "height": 1152,
+      "alphaInspection": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPixels": 527337,
+        "alpha1Pixels": 5885,
+        "opaquePixels": 1001,
+        "bboxAbove32": [
+          105,
+          114,
+          687,
+          1065
+        ],
+        "edgePixelsAbove32": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "marginsAbove32": [
+          105,
+          114,
+          81,
+          87
+        ]
+      },
+      "faceRoiOutputApprox": [
+        327.62,
+        264.56,
+        492.62,
+        405.5
+      ]
+    }
+  ],
+  "qaImages": [
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/cards-light.png",
+      "sha256": "94a9c90bbaee7e7588d42120a187f60d013efc575bade45a5ac1365cf4d98c67",
+      "width": 960,
+      "height": 1000
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/avatars-light.png",
+      "sha256": "a77943667794f39c013c5f89f9d3615019f0edc3c765b5cb8bc490c7106b75f8",
+      "width": 960,
+      "height": 920
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/cards-dark.png",
+      "sha256": "6f877dfd8ed294e5cd4ff0af408fdc47b67711bfc0bc188f101aa9cdcb84b725",
+      "width": 960,
+      "height": 1000
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/avatars-dark.png",
+      "sha256": "c4c135ea6ceedb1a889431ff8820869adef417354449185b28e62ba98871b268",
+      "width": 960,
+      "height": 920
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/ma-chao-native-crops-light.png",
+      "sha256": "8c33fc58088d9fbe7180e1f988bc35ddc0431c048f75fdb309b9cb8a6ba6e4b0",
+      "width": 1330,
+      "height": 950
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/huang-zhong-native-crops-light.png",
+      "sha256": "d14d1ccd3d6e1299cf23c1179ed50b781d225aa09b504d66cc6e21836ab74ab1",
+      "width": 1405,
+      "height": 990
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/wei-yan-native-crops-light.png",
+      "sha256": "271ca70992db7b2d18d0ab0901fa56de7e7db6a1a12c49a429c9963c6e007c5b",
+      "width": 1355,
+      "height": 1010
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/pang-tong-native-crops-light.png",
+      "sha256": "8f0c3c23aa23dbc82dc7feeb04de4d17c1427de0d8cf8b16fc4b2af2b0853c1d",
+      "width": 1495,
+      "height": 950
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/jiang-wei-native-crops-light.png",
+      "sha256": "abf369d4f69a0517d610f6da7d2e9bfc722796b84006e779360eaba9ad6dd143",
+      "width": 1330,
+      "height": 990
+    },
+    {
+      "file": "records/roster-expansion-20261029-shu1/qa/xu-shu-native-crops-light.png",
+      "sha256": "f02b9ba58b9a6bf306acecee9e77975616e4d64d948b636695c701805dc80f54",
+      "width": 1350,
+      "height": 990
+    }
+  ],
+  "warnings": [
+    {
+      "generalId": "ma-chao",
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 28101,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "generalId": "ma-chao",
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "generalId": "ma-chao",
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        21,
+        34,
+        21,
+        76
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    },
+    {
+      "generalId": "huang-zhong",
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 18511,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "generalId": "huang-zhong",
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "generalId": "huang-zhong",
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        45,
+        143,
+        38,
+        94
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    },
+    {
+      "generalId": "wei-yan",
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 13135,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "generalId": "wei-yan",
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "generalId": "wei-yan",
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        65,
+        103,
+        27,
+        95
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    },
+    {
+      "generalId": "pang-tong",
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 15956,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "generalId": "pang-tong",
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "generalId": "pang-tong",
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        60,
+        196,
+        44,
+        109
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    },
+    {
+      "generalId": "jiang-wei",
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 17717,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "generalId": "jiang-wei",
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "generalId": "jiang-wei",
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        38,
+        101,
+        16,
+        74
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    },
+    {
+      "generalId": "xu-shu",
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "value": 15349,
+      "threshold": 0,
+      "message": "No erasing or alpha thresholding; faint source alpha retained."
+    },
+    {
+      "generalId": "xu-shu",
+      "id": "SOURCE_MAX_ALPHA_BELOW_255",
+      "value": 254,
+      "threshold": 255,
+      "message": "Original alpha maximum preserved."
+    },
+    {
+      "generalId": "xu-shu",
+      "id": "REQUESTED_10_PERCENT_MARGIN_NOT_REACHED",
+      "value": [
+        106,
+        97,
+        71,
+        57
+      ],
+      "threshold": [
+        102.4,
+        153.6,
+        102.4,
+        153.6
+      ],
+      "message": "Full silhouette visually checked; source margin differs from requested padding. Card export adds transparent space without reconstructing detail."
+    }
+  ],
+  "animationIncluded": false,
+  "originalMasterFilesChanged": false,
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "visual_candidate_with_warnings",
+  "visualReview": "records/roster-expansion-20261029-shu1/visual-review.json",
+  "pixelValidation": "records/roster-expansion-20261029-shu1/pixel-validation.json",
+  "limitations": [
+    "No user final approval, no Unity import/run/GPU verification, no animation.",
+    "Six named artistic designs are not all official cards, season variants or a complete Shu/Three Kingdoms roster.",
+    "All six requested 10% source margins were not reached; measured margins recorded. No alpha>32 pixels on source canvas boundary.",
+    "No individual elemental affiliation, original archer/cavalry/infantry class, card stars, costs, skills or stats assigned."
+  ]
+}

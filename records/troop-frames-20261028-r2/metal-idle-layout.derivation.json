@@ -1,0 +1,26 @@
+{
+  "file": "records/troop-frames-20261028-r2/metal-idle-layout.png",
+  "sha256": "fc272de91826c4f2dd93e5f9ab0b9c2c8aeaccd144b1d7c7a4e69ff483a163b4",
+  "derivedFrom": {
+    "path": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+    "sha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+    "purpose": "candidate identity master; userApproved false",
+    "actuallyViewed": true
+  },
+  "operation": {
+    "script": "C:/Users/luyua/.codex/skills/generate2dsprite/scripts/make_anchor_layout.py",
+    "mode": "native_alpha",
+    "resampler": "lanczos",
+    "rows": 2,
+    "cols": 2,
+    "cell": [
+      512,
+      512
+    ],
+    "subjectHeightRatio": 0.64,
+    "subjectWidthRatio": 0.72,
+    "feetRatio": 0.82,
+    "placement": "centers source alpha>0 bbox horizontally; alpha>0 bottom at 82%; physical foot/root not manually calibrated"
+  },
+  "usage": "Geometry reference only; repetitions do not constitute animation; source alpha residue preserved by helper"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "file": "records/generals-ui-20261028/qa/liu-bei-native-dark.png",
+  "sha256": "ea2581c6eed22bbbfa986d25f3dc35f194e66673c5899627da439de81d1cedca",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "qaOnly": true,
+  "width": 1600,
+  "height": 965,
+  "operation": {
+    "type": "native_crop_1to1_light_dark_composite",
+    "assetDisplayScale": 1,
+    "background": [
+      28,
+      43,
+      48,
+      255
+    ]
+  },
+  "derivedFrom": [
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-face-native.png",
+      "sha256": "4356e5fe8c07c12500f452943111d6d79605e53df0e34127b7740b16ef6b0489",
+      "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-face-native.png.derivation.json"
+    },
+    {
+      "file": "exports/01-率土之滨/generals-ui-v1/liu-bei-bust-native.png",
+      "sha256": "b1d18c63649e84b81021012b8e0200b9d1a257c74e68b02e51cad8d5835110a5",
+      "record": "exports/01-率土之滨/generals-ui-v1/liu-bei-bust-native.png.derivation.json"
+    }
+  ]
+}

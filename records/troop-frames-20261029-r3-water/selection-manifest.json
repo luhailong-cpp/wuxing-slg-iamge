@@ -1,0 +1,69 @@
+{
+  "status": "technical_candidate_not_user_or_client_accepted",
+  "items": [
+    {
+      "action": "idle",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png",
+      "sha256": "5cb7cbe8f3dc8bfe4fa35e75e808e2cd5b2bfb05cab3e4de75b19c09305d8c09",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-idle-sheet-v2.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "frames": 4,
+      "visualFinding": "Selected repaired v2. Breathing/closed-eye exhale/recovery readable, all gear contained after ownership cutting.",
+      "status": "static_visual_technical_candidate"
+    },
+    {
+      "action": "attack",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png",
+      "sha256": "7c44796514c6c15aafa045f0c7de9c56873c529d339b73f8ef5c1ce4f5d753a4",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-attack-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "frames": 6,
+      "visualFinding": "Six phases readable; ring baton remains in right hand, shield in left. Lower-row source boundaries x566/x1072 preserve extended ring weapons. Perspective/head tilt still varies.",
+      "status": "static_visual_technical_candidate"
+    },
+    {
+      "action": "hurt",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "sha256": "363d491a2cab621da66e5892b788a37ffe496a03c8fd27b0237e82f428e74a39",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "frames": 4,
+      "visualFinding": "Recoil, closed eyes, crouch and recovery are distinguishable. No visible equipment swap or clipped body.",
+      "status": "static_visual_technical_candidate"
+    },
+    {
+      "action": "defeat",
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png",
+      "sha256": "0a975f3bd0da9563b4f15b73202259295314744ba766621c6abb115ee75700bc",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-defeat-sheet-v1.png.generation.json",
+      "nativeSize": [
+        1536,
+        1024
+      ],
+      "frames": 6,
+      "visualFinding": "Standing -> knee support -> kneeling -> seated low hold. Frames5/6 use real visible sole and seated trouser/knee support. Frame6 baton rests beside hand as prompted; tassel is explicitly excluded from ground root.",
+      "status": "static_visual_technical_candidate"
+    }
+  ],
+  "exportManifest": {
+    "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/manifest.json",
+    "sha256": "a03e19907dce33d295bc0889d2a67d506a34e05a9e64e861df6d6a244131cbaf"
+  },
+  "qaRecord": "records/troop-frames-20261029-r3-water/visual-review.json",
+  "integrityRecord": "records/troop-frames-20261029-r3-water/export-integrity.json",
+  "counts": {
+    "selectedNativeSheets": 4,
+    "generatedHere": 0,
+    "animationFrames": 20,
+    "derivedFramePng": 60
+  }
+}

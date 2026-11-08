@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png",
+  "sha256": "1b524f030f500e55b92f72ec1895586771e40b2c0c6e445ba4cd147f18d29c99",
+  "createdAtUtc": "2026-10-28T08:10:46.849180+00:00",
+  "width": 460,
+  "height": 425,
+  "format": "PNG",
+  "mode": "RGBA",
+  "art_source": "existing",
+  "route": "local_existing_art_crop_and_premultiplied_resize",
+  "generalId": "lv-bu",
+  "displayName": "吕布",
+  "variant": "face-native",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/characters/11-lv-bu-v2.png",
+      "sha256": "a43d22e78c52b5d45f2c397dc01264a64572ba885f1210fea2cb84395bf4da30",
+      "record": "designs/01-率土之滨/characters/11-lv-bu-v2.png.generation.json",
+      "recordSha256": "b7f1e29e85e661c71e6e07a5c08a1ae281a82b9a461999ed076e6b4058a239b5"
+    }
+  ],
+  "sourceMasterDimensions": [
+    1024,
+    1536
+  ],
+  "operation": "native_rectangular_crop",
+  "cropBox": [
+    300,
+    330,
+    760,
+    755
+  ],
+  "resizeTo": null,
+  "pasteOffsetTopLeft": null,
+  "canvas": [
+    460,
+    425
+  ],
+  "sourcePixelsExact": true,
+  "resampled": false,
+  "upscaled": false,
+  "repainted": false,
+  "alphaKeyed": false,
+  "alphaThresholdCleared": false,
+  "newBorderArt": false,
+  "faceRoiSourceApprox": [
+    405,
+    500,
+    650,
+    700
+  ],
+  "faceRoiOutputApprox": null,
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 42039,
+    "alpha1Pixels": 5452,
+    "semiTransparentPixels": 153461,
+    "opaquePixels": 0,
+    "bboxAbove32": [
+      0,
+      0,
+      460,
+      425
+    ],
+    "edgePixelsAbove32": [
+      250,
+      268,
+      190,
+      447
+    ],
+    "marginsAbove32": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "pivotNormalizedBottomLeft": [
+    0.5,
+    0.5
+  ],
+  "warnings": [
+    {
+      "id": "ARTIST_CANDIDATE_NOT_USER_ACCEPTED",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png",
+      "message": "Latest user instruction permits historical identities, but does not approve each existing drawing or final launch roster."
+    },
+    {
+      "id": "SOURCE_SOFT_ALPHA_RETAINED",
+      "value": 5452,
+      "threshold": 0,
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png",
+      "message": "Original alpha1 residue retained; no background erasing, mask or threshold clearing."
+    },
+    {
+      "id": "INTENTIONAL_RECTANGULAR_PORTRAIT_CROP",
+      "value": [
+        300,
+        330,
+        760,
+        755
+      ],
+      "threshold": "face identity retained; body, long hair, ribbons, weapons or plume tips may cross portrait edges",
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png",
+      "message": "Portrait is a rectangular window through source art, not a new isolated head drawing; use full card for complete silhouette."
+    },
+    {
+      "id": "HISTORICAL_TOOL_RECEIPT_INCOMPLETE",
+      "value": true,
+      "threshold": false,
+      "file": "exports/01-率土之滨/generals-ui-v1/lv-bu-face-native.png",
+      "message": "Original Lv Bu v2 output_hint and exact completion time unavailable; source file and sidecar hashes retained without filling missing history."
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "officialLaunchAdopted": false,
+  "status": "derived_static_UI_candidate"
+}

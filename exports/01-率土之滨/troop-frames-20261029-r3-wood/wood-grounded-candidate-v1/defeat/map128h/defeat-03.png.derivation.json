@@ -1,0 +1,53 @@
+{
+  "file": "exports/01-率土之滨/troop-frames-20261029-r3-wood/wood-grounded-candidate-v1/defeat/map128h/defeat-03.png",
+  "sha256": "95b144c740f5e4408e33b0262b18ecd16b9001c42cce816accdbe126bc317311",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-defeat-se-v1.png",
+      "sha256": "209e832fa550b042bba5c2e1a69de53b1b4d8c13e42de86409f355981f2d08bb",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/wood-defeat-se-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "derived_animation_frame",
+    "tier": "map128h",
+    "sourceRectXYXYExclusive": [
+      1024,
+      0,
+      1536,
+      560
+    ],
+    "originalAlphaDeleted": false,
+    "nativeRGBAExact": false,
+    "nativeTranslation": [
+      226,
+      249
+    ],
+    "actionUniformScale": 0.68359375,
+    "normalizedTranslation": [
+      316,
+      413
+    ],
+    "mapScale": 0.375,
+    "resampler": "premultiplied Lanczos",
+    "root": [
+      192,
+      288
+    ],
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ]
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-wood/wood-ground-measured.json",
+    "sha256": "5ceab3b8ac48c4ae5dd0c25095e7aeca7a90c5c6cc98f75a4da59f1e8e2f1552"
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "notNativeGeneration": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

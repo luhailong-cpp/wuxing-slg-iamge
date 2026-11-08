@@ -1,0 +1,295 @@
+{
+  "schema": "wuxing.unity-map-assembly-archive-audit.v1",
+  "passed": true,
+  "operation": "tar/gzip in-memory archive inspection only; no extraction to disk",
+  "package": {
+    "file": "exports/01-率土之滨/map-assembly-v1/unity/WuxingSLGMapAssemblyPreview-20261027.unitypackage",
+    "sha256": "1020e1364bd4cc7c1b89fd0dff3272258bde1b1091e1c02c1e19a1cdfbe7fd92"
+  },
+  "assetPathCount": 25,
+  "pngCount": 7,
+  "pngs": [
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+      "bytes": 107473,
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/map-kit/terrain/river-straight.png",
+      "sourceSha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        377,
+        314
+      ],
+      "expectedSize": [
+        377,
+        314
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/infantry-64h.png",
+      "bytes": 9664,
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/units/infantry-64h.png",
+      "sourceSha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        256,
+        256
+      ],
+      "expectedSize": [
+        256,
+        256
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/bridge.png",
+      "bytes": 100896,
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/map-kit/buildings/bridge.png",
+      "sourceSha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        334,
+        375
+      ],
+      "expectedSize": [
+        334,
+        375
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+      "bytes": 101856,
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/map-kit/terrain/stone-road.png",
+      "sourceSha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        366,
+        290
+      ],
+      "expectedSize": [
+        366,
+        290
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/main-city.png",
+      "bytes": 262705,
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/map-kit/cities/main-city.png",
+      "sourceSha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        445,
+        397
+      ],
+      "expectedSize": [
+        445,
+        397
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+      "bytes": 98082,
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/map-kit/terrain/grassland.png",
+      "sourceSha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        377,
+        290
+      ],
+      "expectedSize": [
+        377,
+        290
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/enemy-camp.png",
+      "bytes": 182209,
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "hasPayload": true,
+      "source": "exports/01-率土之滨/map-kit/buildings/enemy-camp.png",
+      "sourceSha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "bytesMatchSource": true,
+      "nativeSize": [
+        374,
+        375
+      ],
+      "expectedSize": [
+        374,
+        375
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "runtimeSourceBytesMatch": true,
+  "sourceIndexBytesMatch": true,
+  "yamlSceneExists": true,
+  "credentialPatternMatches": [],
+  "archiveAssets": [
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Provenance/source-index.json",
+      "bytes": 25548,
+      "sha256": "7e2b5144ebd3da488effa402c8ec7191863c37f0ecfc177e45635acaf5abf583",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Scenes",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Data/negative-no-bridge-nav-report.json",
+      "bytes": 7281,
+      "sha256": "a6444a2b47d335ab604124efa035c40e2de2719c038528040db2764d6aaef165",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/river-straight.png",
+      "bytes": 107473,
+      "sha256": "478c040a87acef5e8ac3f4a095ace9b79d0b0b7fa5a1f009ab1dc165d27fd013",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/infantry-64h.png",
+      "bytes": 9664,
+      "sha256": "bf2cbcf10f5ad9d8ff3994df84e0d2ab7232f19143e850e0a5dd11ede6035a19",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/bridge.png",
+      "bytes": 100896,
+      "sha256": "47443e7caaccae8ecd3e8298883d3be2ac95801513a1f3d164693bd89c2f7a62",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Data/layout-plan.json",
+      "bytes": 32033,
+      "sha256": "b7ca3bbf3b30c499905ecb82ad94ccc648862966bdb696139db46da3adb9cbb0",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/stone-road.png",
+      "bytes": 101856,
+      "sha256": "be08dcee8b8885c11291e0df77f70d025631a6197c8504620388ab98c463ddc4",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Data/fixed-route.json",
+      "bytes": 1807,
+      "sha256": "cd20ee98635c750d71b1836f9221db49ae99f658a4121cce3428e9b3cd128c80",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Materials",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Runtime/WuxingMapAssemblyRouteDemo.cs",
+      "bytes": 2730,
+      "sha256": "fe3c0783aeaa1e0d426c9d12be472fb61a985230dbfb51734206a1389a42f0b6",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Data/positive-nav-report.json",
+      "bytes": 6072,
+      "sha256": "92fffe59be90361988938fd47da7a17037108d79f2ab9e5d917e2ba6a819d01a",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Data",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Provenance/warnings.json",
+      "bytes": 5401,
+      "sha256": "f3393a823895ac25fc900f54fdf5b50f1d22b56f821ed5824dfaf204a4849ce4",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Data/map-bundle.json",
+      "bytes": 8612,
+      "sha256": "2c66cba82cbc994a16b0130c14f2cfff69904cb00d046234633aa71043bee293",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Runtime",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/main-city.png",
+      "bytes": 262705,
+      "sha256": "e70595bd47125a62030a03ae8b9f76bf71b6b777c5c45aac7c970ea7788d8e92",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/grassland.png",
+      "bytes": 98082,
+      "sha256": "29851798a1faf13cb4a41baae1176c1d39ede2ef8cb40df9cadb0e0ad1c7121f",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Provenance",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hasPayload": false
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/USAGE.txt",
+      "bytes": 1088,
+      "sha256": "f4a49933994dc7bbd89b7fff44b27f5abdf6b99755b9cb22f26dff5e66db5de8",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Sprites/enemy-camp.png",
+      "bytes": 182209,
+      "sha256": "0753af8770aef607d7faa235db474269995fff21aba812f1753e2c0690460de5",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Materials/PreviewSprites.mat",
+      "bytes": 1138,
+      "sha256": "def326776e34ec3cf5f040f85ae0ccb181b908eff66f3d02cf88b62b9cd35881",
+      "hasPayload": true
+    },
+    {
+      "assetPath": "Assets/WuxingSLGMapAssemblyPreview/Scenes/MapAssemblyPreview.unity",
+      "bytes": 107366,
+      "sha256": "85f75cbe9690cde90f7cdd17fca7b02ac6f9cb6f564749e24d62fd02998a6ce2",
+      "hasPayload": true
+    }
+  ]
+}

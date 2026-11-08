@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "gu-yong",
+  "name": "顾雍",
+  "batch": "roster-expansion-20261102-heroes2",
+  "sourceIdentity": {
+    "personID": "ww-p-a7aea0703420",
+    "entityID": "ww-p-a7aea0703420",
+    "name": "顾雍",
+    "canonicalName": "顾雍",
+    "category": "普通人物",
+    "status": "ready_for_identity_design_from_primary_index",
+    "identityStatus": "primary_index_name_confirmed",
+    "cards": [
+      100222
+    ],
+    "publicListCards": [],
+    "source": [
+      {
+        "url": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "locator": "卷52：顾雍",
+        "sha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f"
+      }
+    ],
+    "existingAsset": null,
+    "productionComplete": false,
+    "priority": 5
+  },
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-02",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "submittedParameters": {
+    "prompt": "Create ONE ORIGINAL complete full-body character master of 顾雍 for 五行问鼎, in the attached authoritative Taoist chibi HD hand-painted style. Exactly ONE clearly ADULT Three Kingdoms historical identity, not an elemental troop. Large expressive adult head and SHORT rounded body, about 2.7 heads tall. Vertical2:3, TRUE transparent alpha. Both attached images are STYLE ONLY: same finely painted cloth, rounded jade/ivory/warm-gold materials, soft shading and polished finish. Do not copy their people, poses, UI or text.\nA reserved middle-aged civil official with a long rectangular face, straight fine brows, narrow thoughtful brown eyes and a small neat black moustache with short squared beard. Very simple low black cloth cap with a thin jade rim and no tassels, sage outer robe and ivory inner layers, plain gold-brown belt. Holds one COMPLETE closed ivory scroll in right hand and tucks left hand into sleeve. Slender elegant restrained stance, no fan, weapon or jeweled crown.\nThese face, costume and prop details are original fictional art direction, not documentary historical costume claims or commercial card copies. Whole figure and ALL props must stay inside central76percent of canvas: at least10percent genuinely transparent padding on ALL four sides. Complete helmet/hair, weapon tip and butt, hands, feet, hems and ribbons. Keep long weapons short enough to fit safely; no cut-off. No floor, shadow, background, mist, halo, frame, nameplate, text, watermark or elemental class badge. Native antialiased alpha preserved, no painted checkerboard. Fine clean hand-painted 2D chibi, readable distinct face/build/headwear silhouette; no realistic anatomy, plastic toy shine, 3D render or pixel art.",
+    "referenced_image_paths": [
+      "D:/work/wuxing-slg-iamge/designs/mail-ui-v1/01-mail-event.png",
+      "D:/work/wuxing-slg-iamge/designs/team-ui-v2/team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261102-heroes2/gu-yong-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "authoritative style reference"
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "authoritative style reference"
+    }
+  ],
+  "clientDate": "2026-11-02",
+  "preparedAtUtc": "2026-11-02T09:24:41.222Z",
+  "actualModel": null,
+  "actualQuality": null
+}

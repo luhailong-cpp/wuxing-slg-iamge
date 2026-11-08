@@ -1,0 +1,53 @@
+{
+  "file": "exports/01-率土之滨/troop-frames-20261029-r3-water/water-grounded-candidate-v1/hurt/normalized1024/hurt-03.png",
+  "sha256": "da1f46b0c719a9bab2138950c684abdb5395d13be25c4904ad13f22256104ea2",
+  "derivedFrom": [
+    {
+      "file": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png",
+      "sha256": "363d491a2cab621da66e5892b788a37ffe496a03c8fd27b0237e82f428e74a39",
+      "generationRecord": "designs/01-率土之滨/assets/troop-frames-20261029-r3/water-hurt-sheet-v1.png.generation.json"
+    }
+  ],
+  "operation": {
+    "type": "derived_animation_frame",
+    "tier": "normalized",
+    "sourceRectXYXYExclusive": [
+      0,
+      644,
+      627,
+      1254
+    ],
+    "originalAlphaDeleted": false,
+    "nativeRGBAExact": false,
+    "nativeTranslation": [
+      133,
+      227
+    ],
+    "actionUniformScale": 0.5869218500797448,
+    "normalizedTranslation": [
+      290,
+      450
+    ],
+    "mapScale": null,
+    "resampler": "premultiplied Lanczos",
+    "root": [
+      512,
+      768
+    ],
+    "enginePivotBottomLeftNormalized": [
+      0.5,
+      0.25
+    ]
+  },
+  "registrationInput": {
+    "file": "records/troop-frames-20261029-r3-water/water-ground-measured.json",
+    "sha256": "b89d6b9d11c190fa559adfbba16fa7833e5a166eba63d2e1519781d31bd47f7c"
+  },
+  "exportScript": {
+    "file": "records/troop-frames-20261028-r2/metal-grounded-frames-export-reusable.py",
+    "sha256": "145dfa513e47c6ff376b4f20118cae5f33055f5d65df293beee00c9ca95cede6"
+  },
+  "notNativeGeneration": true,
+  "userApproved": false,
+  "clientIntegrated": false
+}

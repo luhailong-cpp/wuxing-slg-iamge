@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261101-heroes1/yuan-shu-face-native.png",
+  "sha256": "3ccab8af5beba58f1f43668c4a07316bc3ffe62e5766194f18f136ac322e77bd",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png",
+    "sha256": "6b1dbce34c73cfd726b1a898c080a511ece5492b1d2f56e3572ce5d3dc74c036",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/yuan-shu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      285,
+      180,
+      835,
+      790
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

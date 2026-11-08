@@ -1,0 +1,39 @@
+{
+  "assetId": "icon-attack",
+  "file": "exports/01-率土之滨/runtime-ui/icon-attack.png",
+  "sha256": "de0736e6433ee732aecf049d5d13d13aa80195106ff7ff9c4df47aa4d222f05f",
+  "width": 320,
+  "height": 297,
+  "format": "PNG",
+  "alphaMode": "straight",
+  "transparentPixelCount": 40134,
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "category": "icon",
+  "state": "normal",
+  "nineSliceCandidate": null,
+  "nineSliceVerifiedInClient": false,
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png",
+    "sha256": "aa17559253efe2504ee77bfff5471f560bbe957dd368a08448929f2fd478b02e",
+    "generationRecord": "designs/01-率土之滨/assets/runtime-ui/runtime-ui-02-resource-icons.png.generation.json"
+  },
+  "operation": {
+    "type": "crop",
+    "cropBox": [
+      15,
+      640,
+      335,
+      937
+    ],
+    "resampled": false,
+    "alphaPreserved": true,
+    "sourcePixelsModified": false
+  },
+  "status": "independent_asset_pending_client_visual_verification",
+  "notes": [
+    "Native crop; not a new model generation."
+  ]
+}

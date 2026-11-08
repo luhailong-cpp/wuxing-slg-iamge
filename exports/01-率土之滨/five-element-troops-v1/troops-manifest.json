@@ -1,0 +1,712 @@
+{
+  "schemaVersion": 1,
+  "createdAtUtc": "2026-10-28T08:23:04.194595+00:00",
+  "contract": "records/production-20261028/current-requirements.json",
+  "troopTypeCount": 5,
+  "spriteFileCount": 20,
+  "nativeCopies": 5,
+  "resampledDisplayVariants": 15,
+  "newGeneratedMasterCount": 5,
+  "static": true,
+  "animationFrameCount": 0,
+  "orientation": "landscape",
+  "allSourceNativeSize": [
+    1254,
+    1254
+  ],
+  "items": [
+    {
+      "id": "troop.metal",
+      "troopType": "金兵",
+      "isGeneral": false,
+      "sourceMaster": "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png",
+      "sourceSha256": "765b957c47c07edb9251b2daad2099a48290da432319e18968226fcd6bb2f2e2",
+      "native": "exports/01-率土之滨/five-element-troops-v1/metal-native.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "sourceAnchorPxTopLeft": [
+        710,
+        1160
+      ],
+      "facing": "SE",
+      "lookDirectionsAvailable": [
+        "SE"
+      ],
+      "animationFrameCount": 0,
+      "variants": [
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-64h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-64h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 64,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/metal-128h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/metal-128h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 128,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+          "value": [
+            165,
+            64,
+            157,
+            56
+          ],
+          "threshold": {
+            "minimumEachSidePx": 225.72
+          },
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+          ]
+        },
+        {
+          "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+          "value": 10861,
+          "threshold": 0,
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+          ]
+        }
+      ],
+      "identityStatus": "assistant_reviewed_candidate_not_user_approved",
+      "icon": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png"
+    },
+    {
+      "id": "troop.wood",
+      "troopType": "木兵",
+      "isGeneral": false,
+      "sourceMaster": "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png",
+      "sourceSha256": "94c417d03cdefc8ed2b8a7865d9c221de149968f8bb9f83a376c8d52c4475473",
+      "native": "exports/01-率土之滨/five-element-troops-v1/wood-native.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "sourceAnchorPxTopLeft": [
+        713,
+        1143
+      ],
+      "facing": "SE",
+      "lookDirectionsAvailable": [
+        "SE"
+      ],
+      "animationFrameCount": 0,
+      "variants": [
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-64h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-64h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 64,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/wood-128h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/wood-128h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 128,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+          "value": [
+            166,
+            183,
+            139,
+            80
+          ],
+          "threshold": {
+            "minimumEachSidePx": 225.72
+          },
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+          ]
+        },
+        {
+          "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+          "value": 11592,
+          "threshold": 0,
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+          ]
+        }
+      ],
+      "identityStatus": "assistant_reviewed_candidate_not_user_approved",
+      "icon": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png"
+    },
+    {
+      "id": "troop.water",
+      "troopType": "水兵",
+      "isGeneral": false,
+      "sourceMaster": "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png",
+      "sourceSha256": "7f8fdd177dc71ba79a59caec418d94172fd4388152fc8ef9bd9d05199b57347c",
+      "native": "exports/01-率土之滨/five-element-troops-v1/water-native.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "sourceAnchorPxTopLeft": [
+        700,
+        1125
+      ],
+      "facing": "SE",
+      "lookDirectionsAvailable": [
+        "SE"
+      ],
+      "animationFrameCount": 0,
+      "variants": [
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/water-64h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/water-64h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 64,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/water-128h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/water-128h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 128,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+          "value": [
+            252,
+            148,
+            194,
+            91
+          ],
+          "threshold": {
+            "minimumEachSidePx": 225.72
+          },
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+          ]
+        },
+        {
+          "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+          "value": 8269,
+          "threshold": 0,
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+          ]
+        }
+      ],
+      "identityStatus": "assistant_reviewed_candidate_not_user_approved",
+      "icon": "exports/01-率土之滨/five-element-troops-v1/water-icon128.png"
+    },
+    {
+      "id": "troop.fire",
+      "troopType": "火兵",
+      "isGeneral": false,
+      "sourceMaster": "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png",
+      "sourceSha256": "0f6d2516ef32c38a72d35999b2b3a467e26d425833e3f0db2f53194707364709",
+      "native": "exports/01-率土之滨/five-element-troops-v1/fire-native.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "sourceAnchorPxTopLeft": [
+        710,
+        1158
+      ],
+      "facing": "SE",
+      "lookDirectionsAvailable": [
+        "SE"
+      ],
+      "animationFrameCount": 0,
+      "variants": [
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/fire-64h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/fire-64h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 64,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/fire-128h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/fire-128h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 128,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+          "value": [
+            259,
+            156,
+            178,
+            60
+          ],
+          "threshold": {
+            "minimumEachSidePx": 225.72
+          },
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+          ]
+        },
+        {
+          "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+          "value": 9793,
+          "threshold": 0,
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+          ]
+        }
+      ],
+      "identityStatus": "assistant_reviewed_candidate_not_user_approved",
+      "icon": "exports/01-率土之滨/five-element-troops-v1/fire-icon128.png"
+    },
+    {
+      "id": "troop.earth",
+      "troopType": "土兵",
+      "isGeneral": false,
+      "sourceMaster": "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png",
+      "sourceSha256": "d074b408413ce436484eee21e82ea76da291ff60b78c34600ccddd10dfa971da",
+      "native": "exports/01-率土之滨/five-element-troops-v1/earth-native.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "sourceAnchorPxTopLeft": [
+        704,
+        1139
+      ],
+      "facing": "SE",
+      "lookDirectionsAvailable": [
+        "SE"
+      ],
+      "animationFrameCount": 0,
+      "variants": [
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/earth-64h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/earth-64h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 64,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        },
+        {
+          "file": "exports/01-率土之滨/five-element-troops-v1/earth-128h.png",
+          "record": "exports/01-率土之滨/five-element-troops-v1/earth-128h.png.derivation.json",
+          "size": [
+            256,
+            256
+          ],
+          "silhouetteHeight": 128,
+          "pivotUnity": [
+            0.5,
+            0.125
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+          "value": [
+            169,
+            161,
+            143,
+            86
+          ],
+          "threshold": {
+            "minimumEachSidePx": 225.72
+          },
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+          ]
+        },
+        {
+          "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+          "value": 7465,
+          "threshold": 0,
+          "files": [
+            "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+          ]
+        }
+      ],
+      "identityStatus": "assistant_reviewed_candidate_not_user_approved",
+      "icon": "exports/01-率土之滨/five-element-troops-v1/earth-icon128.png"
+    }
+  ],
+  "sprites": [
+    {
+      "id": "troop.metal.native",
+      "file": "exports/01-率土之滨/five-element-troops-v1/metal-native.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/metal-native.png.derivation.json",
+      "pivot": [
+        0.5661881977671451,
+        0.07496012759170656
+      ]
+    },
+    {
+      "id": "troop.metal.64h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/metal-64h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/metal-64h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.metal.128h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/metal-128h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/metal-128h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.metal.icon128",
+      "file": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/metal-icon128.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "troop.wood.native",
+      "file": "exports/01-率土之滨/five-element-troops-v1/wood-native.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/wood-native.png.derivation.json",
+      "pivot": [
+        0.5685805422647527,
+        0.08851674641148322
+      ]
+    },
+    {
+      "id": "troop.wood.64h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/wood-64h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/wood-64h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.wood.128h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/wood-128h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/wood-128h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.wood.icon128",
+      "file": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/wood-icon128.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "troop.water.native",
+      "file": "exports/01-率土之滨/five-element-troops-v1/water-native.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/water-native.png.derivation.json",
+      "pivot": [
+        0.5582137161084529,
+        0.10287081339712922
+      ]
+    },
+    {
+      "id": "troop.water.64h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/water-64h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/water-64h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.water.128h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/water-128h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/water-128h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.water.icon128",
+      "file": "exports/01-率土之滨/five-element-troops-v1/water-icon128.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/water-icon128.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "troop.fire.native",
+      "file": "exports/01-率土之滨/five-element-troops-v1/fire-native.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/fire-native.png.derivation.json",
+      "pivot": [
+        0.5661881977671451,
+        0.07655502392344493
+      ]
+    },
+    {
+      "id": "troop.fire.64h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/fire-64h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/fire-64h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.fire.128h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/fire-128h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/fire-128h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.fire.icon128",
+      "file": "exports/01-率土之滨/five-element-troops-v1/fire-icon128.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/fire-icon128.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "troop.earth.native",
+      "file": "exports/01-率土之滨/five-element-troops-v1/earth-native.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/earth-native.png.derivation.json",
+      "pivot": [
+        0.5614035087719298,
+        0.09170653907496018
+      ]
+    },
+    {
+      "id": "troop.earth.64h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/earth-64h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/earth-64h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.earth.128h",
+      "file": "exports/01-率土之滨/five-element-troops-v1/earth-128h.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/earth-128h.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.125
+      ]
+    },
+    {
+      "id": "troop.earth.icon128",
+      "file": "exports/01-率土之滨/five-element-troops-v1/earth-icon128.png",
+      "record": "exports/01-率土之滨/five-element-troops-v1/earth-icon128.png.derivation.json",
+      "pivot": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "qa": [
+    "records/troops-20261028/qa/five-troops-lineup-light.png",
+    "records/troops-20261028/qa/five-troops-64-128-light-dark.png"
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "five_correct_troop_types_static_bundle_pending_runtime_and_user_review",
+  "limits": [
+    "Only SE view; no additional directions or real motion.",
+    "Token size normalizes full silhouettes; physical unit scale and animation roots are uncalibrated.",
+    "18% source margin prompt not met; alpha>1 silhouettes complete. Full source pixels retained in native/64h/128h.",
+    "Native alpha1 residue retained, not keyed, erased or normalized; see exact per-source WARN.",
+    "No five-element combat advantage or soldier statistics invented."
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        165,
+        64,
+        157,
+        56
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 10861,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/01-metal-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        166,
+        183,
+        139,
+        80
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 11592,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/02-wood-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        252,
+        148,
+        194,
+        91
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 8269,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/03-water-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        259,
+        156,
+        178,
+        60
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 9793,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/04-fire-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "SOURCE_MARGIN_BELOW_PROMPT_18_PERCENT",
+      "value": [
+        169,
+        161,
+        143,
+        86
+      ],
+      "threshold": {
+        "minimumEachSidePx": 225.72
+      },
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+      ]
+    },
+    {
+      "id": "NATIVE_ALPHA1_RESIDUE_RETAINED",
+      "value": 7465,
+      "threshold": 0,
+      "files": [
+        "designs/01-率土之滨/assets/five-element-troops/05-earth-troop-master-v1.png"
+      ]
+    }
+  ]
+}
