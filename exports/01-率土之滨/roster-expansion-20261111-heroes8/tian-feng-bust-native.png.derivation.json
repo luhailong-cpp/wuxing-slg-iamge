@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-bust-native.png",
+  "sha256": "118025e18934374aeab8dd557e8376520b7ef078f9830edd3b9de7e99ff71d6c",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+    "sha256": "a2874c26dbaf5abdfa68f90bb4b1e785c4c6b9894e3a11c5e23da9684bf9fb62",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      155,
+      105,
+      845,
+      1000
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

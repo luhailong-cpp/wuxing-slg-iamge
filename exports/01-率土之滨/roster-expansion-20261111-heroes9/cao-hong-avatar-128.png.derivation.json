@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-128.png",
+  "sha256": "0b0c87c94d19c031c94337c86cc12a9cb68ac50e3a099257a2999e22b6bfb818",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+    "sha256": "72640c63bf50c92a51af5d033b650403e15069e14f3acf86d7fda33c83c749e4",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      270,
+      105,
+      720,
+      600
+    ],
+    "uniformScale": 0.2383838383838384,
+    "resizedSize": [
+      107,
+      118
+    ],
+    "offset": [
+      10,
+      5
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

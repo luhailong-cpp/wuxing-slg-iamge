@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+  "sha256": "f2d03d1ce9a0add5d57731c4376a49e970e5cf1a0e8680a7e55321ebbae422ec",
+  "generatedAt": "2026-11-12T04:35:41.930Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-12T04:33:10.403Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-df3202b7-881d-4813-af50-a1e24a411c2d",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "prompt": "Original full-body historical character master for the Three Kingdoms strategy game 五行问鼎. Use images 1 and 2 as the approved Daoist chibi art style; image 3 is a peer figure for painted finish and head-to-body proportions only, not identity or costume. Depict 马腾 (Ma Teng), a weathered middle-aged western frontier commander. Broad warm-tan face, powerful eyebrows, full short dark beard streaked lightly with gray at the chin. Substantial dark bronze and muted burgundy lamellar armor, sand-colored short outer mantle with a small fur-lined collar, wrapped ochre headcloth under a small bronze cap, compact weathered leather belt. Right hand calmly grips the hilt of a completely sheathed broad saber held close at his hip, left hand holds a compact rolled command scroll. A confident upright robust silhouette, veteran warmth with vigilant eyes. Distinct from silver-white Gongsun Zan and youthful Ma Chao. No horse, no feathered crown, no elaborate magic effects. One person only, oversized expressive head and compact short limbs, approximately 2.7 heads tall, polished high-definition hand-painted illustration, warm expressive face, soft detailed fabric, restrained jade and warm gold accents. Balanced three-quarter standing stance, both feet visible. Full figure and all props strictly inside central 76 percent of width and 82 percent of height, at least 9 percent clear safe margin on all sides. Portrait 2:3, genuine transparent alpha outside the person and props. Clean transparent background, no floor, no cast shadow, no halo, no scenery, no border, no writing, no badge, no UI. Do not copy another figure face.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261106-heroes6\\song-qian-master-v3.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. The tool did not disclose a verifiable actual model or quality for this result. Configuration targets and prompt text are not model evidence.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261111-heroes7/ma-teng-master-v1.request.json",
+      "sha256": "d9f96e6c38bdbbb4bec89357e0e3904a632ea7f5ae082909e15a48a1f5040148",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes7/ma-teng-master-v1.response.json",
+      "sha256": "2e71c08d7ac1fc8f3627a52faefa98335e5bdae84f7bff334c84463afd248937",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt",
+        "resultId",
+        "sourceImage"
+      ]
+    },
+    {
+      "sourceImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce02-d825-78d0-899d-0ff6dbd6344c\\exec-df3202b7-881d-4813-af50-a1e24a411c2d.png",
+      "sha256": "f2d03d1ce9a0add5d57731c4376a49e970e5cf1a0e8680a7e55321ebbae422ec",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+      "role": "approved peer figure; style and proportions only",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 879094,
+    "semiTransparentPixelCount": 693770,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "draft_pending_visual_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "identity": {
+    "id": "ma-teng",
+    "name": "马腾",
+    "personID": "ww-p-2020bc6050e5",
+    "cardIDs": [
+      100062,
+      100785
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/next-official-historical-masters.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=马腾; cardIds=100062,100605,100785,130785"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷6"
+      }
+    ]
+  }
+}

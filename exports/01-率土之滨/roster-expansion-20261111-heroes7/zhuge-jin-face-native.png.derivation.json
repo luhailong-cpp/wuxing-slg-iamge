@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-face-native.png",
+  "sha256": "5efad6c692413ecc046739bac5cdc471c2f2c92acafe6c1d6eeaa805af156549",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+    "sha256": "0c2a954455c7b0b791a51c8b8d83608df3c8e056d3e2394f2dcef502ee93a5da",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      275,
+      106,
+      742,
+      660
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

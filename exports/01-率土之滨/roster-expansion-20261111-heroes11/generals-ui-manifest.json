@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-12T04:49:22.541435+00:00",
+  "scope": "Original Daoist chibi historical identity masters to five UI derivatives each",
+  "newGeneratedImagesInThisScript": 0,
+  "generalCount": 3,
+  "sources": [
+    {
+      "id": "liu-yu",
+      "name": "刘虞",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "faceBox": [
+        220,
+        80,
+        715,
+        665
+      ],
+      "bustBox": [
+        165,
+        80,
+        835,
+        1080
+      ],
+      "sha256": "476cb919a5d37dbcd61a995fa6d3047b68735f8d7cd0fa5b81e03c65474b68c7",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 20073,
+        "alphaZero": 935432,
+        "solidBBoxAbove16": [
+          171,
+          84,
+          822,
+          1439
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "d0500b7f199fbc9ecc41a757b301ced68a7560672f40b3c093cd04f0cb994659"
+    },
+    {
+      "id": "liu-yan",
+      "name": "刘焉",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "faceBox": [
+        160,
+        115,
+        805,
+        730
+      ],
+      "bustBox": [
+        145,
+        115,
+        885,
+        1090
+      ],
+      "sha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 13746,
+        "alphaZero": 871033,
+        "solidBBoxAbove16": [
+          140,
+          123,
+          874,
+          1434
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "14abb1db0f37f322687ec295ac591c26debc537d457526206ba42c4d72ab6d5a"
+    },
+    {
+      "id": "liu-biao",
+      "name": "刘表",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "faceBox": [
+        220,
+        65,
+        750,
+        730
+      ],
+      "bustBox": [
+        195,
+        65,
+        825,
+        1090
+      ],
+      "sha256": "2d557eb9bd74cf3c0dee7496db6f99a18c7543648039aef1f8a6cfa53d5eab03",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 13761,
+        "alphaZero": 955329,
+        "solidBBoxAbove16": [
+          185,
+          71,
+          803,
+          1441
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "82590350d871f4e68b0c69f047069687bb86c9618e3cc808b8719e8dadff82df"
+    }
+  ],
+  "assets": [
+    {
+      "personId": "liu-yu",
+      "displayName": "刘虞",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-face-native.png",
+      "sha256": "b7f491f015d89e8e019e596bde4dd78a29cadc1b0f870d3367dd541e8c247c0c",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-face-native.png.derivation.json",
+      "recordSha256": "88dd8b8e25b85f45d45f06d876cf4f31ba48548f36bfd67eb88ef7c63c535594",
+      "stats": {
+        "size": [
+          495,
+          585
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 9356,
+        "alphaZero": 81560,
+        "solidBBoxAbove16": [
+          0,
+          4,
+          495,
+          585
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          45,
+          368,
+          31
+        ]
+      }
+    },
+    {
+      "personId": "liu-yu",
+      "displayName": "刘虞",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-bust-native.png",
+      "sha256": "d159ec18511c48278f58b51e22b5aab4b070442b9511d32500f4eeb8a1a2714e",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-bust-native.png.derivation.json",
+      "recordSha256": "9018413f9e3d70b25863ce7ee4669728d8e19509dbcec24293f30aa12868bc3e",
+      "stats": {
+        "size": [
+          670,
+          1000
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 13285,
+        "alphaZero": 222133,
+        "solidBBoxAbove16": [
+          15,
+          4,
+          657,
+          1000
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          629,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yu",
+      "displayName": "刘虞",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-128.png",
+      "sha256": "f5054ab8f1059481f7afafb1f6df0848a58e61ef8da9843b4700fe37b7af7600",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-128.png.derivation.json",
+      "recordSha256": "d36a24b6004f0c31f96a61656338c49d141ba281576ba5902b558f66981edf0d",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 173,
+        "alphaZero": 7817,
+        "solidBBoxAbove16": [
+          14,
+          6,
+          114,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yu",
+      "displayName": "刘虞",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-256.png",
+      "sha256": "e79d9f9044c2e74d8b720d1a2ffd35eeb5b31fb4b3ba7e1285beffda728a9f97",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-256.png.derivation.json",
+      "recordSha256": "e571a361e3f91631f1df14838137418c70e353c19d1b1d5891c67a3f3427802f",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 953,
+        "alphaZero": 31914,
+        "solidBBoxAbove16": [
+          28,
+          12,
+          228,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yu",
+      "displayName": "刘虞",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-card-full.png",
+      "sha256": "3e3ee88aa99758bdd5cc3b9554fdb019a27b1197fe251667d989386b43e292df",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-card-full.png.derivation.json",
+      "recordSha256": "64606f57ace3f2543a6f024d781192111c4465d7a7471f5ad1c0afc8ea856f90",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 7508,
+        "alphaZero": 489546,
+        "solidBBoxAbove16": [
+          162,
+          49,
+          607,
+          976
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yan",
+      "displayName": "刘焉",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-face-native.png",
+      "sha256": "12518e61101ce2097174a0fdde0561d1614a2abbde53e33deb0f7ec2a5edb132",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-face-native.png.derivation.json",
+      "recordSha256": "27d6836aa5a95848875b221b232e09f5e751cbdcc83727ee52fb5d9b8884ab02",
+      "stats": {
+        "size": [
+          645,
+          615
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 6927,
+        "alphaZero": 140522,
+        "solidBBoxAbove16": [
+          5,
+          8,
+          636,
+          615
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          565,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yan",
+      "displayName": "刘焉",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-bust-native.png",
+      "sha256": "fe4a34702a99c7b48a056cd046e7447297539b182cf14df40ed06348db8121a0",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-bust-native.png.derivation.json",
+      "recordSha256": "a4c68d4e61bd17468b18967b62cfe860ac1c9ac51788cdb67f9b9ca90609e3f2",
+      "stats": {
+        "size": [
+          740,
+          975
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 8913,
+        "alphaZero": 217267,
+        "solidBBoxAbove16": [
+          0,
+          8,
+          729,
+          975
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          723,
+          86
+        ]
+      }
+    },
+    {
+      "personId": "liu-yan",
+      "displayName": "刘焉",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-128.png",
+      "sha256": "087c5d49ce8bce6d9c5bd9c7a04060d92a7c5a7b86fe8c56f09191d2d8666295",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-128.png.derivation.json",
+      "recordSha256": "0c80922945daa2b65308bc4ebb7076475eebd7cd791d8bb27f5b4ad1b9f60f6e",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 158,
+        "alphaZero": 7535,
+        "solidBBoxAbove16": [
+          6,
+          8,
+          122,
+          120
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yan",
+      "displayName": "刘焉",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-256.png",
+      "sha256": "7a613e2a0bf1b2086764d464f1e4f890e442783f608739549a217702251d4d9f",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-256.png.derivation.json",
+      "recordSha256": "fc1fe42962540b70576755955a47a9d2bf7f0cfb5aaaf7821cda6e9da2e55d08",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 568,
+        "alphaZero": 31211,
+        "solidBBoxAbove16": [
+          12,
+          18,
+          243,
+          240
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-yan",
+      "displayName": "刘焉",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-card-full.png",
+      "sha256": "1ff9e30eadd3177cc7ae7bda569d2e41061c2f9182f10dcfecd9dcc6c75319be",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-card-full.png.derivation.json",
+      "recordSha256": "a5c8f25ee1dc9534ba1373ceba0f87feba0acca193677a2cd7887a69516d578c",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 5324,
+        "alphaZero": 437232,
+        "solidBBoxAbove16": [
+          125,
+          49,
+          643,
+          975
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-biao",
+      "displayName": "刘表",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-face-native.png",
+      "sha256": "5e5b0ca30ca37f710c128d63912e1c52c9dcd40854920b04416ade363ceda486",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-face-native.png.derivation.json",
+      "recordSha256": "9bf1a9f68c364aff8843d9586da9af22de0cd73e43aeef344a39dad2b1c25f94",
+      "stats": {
+        "size": [
+          530,
+          665
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 6870,
+        "alphaZero": 108167,
+        "solidBBoxAbove16": [
+          0,
+          6,
+          530,
+          665
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          107,
+          449,
+          114
+        ]
+      }
+    },
+    {
+      "personId": "liu-biao",
+      "displayName": "刘表",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-bust-native.png",
+      "sha256": "6a247f9f37bf9c6bda10d1cc0d00d4e0b7d8fc659d5d6d0039e686390e7200f1",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-bust-native.png.derivation.json",
+      "recordSha256": "7ec012cc12bbcf1c41ee63a4c8c5a9116adc992aa7a55afc1a1e0086df0498bc",
+      "stats": {
+        "size": [
+          630,
+          1025
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 10145,
+        "alphaZero": 198938,
+        "solidBBoxAbove16": [
+          0,
+          6,
+          608,
+          1025
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          580,
+          32
+        ]
+      }
+    },
+    {
+      "personId": "liu-biao",
+      "displayName": "刘表",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-128.png",
+      "sha256": "9b3f3e540b9e1f183fc2eff0a5973fbd59b4c3a0cea38ce4343c3f862ac0bef1",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-128.png.derivation.json",
+      "recordSha256": "eccce8d542b23bb522afcc522a3213416e5e0adb223c8fac75a651b8d782dad8",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 118,
+        "alphaZero": 8500,
+        "solidBBoxAbove16": [
+          17,
+          6,
+          111,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-biao",
+      "displayName": "刘表",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-256.png",
+      "sha256": "014e8fa70b46d98eaaa9d2043cf060e5b5fc1bf2745a77b5a60f2c4104308a57",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-256.png.derivation.json",
+      "recordSha256": "1c3da8d0f8d3077d1612fcb442d60b396db82bc594f8b526f08ee531aaec13de",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 487,
+        "alphaZero": 34771,
+        "solidBBoxAbove16": [
+          34,
+          12,
+          222,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "liu-biao",
+      "displayName": "刘表",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-card-full.png",
+      "sha256": "df389ad784b8b50d63651cfb9c1234284ce1de5da637522bc288ca84aebb1061",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-card-full.png.derivation.json",
+      "recordSha256": "8302300a21e8c117a9c5d6563bfedc3a133147ae6c758c8c55739bdb299f202b",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 4989,
+        "alphaZero": 504114,
+        "solidBBoxAbove16": [
+          174,
+          48,
+          593,
+          976
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "value": 20073,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "value": [
+        0.1669921875,
+        0.0546875,
+        0.197265625,
+        0.06315104166666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "value": 13746,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "value": [
+        0.13671875,
+        0.080078125,
+        0.146484375,
+        0.06640625
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "value": 13761,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "value": [
+        0.1806640625,
+        0.046223958333333336,
+        0.2158203125,
+        0.061848958333333336
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "variantsFulfilled": false,
+  "assetCount": 15,
+  "nativeCropRgbaChecked": true,
+  "status": "awaiting_user_visual_review",
+  "technicalChecksPassed": true,
+  "rootVisualReviewPassed": false,
+  "modelPreviewInspected": true,
+  "visualFinalAccepted": false,
+  "technicalOnly": true,
+  "technicalVerificationPassed": true,
+  "candidateRegistrationReceipt": "records/roster-expansion-20261111-heroes11/candidate-registration.json"
+}

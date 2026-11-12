@@ -1,0 +1,55 @@
+{
+  "passed": false,
+  "technicalOnly": true,
+  "modelPreviewInspected": true,
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "clientIntegrated": false,
+  "status": "awaiting_user_visual_review",
+  "reviewedAtUtc": "2026-11-12T04:48:04.708453+00:00",
+  "ids": [
+    "sun-huan",
+    "dong-xi",
+    "ding-feng"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261111-heroes10/generals-ui-light.png",
+      "sha256": "e1711b9117fe132157bedda196a9f783b96595c1850890691a7896ef2df2629e"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes10/generals-ui-dark.png",
+      "sha256": "775d9b8af3bc3e20e4f0287319be5b26275410b7b4b96e5c8a69689a10aa481a"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-avatar-128.png",
+      "sha256": "33f0e87cd672ce77c5673c30eab6132d6d45266f08e977f00cc4132f206910ad"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-avatar-128.png",
+      "sha256": "c9c5d5ccb860c200c545b62de5e19431105abf042008d24bf01e970fc62fdfe5"
+    },
+    {
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-128.png",
+      "sha256": "aec78a355a38ee3656d3e65bd9a621a95d1e0d343383ae9f89aa096a746ccc3c"
+    }
+  ],
+  "scope": "Model preview observations and file checks only. Awaiting the user to perform visual acceptance; these observations do not approve the art.",
+  "notes": [
+    "Sun Huan generated preview: youthful clean-shaven face, coral scarf, green compact armor, closed scroll and fully sheathed sword. Full-card and 128-pixel previews supplied for user review.",
+    "Dong Xi generated preview: broad mature face, teal headcloth, crescent axe held close to torso and visible boots. Full-card and 128-pixel previews supplied for user review.",
+    "Ding Feng generated preview: gray temples, indigo battle cap, short saber and empty scabbard held separately. Full-card and 128-pixel previews supplied for user review.",
+    "Both background preview sheets and actual 128-pixel files were inspected by the model solely to prepare review material. There is no user visual acceptance.",
+    "Native alpha-1 pixels, alpha maximum254, native margin advisories and intentional portrait cuts remain unchanged and verbatim in the manifest."
+  ],
+  "motionPlayback": {
+    "applicable": false,
+    "reason": "Static identity masters and UI crops; no animation, frame-speed, direction or client validation claim."
+  },
+  "latestUserConstraints": {
+    "guiAutomationUsed": false,
+    "noComputerUseCuaSky": true,
+    "visualAcceptanceByUserOnly": true,
+    "source": "Parent live instruction 2026-11-11"
+  }
+}

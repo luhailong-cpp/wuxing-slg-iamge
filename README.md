@@ -4,16 +4,16 @@
 
 ![五行问鼎标题候选](designs/01-率土之滨/assets/branding/wuxing-wending-title-v1.png)
 
-完整游戏美术仍在制作。地图按用户要求缩为率土大地图约1/4面积，当前制作尺寸为750×750格、56.25万格，见[地图合同](docs/QUARTER_WORLD_SCOPE_20261030.md)。当前可打开[统一美术检查页](exports/01-率土之滨/art-review-20261029/index.html)，查看人物、五规格资源与兵种逐帧播放。整屏方向图、资源数量或单独包导入通过，均不能代替完整客户端及全状态验收。当前交付见[本轮机器清单](records/current-art-catalog-20261106.json)，最新要求见 [当前制作合同](docs/CURRENT_REQUIREMENTS_20261028.md)。
+完整游戏美术仍在制作。地图按用户要求缩为率土大地图约1/4面积，当前制作尺寸为750×750格、56.25万格，见[地图合同](docs/QUARTER_WORLD_SCOPE_20261030.md)。当前可打开[统一美术检查页](exports/01-率土之滨/art-review-20261029/index.html)，查看人物、五规格资源与兵种逐帧播放。整屏方向图、资源数量或单独包导入通过，均不能代替完整客户端及全状态验收。当前交付见[本轮机器清单](records/current-art-catalog-20261111.json)，最新要求见 [当前制作合同](docs/CURRENT_REQUIREMENTS_20261028.md)。
 
-接续批新增杨彪、宋谦、司马徽、曹丕的 4 张原画与 20 张角色 UI 派生。按用户要求先补齐人物，再制作新参考对应的六组界面。Unity 接入顺延。详见[本轮交付](docs/CONTINUE_HERE_20261106.md)。
+本轮新增公孙瓒、马腾、诸葛瑾、田丰、徐盛、吴夫人、张绣、曹洪、蒋钦、孙桓、董袭、丁奉、刘虞、刘焉、刘表的 15 张原画与 75 张角色 UI 派生，全部**待用户视觉审核**。请查看[人工审核包](records/user-review-20261111/index.html)。文件尺寸、RGBA、来源哈希及原生裁切像素检查已完成；技术检查不代表用户通过。当前不使用 Computer Use 或其他 GUI 自动化。继续先补齐人物，再制作六组界面；Unity 接入顺延。详见[本轮交接](docs/CONTINUE_HERE_20261111.md)。
 
 ## 当前采用
 
 | 内容 | 已保存内容与边界 |
 |---|---|
 | 兵种 | 金木水火土 5 张普通兵母版，20 张静态导出；不是五系英雄。仅当前视角，直接帧图：五兵各20帧、共100帧技术候选；仅SE，100帧/20Clip已实际导入Unity并通过Play Mode Animator帧切换检查，行走未通过 |
-| 武将 | 刘备、曹操、孙权、赵云、诸葛亮、关羽、张飞、周瑜、吕布、貂蝉、华佗、黄月英 12 名既有身份候选加 78 名新增，共 90 名、450 张 UI 导出；另有 2 张按卡号登记的独立卡面；按用户确认继续扩展完整率土名册与三国人物；完整名册与逐卡变体仍待完成 |
+| 武将 | 历史 90 名加本轮 15 名待审核身份候选，共 105 名、525 张 UI 导出；新增候选未视为用户采用。另有 2 张按卡号登记的独立卡面；完整名册与逐卡变体仍待完成 |
 | 功能界面 | 36 类均有选中静态方向图：本轮 16 张新候选，第13页恢复现存原版，其余19页已逐张审查；仍有视觉映射与局部问题待跟进；[当前36页选稿及待办](records/ui-correction-20261028/current-ui-selection-20261028.json)为本轮记录 |
 | 通用 UI | 36 张基础切片，另 16 类补充控件的原生/128 尺寸共 32 张；新增23张通用状态切片和已点检浏览器预览；完整客户端状态仍待校准 |
 | 地图 | 33 张地形/建筑候选，另桥梁前后遮挡层及一张连续草地板；草地无缝平铺测试失败，不作为无缝 tile；新增连续河岸桥头底板已通过静态组合复核；新增原生1254×1254重复草地候选与去除烘焙人物的区域v2；750×750世界拓扑、导航、外围道路和无缝tile未通过 |
@@ -45,8 +45,8 @@
 | 五兵种母版 | [designs/01-率土之滨/assets/five-element-troops](designs/01-率土之滨/assets/five-element-troops/) |
 | 导出与 Unity 包 | [exports/01-率土之滨](exports/01-率土之滨/) |
 | 提示词、回执与验证 | [prompts](prompts/) · [records](records/) |
-| 本轮交接 | [本轮美术交付与续作](docs/CONTINUE_HERE_20261106.md) |
+| 本轮交接 | [本轮美术交付与续作](docs/CONTINUE_HERE_20261111.md) |
 
-实际美术根目录 D:/work/wuxing-slg-iamge。先读 [AGENTS.md](AGENTS.md)、[视觉规范](docs/UI_STYLE_GUIDE.md)和最新交接。GitHub 为 [luhailong-cpp/wuxing-slg-iamge](https://github.com/luhailong-cpp/wuxing-slg-iamge)，发布按既有单个无父提交快照约定执行；本地新增内容不等于已推送，每次发布需单独核对远端commit/tree。
+当前美术根目录 E:/work/wuxing-slg-iamge。先读 [AGENTS.md](AGENTS.md)、[视觉规范](docs/UI_STYLE_GUIDE.md)和最新交接。GitHub 为 [luhailong-cpp/wuxing-slg-iamge](https://github.com/luhailong-cpp/wuxing-slg-iamge)。依当前授权正常 commit/push，保留历史，不 force、不 reset/clean；本地新增内容不等于已推送，每次发布需核对远端 SHA。
 
 用户提供的第三方截图保留参考来源；本库没有额外授予第三方内容使用权，也没有统一附加开源许可证。

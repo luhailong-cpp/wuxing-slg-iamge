@@ -1,0 +1,128 @@
+{
+  "registeredAtUtc": "2026-11-12T04:51:13.548294+00:00",
+  "batch": "roster-expansion-20261111-heroes7",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "visualAcceptanceGranted": false,
+  "technicalVerification": {
+    "batch": "roster-expansion-20261111-heroes7",
+    "readOnly": true,
+    "passed": true,
+    "checked": {
+      "masters": 3,
+      "assets": 15,
+      "nativeCrops": 6,
+      "references": 18
+    },
+    "warnings": [
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+        "value": 20928,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+        "value": [
+          0.0703125,
+          0.046223958333333336,
+          0.0654296875,
+          0.061848958333333336
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+        "value": 17489,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+        "value": [
+          0.0927734375,
+          0.08723958333333333,
+          0.1630859375,
+          0.061197916666666664
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+        "value": 10372,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+        "value": [
+          0.2138671875,
+          0.07486979166666667,
+          0.1708984375,
+          0.07421875
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "INTENTIONAL_PORTRAIT_WINDOW",
+        "value": true,
+        "threshold": false,
+        "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+      }
+    ],
+    "failures": []
+  },
+  "visualReview": {
+    "file": "records/roster-expansion-20261111-heroes7/visual-review.json",
+    "sha256": "49b60cb975f275bc984ccb5f1e7cae6690fb62ffd258c201e3cecd87e2a7005b"
+  },
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/generals-ui-manifest.json",
+    "sha256": "6640c6ad7733e19b4478f8510d4c0b20c9fddc913997e8baf42a62f5b44bb93a"
+  },
+  "batchPeople": 3,
+  "totalPeople": 93,
+  "totalUI": 465,
+  "sharedOutputs": [
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/generals-manifest.json",
+      "sha256": "7d8e93dbe357be6af55a7e56c962e9337225937b412d260e7d1217c224796f00"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/data.js",
+      "sha256": "7803668fa95b1b9896fd4f1a19e012ee14347bf0a35e7caf2022c5a379c7ca21"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/index.html",
+      "sha256": "b8f0f40c3b344d0cae126f463c55947346f5ca9aa607ef6a4fc003e643b7d353"
+    },
+    {
+      "file": "records/roster-20261029/CURRENT_PRODUCTION_OVERLAY_20261102.json",
+      "sha256": "81f5839df15aecd7735eed904a8633d7a47961735dd74aff0c45b66ea65d1899"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-avatar-256.png",
+  "sha256": "12056a00596c8337df48ff5179a80434f915b703af9e7f0bd5c06082ca80f13b",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+    "sha256": "0c2a954455c7b0b791a51c8b8d83608df3c8e056d3e2394f2dcef502ee93a5da",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      275,
+      106,
+      742,
+      660
+    ],
+    "uniformScale": 0.4259927797833935,
+    "resizedSize": [
+      199,
+      236
+    ],
+    "offset": [
+      28,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

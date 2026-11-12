@@ -1,0 +1,97 @@
+{
+  "batch": "roster-expansion-20261111-heroes10",
+  "readOnly": true,
+  "passed": true,
+  "checked": {
+    "masters": 3,
+    "assets": 15,
+    "nativeCrops": 6,
+    "references": 18
+  },
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+      "value": 14471,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+      "value": [
+        0.08203125,
+        0.055989583333333336,
+        0.185546875,
+        0.057942708333333336
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+      "value": 16375,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+      "value": [
+        0.14453125,
+        0.10286458333333333,
+        0.111328125,
+        0.064453125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+      "value": 29383,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+      "value": [
+        0.1328125,
+        0.07942708333333333,
+        0.1533203125,
+        0.059244791666666664
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "failures": [],
+  "technicalOnly": true,
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "validationScope": "File integrity, source linkage, native crop pixels, dimensions and alpha only. No visual acceptance."
+}

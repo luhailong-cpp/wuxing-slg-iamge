@@ -1,0 +1,130 @@
+{
+  "registeredAtUtc": "2026-11-12T04:51:14.842767+00:00",
+  "batch": "roster-expansion-20261111-heroes8",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "visualAcceptanceGranted": false,
+  "technicalVerification": {
+    "batch": "roster-expansion-20261111-heroes8",
+    "readOnly": true,
+    "technicalOnly": true,
+    "userVisualApproved": false,
+    "passed": true,
+    "checked": {
+      "masters": 3,
+      "assets": 15,
+      "nativeCrops": 6,
+      "references": 18
+    },
+    "warnings": [
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+        "value": 9686,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+        "value": [
+          0.1416015625,
+          0.07682291666666667,
+          0.2080078125,
+          0.0703125
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+        "value": 12694,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+        "value": [
+          0.185546875,
+          0.08984375,
+          0.15234375,
+          0.06901041666666667
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+        "value": 9152,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+        "value": [
+          0.177734375,
+          0.072265625,
+          0.171875,
+          0.0546875
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "INTENTIONAL_PORTRAIT_WINDOW",
+        "value": true,
+        "threshold": false,
+        "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+      }
+    ],
+    "failures": []
+  },
+  "visualReview": {
+    "file": "records/roster-expansion-20261111-heroes8/visual-review.json",
+    "sha256": "60d86068b26d9b15718f0c52154e99a0c454a8678fe0a2b5717e4d3678502be7"
+  },
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/generals-ui-manifest.json",
+    "sha256": "c971ca921457be17315174d3395f2949e7d16f529e99f4ff98ca61b925c4f64f"
+  },
+  "batchPeople": 3,
+  "totalPeople": 96,
+  "totalUI": 480,
+  "sharedOutputs": [
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/generals-manifest.json",
+      "sha256": "f9882768f08c0c1f383a585a4b09d0d8ec268ad568777ab1b47f5d15df51bebc"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/data.js",
+      "sha256": "6def29e387e205305a4820d312050277c6fca878dbda9e12240c9ca6bca22c68"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/index.html",
+      "sha256": "c2f693a2d16f689ee0362b7c91ff395aba28ac60f2a44f613733aa1088c6a7b9"
+    },
+    {
+      "file": "records/roster-20261029/CURRENT_PRODUCTION_OVERLAY_20261102.json",
+      "sha256": "9a9cb06994650844713c96a09e632f60af67140e5c86f11b64c2f8541552ebcf"
+    }
+  ]
+}

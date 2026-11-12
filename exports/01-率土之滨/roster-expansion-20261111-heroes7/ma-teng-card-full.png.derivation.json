@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-card-full.png",
+  "sha256": "495d5fd9ed6cf7490e57c2885457955b8b25eef4b23b64a37eaaf5699a5465fc",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+    "sha256": "f2d03d1ce9a0add5d57731c4376a49e970e5cf1a0e8680a7e55321ebbae422ec",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      71,
+      110,
+      881,
+      1466
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.7079646017699115,
+    "resizedSize": [
+      573,
+      960
+    ],
+    "offset": [
+      97,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

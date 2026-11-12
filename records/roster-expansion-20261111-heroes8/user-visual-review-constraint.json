@@ -1,0 +1,17 @@
+{
+  "clientDate": "2026-11-11",
+  "source": "Current user constraint relayed by root while this batch was generating",
+  "noComputerUseOrGuiAutomation": true,
+  "userVisualAcceptanceRequired": true,
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "allowedWork": [
+    "host image generation",
+    "source copy",
+    "native crop and resize",
+    "dimensions/alpha/hash checks",
+    "prepare light/dark and 128px previews"
+  ],
+  "scope": "Model preview inspection and technical checks do not substitute for user visual acceptance. No GUI automation used; do not register this batch as accepted without user review."
+}

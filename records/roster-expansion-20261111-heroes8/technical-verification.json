@@ -1,0 +1,96 @@
+{
+  "batch": "roster-expansion-20261111-heroes8",
+  "readOnly": true,
+  "technicalOnly": true,
+  "userVisualApproved": false,
+  "passed": true,
+  "checked": {
+    "masters": 3,
+    "assets": 15,
+    "nativeCrops": 6,
+    "references": 18
+  },
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": 9686,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": [
+        0.1416015625,
+        0.07682291666666667,
+        0.2080078125,
+        0.0703125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": 12694,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": [
+        0.185546875,
+        0.08984375,
+        0.15234375,
+        0.06901041666666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": 9152,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": [
+        0.177734375,
+        0.072265625,
+        0.171875,
+        0.0546875
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "failures": [],
+  "verificationScriptSha256": "576de6ce7226de58f709e18ed5b7c12e704b8999d25ed709611e4797fb3a5b8d",
+  "stderr": ""
+}

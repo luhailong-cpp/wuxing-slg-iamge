@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-face-native.png",
+  "sha256": "0dbab06d4a7993974ab5569e15bfc58eb2bea9600f2f31f0b0450fc695a2c106",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+    "sha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      260,
+      130,
+      780,
+      640
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

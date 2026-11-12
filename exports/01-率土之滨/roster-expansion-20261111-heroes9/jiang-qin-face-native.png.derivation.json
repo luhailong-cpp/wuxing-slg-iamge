@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-face-native.png",
+  "sha256": "4bb1928ca53bbc1157939bb7c022ab34f4f6222682403afae4f68958a61c6c55",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+    "sha256": "09d20d17096cc8f095d1a42c281942c80b18b2268e8adea76be6bdfe6f2b271e",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      178,
+      137,
+      759,
+      625
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

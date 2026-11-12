@@ -1,0 +1,122 @@
+{
+  "passed": false,
+  "technicalOnly": true,
+  "modelPreviewInspected": true,
+  "reviewedAtUtc": "2026-11-12T04:50:57.644950+00:00",
+  "status": "awaiting_user_visual_review",
+  "ids": [
+    "tian-feng",
+    "xu-sheng",
+    "wu-fu-ren"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261111-heroes8/generals-ui-light.png",
+      "sha256": "6eca4829b017344c8d4f905e9b7c33a68211b3adfa4c4adb1eaaa005fc98868c"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes8/generals-ui-dark.png",
+      "sha256": "6cef2248df36613d1584b951416b1d4b8598da1389b16b4bb0e08bb1a97ad60d"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes8/avatars-128-light-dark.png",
+      "sha256": "d398d0659c40365b973802356725a0af6af540129b386476baae0300d15dab5a"
+    }
+  ],
+  "scope": "Source and generated preview images inspected by the model for preparation only. Does not substitute for user visual acceptance. No GUI, CUA, computer-use or sky automation used.",
+  "notes": [
+    "Tian Feng preview: gray moustache/beard, square charcoal scholar headwrap, indigo robe, bamboo memorandum and open advising hand. Face/bust windows are intentionally cropped portraits.",
+    "Xu Sheng preview: compact rounded gray helmet and red tassel, clean-shaven adult face, blue-gray/teal lamellar armor and fully sheathed waist saber. No polearm copied from peer.",
+    "Lady Wu preview: mature face and gray temple strands, low coiled hair and floral pin, plum robe and seal-box-shaped prop held at the waist; actual silhouette and prop interpretation remain for user review.",
+    "Prepared light/dark preview sheets and pasted 128x128 avatar images at 1:1 pixels. Model inspection is recorded without a visual-pass claim.",
+    "All native PNG bytes preserved after host-output copy; no alpha threshold cleanup. Source alpha=1, max alpha254 and source margin advisories are retained in the manifest."
+  ],
+  "motionPlayback": {
+    "applicable": false,
+    "reason": "Only static identity masters and UI derivatives; no new motion or real-speed playback claim."
+  },
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "clientIntegrated": false,
+  "warningSource": "exports/01-率土之滨/roster-expansion-20261111-heroes8/generals-ui-manifest.json",
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": 9686,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": [
+        0.1416015625,
+        0.07682291666666667,
+        0.2080078125,
+        0.0703125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": 12694,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": [
+        0.185546875,
+        0.08984375,
+        0.15234375,
+        0.06901041666666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": 9152,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": [
+        0.177734375,
+        0.072265625,
+        0.171875,
+        0.0546875
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ]
+}

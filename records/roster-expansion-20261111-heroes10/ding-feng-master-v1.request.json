@@ -1,0 +1,78 @@
+{
+  "startedAt": null,
+  "clientDate": "2026-11-11",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "tool": "image_gen.imagegen",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+      "role": "approved peer figure; style and proportions only",
+      "actuallyAttached": true
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original full-body historical character master for the Three Kingdoms strategy game 五行问鼎. Use images 1 and 2 as the approved Daoist chibi art style. Image 3 is a peer figure for polished hand-painted finish and large-head short-body proportions only, not his face, identity or costume. Depict 丁奉 (Ding Feng), a seasoned Eastern Wu battlefield commander. Narrow angular mature face, subtle gray at temples, stern straight brows, focused dark brown eyes, a neat short moustache and a small squared chin beard. A close dark indigo battle cap with a low bronze forehead plate, no plume. Close-fitting charcoal-blue segmented armor, ivory inner collar, muted wine-red sash and a short weathered ochre shoulder mantle. One hand holds a short broad-bladed saber angled downward close to the body with the rounded tip fully inside the silhouette, the other holds its empty scabbard close at the opposite hip. Strong compact wrists, restrained military posture, quiet composed gaze, both feet planted. Different face and costume from the young Sun Huan and broad robust Dong Xi. No shield, no long spear, no magical effects. One person only, oversized expressive head and compact short limbs, approximately 2.7 heads tall. High-definition hand-painted illustration, softly rendered detailed cloth and metal, readable warm expressive face at icon size. One balanced three-quarter standing stance, both feet visible. Full figure and all props inside central 72 percent of width and 80 percent of height, at least 10 percent blank safe margin on every side. Portrait 2:3, genuine transparent alpha outside person and props. No floor, no shadow, no glow, no halo, no background, no border, no writing, no badge, no UI, no elements or magic. The character must have an independent recognizable face.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261106-heroes6\\song-qian-master-v3.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "ding-feng",
+    "name": "丁奉",
+    "personID": "ww-p-59b589f5f0d9",
+    "cardIDs": [
+      100481,
+      100788
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/identity-art-coverage.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=丁奉; cardIds=100165,100481,100788,130788"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷55"
+      }
+    ],
+    "costumeNote": "Original art design; no claim to an evidenced historical costume or exact portrait likeness."
+  }
+}

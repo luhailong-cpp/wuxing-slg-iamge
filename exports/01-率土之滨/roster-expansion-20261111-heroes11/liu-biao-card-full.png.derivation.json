@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-card-full.png",
+  "sha256": "df389ad784b8b50d63651cfb9c1234284ce1de5da637522bc288ca84aebb1061",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+    "sha256": "2d557eb9bd74cf3c0dee7496db6f99a18c7543648039aef1f8a6cfa53d5eab03",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      161,
+      47,
+      827,
+      1465
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.6770098730606487,
+    "resizedSize": [
+      451,
+      960
+    ],
+    "offset": [
+      158,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

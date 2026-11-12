@@ -1,0 +1,40 @@
+{
+  "checkedAtUtc": "2026-11-12T04:52:16.767832+00:00",
+  "technicalOnly": true,
+  "passed": true,
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "status": "awaiting_user_visual_review",
+  "guiAutomationUsed": false,
+  "checks": {
+    "htmlLocalFileLinks": 109,
+    "htmlScriptsOrEmbeddedPlayers": 0,
+    "inputPeople": 15,
+    "inputUiHashes": 75,
+    "fontRequiredNameCharacters": 35,
+    "fontMissingNameCharacters": [],
+    "fontCheck": "Actual local TTF cmap format4/12 lookup via Python standard library",
+    "summaryInputsPerImage": 15
+  },
+  "outputs": [
+    {
+      "file": "records/user-review-20261111/summary-light.png",
+      "sha256": "59311cb20dbfc567aa325f97230b9514d4467c4c69ddf9271f89cd30d2a65f11",
+      "size": [
+        1200,
+        1095
+      ],
+      "inputs": 15
+    },
+    {
+      "file": "records/user-review-20261111/summary-dark.png",
+      "sha256": "2aebf3693f9412e4caeea88c5a84812f6424a9dd6ca1ca896a7d2f65758da072",
+      "size": [
+        1200,
+        1095
+      ],
+      "inputs": 15
+    }
+  ],
+  "visualAcceptance": "Pending user review. No graphical browser or GUI automation was used."
+}

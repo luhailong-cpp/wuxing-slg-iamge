@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-face-native.png",
+  "sha256": "12518e61101ce2097174a0fdde0561d1614a2abbde53e33deb0f7ec2a5edb132",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+    "sha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      160,
+      115,
+      805,
+      730
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

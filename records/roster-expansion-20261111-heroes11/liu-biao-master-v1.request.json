@@ -1,0 +1,77 @@
+{
+  "startedAt": null,
+  "clientDate": "2026-11-11",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "tool": "image_gen.imagegen",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+      "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+      "role": "approved style only",
+      "actuallyAttached": true
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original historical character master for 五行问鼎, a Three Kingdoms strategy game. Images 1 and 2 define the approved Daoist chibi painted art style. Image 3 is an existing peer for material finish and compact proportions only; create a distinct identity and outfit. Depict 刘表 (Liu Biao), an elderly scholarly Han provincial ruler. Long refined face, thoughtful half-lidded eyes, high gently curved eyebrows, long flowing dark beard streaked with silver. A tall narrow dark gauze cap with one subtle teal jade clasp, deep indigo silk outer court robe with restrained silver-blue wave embroidery, cream lining and a narrow jade-green belt. Holds a partially unrolled plain diplomatic scroll close to chest with the left hand while the right hand lightly gathers the sleeve. No readable words on the scroll. Elegant contained silhouette with a thoughtful reserved smile. No armor, no feather fan, no mirror, no weapon. One complete standing person, three-quarter view. Big expressive head, small compact limbs about 2.7 heads tall, polished high-definition hand-painted illustration, soft silk and jade, restrained warm gold details. Clearly separate hands with natural grips and both complete shoes visible. All headwear, sleeves, feet and props fully contained in the central 74 percent width and 80 percent height. Large clear margin around every side. Portrait 2:3 composition with genuine transparent alpha. No backdrop, no ground, no cast shadow, no halo or effects, no writing or UI, no border. Clothing and accessories are original game art interpretations, not museum reconstructions.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261106-heroes6\\sima-hui-master-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "liu-biao",
+    "name": "刘表",
+    "personID": "ww-p-b7dc1f3adc43",
+    "cardIDs": [
+      100530,
+      100675
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/identity-art-coverage.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=刘表; cardIds=100107,100530,100623,100675,130675"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷6"
+      }
+    ]
+  }
+}

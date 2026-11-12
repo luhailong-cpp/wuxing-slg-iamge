@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-bust-native.png",
+  "sha256": "51e58b97bbfd5cfc0a78db6db3e27bf1168129ef21724baa1c99b80855b47e4e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+    "sha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      170,
+      100,
+      850,
+      1050
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

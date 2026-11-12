@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-128.png",
+  "sha256": "90dd0f3a01d2e55b54bcc2ae4fedce89ec58f4ac6180c59522b99f79e66c3b91",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+    "sha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      260,
+      130,
+      780,
+      640
+    ],
+    "uniformScale": 0.22692307692307692,
+    "resizedSize": [
+      118,
+      116
+    ],
+    "offset": [
+      5,
+      6
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,718 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-12T04:47:57.473236+00:00",
+  "scope": "Original Daoist chibi historical identity masters to five UI derivatives each",
+  "newGeneratedImagesInThisScript": 0,
+  "generalCount": 3,
+  "sources": [
+    {
+      "id": "zhang-xiu",
+      "name": "张绣",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+      "faceBox": [
+        308,
+        155,
+        762,
+        645
+      ],
+      "bustBox": [
+        210,
+        155,
+        790,
+        980
+      ],
+      "sha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 18116,
+        "alphaZero": 1112201,
+        "solidBBoxAbove16": [
+          202,
+          163,
+          774,
+          1396
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "e58ca78641f5a04e33b29ffd4a39a1f123008b7d8acff8359c6e5beafce64432"
+    },
+    {
+      "id": "cao-hong",
+      "name": "曹洪",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "faceBox": [
+        270,
+        105,
+        720,
+        600
+      ],
+      "bustBox": [
+        142,
+        105,
+        876,
+        1000
+      ],
+      "sha256": "72640c63bf50c92a51af5d033b650403e15069e14f3acf86d7fda33c83c749e4",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 11803,
+        "alphaZero": 951695,
+        "solidBBoxAbove16": [
+          149,
+          115,
+          864,
+          1437
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "539aa7ef3d4c2d58f86f9ea9764e63c5518e56a7c28bc07f4b01284bbb06fa9d"
+    },
+    {
+      "id": "jiang-qin",
+      "name": "蒋钦",
+      "source": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "faceBox": [
+        178,
+        137,
+        759,
+        625
+      ],
+      "bustBox": [
+        175,
+        135,
+        830,
+        1010
+      ],
+      "sha256": "09d20d17096cc8f095d1a42c281942c80b18b2268e8adea76be6bdfe6f2b271e",
+      "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png.generation.json",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 14429,
+        "alphaZero": 1046133,
+        "solidBBoxAbove16": [
+          181,
+          142,
+          825,
+          1438
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSha256": "5dd6a8b3955e8b95b4de375a347984d1c2044fa07227aadcd07b81dcd2d85075"
+    }
+  ],
+  "assets": [
+    {
+      "personId": "zhang-xiu",
+      "displayName": "张绣",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-face-native.png",
+      "sha256": "3766d106aebc97cc0348ec76ff28da9b51f06d150864ef286c8bfc25aa7abbe4",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-face-native.png.derivation.json",
+      "recordSha256": "bea678f3e0f90aaca31375878ffdbdcece713583e4860fb58617db5bac0afe35",
+      "stats": {
+        "size": [
+          454,
+          490
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 5824,
+        "alphaZero": 84131,
+        "solidBBoxAbove16": [
+          20,
+          8,
+          429,
+          490
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          311,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-xiu",
+      "displayName": "张绣",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-bust-native.png",
+      "sha256": "cd577152eeae878fdc2b679b3b585ee8c50e48a9b9240bd727065af09a0462ac",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-bust-native.png.derivation.json",
+      "recordSha256": "875615ee85fc75662471ab8eae425b14191e39492cee67655326903d91a4fb25",
+      "stats": {
+        "size": [
+          580,
+          825
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 11813,
+        "alphaZero": 169162,
+        "solidBBoxAbove16": [
+          0,
+          8,
+          564,
+          825
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          395,
+          19
+        ]
+      }
+    },
+    {
+      "personId": "zhang-xiu",
+      "displayName": "张绣",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-128.png",
+      "sha256": "5c75861db9f61ab4b663a9f27b22ca87997819ce41dbc57a1b0dae8c450ed7aa",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-128.png.derivation.json",
+      "recordSha256": "b9f1e85e068131da9f4f83e0aa13a15a9f777d97d1a594923126c76d22b2520c",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 203,
+        "alphaZero": 8256,
+        "solidBBoxAbove16": [
+          13,
+          6,
+          112,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-xiu",
+      "displayName": "张绣",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-256.png",
+      "sha256": "c1840d3b04f376d8f1efbee3921a0a404a6e17ee4b3c5db4c6e618bbd694380a",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-256.png.derivation.json",
+      "recordSha256": "94ae4c6fe9b5831db22ad90e4fe4e9cbead908ad9edbc4605264ffe936822b5e",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 964,
+        "alphaZero": 33663,
+        "solidBBoxAbove16": [
+          27,
+          14,
+          225,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "zhang-xiu",
+      "displayName": "张绣",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-card-full.png",
+      "sha256": "9c103d836c533e92e81c67507a603de21b451569cbaa59e9d380b62471c12c0d",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-card-full.png.derivation.json",
+      "recordSha256": "4643dc28a0dbab897fe4fe8d392783c2ffec0e64f0bde5f53480b72052367efd",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 8420,
+        "alphaZero": 529443,
+        "solidBBoxAbove16": [
+          169,
+          50,
+          598,
+          974
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-hong",
+      "displayName": "曹洪",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-face-native.png",
+      "sha256": "45649fbad7dcc78cbb3ec836e59c337bb5a00dd6b6535f003fe4d24c5bf71cc9",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-face-native.png.derivation.json",
+      "recordSha256": "aef3619d774438b569f489dbb2968ddfa504f9d89730ff8baad7cb127e3add35",
+      "stats": {
+        "size": [
+          450,
+          495
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 2890,
+        "alphaZero": 59351,
+        "solidBBoxAbove16": [
+          2,
+          10,
+          450,
+          495
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          39,
+          448,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-hong",
+      "displayName": "曹洪",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-bust-native.png",
+      "sha256": "0db32dff0fc31eca206cff0380b84735a90d3e8c6325853f3e8069a32e143d92",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-bust-native.png.derivation.json",
+      "recordSha256": "c97abd1d3f6ea7fbe5b71aecbcc3746a8eec801d86cff7f294e3bbe3d79c1340",
+      "stats": {
+        "size": [
+          734,
+          895
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 7146,
+        "alphaZero": 242768,
+        "solidBBoxAbove16": [
+          7,
+          10,
+          722,
+          895
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          500,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-hong",
+      "displayName": "曹洪",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-128.png",
+      "sha256": "0b0c87c94d19c031c94337c86cc12a9cb68ac50e3a099257a2999e22b6bfb818",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-128.png.derivation.json",
+      "recordSha256": "360a753009ab055bf7dda66fb0d03dc82cb0cf2d3b410f21956e2d282fd1de49",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 112,
+        "alphaZero": 6923,
+        "solidBBoxAbove16": [
+          10,
+          7,
+          117,
+          123
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-hong",
+      "displayName": "曹洪",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-256.png",
+      "sha256": "16b64b97112ee21e5afd8aa81f02ce986fef09a197218b32ed1c244754d9622b",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-256.png.derivation.json",
+      "recordSha256": "352383cd5f682b1e1555df214017bf525dfcf12781f3b3d5cf4c2daf40118ba3",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 417,
+        "alphaZero": 28345,
+        "solidBBoxAbove16": [
+          21,
+          14,
+          235,
+          246
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "cao-hong",
+      "displayName": "曹洪",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-card-full.png",
+      "sha256": "8f55dc45ed26fa982ce76c554ae0b1dbf576c2777f9d5ac2ce47c6be64a41128",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-card-full.png.derivation.json",
+      "recordSha256": "a0b1fd755cc1240c394be67ed7f75bd0c0c6f412741755ad6c009bbe60282ac8",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 4623,
+        "alphaZero": 482192,
+        "solidBBoxAbove16": [
+          133,
+          49,
+          634,
+          975
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "jiang-qin",
+      "displayName": "蒋钦",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-face-native.png",
+      "sha256": "4bb1928ca53bbc1157939bb7c022ab34f4f6222682403afae4f68958a61c6c55",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-face-native.png.derivation.json",
+      "recordSha256": "bd5571d5724bcfc5ed7176a6d43cbf2b9f0b4dd8f57334ad2f728c128b856b17",
+      "stats": {
+        "size": [
+          581,
+          488
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 6936,
+        "alphaZero": 110769,
+        "solidBBoxAbove16": [
+          3,
+          5,
+          570,
+          488
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          312,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "jiang-qin",
+      "displayName": "蒋钦",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-bust-native.png",
+      "sha256": "f079b0086272f27d4e6f74e5e5089f1e745b18294ba1e626e1fe50f6d4cc9c02",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-bust-native.png.derivation.json",
+      "recordSha256": "f8fc4f70c5e63d3605f949b694b8e81b0ee4516f18985f42f0b05bde9fdb2b39",
+      "stats": {
+        "size": [
+          655,
+          875
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 10566,
+        "alphaZero": 211845,
+        "solidBBoxAbove16": [
+          6,
+          7,
+          650,
+          875
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          424,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "jiang-qin",
+      "displayName": "蒋钦",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-128.png",
+      "sha256": "b9ab2484bb9147704e639721e7ec2faac2307e201ca096060f6a8c700600ca63",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-128.png.derivation.json",
+      "recordSha256": "7fcd3ee2fc953a5dfba02067a9f3bc6096a4b607fcc764d397232af790c745e7",
+      "stats": {
+        "size": [
+          128,
+          128
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 145,
+        "alphaZero": 8989,
+        "solidBBoxAbove16": [
+          5,
+          14,
+          121,
+          113
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "jiang-qin",
+      "displayName": "蒋钦",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-256.png",
+      "sha256": "9c8c91c375863f07a4bf1b8533e5d605f5204a89e33907cf9df11db4650327d9",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-256.png.derivation.json",
+      "recordSha256": "35a93031174f4f352ce15ea10abb18a4c63ea8b50f5f8eb10d997ba955650dc3",
+      "stats": {
+        "size": [
+          256,
+          256
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 616,
+        "alphaZero": 37125,
+        "solidBBoxAbove16": [
+          11,
+          31,
+          242,
+          227
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "personId": "jiang-qin",
+      "displayName": "蒋钦",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-card-full.png",
+      "sha256": "a9f3f2b18e151b7733343308807262b7cdcc27f70e410df8e83e8be87aa8f9eb",
+      "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-card-full.png.derivation.json",
+      "recordSha256": "b03d2f7bca48f7b7f81a76a6b5016b686b7f1192289a9a2ef0efcfb73a774d0d",
+      "stats": {
+        "size": [
+          768,
+          1024
+        ],
+        "alphaRange": [
+          0,
+          255
+        ],
+        "alphaOne": 5484,
+        "alphaZero": 518656,
+        "solidBBoxAbove16": [
+          154,
+          49,
+          614,
+          975
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+      "value": 18116,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "value": 11803,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "value": [
+        0.1455078125,
+        0.07486979166666667,
+        0.15625,
+        0.064453125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "value": 14429,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "value": [
+        0.1767578125,
+        0.09244791666666667,
+        0.1943359375,
+        0.06380208333333333
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "userApproved": false,
+  "clientIntegrated": false,
+  "variantsFulfilled": false,
+  "assetCount": 15,
+  "nativeCropRgbaChecked": true,
+  "status": "awaiting_user_visual_review",
+  "rootVisualReviewPassed": false,
+  "visualFinalAccepted": false,
+  "technicalOnly": true,
+  "technicalVerification": "records/roster-expansion-20261111-heroes9/delivery-integrity.json",
+  "technicalVerificationPassed": true,
+  "candidateRegistrationReceipt": "records/roster-expansion-20261111-heroes9/candidate-registration.json"
+}

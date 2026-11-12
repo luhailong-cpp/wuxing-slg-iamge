@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-256.png",
+  "sha256": "4a02fe2df0a8b940220212b03e3d2fe731ea583790779085aff8dc246dbd3d91",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+    "sha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      185,
+      100,
+      755,
+      605
+    ],
+    "uniformScale": 0.41403508771929826,
+    "resizedSize": [
+      236,
+      209
+    ],
+    "offset": [
+      10,
+      23
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

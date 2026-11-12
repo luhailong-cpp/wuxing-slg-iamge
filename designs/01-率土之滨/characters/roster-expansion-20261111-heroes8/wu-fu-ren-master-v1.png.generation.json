@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+  "sha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df",
+  "generatedAt": "2026-11-12T04:49:05.210Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-12T04:46:08.191Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-ea401f4e-82dd-40e7-8d03-55d71242c226",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "prompt": "Original full-body historical identity character master for the Three Kingdoms strategy game 五行问鼎. Image 1 and image 2 are approved Daoist chibi visual-style references only. Image 3 is an adopted peer figure for head-to-body proportions and refined hand-painted finish only; do not copy its identity, face, pose or costume. Depict 吴夫人 (Lady Wu), a dignified mature Chinese noblewoman with softly rounded cheeks, gentle age lines, arched brows and calm authoritative eyes, a warm restrained smile. Black hair gathered into a broad elegant low coiled bun with subtle gray strands at the temples, a modest warm-gold floral hairpin and small jade drop earrings; no towering phoenix crown. Deep muted plum silk outer robe over ivory layers, dusty jade trim, discreet warm-gold cloud motifs and roomy structured sleeves. She holds a small closed square lacquer seal box with both hands at waist height, both hands clearly formed and visible. Grounded composed matronly standing pose; full robe hem and both shoes visible. Distinctly mature presence, not a young princess or musician. No instrument, fan, weapon, glowing effects or long loose ribbons from the peer. One person only. Oversized expressive head and compact short limbs, approximately 2.7 heads tall, high-definition polished hand-painted illustration with soft brushwork, warm expressive face, tactile fabric folds, restrained jade ornaments and warm gold trim. Balanced three-quarter standing stance, full body and both shoes visible. Keep the complete figure, headwear, sleeves and every prop strictly within central 76 percent of width and 82 percent of height, at least 9 percent clear safe margin on every side. Portrait 2:3 composition. Genuine transparent alpha outside the figure and props; no painted backdrop, floor, cast shadow, glow, halo, scenery, frame, badge, writing or UI. This is static identity art, not an animation frame or a five-element class. No duplicated limbs or fingers.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261101-heroes1\\cai-wen-ji-master-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. The tool did not disclose a verifiable actual model or quality for this result. Configuration targets and prompt text are not model evidence.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.request.json",
+      "sha256": "26f744bc826a29927d30fdb16b2cfe287275b480fb2f3049168dd1e887593ab6",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.response.json",
+      "sha256": "9cb7fabe9d313e85ce3a93a91b77f79ad65c4751efd2d3f8859041ee909db3a3",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt",
+        "resultId",
+        "sourceImage"
+      ]
+    },
+    {
+      "sourceImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-4eb1-7071-a2e4-cbabe52333f4\\exec-ea401f4e-82dd-40e7-8d03-55d71242c226.png",
+      "sha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved primary style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved primary style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261101-heroes1/cai-wen-ji-master-v1.png",
+      "sha256": "8fdded956c858a7d4a38ca3c56d6f00de9b4f1fea03598041b41cb9ec7e12e69",
+      "role": "adopted peer figure; style and proportions only, not identity",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 902934,
+    "semiTransparentPixelCount": 669930,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "identity": {
+    "id": "wu-fu-ren",
+    "name": "吴夫人",
+    "personID": "ww-p-700b92d06496",
+    "cardIDs": [
+      100091,
+      102008
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/identity-art-coverage.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=吴夫人; cardIds=100091,102008"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷50"
+      }
+    ]
+  }
+}

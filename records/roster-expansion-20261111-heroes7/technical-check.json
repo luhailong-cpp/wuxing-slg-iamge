@@ -1,0 +1,93 @@
+{
+  "batch": "roster-expansion-20261111-heroes7",
+  "readOnly": true,
+  "passed": true,
+  "checked": {
+    "masters": 3,
+    "assets": 15,
+    "nativeCrops": 6,
+    "references": 18
+  },
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+      "value": 20928,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+      "value": [
+        0.0703125,
+        0.046223958333333336,
+        0.0654296875,
+        0.061848958333333336
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+      "value": 17489,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+      "value": [
+        0.0927734375,
+        0.08723958333333333,
+        0.1630859375,
+        0.061197916666666664
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+      "value": 10372,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+      "value": [
+        0.2138671875,
+        0.07486979166666667,
+        0.1708984375,
+        0.07421875
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "failures": [],
+  "verificationScope": "File, dimensions, alpha, source hashes and native crop pixels only; user visual review pending."
+}

@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-card-full.png",
+  "sha256": "298d8aff98cf7829f96f21a9157cb92ea57974459e7f0feff2f832b4a4206e26",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+    "sha256": "cc98ccaec1b0cde4cfdbaac3098c27aae7c799bdbf7c0e078859c5e7744e2705",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      124,
+      134,
+      934,
+      1461
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.7234363225320272,
+    "resizedSize": [
+      586,
+      960
+    ],
+    "offset": [
+      91,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

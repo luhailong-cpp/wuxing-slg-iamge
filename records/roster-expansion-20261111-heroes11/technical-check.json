@@ -1,0 +1,93 @@
+{
+  "batch": "roster-expansion-20261111-heroes11",
+  "readOnly": true,
+  "passed": true,
+  "checked": {
+    "masters": 3,
+    "assets": 15,
+    "nativeCrops": 6,
+    "references": 18
+  },
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "value": 20073,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "value": [
+        0.1669921875,
+        0.0546875,
+        0.197265625,
+        0.06315104166666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "value": 13746,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "value": [
+        0.13671875,
+        0.080078125,
+        0.146484375,
+        0.06640625
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "value": 13761,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "value": [
+        0.1806640625,
+        0.046223958333333336,
+        0.2158203125,
+        0.061848958333333336
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "failures": [],
+  "verificationScope": "File, dimensions, alpha, source hashes and native crop pixels only; user visual review pending."
+}

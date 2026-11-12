@@ -1,0 +1,111 @@
+{
+  "status": "awaiting_user_visual_review",
+  "passed": false,
+  "technicalOnly": true,
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "clientIntegrated": false,
+  "modelPreviewInspected": true,
+  "recordedAtUtc": "2026-11-12T04:48:34.402664+00:00",
+  "clientDate": "2026-11-11",
+  "ids": [
+    "zhang-xiu",
+    "cao-hong",
+    "jiang-qin"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261111-heroes9/generals-ui-light.png",
+      "sha256": "ff72dc6f1e33366d6def166c4b59d119e364e42f145cfd9cda07b64b3d8289e1"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes9/generals-ui-dark.png",
+      "sha256": "886a163391961ca4e0e66c888587fc1a842a1ddb0fe432c56a6b002bb912001c"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes9/avatars-128-light-dark.png",
+      "sha256": "9c0bdc72537bb737e821cb2dd89fef389875e2e7b0de6a3e96d77a72fe5176d6"
+    }
+  ],
+  "scope": "Review materials prepared. File integrity checks do not constitute user visual acceptance.",
+  "constraints": {
+    "guiAutomationUsed": false,
+    "computerUseCuaSkyUsed": false,
+    "agentMayApproveVisualsForUser": false
+  },
+  "notes": [
+    "Three host-generated full-body masters are byte-identical to their host PNGs. Actual model and quality were not disclosed.",
+    "Face and bust rectangles were selected from displayed model previews as production crops; their suitability remains for the user to judge.",
+    "Source alpha-1, peak-alpha-254 and under-8-percent margin advisories are preserved verbatim in the export manifest.",
+    "No animations, additional directions or card-specific visual variants are claimed by this batch.",
+    "Do not register this batch with register-reviewed.py because user visual approval is pending."
+  ],
+  "warnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+      "value": 18116,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "value": 11803,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "value": [
+        0.1455078125,
+        0.07486979166666667,
+        0.15625,
+        0.064453125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "value": 14429,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "value": [
+        0.1767578125,
+        0.09244791666666667,
+        0.1943359375,
+        0.06380208333333333
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ]
+}

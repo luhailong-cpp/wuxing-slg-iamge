@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-bust-native.png",
+  "sha256": "64144b3040be28b84950e67db4656bc7f211a2a3d52c829df508203bd5ecbc07",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+    "sha256": "f2d03d1ce9a0add5d57731c4376a49e970e5cf1a0e8680a7e55321ebbae422ec",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      155,
+      135,
+      875,
+      1090
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

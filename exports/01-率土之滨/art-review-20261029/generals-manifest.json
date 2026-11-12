@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "game": "五行问鼎",
-  "createdAt": "2026-11-06T11:25:23.861055+00:00",
-  "scope": "90 identity-master candidates with five UI variants each. Full roster incomplete.",
+  "createdAt": "2026-11-12T04:37:34.480805+00:00",
+  "scope": "105 identity-master candidates with five UI variants each. Full roster incomplete.",
   "people": [
     {
       "id": "liu-bei",
@@ -3963,10 +3963,746 @@
       "officialCardVariantsComplete": false,
       "visualFinalAccepted": false,
       "clientIntegrated": false
+    },
+    {
+      "id": "gongsun-zan",
+      "name": "公孙瓒",
+      "personID": "ww-p-f784cb3f93bc",
+      "batch": "roster-expansion-20261111-heroes7",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+      "masterSha256": "3e1dd64b083fe74f532ce258e0b5b9376694676500d898fa57fe3f23885d079a",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes7/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-face-native.png",
+          "sha256": "1b444c9efd97cecf8ff225ac8b675d28e93cda10c69926bce9d1d8f4d870b023",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-bust-native.png",
+          "sha256": "d3b9b1903453c5c07f128ede7be633f32fac89e20de4d804d7a63d76ca955b5e",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-avatar-128.png",
+          "sha256": "f84116174b01ffce9ece20829a294b6800a27c3e4f580bd26a50647d9ce88631",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-avatar-256.png",
+          "sha256": "9868e0003845409fe6f4c3430e34f1477063ed3c920b49056fa20378e8c89704",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-card-full.png",
+          "sha256": "edfbd6e7c7d6684c4109bdcd6d3c55963d9c2ba2b50f7a8da407a1a67f0e8e9f",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-card-full.png.derivation.json"
+        }
+      ],
+      "officialCardVariantsComplete": false,
+      "visualFinalAccepted": false,
+      "clientIntegrated": false,
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "rootVisualReviewPassed": false
+    },
+    {
+      "id": "ma-teng",
+      "name": "马腾",
+      "personID": "ww-p-2020bc6050e5",
+      "batch": "roster-expansion-20261111-heroes7",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+      "masterSha256": "f2d03d1ce9a0add5d57731c4376a49e970e5cf1a0e8680a7e55321ebbae422ec",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes7/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-face-native.png",
+          "sha256": "0e1f5c746c7c7631445e5ccb71732751b3dc17dbdc719f13103ac478993bf092",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-bust-native.png",
+          "sha256": "64144b3040be28b84950e67db4656bc7f211a2a3d52c829df508203bd5ecbc07",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-avatar-128.png",
+          "sha256": "ce79a0413f239f139328ca18967b1497b51103a10731cacf168fc873d072b70d",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-avatar-256.png",
+          "sha256": "fa652960bb8ebd82912804445ca7e47d2609ee7f32ccefcb4c93ae60a57ffd63",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-card-full.png",
+          "sha256": "495d5fd9ed6cf7490e57c2885457955b8b25eef4b23b64a37eaaf5699a5465fc",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-card-full.png.derivation.json"
+        }
+      ],
+      "officialCardVariantsComplete": false,
+      "visualFinalAccepted": false,
+      "clientIntegrated": false,
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "rootVisualReviewPassed": false
+    },
+    {
+      "id": "zhuge-jin",
+      "name": "诸葛瑾",
+      "personID": "ww-p-767074d82bd2",
+      "batch": "roster-expansion-20261111-heroes7",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+      "masterSha256": "0c2a954455c7b0b791a51c8b8d83608df3c8e056d3e2394f2dcef502ee93a5da",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes7/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-face-native.png",
+          "sha256": "5efad6c692413ecc046739bac5cdc471c2f2c92acafe6c1d6eeaa805af156549",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-bust-native.png",
+          "sha256": "32b323cb4373c2bc1bc2bcc88bae9e6cb2048df41b5a174cf5d28cba2e7bc8fa",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-avatar-128.png",
+          "sha256": "4c26bf49ed95040fa9aa183efb720f50a795b9686b7107fcb671caaba6756664",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-avatar-256.png",
+          "sha256": "12056a00596c8337df48ff5179a80434f915b703af9e7f0bd5c06082ca80f13b",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-card-full.png",
+          "sha256": "ccf2b9c19cf3775e4f6be9fca93f5f4ea571315b5950f7dbbf7b4ffe3da29d99",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-card-full.png.derivation.json"
+        }
+      ],
+      "officialCardVariantsComplete": false,
+      "visualFinalAccepted": false,
+      "clientIntegrated": false,
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "rootVisualReviewPassed": false
+    },
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "personID": "ww-p-88dc1c292df2",
+      "batch": "roster-expansion-20261111-heroes8",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "masterSha256": "a2874c26dbaf5abdfa68f90bb4b1e785c4c6b9894e3a11c5e23da9684bf9fb62",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes8/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-face-native.png",
+          "sha256": "0df585cef98ff131e2bc6076cf68d8b41455ed4b923f95b9db97110f6539d93c",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-bust-native.png",
+          "sha256": "118025e18934374aeab8dd557e8376520b7ef078f9830edd3b9de7e99ff71d6c",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-128.png",
+          "sha256": "bf3005b9c5eba5c55f68ec7378275422431e022b6bbcffae6b783beed71ec896",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-256.png",
+          "sha256": "04a343407e10e50eb6c4874476085f24e8a055c4c43158bd8046e1a3e7cc3ca4",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-card-full.png",
+          "sha256": "b998a4ad90b02a6055c9ae8afd984e3a4db6513d04ee9e958dfd70048364bf5e",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "personID": "ww-p-6657462c2df7",
+      "batch": "roster-expansion-20261111-heroes8",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "masterSha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes8/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-face-native.png",
+          "sha256": "0dbab06d4a7993974ab5569e15bfc58eb2bea9600f2f31f0b0450fc695a2c106",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-bust-native.png",
+          "sha256": "6820d627dd377db13b2100540ca369dc86dc7072d91a626b3af88f56bda6e59d",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-128.png",
+          "sha256": "90dd0f3a01d2e55b54bcc2ae4fedce89ec58f4ac6180c59522b99f79e66c3b91",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-256.png",
+          "sha256": "f75906f76b09e7121f0266d32e3deba2ab1ba897c5564df486a04b12e266d121",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-card-full.png",
+          "sha256": "abd512c6a8d4b89dc81f54f553c3a21f225e49b26a6289ab56c3e2f7955fa741",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "personID": "ww-p-700b92d06496",
+      "batch": "roster-expansion-20261111-heroes8",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "masterSha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes8/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-face-native.png",
+          "sha256": "4d20ccd722d90afc20526e0e41a4140b075e8af59d7f811fbf9e8cd0e865abf0",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-bust-native.png",
+          "sha256": "51e58b97bbfd5cfc0a78db6db3e27bf1168129ef21724baa1c99b80855b47e4e",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-128.png",
+          "sha256": "e6ee1034602a7d5ae8cc3ad39ed30c658f443994a72d8dd46e45b15a6d26ef8c",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-256.png",
+          "sha256": "4a02fe2df0a8b940220212b03e3d2fe731ea583790779085aff8dc246dbd3d91",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-card-full.png",
+          "sha256": "8feff6f1808261e0eac82825413e7133539d482b3fa6f91956271119e2f97e71",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "zhang-xiu",
+      "name": "张绣",
+      "personID": "ww-p-4caa65f18fb0",
+      "batch": "roster-expansion-20261111-heroes9",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+      "masterSha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes9/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-face-native.png",
+          "sha256": "3766d106aebc97cc0348ec76ff28da9b51f06d150864ef286c8bfc25aa7abbe4",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-bust-native.png",
+          "sha256": "cd577152eeae878fdc2b679b3b585ee8c50e48a9b9240bd727065af09a0462ac",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-128.png",
+          "sha256": "5c75861db9f61ab4b663a9f27b22ca87997819ce41dbc57a1b0dae8c450ed7aa",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-256.png",
+          "sha256": "c1840d3b04f376d8f1efbee3921a0a404a6e17ee4b3c5db4c6e618bbd694380a",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-card-full.png",
+          "sha256": "9c103d836c533e92e81c67507a603de21b451569cbaa59e9d380b62471c12c0d",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "cao-hong",
+      "name": "曹洪",
+      "personID": "ww-p-35053bc6c1aa",
+      "batch": "roster-expansion-20261111-heroes9",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+      "masterSha256": "72640c63bf50c92a51af5d033b650403e15069e14f3acf86d7fda33c83c749e4",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes9/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-face-native.png",
+          "sha256": "45649fbad7dcc78cbb3ec836e59c337bb5a00dd6b6535f003fe4d24c5bf71cc9",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-bust-native.png",
+          "sha256": "0db32dff0fc31eca206cff0380b84735a90d3e8c6325853f3e8069a32e143d92",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-128.png",
+          "sha256": "0b0c87c94d19c031c94337c86cc12a9cb68ac50e3a099257a2999e22b6bfb818",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-256.png",
+          "sha256": "16b64b97112ee21e5afd8aa81f02ce986fef09a197218b32ed1c244754d9622b",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-card-full.png",
+          "sha256": "8f55dc45ed26fa982ce76c554ae0b1dbf576c2777f9d5ac2ce47c6be64a41128",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "jiang-qin",
+      "name": "蒋钦",
+      "personID": "ww-p-acce9e4e6573",
+      "batch": "roster-expansion-20261111-heroes9",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+      "masterSha256": "09d20d17096cc8f095d1a42c281942c80b18b2268e8adea76be6bdfe6f2b271e",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes9/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-face-native.png",
+          "sha256": "4bb1928ca53bbc1157939bb7c022ab34f4f6222682403afae4f68958a61c6c55",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-bust-native.png",
+          "sha256": "f079b0086272f27d4e6f74e5e5089f1e745b18294ba1e626e1fe50f6d4cc9c02",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-128.png",
+          "sha256": "b9ab2484bb9147704e639721e7ec2faac2307e201ca096060f6a8c700600ca63",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-256.png",
+          "sha256": "9c8c91c375863f07a4bf1b8533e5d605f5204a89e33907cf9df11db4650327d9",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-card-full.png",
+          "sha256": "a9f3f2b18e151b7733343308807262b7cdcc27f70e410df8e83e8be87aa8f9eb",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "sun-huan",
+      "name": "孙桓",
+      "personID": "ww-p-a804d3092ebd",
+      "batch": "roster-expansion-20261111-heroes10",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+      "masterSha256": "8ccca1353b8d31b8e50754b7af7ed436870d8c9624b5bd6da857965fbfb4ccfa",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes10/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-face-native.png",
+          "sha256": "a9b36bdb98f93085d21a5d009503be79a1d20a9d5f79e237e78c3949a02992ed",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-bust-native.png",
+          "sha256": "28b459dbb41f716fe1efea08ac24e0799755d3816e81c1d012d25eec01323ae0",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-avatar-128.png",
+          "sha256": "33f0e87cd672ce77c5673c30eab6132d6d45266f08e977f00cc4132f206910ad",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-avatar-256.png",
+          "sha256": "636852c4f36abc3ccd514119a4d637c3f2b80b99fec90e72594e020f53029cee",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-card-full.png",
+          "sha256": "04fec9a65a293a840efdd1f91c6f453028e9715d3f006b7157c7ecc22793f7c8",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "dong-xi",
+      "name": "董袭",
+      "personID": "ww-p-e0987dfe3d99",
+      "batch": "roster-expansion-20261111-heroes10",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+      "masterSha256": "cc98ccaec1b0cde4cfdbaac3098c27aae7c799bdbf7c0e078859c5e7744e2705",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes10/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-face-native.png",
+          "sha256": "9475b330f49e5e73c074512f58e131cf8d16bf5769b800c7400405f286149a92",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-bust-native.png",
+          "sha256": "2906aeee00a6aeb9c9c69d8df998fc54d5268803471e8f7cd2d9dc69402b944f",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-avatar-128.png",
+          "sha256": "c9c5d5ccb860c200c545b62de5e19431105abf042008d24bf01e970fc62fdfe5",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-avatar-256.png",
+          "sha256": "06161e72e2efb844fdf6dccfbf3fc25ad2b15820b36403a01753d84b9d357673",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-card-full.png",
+          "sha256": "298d8aff98cf7829f96f21a9157cb92ea57974459e7f0feff2f832b4a4206e26",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "ding-feng",
+      "name": "丁奉",
+      "personID": "ww-p-59b589f5f0d9",
+      "batch": "roster-expansion-20261111-heroes10",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+      "masterSha256": "d002d9d76a55746fda95a89ce1e1ab71a29a3ec2eb71c86185c473cca5e27837",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes10/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-face-native.png",
+          "sha256": "7b97a50a4cc06a4e8547205d09642167ca497a3b629e6987df05f85046c76f3e",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-bust-native.png",
+          "sha256": "ade9df2b0aed01af819bf3c8ab8faf9e8329456244dcf003864c4a960810d61b",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-128.png",
+          "sha256": "aec78a355a38ee3656d3e65bd9a621a95d1e0d343383ae9f89aa096a746ccc3c",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-256.png",
+          "sha256": "869b8d96debbb6501e7a2dac35642f15ff1d751539dcc40d8565cd1eec542a26",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-card-full.png",
+          "sha256": "1efb134179a262229951e479ce07f2610427eaa20cb4dc2f06af07460d91f1de",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "liu-yu",
+      "name": "刘虞",
+      "personID": "ww-p-c01d0566aa27",
+      "batch": "roster-expansion-20261111-heroes11",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+      "masterSha256": "476cb919a5d37dbcd61a995fa6d3047b68735f8d7cd0fa5b81e03c65474b68c7",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes11/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-face-native.png",
+          "sha256": "b7f491f015d89e8e019e596bde4dd78a29cadc1b0f870d3367dd541e8c247c0c",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-bust-native.png",
+          "sha256": "d159ec18511c48278f58b51e22b5aab4b070442b9511d32500f4eeb8a1a2714e",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-128.png",
+          "sha256": "f5054ab8f1059481f7afafb1f6df0848a58e61ef8da9843b4700fe37b7af7600",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-256.png",
+          "sha256": "e79d9f9044c2e74d8b720d1a2ffd35eeb5b31fb4b3ba7e1285beffda728a9f97",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-card-full.png",
+          "sha256": "3e3ee88aa99758bdd5cc3b9554fdb019a27b1197fe251667d989386b43e292df",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "liu-yan",
+      "name": "刘焉",
+      "personID": "ww-p-65d040aea3dc",
+      "batch": "roster-expansion-20261111-heroes11",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+      "masterSha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes11/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-face-native.png",
+          "sha256": "12518e61101ce2097174a0fdde0561d1614a2abbde53e33deb0f7ec2a5edb132",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-bust-native.png",
+          "sha256": "fe4a34702a99c7b48a056cd046e7447297539b182cf14df40ed06348db8121a0",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-128.png",
+          "sha256": "087c5d49ce8bce6d9c5bd9c7a04060d92a7c5a7b86fe8c56f09191d2d8666295",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-256.png",
+          "sha256": "7a613e2a0bf1b2086764d464f1e4f890e442783f608739549a217702251d4d9f",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-card-full.png",
+          "sha256": "1ff9e30eadd3177cc7ae7bda569d2e41061c2f9182f10dcfecd9dcc6c75319be",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
+    },
+    {
+      "id": "liu-biao",
+      "name": "刘表",
+      "personID": "ww-p-b7dc1f3adc43",
+      "batch": "roster-expansion-20261111-heroes11",
+      "master": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+      "masterSha256": "2d557eb9bd74cf3c0dee7496db6f99a18c7543648039aef1f8a6cfa53d5eab03",
+      "sourceManifest": "exports/01-率土之滨/roster-expansion-20261111-heroes11/generals-ui-manifest.json",
+      "assets": [
+        {
+          "variant": "face-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-face-native.png",
+          "sha256": "5e5b0ca30ca37f710c128d63912e1c52c9dcd40854920b04416ade363ceda486",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-face-native.png.derivation.json"
+        },
+        {
+          "variant": "bust-native",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-bust-native.png",
+          "sha256": "6a247f9f37bf9c6bda10d1cc0d00d4e0b7d8fc659d5d6d0039e686390e7200f1",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-bust-native.png.derivation.json"
+        },
+        {
+          "variant": "avatar-128",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-128.png",
+          "sha256": "9b3f3e540b9e1f183fc2eff0a5973fbd59b4c3a0cea38ce4343c3f862ac0bef1",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-128.png.derivation.json"
+        },
+        {
+          "variant": "avatar-256",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-256.png",
+          "sha256": "014e8fa70b46d98eaaa9d2043cf060e5b5fc1bf2745a77b5a60f2c4104308a57",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-256.png.derivation.json"
+        },
+        {
+          "variant": "card-full",
+          "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-card-full.png",
+          "sha256": "df389ad784b8b50d63651cfb9c1234284ce1de5da637522bc288ca84aebb1061",
+          "record": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-card-full.png.derivation.json"
+        }
+      ],
+      "status": "awaiting_user_visual_review",
+      "technicalVerificationPassed": true,
+      "userApproved": false,
+      "userFinalAccepted": false,
+      "visualFinalAccepted": false,
+      "rootVisualReviewPassed": false,
+      "clientIntegrated": false,
+      "officialCardVariantsComplete": false
     }
   ],
-  "assetCount": 450,
+  "assetCount": 525,
   "userFinalAccepted": false,
   "clientIntegrated": false,
-  "integrationScope": "Previously integrated people retain their flags. Latest batch is art production only."
+  "integrationScope": "Historical entry flags are preserved. New candidates await user visual review.",
+  "updatedAtUtc": "2026-11-12T04:51:18.988642+00:00"
 }

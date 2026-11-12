@@ -1,0 +1,865 @@
+{
+  "createdAtUtc": "2026-11-12T04:51:20.621155+00:00",
+  "product": "五行问鼎",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "technicalOnly": true,
+  "guiAutomationUsed": false,
+  "scope": "15 existing generated identity masters and their 75 UI derivatives, grouped for user review",
+  "peopleCount": 15,
+  "uiAssetsChecked": 75,
+  "technicalChecks": {
+    "existingSourceAndAssetHashes": true,
+    "cardRgba768x1024": true,
+    "avatarRgba128x128": true,
+    "localReferencesOnly": true
+  },
+  "visualAcceptance": "User review pending. No model or automatic acceptance.",
+  "summaryImages": [
+    {
+      "file": "records/user-review-20261111/summary-light.png",
+      "sha256": "59311cb20dbfc567aa325f97230b9514d4467c4c69ddf9271f89cd30d2a65f11",
+      "record": "records/user-review-20261111/summary-light.png.derivation.json"
+    },
+    {
+      "file": "records/user-review-20261111/summary-dark.png",
+      "sha256": "2aebf3693f9412e4caeea88c5a84812f6424a9dd6ca1ca896a7d2f65758da072",
+      "record": "records/user-review-20261111/summary-dark.png.derivation.json"
+    }
+  ],
+  "index": {
+    "file": "records/user-review-20261111/index.html",
+    "sha256": "74f09757ed4546590b41f09f3791e26d45d6513e050becf7f6154cb02c4230af"
+  },
+  "groups": [
+    {
+      "batch": "roster-expansion-20261111-heroes7",
+      "manifest": "exports/01-率土之滨/roster-expansion-20261111-heroes7/generals-ui-manifest.json",
+      "manifestSha256": "6640c6ad7733e19b4478f8510d4c0b20c9fddc913997e8baf42a62f5b44bb93a",
+      "status": "awaiting_user_visual_review",
+      "userApproved": false,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+          "value": 20928,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+          "value": [
+            0.0703125,
+            0.046223958333333336,
+            0.0654296875,
+            0.061848958333333336
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+          "value": 17489,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+          "value": [
+            0.0927734375,
+            0.08723958333333333,
+            0.1630859375,
+            0.061197916666666664
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+          "value": 10372,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+          "value": [
+            0.2138671875,
+            0.07486979166666667,
+            0.1708984375,
+            0.07421875
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_WINDOW",
+          "value": true,
+          "threshold": false,
+          "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+        }
+      ],
+      "people": [
+        {
+          "id": "gongsun-zan",
+          "name": "公孙瓒",
+          "batch": "roster-expansion-20261111-heroes7",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+            "sha256": "3e1dd64b083fe74f532ce258e0b5b9376694676500d898fa57fe3f23885d079a"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-card-full.png",
+            "sha256": "edfbd6e7c7d6684c4109bdcd6d3c55963d9c2ba2b50f7a8da407a1a67f0e8e9f"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-avatar-128.png",
+            "sha256": "f84116174b01ffce9ece20829a294b6800a27c3e4f580bd26a50647d9ce88631"
+          },
+          "summaryGrid": {
+            "column": 0,
+            "row": 0
+          }
+        },
+        {
+          "id": "ma-teng",
+          "name": "马腾",
+          "batch": "roster-expansion-20261111-heroes7",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/ma-teng-master-v1.png",
+            "sha256": "f2d03d1ce9a0add5d57731c4376a49e970e5cf1a0e8680a7e55321ebbae422ec"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-card-full.png",
+            "sha256": "495d5fd9ed6cf7490e57c2885457955b8b25eef4b23b64a37eaaf5699a5465fc"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/ma-teng-avatar-128.png",
+            "sha256": "ce79a0413f239f139328ca18967b1497b51103a10731cacf168fc873d072b70d"
+          },
+          "summaryGrid": {
+            "column": 0,
+            "row": 1
+          }
+        },
+        {
+          "id": "zhuge-jin",
+          "name": "诸葛瑾",
+          "batch": "roster-expansion-20261111-heroes7",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+            "sha256": "0c2a954455c7b0b791a51c8b8d83608df3c8e056d3e2394f2dcef502ee93a5da"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-card-full.png",
+            "sha256": "ccf2b9c19cf3775e4f6be9fca93f5f4ea571315b5950f7dbbf7b4ffe3da29d99"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-avatar-128.png",
+            "sha256": "4c26bf49ed95040fa9aa183efb720f50a795b9686b7107fcb671caaba6756664"
+          },
+          "summaryGrid": {
+            "column": 0,
+            "row": 2
+          }
+        }
+      ],
+      "previewFiles": [
+        {
+          "file": "records/roster-expansion-20261111-heroes7/generals-ui-light.png",
+          "sha256": "017665251b3f2b47e37645475195f0281c52e4fc4cd199247174e491e3147dcc"
+        },
+        {
+          "file": "records/roster-expansion-20261111-heroes7/generals-ui-dark.png",
+          "sha256": "03f889575b65d0efc952580f0fa1f04e163622629e2d5a62004502abc8bf2000"
+        }
+      ]
+    },
+    {
+      "batch": "roster-expansion-20261111-heroes8",
+      "manifest": "exports/01-率土之滨/roster-expansion-20261111-heroes8/generals-ui-manifest.json",
+      "manifestSha256": "c971ca921457be17315174d3395f2949e7d16f529e99f4ff98ca61b925c4f64f",
+      "status": "awaiting_user_visual_review",
+      "userApproved": false,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+          "value": 9686,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+          "value": [
+            0.1416015625,
+            0.07682291666666667,
+            0.2080078125,
+            0.0703125
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+          "value": 12694,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+          "value": [
+            0.185546875,
+            0.08984375,
+            0.15234375,
+            0.06901041666666667
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+          "value": 9152,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+          "value": [
+            0.177734375,
+            0.072265625,
+            0.171875,
+            0.0546875
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_WINDOW",
+          "value": true,
+          "threshold": false,
+          "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+        }
+      ],
+      "people": [
+        {
+          "id": "tian-feng",
+          "name": "田丰",
+          "batch": "roster-expansion-20261111-heroes8",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+            "sha256": "a2874c26dbaf5abdfa68f90bb4b1e785c4c6b9894e3a11c5e23da9684bf9fb62"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-card-full.png",
+            "sha256": "b998a4ad90b02a6055c9ae8afd984e3a4db6513d04ee9e958dfd70048364bf5e"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-128.png",
+            "sha256": "bf3005b9c5eba5c55f68ec7378275422431e022b6bbcffae6b783beed71ec896"
+          },
+          "summaryGrid": {
+            "column": 1,
+            "row": 0
+          }
+        },
+        {
+          "id": "xu-sheng",
+          "name": "徐盛",
+          "batch": "roster-expansion-20261111-heroes8",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+            "sha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-card-full.png",
+            "sha256": "abd512c6a8d4b89dc81f54f553c3a21f225e49b26a6289ab56c3e2f7955fa741"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-128.png",
+            "sha256": "90dd0f3a01d2e55b54bcc2ae4fedce89ec58f4ac6180c59522b99f79e66c3b91"
+          },
+          "summaryGrid": {
+            "column": 1,
+            "row": 1
+          }
+        },
+        {
+          "id": "wu-fu-ren",
+          "name": "吴夫人",
+          "batch": "roster-expansion-20261111-heroes8",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+            "sha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-card-full.png",
+            "sha256": "8feff6f1808261e0eac82825413e7133539d482b3fa6f91956271119e2f97e71"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-128.png",
+            "sha256": "e6ee1034602a7d5ae8cc3ad39ed30c658f443994a72d8dd46e45b15a6d26ef8c"
+          },
+          "summaryGrid": {
+            "column": 1,
+            "row": 2
+          }
+        }
+      ],
+      "previewFiles": [
+        {
+          "file": "records/roster-expansion-20261111-heroes8/generals-ui-light.png",
+          "sha256": "6eca4829b017344c8d4f905e9b7c33a68211b3adfa4c4adb1eaaa005fc98868c"
+        },
+        {
+          "file": "records/roster-expansion-20261111-heroes8/generals-ui-dark.png",
+          "sha256": "6cef2248df36613d1584b951416b1d4b8598da1389b16b4bb0e08bb1a97ad60d"
+        }
+      ]
+    },
+    {
+      "batch": "roster-expansion-20261111-heroes9",
+      "manifest": "exports/01-率土之滨/roster-expansion-20261111-heroes9/generals-ui-manifest.json",
+      "manifestSha256": "0d1d986331a49fa9846db038af5251504847509b0c6751083c5189a3ca8e0243",
+      "status": "awaiting_user_visual_review",
+      "userApproved": false,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+          "value": 18116,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+          "value": 11803,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+          "value": [
+            0.1455078125,
+            0.07486979166666667,
+            0.15625,
+            0.064453125
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+          "value": 14429,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+          "value": [
+            0.1767578125,
+            0.09244791666666667,
+            0.1943359375,
+            0.06380208333333333
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_WINDOW",
+          "value": true,
+          "threshold": false,
+          "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+        }
+      ],
+      "people": [
+        {
+          "id": "zhang-xiu",
+          "name": "张绣",
+          "batch": "roster-expansion-20261111-heroes9",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+            "sha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-card-full.png",
+            "sha256": "9c103d836c533e92e81c67507a603de21b451569cbaa59e9d380b62471c12c0d"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-128.png",
+            "sha256": "5c75861db9f61ab4b663a9f27b22ca87997819ce41dbc57a1b0dae8c450ed7aa"
+          },
+          "summaryGrid": {
+            "column": 2,
+            "row": 0
+          }
+        },
+        {
+          "id": "cao-hong",
+          "name": "曹洪",
+          "batch": "roster-expansion-20261111-heroes9",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+            "sha256": "72640c63bf50c92a51af5d033b650403e15069e14f3acf86d7fda33c83c749e4"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-card-full.png",
+            "sha256": "8f55dc45ed26fa982ce76c554ae0b1dbf576c2777f9d5ac2ce47c6be64a41128"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-avatar-128.png",
+            "sha256": "0b0c87c94d19c031c94337c86cc12a9cb68ac50e3a099257a2999e22b6bfb818"
+          },
+          "summaryGrid": {
+            "column": 2,
+            "row": 1
+          }
+        },
+        {
+          "id": "jiang-qin",
+          "name": "蒋钦",
+          "batch": "roster-expansion-20261111-heroes9",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+            "sha256": "09d20d17096cc8f095d1a42c281942c80b18b2268e8adea76be6bdfe6f2b271e"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-card-full.png",
+            "sha256": "a9f3f2b18e151b7733343308807262b7cdcc27f70e410df8e83e8be87aa8f9eb"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-avatar-128.png",
+            "sha256": "b9ab2484bb9147704e639721e7ec2faac2307e201ca096060f6a8c700600ca63"
+          },
+          "summaryGrid": {
+            "column": 2,
+            "row": 2
+          }
+        }
+      ],
+      "previewFiles": [
+        {
+          "file": "records/roster-expansion-20261111-heroes9/generals-ui-light.png",
+          "sha256": "ff72dc6f1e33366d6def166c4b59d119e364e42f145cfd9cda07b64b3d8289e1"
+        },
+        {
+          "file": "records/roster-expansion-20261111-heroes9/generals-ui-dark.png",
+          "sha256": "886a163391961ca4e0e66c888587fc1a842a1ddb0fe432c56a6b002bb912001c"
+        }
+      ]
+    },
+    {
+      "batch": "roster-expansion-20261111-heroes10",
+      "manifest": "exports/01-率土之滨/roster-expansion-20261111-heroes10/generals-ui-manifest.json",
+      "manifestSha256": "a6809f7a793b8d68b41dced99032f8965c2a0954a65a6be791e956e9f890db5b",
+      "status": "awaiting_user_visual_review",
+      "userApproved": false,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+          "value": 14471,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+          "value": [
+            0.08203125,
+            0.055989583333333336,
+            0.185546875,
+            0.057942708333333336
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+          "value": 16375,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+          "value": [
+            0.14453125,
+            0.10286458333333333,
+            0.111328125,
+            0.064453125
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+          "value": 29383,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+          "value": [
+            0.1328125,
+            0.07942708333333333,
+            0.1533203125,
+            0.059244791666666664
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_WINDOW",
+          "value": true,
+          "threshold": false,
+          "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+        }
+      ],
+      "people": [
+        {
+          "id": "sun-huan",
+          "name": "孙桓",
+          "batch": "roster-expansion-20261111-heroes10",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+            "sha256": "8ccca1353b8d31b8e50754b7af7ed436870d8c9624b5bd6da857965fbfb4ccfa"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-card-full.png",
+            "sha256": "04fec9a65a293a840efdd1f91c6f453028e9715d3f006b7157c7ecc22793f7c8"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-avatar-128.png",
+            "sha256": "33f0e87cd672ce77c5673c30eab6132d6d45266f08e977f00cc4132f206910ad"
+          },
+          "summaryGrid": {
+            "column": 3,
+            "row": 0
+          }
+        },
+        {
+          "id": "dong-xi",
+          "name": "董袭",
+          "batch": "roster-expansion-20261111-heroes10",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/dong-xi-master-v1.png",
+            "sha256": "cc98ccaec1b0cde4cfdbaac3098c27aae7c799bdbf7c0e078859c5e7744e2705"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-card-full.png",
+            "sha256": "298d8aff98cf7829f96f21a9157cb92ea57974459e7f0feff2f832b4a4206e26"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/dong-xi-avatar-128.png",
+            "sha256": "c9c5d5ccb860c200c545b62de5e19431105abf042008d24bf01e970fc62fdfe5"
+          },
+          "summaryGrid": {
+            "column": 3,
+            "row": 1
+          }
+        },
+        {
+          "id": "ding-feng",
+          "name": "丁奉",
+          "batch": "roster-expansion-20261111-heroes10",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+            "sha256": "d002d9d76a55746fda95a89ce1e1ab71a29a3ec2eb71c86185c473cca5e27837"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-card-full.png",
+            "sha256": "1efb134179a262229951e479ce07f2610427eaa20cb4dc2f06af07460d91f1de"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-128.png",
+            "sha256": "aec78a355a38ee3656d3e65bd9a621a95d1e0d343383ae9f89aa096a746ccc3c"
+          },
+          "summaryGrid": {
+            "column": 3,
+            "row": 2
+          }
+        }
+      ],
+      "previewFiles": [
+        {
+          "file": "records/roster-expansion-20261111-heroes10/generals-ui-light.png",
+          "sha256": "e1711b9117fe132157bedda196a9f783b96595c1850890691a7896ef2df2629e"
+        },
+        {
+          "file": "records/roster-expansion-20261111-heroes10/generals-ui-dark.png",
+          "sha256": "775d9b8af3bc3e20e4f0287319be5b26275410b7b4b96e5c8a69689a10aa481a"
+        }
+      ]
+    },
+    {
+      "batch": "roster-expansion-20261111-heroes11",
+      "manifest": "exports/01-率土之滨/roster-expansion-20261111-heroes11/generals-ui-manifest.json",
+      "manifestSha256": "b59bc6875a6b35ace97ee5bc921205c9c942689466257c5ce53ddb64b107779b",
+      "status": "awaiting_user_visual_review",
+      "userApproved": false,
+      "warnings": [
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+          "value": 20073,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+          "value": [
+            0.1669921875,
+            0.0546875,
+            0.197265625,
+            0.06315104166666667
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+          "value": 13746,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+          "value": [
+            0.13671875,
+            0.080078125,
+            0.146484375,
+            0.06640625
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "SOURCE_ALPHA1_RETAINED",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+          "value": 13761,
+          "threshold": 0
+        },
+        {
+          "id": "SOURCE_MAX_ALPHA_BELOW255",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+          "value": 254,
+          "threshold": 255
+        },
+        {
+          "id": "SOURCE_MARGIN_UNDER8PCT",
+          "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+          "value": [
+            0.1806640625,
+            0.046223958333333336,
+            0.2158203125,
+            0.061848958333333336
+          ],
+          "threshold": 0.08,
+          "handling": "Full original source retained; padded card derivative does not repair native detail."
+        },
+        {
+          "id": "INTENTIONAL_PORTRAIT_WINDOW",
+          "value": true,
+          "threshold": false,
+          "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+        }
+      ],
+      "people": [
+        {
+          "id": "liu-yu",
+          "name": "刘虞",
+          "batch": "roster-expansion-20261111-heroes11",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+            "sha256": "476cb919a5d37dbcd61a995fa6d3047b68735f8d7cd0fa5b81e03c65474b68c7"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-card-full.png",
+            "sha256": "3e3ee88aa99758bdd5cc3b9554fdb019a27b1197fe251667d989386b43e292df"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-avatar-128.png",
+            "sha256": "f5054ab8f1059481f7afafb1f6df0848a58e61ef8da9843b4700fe37b7af7600"
+          },
+          "summaryGrid": {
+            "column": 4,
+            "row": 0
+          }
+        },
+        {
+          "id": "liu-yan",
+          "name": "刘焉",
+          "batch": "roster-expansion-20261111-heroes11",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+            "sha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-card-full.png",
+            "sha256": "1ff9e30eadd3177cc7ae7bda569d2e41061c2f9182f10dcfecd9dcc6c75319be"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-128.png",
+            "sha256": "087c5d49ce8bce6d9c5bd9c7a04060d92a7c5a7b86fe8c56f09191d2d8666295"
+          },
+          "summaryGrid": {
+            "column": 4,
+            "row": 1
+          }
+        },
+        {
+          "id": "liu-biao",
+          "name": "刘表",
+          "batch": "roster-expansion-20261111-heroes11",
+          "status": "awaiting_user_visual_review",
+          "userApproved": false,
+          "source": {
+            "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+            "sha256": "2d557eb9bd74cf3c0dee7496db6f99a18c7543648039aef1f8a6cfa53d5eab03"
+          },
+          "card": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-card-full.png",
+            "sha256": "df389ad784b8b50d63651cfb9c1234284ce1de5da637522bc288ca84aebb1061"
+          },
+          "avatar128": {
+            "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-avatar-128.png",
+            "sha256": "9b3f3e540b9e1f183fc2eff0a5973fbd59b4c3a0cea38ce4343c3f862ac0bef1"
+          },
+          "summaryGrid": {
+            "column": 4,
+            "row": 2
+          }
+        }
+      ],
+      "previewFiles": [
+        {
+          "file": "records/roster-expansion-20261111-heroes11/generals-ui-light.png",
+          "sha256": "18eb61fb5d59c9590d9b60d074817aa5408b027704d32601f5993da9333ad330"
+        },
+        {
+          "file": "records/roster-expansion-20261111-heroes11/generals-ui-dark.png",
+          "sha256": "8142f691af2b8c2c5d77cd70e21641ab0d43fbcc54eebe6a31c74259cbff8e80"
+        }
+      ]
+    }
+  ]
+}

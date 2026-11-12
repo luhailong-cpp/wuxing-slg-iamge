@@ -1,0 +1,319 @@
+{
+  "batch": "roster-expansion-20261111-heroes8",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "clientIntegrated": false,
+  "technicalOnly": true,
+  "originals": [
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "sha256": "a2874c26dbaf5abdfa68f90bb4b1e785c4c6b9894e3a11c5e23da9684bf9fb62",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 9686,
+        "alphaZero": 964328,
+        "solidBBoxAbove16": [
+          145,
+          118,
+          811,
+          1428
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "personID": "ww-p-88dc1c292df2",
+      "cardIDs": [
+        100057,
+        100692
+      ]
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "sha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 12694,
+        "alphaZero": 1032432,
+        "solidBBoxAbove16": [
+          190,
+          138,
+          868,
+          1430
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "personID": "ww-p-6657462c2df7",
+      "cardIDs": [
+        100087
+      ]
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "sha256": "54be25959df5e7493b066261249ae7ae00aea7c181b8f1612178c859ac5913df",
+      "stats": {
+        "size": [
+          1024,
+          1536
+        ],
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaOne": 9152,
+        "alphaZero": 902934,
+        "solidBBoxAbove16": [
+          182,
+          111,
+          848,
+          1452
+        ],
+        "solidEdgePixelsTRBL": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "personID": "ww-p-700b92d06496",
+      "cardIDs": [
+        100091,
+        102008
+      ]
+    }
+  ],
+  "previews": [
+    {
+      "file": "records/roster-expansion-20261111-heroes8/generals-ui-light.png",
+      "sha256": "6eca4829b017344c8d4f905e9b7c33a68211b3adfa4c4adb1eaaa005fc98868c"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes8/generals-ui-dark.png",
+      "sha256": "6cef2248df36613d1584b951416b1d4b8598da1389b16b4bb0e08bb1a97ad60d"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes8/avatars-128-light-dark.png",
+      "sha256": "d398d0659c40365b973802356725a0af6af540129b386476baae0300d15dab5a"
+    }
+  ],
+  "assets": [
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-face-native.png",
+      "sha256": "0df585cef98ff131e2bc6076cf68d8b41455ed4b923f95b9db97110f6539d93c"
+    },
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-bust-native.png",
+      "sha256": "118025e18934374aeab8dd557e8376520b7ef078f9830edd3b9de7e99ff71d6c"
+    },
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-128.png",
+      "sha256": "bf3005b9c5eba5c55f68ec7378275422431e022b6bbcffae6b783beed71ec896"
+    },
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-avatar-256.png",
+      "sha256": "04a343407e10e50eb6c4874476085f24e8a055c4c43158bd8046e1a3e7cc3ca4"
+    },
+    {
+      "id": "tian-feng",
+      "name": "田丰",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-card-full.png",
+      "sha256": "b998a4ad90b02a6055c9ae8afd984e3a4db6513d04ee9e958dfd70048364bf5e"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-face-native.png",
+      "sha256": "0dbab06d4a7993974ab5569e15bfc58eb2bea9600f2f31f0b0450fc695a2c106"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-bust-native.png",
+      "sha256": "6820d627dd377db13b2100540ca369dc86dc7072d91a626b3af88f56bda6e59d"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-128.png",
+      "sha256": "90dd0f3a01d2e55b54bcc2ae4fedce89ec58f4ac6180c59522b99f79e66c3b91"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-avatar-256.png",
+      "sha256": "f75906f76b09e7121f0266d32e3deba2ab1ba897c5564df486a04b12e266d121"
+    },
+    {
+      "id": "xu-sheng",
+      "name": "徐盛",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-card-full.png",
+      "sha256": "abd512c6a8d4b89dc81f54f553c3a21f225e49b26a6289ab56c3e2f7955fa741"
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "variant": "face-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-face-native.png",
+      "sha256": "4d20ccd722d90afc20526e0e41a4140b075e8af59d7f811fbf9e8cd0e865abf0"
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "variant": "bust-native",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-bust-native.png",
+      "sha256": "51e58b97bbfd5cfc0a78db6db3e27bf1168129ef21724baa1c99b80855b47e4e"
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "variant": "avatar-128",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-128.png",
+      "sha256": "e6ee1034602a7d5ae8cc3ad39ed30c658f443994a72d8dd46e45b15a6d26ef8c"
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "variant": "avatar-256",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-avatar-256.png",
+      "sha256": "4a02fe2df0a8b940220212b03e3d2fe731ea583790779085aff8dc246dbd3d91"
+    },
+    {
+      "id": "wu-fu-ren",
+      "name": "吴夫人",
+      "variant": "card-full",
+      "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/wu-fu-ren-card-full.png",
+      "sha256": "8feff6f1808261e0eac82825413e7133539d482b3fa6f91956271119e2f97e71"
+    }
+  ],
+  "technicalWarnings": [
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": 9686,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+      "value": [
+        0.1416015625,
+        0.07682291666666667,
+        0.2080078125,
+        0.0703125
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": 12694,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+      "value": [
+        0.185546875,
+        0.08984375,
+        0.15234375,
+        0.06901041666666667
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "SOURCE_ALPHA1_RETAINED",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": 9152,
+      "threshold": 0
+    },
+    {
+      "id": "SOURCE_MAX_ALPHA_BELOW255",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": 254,
+      "threshold": 255
+    },
+    {
+      "id": "SOURCE_MARGIN_UNDER8PCT",
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/wu-fu-ren-master-v1.png",
+      "value": [
+        0.177734375,
+        0.072265625,
+        0.171875,
+        0.0546875
+      ],
+      "threshold": 0.08,
+      "handling": "Full original source retained; padded card derivative does not repair native detail."
+    },
+    {
+      "id": "INTENTIONAL_PORTRAIT_WINDOW",
+      "value": true,
+      "threshold": false,
+      "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+    }
+  ],
+  "scope": "3 native identity master candidates and 15 deterministic UI derivatives. Await explicit user review; not registered into shared adopted roster.",
+  "modelQualityDisclosure": "Host image_gen only; actualModel and actualQuality are null because the tool returned neither selector nor verifiable actual values.",
+  "noGuiAutomationUsed": true,
+  "technicalVerification": "records/roster-expansion-20261111-heroes8/technical-verification.json"
+}

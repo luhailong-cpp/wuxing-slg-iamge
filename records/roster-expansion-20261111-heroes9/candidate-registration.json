@@ -1,0 +1,116 @@
+{
+  "registeredAtUtc": "2026-11-12T04:51:16.152307+00:00",
+  "batch": "roster-expansion-20261111-heroes9",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "visualAcceptanceGranted": false,
+  "technicalVerification": {
+    "batch": "roster-expansion-20261111-heroes9",
+    "readOnly": true,
+    "passed": true,
+    "checked": {
+      "masters": 3,
+      "assets": 15,
+      "nativeCrops": 6,
+      "references": 12
+    },
+    "warnings": [
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+        "value": 18116,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+        "value": 11803,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+        "value": [
+          0.1455078125,
+          0.07486979166666667,
+          0.15625,
+          0.064453125
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "SOURCE_ALPHA1_RETAINED",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+        "value": 14429,
+        "threshold": 0
+      },
+      {
+        "id": "SOURCE_MAX_ALPHA_BELOW255",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+        "value": 254,
+        "threshold": 255
+      },
+      {
+        "id": "SOURCE_MARGIN_UNDER8PCT",
+        "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+        "value": [
+          0.1767578125,
+          0.09244791666666667,
+          0.1943359375,
+          0.06380208333333333
+        ],
+        "threshold": 0.08,
+        "handling": "Full original source retained; padded card derivative does not repair native detail."
+      },
+      {
+        "id": "INTENTIONAL_PORTRAIT_WINDOW",
+        "value": true,
+        "threshold": false,
+        "scope": "face/bust/avatar are portrait crops; use card-full for entire body and props"
+      }
+    ],
+    "failures": []
+  },
+  "visualReview": {
+    "file": "records/roster-expansion-20261111-heroes9/visual-review.json",
+    "sha256": "f9e7960768d17e10df5a77baf4a75eeb09a463e99e1d4ef833fdaf52ed63ff23"
+  },
+  "sourceManifest": {
+    "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/generals-ui-manifest.json",
+    "sha256": "0d1d986331a49fa9846db038af5251504847509b0c6751083c5189a3ca8e0243"
+  },
+  "batchPeople": 3,
+  "totalPeople": 99,
+  "totalUI": 495,
+  "sharedOutputs": [
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/generals-manifest.json",
+      "sha256": "7883a348bbf49e61abe5c7a9bf54639cfc9e1416214fa830624a315b56d79e49"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/data.js",
+      "sha256": "e3fe10a54a235fa5cfe01f33f68565549a0944d58fc14d9d26febd4ae0118f2e"
+    },
+    {
+      "file": "exports/01-率土之滨/art-review-20261029/index.html",
+      "sha256": "872fe24c7e308fde80bcf7fc47cfa387073f487e2107ae647c0c9cb6dd6cf9c1"
+    },
+    {
+      "file": "records/roster-20261029/CURRENT_PRODUCTION_OVERLAY_20261102.json",
+      "sha256": "df8c0781fb572af2f1442c505216ed486c6743a935d791b3d96e8eb0ef6c3708"
+    }
+  ]
+}

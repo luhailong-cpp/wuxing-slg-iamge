@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-face-native.png",
+  "sha256": "3766d106aebc97cc0348ec76ff28da9b51f06d150864ef286c8bfc25aa7abbe4",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+    "sha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      308,
+      155,
+      762,
+      645
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

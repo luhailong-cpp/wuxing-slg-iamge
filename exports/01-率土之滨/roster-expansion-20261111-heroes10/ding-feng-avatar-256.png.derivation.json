@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/ding-feng-avatar-256.png",
+  "sha256": "869b8d96debbb6501e7a2dac35642f15ff1d751539dcc40d8565cd1eec542a26",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png",
+    "sha256": "d002d9d76a55746fda95a89ce1e1ab71a29a3ec2eb71c86185c473cca5e27837",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/ding-feng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      269,
+      114,
+      758,
+      641
+    ],
+    "uniformScale": 0.4478178368121442,
+    "resizedSize": [
+      219,
+      236
+    ],
+    "offset": [
+      18,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

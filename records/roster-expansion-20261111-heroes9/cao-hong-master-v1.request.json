@@ -1,0 +1,69 @@
+{
+  "startedAt": "2026-11-12T04:43:05.280712+00:00",
+  "clientDate": "2026-11-11",
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "tool": "image_gen.imagegen",
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference",
+      "actuallyAttached": true
+    }
+  ],
+  "submittedParameters": {
+    "prompt": "Original full-body historical character master for the game 五行问鼎: 曹洪 (Cao Hong), an adult Cao Wei military commander. Both attached images are approved style references only: use their Daoist chibi proportions, oversized expressive head, compact limbs, polished hand-painted materials and restrained warm-gold and jade decoration. Create one sturdy broad-built warrior with a broad square face, strong level brows, a short square black moustache, small neatly trimmed chin beard and resolute warm brown eyes. Hair gathered under a low charcoal iron military cap with a small muted-red knot, no horns or long plumes. Wear dark iron lamellar armor with thin aged-bronze edges over russet-red sleeves and a narrow ivory collar, a heavy dark leather belt and one pale jade hanging tab. A short straight sheathed sword hangs close at his left hip, fully visible; one hand loosely grips its hilt while the other hand closes around a folded plain cloth at his chest. Readable simple silhouette, no large shield. Calm protective upright three-quarter stance with both boots completely visible. Original costume interpretation, not a claimed archaeological portrait. Portrait 2:3. All body parts, headwear and sword fit within the central 75% width and 82% height, surrounded by generous genuine transparent alpha. No background, floor, cast shadow, haze, halo, aura, glow, border, writing, watermark, UI or second figure.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "identity": {
+    "id": "cao-hong",
+    "name": "曹洪",
+    "personID": "ww-p-35053bc6c1aa",
+    "cardIDs": [
+      100147
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "sourceLocators": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=曹洪; cardIds=100147"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷9"
+      }
+    ],
+    "designNote": "Original costume interpretation; primary index confirms historical identity, not visual likeness."
+  }
+}

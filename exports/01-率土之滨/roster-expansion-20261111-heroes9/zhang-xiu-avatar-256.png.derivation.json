@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-avatar-256.png",
+  "sha256": "c1840d3b04f376d8f1efbee3921a0a404a6e17ee4b3c5db4c6e618bbd694380a",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+    "sha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      308,
+      155,
+      762,
+      645
+    ],
+    "uniformScale": 0.4816326530612245,
+    "resizedSize": [
+      219,
+      236
+    ],
+    "offset": [
+      18,
+      10
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

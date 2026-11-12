@@ -1,0 +1,42 @@
+{
+  "passed": false,
+  "reviewedAtUtc": "2026-11-12T04:37:34.384429+00:00",
+  "ids": [
+    "gongsun-zan",
+    "ma-teng",
+    "zhuge-jin"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261111-heroes7/generals-ui-light.png",
+      "sha256": "017665251b3f2b47e37645475195f0281c52e4fc4cd199247174e491e3147dcc"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes7/generals-ui-dark.png",
+      "sha256": "03f889575b65d0efc952580f0fa1f04e163622629e2d5a62004502abc8bf2000"
+    }
+  ],
+  "scope": "Internal static art QA: actual generated source plus card/bust/face at light/dark backgrounds. Does not approve motion, directions, client or final user acceptance.",
+  "notes": [
+    "Gongsun Zan: helmet, plume, spear point and butt, horse-head command baton and both boots intact in card-full. Silver armor and mature moustache distinguish the identity. Face/bust windows intentionally cut the long spear and plume.",
+    "Ma Teng: older broad face and gray beard, fur collar, bronze armor, rolled scroll and fully sheathed saber readable, both boots intact.",
+    "Zhuge Jin: elongated face, formal cap, court tablet and closed scroll, no feather fan. Both shoes and draped sleeves intact.",
+    "Light/dark sheets show no visible rectangular matte or halo. Original alpha-1 pixels, max alpha254 and margin advisories are retained verbatim in manifest. No alpha threshold cleanup or source resampling."
+  ],
+  "motionPlayback": {
+    "applicable": false,
+    "reason": "This batch contains identity masters and static UI crops only; no animation or speed claim."
+  },
+  "userApproved": false,
+  "clientIntegrated": false,
+  "status": "awaiting_user_visual_review",
+  "technicalOnly": true,
+  "modelPreviewInspected": true,
+  "latestUserConstraint": {
+    "recordedAt": "2026-11-12T04:45:07.108977+00:00",
+    "instruction": "不要用computer use；告诉我审核就行",
+    "GUIAutomationAllowed": false,
+    "reviewOwner": "user",
+    "priorInternalInspectionRetained": true
+  }
+}

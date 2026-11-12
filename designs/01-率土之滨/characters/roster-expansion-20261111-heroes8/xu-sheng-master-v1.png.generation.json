@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/xu-sheng-master-v1.png",
+  "sha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252",
+  "generatedAt": "2026-11-12T04:45:38.182Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-12T04:43:35.329Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-f31c0463-7486-492a-ba6e-b9067ff37c34",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "prompt": "Original full-body historical identity character master for the Three Kingdoms strategy game 五行问鼎. Image 1 and image 2 are approved Daoist chibi visual-style references only. Image 3 is an adopted peer figure for head-to-body proportions and refined hand-painted finish only; do not copy its identity, face, pose or costume. Depict 徐盛 (Xu Sheng), a resolute Chinese military commander with a broad youthful-adult face, strong short brows, alert dark eyes and a clean-shaven firm mouth. A compact rounded blue-gray metal helmet with short cheek guards and a small restrained dark-red tassel, no giant plume. Blue-gray and muted teal lamellar armor over ivory sleeves, a compact short shoulder cape, warm brass fittings and a single small jade belt ornament. One hand rests on the hilt of a broad curved saber fully seated in a short dark scabbard at his waist; the other hand hangs relaxed and clearly visible beside him. Sturdy planted stance, athletic compact silhouette. No spear, headcloth, brown armor or diagonal polearm copied from the peer. No shield or magical water effects. One person only. Oversized expressive head and compact short limbs, approximately 2.7 heads tall, high-definition polished hand-painted illustration with soft brushwork, warm expressive face, tactile fabric folds, restrained jade ornaments and warm gold trim. Balanced three-quarter standing stance, full body and both shoes visible. Keep the complete figure, headwear, sleeves and every prop strictly within central 76 percent of width and 82 percent of height, at least 9 percent clear safe margin on every side. Portrait 2:3 composition. Genuine transparent alpha outside the figure and props; no painted backdrop, floor, cast shadow, glow, halo, scenery, frame, badge, writing or UI. This is static identity art, not an animation frame or a five-element class. No duplicated limbs or fingers.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261106-heroes6\\song-qian-master-v3.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. The tool did not disclose a verifiable actual model or quality for this result. Configuration targets and prompt text are not model evidence.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261111-heroes8/xu-sheng-master-v1.request.json",
+      "sha256": "cf7804f453a26537922016812949ab922331e693f403097c1e00c950b2bd0396",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes8/xu-sheng-master-v1.response.json",
+      "sha256": "d63838e9ab890020a157801dc8fc24e7775a96cc8d117d84034904c760cd85e2",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt",
+        "resultId",
+        "sourceImage"
+      ]
+    },
+    {
+      "sourceImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-4eb1-7071-a2e4-cbabe52333f4\\exec-f31c0463-7486-492a-ba6e-b9067ff37c34.png",
+      "sha256": "4629ce37dda1c8e8f81ee3d3900219eab123f7db76a63b6e211d241b679e9252",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes8/xu-sheng-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved primary style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved primary style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+      "role": "adopted peer figure; style and proportions only, not identity",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 1032432,
+    "semiTransparentPixelCount": 540432,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "identity": {
+    "id": "xu-sheng",
+    "name": "徐盛",
+    "personID": "ww-p-6657462c2df7",
+    "cardIDs": [
+      100087
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/identity-art-coverage.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=徐盛; cardIds=100087"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷55"
+      }
+    ]
+  }
+}

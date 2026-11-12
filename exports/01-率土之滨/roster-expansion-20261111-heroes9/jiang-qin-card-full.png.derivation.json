@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/jiang-qin-card-full.png",
+  "sha256": "a9f3f2b18e151b7733343308807262b7cdcc27f70e410df8e83e8be87aa8f9eb",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png",
+    "sha256": "09d20d17096cc8f095d1a42c281942c80b18b2268e8adea76be6bdfe6f2b271e",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/jiang-qin-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      157,
+      118,
+      849,
+      1462
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.7142857142857143,
+    "resizedSize": [
+      494,
+      960
+    ],
+    "offset": [
+      137,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

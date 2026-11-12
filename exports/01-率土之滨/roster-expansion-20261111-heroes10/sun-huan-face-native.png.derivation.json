@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes10/sun-huan-face-native.png",
+  "sha256": "a9b36bdb98f93085d21a5d009503be79a1d20a9d5f79e237e78c3949a02992ed",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png",
+    "sha256": "8ccca1353b8d31b8e50754b7af7ed436870d8c9624b5bd6da857965fbfb4ccfa",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes10/sun-huan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      295,
+      83,
+      823,
+      650
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

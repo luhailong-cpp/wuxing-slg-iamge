@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-biao-face-native.png",
+  "sha256": "5e5b0ca30ca37f710c128d63912e1c52c9dcd40854920b04416ade363ceda486",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png",
+    "sha256": "2d557eb9bd74cf3c0dee7496db6f99a18c7543648039aef1f8a6cfa53d5eab03",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-biao-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      220,
+      65,
+      750,
+      730
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.png",
+  "sha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0",
+  "generatedAt": "2026-11-12T04:43:03.527Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-12T04:41:55.190358+00:00",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-55ab19ee-0e9e-47ed-a343-87c1fe11e7b1",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "prompt": "Original full-body historical character master for the game 五行问鼎: 张绣 (Zhang Xiu), an adult late Han military commander. Both attached images are approved style references only: adopt their Daoist chibi proportions, expressive large eyes, polished hand-painted fabric and restrained warm-gold and jade materials. Create one distinctive lean warrior with a youthful clean-shaven angular face, high swept-back black topknot in a modest iron hair clasp, alert amber-brown eyes and a restrained confident expression. Dress him in smoke-gray overlapping lamellar armor over deep plum-red cloth, asymmetric compact shoulder plates, dark aubergine sash and one small pale jade belt ornament. He holds one slender straight spear vertically at his right side; the complete small steel spearhead, shaft and butt all remain clearly inside the canvas. The other hand rests loosely near the belt. No horse or additional person. Balanced standing three-quarter pose, oversized head, short compact limbs, both boots fully visible and naturally grounded. Original costume interpretation, not a claimed archaeological portrait. Portrait 2:3 composition. Keep every body part, hair and weapon within the central 75% width and 82% height, with generous transparent margins. Genuine transparent alpha outside the sharp clean silhouette. No background, floor, cast shadow, haze, halo, aura, glow, border, writing, watermark or UI.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. The tool did not disclose a verifiable actual model or quality for this result. Configuration targets and prompt text are not model evidence.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.request.json",
+      "sha256": "20d2faf15a1bc40fa97fa0bcaa41943e322f2ac36e3df05a81835dbc2b877e12",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.response.json",
+      "sha256": "914044d89cad5ccd5bb437b474b0b8859b54105ec39f462f320296995855450a",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt",
+        "resultId",
+        "sourceImage"
+      ]
+    },
+    {
+      "sourceImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce03-6625-79c0-b47d-8b9921042290\\exec-55ab19ee-0e9e-47ed-a343-87c1fe11e7b1.png",
+      "sha256": "f817db4d2e7c0b2c55209ce28c737f130e8f8301772eca09bbc80cbf010889b0",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes9/zhang-xiu-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved art style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved art style reference",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 1112201,
+    "semiTransparentPixelCount": 460663,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "awaiting_user_visual_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "identity": {
+    "id": "zhang-xiu",
+    "name": "张绣",
+    "personID": "ww-p-4caa65f18fb0",
+    "cardIDs": [
+      100268,
+      100620,
+      130620
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "sourceLocators": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=张绣; cardIds=100268,100620,130620"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷8"
+      }
+    ],
+    "designNote": "Original costume interpretation; primary index confirms historical identity, not visual likeness."
+  }
+}

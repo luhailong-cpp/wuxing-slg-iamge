@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes7/gongsun-zan-face-native.png",
+  "sha256": "1b444c9efd97cecf8ff225ac8b675d28e93cda10c69926bce9d1d8f4d870b023",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png",
+    "sha256": "3e1dd64b083fe74f532ce258e0b5b9376694676500d898fa57fe3f23885d079a",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/gongsun-zan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      254,
+      222,
+      750,
+      694
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

@@ -188,6 +188,8 @@ def main():
             'candidateSourceSpelling': entity['originalName'] if entity else None,
             'identityEvidenceStatus': entity['identityStatus'] if entity else None,
             'masterID': person['id'] if person else None,
+            'masterReviewStatus': person.get('status', 'historical_candidate') if person else None,
+            'masterUserApproved': bool(person and person.get('userApproved') is True),
             'cardSpecificArtRecord': art,
             'cardSpecificArtStatus': ('verified_card_id_art_candidate' if art
                                       else 'no_card_id_art_record_in_current_manifest'),
@@ -224,8 +226,11 @@ def main():
                                         if key != entity['entityID']],
             'identityMaster': ({'id': person['id'], 'file': person['master'],
                                 'sha256': person['masterSha256'],
-                                'verifiedUiDerivatives': len(person['assets'])} if person else None),
-            'artStatus': 'verified_identity_master_candidate' if person else 'no_current_identity_master',
+                                'verifiedUiDerivatives': len(person['assets']),
+                                'status': person.get('status', 'historical_candidate'),
+                                'userApproved': person.get('userApproved') is True} if person else None),
+            'artStatus': (person.get('status', 'verified_identity_master_candidate')
+                          if person else 'no_current_identity_master'),
         })
 
     identity_index = unique_index(identity_rows, 'entityID')
@@ -262,6 +267,9 @@ def main():
             'distinctOfficialDisplayNames': len({card['officialName'] for card in selected}),
             'linkedToCandidateEntity': sum(card['candidateEntityID'] is not None for card in selected),
             'linkedToCurrentMaster': sum(card['masterID'] is not None for card in selected),
+            'linkedToPendingUserReviewMaster': sum(card['masterReviewStatus'] == 'awaiting_user_visual_review'
+                                                  for card in selected),
+            'linkedToUserApprovedMaster': sum(card['masterUserApproved'] for card in selected),
             'individualMasterIdentitiesRepresented': len({card['masterID'] for card in selected
                                                            if card['masterID'] is not None}),
             'cardIdSpecificArtRecords': sum(card['cardSpecificArtRecord'] is not None for card in selected),
@@ -282,6 +290,11 @@ def main():
         'coverage': coverage,
         'verifiedCurrentMasters': len(people),
         'verifiedCurrentUi': sum(len(person['assets']) for person in people.values()),
+        'verificationScope': 'File integrity and candidate identity mapping; not user visual acceptance.',
+        'pendingUserReviewMasters': sum(person.get('status') == 'awaiting_user_visual_review'
+                                        for person in people.values()),
+        'pendingUserReviewUi': sum(len(person['assets']) for person in people.values()
+                                  if person.get('status') == 'awaiting_user_visual_review'),
         'reconciliationEntities': len(entities),
         'reconciliationPersonCandidateKeys': sum(row['personID'] is not None for row in identity_rows),
         'originalNameCollisionGroups': {name: ids for name, ids in names.items() if len(ids) > 1},

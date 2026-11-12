@@ -1,0 +1,31 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-avatar-256.png",
+  "sha256": "7a613e2a0bf1b2086764d464f1e4f890e442783f608739549a217702251d4d9f",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+    "sha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      160,
+      115,
+      805,
+      730
+    ],
+    "uniformScale": 0.36589147286821705,
+    "resizedSize": [
+      236,
+      225
+    ],
+    "offset": [
+      10,
+      15
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

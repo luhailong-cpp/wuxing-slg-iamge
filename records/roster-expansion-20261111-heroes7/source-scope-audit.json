@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "auditClientDate": "2026-11-11",
+  "auditTimezone": "America/New_York",
+  "project": "五行问鼎",
+  "workspace": "E:/work/wuxing-slg-iamge",
+  "method": {
+    "localFilesRead": true,
+    "webBrowsingPerformed": false,
+    "clientInspected": false,
+    "downloadPerformed": false,
+    "note": "Only local repository records and files were read; source URLs are transcribed historical evidence, not websites visited during this audit."
+  },
+  "sourceGame": {
+    "name": "率土之滨",
+    "evidence": [
+      "AGENTS.md",
+      "docs/CURRENT_REQUIREMENTS_20261028.md",
+      "records/roster-20261029/OFFICIAL_ROSTER_FACTS_20261029.json"
+    ],
+    "clientVersion": null,
+    "clientVersionStatus": "unverified_no_client_in_repository_evidence",
+    "sourceSnapshotDate": "2026-10-29",
+    "officialConfigUrlRecorded": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+    "officialConfigSha256Recorded": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+    "rawConfigVerification": "historical_receipt_only_raw_work_cache_not_present_at_audit",
+    "historicalSecondRequestParameter": "v=9_29_4",
+    "parameterInterpretation": "configuration_request_parameter_not_verified_client_version",
+    "historicalSecondHashMatches": true,
+    "liveRosterCoverageConfirmed": false
+  },
+  "reliableFrozenScope": {
+    "officialPublicCards": 430,
+    "releaseMarkedCards": 642,
+    "allConfigRecords": 975,
+    "publicPredicate": "name !== \"侍卫\" && is_season_card !== 1 && is_release === 1",
+    "meaning": "Frozen official display labels, card IDs and raw configuration fields; not proof of current client availability or unique art/identity.",
+    "historicalIdentityEvidence": "Local primary-work directory/heading locators support the recorded identities at their stated evidence level; no full corpus census or new passage review performed.",
+    "historicalSourceDigestRecorded": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+    "historicalDigestVerification": "transcribed_receipt_not_recomputed_from_absent_raw_page",
+    "verifiedMastersInReadCoverage": 90,
+    "verifiedUiInReadCoverage": 450,
+    "countScope": "Pre-generation local coverage snapshot, not completion or a denominator for the full game."
+  },
+  "identityProductionQueue": [
+    {
+      "name": "公孙瓒",
+      "personID": "ww-p-f784cb3f93bc",
+      "priorityRole": "explicit_latest_handoff_next",
+      "officialPublicCardIds": [
+        100484,
+        100677
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=公孙瓒; cardIds=100114,100484,100677,130677"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷8"
+        }
+      ]
+    },
+    {
+      "name": "马腾",
+      "personID": "ww-p-2020bc6050e5",
+      "priorityRole": "explicit_latest_handoff_next",
+      "officialPublicCardIds": [
+        100062,
+        100785
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=马腾; cardIds=100062,100605,100785,130785"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷6"
+        }
+      ]
+    },
+    {
+      "name": "诸葛瑾",
+      "personID": "ww-p-767074d82bd2",
+      "priorityRole": "explicit_latest_handoff_next",
+      "officialPublicCardIds": [
+        100527
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=诸葛瑾; cardIds=100164,100527"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷52"
+        }
+      ]
+    },
+    {
+      "name": "田丰",
+      "personID": "ww-p-88dc1c292df2",
+      "priorityRole": "feasible_followup_suggestion_not_contract_order",
+      "officialPublicCardIds": [
+        100057,
+        100692
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=田丰; cardIds=100057,100692,130692"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷6"
+        }
+      ]
+    },
+    {
+      "name": "徐盛",
+      "personID": "ww-p-6657462c2df7",
+      "priorityRole": "feasible_followup_suggestion_not_contract_order",
+      "officialPublicCardIds": [
+        100087
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=徐盛; cardIds=100087"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷55"
+        }
+      ]
+    },
+    {
+      "name": "吴夫人",
+      "personID": "ww-p-700b92d06496",
+      "priorityRole": "feasible_followup_suggestion_not_contract_order",
+      "officialPublicCardIds": [
+        100091,
+        102008
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=吴夫人; cardIds=100091,102008"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷50"
+        }
+      ]
+    },
+    {
+      "name": "张绣",
+      "personID": "ww-p-4caa65f18fb0",
+      "priorityRole": "feasible_followup_suggestion_not_contract_order",
+      "officialPublicCardIds": [
+        100268,
+        100620
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=张绣; cardIds=100268,100620,130620"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷8"
+        }
+      ]
+    },
+    {
+      "name": "曹洪",
+      "personID": "ww-p-35053bc6c1aa",
+      "priorityRole": "feasible_followup_suggestion_not_contract_order",
+      "officialPublicCardIds": [
+        100147
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=曹洪; cardIds=100147"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷9"
+        }
+      ]
+    },
+    {
+      "name": "蒋钦",
+      "personID": "ww-p-acce9e4e6573",
+      "priorityRole": "feasible_followup_suggestion_not_contract_order",
+      "officialPublicCardIds": [
+        100159,
+        100671
+      ],
+      "identityEvidenceStatus": "primary_index_name_confirmed",
+      "identityMasterAtAudit": null,
+      "artStatusAtAudit": "no_current_identity_master",
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=蒋钦; cardIds=100159,100671,130671"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷55"
+        }
+      ]
+    }
+  ],
+  "identityIssues": [
+    {
+      "entityID": "ww-p-cb2ead91760f",
+      "personID": "ww-p-cb2ead91760f",
+      "name": "张姬",
+      "identityEvidenceStatus": "pending",
+      "identityContext": null,
+      "publicCardIds": [
+        100358
+      ],
+      "cardIds": [
+        100358,
+        130358
+      ],
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=张姬; cardIds=100358,130358"
+        }
+      ]
+    },
+    {
+      "entityID": "ww-p-a83e61c22534",
+      "personID": "ww-p-a83e61c22534",
+      "name": "张恭（汉卡，身份待核）",
+      "identityEvidenceStatus": "pending",
+      "identityContext": null,
+      "publicCardIds": [
+        100516
+      ],
+      "cardIds": [
+        100175,
+        100516
+      ],
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=张恭; cardIds=100175,100516"
+        }
+      ]
+    },
+    {
+      "entityID": "ww-p-b48283f7c143",
+      "personID": "ww-p-b48283f7c143",
+      "name": "张恭（魏卡，身份待核）",
+      "identityEvidenceStatus": "pending",
+      "identityContext": null,
+      "publicCardIds": [
+        140002
+      ],
+      "cardIds": [
+        140002
+      ],
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+          "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+          "sourceType": "official_game_config",
+          "locator": "displayName=张恭; cardIds=140002"
+        }
+      ]
+    },
+    {
+      "entityID": "ww-p-896abbacdf1c",
+      "personID": "ww-p-896abbacdf1c",
+      "name": "张恭（敦煌功曹）",
+      "identityEvidenceStatus": "primary_heading_and_opening_confirmed",
+      "identityContext": "敦煌功曹，三国志卷18",
+      "publicCardIds": [],
+      "cardIds": [],
+      "sourceLocators": [
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+          "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+          "revision": "2643802",
+          "sourceType": "primary_work_transcription_directory",
+          "locator": "卷18：张恭"
+        },
+        {
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B718",
+          "sourceSha256": "add8b82206752515a24055cf3ae972e169b801890321985d9c9741fdd12874f4",
+          "revision": "2579680",
+          "sourceType": "primary_work_transcription_heading_opening",
+          "locator": "三国志卷18#張恭"
+        }
+      ]
+    }
+  ],
+  "issueRules": [
+    "Do not infer Zhang Ji historical identity from its display name alone.",
+    "Keep Han-card Zhang Gong, Wei-card Zhang Gong and historical Dunhuang clerk Zhang Gong as separate person IDs pending card-specific evidence.",
+    "Do not merge aliases or infer portrait identity from iconHeroId/baseHeroId."
+  ],
+  "ui": {
+    "status": "queued_after_character_art",
+    "newScreenCountAtAudit": 0,
+    "order": "after_character_art_per_current_user_handoff",
+    "groups": [
+      "battle_report",
+      "recruitment",
+      "resource_facilities",
+      "alliance",
+      "troop_overview",
+      "general_promotion"
+    ],
+    "missingOriginalOrdinals": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "presentOriginalOrdinals": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "presentOriginalHashesRecomputedAndMatchedManifest": true,
+    "originalMetadataForMissingRefs": "unknown_do_not_invent_dimensions_or_hashes",
+    "characterWorkBlockedByMissingUiOriginals": false,
+    "manifest": "records/user-ui-intake-20261106/manifest.json",
+    "requirements": "records/user-ui-intake-20261106/README.md"
+  },
+  "limits": [
+    "Identity master linkage does not complete card-specific variations.",
+    "Still art and UI derivatives do not complete character motion, directions, combat or runtime acceptance.",
+    "Do not infer current source-client version or full current roster coverage from a frozen community configuration.",
+    "This audit does not approve art or replace visual review."
+  ],
+  "localEvidence": [
+    {
+      "file": "AGENTS.md",
+      "sha256": "da53e17f66054d0bdd2acaec3feae3a0333f01be75610e7661f812d7c91a29ad",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "docs/CURRENT_REQUIREMENTS_20261028.md",
+      "sha256": "b63fd8a39ae0caeecc06acdac44a7018a694e2235a67c6a51519c218b4eaff3f",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "docs/CONTINUE_HERE_20261106.md",
+      "sha256": "6c3dd8b1c323ca459224a013107f9756b33bfea899892cf1f739d9ce48a13f20",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/roster-20261029/RESEARCH_EVIDENCE_AND_GAPS_20261029.json",
+      "sha256": "e3871f49dca4d15d083fb51b6e07ff574a6e01d6dca2c8893dc981d2e42af757",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/roster-20261029/OFFICIAL_ROSTER_FACTS_20261029.json",
+      "sha256": "ff43cde8aa3ac82caced8b0551bf4478df3d2eec8220b2747575aaf19dc14942",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/roster-20261029/PRODUCTION_IDENTITY_RECONCILIATION_20261029.json",
+      "sha256": "47e24c3113e297f7df64ec6571ced808cec110b210f0bbd4b595cd4167bcca44",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/roster-coverage-20261104/coverage-summary.json",
+      "sha256": "33e612b1b038ea031574696a809d1e8a5d0210e771fcc90df88e71b91fb5dedc",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/roster-coverage-20261104/identity-art-coverage.json",
+      "sha256": "121f2358c05fd1d8c9b36382f5ae424badb5de2c5282074dc0ce67ae23a2a2e6",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/roster-coverage-20261104/next-official-historical-masters.json",
+      "sha256": "b929aa0ebc638bc964012be5449b26a138798ab99f5588806d9970e0d7680569",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/user-ui-intake-20261106/manifest.json",
+      "sha256": "1bcc48daf0dd933971ef45db9919d69556cccf5d555f1ad92b1a2a0019729940",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "records/user-ui-intake-20261106/README.md",
+      "sha256": "001836c6aac4b008661097d26340af6dd4b6dab51f67caa2b1cb3f2d3850e38c",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "references/user-ui-intake-20261106/ref-06.jpg",
+      "sha256": "ec4fbfd95bfdb18c7e5100740e0416a6fcb888eaf5a671aca3ad18bf95390f1d",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "references/user-ui-intake-20261106/ref-07.jpg",
+      "sha256": "d7c40eca6bfdc2eb7a93dc614c03ae6aac2effea1c4e981df2c38c10c828dbf4",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "references/user-ui-intake-20261106/ref-08.jpg",
+      "sha256": "35128470a171704b674fa5349b09f93084008e8876eb213014c22afcf9a79a45",
+      "verification": "recomputed_from_current_local_file"
+    },
+    {
+      "file": "references/user-ui-intake-20261106/ref-09.jpg",
+      "sha256": "d0b25b73ed7738399814d3e497fa3a1309822331c206a3ba8b0bd8fd0c00bb1c",
+      "verification": "recomputed_from_current_local_file"
+    }
+  ]
+}

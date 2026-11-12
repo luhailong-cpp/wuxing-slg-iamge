@@ -1,0 +1,32 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes8/tian-feng-card-full.png",
+  "sha256": "b998a4ad90b02a6055c9ae8afd984e3a4db6513d04ee9e958dfd70048364bf5e",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png",
+    "sha256": "a2874c26dbaf5abdfa68f90bb4b1e785c4c6b9894e3a11c5e23da9684bf9fb62",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes8/tian-feng-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      121,
+      94,
+      835,
+      1452
+    ],
+    "cropBasis": "visible bounding box plus up to 24 native pixels; all alpha inside preserved before resampling",
+    "uniformScale": 0.7069219440353461,
+    "resizedSize": [
+      505,
+      960
+    ],
+    "offset": [
+      131,
+      32
+    ],
+    "resampler": "premultiplied Lanczos",
+    "alphaThresholdEdit": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": false,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

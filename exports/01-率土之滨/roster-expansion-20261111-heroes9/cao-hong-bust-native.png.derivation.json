@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes9/cao-hong-bust-native.png",
+  "sha256": "0db32dff0fc31eca206cff0380b84735a90d3e8c6325853f3e8069a32e143d92",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png",
+    "sha256": "72640c63bf50c92a51af5d033b650403e15069e14f3acf86d7fda33c83c749e4",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes9/cao-hong-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      142,
+      105,
+      876,
+      1000
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

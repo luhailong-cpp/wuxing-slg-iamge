@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yan-master-v1.png",
+  "sha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae",
+  "generatedAt": "2026-11-12T04:47:31.593Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-12T04:45:14.230Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-4f0b39af-b01d-4f8b-82c0-d94052755bac",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "prompt": "Original historical character master for 五行问鼎, a Three Kingdoms strategy game. Images 1 and 2 define the approved Daoist chibi painted art style. Image 3 is an existing peer for material finish and compact proportions only; create a distinct identity and outfit. Depict 刘焉 (Liu Yan), an ambitious senior Han governor with a stocky dignified silhouette. Full round cheeks, thick slightly angled black eyebrows, black-and-gray full moustache and long rectangular beard. Low wide black lacquer official cap with short squared side flaps, dark aubergine court robe with muted bronze cloud stitching at cuffs, warm cream collar, broad burgundy sash with a bronze clasp. Both hands hold a closed bamboo-slip official register horizontally across the abdomen, fingers naturally visible. Stern measuring expression and compact upright ceremonial pose. No armor, no sword, no fan, no mirror, no magic aura. One complete standing person, three-quarter view. Big expressive head, small compact limbs about 2.7 heads tall, polished high-definition hand-painted illustration, soft silk and jade, restrained warm gold details. Clearly separate hands with natural grips and both complete shoes visible. All headwear, sleeves, feet and props fully contained in the central 74 percent width and 80 percent height. Large clear margin around every side. Portrait 2:3 composition with genuine transparent alpha. No backdrop, no ground, no cast shadow, no halo or effects, no writing or UI, no border. Clothing and accessories are original game art interpretations, not museum reconstructions.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261106-heroes6\\sima-hui-master-v1.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. The tool did not disclose a verifiable actual model or quality for this result. Configuration targets and prompt text are not model evidence.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261111-heroes11/liu-yan-master-v1.request.json",
+      "sha256": "49e38b57cbd092b71f685e3d038bb80b634c2627aa32c0b7c549d61a87452a6c",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes11/liu-yan-master-v1.response.json",
+      "sha256": "5fff7005fa2bd12ea26fa36d245aeffa25f97d2e2d776c7c0ba94c418236ff3f",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt",
+        "resultId",
+        "sourceImage"
+      ]
+    },
+    {
+      "sourceImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce02-d825-78d0-899d-0ff6dbd6344c\\exec-4f0b39af-b01d-4f8b-82c0-d94052755bac.png",
+      "sha256": "7b78733f0812f223b1e380bcf7f57d0df3b70b788bdbf914facd65723ebb6aae",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes11/liu-yan-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved style only",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/sima-hui-master-v1.png",
+      "sha256": "98f30d951d65f01c40ae2196186a26872391efa546ff58b8b406502c8e940c61",
+      "role": "approved style only",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 871033,
+    "semiTransparentPixelCount": 701831,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "draft_pending_visual_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "identity": {
+    "id": "liu-yan",
+    "name": "刘焉",
+    "personID": "ww-p-65d040aea3dc",
+    "cardIDs": [
+      100285
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/identity-art-coverage.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=刘焉; cardIds=100285,100357,100565"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷31"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "passed": false,
+  "status": "awaiting_user_visual_review",
+  "technicalOnly": true,
+  "modelPreviewInspected": true,
+  "reviewedAtUtc": "2026-11-12T04:49:55.033556+00:00",
+  "ids": [
+    "liu-yu",
+    "liu-yan",
+    "liu-biao"
+  ],
+  "views": [
+    {
+      "file": "records/roster-expansion-20261111-heroes11/generals-ui-light.png",
+      "sha256": "18eb61fb5d59c9590d9b60d074817aa5408b027704d32601f5993da9333ad330"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes11/generals-ui-dark.png",
+      "sha256": "8142f691af2b8c2c5d77cd70e21641ab0d43fbcc54eebe6a31c74259cbff8e80"
+    }
+  ],
+  "scope": "Static file previews prepared for user; no GUI and no user visual acceptance. No animation, directions or client claim.",
+  "notes": [
+    "Liu Yu: pale blue-gray robe, jade seal case and open palm.",
+    "Liu Yan: aubergine robe, wide cap, closed bamboo register.",
+    "Liu Biao: indigo wave robe, tall narrow cap and partially unrolled plain scroll.",
+    "Original alpha1 pixels, peak alpha254 and margin advisories retained verbatim in generals-ui-manifest. Native PNGs copied byte-identical; no source resampling."
+  ],
+  "latestUserConstraint": {
+    "instruction": "不要用computer use；告诉我审核就行",
+    "GUIAutomationAllowed": false,
+    "reviewOwner": "user"
+  },
+  "motionPlayback": {
+    "applicable": false,
+    "reason": "Static identity masters and UI crops only; no playback or motion claim."
+  },
+  "userApproved": false,
+  "rootVisualReviewPassed": false,
+  "clientIntegrated": false
+}

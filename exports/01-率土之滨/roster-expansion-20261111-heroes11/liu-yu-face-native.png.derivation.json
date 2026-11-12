@@ -1,0 +1,21 @@
+{
+  "file": "exports/01-率土之滨/roster-expansion-20261111-heroes11/liu-yu-face-native.png",
+  "sha256": "b7f491f015d89e8e019e596bde4dd78a29cadc1b0f870d3367dd541e8c247c0c",
+  "derivedFrom": {
+    "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png",
+    "sha256": "476cb919a5d37dbcd61a995fa6d3047b68735f8d7cd0fa5b81e03c65474b68c7",
+    "generation": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes11/liu-yu-master-v1.png.generation.json"
+  },
+  "operation": {
+    "crop": [
+      220,
+      80,
+      715,
+      665
+    ],
+    "resampled": false
+  },
+  "newModelGeneration": false,
+  "nativeDimensionsClaim": true,
+  "alphaNote": "Native rectangular crops preserve RGBA exactly. Resizes normally resample/quantize alpha; no threshold cleanup."
+}

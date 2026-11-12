@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "file": "designs/01-率土之滨/characters/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.png",
+  "sha256": "0c2a954455c7b0b791a51c8b8d83608df3c8e056d3e2394f2dcef502ee93a5da",
+  "generatedAt": "2026-11-12T04:36:41.484Z",
+  "generatedAtBasis": "Observed host call completion time; no separate internal generation time disclosed",
+  "callStartedAt": "2026-11-12T04:35:59.772Z",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "nativeDimensionsPreserved": true,
+  "resampled": false,
+  "art_source": "host_image",
+  "tool": "image_gen.imagegen",
+  "route": "builtin",
+  "resultId": "exec-7060bc8e-6e0a-49a4-bb95-1fee31d58dd9",
+  "executionCellId": null,
+  "configSnapshot": {
+    "schema_version": 1,
+    "model": "gpt-image-2.5-sunburst",
+    "quality": "max",
+    "builtin_product": "ChatGPT Images 2.5",
+    "selection": "user_explicit",
+    "preferred_route": "builtin",
+    "verified_on": "2026-11-06",
+    "sources": {
+      "release": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "model": "https://developers.openai.com/api/docs/models/gpt-image-2.5-sunburst",
+      "quality": "https://developers.openai.com/api/docs/guides/image-generation"
+    }
+  },
+  "configSnapshotBasis": "actual_request_config_snapshot",
+  "submittedParameters": {
+    "prompt": "Original full-body historical character master for the Three Kingdoms strategy game 五行问鼎. Use images 1 and 2 as the approved Daoist chibi art style; image 3 is a peer figure for painted finish and head-to-body proportions only, not identity or costume. Depict 诸葛瑾 (Zhuge Jin), the mature Eastern Wu diplomat and statesman, clearly a different person from Zhuge Liang. A noticeably long oval face in chibi proportions, gentle narrow dark eyes, long straight brows, small neat moustache and slender chin beard. Tall but compact plain black gauze court cap with folded upright sides, muted sea-green outer silk scholar robe, ivory inner collar and dark teal sash with one small jade pendant. Holds a narrow ivory court tablet upright at mid-chest with one hand and a closed tied diplomatic scroll low in the other hand. Patient dignified expression, slightly inclined head, draped sleeves. No feather fan, no strategist headdress, no weapon or armor. One person only, oversized expressive head and compact short limbs, approximately 2.7 heads tall, polished high-definition hand-painted illustration, warm expressive face, soft detailed fabric, restrained jade and warm gold accents. Balanced three-quarter standing stance, both feet visible. Full figure and all props strictly inside central 76 percent of width and 82 percent of height, at least 9 percent clear safe margin on all sides. Portrait 2:3, genuine transparent alpha outside the person and props. Clean transparent background, no floor, no cast shadow, no halo, no scenery, no border, no writing, no badge, no UI. Do not copy another figure face.",
+    "referenced_image_paths": [
+      "E:\\work\\wuxing-slg-iamge\\designs\\mail-ui-v1\\01-mail-event.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\team-ui-v2\\team-ui-v2.png",
+      "E:\\work\\wuxing-slg-iamge\\designs\\01-率土之滨\\characters\\roster-expansion-20261106-heroes6\\song-qian-master-v3.png"
+    ],
+    "transparent_background": true,
+    "model": null,
+    "quality": null
+  },
+  "actualModel": null,
+  "actualQuality": null,
+  "unverifiedReason": "Host-managed generation. The tool did not disclose a verifiable actual model or quality for this result. Configuration targets and prompt text are not model evidence.",
+  "evidence": [
+    {
+      "file": "records/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.request.json",
+      "sha256": "cd283f4f1f687d2f9e57be796c4c123f32311133e38f758a50227a8621649205",
+      "field": "submittedParameters"
+    },
+    {
+      "file": "records/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.response.json",
+      "sha256": "a6fcd938783567207200771721f801348a1b7503ba0788aa07e0bae043e85cf7",
+      "fields": [
+        "returnedFields",
+        "output_hint",
+        "callStartedAt",
+        "callCompletedAt",
+        "resultId",
+        "sourceImage"
+      ]
+    },
+    {
+      "sourceImage": "C:\\Users\\luyua\\.codex\\generated_images\\01a1ce02-d825-78d0-899d-0ff6dbd6344c\\exec-7060bc8e-6e0a-49a4-bb95-1fee31d58dd9.png",
+      "sha256": "0c2a954455c7b0b791a51c8b8d83608df3c8e056d3e2394f2dcef502ee93a5da",
+      "copyHashVerified": true
+    }
+  ],
+  "prompt": "prompts/01-率土之滨/roster-expansion-20261111-heroes7/zhuge-jin-master-v1.prompt.txt",
+  "references": [
+    {
+      "file": "designs/mail-ui-v1/01-mail-event.png",
+      "sha256": "3cf0b7d7b3bae337d51e947719588419a01ae21bdce9bccedd6258ce1feef0a2",
+      "role": "approved style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/team-ui-v2/team-ui-v2.png",
+      "sha256": "5fab5229de7030ac48172cfa39bb45f612a545cee0dba6303ae6f2dcfdf38750",
+      "role": "approved style reference",
+      "actuallyAttached": true
+    },
+    {
+      "file": "designs/01-率土之滨/characters/roster-expansion-20261106-heroes6/song-qian-master-v3.png",
+      "sha256": "cef2381c5d55afd8b89314ba1c3d19be81fef16f2a7062c8db1cc4c8e0a4d22f",
+      "role": "approved peer figure; style and proportions only",
+      "actuallyAttached": true
+    }
+  ],
+  "pngMetadataKeys": [],
+  "alphaInspection": {
+    "range": [
+      0,
+      254
+    ],
+    "fullyTransparentPixelCount": 1028551,
+    "semiTransparentPixelCount": 544313,
+    "opaquePixelCount": 0,
+    "canvasCornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "assetRole": "historical full-body master",
+  "status": "draft_pending_visual_review",
+  "userApproved": false,
+  "clientIntegrated": false,
+  "identity": {
+    "id": "zhuge-jin",
+    "name": "诸葛瑾",
+    "personID": "ww-p-767074d82bd2",
+    "cardIDs": [
+      100527
+    ],
+    "identityEvidenceStatus": "primary_index_name_confirmed",
+    "evidenceFile": "records/roster-coverage-20261104/next-official-historical-masters.json",
+    "sources": [
+      {
+        "sourceUrl": "https://g0.gph.netease.com/ngsocial/community/stzb/cfg/hero.json?gameid=g10",
+        "sourceSha256": "2aea5138afdd31a6876cafa5aa1e3f56a5df14e0a6771f051da6ccad75ed2dbe",
+        "sourceType": "official_game_config",
+        "locator": "displayName=诸葛瑾; cardIds=100164,100527"
+      },
+      {
+        "sourceUrl": "https://zh.wikisource.org/zh-hans/%E4%B8%89%E5%9C%8B%E5%BF%97",
+        "sourceSha256": "5c5d874d0e5115056b97a7ad3b577c3870ee207403337e6496d16c2a8edc992f",
+        "revision": "2643802",
+        "sourceType": "primary_work_transcription_directory",
+        "locator": "卷52"
+      }
+    ]
+  }
+}
